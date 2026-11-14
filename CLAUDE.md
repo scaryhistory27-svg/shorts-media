@@ -75,6 +75,17 @@ node pipeline/render.js $E cover               # -> $E/build/cover.jpg (thumbnai
 without spoiling it (e.g. "IT WASN'T" / "MY MOM"). Pick a frame with a face/creature clearly visible.
 Then check a few frames of final.mp4 (ffmpeg -ss … -frames:v 1) before publishing.
 
+## Posting time — re-check EVERY day (owner's request: post when it will take off)
+Every run, even a "skip" run:
+1. `getBestTimeToPostByNetwork` (youtube, brandId 8091052, America/Los_Angeles) for the next 3 days → best hour per day
+   between 12:00 and 20:00 (audience activity of the channel's viewers).
+2. Own results: for every published episode take its publish hour and views/retention after 24 h (Metricool analytics).
+   Once there are ≥ 5 published videos, if some hour clearly performs better than the activity chart suggests, prefer it.
+3. Re-check every PENDING post (getScheduledPosts): if a better hour exists on its day (≥ 10 % higher score), move it
+   with updateScheduledPost (keep everything else identical; never move it into the past or less than 1 h from now).
+4. Weekend (Sat/Sun) activity is about half of weekdays: still post, but at the best weekend hour.
+5. Report in the summary: chosen hour, its score vs. the old hour, and any post that was moved.
+
 ## QA — mandatory before publishing (the owner wants it PERFECT; never skip, fix and re-render until all pass)
 1. **Contact sheet of the FINAL mp4, 1 frame per second:**
    `ffmpeg -i final.mp4 -vf "fps=1,scale=216:384,tile=8x5" -frames:v 1 qa_sheet.jpg` (tile 8x7 if >40 s) and Read it. Check every frame:
