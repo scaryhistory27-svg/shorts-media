@@ -13,6 +13,26 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
 - Part 2 and 3: first line is a 1-sentence recap hook ("Two nights ago, my mom knocked on my door. She lives in Chicago.").
 - Original stories and characters only (no existing IPs), YouTube-safe (creepy, no gore, nothing involving harm to kids).
 
+## New series (after Part 3 of the previous one) — make it go viral
+Do this research BEFORE writing anything, then decide on your own:
+1. **What works on this channel:** Metricool analytics for YouTube (blogId 8091052, `getAnalyticsAvailableMetrics` then
+   `getAnalyticsDataByMetrics`): views, average view duration / retention, likes, subs gained per published episode.
+   Note which hooks/themes/episodes did best and lean into them; drop what flopped.
+2. **What works on Shorts right now:** WebSearch (load with ToolSearch) for currently trending horror / creepy story Shorts
+   formats and topics (e.g. "viral horror shorts this week", "trending scary story shorts", rules-horror, liminal spaces,
+   "if you see X, don't Y", phone/text horror, night-shift jobs, AI/smart-home horror). Take formats and themes, never copy a story.
+3. **Pick the premise** from 5 candidates, scored 1–10 on: hook strength in the first 2 s, relatable everyday setting
+   (home, phone, elevator, job, family), clear rule or "never do this", a twist that makes people rewatch/comment,
+   room for 2 cliffhangers. Must be different from all previous series in `series/log.json`.
+4. **Series title**: 2–5 words, mysterious, searchable (e.g. "The 2 AM Knock", "Room 9 Rule"). Write it into plan.md with
+   the scores and the reason for the choice.
+5. **Hook rules (first 2 s decide everything):** first line is a direct warning or impossible fact addressed to the viewer
+   ("Never answer a call from your own number.", "My smart speaker started whispering my name at 3 AM."), first frame is
+   already striking (red clock, face, phone screen) with a sound hit, no intro, no logo, no slow fade.
+   Keep the last line looping back to the first line so the Short replays.
+6. **YouTube title** ≤ 60 chars: the hook as a promise + emoji + `#shorts` (e.g. "Never Answer Your Own Number 📞😨 #shorts").
+   Description: 1 teaser line + "Part 2? 👀" + 5–6 hashtags (#horrorstory #scary #creepy #shorts + 2 topic tags). 6–8 tags.
+
 ## Repo layout
 - `pipeline/engine.js` shared canvas engine: helpers (`sky stars moon glow ell rr door clock phone building mom creature`),
   captions, header, camera, effects. `shakeAt(t,types)`, `lastEv(t,types)` react to sfx events.
