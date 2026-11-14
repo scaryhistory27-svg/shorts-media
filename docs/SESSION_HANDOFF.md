@@ -1,3 +1,8 @@
+## 2026-11-14 — Nov 15 16:00 slot added (Part 3)
+
+- Next run Nov 15 10:41 LA: Part 3 → 2026-11-15T16:00 (FIRST, it is due the same day), new series Part 1 → 2026-11-16T10:00.
+- Simulated Nov 15–26: max 2 per run, no duplicates.
+
 ## 2026-11-14 — Part 2 moved to 2026-11-14 16:39 LA (owner)
 
 - Metricool id 428415766. Nov 15 has no slot. Next run (Nov 15 10:41) makes Part 3 → Nov 16 10:00 and new series Part 1 → Nov 16 16:00.
