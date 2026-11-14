@@ -6,3 +6,5 @@
 - **Bad change:** baseline branch `backup/baseline-2026-11-14`; `git revert <commit>` (never reset/force-push).
 - **Checkpoint/push problems:** see `.claude/state/checkpoint.log` (local, not in git).
 - **Scheduler check:** list_triggers → exactly one "Horror Shorts autopilot", daily 10:41 LA.
+- **After automatic context compaction (same session):** the SessionStart hook (source=compact) prints memory; if it did not, run `bash scripts/hooks/session_start.sh` and `python3 pipeline/jobs.py resume`, then continue the task.
+- **Context check:** get_session → external_metadata.context_usage; compaction is automatic at ~901,600 tokens.

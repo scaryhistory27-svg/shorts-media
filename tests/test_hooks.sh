@@ -21,6 +21,19 @@ H=$(head -1 docs/SESSION_HANDOFF.md); echo '{}' | bash scripts/hooks/checkpoint.
 ok "$(git status --porcelain docs | wc -l)" 0 "PreCompact entry committed"
 CHECKPOINT_RUNNING=1 bash scripts/hooks/checkpoint.sh stop </dev/null; ok $? 0 "recursion guard exits cleanly"
 ( sleep 3 ) & exec 9>.git/checkpoint.lock; flock 9; echo "- z" >> docs/TASKS.md; C2=$(git rev-list --count HEAD); bash scripts/hooks/checkpoint.sh stop </dev/null; ok $(git rev-list --count HEAD) $C2 "concurrent checkpoint skipped while locked"; flock -u 9
+# --- same-session compaction simulation: PreCompact (with transcript) -> SessionStart(source=compact) ---
+printf '%s\n' '{"type":"user","timestamp":"2099-01-01T00:00:00Z","message":{"role":"user","content":"make part 3 scarier, mail me at a@b.com"}}' > $T/tr.jsonl
+echo "- compaction test" >> docs/TASKS.md
+printf '{"transcript_path":"%s","trigger":"auto"}' "$T/tr.jsonl" | bash scripts/hooks/checkpoint.sh precompact
+grep -q "make part 3 scarier" .claude/state/recent_requests.md; ok $? 0 "PreCompact saved owner requests from transcript"
+grep -q "a@b.com" .claude/state/recent_requests.md; ok $? 1 "emails masked in saved requests"
+git ls-files | grep -q recent_requests; ok $? 1 "requests stay local (not committed to public repo)"
+grep -q "REMOTE VERIFIED" .claude/state/checkpoint.log; ok $? 0 "push verified against remote"
+ok "$(git rev-parse HEAD)" "$(git --git-dir=$T/remote.git rev-parse main)" "remote == local after PreCompact"
+OUT3=$(echo '{"source":"compact"}' | bash scripts/hooks/session_start.sh)
+echo "$OUT3" | grep -q "source=compact" && echo "$OUT3" | grep -q "just compacted in THIS session"; ok $? 0 "SessionStart(compact) reloads memory in same session"
+echo "$OUT3" | grep -q "make part 3 scarier"; ok $? 0 "reloaded context includes owner's recent requests"
+echo "$OUT3" | grep -q "REMOTE VERIFIED"; ok $? 0 "reloaded context shows last verified backup"
 # simulated session rotation: brand-new clone (= fresh session) restores state from repo only
 git clone -q -b main $T/remote.git $T/fresh && OUT2=$(CLAUDE_PROJECT_DIR=$T/fresh bash $T/fresh/scripts/hooks/session_start.sh </dev/null)
 echo "$OUT2" | grep -q "next stage\|nothing to resume"; ok $? 0 "fresh clone restores job resume point"

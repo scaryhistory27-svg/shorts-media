@@ -7,6 +7,9 @@
   `can-schedule` MUST print OK before any Metricool createScheduledPost; on an unknown outcome use `uncertain` + reconcile, never re-create blindly.
 - After meaningful milestones update CURRENT_STATE.md (overwrite, keep it short), prepend a dated entry to SESSION_HANDOFF.md,
   append to DECISIONS.md / CHANGELOG.md / TASKS.md as relevant. Stop/PreCompact hooks commit + push these automatically.
+- Context: ONE persistent session; Claude Code auto-compacts at ~90 % (901,600/1,000,000 tokens). PreCompact hook saves + pushes memory;
+  after compaction the SessionStart hook (source=compact) reloads it — then continue the unfinished task. Check usage with get_session (context_usage).
+- After every push verify the remote: `git ls-remote origin refs/heads/main` must equal `git rev-parse HEAD`.
 - This repo is PUBLIC: never write personal data, emails, credentials or tokens into any file.
 
 Goal: original animated horror stories for YouTube Shorts, **3 episodes per story**.

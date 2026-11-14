@@ -9,3 +9,4 @@
 - 2026-11-14 Voice: owner liked samples 1 (Michael+FX) and 2 (Onyx+FX) → blend 60/40 + mystic FX. Quiet procedural music (owner).
 - 2026-11-14 Loudness bug: alimiter default level=true re-normalised to 0 dB → mastering now iterative in timeline.py with level=false.
 - 2026-11-14 Memory system: docs/ + jobs.py + hooks. Raw transcript NOT archived in this public repo (privacy).
+- 2026-11-14 Same session kept (owner). Use built-in auto-compaction (~90 %) instead of rotation; hooks save before / reload after. Owner's raw requests extracted only locally (.claude/state) because the repo is public.

@@ -11,3 +11,4 @@
 9. More realistic, mystical voice → samples, owner liked 1 & 2 → blend. Quiet mystical music → added.
 10. Permissions: owner added .claude/settings.json allow-list. PC can be off; phone monitoring explained.
 11. Master prompt: memory, Git backup, hooks, recovery, rotation → this docs/ system.
+12. Change: keep the same session, reset context near 90 % with memory saved to GitHub → built-in auto-compaction + PreCompact/SessionStart(compact) hooks.

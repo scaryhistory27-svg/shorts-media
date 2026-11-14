@@ -1,3 +1,9 @@
+## 2026-11-14 — same-session context management
+
+- Owner: keep THIS session, no rotation; compact near 90 %. Platform auto-compaction already at 901,600/1M tokens (enabled, enforced).
+- PreCompact: handoff + local owner-requests extract + verified push. SessionStart(compact): reload. Tests 22/22 + 17/17.
+- Context at setup: 358,982 / 1,000,000.
+
 ## 2026-11-14 — memory / backup / recovery system installed (manual entry)
 
 - Done today: Part 1 published; Part 2 rendered (new voice + music, QA passed) and scheduled for 2026-11-15 16:00 LA;
