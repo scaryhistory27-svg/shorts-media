@@ -1,3 +1,14 @@
+## 2026-11-14T22:21:37Z — auto checkpoint before context compaction
+
+```
+jobs file: series/jobs.json — 2 jobs
+  done/scheduled: 2026-11-14-the-2am-knock-ep1  stage=published  title=Never Open The Door At 2 AM 😨 #shorts  url=https://www.youtube.com/shorts/6mF-t1ohbOQ
+  done/scheduled: 2026-11-15-the-2am-knock-ep2  stage=scheduled  title=It Knocked Again... Security Saw Something 😨 #shorts  url=-
+  UNFINISHED: 2026-11-15-the-2am-knock-ep2  stage=scheduled  status=active  retries=0
+2026-11-15-the-2am-knock-ep2: last verified stage 'scheduled', next stage 'published'
+HEAD: 7fdd99c Same-session context management: verified pushes, pre-compaction request extract (local), post-compaction reload
+```
+
 ## 2026-11-14 — same-session context management
 
 - Owner: keep THIS session, no rotation; compact near 90 %. Platform auto-compaction already at 901,600/1M tokens (enabled, enforced).
