@@ -1,3 +1,7 @@
+## 2026-11-14 — Part 2 moved to 2026-11-14 16:39 LA (owner)
+
+- Metricool id 428415766. Nov 15 has no slot. Next run (Nov 15 10:41) makes Part 3 → Nov 16 10:00 and new series Part 1 → Nov 16 16:00.
+
 ## 2026-11-14 — 2 videos/day Nov 16–18
 
 - Next run (Nov 15 10:41 LA) must make TWO episodes: Part 3 → 2026-11-16T10:00 and a NEW series Part 1 → 2026-11-16T16:00.

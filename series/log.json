@@ -1,7 +1,7 @@
 {
  "publish_time": "16:00",
  "timezone": "America/Los_Angeles",
- "last_publish": "2026-11-15T16:00:00",
+ "last_publish": "2026-11-14T16:39:00",
  "series": [
   {
    "slug": "the-2am-knock",
@@ -15,9 +15,9 @@
     },
     {
      "n": 2,
-     "publish": "2026-11-15T16:00:00",
+     "publish": "2026-11-14T16:39:00",
      "youtube_title": "It Knocked Again... Security Saw Something 😨 #shorts",
-     "metricool_id": 428386791,
+     "metricool_id": 428415766,
      "cover": true,
      "metricool_uuid": "-131978828335725952"
     }
@@ -28,11 +28,12 @@
  "schedule": [
   {
    "from": "2026-11-14",
-   "to": "2026-11-15",
+   "to": "2026-11-14",
    "times": [
-    "16:00"
+    "13:14",
+    "16:39"
    ],
-   "note": "launch: Part 1 (13:14) + Part 2"
+   "note": "launch day: Part 1 + Part 2 (owner moved Part 2 to today)"
   },
   {
    "from": "2026-11-16",

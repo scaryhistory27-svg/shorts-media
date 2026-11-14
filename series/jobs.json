@@ -59,7 +59,7 @@
   },
   "2026-11-15-the-2am-knock-ep2": {
    "id": "2026-11-15-the-2am-knock-ep2",
-   "slot": "2026-11-15",
+   "slot": "2026-11-14T16:39",
    "series": "the-2am-knock",
    "episode": 2,
    "title": "It Knocked Again... Security Saw Something 😨 #shorts",
@@ -97,15 +97,19 @@
     {
      "stage": "scheduled",
      "at": "2026-11-14T22:10:29Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-14T22:39:21Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-14T22:10:28Z",
-   "updated": "2026-11-14T22:10:29Z",
-   "metricool_id": 428386791,
+   "updated": "2026-11-14T22:39:21Z",
+   "metricool_id": 428415766,
    "metricool_uuid": "-131978828335725952",
-   "publish": "2026-11-15T16:00:00-08:00"
+   "publish": "2026-11-14T16:39:00-08:00"
   }
  }
 }

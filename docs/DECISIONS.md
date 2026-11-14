@@ -11,3 +11,4 @@
 - 2026-11-14 Memory system: docs/ + jobs.py + hooks. Raw transcript NOT archived in this public repo (privacy).
 - 2026-11-14 Same session kept (owner). Use built-in auto-compaction (~90 %) instead of rotation; hooks save before / reload after. Owner's raw requests extracted only locally (.claude/state) because the repo is public.
 - 2026-11-14 Owner: 2 videos/day for the first days → Nov 16–18 at 10:00 + 16:00 LA (two activity peaks, 6 h apart); explicit slot schedule in log.json + `jobs.py next-slots` (max 2 per run).
+- 2026-11-14 Owner moved Part 2 to today 16:39 LA (+2 h); no video on Nov 15; rest of the schedule unchanged.
