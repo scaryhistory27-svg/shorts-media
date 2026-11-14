@@ -60,11 +60,28 @@ node pipeline/render.js $E cover               # -> $E/build/cover.jpg (thumbnai
 without spoiling it (e.g. "IT WASN'T" / "MY MOM"). Pick a frame with a face/creature clearly visible.
 Then check a few frames of final.mp4 (ffmpeg -ss … -frames:v 1) before publishing.
 
+## QA — mandatory before publishing (the owner wants it PERFECT; never skip, fix and re-render until all pass)
+1. **Contact sheet of the FINAL mp4, 1 frame per second:**
+   `ffmpeg -i final.mp4 -vf "fps=1,scale=216:384,tile=8x5" -frames:v 1 qa_sheet.jpg` (tile 8x7 if >40 s) and Read it. Check every frame:
+   - no black/blank frames except the planned end card; no flicker between two segments of the same scene
+   - captions: fully on screen, readable, never covering a face/key object, never on top of the end card, no words glued together
+   - characters/props fully inside the frame (nothing important cut by the edge or hidden under the header), story readable without sound
+   - header/HUD texts don't overlap each other; the first frame (0 s) is already striking
+2. **Audio:** `ffmpeg -nostats -i final.mp4 -af ebur128 -f null -` → integrated loudness −15…−13 LUFS;
+   `-af astats` → peak ≤ −0.5 dB; voice present for every line (`silencedetect=n=-45dB:d=0.8` shows no silence inside the story).
+3. **Sync:** spot-check 3 frames exactly at sfx times from build/timeline.json (knock → door shakes/rings, etc.).
+4. **Script:** proper English, every `say` pronunciation correct, 35–55 s, hook ≤ 2.5 s, cliffhanger last line, recap line in Part 2/3.
+5. **Cover:** Read cover.jpg — face/creature visible, text readable at small size, no spoiler.
+6. Write the QA result (what was checked, what was fixed) into the run summary for the owner.
+
 ## Publish
 1. `cp $E/build/final.mp4 videos/<slug>-ep<n>.mp4` and `cp $E/build/cover.jpg videos/<slug>-ep<n>-cover.jpg`, commit, `git push origin main`.
    Public URLs: `https://raw.githubusercontent.com/scaryhistory27-svg/shorts-media/main/videos/<file>`
 2. Metricool `createScheduledPost`, blogId `8091052`, provider youtube, timezone `America/Los_Angeles`:
-   date = `last_publish` + 2 days at 17:00 (if that is already past, now + 20 min).
+   date = `last_publish` + 2 days at the **best hour from analytics**: call `getBestTimeToPostByNetwork` (youtube, brandId 8091052,
+   that day ±0, timezone America/Los_Angeles) and pick the hour with the highest value between 12:00 and 20:00
+   (as of Nov 2026 this is 16:00 every day; Tue–Thu strongest). Save it as `publish_time` in log.json.
+   If that time is already past, use now + 20 min.
    youtubeData: `{title, type:"short", privacy:"public", madeForKids:false, category:"FILM_ANIMATION", tags, isAiGeneratedContent:false}`,
    text = description with hashtags, `autoPublish:true`, `videoThumbnailUrl` = the cover URL.
 3. When the response's media and videoThumbnailUrl are on static.metricool.com, `git rm` both files from `videos/`.
