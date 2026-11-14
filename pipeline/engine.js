@@ -126,10 +126,11 @@ function render(t){
   // grain
   ctx.globalAlpha=0.06;const gx=Math.floor(Math.random()*256),gy=Math.floor(Math.random()*256);ctx.save();ctx.translate(-gx,-gy);ctx.fillStyle=ctx.createPattern(grain,'repeat');ctx.fillRect(0,0,W+256,H+256);ctx.restore();ctx.globalAlpha=1;
   // scene transition dip
-  const tin=lt,tout=seg.e-t;const dip=Math.max(0,1-tin/0.12,si<segs.length-1?1-tout/0.08:0);if(dip>0){ctx.fillStyle=`rgba(0,0,0,${dip})`;ctx.fillRect(0,0,W,H)}
+  const tin=lt,tout=seg.e-t;const sameP=si>0&&segs[si-1].scene===seg.scene,sameN=si<segs.length-1&&segs[si+1].scene===seg.scene;const dip=Math.max(0,sameP?0:1-tin/0.12,(si<segs.length-1&&!sameN)?1-tout/0.08:0);if(dip>0){ctx.fillStyle=`rgba(0,0,0,${dip})`;ctx.fillRect(0,0,W,H)}
   if(window.COVER){drawCover(window.COVER);return}
   header(t,seg.stamp||TL.stamp||'');
-  caption(seg,t);
+  const endCard=si===segs.length-1&&t>seg.words[seg.words.length-1].s+0.9;
+  if(!endCard)caption(seg,t);
 }
 window.setTL=j=>{TL=j};window.render=render;
 

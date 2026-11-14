@@ -16,6 +16,6 @@ const E=path.resolve(process.argv[2]),B=E+'/build',mode=process.argv[3];
  else{const n=Math.round(tl.total*tl.fps);const ff=spawn('ffmpeg',['-v','error','-y','-f','image2pipe','-framerate',String(tl.fps),'-c:v','mjpeg','-i','-','-c:v','libx264','-preset','veryfast','-crf','16','-pix_fmt','yuv420p',B+'/raw.mp4'],{stdio:['pipe','inherit','inherit']});
   for(let i=0;i<n;i++){const b=await grab(i/tl.fps);if(!ff.stdin.write(b))await new Promise(r=>ff.stdin.once('drain',r));if(i%300==0)console.log('frame',i,'/',n)}
   ff.stdin.end();await new Promise(r=>ff.on('close',r));
-  const r=spawnSync('ffmpeg',['-v','error','-y','-i',B+'/raw.mp4','-i',B+'/audio.wav','-c:v','libx264','-preset','slow','-crf','26','-maxrate','12M','-bufsize','24M','-pix_fmt','yuv420p','-af','loudnorm=I=-14:TP=-1.5:LRA=11','-ar','48000','-c:a','aac','-b:a','192k','-shortest','-movflags','+faststart',B+'/final.mp4'],{stdio:'inherit'});
+  const r=spawnSync('ffmpeg',['-v','error','-y','-i',B+'/raw.mp4','-i',B+'/audio.wav','-c:v','libx264','-preset','slow','-crf','26','-maxrate','12M','-bufsize','24M','-pix_fmt','yuv420p','-af','loudnorm=I=-14:TP=-1.0:LRA=7,alimiter=limit=0.8','-ar','48000','-c:a','aac','-b:a','192k','-shortest','-movflags','+faststart',B+'/final.mp4'],{stdio:'inherit'});
   fs.unlinkSync(B+'/raw.mp4');console.log('done',B+'/final.mp4')}
  await br.close()})();

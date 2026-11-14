@@ -65,5 +65,5 @@ for e in ev:
     f,g=FX[e["type"]]; add(f(),e["t"]-(0.05 if e["type"]=="sting" else 0),g)
 for i,s in enumerate(segs):
     v,_=sf.read(f"{B}/l{i:02d}.wav"); add(v*0.95,s["s"])
-mix=mix[:int(total*SR)]; mix=np.tanh(mix*1.1)/np.tanh(1.1); mix/=np.abs(mix).max()/0.89
+mix=mix[:int(total*SR)]; mix/=np.abs(mix).max(); mix=np.tanh(mix*2.2)/np.tanh(2.2); mix/=np.abs(mix).max()/0.95
 sf.write(f"{B}/audio.wav",mix.astype(np.float32),SR)
