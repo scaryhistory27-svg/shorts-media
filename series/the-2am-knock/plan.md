@@ -1,0 +1,4 @@
+# The 2 AM Knock — 3-part arc
+- **Part 1 (published):** 2 AM, "Mom" knocks on 9th-floor apartment door, real Mom texts from Chicago. The thing doesn't blink, whispers "I can see you looking", then knocks on the bedroom window (9th floor). Ends: "It's 1:59 right now. And I just heard three slow knocks."
+- **Part 2:** Night 2. Narrator doesn't open; covers peephole, calls building security — the guard says the hallway camera shows *nobody* at the door, but the narrator's own door is open on the camera feed, and someone is standing *inside* the apartment behind him. Ends on a cliffhanger (e.g. a voice behind him in his own voice: "Who are you talking to?").
+- **Part 3 (finale):** Night 3. The rule revealed (an old note from the previous tenant: "It can only come in if you answer. Never answer. Not even to say no."). Narrator realises he answered security's call out loud... Final twist + loop line back to "Never open the door at 2 AM." End card "THE END?"

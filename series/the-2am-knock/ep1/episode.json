@@ -1,0 +1,230 @@
+{
+ "series": "The 2 AM Knock",
+ "episode": 1,
+ "title": "THE 2 AM KNOCK · PART 1",
+ "stamp": "NIGHT 1 · 02:00",
+ "endTitle": "PART 2?",
+ "endSub": "Don't open the door.",
+ "voice": "am_michael",
+ "speed": 0.92,
+ "youtube": {
+  "title": "Never Open The Door At 2 AM 😨 #shorts",
+  "description": "She said she lost her keys... 🚪 Part 2? 👀\n#horrorstory #scary #creepy #2am #animation #shorts",
+  "tags": [
+   "horror story",
+   "scary",
+   "creepy",
+   "2am",
+   "animation",
+   "scary story",
+   "horror animation"
+  ]
+ },
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "Never open the door at 2 AM.",
+   "hl": {
+    "Never": "r",
+    "door": "y",
+    "2": "r",
+    "AM.": "r"
+   },
+   "sfx": [
+    {
+     "at": "start",
+     "type": "hit"
+    }
+   ],
+   "say": "Never open the door at two A.M."
+  },
+  {
+   "scene": "building",
+   "text": "Last night, I was home alone. Ninth floor.",
+   "hl": {
+    "alone.": "y",
+    "Ninth": "y",
+    "floor.": "y"
+   }
+  },
+  {
+   "scene": "door",
+   "text": "At exactly two o'clock... someone knocked. Three slow knocks.",
+   "hl": {
+    "two": "r",
+    "o'clock...": "r",
+    "Three": "y",
+    "knocks.": "y"
+   },
+   "sfx": [
+    {
+     "word": "knocked.",
+     "type": "knock"
+    },
+    {
+     "word": "Three",
+     "type": "knock"
+    },
+    {
+     "word": "slow",
+     "type": "knock"
+    },
+    {
+     "word": "knocks.",
+     "type": "knock"
+    }
+   ]
+  },
+  {
+   "scene": "peep",
+   "text": "I looked through the peephole. It was my mom.",
+   "hl": {
+    "peephole.": "y",
+    "mom.": "y"
+   }
+  },
+  {
+   "scene": "mom",
+   "text": "She smiled and said: Honey, I lost my keys. Let me in.",
+   "hl": {
+    "keys.": "y",
+    "Let": "r",
+    "in.": "r"
+   }
+  },
+  {
+   "scene": "hand",
+   "text": "My hand was already on the lock.",
+   "hl": {
+    "lock.": "y"
+   },
+   "gap": 0.6
+  },
+  {
+   "scene": "phone",
+   "text": "Then my phone buzzed. A text... from Mom.",
+   "hl": {
+    "buzzed.": "y",
+    "Mom.": "r"
+   },
+   "sfx": [
+    {
+     "word": "buzzed.",
+     "type": "buzz"
+    },
+    {
+     "word": "buzzed.",
+     "type": "buzz",
+     "offset": 0.35
+    }
+   ]
+  },
+  {
+   "scene": "phone2",
+   "text": "Can't sleep. Love you. Goodnight from Chicago.",
+   "hl": {
+    "Chicago.": "r"
+   },
+   "gap": 0.5
+  },
+  {
+   "scene": "peep2",
+   "text": "My mom lives in Chicago. I looked again.",
+   "hl": {
+    "Chicago.": "r",
+    "again.": "y"
+   }
+  },
+  {
+   "scene": "face",
+   "text": "She was still smiling. She hadn't blinked once.",
+   "hl": {
+    "smiling.": "r",
+    "blinked": "r"
+   },
+   "sfx": [
+    {
+     "at": "start",
+     "type": "heart"
+    }
+   ]
+  },
+  {
+   "scene": "face2",
+   "text": "Then it whispered: I can see you looking.",
+   "hl": {
+    "whispered:": "y",
+    "see": "r",
+    "looking.": "r"
+   },
+   "gap": 0.45
+  },
+  {
+   "scene": "window",
+   "text": "The knocking stopped. And started again... on my bedroom window.",
+   "hl": {
+    "stopped.": "y",
+    "window.": "r"
+   },
+   "gap": 0.5,
+   "sfx": [
+    {
+     "word": "again...",
+     "type": "knockglass"
+    },
+    {
+     "word": "bedroom",
+     "type": "knockglass"
+    },
+    {
+     "word": "window.",
+     "type": "knockglass"
+    }
+   ]
+  },
+  {
+   "scene": "outside",
+   "text": "Ninth floor.",
+   "hl": {
+    "Ninth": "r",
+    "floor.": "r"
+   },
+   "gap": 0.7,
+   "sfx": [
+    {
+     "at": "start",
+     "type": "sting"
+    }
+   ]
+  },
+  {
+   "scene": "end",
+   "text": "It's one fifty nine right now. And I just heard three slow knocks.",
+   "hl": {
+    "fifty": "r",
+    "nine": "r",
+    "three": "r",
+    "knocks.": "r"
+   },
+   "sfx": [
+    {
+     "word": "three",
+     "type": "knock",
+     "offset": 0.05
+    },
+    {
+     "word": "slow",
+     "type": "knock",
+     "offset": 0.05
+    },
+    {
+     "word": "knocks.",
+     "type": "knock",
+     "offset": 0.05
+    }
+   ],
+   "stamp": "NIGHT 2 · 01:59",
+   "say": "It's one fifty-nine right now. And I just heard three slow knocks."
+  }
+ ]
+}

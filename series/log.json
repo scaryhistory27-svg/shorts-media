@@ -1,0 +1,11 @@
+{
+ "cadence_days": 2,
+ "publish_time": "17:00",
+ "timezone": "America/Los_Angeles",
+ "last_publish": "2026-11-14T13:14:00",
+ "series": [
+  {"slug": "the-2am-knock", "title": "The 2 AM Knock", "episodes": [
+   {"n": 1, "publish": "2026-11-14T13:14:00", "youtube_title": "Never Open The Door At 2 AM 😨 #shorts", "metricool_id": 428352885}
+  ]}
+ ]
+}
