@@ -6,7 +6,10 @@ const E=path.resolve(process.argv[2]),B=E+'/build',mode=process.argv[3];
  await pg.goto('file://'+__dirname+'/anim.html?scenes='+encodeURIComponent('file://'+E+'/scenes.js'));await pg.evaluate(()=>document.fonts.ready);
  const tl=JSON.parse(fs.readFileSync(B+'/timeline.json'));await pg.evaluate(j=>window.setTL(j),tl);
  const grab=async t=>Buffer.from((await pg.evaluate(t=>{render(t);return document.getElementById('c').toDataURL('image/jpeg',0.93)},t)).split(',')[1],'base64');
- if(mode==='preview'){let ts=process.argv.slice(4).map(Number);if(!ts.length)ts=tl.segs.map(s=>(s.s+s.e)/2);
+ if(mode==='cover'){const ep=JSON.parse(fs.readFileSync(E+'/episode.json'));const c=ep.cover;if(!c){console.log('no cover in episode.json');process.exit(1)}
+  const ct=typeof c.t==='number'?c.t:(()=>{const s=tl.segs[c.seg];return s.s+(s.e-s.s)*(c.frac??0.6)})();
+  await pg.evaluate(c=>{window.COVER=c},c);fs.writeFileSync(E+'/build/cover.jpg',await grab(ct));console.log('cover',E+'/build/cover.jpg')}
+ else if(mode==='preview'){let ts=process.argv.slice(4).map(Number);if(!ts.length)ts=tl.segs.map(s=>(s.s+s.e)/2);
   for(const f of fs.readdirSync(B))if(f.startsWith('prev_'))fs.unlinkSync(B+'/'+f);
   for(const [i,t] of ts.entries())fs.writeFileSync(`${B}/prev_${String(i).padStart(2,'0')}.jpg`,await grab(t));
   spawnSync('ffmpeg',['-v','error','-y','-i',B+'/prev_%02d.jpg','-vf','scale=270:480,tile=7x2','-frames:v','1',B+'/sheet.jpg']);console.log('sheet',B+'/sheet.jpg')}

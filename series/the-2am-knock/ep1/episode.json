@@ -226,5 +226,15 @@
    "stamp": "NIGHT 2 · 01:59",
    "say": "It's one fifty-nine right now. And I just heard three slow knocks."
   }
- ]
+ ],
+ "cover": {
+  "seg": 9,
+  "frac": 0.7,
+  "top": "THE 2 AM KNOCK",
+  "lines": [
+   "IT WASN'T",
+   "MY MOM"
+  ],
+  "sub": "PART 1"
+ }
 }

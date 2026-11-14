@@ -1,0 +1,218 @@
+{
+ "series": "The 2 AM Knock",
+ "episode": 2,
+ "title": "THE 2 AM KNOCK · PART 2",
+ "stamp": "NIGHT 2 · 02:00",
+ "endTitle": "PART 3?",
+ "endSub": "Don't answer it.",
+ "voice": "am_michael",
+ "speed": 0.92,
+ "youtube": {
+  "title": "It Knocked Again... Security Saw Something 😨 #shorts",
+  "description": "Part 2. The guard was watching the hallway camera... 📹 Part 3? 👀\n#horrorstory #scary #creepy #2am #animation #shorts",
+  "tags": [
+   "horror story",
+   "scary",
+   "creepy",
+   "2am",
+   "animation",
+   "scary story",
+   "horror animation",
+   "security camera"
+  ]
+ },
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "It came back.",
+   "hl": {
+    "came": "r",
+    "back.": "r"
+   },
+   "sfx": [
+    {
+     "at": "start",
+     "type": "hit"
+    }
+   ]
+  },
+  {
+   "scene": "recap",
+   "text": "Two nights ago, something wearing my mom's face knocked on my door.",
+   "hl": {
+    "something": "r",
+    "mom's": "y",
+    "face": "r"
+   },
+   "gap": 0.4
+  },
+  {
+   "scene": "door",
+   "text": "Tonight, at 2 AM... three slow knocks.",
+   "say": "Tonight, at two A.M... three slow knocks.",
+   "hl": {
+    "2": "r",
+    "AM...": "r",
+    "three": "y",
+    "knocks.": "y"
+   },
+   "sfx": [
+    {
+     "word": "three",
+     "type": "knock"
+    },
+    {
+     "word": "slow",
+     "type": "knock"
+    },
+    {
+     "word": "knocks.",
+     "type": "knock"
+    }
+   ]
+  },
+  {
+   "scene": "tape",
+   "text": "I didn't look. I taped over the peephole.",
+   "hl": {
+    "didn't": "y",
+    "taped": "y",
+    "peephole.": "y"
+   }
+  },
+  {
+   "scene": "call",
+   "text": "And I called building security.",
+   "hl": {
+    "security.": "y"
+   },
+   "sfx": [
+    {
+     "word": "called",
+     "type": "buzz"
+    }
+   ]
+  },
+  {
+   "scene": "cctv",
+   "text": "The guard said: I'm watching your hallway camera right now.",
+   "hl": {
+    "watching": "y",
+    "camera": "y"
+   }
+  },
+  {
+   "scene": "cctv",
+   "text": "There's nobody at your door.",
+   "hl": {
+    "nobody": "r"
+   },
+   "gap": 0.4
+  },
+  {
+   "scene": "door2",
+   "text": "But the knocking... didn't stop.",
+   "hl": {
+    "didn't": "r",
+    "stop.": "r"
+   },
+   "sfx": [
+    {
+     "word": "knocking...",
+     "type": "knock"
+    },
+    {
+     "word": "didn't",
+     "type": "knock"
+    },
+    {
+     "word": "stop.",
+     "type": "knock"
+    }
+   ],
+   "gap": 0.5
+  },
+  {
+   "scene": "cctvopen",
+   "text": "Then he went quiet. Sir... why is your door open?",
+   "hl": {
+    "quiet.": "y",
+    "door": "r",
+    "open?": "r"
+   },
+   "sfx": [
+    {
+     "word": "Sir...",
+     "type": "creak"
+    }
+   ]
+  },
+  {
+   "scene": "lock",
+   "text": "My door was locked. I was staring right at it.",
+   "hl": {
+    "locked.": "y",
+    "staring": "y"
+   }
+  },
+  {
+   "scene": "cctvbehind",
+   "text": "Sir... who is standing behind you?",
+   "hl": {
+    "standing": "r",
+    "behind": "r",
+    "you?": "r"
+   },
+   "sfx": [
+    {
+     "at": "start",
+     "type": "sting"
+    }
+   ],
+   "gap": 0.6
+  },
+  {
+   "scene": "behind",
+   "text": "And right behind me... I heard my own voice.",
+   "hl": {
+    "behind": "r",
+    "own": "r",
+    "voice.": "r"
+   },
+   "sfx": [
+    {
+     "at": "start",
+     "type": "heart"
+    }
+   ],
+   "gap": 0.5
+  },
+  {
+   "scene": "whisper",
+   "text": "Who are you talking to?",
+   "hl": {
+    "Who": "r",
+    "talking": "r",
+    "to?": "r"
+   },
+   "speed": 0.8,
+   "stamp": "NIGHT 2 · 02:07",
+   "sfx": [
+    {
+     "at": "start",
+     "type": "whoosh"
+    }
+   ]
+  }
+ ],
+ "cover": {
+  "seg": 11,
+  "frac": 0.85,
+  "top": "THE 2 AM KNOCK",
+  "lines": [
+   "SECURITY SAW",
+   "SOMEONE BEHIND ME"
+  ],
+  "sub": "PART 2"
+ }
+}
