@@ -1,6 +1,9 @@
 # Horror Shorts autopilot (YouTube channel of the owner)
 
-Goal: original animated horror stories for YouTube Shorts, **3 episodes per story**, **one episode every 2 days**.
+Goal: original animated horror stories for YouTube Shorts, **3 episodes per story**.
+**Cadence:** launch phase = **one episode EVERY DAY up to and including `daily_until` (2026-11-24)**, after that one episode every 2 days.
+The autopilot task fires daily. Each run: next slot = `last_publish` + cadence (1 day while the next slot date ≤ daily_until, else 2 days).
+If that next slot is more than 36 h away, there is nothing to do — reply "skip" in one line and stop (no render, no notification).
 Everything is done end-to-end without asking the owner: story → 2D animation → English voice-over → upload → schedule in Metricool.
 
 ## Style (match exactly — the owner likes it)
@@ -78,7 +81,7 @@ Then check a few frames of final.mp4 (ffmpeg -ss … -frames:v 1) before publish
 1. `cp $E/build/final.mp4 videos/<slug>-ep<n>.mp4` and `cp $E/build/cover.jpg videos/<slug>-ep<n>-cover.jpg`, commit, `git push origin main`.
    Public URLs: `https://raw.githubusercontent.com/scaryhistory27-svg/shorts-media/main/videos/<file>`
 2. Metricool `createScheduledPost`, blogId `8091052`, provider youtube, timezone `America/Los_Angeles`:
-   date = `last_publish` + 2 days at the **best hour from analytics**: call `getBestTimeToPostByNetwork` (youtube, brandId 8091052,
+   date = next slot (`last_publish` + cadence, see top) at the **best hour from analytics**: call `getBestTimeToPostByNetwork` (youtube, brandId 8091052,
    that day ±0, timezone America/Los_Angeles) and pick the hour with the highest value between 12:00 and 20:00
    (as of Nov 2026 this is 16:00 every day; Tue–Thu strongest). Save it as `publish_time` in log.json.
    If that time is already past, use now + 20 min.
