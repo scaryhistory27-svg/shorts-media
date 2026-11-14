@@ -3,9 +3,51 @@
     "allow": [
       "mcp__Metricool_Social_Media_Management",
       "WebSearch",
-      "Bash(git add:*)", "Bash(git commit:*)", "Bash(git push:*)", "Bash(git pull:*)", "Bash(git rm:*)",
-      "Bash(bash setup.sh:*)", "Bash(python3 pipeline/:*)", "Bash(node pipeline/:*)",
-      "Bash(ffmpeg:*)", "Bash(ffprobe:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(git rm:*)",
+      "Bash(bash setup.sh:*)",
+      "Bash(python3 pipeline/:*)",
+      "Bash(node pipeline/:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(ffprobe:*)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/scripts/hooks/session_start.sh\"",
+            "timeout": 120
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/scripts/hooks/checkpoint.sh\" precompact",
+            "timeout": 120
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/scripts/hooks/checkpoint.sh\" stop",
+            "timeout": 120
+          }
+        ]
+      }
     ]
   }
 }

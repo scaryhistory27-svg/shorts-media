@@ -1,5 +1,14 @@
 # Horror Shorts autopilot (YouTube channel of the owner)
 
+## Memory & recovery (read first)
+- Startup state: `docs/CURRENT_STATE.md` + `docs/SESSION_HANDOFF.md` (printed by the SessionStart hook). Details on demand: docs/PROJECT_MEMORY.md,
+  WORKFLOW.md, DECISIONS.md, CREATIVE_RULES.md, RECOVERY_GUIDE.md, AUTOMATION_STATUS.md, SESSION_HISTORY.md (sanitized history).
+- **Every episode is a job in `pipeline/jobs.py`** (series/jobs.json): `resume` first; advance stages as you go (docs/WORKFLOW.md);
+  `can-schedule` MUST print OK before any Metricool createScheduledPost; on an unknown outcome use `uncertain` + reconcile, never re-create blindly.
+- After meaningful milestones update CURRENT_STATE.md (overwrite, keep it short), prepend a dated entry to SESSION_HANDOFF.md,
+  append to DECISIONS.md / CHANGELOG.md / TASKS.md as relevant. Stop/PreCompact hooks commit + push these automatically.
+- This repo is PUBLIC: never write personal data, emails, credentials or tokens into any file.
+
 Goal: original animated horror stories for YouTube Shorts, **3 episodes per story**.
 **Cadence:** launch phase = **one episode EVERY DAY up to and including `daily_until` (2026-11-24)**, after that one episode every 2 days.
 The autopilot task fires daily. Each run: next slot = `last_publish` + cadence (1 day while the next slot date ≤ daily_until, else 2 days).
@@ -103,7 +112,9 @@ Every run, even a "skip" run:
 ## Publish
 1. `cp $E/build/final.mp4 videos/<slug>-ep<n>.mp4` and `cp $E/build/cover.jpg videos/<slug>-ep<n>-cover.jpg`, commit, `git push origin main`.
    Public URLs: `https://raw.githubusercontent.com/scaryhistory27-svg/shorts-media/main/videos/<file>`
-2. Metricool `createScheduledPost`, blogId `8091052`, provider youtube, timezone `America/Los_Angeles`:
+2. Duplicate guard: `python3 pipeline/jobs.py can-schedule <job>` must print OK, and getScheduledPosts must show no post with the same title;
+   then `jobs.py stage <job> scheduling`, call Metricool once, then `stage scheduled --set metricool_id=…` (or `uncertain` if the call failed/timed out).
+   Metricool `createScheduledPost`, blogId `8091052`, provider youtube, timezone `America/Los_Angeles`:
    date = next slot (`last_publish` + cadence, see top) at the **best hour from analytics**: call `getBestTimeToPostByNetwork` (youtube, brandId 8091052,
    that day ±0, timezone America/Los_Angeles) and pick the hour with the highest value between 12:00 and 20:00
    (as of Nov 2026 this is 16:00 every day; Tue–Thu strongest). Save it as `publish_time` in log.json.

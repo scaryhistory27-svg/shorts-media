@@ -1,0 +1,11 @@
+# DECISIONS (newest last; why each choice was made)
+- 2026-11-14 Style copied from the owner's reference video: dark flat-vector night scenes, slow push-ins, word-by-word captions with yellow/red keywords, header with series title + time stamp.
+- 2026-11-14 Each story = 3 episodes with cliffhangers (owner). New story invented after Part 3 from channel analytics + web trends.
+- 2026-11-14 Publishing via Metricool (YouTube connected there). Metricool needs a public URL → repo `videos/` on raw.githubusercontent.com; files removed after Metricool copies them. GitHub releases are blocked for these sessions; file hosts blocked by network.
+- 2026-11-14 Scheduler runs in the persistent session (not fresh sessions) because routines created from this session cannot carry the Metricool connector.
+- 2026-11-14 Cadence: daily for the first 1.5 weeks (until 2026-11-24), then every 2 days (owner).
+- 2026-11-14 Posting hour from Metricool best-time (16:00 LA, Tue–Thu strongest); re-check daily (owner).
+- 2026-11-14 Mandatory cover thumbnail + mandatory QA (1-fps contact sheet, loudness −14 LUFS, peak ≤ −0.5 dB) (owner: "must be perfect").
+- 2026-11-14 Voice: owner liked samples 1 (Michael+FX) and 2 (Onyx+FX) → blend 60/40 + mystic FX. Quiet procedural music (owner).
+- 2026-11-14 Loudness bug: alimiter default level=true re-normalised to 0 dB → mastering now iterative in timeline.py with level=false.
+- 2026-11-14 Memory system: docs/ + jobs.py + hooks. Raw transcript NOT archived in this public repo (privacy).

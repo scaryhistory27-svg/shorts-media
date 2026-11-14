@@ -1,0 +1,111 @@
+{
+ "version": 1,
+ "jobs": {
+  "2026-11-14-the-2am-knock-ep1": {
+   "id": "2026-11-14-the-2am-knock-ep1",
+   "slot": "2026-11-14",
+   "series": "the-2am-knock",
+   "episode": 1,
+   "title": "Never Open The Door At 2 AM 😨 #shorts",
+   "stage": "published",
+   "status": "done",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-14T22:10:28Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-14T22:10:28Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-14T22:10:28Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-14T22:10:28Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-14T22:10:28Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-14T22:10:28Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-14T22:10:28Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-14T22:10:28Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-14T22:10:28Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-14T22:10:28Z",
+   "updated": "2026-11-14T22:10:28Z",
+   "metricool_id": 428352885,
+   "metricool_uuid": "1704642988155030567",
+   "youtube_id": "6mF-t1ohbOQ",
+   "youtube_url": "https://www.youtube.com/shorts/6mF-t1ohbOQ",
+   "publish": "2026-11-14T13:14:00-08:00"
+  },
+  "2026-11-15-the-2am-knock-ep2": {
+   "id": "2026-11-15-the-2am-knock-ep2",
+   "slot": "2026-11-15",
+   "series": "the-2am-knock",
+   "episode": 2,
+   "title": "It Knocked Again... Security Saw Something 😨 #shorts",
+   "stage": "scheduled",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-14T22:10:28Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-14T22:10:28Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-14T22:10:28Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-14T22:10:28Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-14T22:10:28Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-14T22:10:28Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-14T22:10:29Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-14T22:10:29Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-14T22:10:28Z",
+   "updated": "2026-11-14T22:10:29Z",
+   "metricool_id": 428386791,
+   "metricool_uuid": "-131978828335725952",
+   "publish": "2026-11-15T16:00:00-08:00"
+  }
+ }
+}
