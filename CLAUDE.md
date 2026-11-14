@@ -89,6 +89,10 @@ Then check a few frames of final.mp4 (ffmpeg -ss … -frames:v 1) before publish
    text = description with hashtags, `autoPublish:true`, `videoThumbnailUrl` = the cover URL.
 3. When the response's media and videoThumbnailUrl are on static.metricool.com, `git rm` both files from `videos/`.
 4. Update `series/log.json` (episode, publish time, metricool id, `last_publish`), commit + push to main.
+5. **Report to the owner (mandatory):** send the final video AND the cover with the `SendUserFile` tool
+   (files: `$E/build/final.mp4`, `$E/build/cover.jpg`; status "proactive"; caption = the exact YouTube title),
+   then a short Russian summary with the YouTube title, description, publish time (LA + Yerevan), QA result and the Metricool planner link.
+   After it is published, the YouTube link can be found with getScheduledPosts (`publicUrl`) — include the previous episode's link in the summary.
 
 Git commits as `scaryhistory27-svg <scaryhistory27-svg@users.noreply.github.com>`. Push directly to `main`.
 GitHub releases are NOT allowed for these sessions — use the `videos/` folder.
