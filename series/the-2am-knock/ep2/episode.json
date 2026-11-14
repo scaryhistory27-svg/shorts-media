@@ -5,8 +5,8 @@
  "stamp": "NIGHT 2 · 02:00",
  "endTitle": "PART 3?",
  "endSub": "Don't answer it.",
- "voice": "am_michael",
- "speed": 0.92,
+ "voice": "am_michael:0.6,am_onyx:0.4",
+ "speed": 0.88,
  "youtube": {
   "title": "It Knocked Again... Security Saw Something 😨 #shorts",
   "description": "Part 2. The guard was watching the hallway camera... 📹 Part 3? 👀\n#horrorstory #scary #creepy #2am #animation #shorts",
@@ -195,7 +195,7 @@
     "talking": "r",
     "to?": "r"
    },
-   "speed": 0.8,
+   "speed": 0.78,
    "stamp": "NIGHT 2 · 02:07",
    "sfx": [
     {
@@ -214,5 +214,6 @@
    "SOMEONE BEHIND ME"
   ],
   "sub": "PART 2"
- }
+ },
+ "voice_fx": "mystic"
 }

@@ -67,3 +67,16 @@ for i,s in enumerate(segs):
     v,_=sf.read(f"{B}/l{i:02d}.wav"); add(v*0.95,s["s"])
 mix=mix[:int(total*SR)]; mix/=np.abs(mix).max(); mix=np.tanh(mix*2.2)/np.tanh(2.2); mix/=np.abs(mix).max()/0.95
 sf.write(f"{B}/audio.wav",mix.astype(np.float32),SR)
+
+# ---- mastering: iterate gain so that after a -3 dB limiter (and AAC) we land at -14 LUFS, peak <= -1 dB ----
+import subprocess,re as _re
+def _lufs(path):
+    o=subprocess.run(["ffmpeg","-nostats","-i",path,"-af","ebur128","-f","null","-"],capture_output=True,text=True).stderr
+    return float(_re.findall(r"I:\s+(-?[0-9.]+) LUFS",o)[-1])
+g=-14-_lufs(f"{B}/audio.wav")
+for _ in range(4):
+    subprocess.run(["ffmpeg","-v","error","-y","-i",f"{B}/audio.wav","-af",f"volume={g:.2f}dB,alimiter=limit=0.7:attack=1:release=50:level=false","-ar","48000",f"{B}/audio_master.wav"],check=True)
+    I=_lufs(f"{B}/audio_master.wav")
+    if abs(I+14)<0.25: break
+    g+=(-14-I)
+print("master",round(I,2),"LUFS gain",round(g,2))

@@ -1,13 +1,28 @@
-"""Usage: python3 pipeline/tts.py <episode_dir>  -> writes <episode_dir>/build/lNN.wav + durs.json"""
-import json,sys,os,numpy as np,soundfile as sf
+"""Usage: python3 pipeline/tts.py <episode_dir>  -> writes <episode_dir>/build/lNN.wav + durs.json
+voice: a Kokoro voice name or a blend "am_michael:0.6,am_onyx:0.4" (channel default).
+voice_fx: "mystic" (default: slightly lower pitch, warm low end, close-mic compression, dark room echo) or "none"."""
+import json,sys,os,subprocess,numpy as np,soundfile as sf
 from kokoro_onnx import Kokoro
 E=sys.argv[1]; M=os.environ.get("KOKORO_DIR","/tmp/kokoro")
 os.makedirs(f"{E}/build",exist_ok=True)
 ep=json.load(open(f"{E}/episode.json"))
 k=Kokoro(f"{M}/kokoro.onnx",f"{M}/voices.bin")
+DEFAULT_VOICE="am_michael:0.6,am_onyx:0.4"
+FX={"mystic":"asetrate=24000*0.95,aresample=24000,atempo=1.0526,highpass=f=70,equalizer=f=140:t=q:w=1:g=4,"
+    "equalizer=f=3200:t=q:w=1.5:g=2.5,equalizer=f=7500:t=q:w=2:g=-3,acompressor=threshold=0.08:ratio=4:attack=5:release=120:makeup=2,"
+    "aecho=0.85:0.6:45|95|160:0.22|0.14|0.08","none":None}
+def voice(v):
+    if ":" not in v and "," not in v: return v
+    parts=[p.split(":") for p in v.split(",")]
+    return sum(float(w)*k.get_voice_style(n) for n,w in parts)
 durs=[]
 for i,l in enumerate(ep["lines"]):
-    a,sr=k.create(l.get("say",l["text"]),voice=l.get("voice",ep.get("voice","am_michael")),speed=l.get("speed",ep.get("speed",0.92)),lang="en-us")
+    a,sr=k.create(l.get("say",l["text"]),voice=voice(l.get("voice",ep.get("voice",DEFAULT_VOICE))),speed=l.get("speed",ep.get("speed",0.88)),lang="en-us")
     idx=np.where(np.abs(a)>0.01)[0]; a=a[max(0,idx[0]-400):idx[-1]+1200]
-    sf.write(f"{E}/build/l{i:02d}.wav",a,sr); durs.append(len(a)/sr); print(i,round(len(a)/sr,2),l["text"])
+    out=f"{E}/build/l{i:02d}.wav"; sf.write(out,a,sr)
+    fx=FX[l.get("voice_fx",ep.get("voice_fx","mystic"))]
+    if fx:
+        subprocess.run(["ffmpeg","-v","error","-y","-i",out,"-af",fx+",apad=pad_dur=0.25","-ar",str(sr),out+".fx.wav"],check=True); os.replace(out+".fx.wav",out)
+        a,_=sf.read(out)
+    durs.append(len(a)/sr); print(i,round(len(a)/sr,2),l["text"])
 json.dump(durs,open(f"{E}/build/durs.json","w"))
