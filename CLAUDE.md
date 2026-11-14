@@ -53,17 +53,21 @@ E=series/<slug>/ep<n>
 python3 pipeline/tts.py $E && python3 pipeline/timeline.py $E
 node pipeline/render.js $E preview             # look at $E/build/sheet.jpg (Read it), fix scenes, repeat
 node pipeline/render.js $E                     # -> $E/build/final.mp4 (~3 min)
+node pipeline/render.js $E cover               # -> $E/build/cover.jpg (thumbnail) — Read it and check
 ```
+**Cover (thumbnail) is mandatory.** episode.json `"cover": {"seg": <line index of the scariest frame>, "frac": 0.0-1.0, "top": "<SERIES TITLE>",
+"lines": ["<WHITE LINE>", "<RED LINE>"], "sub": "PART n"}` — 2 short ALL-CAPS lines (2–4 words each) that tease the twist
+without spoiling it (e.g. "IT WASN'T" / "MY MOM"). Pick a frame with a face/creature clearly visible.
 Then check a few frames of final.mp4 (ffmpeg -ss … -frames:v 1) before publishing.
 
 ## Publish
-1. `cp $E/build/final.mp4 videos/<slug>-ep<n>.mp4`, commit, `git push origin main`.
-   Public URL: `https://raw.githubusercontent.com/scaryhistory27-svg/shorts-media/main/videos/<slug>-ep<n>.mp4`
+1. `cp $E/build/final.mp4 videos/<slug>-ep<n>.mp4` and `cp $E/build/cover.jpg videos/<slug>-ep<n>-cover.jpg`, commit, `git push origin main`.
+   Public URLs: `https://raw.githubusercontent.com/scaryhistory27-svg/shorts-media/main/videos/<file>`
 2. Metricool `createScheduledPost`, blogId `8091052`, provider youtube, timezone `America/Los_Angeles`:
    date = `last_publish` + 2 days at 17:00 (if that is already past, now + 20 min).
    youtubeData: `{title, type:"short", privacy:"public", madeForKids:false, category:"FILM_ANIMATION", tags, isAiGeneratedContent:false}`,
-   text = description with hashtags, `autoPublish:true`.
-3. When the response's media URL is on static.metricool.com, `git rm` the mp4 from `videos/`.
+   text = description with hashtags, `autoPublish:true`, `videoThumbnailUrl` = the cover URL.
+3. When the response's media and videoThumbnailUrl are on static.metricool.com, `git rm` both files from `videos/`.
 4. Update `series/log.json` (episode, publish time, metricool id, `last_publish`), commit + push to main.
 
 Git commits as `scaryhistory27-svg <scaryhistory27-svg@users.noreply.github.com>`. Push directly to `main`.
