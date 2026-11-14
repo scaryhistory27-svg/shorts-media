@@ -80,8 +80,8 @@ Then check a few frames of final.mp4 (ffmpeg -ss … -frames:v 1) before publish
    - captions: fully on screen, readable, never covering a face/key object, never on top of the end card, no words glued together
    - characters/props fully inside the frame (nothing important cut by the edge or hidden under the header), story readable without sound
    - header/HUD texts don't overlap each other; the first frame (0 s) is already striking
-2. **Audio:** `ffmpeg -nostats -i final.mp4 -af ebur128 -f null -` → integrated loudness −15…−13 LUFS;
-   `-af astats` → peak ≤ −0.5 dB; voice present for every line (`silencedetect=n=-45dB:d=0.8` shows no silence inside the story).
+2. **Audio:** timeline.py masters to `build/audio_master.wav` automatically. Check final.mp4: `-af ebur128` → −14.5…−13.5 LUFS;
+   `-af astats` → peak ≤ −0.5 dB (if not, lower the alimiter limit in timeline.py); voice present for every line (`silencedetect=n=-45dB:d=0.8` shows no silence inside the story).
 3. **Sync:** spot-check 3 frames exactly at sfx times from build/timeline.json (knock → door shakes/rings, etc.).
 4. **Script:** proper English, every `say` pronunciation correct, 35–55 s, hook ≤ 2.5 s, cliffhanger last line, recap line in Part 2/3.
 5. **Cover:** Read cover.jpg — face/creature visible, text readable at small size, no spoiler.

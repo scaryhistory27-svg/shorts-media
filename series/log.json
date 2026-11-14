@@ -18,7 +18,7 @@
      "n": 2,
      "publish": "2026-11-15T16:00:00",
      "youtube_title": "It Knocked Again... Security Saw Something 😨 #shorts",
-     "metricool_id": 428370600,
+     "metricool_id": 428385168,
      "cover": true,
      "metricool_uuid": "-131978828335725952"
     }
@@ -26,5 +26,6 @@
   }
  ],
  "daily_until": "2026-11-24",
- "cadence_after": 2
+ "cadence_after": 2,
+ "voice": "am_michael:0.6,am_onyx:0.4 + mystic fx"
 }
