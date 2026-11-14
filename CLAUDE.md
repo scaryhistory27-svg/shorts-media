@@ -16,6 +16,15 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
 - Part 2 and 3: first line is a 1-sentence recap hook ("Two nights ago, my mom knocked on my door. She lives in Chicago.").
 - Original stories and characters only (no existing IPs), YouTube-safe (creepy, no gore, nothing involving harm to kids).
 
+## Before EVERY episode — learn from the published ones
+1. Metricool `getScheduledPosts` (last 14 days) → YouTube `publicUrl`s of published episodes; Metricool YouTube analytics
+   (`getAnalyticsAvailableMetrics`, then `getAnalyticsDataByMetrics`) → views, average view duration / % viewed, likes, comments, subs per episode.
+2. Adapt the episode you are about to make (write what you changed and why into the run summary):
+   - low % viewed / quick drop → shorter, harder hook (≤ 1.5 s), faster first 5 s, fewer recap words
+   - high views + many comments on a series → keep the same tone; if the 3rd part is next and the story is clearly a hit, you may plan a 4th part (note it in plan.md)
+   - a theme/hook style that clearly beat the others → reuse that style in the next new series
+3. If there is no data yet (videos < 24 h old), say so and continue with the plan.
+
 ## New series (after Part 3 of the previous one) — make it go viral
 Do this research BEFORE writing anything, then decide on your own:
 1. **What works on this channel:** Metricool analytics for YouTube (blogId 8091052, `getAnalyticsAvailableMetrics` then
