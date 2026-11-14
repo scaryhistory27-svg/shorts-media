@@ -13,9 +13,11 @@
 - This repo is PUBLIC: never write personal data, emails, credentials or tokens into any file.
 
 Goal: original animated horror stories for YouTube Shorts, **3 episodes per story**.
-**Cadence:** launch phase = **one episode EVERY DAY up to and including `daily_until` (2026-11-24)**, after that one episode every 2 days.
-The autopilot task fires daily. Each run: next slot = `last_publish` + cadence (1 day while the next slot date ≤ daily_until, else 2 days).
-If that next slot is more than 36 h away, there is nothing to do — reply "skip" in one line and stop (no render, no notification).
+**Cadence = explicit slot schedule in `series/log.json` → "schedule"** (LA time): Nov 16–18: 10:00 + 16:00 (2/day, owner);
+Nov 19–24: 16:00 daily; from Nov 26: every 2 days 16:00. Each run: `python3 pipeline/jobs.py next-slots` lists the EMPTY slots
+due in the next 36 h (max 2) — make one full episode (job + QA + publish) per listed slot, in order. Exit 1 / empty = nothing to make
+→ do only the posting-time check and stop (1–2 lines). Job slot = the slot string, e.g. `--slot 2026-11-16T10:00`.
+Posting-time analytics may shift a slot by ≤ 2 h if clearly better, keeping ≥ 5 h between two videos of the same day.
 Everything is done end-to-end without asking the owner: story → 2D animation → English voice-over → upload → schedule in Metricool.
 
 ## Style (match exactly — the owner likes it)
@@ -118,7 +120,7 @@ Every run, even a "skip" run:
 2. Duplicate guard: `python3 pipeline/jobs.py can-schedule <job>` must print OK, and getScheduledPosts must show no post with the same title;
    then `jobs.py stage <job> scheduling`, call Metricool once, then `stage scheduled --set metricool_id=…` (or `uncertain` if the call failed/timed out).
    Metricool `createScheduledPost`, blogId `8091052`, provider youtube, timezone `America/Los_Angeles`:
-   date = next slot (`last_publish` + cadence, see top) at the **best hour from analytics**: call `getBestTimeToPostByNetwork` (youtube, brandId 8091052,
+   date = the job's slot (see Cadence at top), adjusted only per the Posting-time rule; **best hour from analytics**: call `getBestTimeToPostByNetwork` (youtube, brandId 8091052,
    that day ±0, timezone America/Los_Angeles) and pick the hour with the highest value between 12:00 and 20:00
    (as of Nov 2026 this is 16:00 every day; Tue–Thu strongest). Save it as `publish_time` in log.json.
    If that time is already past, use now + 20 min.

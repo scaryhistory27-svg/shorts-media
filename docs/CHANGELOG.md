@@ -3,3 +3,4 @@
 - 2026-11-14 Part 2 (+ v2 QA fixes, v3 new voice, v4 music). Covers. Analytics-driven timing, QA checklist, daily cadence.
 - 2026-11-14 pipeline/jobs.py state machine, tests/test_jobs.sh, scripts/hooks/*, docs/*, .claude/settings.json hooks.
 - 2026-11-14 Same-session compaction support: PreCompact transcript extract (local), verified push, SessionStart source=compact reload; tests 22/22.
+- 2026-11-14 Slot schedule (2/day Nov 16–18) + jobs.py next-slots; simulated Nov 15–28: 14 videos, 0 duplicates.

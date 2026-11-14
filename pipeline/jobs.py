@@ -14,6 +14,7 @@ Commands:
   jobs.py status [--json]           unfinished jobs + last published (used by the SessionStart hook)
   jobs.py resume                    prints the job to resume and the next stage to run (exit 1 if nothing)
   jobs.py show JOB
+  jobs.py next-slots [--now "YYYY-MM-DDTHH:MM"] [--horizon 36] [--max 2]   empty publish slots (LA time) from series/log.json "schedule"
 Env JOBS_FILE overrides the path (used by tests). Writes are atomic (tmp + os.replace) under an exclusive flock.
 """
 import argparse, contextlib, datetime as dt, fcntl, json, os, sys, tempfile
@@ -137,6 +138,31 @@ def cmd_resume(a):
 
 def cmd_show(a): print(json.dumps(read()["jobs"].get(a.job), ensure_ascii=False, indent=1)); return 0
 
+def slots_from_schedule(sched, start, end):
+    out = []
+    for r in sched:
+        d = dt.date.fromisoformat(r["from"]); last = dt.date.fromisoformat(r["to"]) if r.get("to") else end.date()
+        step = r.get("every_days", 1)
+        while d <= last and d <= end.date():
+            for t in r["times"]:
+                s = dt.datetime.fromisoformat(f"{d}T{t}")
+                if start < s <= end: out.append(s)
+            d += dt.timedelta(days=step)
+    return sorted(set(out))
+
+def cmd_next_slots(a):
+    log = json.load(open(os.environ.get("LOG_FILE", os.path.join(ROOT, "series", "log.json"))))
+    if a.now: now_ = dt.datetime.fromisoformat(a.now)
+    else:
+        from zoneinfo import ZoneInfo
+        now_ = dt.datetime.now(ZoneInfo(log.get("schedule_tz", "America/Los_Angeles"))).replace(tzinfo=None, second=0, microsecond=0)
+    taken = {j["slot"] for j in read()["jobs"].values() if j.get("status") != "failed"}
+    taken |= {j["slot"][:10] + "T16:00" for j in read()["jobs"].values() if len(j["slot"]) == 10}  # legacy date-only slots = 16:00
+    free = [s for s in slots_from_schedule(log["schedule"], now_ + dt.timedelta(hours=1), now_ + dt.timedelta(hours=a.horizon))
+            if s.strftime("%Y-%m-%dT%H:%M") not in taken][: a.max]
+    for s in free: print(s.strftime("%Y-%m-%dT%H:%M"))
+    return 0 if free else 1
+
 def main():
     p = argparse.ArgumentParser(); s = p.add_subparsers(dest="c", required=True)
     n = s.add_parser("new"); n.add_argument("--slot", required=True); n.add_argument("--series", required=True); n.add_argument("--ep", required=True, type=int); n.add_argument("--title")
@@ -147,9 +173,10 @@ def main():
     ss = s.add_parser("status"); ss.add_argument("--json", action="store_true")
     s.add_parser("resume")
     sh = s.add_parser("show"); sh.add_argument("job")
+    ns = s.add_parser("next-slots"); ns.add_argument("--now"); ns.add_argument("--horizon", type=float, default=36); ns.add_argument("--max", type=int, default=2)
     a = p.parse_args()
     return {"new": cmd_new, "stage": cmd_stage, "can-schedule": cmd_can_schedule, "uncertain": cmd_uncertain, "fail": cmd_fail,
-            "status": cmd_status, "resume": cmd_resume, "show": cmd_show}[a.c](a)
+            "status": cmd_status, "resume": cmd_resume, "show": cmd_show, "next-slots": cmd_next_slots}[a.c](a)
 
 if __name__ == "__main__":
     sys.exit(main())

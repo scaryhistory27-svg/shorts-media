@@ -1,3 +1,8 @@
+## 2026-11-14 — 2 videos/day Nov 16–18
+
+- Next run (Nov 15 10:41 LA) must make TWO episodes: Part 3 → 2026-11-16T10:00 and a NEW series Part 1 → 2026-11-16T16:00.
+- Schedule in series/log.json; `jobs.py next-slots`. Simulation Nov 15–28: 14 videos, 0 duplicates.
+
 ## 2026-11-14T22:21:37Z — auto checkpoint before context compaction
 
 ```

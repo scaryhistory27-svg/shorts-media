@@ -1,5 +1,4 @@
 {
- "cadence_days": 1,
  "publish_time": "16:00",
  "timezone": "America/Los_Angeles",
  "last_publish": "2026-11-15T16:00:00",
@@ -25,7 +24,41 @@
    ]
   }
  ],
- "daily_until": "2026-11-24",
- "cadence_after": 2,
- "voice": "am_michael:0.6,am_onyx:0.4 + mystic fx"
+ "voice": "am_michael:0.6,am_onyx:0.4 + mystic fx",
+ "schedule": [
+  {
+   "from": "2026-11-14",
+   "to": "2026-11-15",
+   "times": [
+    "16:00"
+   ],
+   "note": "launch: Part 1 (13:14) + Part 2"
+  },
+  {
+   "from": "2026-11-16",
+   "to": "2026-11-18",
+   "times": [
+    "10:00",
+    "16:00"
+   ],
+   "note": "owner: 2 videos/day for the first days"
+  },
+  {
+   "from": "2026-11-19",
+   "to": "2026-11-24",
+   "times": [
+    "16:00"
+   ],
+   "note": "1 video/day"
+  },
+  {
+   "from": "2026-11-26",
+   "every_days": 2,
+   "times": [
+    "16:00"
+   ],
+   "note": "then every 2 days"
+  }
+ ],
+ "schedule_tz": "America/Los_Angeles"
 }
