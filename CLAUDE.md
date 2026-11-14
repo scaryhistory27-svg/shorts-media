@@ -12,6 +12,8 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
 - Big word-by-word captions (Inter Black), key words highlighted yellow (`y`) or red (`r`).
 - Narrator (chosen by the owner): Kokoro blend `am_michael:0.6,am_onyx:0.4`, speed 0.88, `voice_fx: mystic`
   (lower pitch, warm, close-mic, dark echo) — the defaults in tts.py; don't change them unless the owner asks. Dark drone bed + synced SFX.
+- Quiet mystical music under the voice (owner's request): procedural minor pads + sparse music-box notes + long reverb,
+  auto-ducked under speech (timeline.py `music_bed`, melody seeded per episode). `music_level` in episode.json, default 0.11 — keep it quiet.
 - Line 1 = hook, spoken within ~2.5 s ("Never …", "If you hear … at 3 AM, …"). Short punchy sentences, 12–15 lines.
 - Last line of Part 1/2 = cliffhanger; end card `PART 2?` / `PART 3?`. Part 3 resolves with a twist; end card `THE END?`.
 - Part 2 and 3: first line is a 1-sentence recap hook ("Two nights ago, my mom knocked on my door. She lives in Chicago.").

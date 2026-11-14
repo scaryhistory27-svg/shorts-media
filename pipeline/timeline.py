@@ -63,6 +63,36 @@ def creak():
 FX={"knock":(lambda:knock(),0.55),"knockglass":(lambda:knock(True),0.45),"buzz":(buzz,0.5),"sting":(lambda:boom(3.0),0.6),"hit":(lambda:boom(2.0),0.35),"heart":(heart,0.5),"whoosh":(whoosh,0.5),"creak":(creak,0.35)}
 for e in ev:
     f,g=FX[e["type"]]; add(f(),e["t"]-(0.05 if e["type"]=="sting" else 0),g)
+# ---- quiet mystical music bed (procedural, royalty-free): minor pads + sparse music-box notes + long reverb, ducked under the voice ----
+def music_bed(N,seed):
+    r=np.random.default_rng(seed); out=np.zeros(N); tt=np.arange(N)/SR
+    progs=[[(62,65,69),(58,62,65),(55,58,62),(57,61,64)],[(57,60,64),(53,57,60),(55,59,62),(52,55,59)],[(62,65,69),(60,64,67),(58,62,65),(57,60,64)]]
+    prog=progs[r.integers(len(progs))]; L=8.0; f=lambda m:440*2**((m-69)/12)
+    for ci in range(int(N/SR/L)+2):
+        ch=prog[ci%len(prog)]; t0=ci*L; i0=int(max(0,t0-1.5)*SR); i1=min(N,int((t0+L+2.5)*SR))
+        if i0>=N: break
+        t=tt[i0:i1]-t0; env=np.clip((t+1.5)/2.5,0,1)*np.clip((L+2.5-t)/2.5,0,1)
+        for m in ch:
+            for det in (-0.12,0.12):
+                fr=f(m-12)*2**(det/12); w=sum(np.sin(2*np.pi*fr*n*t+n)/n**1.6 for n in range(1,7))
+                out[i0:i1]+=0.05*env*w*(0.8+0.2*np.sin(2*np.pi*0.13*t+m))
+        out[i0:i1]+=0.06*env*np.sin(2*np.pi*f(ch[0]-24)*t)
+    scale=[62,65,67,69,72,74,77,79,81]; t=1.0
+    while t<N/SR-2:
+        m=scale[r.integers(len(scale))]+12; i0=int(t*SR); n=min(N-i0,int(3*SR)); x=np.arange(n)/SR
+        out[i0:i0+n]+=0.07*np.exp(-x*1.6)*(np.sin(2*np.pi*f(m)*x)+0.3*np.sin(2*np.pi*f(m)*2.01*x)*np.exp(-x*3)+0.15*np.sin(2*np.pi*f(m)*3.02*x)*np.exp(-x*5))
+        t+=r.choice([1.5,2.0,2.5,3.0,4.0])
+    n=int(3.5*SR); ir=r.standard_normal(n)*np.exp(-np.arange(n)/SR*1.8); ir[0]=1.5
+    M=1<<int(np.ceil(np.log2(N+n))); wet=np.fft.irfft(np.fft.rfft(out,M)*np.fft.rfft(ir,M),M)[:N]
+    wet/=np.abs(wet).max()+1e-9; dry=out/(np.abs(out).max()+1e-9)
+    return 0.45*dry+0.55*wet
+vtrack=np.zeros(N)
+for i,s in enumerate(segs):
+    v,_=sf.read(f"{B}/l{i:02d}.wav"); j0=int(s["s"]*SR); vtrack[j0:j0+len(v)]+=v[:N-j0]
+venv=np.convolve(np.abs(vtrack),np.ones(int(0.25*SR))/(0.25*SR),mode="same"); venv/=venv.max()+1e-9
+duck=1-0.55*np.clip(venv*3,0,1)
+mus=music_bed(N,__import__("zlib").crc32((ep.get("series","")+str(ep.get("episode",0))).encode())%10000)
+mix+=ep.get("music_level",0.11)*mus*duck*np.clip(ts/1.5,0,1)*np.clip((total-ts)/1.5,0,1)
 for i,s in enumerate(segs):
     v,_=sf.read(f"{B}/l{i:02d}.wav"); add(v*0.95,s["s"])
 mix=mix[:int(total*SR)]; mix/=np.abs(mix).max(); mix=np.tanh(mix*2.2)/np.tanh(2.2); mix/=np.abs(mix).max()/0.95
