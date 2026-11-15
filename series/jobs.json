@@ -225,6 +225,41 @@
    "metricool_uuid": "-6093234500372314366",
    "publish": "2026-11-15T15:30:00-08:00",
    "thumbnail": "frame 31908ms"
+  },
+  "2026-11-16T09:30-the-missing-floor-ep2": {
+   "id": "2026-11-16T09:30-the-missing-floor-ep2",
+   "slot": "2026-11-16T09:30",
+   "series": "the-missing-floor",
+   "episode": 2,
+   "title": "The Elevator Never Left The Lobby. I Did. 😨 #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-15T18:49:51Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-15T18:50:54Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-15T18:50:54Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-15T18:54:02Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-15T18:54:02Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-15T18:49:51Z",
+   "updated": "2026-11-15T18:54:02Z"
   }
  }
 }

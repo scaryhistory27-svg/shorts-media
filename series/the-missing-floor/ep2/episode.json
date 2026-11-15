@@ -1,0 +1,169 @@
+{
+ "series": "The Missing Floor",
+ "episode": 2,
+ "title": "THE MISSING FLOOR · PART 2",
+ "stamp": "DAY 2 · 8:12 AM",
+ "endTitle": "PART 3?",
+ "endSub": "Don't take the elevator.",
+ "music_level": 0.12,
+ "youtube": {
+  "title": "The Elevator Never Left The Lobby. I Did. 😨 #shorts",
+  "description": "Part 2. Security played the camera from 4:47… 📹 Part 3? 👀\n#horrorstory #scary #creepy #elevator #cctv #shorts",
+  "tags": [
+   "horror story",
+   "scary",
+   "creepy",
+   "elevator",
+   "cctv",
+   "scary story",
+   "horror animation",
+   "floor 13"
+  ]
+ },
+ "cover": {
+  "seg": 10,
+  "frac": 0.6,
+  "top": "THE MISSING FLOOR",
+  "lines": [
+   "THE LAST NAME",
+   "WAS MINE."
+  ],
+  "sub": "PART 2"
+ },
+ "lines": [
+  {
+   "scene": "mirrorhook",
+   "text": "My reflection is still on 13.",
+   "say": "My reflection is still on thirteen.",
+   "hl": {
+    "reflection": "r",
+    "still": "y",
+    "13.": "r"
+   },
+   "speed": 0.95,
+   "gap": 0.35,
+   "sfx": [
+    {
+     "at": "start",
+     "type": "hit"
+    }
+   ]
+  },
+  {
+   "scene": "display13",
+   "text": "Yesterday, my elevator stopped on a floor that doesn't exist.",
+   "hl": {
+    "floor": "y",
+    "doesn't": "r",
+    "exist.": "r"
+   }
+  },
+  {
+   "scene": "mirror",
+   "text": "This morning, my bathroom mirror was empty.",
+   "hl": {
+    "mirror": "y",
+    "empty.": "r"
+   }
+  },
+  {
+   "scene": "lobby",
+   "text": "So I went to building security.",
+   "hl": {
+    "security.": "y"
+   }
+  },
+  {
+   "scene": "cctv",
+   "text": "They played the camera from 4:47.",
+   "say": "They played the camera from four forty-seven.",
+   "hl": {
+    "camera": "y",
+    "4:47.": "r"
+   }
+  },
+  {
+   "scene": "cctv",
+   "text": "My elevator never left the lobby.",
+   "hl": {
+    "never": "r",
+    "lobby.": "r"
+   },
+   "gap": 0.5
+  },
+  {
+   "scene": "cctvstand",
+   "text": "For twenty-six minutes, I just stood there.",
+   "hl": {
+    "twenty-six": "r",
+    "stood": "y"
+   }
+  },
+  {
+   "scene": "logbook",
+   "text": "Then the guard showed me an old logbook.",
+   "hl": {
+    "logbook.": "y"
+   },
+   "sfx": [
+    {
+     "word": "logbook.",
+     "type": "creak"
+    }
+   ]
+  },
+  {
+   "scene": "logbook",
+   "text": "Car two. Stops at thirteen. Every day at 4:47.",
+   "say": "Car two. Stops at thirteen. Every day at four forty-seven.",
+   "hl": {
+    "thirteen.": "r",
+    "4:47.": "r"
+   }
+  },
+  {
+   "scene": "names",
+   "text": "Below it, a list of people who stepped out.",
+   "hl": {
+    "stepped": "r",
+    "out.": "r"
+   }
+  },
+  {
+   "scene": "names",
+   "text": "The last name was mine.",
+   "hl": {
+    "last": "y",
+    "mine.": "r"
+   },
+   "sfx": [
+    {
+     "word": "mine.",
+     "type": "sting"
+    }
+   ],
+   "gap": 0.6
+  },
+  {
+   "scene": "alarm",
+   "text": "And my phone just set an alarm. For 4:47.",
+   "say": "And my phone just set an alarm. For four forty-seven.",
+   "hl": {
+    "alarm.": "y",
+    "4:47.": "r"
+   },
+   "stamp": "DAY 2 · 4:31 PM",
+   "sfx": [
+    {
+     "word": "alarm.",
+     "type": "buzz"
+    },
+    {
+     "word": "alarm.",
+     "type": "buzz",
+     "offset": 0.35
+    }
+   ]
+  }
+ ]
+}
