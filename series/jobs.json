@@ -232,7 +232,7 @@
    "series": "the-missing-floor",
    "episode": 2,
    "title": "The Elevator Never Left The Lobby. I Did. 😨 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -254,12 +254,28 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-15T18:54:02Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-15T18:54:20Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-15T18:54:20Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-15T18:54:44Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-15T18:49:51Z",
-   "updated": "2026-11-15T18:54:02Z"
+   "updated": "2026-11-15T18:54:44Z",
+   "metricool_id": 429169602,
+   "metricool_uuid": "1855175848006732767",
+   "publish": "2026-11-16T09:30:00-08:00",
+   "thumbnail": "frame 41059ms"
   }
  }
 }

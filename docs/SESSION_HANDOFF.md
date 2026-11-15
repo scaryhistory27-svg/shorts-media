@@ -1,3 +1,8 @@
+## 2026-11-15 10:55 LA — autopilot run: Part 3 of 2 AM Knock published; The Missing Floor Parts 1–2 scheduled
+
+- New series chosen: elevator stops on 13 (score 43/50). Times: Sun 15:30 (peak 16:00=5648), Mon 09:30 (peak 10:00=7794), Mon 15:30 next (peak 16:00=9351).
+- Frame thumbnails work. Analytics API returned no rows yet. Engine: walker freeze pose added.
+
 ## 2026-11-15 — Part 3 made manually (owner: publish 22:15 Yerevan)
 
 - Part 3 scheduled 10:15 LA, cover frame 23.7 s. Schedule Nov 15: 10:15 + 16:00 (new series Part 1). Engine caption spacing 38, limiter 0.6.

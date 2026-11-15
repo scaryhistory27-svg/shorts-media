@@ -1,13 +1,12 @@
 # CURRENT STATE (keep short — loaded at every session start)
-_Updated: 2026-11-14 (setup of memory/recovery system)_
+_Updated: 2026-11-15 10:55 LA (autopilot run)_
 
-- **Channel:** original 2D animated horror YouTube Shorts in English. Owner talks Russian (reply in Russian).
-- **Scheduler:** ONE claude.ai scheduled task "Horror Shorts autopilot" (trig_019AGWEVNZ2pSkvrmwq8VS2V), daily 10:41 America/Los_Angeles,
-  fires into the persistent session session_01CUQD3p3bF34ksnGtNr1S1d. Do not create another schedule.
-- **Publishing:** Metricool (blogId 8091052) → YouTube, `autoPublish`. Video is hosted temporarily in `videos/` of this public repo.
-- **Cadence:** Nov 16–17 2/day, Nov 18–22 1/day, from Nov 23 random mix of 1-day / 2-day gaps (series/log.json; `jobs.py next-slots`); hour chosen per video by the autopilot.
-- **Series in progress:** The 2 AM Knock — Part 1 published (https://www.youtube.com/shorts/6mF-t1ohbOQ),
-  Part 2 published 2026-11-14 16:39 LA (https://www.youtube.com/shorts/ippN5Ox5E4A; custom thumbnail rejected — channel not verified), **Part 3 (finale) scheduled 2026-11-15 10:15 LA** (Metricool 429113298). Series complete → next = NEW series Part 1 at 2026-11-15T16:00.
-- **Voice (from 2026-11-15):** "storyteller" — Kokoro am_michael 0.45 + am_onyx 0.55, speed 0.80, dry close-mic FX, 0.5 s pauses. **Music:** quiet procedural mystical bed, ducked.
-- **Production state machine:** `python3 pipeline/jobs.py status|resume` (series/jobs.json). Always use it — it blocks duplicate scheduling.
-- **Next actionable step:** autopilot (10:41 LA) makes NEW series Part 1 → 2026-11-15T16:00 and Part 2 → 2026-11-16T10:00.
+- **Channel:** original 2D animated horror/mystery YouTube Shorts in English. Owner talks Russian (reply in Russian).
+- **Scheduler:** ONE claude.ai scheduled task "Horror Shorts autopilot" (trig_019AGWEVNZ2pSkvrmwq8VS2V), daily 10:41 LA, fires into this persistent session.
+- **Publishing:** Metricool (blogId 8091052) → YouTube. Thumbnail mode "frame" (videoCoverMilliseconds) WORKS; custom thumbnails rejected (channel not verified).
+- **Cadence:** Nov 16–17 2/day, Nov 18–22 1/day, from Nov 23 random 1-day/2-day gaps; hour chosen per video (slot_overrides in log.json).
+- **Done:** The 2 AM Knock 1–3 published (finale https://www.youtube.com/shorts/Chpdw_CMUrU).
+- **Current series:** The Missing Floor (plan: series/the-missing-floor/plan.md) — Part 1 scheduled 2026-11-15 15:30 LA (429163717),
+  Part 2 scheduled 2026-11-16 09:30 LA (429169602). **Next: Part 3 → slot 2026-11-16T15:30** (next run, Nov 16 10:41 LA).
+- **Voice:** "storyteller" blend + 0.5 s pauses; quiet music. **Animation:** walker/crawler/moveAlong/freeze in engine.js — every scene must move.
+- **Next actionable step:** next autopilot run makes Missing Floor Part 3 (genre-flip twist, end card THE END?), then a new series.

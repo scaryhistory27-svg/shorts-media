@@ -6,3 +6,4 @@
 - 2026-11-14 Slot schedule (2/day Nov 16–18) + jobs.py next-slots; simulated Nov 15–28: 14 videos, 0 duplicates.
 - 2026-11-15 New default voice 'storyteller' (tts.py) + 0.5 s default gap (timeline.py). Tested on Part 2 script: 49.5 s, −14.2 LUFS.
 - 2026-11-15 engine.js: walker() walk cycle, crawler(), moveAlong(), life helpers; tests/anim_demo.
+- 2026-11-15 The Missing Floor Parts 1–2 (first fully animated episodes); walker freeze option.
