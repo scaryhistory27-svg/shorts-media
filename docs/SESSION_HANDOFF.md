@@ -1,3 +1,7 @@
+## 2026-11-15 — genres + rewatch mechanics
+
+- Next NEW series (Nov 16) must pick from ≥3 genres; every episode ≥2 rewatch hooks (clue/loop/open question/twist). Part 3 of 2 AM Knock: add a hidden clue + loop to Part 1.
+
 ## 2026-11-15 — new voice 'storyteller' (owner chose B)
 
 - Defaults changed in tts.py (voice, speed 0.80, fx) and timeline.py (gap 0.5). Part 3 is the first episode with it. Keep scripts 11–13 lines.

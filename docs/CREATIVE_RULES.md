@@ -6,3 +6,8 @@
 - 3 parts per story; Part 2/3 open with a 1-sentence recap hook.
 - YouTube-safe: creepy, no gore, nothing about harm to children; no existing IP.
 - Titles ≤ 60 chars: hook as promise + emoji + #shorts.
+
+## Genres (from 2026-11-15)
+Horror, mystic/supernatural, unexplained mystery, time & reality bends, eerie "documented" fiction — rotate between series.
+## Rewatch mechanics (≥ 2 per episode)
+Hidden early clue · loop ending · open question for comments · recontextualizing twist · occasional spotting challenge.

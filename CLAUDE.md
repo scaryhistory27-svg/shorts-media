@@ -44,6 +44,23 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
    - a theme/hook style that clearly beat the others → reuse that style in the next new series
 3. If there is no data yet (videos < 24 h old), say so and continue with the plan.
 
+## Genres & rewatch mechanics (owner 2026-11-15: not only horror — mystical, gripping, "watch it again and again")
+Rotate genres across series (never 2 pure-horror series in a row once analytics allow comparison):
+- **Horror** (rules horror, something wearing a familiar face, night-shift jobs, home invasion by the impossible).
+- **Mystic / supernatural** (curses, omens, doppelgängers, a house that remembers, dreams that come true, old photos that change).
+- **Unexplained mystery** (a stranger who knows the future, a town missing from maps, a message from yourself, a number that keeps calling).
+- **Time & reality bends** (time loops, a minute that repeats, a door that leads to yesterday, déjà vu with a cost).
+- **Eerie true-feeling "documented" tales** (found notes, CCTV logs, voicemails) — always fiction, never claim real events or real people.
+Every episode must contain at least TWO rewatch hooks:
+1. **Hidden clue** placed early (a reflection, a number, a background figure for 0.3–0.6 s) that only makes sense after the twist.
+2. **Loop ending** — the last line/shot connects to the first one so the Short flows into itself.
+3. **Open question** in the last 2 s that viewers argue about in comments (who/what was it? which one is real?).
+4. **Twist that recontextualizes** the opening (viewers rewatch to see it with new eyes).
+5. **Counting / spotting challenge** occasionally: "Did you notice how many times she blinked?" (only if a clue really is there).
+Plan.md must list the clue(s) for each part and where they appear (time + scene). Captions must NOT spell out the hidden clue.
+Keep YouTube-safe and original; mystery/mystic series use the same visual style, voice and music (music_level may go up to 0.14 for mystic).
+Title formulas that pull clicks without lying: "I Found A Photo Of Me From 1962", "My Clock Stopped At 3:07 Again", "Don't Answer If It's Your Number".
+
 ## New series (after Part 3 of the previous one) — make it go viral
 Do this research BEFORE writing anything, then decide on your own:
 1. **What works on this channel:** Metricool analytics for YouTube (blogId 8091052, `getAnalyticsAvailableMetrics` then
@@ -52,9 +69,9 @@ Do this research BEFORE writing anything, then decide on your own:
 2. **What works on Shorts right now:** WebSearch (load with ToolSearch) for currently trending horror / creepy story Shorts
    formats and topics (e.g. "viral horror shorts this week", "trending scary story shorts", rules-horror, liminal spaces,
    "if you see X, don't Y", phone/text horror, night-shift jobs, AI/smart-home horror). Take formats and themes, never copy a story.
-3. **Pick the premise** from 5 candidates, scored 1–10 on: hook strength in the first 2 s, relatable everyday setting
-   (home, phone, elevator, job, family), clear rule or "never do this", a twist that makes people rewatch/comment,
-   room for 2 cliffhangers. Must be different from all previous series in `series/log.json`.
+3. **Pick the premise** from 5 candidates FROM AT LEAST 3 DIFFERENT GENRES (see Genres), scored 1–10 on: hook strength in the first 2 s,
+   relatable everyday setting (home, phone, elevator, job, family), clear rule or "never do this" / impossible fact,
+   rewatch potential (hidden clue + loop + open question), a twist that makes people rewatch/comment, room for 2 cliffhangers. Must be different from all previous series in `series/log.json`.
 4. **Series title**: 2–5 words, mysterious, searchable (e.g. "The 2 AM Knock", "Room 9 Rule"). Write it into plan.md with
    the scores and the reason for the choice.
 5. **Hook rules (first 2 s decide everything):** first line is a direct warning or impossible fact addressed to the viewer
