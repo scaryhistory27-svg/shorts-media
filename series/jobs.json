@@ -63,8 +63,8 @@
    "series": "the-2am-knock",
    "episode": 2,
    "title": "It Knocked Again... Security Saw Something 😨 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -101,15 +101,22 @@
     {
      "stage": "scheduled",
      "at": "2026-11-14T22:39:21Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-15T00:44:28Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-14T22:10:28Z",
-   "updated": "2026-11-14T22:39:21Z",
+   "updated": "2026-11-15T00:44:28Z",
    "metricool_id": 428415766,
    "metricool_uuid": "-131978828335725952",
-   "publish": "2026-11-14T16:39:00-08:00"
+   "publish": "2026-11-14T16:39:00-08:00",
+   "youtube_id": "ippN5Ox5E4A",
+   "youtube_url": "https://www.youtube.com/shorts/ippN5Ox5E4A",
+   "warning": "custom thumbnail rejected by YouTube (channel not verified)"
   }
  }
 }

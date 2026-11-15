@@ -125,8 +125,12 @@ Every run, even a "skip" run:
    (as of Nov 2026 this is 16:00 every day; Tue–Thu strongest). Save it as `publish_time` in log.json.
    If that time is already past, use now + 20 min.
    youtubeData: `{title, type:"short", privacy:"public", madeForKids:false, category:"FILM_ANIMATION", tags, isAiGeneratedContent:false}`,
-   text = description with hashtags, `autoPublish:true`, `videoThumbnailUrl` = the cover URL.
-3. When the response's media and videoThumbnailUrl are on static.metricool.com, `git rm` both files from `videos/`.
+   text = description with hashtags, `autoPublish:true`.
+   **Thumbnail:** YouTube rejected the custom cover on 2026-11-14 ("Could not upload video thumbnail" — the channel is not verified,
+   custom thumbnails disabled). Until `series/log.json` has `"custom_thumbnails": true`, do NOT send `videoThumbnailUrl`;
+   send `videoCoverMilliseconds` = the cover frame time (cover.seg/frac from timeline.json, in ms) instead and still make cover.jpg
+   (send it to the owner). Metricool status ERROR with detailedStatus "published with some warnings" + a publicUrl = PUBLISHED.
+3. When the response's media (and videoThumbnailUrl, if sent) are on static.metricool.com, `git rm` the files from `videos/`.
 4. Update `series/log.json` (episode, publish time, metricool id, `last_publish`), commit + push to main.
 5. **Report to the owner (mandatory):** send the final video AND the cover with the `SendUserFile` tool
    (files: `$E/build/final.mp4`, `$E/build/cover.jpg`; status "proactive"; caption = the exact YouTube title),

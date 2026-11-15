@@ -1,3 +1,8 @@
+## 2026-11-15 — Part 2 published with thumbnail warning
+
+- https://www.youtube.com/shorts/ippN5Ox5E4A — Metricool status ERROR only because the custom thumbnail was rejected (channel not verified). Video is live.
+- Autopilot: no videoThumbnailUrl until custom_thumbnails=true; use videoCoverMilliseconds.
+
 ## 2026-11-14 — Nov 15 16:00 slot added (Part 3)
 
 - Next run Nov 15 10:41 LA: Part 3 → 2026-11-15T16:00 (FIRST, it is due the same day), new series Part 1 → 2026-11-16T10:00.

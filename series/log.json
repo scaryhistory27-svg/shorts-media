@@ -19,7 +19,9 @@
      "youtube_title": "It Knocked Again... Security Saw Something 😨 #shorts",
      "metricool_id": 428415766,
      "cover": true,
-     "metricool_uuid": "-131978828335725952"
+     "metricool_uuid": "-131978828335725952",
+     "youtube_url": "https://www.youtube.com/shorts/ippN5Ox5E4A",
+     "note": "published; custom thumbnail rejected"
     }
    ]
   }
@@ -69,5 +71,6 @@
    "note": "then every 2 days"
   }
  ],
- "schedule_tz": "America/Los_Angeles"
+ "schedule_tz": "America/Los_Angeles",
+ "custom_thumbnails": false
 }
