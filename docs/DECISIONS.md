@@ -22,3 +22,4 @@
 - 2026-11-15 Owner: plots must differ (e.g. stuck in an elevator — never do X), not 2 AM every time → situation bank + no-repeat rule + story-specific header stamp.
 - 2026-11-15 Owner: after each post decide the best time for the next one → log.json slot_overrides honoured by jobs.py next-slots.
 - 2026-11-15 Owner: report = video + cover + title + why this time (+ next post time); no video length.
+- 2026-11-15 Owner: concrete report on everything (what/why) → fixed report template with real numbers in CLAUDE.md.

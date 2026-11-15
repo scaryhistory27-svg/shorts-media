@@ -197,6 +197,22 @@ Every run, even a "skip" run:
    (files: `$E/build/final.mp4`, `$E/build/cover.jpg`; status "proactive"; caption = the exact YouTube title),
    then a short Russian summary: YouTube title, description, publish time (LA + Yerevan) and WHY this time, next post time and why,
    QA result (pass/what was fixed), Metricool planner link. Do NOT mention the video length/duration (owner doesn't need it).
+   **Report template (owner wants a concrete "what, why, based on what" report — use it every time, real numbers, no vague words):**
+   ```
+   🎬 <YouTube title>
+   📝 Описание: <description>
+   🕓 Выход: <date> <HH:MM> Лос-Анджелес / <HH:MM> Ереван
+      Почему это время: <score of chosen hour vs. next-best hour from getBestTimeToPostByNetwork; own-results data if ≥5 videos; spacing from the previous post>
+   📖 История: <series>, часть <n>/3 — <1 sentence what happens>
+      Почему так: <genres + situation + why chosen (scores) for a new series; for Part 2/3: which cliffhanger/clue it pays off>
+      Крючок в начале: "<line 1>" — <pattern used>
+      Приёмы для пересмотра: <which clue/loop/open question and where>
+   📊 Что взял из статистики: <views / % viewed / likes per previous video with numbers> → <what was changed because of it> (or "данных пока нет — видео < 24 ч")
+   ✅ Проверка качества: <pass; list what was checked and what was fixed>
+   🖼 Обложка: <method custom/frame/none> — <result of the previous one>
+   ⏭ Следующий пост: <date HH:MM LA / Ереван> — <why>
+   🔗 Metricool: <plannerUrl> · Прошлое видео: <YouTube link>
+   ```
    After it is published, the YouTube link can be found with getScheduledPosts (`publicUrl`) — include the previous episode's link in the summary.
 
 Git commits as `scaryhistory27-svg <scaryhistory27-svg@users.noreply.github.com>`. Push directly to `main`.
