@@ -1,3 +1,7 @@
+## 2026-11-15 — automatic thumbnail fallback + probe
+
+- log.json thumbnail.mode=frame now (Part 3 will test videoCoverMilliseconds). Probe custom cover every 3rd video.
+
 ## 2026-11-15 — Part 2 published with thumbnail warning
 
 - https://www.youtube.com/shorts/ippN5Ox5E4A — Metricool status ERROR only because the custom thumbnail was rejected (channel not verified). Video is live.

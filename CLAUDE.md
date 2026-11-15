@@ -126,10 +126,18 @@ Every run, even a "skip" run:
    If that time is already past, use now + 20 min.
    youtubeData: `{title, type:"short", privacy:"public", madeForKids:false, category:"FILM_ANIMATION", tags, isAiGeneratedContent:false}`,
    text = description with hashtags, `autoPublish:true`.
-   **Thumbnail:** YouTube rejected the custom cover on 2026-11-14 ("Could not upload video thumbnail" — the channel is not verified,
-   custom thumbnails disabled). Until `series/log.json` has `"custom_thumbnails": true`, do NOT send `videoThumbnailUrl`;
-   send `videoCoverMilliseconds` = the cover frame time (cover.seg/frac from timeline.json, in ms) instead and still make cover.jpg
-   (send it to the owner). Metricool status ERROR with detailedStatus "published with some warnings" + a publicUrl = PUBLISHED.
+   **Thumbnail (automatic, owner's request "if YouTube rejects the cover, make another and set it again"):**
+   - Status lives in `series/log.json` → `thumbnail`: {"mode": "custom"|"frame"|"none", "fails": n, "probe_every": 3, "since_probe": n}.
+   - mode "custom" → send `videoThumbnailUrl` (cover.jpg). mode "frame" → send `videoCoverMilliseconds` (cover.seg/frac time in ms).
+     mode "none" → send neither (YouTube picks a frame; the first frame must already be striking).
+   - CHECK every run (step "recovery"): for each post published since the last run read `detailedStatus`. If it contains
+     "Could not upload video thumbnail" → record the warning in the job, `fails += 1`, and switch mode: custom → frame → none.
+     If a post with custom/frame published WITHOUT that warning → keep that mode (and set mode "custom" if it was a probe).
+   - PROBE: while mode ≠ "custom", every `probe_every`-th video try `videoThumbnailUrl` with a NEW, different cover
+     (another scary frame + different 2-line text) — this detects automatically when the channel gets verified.
+   - An already-published video's thumbnail cannot be changed via Metricool: send the owner the new cover.jpg and say
+     he can set it in the YouTube app (Short → Edit → Thumbnail) once custom thumbnails work.
+   - Metricool status ERROR with detailedStatus "published with some warnings" + a publicUrl = PUBLISHED (not a failure).
 3. When the response's media (and videoThumbnailUrl, if sent) are on static.metricool.com, `git rm` the files from `videos/`.
 4. Update `series/log.json` (episode, publish time, metricool id, `last_publish`), commit + push to main.
 5. **Report to the owner (mandatory):** send the final video AND the cover with the `SendUserFile` tool

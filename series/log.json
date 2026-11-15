@@ -72,5 +72,11 @@
   }
  ],
  "schedule_tz": "America/Los_Angeles",
- "custom_thumbnails": false
+ "thumbnail": {
+  "mode": "frame",
+  "fails": 1,
+  "probe_every": 3,
+  "since_probe": 0,
+  "last_error": "2026-11-14 Part 2: Could not upload video thumbnail (channel not verified)"
+ }
 }
