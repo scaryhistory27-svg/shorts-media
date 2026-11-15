@@ -25,3 +25,4 @@
 - 2026-11-15 Owner: concrete report on everything (what/why) → fixed report template with real numbers in CLAUDE.md.
 - 2026-11-15 Owner: Part 3 at 22:15 Yerevan (10:15 LA) and the new series' Part 1 the same day → Nov 15 slots 10:15 + 16:00 (Sunday best hour 16:00).
 - 2026-11-15 Owner schedule: Nov 15 Part 3 + new Part 1 (best hour), Nov 16–17 2/day, Nov 18–22 1/day, from Nov 24 every 2 days.
+- 2026-11-15 Owner: don't fix on 16:00 — autopilot decides each video's hour from Metricool activity + own results + web research, any hour 07–22 LA, ≥5 h apart; schedule only fixes the count per day.

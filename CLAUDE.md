@@ -18,7 +18,8 @@ Part 1 (autopilot picks the best hour, default 16:00); Nov 16–17: 10:00 + 16:0
 2 days 16:00. Each run: `python3 pipeline/jobs.py next-slots` lists the EMPTY slots
 due in the next 36 h (max 2) — make one full episode (job + QA + publish) per listed slot, in order. Exit 1 / empty = nothing to make
 → do only the posting-time check and stop (1–2 lines). Job slot = the slot string, e.g. `--slot 2026-11-16T10:00`.
-Posting-time analytics may shift a slot by ≤ 2 h if clearly better, keeping ≥ 5 h between two videos of the same day.
+**Slot times are only defaults (owner: "don't fix on 4 PM") — the schedule fixes HOW MANY videos per day; the autopilot decides the
+exact hour for every video itself** (see "Posting time"), any hour 07:00–22:00 LA, ≥ 5 h between two videos of the same day.
 Everything is done end-to-end without asking the owner: story → 2D animation → English voice-over → upload → schedule in Metricool.
 
 ## Style (match exactly — the owner likes it)
@@ -137,13 +138,20 @@ node pipeline/render.js $E cover               # -> $E/build/cover.jpg (thumbnai
 without spoiling it (e.g. "IT WASN'T" / "MY MOM"). Pick a frame with a face/creature clearly visible.
 Then check a few frames of final.mp4 (ffmpeg -ss … -frames:v 1) before publishing.
 
-## Posting time — re-check EVERY day (owner's request: post when it will take off)
+## Posting time — re-check EVERY day (owner's request: post when it will take off; NOT always 16:00)
+For EVERY video decide the hour fresh, combining 3 sources (write the numbers in the report):
+a) Metricool `getBestTimeToPostByNetwork` for that exact weekday (audience activity per hour);
+b) the channel's own results: views/retention in the first 24 h by publish hour (weight grows with the number of videos, decisive from ≥ 5);
+c) WebSearch (load with ToolSearch) once per run: current best times to post YouTube Shorts for a US audience on that weekday /
+   for horror-mystery content (e.g. "best time to post YouTube Shorts <weekday> 2026"). Treat blogs as weak evidence.
+Choose the hour that maximises expected first-hours views: activity peak (a) adjusted by (b); use (c) to break ties or when (a)/(b) are flat.
+Shorts get their first push in the first 1–3 h, so post ~30–60 min BEFORE the activity peak rather than at its end.
 Every run, even a "skip" run:
 1. `getBestTimeToPostByNetwork` (youtube, brandId 8091052, America/Los_Angeles) for the next 3 days → best hour per day
    between 12:00 and 20:00 (audience activity of the channel's viewers).
 2. Own results: for every published episode take its publish hour and views/retention after 24 h (Metricool analytics).
    Once there are ≥ 5 published videos, if some hour clearly performs better than the activity chart suggests, prefer it.
-3. Re-check every PENDING post (getScheduledPosts): if a better hour exists on its day (≥ 10 % higher score), move it
+3. Re-check every PENDING post (getScheduledPosts): if a better hour exists on its day (≥ 10 % higher expected views), move it
    with updateScheduledPost (keep everything else identical; never move it into the past or less than 1 h from now).
 4. Weekend (Sat/Sun) activity is about half of weekdays: still post, but at the best weekend hour.
 5. Report in the summary: chosen hour, its score vs. the old hour, and any post that was moved.
@@ -175,8 +183,8 @@ Every run, even a "skip" run:
    then `jobs.py stage <job> scheduling`, call Metricool once, then `stage scheduled --set metricool_id=…` (or `uncertain` if the call failed/timed out).
    Metricool `createScheduledPost`, blogId `8091052`, provider youtube, timezone `America/Los_Angeles`:
    date = the job's slot (see Cadence at top), adjusted only per the Posting-time rule; **best hour from analytics**: call `getBestTimeToPostByNetwork` (youtube, brandId 8091052,
-   that day ±0, timezone America/Los_Angeles) and pick the hour with the highest value between 12:00 and 20:00
-   (as of Nov 2026 this is 16:00 every day; Tue–Thu strongest). Save it as `publish_time` in log.json.
+   that day ±0, timezone America/Los_Angeles) and decide per the Posting-time section (any hour 07:00–22:00)
+   (Nov 2026 data: peak ~16:00 LA, Tue–Thu strongest — but re-decide every time). Save it as `publish_time` in log.json.
    If that time is already past, use now + 20 min.
    youtubeData: `{title, type:"short", privacy:"public", madeForKids:false, category:"FILM_ANIMATION", tags, isAiGeneratedContent:false}`,
    text = description with hashtags, `autoPublish:true`.
