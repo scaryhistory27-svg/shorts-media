@@ -14,8 +14,8 @@
 
 Goal: original animated horror stories for YouTube Shorts, **3 episodes per story**.
 **Cadence = explicit slot schedule in `series/log.json` → "schedule"** (LA time, owner 2026-11-15): Nov 15: Part 3 10:15 + new series
-Part 1 (autopilot picks the best hour, default 16:00); Nov 16–17: 10:00 + 16:00 (2/day); Nov 18–22: 16:00 daily; from Nov 24: every
-2 days 16:00. Each run: `python3 pipeline/jobs.py next-slots` lists the EMPTY slots
+Part 1 (autopilot picks the best hour, default 16:00); Nov 16–17: 10:00 + 16:00 (2/day); Nov 18–22: 1 video/day; from Nov 23: MIXED —
+randomly 1 video/day or 1 video every 2 days (`mixed_days` in log.json, deterministic per date). Each run: `python3 pipeline/jobs.py next-slots` lists the EMPTY slots
 due in the next 36 h (max 2) — make one full episode (job + QA + publish) per listed slot, in order. Exit 1 / empty = nothing to make
 → do only the posting-time check and stop (1–2 lines). Job slot = the slot string, e.g. `--slot 2026-11-16T10:00`.
 **Slot times are only defaults (owner: "don't fix on 4 PM") — the schedule fixes HOW MANY videos per day; the autopilot decides the

@@ -71,12 +71,15 @@
    "note": "owner: then 5 days, 1 video/day"
   },
   {
-   "from": "2026-11-24",
-   "every_days": 2,
+   "from": "2026-11-23",
+   "mixed_days": [
+    1,
+    2
+   ],
    "times": [
     "16:00"
    ],
-   "note": "owner: then 1 video every 2 days"
+   "note": "owner: after the 5 daily days, randomly 1 video/day or 1 video every 2 days (deterministic per date)"
   }
  ],
  "schedule_tz": "America/Los_Angeles",

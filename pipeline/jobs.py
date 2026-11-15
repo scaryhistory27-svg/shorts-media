@@ -147,7 +147,12 @@ def slots_from_schedule(sched, start, end):
             for t in r["times"]:
                 s = dt.datetime.fromisoformat(f"{d}T{t}")
                 if start < s <= end: out.append(s)
-            d += dt.timedelta(days=step)
+            if r.get("mixed_days"):   # owner: random mix of 1-day / 2-day gaps — deterministic per date so every run agrees
+                import hashlib
+                opts = r["mixed_days"]; h = int(hashlib.sha256(f"gap-{d}".encode()).hexdigest(), 16)
+                d += dt.timedelta(days=opts[h % len(opts)])
+            else:
+                d += dt.timedelta(days=step)
     return sorted(set(out))
 
 def cmd_next_slots(a):
