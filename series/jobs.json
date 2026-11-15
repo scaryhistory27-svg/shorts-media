@@ -274,16 +274,20 @@
     {
      "stage": "scheduled",
      "at": "2026-11-15T19:09:31Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-15T19:11:02Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-15T18:49:51Z",
-   "updated": "2026-11-15T19:09:31Z",
-   "metricool_id": 429185617,
+   "updated": "2026-11-15T19:11:02Z",
+   "metricool_id": 429187221,
    "metricool_uuid": "1855175848006732767",
    "publish": "2026-11-16T09:30:00-08:00",
-   "thumbnail": "frame 41059ms"
+   "thumbnail": "frame 41974ms"
   }
  }
 }

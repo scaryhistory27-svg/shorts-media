@@ -29,3 +29,4 @@
 - 2026-11-15 Owner: after Nov 22 mix 1/day and every-2-days randomly → schedule mixed_days [1,2], seeded by date (stable across runs).
 - 2026-11-15 Owner: videos must be animated, not a slideshow → walker/crawler/life helpers in engine.js + motion rule in style & QA; caption pop reduced to 7 % (words were touching).
 - 2026-11-15 Owner: redo Missing Floor Part 1 with more animation, prettier, scarier → engine punch-zoom, sting glitch, shaded characters, fog, light cones, jerky(), heartbeat(); Parts 1–2 re-rendered and replaced in Metricool (same times).
+- 2026-11-15 Owner: don't forget covers → always send cover.jpg with every video (incl. re-renders); verify the cover frame is clean (not inside a glitch).

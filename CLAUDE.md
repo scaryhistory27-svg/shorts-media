@@ -187,6 +187,9 @@ Every run, even a "skip" run:
 4. **Script:** proper English, every `say` pronunciation correct, 35–55 s, cliffhanger last line, recap line in Part 2/3.
    **Hook gate:** `python3 pipeline/check_hook.py $E` → PASS (no greeting/intro, warning/impossible-fact pattern, first word ≤ 0.4 s, sound hit ≤ 0.6 s).
 5. **Cover:** Read cover.jpg — face/creature visible, text readable at small size, no spoiler.
+   **Cover frame (videoCoverMilliseconds):** extract that exact frame from final.mp4 (`ffmpeg -ss <s> -frames:v 1`) and Read it — it must be
+   clean (NOT within 0.7 s after a sting/glitch or a scene transition) with the face/creature/key prop clearly visible. ALWAYS send the owner
+   the cover.jpg together with every video (also for re-renders) — owner: "don't forget the covers".
 6. Write the QA result (what was checked, what was fixed) into the run summary for the owner.
 
 ## Publish
