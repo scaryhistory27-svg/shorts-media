@@ -15,3 +15,4 @@
 - 2026-11-14 Owner: fill Nov 15 16:00 with Part 3 (no empty day).
 - 2026-11-15 YouTube rejected the custom thumbnail (channel not verified) → stop sending videoThumbnailUrl, use videoCoverMilliseconds until the owner verifies the channel (log.json custom_thumbnails).
 - 2026-11-15 Thumbnail fallback chain custom → frame → none, auto-detected from Metricool detailedStatus; probe a NEW custom cover every 3rd video to detect channel verification (owner: re-do the cover automatically).
+- 2026-11-15 Voice research (web): horror Shorts mostly use ElevenLabs deep narrators (e.g. 'Adam'); delivery matters most — deep, slow 0.7–0.85, dry close-mic, pauses. Owner picked sample B 'storyteller' (style imitation, no clone of a specific voice).

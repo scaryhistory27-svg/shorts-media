@@ -22,7 +22,7 @@ for i,(l,d) in enumerate(zip(lines,durs)):
             m=[x for x in wt if x["w"]==fx["word"]]; assert m,f"line {i}: sfx word {fx['word']} not found"
             tt=m[fx.get("n",0)]["s"]
         ev.append({"t":round(tt+fx.get("offset",0),3),"type":fx["type"]})
-    t+=d+l.get("gap",0.3)
+    t+=d+l.get("gap",ep.get("gap",0.5))
 for i,s in enumerate(segs): s["e"]=segs[i+1]["s"] if i+1<len(segs) else round(t+1.8,3)
 total=segs[-1]["e"]; ev.sort(key=lambda e:e["t"])
 json.dump({"segs":segs,"events":ev,"total":total,"fps":FPS,"title":ep.get("title",""),"stamp":ep.get("stamp",""),"endTitle":ep.get("endTitle",""),"endSub":ep.get("endSub","")},open(f"{B}/timeline.json","w"),indent=1)

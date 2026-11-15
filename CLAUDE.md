@@ -24,8 +24,10 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
 - Vertical 1080x1920, 30 fps, 40–55 s. Dark flat-vector night palette, slow camera push-ins, film grain, vignette, dust.
 - Header: `<SERIES TITLE> · PART n` + orange time stamp (`NIGHT n · 02:00`), blinking red rec dot.
 - Big word-by-word captions (Inter Black), key words highlighted yellow (`y`) or red (`r`).
-- Narrator (chosen by the owner): Kokoro blend `am_michael:0.6,am_onyx:0.4`, speed 0.88, `voice_fx: mystic`
-  (lower pitch, warm, close-mic, dark echo) — the defaults in tts.py; don't change them unless the owner asks. Dark drone bed + synced SFX.
+- Narrator (chosen by the owner 2026-11-15, sample B "storyteller" = trending horror-Shorts delivery): Kokoro blend
+  `am_michael:0.45,am_onyx:0.55`, speed 0.80, `voice_fx: storyteller` (deep, slow, dry close-mic, slight grit, short room) and
+  0.5 s pauses between lines (timeline default `gap`) — the defaults in tts.py/timeline.py; don't change them unless the owner asks.
+  Slower voice ⇒ keep scripts to 11–13 short lines so the video stays ≤ 55 s. Dark drone bed + synced SFX.
 - Quiet mystical music under the voice (owner's request): procedural minor pads + sparse music-box notes + long reverb,
   auto-ducked under speech (timeline.py `music_bed`, melody seeded per episode). `music_level` in episode.json, default 0.11 — keep it quiet.
 - Line 1 = hook, spoken within ~2.5 s ("Never …", "If you hear … at 3 AM, …"). Short punchy sentences, 12–15 lines.

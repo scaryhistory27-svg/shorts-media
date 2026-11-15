@@ -13,3 +13,4 @@
 11. Master prompt: memory, Git backup, hooks, recovery, rotation → this docs/ system.
 12. Change: keep the same session, reset context near 90 % with memory saved to GitHub → built-in auto-compaction + PreCompact/SessionStart(compact) hooks.
 13. Owner: 2 videos/day in the first 3–4 days, then as before → Nov 16–18 10:00+16:00, Nov 19–24 daily, then every 2 days.
+14. Owner: find the voice that is trending for such stories → research, 3 samples, owner chose B (storyteller).

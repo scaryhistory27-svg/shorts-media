@@ -1,3 +1,7 @@
+## 2026-11-15 — new voice 'storyteller' (owner chose B)
+
+- Defaults changed in tts.py (voice, speed 0.80, fx) and timeline.py (gap 0.5). Part 3 is the first episode with it. Keep scripts 11–13 lines.
+
 ## 2026-11-15 — automatic thumbnail fallback + probe
 
 - log.json thumbnail.mode=frame now (Part 3 will test videoCoverMilliseconds). Probe custom cover every 3rd video.
