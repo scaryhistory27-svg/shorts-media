@@ -14,3 +14,6 @@ Hidden early clue · loop ending · open question for comments · recontextualiz
 
 ## First second (owner, 2026-11-15)
 No greeting/intro. Line 1 = warning / "if you try this…" / "I tried / I found…" / impossible fact, ≤ 12 words, spoken by 0.4 s. Enforced by pipeline/check_hook.py.
+
+## Genre blend (owner, 2026-11-15)
+Each new series mixes 2–3 genres across its 3 parts (hook genre → different engine → genre-flip twist), one coherent logic, all clues pay off.

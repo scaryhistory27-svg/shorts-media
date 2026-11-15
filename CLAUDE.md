@@ -59,6 +59,14 @@ Rotate genres across series (never 2 pure-horror series in a row once analytics 
 - **Unexplained mystery** (a stranger who knows the future, a town missing from maps, a message from yourself, a number that keeps calling).
 - **Time & reality bends** (time loops, a minute that repeats, a door that leads to yesterday, déjà vu with a cost).
 - **Eerie true-feeling "documented" tales** (found notes, CCTV logs, voicemails) — always fiction, never claim real events or real people.
+**Genre blend (owner 2026-11-15): every NEW series mixes 2–3 genres inside its 3 parts**, so the story keeps changing shape:
+- Typical arc: Part 1 = the hook genre (horror/mystic scare) → Part 2 = a different engine (mystery investigation, "documented"
+  CCTV/voicemail evidence) → Part 3 = a genre-flip twist (time loop, doppelgänger, reality bend) that explains the clues.
+- Examples: horror + time loop ("the knock comes every night at 2:00 — because it's ME from tomorrow");
+  mystic + documented ("old photos that change" told through found photos + a voicemail);
+  mystery + horror + time ("a town missing from maps" → people there know your name → it's your town, 40 years later).
+- The blend must stay ONE coherent story with one rule/logic — no random genre jumps; every clue planted earlier must pay off.
+- plan.md lists the genres per part and how the twist connects them. Rotate the genre mix between series.
 Every episode must contain at least TWO rewatch hooks:
 1. **Hidden clue** placed early (a reflection, a number, a background figure for 0.3–0.6 s) that only makes sense after the twist.
 2. **Loop ending** — the last line/shot connects to the first one so the Short flows into itself.

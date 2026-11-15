@@ -16,3 +16,4 @@
 14. Owner: find the voice that is trending for such stories → research, 3 samples, owner chose B (storyteller).
 15. Owner: add mystical, gripping scenarios (not only horror) that make people rewatch → genres + rewatch mechanics in CLAUDE.md.
 16. Owner: the beginning must pull people in immediately ("never do this", "when you tried this…"), no greetings → hook gate.
+17. Owner: combine a couple of genres in one 3-part story (mixed plot) → genre-blend rule.
