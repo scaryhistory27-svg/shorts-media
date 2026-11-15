@@ -195,7 +195,8 @@ Every run, even a "skip" run:
 4. Update `series/log.json` (episode, publish time, metricool id, `last_publish`), commit + push to main.
 5. **Report to the owner (mandatory):** send the final video AND the cover with the `SendUserFile` tool
    (files: `$E/build/final.mp4`, `$E/build/cover.jpg`; status "proactive"; caption = the exact YouTube title),
-   then a short Russian summary with the YouTube title, description, publish time (LA + Yerevan), QA result and the Metricool planner link.
+   then a short Russian summary: YouTube title, description, publish time (LA + Yerevan) and WHY this time, next post time and why,
+   QA result (pass/what was fixed), Metricool planner link. Do NOT mention the video length/duration (owner doesn't need it).
    After it is published, the YouTube link can be found with getScheduledPosts (`publicUrl`) — include the previous episode's link in the summary.
 
 Git commits as `scaryhistory27-svg <scaryhistory27-svg@users.noreply.github.com>`. Push directly to `main`.
