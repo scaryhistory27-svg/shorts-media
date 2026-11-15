@@ -158,8 +158,11 @@ def cmd_next_slots(a):
         now_ = dt.datetime.now(ZoneInfo(log.get("schedule_tz", "America/Los_Angeles"))).replace(tzinfo=None, second=0, microsecond=0)
     taken = {j["slot"] for j in read()["jobs"].values() if j.get("status") != "failed"}
     taken |= {j["slot"][:10] + "T16:00" for j in read()["jobs"].values() if len(j["slot"]) == 10}  # legacy date-only slots = 16:00
-    free = [s for s in slots_from_schedule(log["schedule"], now_ + dt.timedelta(hours=1), now_ + dt.timedelta(hours=a.horizon))
-            if s.strftime("%Y-%m-%dT%H:%M") not in taken][: a.max]
+    ov = log.get("slot_overrides", {})   # {"2026-11-16T10:00": "2026-11-16T11:00"} set right after each publish (best time for the next post)
+    base = slots_from_schedule(log["schedule"], now_ - dt.timedelta(hours=6), now_ + dt.timedelta(hours=a.horizon + 6))
+    moved = sorted({dt.datetime.fromisoformat(ov.get(s.strftime("%Y-%m-%dT%H:%M"), s.strftime("%Y-%m-%dT%H:%M"))) for s in base})
+    free = [s for s in moved if now_ + dt.timedelta(hours=1) < s <= now_ + dt.timedelta(hours=a.horizon)
+            and s.strftime("%Y-%m-%dT%H:%M") not in taken][: a.max]
     for s in free: print(s.strftime("%Y-%m-%dT%H:%M"))
     return 0 if free else 1
 

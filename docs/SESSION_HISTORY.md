@@ -18,3 +18,4 @@
 16. Owner: the beginning must pull people in immediately ("never do this", "when you tried this…"), no greetings → hook gate.
 17. Owner: combine a couple of genres in one 3-part story (mixed plot) → genre-blend rule.
 18. Owner: different plots/situations each time (elevator, etc.), not always 2 AM → variety rule + situation bank.
+19. Owner: after each post immediately check when the next post should go to take off → slot_overrides.

@@ -146,6 +146,11 @@ Every run, even a "skip" run:
    with updateScheduledPost (keep everything else identical; never move it into the past or less than 1 h from now).
 4. Weekend (Sat/Sun) activity is about half of weekdays: still post, but at the best weekend hour.
 5. Report in the summary: chosen hour, its score vs. the old hour, and any post that was moved.
+6. **Right after EVERY publish (owner: "check when the next post should go so it takes off and gets into the rankings"):**
+   decide the best time for the NEXT slot and store it in `series/log.json` → `slot_overrides` {"<scheduled slot>": "<better time>"}
+   (`jobs.py next-slots` honours it). Decide from: getBestTimeToPostByNetwork for that day (peak hour), own videos' first-24-h views
+   by publish hour (once ≥ 5 videos), and spacing — give each video its first 3–4 h of push alone (≥ 5 h between posts),
+   never more than 2 posts in a 24 h window, never move a slot to another day. Report: "next post: <time LA/Yerevan> — why".
 
 ## QA — mandatory before publishing (the owner wants it PERFECT; never skip, fix and re-render until all pass)
 1. **Contact sheet of the FINAL mp4, 1 frame per second:**
