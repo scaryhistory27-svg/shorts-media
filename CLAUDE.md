@@ -27,6 +27,14 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
 - Header: `<SERIES TITLE> · PART n` + orange stamp that FITS THE STORY (e.g. `FLOOR 13 · STUCK 00:47`, `DAY 3 · 11:47 AM`, `ROUTE 9 · KM 214`) —
   `NIGHT n · 02:00` only for The 2 AM Knock. Blinking red rec dot.
 - Big word-by-word captions (Inter Black), key words highlighted yellow (`y`) or red (`r`).
+- **REAL ANIMATION, not a slideshow (owner 2026-11-15):** every scene must have something MOVING besides the camera zoom.
+  Engine helpers (pipeline/engine.js): `walker(x,y,s,t,{speed,dir,look,reach,scared,top,skin,hair,pants})` — walking person with
+  leg/arm cycle, body bob, breathing, blinking, head turn, reaching arm, scared shake; `moveAlong(p,x0,x1)` to walk across a scene;
+  `crawler(x,y,s,t,speed)` — crawling creature with limb cycle; `life.sway/breathe/flicker` for props and lights.
+  Rules: ≥ 50 % of scenes show a character in motion (walking in/out, turning, reaching, backing away, crawling);
+  idle characters still breathe/blink/sway; lights flicker, doors swing, phones vibrate, background parallax (layers move at
+  different speeds). Put a glow/rim light behind dark creatures so their motion reads on the dark background.
+  Demo of the style: tests/anim_demo/scenes.js.
 - Narrator (chosen by the owner 2026-11-15, sample B "storyteller" = trending horror-Shorts delivery): Kokoro blend
   `am_michael:0.45,am_onyx:0.55`, speed 0.80, `voice_fx: storyteller` (deep, slow, dry close-mic, slight grit, short room) and
   0.5 s pauses between lines (timeline default `gap`) — the defaults in tts.py/timeline.py; don't change them unless the owner asks.
@@ -167,6 +175,7 @@ Every run, even a "skip" run:
    - no black/blank frames except the planned end card; no flicker between two segments of the same scene
    - captions: fully on screen, readable, never covering a face/key object, never on top of the end card, no words glued together
    - characters/props fully inside the frame (nothing important cut by the edge or hidden under the header), story readable without sound
+   - MOTION: in consecutive 1-fps frames characters change pose/position in most scenes (not a slideshow); dark creatures readable
    - header/HUD texts don't overlap each other; the first frame (0 s) is already striking
 2. **Audio:** timeline.py masters to `build/audio_master.wav` automatically. Check final.mp4: `-af ebur128` → −14.5…−13.5 LUFS;
    `-af astats` → peak ≤ −0.5 dB (if not, lower the alimiter limit in timeline.py); voice present for every line (`silencedetect=n=-45dB:d=0.8` shows no silence inside the story).

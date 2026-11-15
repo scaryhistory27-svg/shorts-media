@@ -4,3 +4,4 @@ __pycache__/
 series/.jobs.*.tmp
 series/jobs.json.lock
 docs/.handoff.*
+tests/anim_demo/build/

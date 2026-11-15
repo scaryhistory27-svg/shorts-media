@@ -101,7 +101,7 @@ function caption(seg,t){const ch=chunks(seg);let idx=-1;seg.words.forEach((w,i)=
   const chunk=ch.find(c=>c.includes(idx));const fs=92;ctx.save();ctx.font=`900 ${fs}px Inter`;ctx.textBaseline='middle';
   const ws=chunk.map(i=>seg.words[i].w.replace(/\.\.\.$/,'...'));const sp=38;let widths=ws.map(w=>ctx.measureText(w).width);let tot=widths.reduce((a,b)=>a+b,0)+sp*(ws.length-1);
   let sc=Math.min(1,960/tot);const y=1360;let x=W/2-tot*sc/2;
-  chunk.forEach((wi,k)=>{const w=seg.words[wi];const on=wi<=idx;const age=t-w.s;let pop=on?1+0.14*Math.max(0,1-age/0.14):1;
+  chunk.forEach((wi,k)=>{const w=seg.words[wi];const on=wi<=idx;const age=t-w.s;let pop=on?1+0.07*Math.max(0,1-age/0.14):1;
     const col=w.c==='y'?C.yel:w.c==='r'?C.red:'#ffffff';ctx.save();const cx=x+widths[k]*sc/2;ctx.translate(cx,y);ctx.scale(sc*pop,sc*pop);
     ctx.textAlign='center';ctx.lineJoin='round';ctx.lineWidth=14;ctx.strokeStyle='rgba(0,0,0,0.85)';ctx.shadowColor='rgba(0,0,0,0.8)';ctx.shadowBlur=24;
     ctx.globalAlpha=on?1:0.28;ctx.strokeText(ws[k],0,0);ctx.shadowBlur=0;ctx.fillStyle=on?col:'#cfd6e4';ctx.fillText(ws[k],0,0);ctx.restore();x+=(widths[k]+sp)*sc});
@@ -143,3 +143,45 @@ function drawCover(c){const g=ctx.createLinearGradient(0,H*0.45,0,H);g.addColorS
   if(c.sub){ctx.font='900 64px Inter';const w=ctx.measureText(c.sub).width+70;rr(W/2-w/2,y+10,w,100,50);ctx.fillStyle=C.red;ctx.fill();ctx.fillStyle='#fff';ctx.fillText(c.sub,W/2,y+62)}
   if(c.top){ctx.font='800 46px Inter';ctx.letterSpacing='6px';ctx.fillStyle='rgba(255,255,255,0.9)';ctx.fillText(c.top,W/2,200)}
   ctx.restore()}
+
+// ================= CHARACTER ANIMATION (owner 2026-11-15: "make it animated, characters should move") =================
+// walker(x, y, s, t, o): flat-style person, feet at (x,y). o = {speed: steps/s (0 = idle), dir: 1 right / -1 left,
+//   skin, hair, top, pants, shoe, look: -1..1 head turn, reach: 0..1 front arm raised forward, scared: 0..1}
+function walker(x,y,s,t,o={}){
+  const dir=o.dir||1, sp=o.speed??1.6, ph=t*sp*Math.PI*2, walking=sp>0;
+  const skin=o.skin||C.skin, hair=o.hair||'#1d1512', top=o.top||C.hood, topD=o.topD||C.hoodD, pants=o.pants||'#1f2733', shoe=o.shoe||'#0d0f13';
+  const bob=walking?-Math.abs(Math.sin(ph))*7:Math.sin(t*2.2)*2.5, breathe=1+(walking?0:0.012*Math.sin(t*2.2));
+  ctx.save();ctx.translate(x,y);ctx.scale(s*dir,s);ctx.lineCap='round';ctx.lineJoin='round';
+  ell(0,4,46,9,'rgba(0,0,0,0.35)');                                   // shadow
+  const leg=(a,col)=>{const th=walking?Math.sin(a)*0.55:0, kn=walking?Math.max(0,-Math.cos(a))*0.9:0;
+    const hx=0,hy=-118+bob, kx=hx+Math.sin(th)*58, ky=hy+Math.cos(th)*58, fx=kx+Math.sin(th-kn)*58, fy=ky+Math.cos(th-kn)*58;
+    ctx.strokeStyle=col;ctx.lineWidth=26;ctx.beginPath();ctx.moveTo(hx,hy);ctx.lineTo(kx,ky);ctx.lineTo(fx,fy);ctx.stroke();
+    ctx.fillStyle=shoe;rr(fx-12,fy-8,40,16,7);ctx.fill()};
+  const arm=(a,col,front)=>{let sw=walking?Math.sin(a)*0.65:Math.sin(t*1.3)*0.04; if(front&&o.reach) sw=sw*(1-o.reach)-1.35*o.reach;
+    const sx=4,sy=-208+bob, ex=sx+Math.sin(sw)*48, ey=sy+Math.cos(sw)*48, el=walking?0.5:0.15, wx=ex+Math.sin(sw-el)*46, wy=ey+Math.cos(sw-el)*46;
+    ctx.strokeStyle=col;ctx.lineWidth=22;ctx.beginPath();ctx.moveTo(sx,sy);ctx.lineTo(ex,ey);ctx.lineTo(wx,wy);ctx.stroke();ell(wx,wy,11,11,skin)};
+  leg(ph+Math.PI,'#161c26');arm(ph,topD,false);
+  ctx.save();ctx.translate(0,-118+bob);ctx.scale(1,breathe);ctx.fillStyle=top;rr(-34,-112,68,120,26);ctx.fill();ctx.restore(); // torso
+  leg(ph,pants);
+  // head
+  const hy=-262+bob+(o.scared?Math.sin(t*40)*1.5*o.scared:0), look=o.look||0;
+  ctx.fillStyle=skin;ctx.fillRect(-9,-236+bob,18,20);ell(0+look*4,hy,30,34,skin);
+  ctx.fillStyle=hair;ctx.beginPath();ctx.ellipse(-4+look*2,hy-10,32,28,0,Math.PI*0.95,Math.PI*2.05);ctx.fill();
+  const blink=(t%3.7)<0.12;ell(17+look*8,hy-2,4,blink?0.8:(o.scared?6:4.5),'#120c0a');
+  if(o.scared){ctx.strokeStyle='#120c0a';ctx.lineWidth=3;ctx.beginPath();ctx.arc(14+look*8,hy+16,6,0,Math.PI*2);ctx.stroke()}
+  else{ctx.strokeStyle='rgba(18,12,10,0.7)';ctx.lineWidth=3;ctx.beginPath();ctx.moveTo(10+look*8,hy+16);ctx.lineTo(22+look*8,hy+15);ctx.stroke()}
+  arm(ph+Math.PI,top,true);
+  ctx.restore()}
+// moveAlong(p, x0, x1, ease): position along a path for walking across a scene
+function moveAlong(p,a,b){return a+(b-a)*ease(p)}
+// life(t): tiny idle motion helpers for any prop/character — sway, flicker, breathe
+const life={sway:(t,a=1)=>Math.sin(t*1.7)*a, breathe:(t)=>1+0.015*Math.sin(t*2.2), flicker:(t)=>Math.sin(t*23)>0.85?0.35:1};
+// crawler: creature that crawls (limbs cycle) — use instead of the static creature() when it should move
+function crawler(x,y,s,t,speed=1.2){ctx.save();ctx.translate(x,y);ctx.scale(s,s);ctx.strokeStyle='#050608';ctx.lineCap='round';
+  const ph=t*speed*Math.PI*2;
+  [[-1,-1,0],[1,-1,Math.PI],[-1,1,Math.PI],[1,1,0]].forEach(([a,b,o])=>{const k=Math.sin(ph+o);ctx.lineWidth=16;ctx.beginPath();ctx.moveTo(a*30,b*40);
+    const mx=a*(150+20*k),my=b*(140-30*k),ex=a*(230+30*k),ey=b*(260+40*Math.cos(ph+o));ctx.lineTo(mx,my);ctx.lineTo(ex,ey);ctx.stroke();
+    ctx.lineWidth=6;for(let f=-1;f<=1;f++){ctx.beginPath();ctx.moveTo(ex,ey);ctx.lineTo(ex+a*28+f*12,ey+b*14+f*16);ctx.stroke()}});
+  ell(0,20+Math.sin(ph*2)*4,55,120,'#050608');const hx=Math.sin(ph)*6;ell(hx,-130,58,66,'#050608');
+  glow(hx-20,-135,40,'rgba(255,255,255,A)',0.35);glow(hx+20,-135,40,'rgba(255,255,255,A)',0.35);ell(hx-20,-135,9,9,'#fff');ell(hx+20,-135,9,9,'#fff');
+  ctx.strokeStyle='#e8e8e8';ctx.lineWidth=4;ctx.beginPath();ctx.moveTo(hx-34,-102);ctx.quadraticCurveTo(hx,-80,hx+34,-102);ctx.stroke();ctx.restore()}

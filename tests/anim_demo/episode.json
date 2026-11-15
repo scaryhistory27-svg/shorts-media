@@ -1,0 +1,3 @@
+{"series":"Demo","episode":1,"title":"ANIMATION DEMO","stamp":"FLOOR 13 · 00:47","endTitle":"","endSub":"",
+ "lines":[{"scene":"walk","text":"I walked down the hallway.","sfx":[{"at":"start","type":"hit"}]},
+          {"scene":"turn","text":"Then something crawled behind me.","hl":{"crawled":"r"}}]}
