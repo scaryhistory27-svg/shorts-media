@@ -145,12 +145,12 @@ function drawCover(c){const g=ctx.createLinearGradient(0,H*0.45,0,H);g.addColorS
   ctx.restore()}
 
 // ================= CHARACTER ANIMATION (owner 2026-11-15: "make it animated, characters should move") =================
-// walker(x, y, s, t, o): flat-style person, feet at (x,y). o = {speed: steps/s (0 = idle), dir: 1 right / -1 left,
+// walker(x, y, s, t, o): flat-style person (o.freeze = walk phase in radians → frozen mid-step, no breathing/blinking), feet at (x,y). o = {speed: steps/s (0 = idle), dir: 1 right / -1 left,
 //   skin, hair, top, pants, shoe, look: -1..1 head turn, reach: 0..1 front arm raised forward, scared: 0..1}
 function walker(x,y,s,t,o={}){
-  const dir=o.dir||1, sp=o.speed??1.6, ph=t*sp*Math.PI*2, walking=sp>0;
+  const dir=o.dir||1, sp=o.speed??1.6, frozen=o.freeze!=null, ph=frozen?o.freeze:t*sp*Math.PI*2, walking=sp>0||frozen;
   const skin=o.skin||C.skin, hair=o.hair||'#1d1512', top=o.top||C.hood, topD=o.topD||C.hoodD, pants=o.pants||'#1f2733', shoe=o.shoe||'#0d0f13';
-  const bob=walking?-Math.abs(Math.sin(ph))*7:Math.sin(t*2.2)*2.5, breathe=1+(walking?0:0.012*Math.sin(t*2.2));
+  const bob=walking?-Math.abs(Math.sin(ph))*7:Math.sin(t*2.2)*2.5, breathe=1+(walking||frozen?0:0.012*Math.sin(t*2.2));
   ctx.save();ctx.translate(x,y);ctx.scale(s*dir,s);ctx.lineCap='round';ctx.lineJoin='round';
   ell(0,4,46,9,'rgba(0,0,0,0.35)');                                   // shadow
   const leg=(a,col)=>{const th=walking?Math.sin(a)*0.55:0, kn=walking?Math.max(0,-Math.cos(a))*0.9:0;
@@ -167,7 +167,7 @@ function walker(x,y,s,t,o={}){
   const hy=-262+bob+(o.scared?Math.sin(t*40)*1.5*o.scared:0), look=o.look||0;
   ctx.fillStyle=skin;ctx.fillRect(-9,-236+bob,18,20);ell(0+look*4,hy,30,34,skin);
   ctx.fillStyle=hair;ctx.beginPath();ctx.ellipse(-4+look*2,hy-10,32,28,0,Math.PI*0.95,Math.PI*2.05);ctx.fill();
-  const blink=(t%3.7)<0.12;ell(17+look*8,hy-2,4,blink?0.8:(o.scared?6:4.5),'#120c0a');
+  const blink=!frozen&&(t%3.7)<0.12;ell(17+look*8,hy-2,4,blink?0.8:(o.scared?6:4.5),'#120c0a');
   if(o.scared){ctx.strokeStyle='#120c0a';ctx.lineWidth=3;ctx.beginPath();ctx.arc(14+look*8,hy+16,6,0,Math.PI*2);ctx.stroke()}
   else{ctx.strokeStyle='rgba(18,12,10,0.7)';ctx.lineWidth=3;ctx.beginPath();ctx.moveTo(10+look*8,hy+16);ctx.lineTo(22+look*8,hy+15);ctx.stroke()}
   arm(ph+Math.PI,top,true);

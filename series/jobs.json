@@ -124,8 +124,8 @@
    "series": "the-2am-knock",
    "episode": 3,
    "title": "The Note Under My Sink Was In MY Handwriting 😨 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -158,16 +158,57 @@
     {
      "stage": "scheduled",
      "at": "2026-11-15T17:52:28Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-15T18:41:40Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-15T17:44:33Z",
-   "updated": "2026-11-15T17:52:28Z",
+   "updated": "2026-11-15T18:41:40Z",
    "metricool_id": 429113298,
    "metricool_uuid": "4771079838323460757",
    "publish": "2026-11-15T10:15:00-08:00",
-   "thumbnail": "frame 23700ms"
+   "thumbnail": "frame 23700ms",
+   "youtube_id": "Chpdw_CMUrU",
+   "youtube_url": "https://www.youtube.com/shorts/Chpdw_CMUrU"
+  },
+  "2026-11-15T15:30-the-missing-floor-ep1": {
+   "id": "2026-11-15T15:30-the-missing-floor-ep1",
+   "slot": "2026-11-15T15:30",
+   "series": "the-missing-floor",
+   "episode": 1,
+   "title": "Never Step Out If Your Elevator Stops On 13 😨 #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-15T18:43:58Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-15T18:44:48Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-15T18:44:48Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-15T18:48:09Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-15T18:48:09Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-15T18:43:58Z",
+   "updated": "2026-11-15T18:48:09Z"
   }
  }
 }

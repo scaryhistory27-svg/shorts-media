@@ -1,0 +1,193 @@
+{
+ "series": "The Missing Floor",
+ "episode": 1,
+ "title": "THE MISSING FLOOR · PART 1",
+ "stamp": "FLOOR 13 · 4:47 PM",
+ "endTitle": "PART 2?",
+ "endSub": "Don't step out.",
+ "music_level": 0.12,
+ "youtube": {
+  "title": "Never Step Out If Your Elevator Stops On 13 😨 #shorts",
+  "description": "My building has 12 floors. The elevator stopped on 13. 🛗 Part 2? 👀\n#horrorstory #scary #creepy #elevator #liminalspace #shorts",
+  "tags": [
+   "horror story",
+   "scary",
+   "creepy",
+   "elevator",
+   "liminal space",
+   "scary story",
+   "horror animation",
+   "floor 13"
+  ]
+ },
+ "cover": {
+  "seg": 8,
+  "frac": 0.55,
+  "top": "THE MISSING FLOOR",
+  "lines": [
+   "SHE SAID",
+   "YOU'RE LATE."
+  ],
+  "sub": "PART 1"
+ },
+ "lines": [
+  {
+   "scene": "display13",
+   "text": "Never step out on floor 13.",
+   "hl": {
+    "Never": "r",
+    "step": "y",
+    "out": "y",
+    "13.": "r"
+   },
+   "speed": 0.95,
+   "gap": 0.35,
+   "sfx": [
+    {
+     "at": "start",
+     "type": "hit"
+    }
+   ],
+   "say": "Never step out on floor thirteen."
+  },
+  {
+   "scene": "panel",
+   "text": "My office building has twelve floors.",
+   "hl": {
+    "twelve": "y"
+   }
+  },
+  {
+   "scene": "elevator",
+   "text": "Yesterday at 4:47, the elevator stopped anyway.",
+   "say": "Yesterday at four forty-seven, the elevator stopped anyway.",
+   "hl": {
+    "4:47,": "y",
+    "stopped": "r"
+   },
+   "sfx": [
+    {
+     "word": "stopped",
+     "type": "hit"
+    }
+   ]
+  },
+  {
+   "scene": "display",
+   "text": "The screen said: 13.",
+   "say": "The screen said: thirteen.",
+   "hl": {
+    "13.": "r"
+   },
+   "sfx": [
+    {
+     "word": "13.",
+     "type": "sting"
+    }
+   ]
+  },
+  {
+   "scene": "doorsopen",
+   "text": "The doors opened by themselves.",
+   "hl": {
+    "themselves.": "r"
+   },
+   "sfx": [
+    {
+     "word": "doors",
+     "type": "creak"
+    }
+   ]
+  },
+  {
+   "scene": "office",
+   "text": "It was my office. Same desks. Same plants.",
+   "hl": {
+    "my": "y",
+    "office.": "y"
+   }
+  },
+  {
+   "scene": "office",
+   "text": "But everyone was frozen, mid-step.",
+   "hl": {
+    "frozen,": "r",
+    "mid-step.": "r"
+   },
+   "gap": 0.6
+  },
+  {
+   "scene": "turn",
+   "text": "Then one woman turned her head. Only her head.",
+   "hl": {
+    "head.": "r",
+    "Only": "y"
+   },
+   "sfx": [
+    {
+     "word": "turned",
+     "type": "creak"
+    }
+   ]
+  },
+  {
+   "scene": "face",
+   "text": "She smiled and said: You're late.",
+   "hl": {
+    "You're": "r",
+    "late.": "r"
+   },
+   "speed": 0.76,
+   "sfx": [
+    {
+     "at": "start",
+     "type": "heart"
+    }
+   ],
+   "gap": 0.6
+  },
+  {
+   "scene": "button",
+   "text": "I smashed the close button.",
+   "hl": {
+    "smashed": "y",
+    "close": "y"
+   },
+   "sfx": [
+    {
+     "word": "smashed",
+     "type": "knock"
+    }
+   ]
+  },
+  {
+   "scene": "doorsclose",
+   "text": "The doors shut. I was safe.",
+   "hl": {
+    "safe.": "y"
+   },
+   "sfx": [
+    {
+     "word": "shut.",
+     "type": "hit"
+    }
+   ]
+  },
+  {
+   "scene": "reflection",
+   "text": "But my reflection... stayed on floor 13.",
+   "say": "But my reflection... stayed on floor thirteen.",
+   "hl": {
+    "reflection...": "r",
+    "13.": "r"
+   },
+   "stamp": "FLOOR 1 · 4:51 PM",
+   "sfx": [
+    {
+     "at": "start",
+     "type": "whoosh"
+    }
+   ]
+  }
+ ]
+}
