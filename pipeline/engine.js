@@ -116,9 +116,10 @@ function render(t){
   const segs=TL.segs;let si=segs.findIndex((s,i)=>t<s.e&&(i===0||t>=s.s));if(si<0)si=segs.length-1;
   const seg=segs[si],start=si===0?0:seg.s,d=seg.e-start,lt=t-start,p=clamp(lt/d,0,1);
   ctx.setTransform(1,0,0,1,0,0);ctx.fillStyle='#000';ctx.fillRect(0,0,W,H);
-  ctx.save();const [z0,z1]=CAM[seg.scene];const z=lerp(z0,z1,p);ctx.translate(W/2,H/2);ctx.scale(z,z);ctx.translate(-W/2,-H/2);
+  ctx.save();const [z0,z1]=CAM[seg.scene];const z=lerp(z0,z1,p)*(1+punchAt(t));ctx.translate(W/2,H/2);ctx.scale(z,z);ctx.translate(-W/2,-H/2);
   const hs=shakeAt(t,['hit','sting'],0.5,24);ctx.translate((Math.random()-.5)*hs,(Math.random()-.5)*hs);
   SCN[seg.scene](lt,p,t,d,seg);ctx.restore();
+  glitchFx(t);
   // dust
   for(const [x,y,r,sp,ph] of DUST){const yy=(y+t*sp)%H;ctx.globalAlpha=0.25+0.2*Math.sin(t+ph);ell((x+Math.sin(t*0.5+ph)*20)%W,yy,r,r,'#cfd8e6')}ctx.globalAlpha=1;
   // vignette
@@ -161,12 +162,17 @@ function walker(x,y,s,t,o={}){
     const sx=4,sy=-208+bob, ex=sx+Math.sin(sw)*48, ey=sy+Math.cos(sw)*48, el=walking?0.5:0.15, wx=ex+Math.sin(sw-el)*46, wy=ey+Math.cos(sw-el)*46;
     ctx.strokeStyle=col;ctx.lineWidth=22;ctx.beginPath();ctx.moveTo(sx,sy);ctx.lineTo(ex,ey);ctx.lineTo(wx,wy);ctx.stroke();ell(wx,wy,11,11,skin)};
   leg(ph+Math.PI,'#161c26');arm(ph,topD,false);
-  ctx.save();ctx.translate(0,-118+bob);ctx.scale(1,breathe);ctx.fillStyle=top;rr(-34,-112,68,120,26);ctx.fill();ctx.restore(); // torso
+  ctx.save();ctx.translate(0,-118+bob);ctx.scale(1,breathe);{const tg=ctx.createLinearGradient(-34,-112,34,8);tg.addColorStop(0,shade(top,1.25));tg.addColorStop(0.55,top);tg.addColorStop(1,shade(top,0.6));ctx.fillStyle=tg;}rr(-34,-112,68,120,26);ctx.fill();
+  ctx.strokeStyle='rgba(255,255,255,0.18)';ctx.lineWidth=4;ctx.beginPath();ctx.moveTo(-30,-90);ctx.quadraticCurveTo(-36,-40,-30,0);ctx.stroke();ctx.fillStyle='rgba(0,0,0,0.25)';rr(-34,-112,68,16,8);ctx.fill();ctx.restore(); // torso (shaded + rim light)
   leg(ph,pants);
   // head
   const hy=-262+bob+(o.scared?Math.sin(t*40)*1.5*o.scared:0), look=o.look||0;
   ctx.fillStyle=skin;ctx.fillRect(-9,-236+bob,18,20);ell(0+look*4,hy,30,34,skin);
   ctx.fillStyle=hair;ctx.beginPath();ctx.ellipse(-4+look*2,hy-10,32,28,0,Math.PI*0.95,Math.PI*2.05);ctx.fill();
+  ctx.strokeStyle='rgba(255,230,210,0.35)';ctx.lineWidth=3;ctx.beginPath();ctx.arc(look*4,hy,30,-2.4,-1.2);ctx.stroke();
+  ctx.fillStyle='rgba(0,0,0,0.18)';ctx.beginPath();ctx.ellipse(-12+look*4,hy+6,14,26,0,0,7);ctx.fill();
+  ctx.strokeStyle=hair;ctx.lineWidth=4;ctx.beginPath();ctx.moveTo(9+look*8,hy-14-(o.scared?5:0));ctx.lineTo(25+look*8,hy-16+(o.scared?-3:2));ctx.stroke();
+  ctx.fillStyle='rgba(0,0,0,0.2)';ctx.beginPath();ctx.moveTo(28+look*8,hy+2);ctx.lineTo(34+look*8,hy+9);ctx.lineTo(27+look*8,hy+10);ctx.fill();
   const blink=!frozen&&(t%3.7)<0.12;ell(17+look*8,hy-2,4,blink?0.8:(o.scared?6:4.5),'#120c0a');
   if(o.scared){ctx.strokeStyle='#120c0a';ctx.lineWidth=3;ctx.beginPath();ctx.arc(14+look*8,hy+16,6,0,Math.PI*2);ctx.stroke()}
   else{ctx.strokeStyle='rgba(18,12,10,0.7)';ctx.lineWidth=3;ctx.beginPath();ctx.moveTo(10+look*8,hy+16);ctx.lineTo(22+look*8,hy+15);ctx.stroke()}
@@ -185,3 +191,24 @@ function crawler(x,y,s,t,speed=1.2){ctx.save();ctx.translate(x,y);ctx.scale(s,s)
   ell(0,20+Math.sin(ph*2)*4,55,120,'#050608');const hx=Math.sin(ph)*6;ell(hx,-130,58,66,'#050608');
   glow(hx-20,-135,40,'rgba(255,255,255,A)',0.35);glow(hx+20,-135,40,'rgba(255,255,255,A)',0.35);ell(hx-20,-135,9,9,'#fff');ell(hx+20,-135,9,9,'#fff');
   ctx.strokeStyle='#e8e8e8';ctx.lineWidth=4;ctx.beginPath();ctx.moveTo(hx-34,-102);ctx.quadraticCurveTo(hx,-80,hx+34,-102);ctx.stroke();ctx.restore()}
+
+// ================= DYNAMICS & LOOK (owner 2026-11-15: "more animation, prettier, scarier, more dynamic") =================
+function shade(hex,k){const n=parseInt(hex.slice(1),16);const c=[n>>16,(n>>8)&255,n&255].map(v=>Math.max(0,Math.min(255,Math.round(v*k))));return `rgb(${c[0]},${c[1]},${c[2]})`}
+// camera punch-in on hit/sting/knock events (auto, every episode)
+function punchAt(t){let z=0;if(!TL)return 0;for(const e of TL.events){if(!['hit','sting','knock','knockglass'].includes(e.type)||t<e.t||t>e.t+0.5)continue;
+  const a=(t-e.t)/0.5;z=Math.max(z,(e.type==='sting'?0.11:e.type==='hit'?0.08:0.035)*Math.pow(1-a,2))}return z}
+// glitch + red flash for 0.35 s after every sting (auto) — RGB slice offsets drawn from the canvas itself
+function glitchFx(t){if(!TL)return;const e=TL.events.find(e=>e.type==='sting'&&t>=e.t&&t<e.t+0.35);if(!e)return;const a=1-(t-e.t)/0.35;
+  const r=rnd(Math.floor(t*30));for(let i=0;i<7;i++){const y=r()*H,h=20+r()*90,dx=(r()-0.5)*90*a;ctx.drawImage(cv,0,y,W,h,dx,y,W,h)}
+  ctx.globalCompositeOperation='screen';ctx.fillStyle=`rgba(255,0,40,${0.18*a})`;ctx.fillRect(0,0,W,H);ctx.globalCompositeOperation='source-over';
+  ctx.fillStyle=`rgba(255,30,30,${0.12*a})`;ctx.fillRect(0,0,W,H)}
+// drifting fog layer (draw over a scene): fog(t, y0, y1, color, strength)
+function fog(t,y0,y1,col='200,220,230',k=0.06){const r=rnd(77);for(let i=0;i<26;i++){const x=((r()*W+t*(10+r()*25))%(W+400))-200,y=y0+r()*(y1-y0),R=140+r()*220;glow(x,y,R,`rgba(${col},A)`,k*(0.6+0.4*Math.sin(t*0.7+i)))}}
+// volumetric light cone from (x,y) pointing down at angle, length L, half-width w at the end
+function lightCone(x,y,ang,L,w,col='255,240,200',a=0.18){ctx.save();ctx.translate(x,y);ctx.rotate(ang);const g=ctx.createLinearGradient(0,0,0,L);g.addColorStop(0,`rgba(${col},${a})`);g.addColorStop(1,`rgba(${col},0)`);
+  ctx.fillStyle=g;ctx.beginPath();ctx.moveTo(-14,0);ctx.lineTo(14,0);ctx.lineTo(w,L);ctx.lineTo(-w,L);ctx.closePath();ctx.fill();ctx.restore()}
+// stop-motion stutter for creepy movement: snaps a 0..1 progress into jerky steps with tiny jitter
+function jerky(p,steps=7,seed=1){const q=Math.floor(p*steps)/steps;const r=rnd(Math.floor(p*steps)*31+seed);return clamp(q+(r()-0.5)*0.03,0,1)}
+// heartbeat vignette pulse (use in tense scenes)
+function heartbeat(t,k=0.35){const b=Math.pow(Math.max(0,Math.sin(t*Math.PI*2*1.25)),10);const v=ctx.createRadialGradient(W/2,H/2,H*0.25,W/2,H/2,H*0.7);
+  v.addColorStop(0,'rgba(0,0,0,0)');v.addColorStop(1,`rgba(120,0,0,${k*b})`);ctx.fillStyle=v;ctx.fillRect(0,0,W,H)}
