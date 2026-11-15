@@ -30,7 +30,15 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
   Slower voice ⇒ keep scripts to 11–13 short lines so the video stays ≤ 55 s. Dark drone bed + synced SFX.
 - Quiet mystical music under the voice (owner's request): procedural minor pads + sparse music-box notes + long reverb,
   auto-ducked under speech (timeline.py `music_bed`, melody seeded per episode). `music_level` in episode.json, default 0.11 — keep it quiet.
-- Line 1 = hook, spoken within ~2.5 s ("Never …", "If you hear … at 3 AM, …"). Short punchy sentences, 12–15 lines.
+- **THE FIRST SECOND (owner, mandatory for EVERY episode):** the video starts mid-tension — NO greeting, intro, channel name,
+  "today I'll tell you", "story time". Line 1 (≤ 12 words, spoken by 0.4 s, done by 2.8 s) is one of:
+  · a warning: "Never answer a call from your own number." / "Don't look at the window after 3 AM." / "Whatever you do, don't count the stairs."
+  · what happens if you try: "If you ever try this at night, here's what happens." / "This is what happens when you whisper your name into a mirror."
+  · "I tried / I found" proof: "I tried the elevator game. The 10th floor wasn't empty." / "I found a photo of me from 1962."
+  · an impossible fact: "My clock stopped at 3:07. Again." / "My mom texted me. She died in 2019."
+  First frame = the most striking image of the episode + a sound hit (hit/sting/knock) in the first 0.6 s.
+  `python3 pipeline/check_hook.py $E` must print PASS before publishing (part of QA).
+  Short punchy sentences, 11–13 lines.
 - Last line of Part 1/2 = cliffhanger; end card `PART 2?` / `PART 3?`. Part 3 resolves with a twist; end card `THE END?`.
 - Part 2 and 3: first line is a 1-sentence recap hook ("Two nights ago, my mom knocked on my door. She lives in Chicago.").
 - Original stories and characters only (no existing IPs), YouTube-safe (creepy, no gore, nothing involving harm to kids).
@@ -129,7 +137,8 @@ Every run, even a "skip" run:
 2. **Audio:** timeline.py masters to `build/audio_master.wav` automatically. Check final.mp4: `-af ebur128` → −14.5…−13.5 LUFS;
    `-af astats` → peak ≤ −0.5 dB (if not, lower the alimiter limit in timeline.py); voice present for every line (`silencedetect=n=-45dB:d=0.8` shows no silence inside the story).
 3. **Sync:** spot-check 3 frames exactly at sfx times from build/timeline.json (knock → door shakes/rings, etc.).
-4. **Script:** proper English, every `say` pronunciation correct, 35–55 s, hook ≤ 2.5 s, cliffhanger last line, recap line in Part 2/3.
+4. **Script:** proper English, every `say` pronunciation correct, 35–55 s, cliffhanger last line, recap line in Part 2/3.
+   **Hook gate:** `python3 pipeline/check_hook.py $E` → PASS (no greeting/intro, warning/impossible-fact pattern, first word ≤ 0.4 s, sound hit ≤ 0.6 s).
 5. **Cover:** Read cover.jpg — face/creature visible, text readable at small size, no spoiler.
 6. Write the QA result (what was checked, what was fixed) into the run summary for the owner.
 

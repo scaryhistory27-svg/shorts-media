@@ -11,3 +11,6 @@
 Horror, mystic/supernatural, unexplained mystery, time & reality bends, eerie "documented" fiction — rotate between series.
 ## Rewatch mechanics (≥ 2 per episode)
 Hidden early clue · loop ending · open question for comments · recontextualizing twist · occasional spotting challenge.
+
+## First second (owner, 2026-11-15)
+No greeting/intro. Line 1 = warning / "if you try this…" / "I tried / I found…" / impossible fact, ≤ 12 words, spoken by 0.4 s. Enforced by pipeline/check_hook.py.

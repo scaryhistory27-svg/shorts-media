@@ -15,3 +15,4 @@
 13. Owner: 2 videos/day in the first 3–4 days, then as before → Nov 16–18 10:00+16:00, Nov 19–24 daily, then every 2 days.
 14. Owner: find the voice that is trending for such stories → research, 3 samples, owner chose B (storyteller).
 15. Owner: add mystical, gripping scenarios (not only horror) that make people rewatch → genres + rewatch mechanics in CLAUDE.md.
+16. Owner: the beginning must pull people in immediately ("never do this", "when you tried this…"), no greetings → hook gate.

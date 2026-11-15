@@ -17,3 +17,4 @@
 - 2026-11-15 Thumbnail fallback chain custom → frame → none, auto-detected from Metricool detailedStatus; probe a NEW custom cover every 3rd video to detect channel verification (owner: re-do the cover automatically).
 - 2026-11-15 Voice research (web): horror Shorts mostly use ElevenLabs deep narrators (e.g. 'Adam'); delivery matters most — deep, slow 0.7–0.85, dry close-mic, pauses. Owner picked sample B 'storyteller' (style imitation, no clone of a specific voice).
 - 2026-11-15 Owner: add mystical / gripping stories, people should rewatch → genre rotation + ≥2 rewatch mechanics per episode (hidden clue, loop, open question, recontextualizing twist).
+- 2026-11-15 Owner: the start must grab instantly, never 'hello' → hook patterns in CLAUDE.md + automated gate pipeline/check_hook.py in QA.
