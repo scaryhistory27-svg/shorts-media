@@ -99,7 +99,7 @@ function building(x,y,w,rows,cols,lit,t,flick){ // y = top
 function chunks(seg){const out=[];let cur=[];seg.words.forEach((w,i)=>{cur.push(i);if(cur.length>=3||/[.,:!?]$/.test(w.w)&&cur.length>=2||/(\.\.\.|[.!?:])$/.test(w.w)){out.push(cur);cur=[]}});if(cur.length)out.push(cur);return out}
 function caption(seg,t){const ch=chunks(seg);let idx=-1;seg.words.forEach((w,i)=>{if(t>=w.s)idx=i});if(idx<0)return;
   const chunk=ch.find(c=>c.includes(idx));const fs=92;ctx.save();ctx.font=`900 ${fs}px Inter`;ctx.textBaseline='middle';
-  const ws=chunk.map(i=>seg.words[i].w.replace(/\.\.\.$/,'...'));const sp=30;let widths=ws.map(w=>ctx.measureText(w).width);let tot=widths.reduce((a,b)=>a+b,0)+sp*(ws.length-1);
+  const ws=chunk.map(i=>seg.words[i].w.replace(/\.\.\.$/,'...'));const sp=38;let widths=ws.map(w=>ctx.measureText(w).width);let tot=widths.reduce((a,b)=>a+b,0)+sp*(ws.length-1);
   let sc=Math.min(1,960/tot);const y=1360;let x=W/2-tot*sc/2;
   chunk.forEach((wi,k)=>{const w=seg.words[wi];const on=wi<=idx;const age=t-w.s;let pop=on?1+0.14*Math.max(0,1-age/0.14):1;
     const col=w.c==='y'?C.yel:w.c==='r'?C.red:'#ffffff';ctx.save();const cx=x+widths[k]*sc/2;ctx.translate(cx,y);ctx.scale(sc*pop,sc*pop);

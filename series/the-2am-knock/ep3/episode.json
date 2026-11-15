@@ -1,0 +1,200 @@
+{
+ "series": "The 2 AM Knock",
+ "episode": 3,
+ "title": "THE 2 AM KNOCK · PART 3",
+ "stamp": "NIGHT 3 · 01:52",
+ "endTitle": "THE END?",
+ "endSub": "Who wrote the note?",
+ "youtube": {
+  "title": "The Note Under My Sink Was In MY Handwriting 😨 #shorts",
+  "description": "Final part. Never answer it — not even to say no. 📝 Who wrote the note? 👀\n#horrorstory #scary #creepy #timeloop #animation #shorts",
+  "tags": [
+   "horror story",
+   "scary",
+   "creepy",
+   "time loop",
+   "animation",
+   "scary story",
+   "horror animation",
+   "2am"
+  ]
+ },
+ "cover": {
+  "seg": 5,
+  "frac": 0.6,
+  "top": "THE 2 AM KNOCK",
+  "lines": [
+   "NEVER ANSWER.",
+   "NOT EVEN NO."
+  ],
+  "sub": "FINAL PART"
+ },
+ "lines": [
+  {
+   "scene": "note",
+   "text": "Never answer it. Not even to say no.",
+   "hl": {
+    "Never": "r",
+    "answer": "r",
+    "no.": "y"
+   },
+   "sfx": [
+    {
+     "at": "start",
+     "type": "hit"
+    }
+   ],
+   "speed": 0.95,
+   "gap": 0.35
+  },
+  {
+   "scene": "recap",
+   "text": "Two nights ago, it wore my mom's face. Then it stole my voice.",
+   "hl": {
+    "mom's": "y",
+    "face.": "r",
+    "voice.": "r"
+   }
+  },
+  {
+   "scene": "notefind",
+   "text": "Tonight I found a note under the sink. From the last tenant.",
+   "hl": {
+    "note": "y",
+    "last": "y",
+    "tenant.": "y"
+   },
+   "sfx": [
+    {
+     "word": "note",
+     "type": "creak"
+    }
+   ]
+  },
+  {
+   "scene": "note",
+   "text": "It only comes in if you answer it.",
+   "hl": {
+    "only": "y",
+    "answer": "r",
+    "it.": "r"
+   }
+  },
+  {
+   "scene": "cctvbehind",
+   "text": "The guard asked who stood behind me. I said: nobody.",
+   "hl": {
+    "behind": "r",
+    "nobody.": "r"
+   }
+  },
+  {
+   "scene": "creepface",
+   "text": "Nobody... is still an answer.",
+   "hl": {
+    "still": "r",
+    "answer.": "r"
+   },
+   "sfx": [
+    {
+     "at": "start",
+     "type": "sting"
+    }
+   ],
+   "gap": 0.6
+  },
+  {
+   "scene": "lock",
+   "text": "My lock clicked open. By itself.",
+   "hl": {
+    "open.": "r",
+    "itself.": "r"
+   },
+   "sfx": [
+    {
+     "word": "clicked",
+     "type": "creak"
+    }
+   ]
+  },
+  {
+   "scene": "closet",
+   "text": "Three slow knocks. From inside my closet.",
+   "hl": {
+    "Three": "y",
+    "inside": "r",
+    "closet.": "r"
+   },
+   "sfx": [
+    {
+     "word": "Three",
+     "type": "knock"
+    },
+    {
+     "word": "slow",
+     "type": "knock"
+    },
+    {
+     "word": "knocks.",
+     "type": "knock"
+    }
+   ]
+  },
+  {
+   "scene": "phone3",
+   "text": "Then a text. From my own number.",
+   "hl": {
+    "own": "r",
+    "number.": "r"
+   },
+   "sfx": [
+    {
+     "word": "text.",
+     "type": "buzz"
+    }
+   ]
+  },
+  {
+   "scene": "phone3",
+   "text": "Never open the door at 2 AM.",
+   "say": "Never open the door at two A.M.",
+   "hl": {
+    "Never": "r",
+    "door": "y",
+    "2": "r",
+    "AM.": "r"
+   },
+   "gap": 0.6
+  },
+  {
+   "scene": "note2",
+   "text": "I looked at the note again. It was my handwriting.",
+   "hl": {
+    "my": "r",
+    "handwriting.": "r"
+   },
+   "sfx": [
+    {
+     "word": "my",
+     "type": "sting"
+    }
+   ],
+   "gap": 0.6
+  },
+  {
+   "scene": "end",
+   "text": "So who keeps warning me... and who's knocking?",
+   "hl": {
+    "warning": "y",
+    "knocking?": "r"
+   },
+   "stamp": "NIGHT 3 · 01:59",
+   "sfx": [
+    {
+     "word": "knocking?",
+     "type": "knock"
+    }
+   ]
+  }
+ ]
+}

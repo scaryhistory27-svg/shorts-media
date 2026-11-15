@@ -117,6 +117,41 @@
    "youtube_id": "ippN5Ox5E4A",
    "youtube_url": "https://www.youtube.com/shorts/ippN5Ox5E4A",
    "warning": "custom thumbnail rejected by YouTube (channel not verified)"
+  },
+  "2026-11-15T10:15-the-2am-knock-ep3": {
+   "id": "2026-11-15T10:15-the-2am-knock-ep3",
+   "slot": "2026-11-15T10:15",
+   "series": "the-2am-knock",
+   "episode": 3,
+   "title": "The Note Under My Sink Was In MY Handwriting 😨 #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-15T17:44:33Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-15T17:51:59Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-15T17:51:59Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-15T17:51:59Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-15T17:51:59Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-15T17:44:33Z",
+   "updated": "2026-11-15T17:51:59Z"
   }
  }
 }

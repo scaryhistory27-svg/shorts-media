@@ -105,7 +105,7 @@ def _lufs(path):
     return float(_re.findall(r"I:\s+(-?[0-9.]+) LUFS",o)[-1])
 g=-14-_lufs(f"{B}/audio.wav")
 for _ in range(4):
-    subprocess.run(["ffmpeg","-v","error","-y","-i",f"{B}/audio.wav","-af",f"volume={g:.2f}dB,alimiter=limit=0.7:attack=1:release=50:level=false","-ar","48000",f"{B}/audio_master.wav"],check=True)
+    subprocess.run(["ffmpeg","-v","error","-y","-i",f"{B}/audio.wav","-af",f"volume={g:.2f}dB,alimiter=limit=0.6:attack=1:release=50:level=false","-ar","48000",f"{B}/audio_master.wav"],check=True)
     I=_lufs(f"{B}/audio_master.wav")
     if abs(I+14)<0.25: break
     g+=(-14-I)
