@@ -181,7 +181,7 @@
    "series": "the-missing-floor",
    "episode": 1,
    "title": "Never Step Out If Your Elevator Stops On 13 😨 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -203,12 +203,28 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-15T18:48:09Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-15T18:48:13Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-15T18:48:13Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-15T18:48:51Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-15T18:43:58Z",
-   "updated": "2026-11-15T18:48:09Z"
+   "updated": "2026-11-15T18:48:51Z",
+   "metricool_id": 429163717,
+   "metricool_uuid": "-6093234500372314366",
+   "publish": "2026-11-15T15:30:00-08:00",
+   "thumbnail": "frame 31908ms"
   }
  }
 }
