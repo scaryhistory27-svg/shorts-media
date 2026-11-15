@@ -1,3 +1,7 @@
+## 2026-11-15 — Part 3 made manually (owner: publish 22:15 Yerevan)
+
+- Part 3 scheduled 10:15 LA, cover frame 23.7 s. Schedule Nov 15: 10:15 + 16:00 (new series Part 1). Engine caption spacing 38, limiter 0.6.
+
 ## 2026-11-15 — genres + rewatch mechanics
 
 - Next NEW series (Nov 16) must pick from ≥3 genres; every episode ≥2 rewatch hooks (clue/loop/open question/twist). Part 3 of 2 AM Knock: add a hidden clue + loop to Part 1.

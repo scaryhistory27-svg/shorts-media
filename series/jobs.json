@@ -124,7 +124,7 @@
    "series": "the-2am-knock",
    "episode": 3,
    "title": "The Note Under My Sink Was In MY Handwriting 😨 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -146,12 +146,28 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-15T17:51:59Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-15T17:52:03Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-15T17:52:11Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-15T17:52:28Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-15T17:44:33Z",
-   "updated": "2026-11-15T17:51:59Z"
+   "updated": "2026-11-15T17:52:28Z",
+   "metricool_id": 429113298,
+   "metricool_uuid": "4771079838323460757",
+   "publish": "2026-11-15T10:15:00-08:00",
+   "thumbnail": "frame 23700ms"
   }
  }
 }

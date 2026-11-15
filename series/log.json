@@ -1,7 +1,7 @@
 {
  "publish_time": "16:00",
  "timezone": "America/Los_Angeles",
- "last_publish": "2026-11-14T16:39:00",
+ "last_publish": "2026-11-15T10:15:00",
  "series": [
   {
    "slug": "the-2am-knock",
@@ -22,6 +22,13 @@
      "metricool_uuid": "-131978828335725952",
      "youtube_url": "https://www.youtube.com/shorts/ippN5Ox5E4A",
      "note": "published; custom thumbnail rejected"
+    },
+    {
+     "n": 3,
+     "publish": "2026-11-15T10:15:00",
+     "youtube_title": "The Note Under My Sink Was In MY Handwriting 😨 #shorts",
+     "metricool_id": 429113298,
+     "thumbnail": "frame"
     }
    ]
   }

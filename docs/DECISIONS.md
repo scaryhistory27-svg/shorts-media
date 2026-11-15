@@ -23,3 +23,4 @@
 - 2026-11-15 Owner: after each post decide the best time for the next one → log.json slot_overrides honoured by jobs.py next-slots.
 - 2026-11-15 Owner: report = video + cover + title + why this time (+ next post time); no video length.
 - 2026-11-15 Owner: concrete report on everything (what/why) → fixed report template with real numbers in CLAUDE.md.
+- 2026-11-15 Owner: Part 3 at 22:15 Yerevan (10:15 LA) and the new series' Part 1 the same day → Nov 15 slots 10:15 + 16:00 (Sunday best hour 16:00).
