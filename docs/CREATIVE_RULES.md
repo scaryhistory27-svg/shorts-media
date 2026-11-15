@@ -17,3 +17,6 @@ No greeting/intro. Line 1 = warning / "if you try this…" / "I tried / I found�
 
 ## Genre blend (owner, 2026-11-15)
 Each new series mixes 2–3 genres across its 3 parts (hook genre → different engine → genre-flip twist), one coherent logic, all clues pay off.
+
+## Variety (owner, 2026-11-15)
+Each series = a different everyday situation (elevator, highway, hotel, last train, smart speaker…), never another 2 AM/door/knock story. No repeat of the last 3 series' setting, time, monster or key prop. Header stamp fits the story.

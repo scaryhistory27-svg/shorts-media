@@ -19,3 +19,4 @@
 - 2026-11-15 Owner: add mystical / gripping stories, people should rewatch → genre rotation + ≥2 rewatch mechanics per episode (hidden clue, loop, open question, recontextualizing twist).
 - 2026-11-15 Owner: the start must grab instantly, never 'hello' → hook patterns in CLAUDE.md + automated gate pipeline/check_hook.py in QA.
 - 2026-11-15 Owner: mix several genres inside one 3-part series → genre-blend arc rule in CLAUDE.md.
+- 2026-11-15 Owner: plots must differ (e.g. stuck in an elevator — never do X), not 2 AM every time → situation bank + no-repeat rule + story-specific header stamp.

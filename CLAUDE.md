@@ -22,7 +22,8 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
 
 ## Style (match exactly — the owner likes it)
 - Vertical 1080x1920, 30 fps, 40–55 s. Dark flat-vector night palette, slow camera push-ins, film grain, vignette, dust.
-- Header: `<SERIES TITLE> · PART n` + orange time stamp (`NIGHT n · 02:00`), blinking red rec dot.
+- Header: `<SERIES TITLE> · PART n` + orange stamp that FITS THE STORY (e.g. `FLOOR 13 · STUCK 00:47`, `DAY 3 · 11:47 AM`, `ROUTE 9 · KM 214`) —
+  `NIGHT n · 02:00` only for The 2 AM Knock. Blinking red rec dot.
 - Big word-by-word captions (Inter Black), key words highlighted yellow (`y`) or red (`r`).
 - Narrator (chosen by the owner 2026-11-15, sample B "storyteller" = trending horror-Shorts delivery): Kokoro blend
   `am_michael:0.45,am_onyx:0.55`, speed 0.80, `voice_fx: storyteller` (deep, slow, dry close-mic, slight grit, short room) and
@@ -59,6 +60,17 @@ Rotate genres across series (never 2 pure-horror series in a row once analytics 
 - **Unexplained mystery** (a stranger who knows the future, a town missing from maps, a message from yourself, a number that keeps calling).
 - **Time & reality bends** (time loops, a minute that repeats, a door that leads to yesterday, déjà vu with a cost).
 - **Eerie true-feeling "documented" tales** (found notes, CCTV logs, voicemails) — always fiction, never claim real events or real people.
+**Variety (owner 2026-11-15): every series is a DIFFERENT everyday situation — not "2 AM" / night / door / knocking again.**
+Premise = "If you ever end up in <situation>, never do <X>" or "When <situation> happens to you, don't <Y>". Situation bank (extend it):
+stuck in an elevator · lost signal on a highway at night · an unknown number calling during a storm · a hotel room that's
+not on the floor plan · a babysitting / house-sitting job with one rule · the last train that stops at an unlisted station ·
+a smart speaker answering a question nobody asked · a parking garage level that shouldn't exist · a hiking trail marker that
+moves · a lost-and-found item with your name · a dentist/doctor waiting room where nobody gets called · a gas station at 4 AM ·
+a family photo with one extra person · a voicemail from tomorrow · a dating-app match who knows too much · a library book
+returned 50 years late in your handwriting · an online game NPC who remembers you · a stranger at your bus stop every day.
+Rules: no repeat of the previous 3 series' setting, time-of-day, monster type or key prop; vary time (day/evening/night),
+place (indoor/outdoor/transport/work/online) and the "rule". plan.md must state how it differs from the last 3 series.
+
 **Genre blend (owner 2026-11-15): every NEW series mixes 2–3 genres inside its 3 parts**, so the story keeps changing shape:
 - Typical arc: Part 1 = the hook genre (horror/mystic scare) → Part 2 = a different engine (mystery investigation, "documented"
   CCTV/voicemail evidence) → Part 3 = a genre-flip twist (time loop, doppelgänger, reality bend) that explains the clues.
