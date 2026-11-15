@@ -35,6 +35,10 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
   idle characters still breathe/blink/sway; lights flicker, doors swing, phones vibrate, background parallax (layers move at
   different speeds). Put a glow/rim light behind dark creatures so their motion reads on the dark background.
   Demo of the style: tests/anim_demo/scenes.js.
+  **Look & dynamics (owner 2026-11-15: "prettier, scarier, more dynamic"):** perspective sets (see series/the-missing-floor/ep1 `liftInterior`),
+  `lightCone()` + `fog()` in every set, `heartbeat()` in tense scenes, `jerky()` stop-motion for creepy movement, characters react
+  (stumble, flinch, back away, run). Camera punch-zoom on hit/sting/knock and a glitch+red flash on every sting are automatic (engine).
+  Reference episode for the new standard: series/the-missing-floor/ep1.
 - Narrator (chosen by the owner 2026-11-15, sample B "storyteller" = trending horror-Shorts delivery): Kokoro blend
   `am_michael:0.45,am_onyx:0.55`, speed 0.80, `voice_fx: storyteller` (deep, slow, dry close-mic, slight grit, short room) and
   0.5 s pauses between lines (timeline default `gap`) — the defaults in tts.py/timeline.py; don't change them unless the owner asks.
