@@ -42,7 +42,7 @@
     "13:14",
     "16:39"
    ],
-   "note": "launch day: Part 1 + Part 2 (owner moved Part 2 to today)"
+   "note": "launch day: Part 1 + Part 2"
   },
   {
    "from": "2026-11-15",
@@ -51,32 +51,32 @@
     "10:15",
     "16:00"
    ],
-   "note": "owner: Part 3 at 22:15 Yerevan (10:15 LA) + new series Part 1 later today"
+   "note": "Part 3 at 10:15; new series Part 1 — autopilot picks the best hour today (default 16:00)"
   },
   {
    "from": "2026-11-16",
-   "to": "2026-11-18",
+   "to": "2026-11-17",
    "times": [
     "10:00",
     "16:00"
    ],
-   "note": "owner: 2 videos/day for the first days"
+   "note": "owner: 2 more days with 2 videos/day"
   },
   {
-   "from": "2026-11-19",
-   "to": "2026-11-24",
+   "from": "2026-11-18",
+   "to": "2026-11-22",
    "times": [
     "16:00"
    ],
-   "note": "1 video/day"
+   "note": "owner: then 5 days, 1 video/day"
   },
   {
-   "from": "2026-11-26",
+   "from": "2026-11-24",
    "every_days": 2,
    "times": [
     "16:00"
    ],
-   "note": "then every 2 days"
+   "note": "owner: then 1 video every 2 days"
   }
  ],
  "schedule_tz": "America/Los_Angeles",
