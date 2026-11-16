@@ -1,5 +1,5 @@
 # CREATIVE RULES (authoritative copy is the Style / Hook sections of CLAUDE.md)
-- Original English horror stories, 2D flat animation, vertical 9:16, length 60–75 s (owner 2026-11-16), new beat every ≤ 6 s.
+- Original English horror stories, 2D flat animation, vertical 9:16, length 50–60 s (owner 2026-11-16, per research), new beat every ≤ 6 s.
 - English narration + word-by-word English captions; atmospheric SFX; quiet mystical music.
 - Hook in the first 2 s: warning or impossible fact ("Never open the door if…", "If you hear this at night, don't…", "Whatever you do, don't…") — patterns, not scripts to repeat.
 - Escalating suspense, cliffhanger at the end of Parts 1–2, twist in Part 3; last line loops to the first.

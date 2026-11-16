@@ -23,7 +23,7 @@ exact hour for every video itself** (see "Posting time"), any hour 07:00–22:00
 Everything is done end-to-end without asking the owner: story → 2D animation → English voice-over → upload → schedule in Metricool.
 
 ## Style (match exactly — the owner likes it)
-- Vertical 1080x1920, 30 fps, **60–75 s (owner 2026-11-16: "a bit longer")** — a new visual/story beat every ≤ 6 s (new scene, reveal,
+- Vertical 1080x1920, 30 fps, **50–60 s (owner 2026-11-16: "as the research found" — horror/story Shorts 45–60 s, best views at 50–60 s)** — a new visual/story beat every ≤ 6 s (new scene, reveal,
   character action or camera move) so retention holds; keep the 2-second hook. Dark flat-vector night palette, slow camera push-ins, film grain, vignette, dust.
 - Header: `<SERIES TITLE> · PART n` + orange stamp that FITS THE STORY (e.g. `FLOOR 13 · STUCK 00:47`, `DAY 3 · 11:47 AM`, `ROUTE 9 · KM 214`) —
   `NIGHT n · 02:00` only for The 2 AM Knock. Blinking red rec dot.
@@ -43,7 +43,7 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
 - Narrator (chosen by the owner 2026-11-15, sample B "storyteller" = trending horror-Shorts delivery): Kokoro blend
   `am_michael:0.45,am_onyx:0.55`, speed 0.80, `voice_fx: storyteller` (deep, slow, dry close-mic, slight grit, short room) and
   0.5 s pauses between lines (timeline default `gap`) — the defaults in tts.py/timeline.py; don't change them unless the owner asks.
-  Scripts: 14–17 short lines so the video lands at 60–75 s (≤ 6 s per line incl. pause; split long lines). Dark drone bed + synced SFX.
+  Scripts: 13–15 short lines so the video lands at 50–60 s (≤ 6 s per line incl. pause; split long lines). Dark drone bed + synced SFX.
 - Quiet mystical music under the voice (owner's request): procedural minor pads + sparse music-box notes + long reverb,
   auto-ducked under speech (timeline.py `music_bed`, melody seeded per episode). `music_level` in episode.json, default 0.11 — keep it quiet.
 - **THE FIRST SECOND (owner, mandatory for EVERY episode):** the video starts mid-tension — NO greeting, intro, channel name,
@@ -54,7 +54,7 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
   · an impossible fact: "My clock stopped at 3:07. Again." / "My mom texted me. She died in 2019."
   First frame = the most striking image of the episode + a sound hit (hit/sting/knock) in the first 0.6 s.
   `python3 pipeline/check_hook.py $E` must print PASS before publishing (part of QA).
-  Short punchy sentences, 14–17 lines (60–75 s).
+  Short punchy sentences, 13–15 lines (50–60 s).
 - Last line of Part 1/2 = cliffhanger; end card `PART 2?` / `PART 3?`. Part 3 resolves with a twist; end card `THE END?`.
 - Part 2 and 3: first line is a 1-sentence recap hook ("Two nights ago, my mom knocked on my door. She lives in Chicago.").
 - Original stories and characters only (no existing IPs), YouTube-safe (creepy, no gore, nothing involving harm to kids).
@@ -185,7 +185,7 @@ Every run, even a "skip" run:
 2. **Audio:** timeline.py masters to `build/audio_master.wav` automatically. Check final.mp4: `-af ebur128` → −14.5…−13.5 LUFS;
    `-af astats` → peak ≤ −0.5 dB (if not, lower the alimiter limit in timeline.py); voice present for every line (`silencedetect=n=-45dB:d=0.8` shows no silence inside the story).
 3. **Sync:** spot-check 3 frames exactly at sfx times from build/timeline.json (knock → door shakes/rings, etc.).
-4. **Script:** proper English, every `say` pronunciation correct, 58–78 s, no line/scene held > 6 s, cliffhanger last line, recap line in Part 2/3.
+4. **Script:** proper English, every `say` pronunciation correct, 50–62 s, no line/scene held > 6 s, cliffhanger last line, recap line in Part 2/3.
    **Hook gate:** `python3 pipeline/check_hook.py $E` → PASS (no greeting/intro, warning/impossible-fact pattern, first word ≤ 0.4 s, sound hit ≤ 0.6 s).
 5. **Cover:** Read cover.jpg — face/creature visible, text readable at small size, no spoiler.
    **Cover frame (videoCoverMilliseconds):** extract that exact frame from final.mp4 (`ffmpeg -ss <s> -frames:v 1`) and Read it — it must be

@@ -31,3 +31,4 @@
 - 2026-11-15 Owner: redo Missing Floor Part 1 with more animation, prettier, scarier → engine punch-zoom, sting glitch, shaded characters, fog, light cones, jerky(), heartbeat(); Parts 1–2 re-rendered and replaced in Metricool (same times).
 - 2026-11-15 Owner: don't forget covers → always send cover.jpg with every video (incl. re-renders); verify the cover frame is clean (not inside a glitch).
 - 2026-11-16 Owner: make videos a bit longer → 60–75 s, 14–17 lines, beat every ≤ 6 s (web research: horror/story Shorts 45–60 s common; 50–60 s correlate with more views; longer needs a new beat every 5–7 s). First: Missing Floor Part 3.
+- 2026-11-16 Owner: "do it as you found" → length 50–60 s, 13–15 lines, beat every ≤ 6 s (replaces the 60–75 s rule).
