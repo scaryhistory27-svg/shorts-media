@@ -361,6 +361,41 @@
    "metricool_uuid": "-2423439446430759712",
    "publish": "2026-11-16T15:30:00-08:00",
    "thumbnail": "frame 33570ms"
+  },
+  "2026-11-17T09:30-mile-marker-214-ep1": {
+   "id": "2026-11-17T09:30-mile-marker-214-ep1",
+   "slot": "2026-11-17T09:30",
+   "series": "mile-marker-214",
+   "episode": 1,
+   "title": "Never Follow Your GPS Past Mile Marker 214 😨 #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-16T18:55:57Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-16T18:56:49Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-16T18:56:50Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-16T19:01:14Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-16T19:01:14Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-16T18:55:57Z",
+   "updated": "2026-11-16T19:01:14Z"
   }
  }
 }

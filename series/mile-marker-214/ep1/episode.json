@@ -1,0 +1,204 @@
+{
+ "series": "Mile Marker 214",
+ "episode": 1,
+ "title": "MILE MARKER 214 · PART 1",
+ "stamp": "ROUTE 9 · 7:13 PM",
+ "endTitle": "PART 2?",
+ "endSub": "Don't follow the GPS.",
+ "music_level": 0.12,
+ "youtube": {
+  "title": "Never Follow Your GPS Past Mile Marker 214 😨 #shorts",
+  "description": "The same sign. Again. And again. 🚗 Part 2? 👀\n#horrorstory #scary #creepy #roadtrip #liminal #shorts",
+  "tags": [
+   "horror story",
+   "scary",
+   "creepy",
+   "highway",
+   "gps",
+   "scary story",
+   "horror animation",
+   "road trip"
+  ]
+ },
+ "cover": {
+  "seg": 9,
+  "frac": 0.6,
+  "top": "MILE MARKER 214",
+  "lines": [
+   "IT SAID",
+   "TURN AROUND"
+  ],
+  "sub": "PART 1"
+ },
+ "lines": [
+  {
+   "scene": "gpshook",
+   "text": "Never pass mile 214.",
+   "say": "Never pass mile two fourteen.",
+   "hl": {
+    "Never": "r",
+    "214.": "r"
+   },
+   "speed": 1.0,
+   "gap": 0.35,
+   "sfx": [
+    {
+     "at": "start",
+     "type": "hit"
+    }
+   ]
+  },
+  {
+   "scene": "drive",
+   "text": "I was driving home on Route 9 at sunset.",
+   "hl": {
+    "Route": "y",
+    "9": "y",
+    "sunset.": "y"
+   }
+  },
+  {
+   "scene": "drive",
+   "text": "The road was empty. Not one car for an hour.",
+   "hl": {
+    "empty.": "r"
+   }
+  },
+  {
+   "scene": "gps",
+   "text": "Then my GPS said: Turn around.",
+   "hl": {
+    "Turn": "r",
+    "around.": "r"
+   },
+   "sfx": [
+    {
+     "word": "said:",
+     "type": "buzz"
+    }
+   ]
+  },
+  {
+   "scene": "gps2",
+   "text": "I kept going. It said it again. Louder.",
+   "hl": {
+    "again.": "y",
+    "Louder.": "r"
+   },
+   "sfx": [
+    {
+     "word": "Louder.",
+     "type": "buzz"
+    }
+   ]
+  },
+  {
+   "scene": "marker",
+   "text": "Mile marker 214. Then 214. Then 214 again.",
+   "say": "Mile marker two fourteen. Then two fourteen. Then two fourteen again.",
+   "hl": {
+    "214.": "y",
+    "again.": "r"
+   },
+   "sfx": [
+    {
+     "word": "Then",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "marker",
+   "text": "The same cracked sign. The same dead tree.",
+   "hl": {
+    "same": "r",
+    "tree.": "y"
+   }
+  },
+  {
+   "scene": "radio",
+   "text": "Then my radio turned on by itself.",
+   "hl": {
+    "radio": "y",
+    "itself.": "r"
+   },
+   "sfx": [
+    {
+     "word": "radio",
+     "type": "creak"
+    }
+   ]
+  },
+  {
+   "scene": "radio",
+   "text": "A woman whispered: You missed your exit in 1987.",
+   "say": "A woman whispered: You missed your exit in nineteen eighty-seven.",
+   "hl": {
+    "missed": "r",
+    "1987.": "r"
+   },
+   "speed": 0.78,
+   "gap": 0.6
+  },
+  {
+   "scene": "mirror",
+   "text": "In my mirror, an old pickup was right behind me.",
+   "hl": {
+    "pickup": "r",
+    "behind": "r"
+   },
+   "sfx": [
+    {
+     "at": "start",
+     "type": "sting"
+    }
+   ]
+  },
+  {
+   "scene": "mirror2",
+   "text": "No driver. It flashed its lights three times.",
+   "hl": {
+    "No": "r",
+    "driver.": "r",
+    "three": "y"
+   },
+   "sfx": [
+    {
+     "word": "flashed",
+     "type": "knock"
+    },
+    {
+     "word": "lights",
+     "type": "knock"
+    },
+    {
+     "word": "three",
+     "type": "knock"
+    }
+   ]
+  },
+  {
+   "scene": "arrived",
+   "text": "Then my GPS said: You have arrived.",
+   "hl": {
+    "arrived.": "r"
+   },
+   "stamp": "ROUTE 9 · 7:13 PM",
+   "sfx": [
+    {
+     "word": "arrived.",
+     "type": "hit"
+    }
+   ]
+  },
+  {
+   "scene": "arrived",
+   "text": "There was nothing out there. Nothing but the sign.",
+   "hl": {
+    "nothing": "r",
+    "sign.": "y"
+   },
+   "gap": 0.6
+  }
+ ]
+}
