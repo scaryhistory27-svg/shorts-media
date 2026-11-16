@@ -368,7 +368,7 @@
    "series": "mile-marker-214",
    "episode": 1,
    "title": "Never Follow Your GPS Past Mile Marker 214 😨 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -390,12 +390,28 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-16T19:01:14Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-16T19:01:18Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-16T19:01:18Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-16T19:01:37Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-16T18:55:57Z",
-   "updated": "2026-11-16T19:01:14Z"
+   "updated": "2026-11-16T19:01:37Z",
+   "metricool_id": 430520918,
+   "metricool_uuid": "-1947405019314569080",
+   "publish": "2026-11-17T09:30:00-08:00",
+   "thumbnail": "frame 40946ms"
   }
  }
 }

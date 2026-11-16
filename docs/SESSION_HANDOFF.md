@@ -1,3 +1,7 @@
+## 2026-11-16 11:02 LA — new series Mile Marker 214 Part 1 scheduled Nov 17 09:30
+
+- Car POV engine scenes (sunsetSky, road, passing, carInterior, gpsScreen, mirrorView) in series/mile-marker-214/ep1/scenes.js. Part 2 next run.
+
 ## 2026-11-16 10:55 LA — Missing Floor Part 3 scheduled 15:30; next: new series for Nov 17 09:30
 
 - Fixed: reused 'reflection' scene showed THE END? mid-video → end cards now gated to the last segment.

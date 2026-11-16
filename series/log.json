@@ -1,7 +1,7 @@
 {
  "publish_time": "16:00",
  "timezone": "America/Los_Angeles",
- "last_publish": "2026-11-16T15:30:00",
+ "last_publish": "2026-11-17T09:30:00",
  "series": [
   {
    "slug": "the-2am-knock",
@@ -64,6 +64,25 @@
      "publish": "2026-11-16T15:30:00",
      "youtube_title": "I Went Back To Floor 13. Someone Had My Face 😨 #shorts",
      "metricool_id": 430511253,
+     "thumbnail": "frame"
+    }
+   ]
+  },
+  {
+   "slug": "mile-marker-214",
+   "title": "Mile Marker 214",
+   "genres": [
+    "road horror",
+    "loop mystery",
+    "documented",
+    "reality twist"
+   ],
+   "episodes": [
+    {
+     "n": 1,
+     "publish": "2026-11-17T09:30:00",
+     "youtube_title": "Never Follow Your GPS Past Mile Marker 214 😨 #shorts",
+     "metricool_id": 430520918,
      "thumbnail": "frame"
     }
    ]
