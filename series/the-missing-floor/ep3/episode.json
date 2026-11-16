@@ -1,0 +1,220 @@
+{
+ "series": "The Missing Floor",
+ "episode": 3,
+ "title": "THE MISSING FLOOR · PART 3",
+ "stamp": "DAY 3 · 4:46 PM",
+ "endTitle": "THE END?",
+ "endSub": "Which one of us came home?",
+ "music_level": 0.12,
+ "youtube": {
+  "title": "I Went Back To Floor 13. Someone Had My Face 😨 #shorts",
+  "description": "Final part. He was wearing my hoodie. 🛗 Which one came home? 👀\n#horrorstory #scary #creepy #elevator #doppelganger #shorts",
+  "tags": [
+   "horror story",
+   "scary",
+   "creepy",
+   "elevator",
+   "doppelganger",
+   "scary story",
+   "horror animation",
+   "floor 13"
+  ]
+ },
+ "cover": {
+  "seg": 8,
+  "frac": 0.55,
+  "top": "THE MISSING FLOOR",
+  "lines": [
+   "HE HAD",
+   "MY FACE."
+  ],
+  "sub": "FINAL PART"
+ },
+ "lines": [
+  {
+   "scene": "display13",
+   "text": "Never ride it at 4:47.",
+   "say": "Never ride it at four forty-seven.",
+   "hl": {
+    "Never": "r",
+    "4:47.": "r"
+   },
+   "speed": 1.0,
+   "gap": 0.35,
+   "sfx": [
+    {
+     "at": "start",
+     "type": "hit"
+    }
+   ]
+  },
+  {
+   "scene": "reflection",
+   "text": "Two days ago, floor 13 kept my reflection.",
+   "say": "Two days ago, floor thirteen kept my reflection.",
+   "hl": {
+    "13": "r",
+    "reflection.": "r"
+   },
+   "stamp": "DAY 3 · 4:46 PM"
+  },
+  {
+   "scene": "lobbycall",
+   "text": "So at 4:46, I called the elevator again.",
+   "say": "So at four forty-six, I called the elevator again.",
+   "hl": {
+    "again.": "y"
+   },
+   "sfx": [
+    {
+     "word": "elevator",
+     "type": "knock"
+    }
+   ]
+  },
+  {
+   "scene": "display13",
+   "text": "The doors opened. The screen already said 13.",
+   "say": "The doors opened. The screen already said thirteen.",
+   "hl": {
+    "already": "y",
+    "13.": "r"
+   },
+   "sfx": [
+    {
+     "word": "13.",
+     "type": "sting"
+    }
+   ]
+  },
+  {
+   "scene": "doorsopen",
+   "text": "No ride. No sound. Just the green office.",
+   "hl": {
+    "green": "y",
+    "office.": "y"
+   },
+   "sfx": [
+    {
+     "word": "No",
+     "type": "creak"
+    }
+   ]
+  },
+  {
+   "scene": "office",
+   "text": "Everyone was still frozen. Except one man.",
+   "hl": {
+    "frozen.": "r",
+    "Except": "y",
+    "man.": "y"
+   }
+  },
+  {
+   "scene": "office2",
+   "text": "He was wearing my blue hoodie.",
+   "hl": {
+    "my": "r",
+    "hoodie.": "r"
+   }
+  },
+  {
+   "scene": "office2",
+   "text": "Slowly, he turned around.",
+   "hl": {
+    "turned": "r"
+   },
+   "sfx": [
+    {
+     "word": "turned",
+     "type": "creak"
+    }
+   ]
+  },
+  {
+   "scene": "myface",
+   "text": "He had my face. And he was smiling.",
+   "hl": {
+    "my": "r",
+    "face.": "r",
+    "smiling.": "r"
+   },
+   "sfx": [
+    {
+     "at": "start",
+     "type": "sting"
+    },
+    {
+     "at": "start",
+     "type": "heart"
+    }
+   ],
+   "gap": 0.5
+  },
+  {
+   "scene": "myface",
+   "text": "He said: Thanks for bringing it back.",
+   "hl": {
+    "Thanks": "y",
+    "back.": "r"
+   },
+   "speed": 0.76,
+   "gap": 0.6
+  },
+  {
+   "scene": "reflectstep",
+   "text": "Behind me, my reflection stepped out of the doors.",
+   "hl": {
+    "reflection": "r",
+    "stepped": "r",
+    "out": "r"
+   },
+   "sfx": [
+    {
+     "word": "stepped",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "walkhome",
+   "text": "Then the doors shut, and I walked home.",
+   "hl": {
+    "shut,": "y",
+    "home.": "y"
+   },
+   "sfx": [
+    {
+     "word": "shut,",
+     "type": "hit"
+    }
+   ],
+   "stamp": "DAY 3 · 5:20 PM"
+  },
+  {
+   "scene": "mirrorlate",
+   "text": "My mirror works again. But it blinks a second too late.",
+   "hl": {
+    "works": "y",
+    "too": "r",
+    "late.": "r"
+   },
+   "stamp": "DAY 3 · 11:02 PM"
+  },
+  {
+   "scene": "endq",
+   "text": "So which one of us came home?",
+   "hl": {
+    "which": "r",
+    "home?": "r"
+   },
+   "stamp": "DAY 3 · 11:03 PM",
+   "sfx": [
+    {
+     "at": "start",
+     "type": "heart"
+    }
+   ]
+  }
+ ]
+}

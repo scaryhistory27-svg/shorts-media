@@ -310,6 +310,41 @@
    "youtube_id": "2XKg6IB-wss",
    "youtube_url": "https://www.youtube.com/shorts/2XKg6IB-wss",
    "warning": "custom thumbnail rejected"
+  },
+  "2026-11-16T15:30-the-missing-floor-ep3": {
+   "id": "2026-11-16T15:30-the-missing-floor-ep3",
+   "slot": "2026-11-16T15:30",
+   "series": "the-missing-floor",
+   "episode": 3,
+   "title": "I Went Back To Floor 13. Someone Had My Face 😨 #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-16T18:43:01Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-16T18:44:06Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-16T18:44:06Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-16T18:53:36Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-16T18:53:36Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-16T18:43:01Z",
+   "updated": "2026-11-16T18:53:36Z"
   }
  }
 }
