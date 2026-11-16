@@ -13,4 +13,8 @@ rule = don't obey the GPS · threat = a driverless pickup + radio voice (not a c
   twist: the narrator's car is the 1987 car — the GPS voice is his mother's recording. He turns around; marker 215 appears for the first time.
   Open question: did he get out, or is the next driver about to see HIS car behind them? End card THE END?
 
-**Continuity (owner):** Part 1 = Day 1 (sunset). Part 2 opens "Yesterday, …" (Day 2, he watches the dashcam the next morning, drives Route 9 again that evening). Part 3 opens "Two days ago, …" (Day 3). Stamps ROUTE 9 · DAY n.
+**Continuity (owner, final): one evening, three back-to-back parts.**
+- Part 2 starts the second Part 1 ends: GPS says "arrived" in nowhere; he stops; the driverless pickup stops behind; he replays the dashcam on his phone
+  (no pickup on it — but HIS car seen from behind), radio reads a 1987 news story (car vanished on Route 9 at 7:13 PM). Cliffhanger: the pickup's door opens.
+- Part 3 continues that same minute: the 1987 highway patrolman steps out; "turn around" was him; twist: the narrator's car is the 1987 car; he turns
+  around; mile marker 215 appears. Open question. Stamps: ROUTE 9 · 7:13 PM → 7:21 PM → 7:34 PM.

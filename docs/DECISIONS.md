@@ -33,3 +33,4 @@
 - 2026-11-16 Owner: make videos a bit longer → 60–75 s, 14–17 lines, beat every ≤ 6 s (web research: horror/story Shorts 45–60 s common; 50–60 s correlate with more views; longer needs a new beat every 5–7 s). First: Missing Floor Part 3.
 - 2026-11-16 Owner: "do it as you found" → length 50–60 s, 13–15 lines, beat every ≤ 6 s (replaces the 60–75 s rule).
 - 2026-11-16 Owner: Part 2 says "Yesterday…", Part 3 "Two days ago…" — 3 consecutive days of one story; check_hook accepts these openers.
+- 2026-11-16 Owner (final): all 3 parts happen the same day back to back — no 'yesterday'/'two days ago'; Part 2/3 continue the same minute.
