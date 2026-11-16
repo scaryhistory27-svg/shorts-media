@@ -48,14 +48,16 @@
      "publish": "2026-11-15T15:30:00",
      "youtube_title": "Never Step Out If Your Elevator Stops On 13 😨 #shorts",
      "metricool_id": 429188940,
-     "thumbnail": "custom"
+     "thumbnail": "custom",
+     "youtube_url": "https://www.youtube.com/shorts/0Nox-zulKb8"
     },
     {
      "n": 2,
      "publish": "2026-11-16T09:30:00",
      "youtube_title": "The Elevator Never Left The Lobby. I Did. 😨 #shorts",
      "metricool_id": 429188989,
-     "thumbnail": "custom"
+     "thumbnail": "custom",
+     "youtube_url": "https://www.youtube.com/shorts/2XKg6IB-wss"
     }
    ]
   }
@@ -112,12 +114,11 @@
  "schedule_tz": "America/Los_Angeles",
  "thumbnail": {
   "mode": "frame",
-  "fails": 1,
+  "fails": 3,
   "probe_every": 3,
   "since_probe": 0,
-  "last_error": "2026-11-14 Part 2: Could not upload video thumbnail (channel not verified)",
-  "frame_ok": "2026-11-15 Part 3 published without warning (videoCoverMilliseconds works)",
-  "pending_probe": "Missing Floor 1–2 sent with custom covers (owner). If YouTube rejects again → keep mode frame; if accepted → mode custom."
+  "last_error": "2026-11-16 Missing Floor 1–2 custom covers rejected again (channel not verified)",
+  "frame_ok": "2026-11-15 Part 3 published without warning (videoCoverMilliseconds works)"
  },
  "slot_overrides": {
   "2026-11-15T16:00": "2026-11-15T15:30",

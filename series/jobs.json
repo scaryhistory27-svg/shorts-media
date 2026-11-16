@@ -181,8 +181,8 @@
    "series": "the-missing-floor",
    "episode": 1,
    "title": "Never Step Out If Your Elevator Stops On 13 😨 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -223,16 +223,23 @@
     {
      "stage": "scheduled",
      "at": "2026-11-15T19:12:50Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-16T18:36:39Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-15T18:43:58Z",
-   "updated": "2026-11-15T19:12:50Z",
+   "updated": "2026-11-16T18:36:39Z",
    "metricool_id": 429188940,
    "metricool_uuid": "-6093234500372314366",
    "publish": "2026-11-15T15:30:00-08:00",
-   "thumbnail": "custom (owner request)"
+   "thumbnail": "custom (owner request)",
+   "youtube_id": "0Nox-zulKb8",
+   "youtube_url": "https://www.youtube.com/shorts/0Nox-zulKb8",
+   "warning": "custom thumbnail rejected"
   },
   "2026-11-16T09:30-the-missing-floor-ep2": {
    "id": "2026-11-16T09:30-the-missing-floor-ep2",
@@ -240,8 +247,8 @@
    "series": "the-missing-floor",
    "episode": 2,
    "title": "The Elevator Never Left The Lobby. I Did. 😨 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -286,16 +293,23 @@
     {
      "stage": "scheduled",
      "at": "2026-11-15T19:12:50Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-16T18:36:39Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-15T18:49:51Z",
-   "updated": "2026-11-15T19:12:50Z",
+   "updated": "2026-11-16T18:36:39Z",
    "metricool_id": 429188989,
    "metricool_uuid": "1855175848006732767",
    "publish": "2026-11-16T09:30:00-08:00",
-   "thumbnail": "custom (owner request)"
+   "thumbnail": "custom (owner request)",
+   "youtube_id": "2XKg6IB-wss",
+   "youtube_url": "https://www.youtube.com/shorts/2XKg6IB-wss",
+   "warning": "custom thumbnail rejected"
   }
  }
 }
