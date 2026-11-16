@@ -1,3 +1,7 @@
+## 2026-11-16 10:55 LA — Missing Floor Part 3 scheduled 15:30; next: new series for Nov 17 09:30
+
+- Fixed: reused 'reflection' scene showed THE END? mid-video → end cards now gated to the last segment.
+
 ## 2026-11-15 11:12 LA — custom covers tried on Missing Floor 1–2 (owner)
 
 - Metricool ids 429188940 (15:30 today) / 429188989 (Nov 16 09:30). Next run: read detailedStatus; rejected → thumbnail mode stays 'frame'.

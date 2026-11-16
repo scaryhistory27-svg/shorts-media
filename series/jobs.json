@@ -317,7 +317,7 @@
    "series": "the-missing-floor",
    "episode": 3,
    "title": "I Went Back To Floor 13. Someone Had My Face 😨 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -339,12 +339,28 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-16T18:53:36Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-16T18:53:40Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-16T18:53:41Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-16T18:54:02Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-16T18:43:01Z",
-   "updated": "2026-11-16T18:53:36Z"
+   "updated": "2026-11-16T18:54:02Z",
+   "metricool_id": 430511253,
+   "metricool_uuid": "-2423439446430759712",
+   "publish": "2026-11-16T15:30:00-08:00",
+   "thumbnail": "frame 33570ms"
   }
  }
 }
