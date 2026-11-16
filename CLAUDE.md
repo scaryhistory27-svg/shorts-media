@@ -56,7 +56,10 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
   `python3 pipeline/check_hook.py $E` must print PASS before publishing (part of QA).
   Short punchy sentences, 13–15 lines (50–60 s).
 - Last line of Part 1/2 = cliffhanger; end card `PART 2?` / `PART 3?`. Part 3 resolves with a twist; end card `THE END?`.
-- Part 2 and 3: first line is a 1-sentence recap hook ("Two nights ago, my mom knocked on my door. She lives in Chicago.").
+- **Continuity (owner 2026-11-16): the 3 parts are consecutive days of ONE story** — Part 1 = Day 1, Part 2 = the next day, Part 3 = the day after.
+  Part 2's first line MUST start with "Yesterday, …" (recap of Part 1 as a hook: "Yesterday, my GPS told me to turn around. I didn't.");
+  Part 3's first line MUST start with "Two days ago, …" (or "Two nights ago, …"). Header stamp shows DAY 1 / DAY 2 / DAY 3 (or NIGHT n).
+  The rest of Part 2/3 continues directly from the previous cliffhanger ("…and today…", "this morning…") — it must feel like the next chapter.
 - Original stories and characters only (no existing IPs), YouTube-safe (creepy, no gore, nothing involving harm to kids).
 
 ## Before EVERY episode — learn from the published ones

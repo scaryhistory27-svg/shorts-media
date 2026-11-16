@@ -12,3 +12,5 @@ rule = don't obey the GPS · threat = a driverless pickup + radio voice (not a c
 - **Part 3:** the pickup driver is a highway patrol officer from 1987 who has been trying to guide lost drivers out ("turn around" was him);
   twist: the narrator's car is the 1987 car — the GPS voice is his mother's recording. He turns around; marker 215 appears for the first time.
   Open question: did he get out, or is the next driver about to see HIS car behind them? End card THE END?
+
+**Continuity (owner):** Part 1 = Day 1 (sunset). Part 2 opens "Yesterday, …" (Day 2, he watches the dashcam the next morning, drives Route 9 again that evening). Part 3 opens "Two days ago, …" (Day 3). Stamps ROUTE 9 · DAY n.

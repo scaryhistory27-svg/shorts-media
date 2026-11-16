@@ -10,7 +10,7 @@ if re.search(BANNED, low): fails.append("greeting/intro words in line 1")
 words = len(first.split())
 if words > 12: fails.append(f"line 1 too long ({words} words, max 12)")
 PATTERNS = [r"^(never|don't|do not|whatever you do|stop|if you (ever )?(hear|see|find|get|wake|try)|when you)", r"^(i tried|i found|i heard|i saw|my \w+ (started|stopped|called|texted|knocked|whispered))",
-            r"^(this is what happens|here's what happens|nobody (tells|told)|no one (knows|tells))", r"^(it came back|it's (\d|one|two|three)|at (\d|exactly)|last night)",
+            r"^(this is what happens|here's what happens|nobody (tells|told)|no one (knows|tells))", r"^(it came back|it's (\d|one|two|three)|at (\d|exactly)|last night|yesterday,|two (days|nights) ago,|2 (days|nights) ago,)",
             r"\b(again|still|never|nobody|no one|wasn't|isn't|shouldn't|didn't)\b"]
 if not any(re.search(p, low) for p in PATTERNS): fails.append("line 1 is not a warning / impossible fact / 'I tried X' / cliffhanger-recap pattern")
 try:
