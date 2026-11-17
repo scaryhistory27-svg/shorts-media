@@ -15,8 +15,8 @@
    "video": "channels/strange-minute/ready/ep001.mp4",
    "cover": "channels/strange-minute/ready/ep001-cover.jpg",
    "title": "What If The Moon Vanished Tonight? 🌕😳 #shorts",
-   "cover_ms": 16160,
-   "qa": "passed 2026-11-17 (v2: bm_george voice, chime, light captions)"
+   "cover_ms": 16560,
+   "qa": "passed 2026-11-17 (v3: am_fenrir US voice, question-first + ding, 18 lines)"
   }
  ],
  "episodes": [
@@ -60,5 +60,5 @@
    ]
   }
  ],
- "voice": "bm_george (en-gb, speed 1.0, explainer fx) — chosen 2026-11-17, owner delegated the choice"
+ "voice": "am_fenrir (en-us, speed 0.9, explainer fx) — owner chose sample A 2026-11-17"
 }

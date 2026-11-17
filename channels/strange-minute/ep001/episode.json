@@ -5,9 +5,9 @@
  "stamp": "THE MOON · GONE",
  "style": "light",
  "bed": "light",
- "voice": "bm_george",
+ "voice": "am_fenrir",
  "voice_fx": "explainer",
- "speed": 1.0,
+ "speed": 0.9,
  "gap": 0.4,
  "music_level": 0.13,
  "endTitle": "WHAT IF #2?",
@@ -27,7 +27,7 @@
   ]
  },
  "cover": {
-  "seg": 5,
+  "seg": 6,
   "frac": 0.25,
   "top": "STRANGE MINUTE",
   "lines": [
@@ -44,7 +44,7 @@
     "Moon": "y",
     "vanished": "y"
    },
-   "speed": 1.0,
+   "speed": 0.95,
    "gap": 0.35,
    "sfx": [
     {
@@ -65,6 +65,13 @@
    "text": "Every night would be as black as a new moon.",
    "hl": {
     "black": "y"
+   }
+  },
+  {
+   "scene": "citydark",
+   "text": "No silver glow. Just stars and streetlights.",
+   "hl": {
+    "stars": "y"
    }
   },
   {
@@ -158,6 +165,13 @@
   },
   {
    "scene": "wobble",
+   "text": "That's what happens on Mars. It has no big moon.",
+   "hl": {
+    "Mars.": "y"
+   }
+  },
+  {
+   "scene": "wobble",
    "text": "Over millions of years, seasons could swing wildly.",
    "hl": {
     "seasons": "y",
@@ -202,5 +216,5 @@
    ]
   }
  ],
- "lang": "en-gb"
+ "lang": "en-us"
 }

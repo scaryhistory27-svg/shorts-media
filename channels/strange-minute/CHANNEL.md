@@ -47,7 +47,7 @@ Everything the root CLAUDE.md demands for horror videos applies 1:1 here — onl
   channel's own analytics before each video (getAnalyticsDataByMetrics for brand_id) and adapt (hook, length, topic area).
 
 ## Own identity — must NOT sound/look like the horror channel (owner 2026-11-17: viewers must not guess both are his)
-- Voice: British documentary male `bm_george`, lang en-gb, speed 1.0 (brisk, clear, "smart") — never the horror blend/storyteller FX.
+- Voice (owner chose 2026-11-17, sample "A"): US male `am_fenrir`, lang en-us, speed 0.9 (hook line 0.95), voice_fx explainer — never the horror blend/storyteller FX.
 - Opening (owner 2026-11-17): the voice asks the question FIRST, with NO sound under it; right after it ONE small soft
   `ding` (`{"at":"end","type":"ding"}` on line 1); then the story starts. check_hook enforces this for style light.
 - Sounds: ONLY `ding`, `chime` (final question), `pop`, `rise`, `whoosh`, never under a spoken key word if it masks it. Never
@@ -63,7 +63,7 @@ Everything the root CLAUDE.md demands for horror videos applies 1:1 here — onl
   line 1 + open question for comments ("…Isn't it?", "Would you press it?").
 - **Facts must be TRUE** (mainstream science/history; round numbers honestly: "about a third"). If unsure, WebSearch
   and leave the claim out rather than guess. No conspiracies, no fake "scientists say".
-- episode.json: `"style":"light","bed":"light","voice":"bm_george","lang":"en-gb","voice_fx":"explainer","speed":1.0,"gap":0.4,"music_level":0.13`,
+- episode.json: `"style":"light","bed":"light","voice":"am_fenrir","lang":"en-us","voice_fx":"explainer","speed":0.9,"gap":0.4,"music_level":0.13`,
   header title `STRANGE MINUTE · WHAT IF #n`, cyan stamp (`THE MOON · GONE`), end card `WHAT IF #n+1?` + "Follow for tomorrow's strange minute".
 - Look: deep-blue "wonder" palette, gold + cyan accents, labels/counters (`label()`), diagrams that MOVE (orbits, tilts,
   counters ticking, particles), a walker character in ≥ 30 % of scenes for scale/relatability. No gore, no horror stings
