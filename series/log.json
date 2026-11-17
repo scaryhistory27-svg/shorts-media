@@ -163,5 +163,10 @@
   "2026-11-17T10:00": "2026-11-17T09:30",
   "2026-11-17T16:00": "2026-11-17T15:30",
   "2026-11-18T16:00": "2026-11-18T15:30"
+ },
+ "playlists": {
+  "note": "owner: create playlists in YouTube (one per horror series, one for Strange Minute) and give their ids/links; autopilot adds videos via Windsor",
+  "horror": {},
+  "strange_minute": null
  }
 }

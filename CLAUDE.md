@@ -163,6 +163,30 @@ jobs.py for channel 2 always with `JOBS_FILE=channels/strange-minute/jobs.json L
   the channels are phone-verified — frame covers are used).
 - **Metricool**: the only scheduler/publisher for both channels.
 
+## Use EVERY connected tool and skill (owner 2026-11-17: "use everything I connected — not for nothing")
+Daily (every autopilot run):
+- **Windsor.ai** → statistics step for both channels (per-video views, engaged views, avg view %, likes, comments, shares, subs;
+  traffic sources). Decide what to change from it and quote the numbers in the report.
+- **Windsor.ai comments** → read new comments on our last 10 videos (fields comment_id, comment_text, comment_video_id,
+  comment_published_at); reply to up to 5 genuine comments per channel per day with a short, friendly, in-character reply
+  (no links, no begging, no spoilers of future parts beyond "Part 3 tomorrow 👀"); skip spam/rude ones. If Windsor says comments
+  need the reconnect, note it once in the report and keep going without replies.
+- **Windsor.ai playlists** → if `series/log.json` → `playlists` has ids (owner creates them in YouTube), add every new horror part to its
+  series playlist and every Strange Minute video to its playlist after it is published.
+- **vidIQ** → research only, budget ≤ 5 credits/day (see above).
+- **WebSearch** → once per run: best posting times + one fresh trend check for the niche of the next new series/topic.
+- **Metricool** → publishing only.
+Weekly (in the run on MONDAY, LA time; one extra 10–20 min block):
+- **deep-research skill** → "what horror/mystery Shorts and what-if/science Shorts are taking off right now (formats, hooks,
+  lengths, topics)" → append a dated summary with sources to docs/RESEARCH_NOTES.md and use it for the next 7 days' topics.
+- **xlsx skill** → `reports/weekly-YYYY-MM-DD.xlsx`: one sheet per channel (video, publish time LA, views, engaged, avg view %,
+  likes, comments, subs gained) + a summary sheet; send it to the owner with SendUserFile.
+- **docs skill / Claude Docs** → a short weekly report doc (what worked, what changed, plan for next week) and send the owner the link.
+- **Canva** → when a thumbnail PROBE is due (custom cover test), design the probe cover in Canva (generate/edit, export PNG/JPG) instead
+  of the engine cover; if Canva fails, fall back to the engine cover. Also use Canva for any channel art refresh the owner asks for.
+Not used (no fit for this cloud session): computer-use / chrome / built-in browser (local only), pptx, google-workspace, morning,
+import-memory, skill-creator, artifact-emulator — use them only if the owner asks.
+
 ## Repo layout
 - `pipeline/engine.js` shared canvas engine: helpers (`sky stars moon glow ell rr door clock phone building mom creature`),
   captions, header, camera, effects. `shakeAt(t,types)`, `lastEv(t,types)` react to sfx events.
