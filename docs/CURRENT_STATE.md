@@ -8,3 +8,4 @@ _Updated: 2026-11-17 ~11:10 LA (autopilot run)_
   **Next SM slot: 2026-11-18T18:30** (then Nov 19–23 1/day). Characters Max (smGuy) / astronaut (smAstro) + Tick; voice am_fenrir; question first + ding.
 - First comment on every video (firstCommentText). Analytics: per-video data not available yet (YouTube lag); subs 11 on Nov 16.
 - Reuse-scene gotcha: end cards must check last segment; use nth(seg) / index offsets carefully when inserting lines.
+- **Owner-approved 2026-11-17 (keep for all next videos):** horror opening has NO impact sound (clean first line); realistic SFX on a ducked bus, sfx_level 0.22, ≤6 per video; vidIQ for research (≤5 credits/day), Metricool only publisher. Channels not yet connected in vidIQ (owner to do).

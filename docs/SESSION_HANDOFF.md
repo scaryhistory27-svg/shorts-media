@@ -1,3 +1,7 @@
+## 2026-11-17 ~12:00 LA — owner approved new sound settings
+
+- No opening impact (horror), realistic ducked SFX bus (sfx_level 0.22), sound-design rules + vidIQ/Canva usage in CLAUDE.md. MM214 P2, SM #2/#3 posts re-uploaded with remixed audio.
+
 ## 2026-11-17 ~11:10 LA — autopilot run (both channels)
 
 - Marked Missing Floor 3 + MM214 P1 published (frame covers OK). Made + scheduled MM214 Part 2 (15:30), SM #2 (18:30), SM #3 (Nov 18 12:30). Next run: MM214 Part 3 (Nov 18 15:30) + SM slot Nov 18 18:30.
