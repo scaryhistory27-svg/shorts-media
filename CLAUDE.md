@@ -169,10 +169,13 @@ jobs.py for channel 2 always with `JOBS_FILE=channels/strange-minute/jobs.json L
 Daily (every autopilot run):
 - **Windsor.ai** → statistics step for both channels (per-video views, engaged views, avg view %, likes, comments, shares, subs;
   traffic sources). Decide what to change from it and quote the numbers in the report.
-- **Windsor.ai comments** → read new comments on our last 10 videos (fields comment_id, comment_text, comment_video_id,
-  comment_published_at); reply to up to 5 genuine comments per channel per day with a short, friendly, in-character reply
-  (no links, no begging, no spoilers of future parts beyond "Part 3 tomorrow 👀"); skip spam/rude ones. If Windsor says comments
-  need the reconnect, note it once in the report and keep going without replies.
+- **Comment replies via vidIQ (owner 2026-11-17: "I give all permissions" — reply AUTOMATICALLY, no approval needed)** → horror channel
+  UCB3NwyYj_kBAG98a09RzJFQ (connected in vidIQ with reply permission; Strange Minute once it is connected — check vidiq_user_channels):
+  `vidiq_video_comments` (channelId, order time, 5 credits) → reply with `vidiq_reply_to_comment` (1 credit) to EVERY new genuine
+  viewer comment our channel hasn't answered yet (byChannelOwner false and no reply from us), max 10 per run, one at a time
+  (vidIQ rate-limits bursts — on "Too many replies" stop and retry the rest next run; never re-post after an uncertain result).
+  Replies: English, ≤ 120 chars, friendly, in character, 1–2 emoji, answer/tease without spoilers, point to the next part when it exists,
+  no links, no begging for subs. Skip the owner's own comments, spam and rude ones. List every reply in the report.
 - **Windsor.ai playlists** → if `series/log.json` → `playlists` has ids (owner creates them in YouTube), add every new horror part to its
   series playlist and every Strange Minute video to its playlist after it is published.
 - **vidIQ** → research only, budget ≤ 5 credits/day (see above).
@@ -198,7 +201,7 @@ Use the ones that fit; load a skill only at the step that needs it (they are lon
 - Strange Minute facts: `social-media-skills:content-research-and-sourcing` (verify every number before publishing).
 - Metadata: `social-media-skills:youtube-publishing-and-metadata` (title, description, tags), `social-media-skills:hashtag-strategy`.
 - Covers on a probe: `social-media-skills:thumbnail-design` + Canva.
-- Comment replies (Windsor): `social-media-skills:reply-and-comment-writer`.
+- Comment replies (vidIQ): `social-media-skills:reply-and-comment-writer` for tone.
 - Weekly Monday report: `social-media-skills:analytics-and-reporting` or `marketing:performance-report`, plus xlsx + docs.
 - Sound questions: `social-media-skills:ai-music-and-sound` (licensing-safe audio only; our audio stays procedural/original).
 Never use a skill to publish anywhere else (WoopSocial etc. are not connected) — Metricool stays the only publisher.
