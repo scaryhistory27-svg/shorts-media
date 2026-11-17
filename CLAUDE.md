@@ -159,6 +159,8 @@ jobs.py for channel 2 always with `JOBS_FILE=channels/strange-minute/jobs.json L
   Write actions available: update_video_details (fix a published video's title/description/tags), add_video_to_playlist /
   remove_video_from_playlist (series playlists — needs a playlist id the owner created), reply_to_comment / moderate_comment
   (needs the optional Windsor reconnect for comments). Use writes only for this project's own videos; never delete anything.
+  **2026-11-17: Google BLOCKS Windsor's write/comment permissions for this account ("App blocked") — Windsor is READ-ONLY.
+  Do not try comment replies or playlist writes via Windsor; don't ask the owner to retry it. Statistics only.**
 - **Canva**: channel art and promo images when needed (banners/avatars); not for Short covers (YouTube rejects custom covers until
   the channels are phone-verified — frame covers are used).
 - **Metricool**: the only scheduler/publisher for both channels.
