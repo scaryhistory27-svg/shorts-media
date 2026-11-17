@@ -52,7 +52,9 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
   · what happens if you try: "If you ever try this at night, here's what happens." / "This is what happens when you whisper your name into a mirror."
   · "I tried / I found" proof: "I tried the elevator game. The 10th floor wasn't empty." / "I found a photo of me from 1962."
   · an impossible fact: "My clock stopped at 3:07. Again." / "My mom texted me. She died in 2019."
-  First frame = the most striking image of the episode + a sound hit (hit/sting/knock) in the first 0.6 s.
+  First frame = the most striking image of the episode. **Sound (owner 2026-11-17: the loud start boom covered "Never"): NO hit/sting
+  under line 1 — the first words must be crystal clear over the quiet drone; put ONE short `thud` right after line 1
+  (`{"at":"end","type":"thud"}`).** Never put `hit`/`sting` at 'start' of line 1.
   `python3 pipeline/check_hook.py $E` must print PASS before publishing (part of QA).
   Short punchy sentences, 13–15 lines (50–60 s).
 - Last line of Part 1/2 = cliffhanger; end card `PART 2?` / `PART 3?`. Part 3 resolves with a twist; end card `THE END?`.
@@ -122,7 +124,7 @@ Do this research BEFORE writing anything, then decide on your own:
    the scores and the reason for the choice.
 5. **Hook rules (first 2 s decide everything):** first line is a direct warning or impossible fact addressed to the viewer
    ("Never answer a call from your own number.", "My smart speaker started whispering my name at 3 AM."), first frame is
-   already striking (red clock, face, phone screen) with a sound hit, no intro, no logo, no slow fade.
+   already striking (red clock, face, phone screen), first words clean with a `thud` right after them, no intro, no logo, no slow fade.
    Keep the last line looping back to the first line so the Short replays.
 6. **YouTube title** ≤ 60 chars: the hook as a promise + emoji + `#shorts` (e.g. "Never Answer Your Own Number 📞😨 #shorts").
    Description: 1 teaser line + "Part 2? 👀" + 5–6 hashtags (#horrorstory #scary #creepy #shorts + 2 topic tags). 6–8 tags.
@@ -198,7 +200,7 @@ Every run, even a "skip" run:
    `-af astats` → peak ≤ −0.5 dB (if not, lower the alimiter limit in timeline.py); voice present for every line (`silencedetect=n=-45dB:d=0.8` shows no silence inside the story).
 3. **Sync:** spot-check 3 frames exactly at sfx times from build/timeline.json (knock → door shakes/rings, etc.).
 4. **Script:** proper English, every `say` pronunciation correct, 50–62 s, no line/scene held > 6 s, cliffhanger last line, recap line in Part 2/3.
-   **Hook gate:** `python3 pipeline/check_hook.py $E` → PASS (no greeting/intro, warning/impossible-fact pattern, first word ≤ 0.4 s, sound hit ≤ 0.6 s).
+   **Hook gate:** `python3 pipeline/check_hook.py $E` → PASS (no greeting/intro, warning/impossible-fact pattern, first word ≤ 0.4 s, nothing loud under line 1, `thud` right after it).
 5. **Cover:** Read cover.jpg — face/creature visible, text readable at small size, no spoiler.
    **Cover frame (videoCoverMilliseconds):** extract that exact frame from final.mp4 (`ffmpeg -ss <s> -frames:v 1`) and Read it — it must be
    clean (NOT within 0.7 s after a sting/glitch or a scene transition) with the face/creature/key prop clearly visible. ALWAYS send the owner

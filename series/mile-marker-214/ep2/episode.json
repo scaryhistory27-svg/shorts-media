@@ -44,8 +44,8 @@
    "gap": 0.35,
    "sfx": [
     {
-     "at": "start",
-     "type": "hit"
+     "at": "end",
+     "type": "thud"
     }
    ]
   },

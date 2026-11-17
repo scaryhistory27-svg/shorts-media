@@ -70,6 +70,9 @@ def chime():   # Strange Minute signature: bright bell cluster + airy shimmer (n
         x=np.clip(tt-dl,0,None); s+=g*np.sin(2*np.pi*f0*x)*np.exp(-x*3.2)*(tt>=dl)*(1+0.3*np.sin(2*np.pi*5.5*x))
     F=np.fft.rfft(rng.standard_normal(n)); fr=np.fft.rfftfreq(n,1/SR); F*=(fr>4000)/(1+(fr/9000)**2); air=np.fft.irfft(F,n); air/=np.abs(air).max()
     return 0.35*s/np.abs(s).max()+0.12*air*np.exp(-tt*4)
+def thud():   # horror hook accent (owner 2026-11-17: the start boom covered "Never") — short, deep, placed AFTER the hook line
+    n=int(0.9*SR); tt=np.arange(n)/SR
+    return (np.sin(2*np.pi*(70-30*tt)*tt)*np.exp(-tt*7)+0.25*rng.standard_normal(n)*np.exp(-tt*40))*0.9
 def ding():   # small soft single bell — sits in the gap after the hook question, never under the voice
     n=int(1.2*SR); tt=np.arange(n)/SR
     return (np.sin(2*np.pi*1568*tt)+0.35*np.sin(2*np.pi*3136*tt)*np.exp(-tt*6))*np.exp(-tt*4.5)*0.5
@@ -79,7 +82,7 @@ def pop():
 def rise():
     n=int(0.9*SR); tt=np.arange(n)/SR; F=np.fft.rfft(rng.standard_normal(n)); fr=np.fft.rfftfreq(n,1/SR); F*=1/(1+(fr/2500)**2); w=np.fft.irfft(F,n); w/=np.abs(w).max()
     return 0.4*w*(tt/0.9)**2+0.2*np.sin(2*np.pi*(300+600*tt/0.9)*tt)*(tt/0.9)**2
-FX={"ding":(ding,0.35),"chime":(chime,0.6),"pop":(pop,0.45),"rise":(rise,0.5),"knock":(lambda:knock(),0.55),"knockglass":(lambda:knock(True),0.45),"buzz":(buzz,0.5),"sting":(lambda:boom(3.0),0.6),"hit":(lambda:boom(2.0),0.35),"heart":(heart,0.5),"whoosh":(whoosh,0.5),"creak":(creak,0.35)}
+FX={"thud":(thud,0.32),"ding":(ding,0.35),"chime":(chime,0.6),"pop":(pop,0.45),"rise":(rise,0.5),"knock":(lambda:knock(),0.55),"knockglass":(lambda:knock(True),0.45),"buzz":(buzz,0.5),"sting":(lambda:boom(3.0),0.6),"hit":(lambda:boom(2.0),0.35),"heart":(heart,0.5),"whoosh":(whoosh,0.5),"creak":(creak,0.35)}
 for e in ev:
     f,g=FX[e["type"]]; add(f(),e["t"]-(0.05 if e["type"]=="sting" else 0),g)
 # ---- quiet mystical music bed (procedural, royalty-free): minor pads + sparse music-box notes + long reverb, ducked under the voice ----

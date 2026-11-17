@@ -21,6 +21,9 @@ try:
     if ep.get("style") == "light":   # Strange Minute (owner 2026-11-17): voice asks the question first, clean — then a small ding, then the story
         if any(e["t"] < s0["s"] + s0["d"] for e in tl["events"]): fails.append("light style: no sound under the hook question (put a 'ding' with at:'end')")
         if not any(s0["s"] + s0["d"] <= e["t"] < s0["e"] + 0.3 for e in tl["events"]): fails.append("light style: missing the small ding right after the hook question")
-    elif not any(e["t"] < 0.6 for e in tl["events"]): fails.append("no sound hit (hit/sting/knock/whoosh) in the first 0.6 s")
+    else:   # horror (owner 2026-11-17: the loud start boom masked "Never") — the first words must be clean, the hit comes right after the hook line
+        loud = [e for e in tl["events"] if e["type"] in ("hit", "sting", "knock", "knockglass", "thud", "heart") and e["t"] < s0["s"] + s0["d"] - 0.05]
+        if loud: fails.append("horror: no hit/sting under the hook line — put a 'thud' with at:'end' on line 1")
+        if not any(s0["s"] + s0["d"] - 0.05 <= e["t"] < s0["e"] + 0.3 for e in tl["events"]): fails.append("horror: missing the impact ('thud', at:'end') right after the hook line")
 except FileNotFoundError: pass
 print(("FAIL: " + "; ".join(fails)) if fails else f"PASS: \"{first}\""); sys.exit(1 if fails else 0)

@@ -36,3 +36,5 @@
 - 2026-11-16 Owner (final): all 3 parts happen the same day back to back — no 'yesterday'/'two days ago'; Part 2/3 continue the same minute.
 
 - 2026-11-17: Channel 2 Strange Minute connected to Metricool (brand 8179515). Owner: same standard as channel 1, own identity (US voice am_fenrir, question-first + small ding, light captions, no horror sounds); autopilot picks every hour itself to maximise views, channel visits and subscribers.
+
+- 2026-11-17: Horror hook sound — owner: the loud start boom masked the first word "Never". Now line 1 plays clean over the drone and a short `thud` lands right after it (check_hook enforces it). Applied from Mile Marker 214 Part 2 on.

@@ -196,7 +196,7 @@ function crawler(x,y,s,t,speed=1.2){ctx.save();ctx.translate(x,y);ctx.scale(s,s)
 // ================= DYNAMICS & LOOK (owner 2026-11-15: "more animation, prettier, scarier, more dynamic") =================
 function shade(hex,k){const n=parseInt(hex.slice(1),16);const c=[n>>16,(n>>8)&255,n&255].map(v=>Math.max(0,Math.min(255,Math.round(v*k))));return `rgb(${c[0]},${c[1]},${c[2]})`}
 // camera punch-in on hit/sting/knock events (auto, every episode)
-function punchAt(t){let z=0;if(!TL)return 0;for(const e of TL.events){if(!['hit','sting','knock','knockglass','chime','pop'].includes(e.type)||t<e.t||t>e.t+0.5)continue;
+function punchAt(t){let z=0;if(!TL)return 0;for(const e of TL.events){if(!['hit','sting','knock','knockglass','chime','pop','thud'].includes(e.type)||t<e.t||t>e.t+0.5)continue;
   const a=(t-e.t)/0.5;z=Math.max(z,(e.type==='sting'?0.11:e.type==='hit'?0.08:0.035)*Math.pow(1-a,2))}return z}
 // glitch + red flash for 0.35 s after every sting (auto) — RGB slice offsets drawn from the canvas itself
 function glitchFx(t){if(!TL)return;const e=TL.events.find(e=>e.type==='sting'&&t>=e.t&&t<e.t+0.35);if(!e)return;const a=1-(t-e.t)/0.35;
