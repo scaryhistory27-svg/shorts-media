@@ -165,7 +165,13 @@
   "2026-11-18T16:00": "2026-11-18T15:30"
  },
  "playlists": {
-  "note": "owner: create playlists in YouTube (one per horror series, one for Strange Minute) and give their ids/links; autopilot adds videos via Windsor",
+  "note": "2026-11-17: owner created 4 playlists, but the ids he sent are truncated (13 chars; a real id is 34) — waiting for the full links",
+  "pending_titles": [
+   "Mile Marker 214 — Full Story",
+   "The Missing Floor — Full Story",
+   "The 2 AM Knock — Full Story",
+   "Strange Minute — What If…?"
+  ],
   "horror": {},
   "strange_minute": null
  }
