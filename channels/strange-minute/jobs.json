@@ -100,7 +100,7 @@
    "series": "strange-minute",
    "episode": 3,
    "title": "What If A Wave Of Syrup Hit Your Street? 🍯🌊 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -122,12 +122,25 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-17T19:04:20Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-17T19:04:29Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-17T19:04:29Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-17T19:04:52Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-17T19:00:46Z",
-   "updated": "2026-11-17T19:04:20Z"
+   "updated": "2026-11-17T19:04:52Z",
+   "publish_time": "2026-11-18T12:30"
   }
  }
 }

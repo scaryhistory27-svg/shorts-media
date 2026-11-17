@@ -1,3 +1,7 @@
+## 2026-11-17 ~11:10 LA — autopilot run (both channels)
+
+- Marked Missing Floor 3 + MM214 P1 published (frame covers OK). Made + scheduled MM214 Part 2 (15:30), SM #2 (18:30), SM #3 (Nov 18 12:30). Next run: MM214 Part 3 (Nov 18 15:30) + SM slot Nov 18 18:30.
+
 ## 2026-11-17 ~07:00 LA — Channel 2 Strange Minute set up
 
 - channels/strange-minute (rules, log, ep001 ready). Engine/timeline/tts got a 'light' style (horror unchanged). Trigger prompt step 10 makes 1 Strange Minute video per run. Local Chrome setup task: docs/LOCAL_CHANNEL_SETUP.md.

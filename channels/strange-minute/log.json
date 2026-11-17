@@ -65,6 +65,20 @@
    "thumbnail": "frame",
    "first_comment": true,
    "characters": "Max + Tick"
+  },
+  {
+   "ep": 3,
+   "topic": "Great Molasses Flood (Boston 1919)",
+   "area": "history",
+   "status": "scheduled",
+   "title": "What If A Wave Of Syrup Hit Your Street? 🍯🌊 #shorts",
+   "publish_time": "2026-11-18T12:30",
+   "metricool_id": 431893754,
+   "uuid": "-8370652372906389532",
+   "cover_ms": 26585,
+   "thumbnail": "frame",
+   "first_comment": true,
+   "characters": "Max + Tick"
   }
  ],
  "thumbnail": {
@@ -102,5 +116,5 @@
  ],
  "voice": "am_fenrir (en-us, speed 0.9, explainer fx) — owner chose sample A 2026-11-17",
  "publish_time": "2026-11-17T12:30",
- "last_publish": "2026-11-17T18:30:00"
+ "last_publish": "2026-11-18T12:30:00"
 }
