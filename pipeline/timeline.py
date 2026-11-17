@@ -42,28 +42,46 @@ if LIGHT: bed*=np.clip((ts-(segs[0]["s"]+segs[0]["d"]))/1.0,0,1)
 mix+=bed*np.clip(ts/1.0,0,1)*np.clip((total-ts)/1.2,0,1)
 def add(sig,t0,g=1.0):
     i=int(t0*SR); j=min(N,i+len(sig)); mix[i:j]+=g*sig[:j-i]
-def knock(glass=False):
-    n=int(0.35*SR); tt=np.arange(n)/SR
-    s=(0.6*np.sin(2*np.pi*900*tt)*np.exp(-tt*40)+0.5*np.sin(2*np.pi*1800*tt)*np.exp(-tt*55)+0.5*np.sin(2*np.pi*140*tt)*np.exp(-tt*25)) if glass else (np.sin(2*np.pi*(95-40*tt)*tt)*np.exp(-tt*18)+0.4*np.sin(2*np.pi*190*tt)*np.exp(-tt*35))
-    return s+rng.standard_normal(n)*np.exp(-tt*300)*0.5
-def buzz():
-    n=int(0.28*SR); tt=np.arange(n)/SR
-    return 0.35*np.sign(np.sin(2*np.pi*165*tt))*np.sin(2*np.pi*55*tt)**2*np.clip(tt*60,0,1)*np.clip((0.28-tt)*60,0,1)
-def boom(d=2.5):
-    n=int(d*SR); tt=np.arange(n)/SR
-    s=np.sin(2*np.pi*(60-25*tt/d)*tt)*np.exp(-tt*1.6)+0.25*rng.standard_normal(n)*np.exp(-tt*6)
-    return s+0.15*(np.sin(2*np.pi*311*tt)+np.sin(2*np.pi*329.6*tt)+np.sin(2*np.pi*466*tt))*np.exp(-tt*1.2)
-def heart(count=10,bpm=78):
-    n=int(0.25*SR); tt=np.arange(n)/SR; b=np.sin(2*np.pi*50*tt)*np.exp(-tt*22); out=np.zeros(int(count*60/bpm*SR)+n)
+# ---- realistic SFX (owner 2026-11-17: "make all sounds realistic, they were too loud and out of place") ----
+from scipy.signal import butter,sosfilt
+def _bp(x,lo,hi,o=2): return sosfilt(butter(o,[lo,hi],btype='band',fs=SR,output='sos'),x)
+def _lp(x,f,o=2): return sosfilt(butter(o,f,btype='low',fs=SR,output='sos'),x)
+def _hp(x,f,o=2): return sosfilt(butter(o,f,btype='high',fs=SR,output='sos'),x)
+def _env(n,a,d): tt=np.arange(n)/SR; return np.clip(tt/a,0,1)*np.exp(-np.maximum(tt-a,0)*d)
+def knock(glass=False):   # knuckle on a wooden door (or glass): short filtered transient + panel body resonance, slight room
+    n=int(0.45*SR); tt=np.arange(n)/SR; x=rng.standard_normal(n)
+    if glass: s=_bp(x,2500,7000)*_env(n,0.0005,90)+0.5*np.sin(2*np.pi*2100*tt)*np.exp(-tt*60)+0.25*np.sin(2*np.pi*3400*tt)*np.exp(-tt*80)
+    else: s=_bp(x,300,2500)*_env(n,0.0008,70)*1.4+0.9*np.sin(2*np.pi*115*tt)*np.exp(-tt*28)+0.4*np.sin(2*np.pi*230*tt)*np.exp(-tt*40)
+    return s/np.abs(s).max()
+def buzz():   # phone vibrating on a table: ~170 Hz motor, 3 short pulses with rattle
+    n=int(0.9*SR); tt=np.arange(n)/SR; g=((tt%0.3)<0.18).astype(float); g=_lp(g,40)
+    s=(np.sign(np.sin(2*np.pi*170*tt))*0.5+np.sin(2*np.pi*170*tt))*g; s=_bp(s,120,1800)+0.15*_bp(rng.standard_normal(n),2000,5000)*g
+    return s/np.abs(s).max()*0.8
+def boom(d=2.5):   # cinematic low impact: sub drop + dull body + soft air, no harsh dissonance
+    n=int(d*SR); tt=np.arange(n)/SR; sub=np.sin(2*np.pi*(55-20*tt/d)*tt)*np.exp(-tt*2.8)
+    body=_lp(rng.standard_normal(n),180)*np.exp(-tt*6)*3; air=_bp(rng.standard_normal(n),400,3000)*np.exp(-tt*14)*0.4
+    s=sub+body+air; return s/np.abs(s).max()
+def sting(d=2.6):  # horror sting: slow-swelling low string cluster (filtered saws) + soft impact — eerie, not loud
+    n=int(d*SR); tt=np.arange(n)/SR; sw=np.zeros(n)
+    for f in (110,116.5,155.6,164.8):
+        ph=2*np.pi*f*tt+0.3*np.sin(2*np.pi*5.2*tt); sw+=((ph/(2*np.pi))%1-0.5)
+    sw=_lp(sw,1400)*np.clip(tt/0.18,0,1)*np.exp(-tt*1.3); s=0.7*sw/np.abs(sw).max()+0.6*boom(d)
+    return s/np.abs(s).max()
+def heart(count=8,bpm=72):   # muffled heartbeat (lub-dub) heard from inside
+    beat=int(0.18*SR); tb=np.arange(beat)/SR; lub=_lp(np.sin(2*np.pi*48*tb)*np.exp(-tb*28)+0.3*rng.standard_normal(beat)*np.exp(-tb*60),150)
+    out=np.zeros(int(count*60/bpm*SR)+beat)
     for k in range(count):
-        p=int(k*60/bpm*SR); out[p:p+n]+=b; q=p+int(0.22*SR); out[q:q+n]+=0.7*b
-    return out
-def whoosh():
-    n=int(0.8*SR); tt=np.arange(n)/SR; F=np.fft.rfft(rng.standard_normal(n)); fr=np.fft.rfftfreq(n,1/SR); F*=1/(1+(fr/900)**2)
-    return np.fft.irfft(F,n)/40*np.sin(np.pi*tt/0.8)**2
-def creak():
-    n=int(1.2*SR); tt=np.arange(n)/SR; f=180+60*np.sin(2*np.pi*0.8*tt)
-    return 0.3*np.sign(np.sin(2*np.pi*np.cumsum(f)/SR))*(np.sin(2*np.pi*23*tt)>0.3)*np.sin(np.pi*tt/1.2)
+        p=int(k*60/bpm*SR); out[p:p+beat]+=lub; q=p+int(0.24*SR); out[q:q+beat]+=0.6*lub
+    return out/np.abs(out).max()
+def whoosh():   # air passing: noise through a band that sweeps up then down
+    n=int(0.9*SR); tt=np.arange(n)/SR; x=rng.standard_normal(n); out=np.zeros(n); seg=int(0.03*SR)
+    for k in range(0,n,seg):
+        f=300+1500*np.sin(np.pi*min(1,k/n))**2; out[k:k+seg]=_bp(x[max(0,k-seg):k+seg],f*0.6,f*1.6)[-len(out[k:k+seg]):]
+    out*=np.sin(np.pi*tt/0.9)**2; return out/np.abs(out).max()*0.8
+def creak():   # wooden door creak: stick-slip friction pulses through a resonant band, pitch drifting
+    n=int(1.3*SR); tt=np.arange(n)/SR; rate=28+22*np.sin(2*np.pi*0.6*tt+1); ph=np.cumsum(rate)/SR
+    pulses=np.exp(-((ph%1)*40)); s=_bp(pulses+0.05*rng.standard_normal(n),350,1600)+0.5*_bp(pulses,900,2600)
+    s*=np.sin(np.pi*tt/1.3)**1.5; return s/np.abs(s).max()*0.8
 def chime():   # Strange Minute signature: bright bell cluster + airy shimmer (no boom — must not sound like the horror channel)
     n=int(2.2*SR); tt=np.arange(n)/SR; s=np.zeros(n)
     for f0,g,dl in ((1318.5,1,0),(1975.5,0.6,0.04),(2637,0.4,0.08),(987.8,0.5,0.0)):
@@ -82,9 +100,16 @@ def pop():
 def rise():
     n=int(0.9*SR); tt=np.arange(n)/SR; F=np.fft.rfft(rng.standard_normal(n)); fr=np.fft.rfftfreq(n,1/SR); F*=1/(1+(fr/2500)**2); w=np.fft.irfft(F,n); w/=np.abs(w).max()
     return 0.4*w*(tt/0.9)**2+0.2*np.sin(2*np.pi*(300+600*tt/0.9)*tt)*(tt/0.9)**2
-FX={"thud":(thud,0.32),"ding":(ding,0.35),"chime":(chime,0.6),"pop":(pop,0.45),"rise":(rise,0.5),"knock":(lambda:knock(),0.55),"knockglass":(lambda:knock(True),0.45),"buzz":(buzz,0.5),"sting":(lambda:boom(3.0),0.6),"hit":(lambda:boom(2.0),0.35),"heart":(heart,0.5),"whoosh":(whoosh,0.5),"creak":(creak,0.35)}
+FX={"thud":(thud,0.5),"ding":(ding,0.5),"chime":(chime,0.7),"pop":(pop,0.5),"rise":(rise,0.5),"knock":(lambda:knock(),0.9),"knockglass":(lambda:knock(True),0.7),
+    "buzz":(buzz,0.6),"sting":(lambda:sting(2.6),0.75),"hit":(lambda:boom(2.0),0.7),"heart":(heart,0.55),"whoosh":(whoosh,0.45),"creak":(creak,0.6)}
+sfx=np.zeros(N)
 for e in ev:
-    f,g=FX[e["type"]]; add(f(),e["t"]-(0.05 if e["type"]=="sting" else 0),g)
+    f,g=FX[e["type"]]; x=f(); i0=int(max(0,e["t"]-(0.05 if e["type"]=="sting" else 0))*SR); j0=min(N,i0+len(x)); sfx[i0:j0]+=g*x[:j0-i0]
+# SFX bus: tame highs, add a short natural room, keep it UNDER the voice (ducked while speaking), overall level per episode
+sfx=_lp(_hp(sfx,35),7000)
+_nr=int(0.5*SR); _ir=rng.standard_normal(_nr)*np.exp(-np.arange(_nr)/SR*9); _ir[0]=3.0; _M=1<<int(np.ceil(np.log2(N+_nr)))
+sfx=np.fft.irfft(np.fft.rfft(sfx,_M)*np.fft.rfft(_ir/np.abs(_ir).sum()*3,_M),_M)[:N]
+SFX_ENV_PENDING=True
 # ---- quiet mystical music bed (procedural, royalty-free): minor pads + sparse music-box notes + long reverb, ducked under the voice ----
 def music_bed(N,seed):
     r=np.random.default_rng(seed); out=np.zeros(N); tt=np.arange(N)/SR
@@ -138,9 +163,11 @@ duck=1-0.55*np.clip(venv*3,0,1)
 mus=music_bed(N,__import__("zlib").crc32((ep.get("series","")+str(ep.get("episode",0))).encode())%10000)
 m0=(segs[0]["s"]+segs[0]["d"]) if LIGHT else 0   # light style: music starts only after the hook question
 mix+=ep.get("music_level",0.11)*mus*duck*np.clip((ts-m0)/1.5,0,1)*np.clip((total-ts)/1.5,0,1)
+sfx_duck=1-0.6*np.clip(venv*3,0,1)
+mix+=ep.get("sfx_level",0.22)*sfx/(np.abs(sfx).max()+1e-9)*sfx_duck
 for i,s in enumerate(segs):
     v,_=sf.read(f"{B}/l{i:02d}.wav"); add(v*0.95,s["s"])
-mix=mix[:int(total*SR)]; mix/=np.abs(mix).max(); mix=np.tanh(mix*2.2)/np.tanh(2.2); mix/=np.abs(mix).max()/0.95
+mix=mix[:int(total*SR)]; mix/=np.abs(mix).max(); mix=np.tanh(mix*1.4)/np.tanh(1.4); mix/=np.abs(mix).max()/0.95
 sf.write(f"{B}/audio.wav",mix.astype(np.float32),SR)
 
 # ---- mastering: iterate gain so that after a -3 dB limiter (and AAC) we land at -14 LUFS, peak <= -1 dB ----
