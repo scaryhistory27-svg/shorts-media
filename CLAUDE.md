@@ -138,6 +138,24 @@ Launch cadence is in its log.json schedule (Nov 17–18: 2/day, Nov 19–23: 1/d
 autopilot's choice (best-time chart of brand 8179515 + own results), ≥ 3 h from any horror post, ≥ 5 h between its own posts.
 jobs.py for channel 2 always with `JOBS_FILE=channels/strange-minute/jobs.json LOG_FILE=channels/strange-minute/log.json`.
 
+## Sound design (owner 2026-11-17: "make all sounds realistic — they were too loud and out of place")
+- timeline.py SFX are realistic (filtered knock/creak/heartbeat/whoosh/phone-buzz, soft low impacts, eerie string sting), go through one
+  SFX bus (lowpass 7 kHz + short room) that is DUCKED under the voice; bus level `sfx_level` in episode.json (default 0.22 — keep it).
+- Use SFX only where the picture shows the action (knock = a door is knocked, buzz = a phone vibrates…), at most one per line,
+  ≤ 6 per video, never on line 1–2, `sting` max twice per video (key reveal + final line). The voice must always be on top.
+
+## Connected tools (owner 2026-11-17: "use all skills and connectors I installed")
+- **vidIQ** (free plan: 150 credits/month, renews on the 17th; most calls cost 5) — budget ≤ 5 credits/day on average, check
+  `vidiq_balance` first, stop at < 20 credits. Use it for: (1) NEW series / new Strange Minute topic research — one
+  `vidiq_trending_videos` (videoFormat short, titleQuery = niche) or `vidiq_outliers` (contentType short) call; (2) once per
+  new series `vidiq_score_title` on the Part 1 title (pick the better of the planned title and one alternative only if credits
+  allow); (3) when the owner connects the channels in vidIQ, `vidiq_channel_analytics` once a week per channel (retention,
+  traffic sources, subs per video) — fresher than Metricool. Free: `vidiq_user_channels`, `vidiq_balance`.
+  Never upload/publish through vidIQ (Metricool stays the only publisher — no duplicates).
+- **Canva**: channel art and promo images when needed (banners/avatars); not for Short covers (YouTube rejects custom covers until
+  the channels are phone-verified — frame covers are used).
+- **Metricool**: the only scheduler/publisher for both channels.
+
 ## Repo layout
 - `pipeline/engine.js` shared canvas engine: helpers (`sky stars moon glow ell rr door clock phone building mom creature`),
   captions, header, camera, effects. `shakeAt(t,types)`, `lastEv(t,types)` react to sfx events.
