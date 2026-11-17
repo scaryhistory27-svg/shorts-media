@@ -465,14 +465,18 @@
     {
      "stage": "scheduled",
      "at": "2026-11-17T19:37:00Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-17T19:43:27Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-17T18:43:18Z",
-   "updated": "2026-11-17T19:37:00Z",
+   "updated": "2026-11-17T19:43:27Z",
    "publish_time": "2026-11-17T15:30",
-   "note": "re-mixed: clean hook + thud"
+   "note": "no opening impact sound"
   }
  }
 }
