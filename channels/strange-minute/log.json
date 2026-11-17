@@ -51,6 +51,20 @@
    "cover_ms": 16560,
    "thumbnail": "frame",
    "first_comment": true
+  },
+  {
+   "ep": 2,
+   "topic": "What if Earth stopped spinning for one second",
+   "area": "earth/physics",
+   "status": "scheduled",
+   "title": "What If Earth Stopped Spinning For 1 Second? 🌍😳 #shorts",
+   "publish_time": "2026-11-17T18:30",
+   "metricool_id": 431886924,
+   "uuid": "6617103156153764373",
+   "cover_ms": 24180,
+   "thumbnail": "frame",
+   "first_comment": true,
+   "characters": "Max + Tick"
   }
  ],
  "thumbnail": {
@@ -88,5 +102,5 @@
  ],
  "voice": "am_fenrir (en-us, speed 0.9, explainer fx) — owner chose sample A 2026-11-17",
  "publish_time": "2026-11-17T12:30",
- "last_publish": "2026-11-17T12:30:00"
+ "last_publish": "2026-11-17T18:30:00"
 }

@@ -52,7 +52,7 @@
    "series": "strange-minute",
    "episode": 2,
    "title": "What If Earth Stopped Spinning For 1 Second? 🌍😳 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -74,12 +74,25 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-17T18:59:00Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-17T18:59:04Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-17T18:59:04Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-17T18:59:21Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-17T18:55:43Z",
-   "updated": "2026-11-17T18:59:00Z"
+   "updated": "2026-11-17T18:59:21Z",
+   "publish_time": "2026-11-17T18:30"
   }
  }
 }
