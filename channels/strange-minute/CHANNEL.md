@@ -55,7 +55,7 @@ Everything the root CLAUDE.md demands for horror videos applies 1:1 here — onl
 - Captions: light style (blue pill, gold/cyan highlights — automatic with "style":"light"). Header/cover in gold+cyan, no red.
 
 ## Format (every episode)
-- 50–60 s, 14–16 lines, a new visual every ≤ 5 s. Line 1 = the question or an impossible fact (≤ 12 words, spoken by 0.4 s,
+- 50–60 s (owner: if short, add a TRUE fact line — never just slow the voice below 0.9), 16–18 lines, a new visual every ≤ 5 s. Line 1 = the question or an impossible fact (≤ 12 words, spoken by 0.4 s,
   clean voice, then a small ding after it — no sound under the question): "What if the Moon vanished tonight?", "What if you fell into Jupiter?", "This tiny island is in two days at once."
   `pipeline/check_hook.py` must PASS.
 - Arc: hook question → first surprising effect (relatable: your street, your night, your phone) → 2–3 escalating
