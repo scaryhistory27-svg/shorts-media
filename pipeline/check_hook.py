@@ -18,6 +18,9 @@ try:
     tl = json.load(open(f"{E}/build/timeline.json")); s0 = tl["segs"][0]
     if s0["words"][0]["s"] > 0.4: fails.append(f"first word starts at {s0['words'][0]['s']:.2f}s (max 0.4)")
     if s0["d"] > 2.8: fails.append(f"hook line lasts {s0['d']:.2f}s (max 2.8)")
-    if not any(e["t"] < 0.6 for e in tl["events"]): fails.append("no sound hit (hit/sting/knock/whoosh) in the first 0.6 s")
+    if ep.get("style") == "light":   # Strange Minute (owner 2026-11-17): voice asks the question first, clean — then a small ding, then the story
+        if any(e["t"] < s0["s"] + s0["d"] for e in tl["events"]): fails.append("light style: no sound under the hook question (put a 'ding' with at:'end')")
+        if not any(s0["s"] + s0["d"] <= e["t"] < s0["e"] + 0.3 for e in tl["events"]): fails.append("light style: missing the small ding right after the hook question")
+    elif not any(e["t"] < 0.6 for e in tl["events"]): fails.append("no sound hit (hit/sting/knock/whoosh) in the first 0.6 s")
 except FileNotFoundError: pass
 print(("FAIL: " + "; ".join(fails)) if fails else f"PASS: \"{first}\""); sys.exit(1 if fails else 0)

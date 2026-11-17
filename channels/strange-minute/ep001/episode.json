@@ -48,12 +48,8 @@
    "gap": 0.35,
    "sfx": [
     {
-     "at": "start",
-     "type": "chime"
-    },
-    {
-     "word": "vanished",
-     "type": "rise"
+     "at": "end",
+     "type": "ding"
     }
    ]
   },

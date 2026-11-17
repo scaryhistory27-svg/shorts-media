@@ -18,6 +18,7 @@ for i,(l,d) in enumerate(zip(lines,durs)):
     segs.append(seg)
     for fx in l.get("sfx",[]):
         if fx.get("at")=="start": tt=t
+        elif fx.get("at")=="end": tt=t+d+0.05   # right after the line (Strange Minute: question first, then a small ding)
         else:
             m=[x for x in wt if x["w"]==fx["word"]]; assert m,f"line {i}: sfx word {fx['word']} not found"
             tt=m[fx.get("n",0)]["s"]
@@ -37,6 +38,7 @@ tens=np.clip((ts-total*0.55)/(total*0.4),0,1)
 bed+=0.03*tens*np.sin(2*np.pi*233*ts)*np.sin(2*np.pi*246.9*ts)
 LIGHT=ep.get("bed")=="light"   # channel 2 (Strange Minute): no horror drone/tension, soft airy pad instead
 if LIGHT: bed=0.02*wind+0.015*np.sin(2*np.pi*110*ts)*(0.6+0.4*np.sin(2*np.pi*0.09*ts))
+if LIGHT: bed*=np.clip((ts-(segs[0]["s"]+segs[0]["d"]))/1.0,0,1)
 mix+=bed*np.clip(ts/1.0,0,1)*np.clip((total-ts)/1.2,0,1)
 def add(sig,t0,g=1.0):
     i=int(t0*SR); j=min(N,i+len(sig)); mix[i:j]+=g*sig[:j-i]
@@ -68,13 +70,16 @@ def chime():   # Strange Minute signature: bright bell cluster + airy shimmer (n
         x=np.clip(tt-dl,0,None); s+=g*np.sin(2*np.pi*f0*x)*np.exp(-x*3.2)*(tt>=dl)*(1+0.3*np.sin(2*np.pi*5.5*x))
     F=np.fft.rfft(rng.standard_normal(n)); fr=np.fft.rfftfreq(n,1/SR); F*=(fr>4000)/(1+(fr/9000)**2); air=np.fft.irfft(F,n); air/=np.abs(air).max()
     return 0.35*s/np.abs(s).max()+0.12*air*np.exp(-tt*4)
+def ding():   # small soft single bell — sits in the gap after the hook question, never under the voice
+    n=int(1.2*SR); tt=np.arange(n)/SR
+    return (np.sin(2*np.pi*1568*tt)+0.35*np.sin(2*np.pi*3136*tt)*np.exp(-tt*6))*np.exp(-tt*4.5)*0.5
 def pop():
     n=int(0.25*SR); tt=np.arange(n)/SR
     return np.sin(2*np.pi*(500+900*tt/0.25)*tt)*np.exp(-tt*28)*0.6
 def rise():
     n=int(0.9*SR); tt=np.arange(n)/SR; F=np.fft.rfft(rng.standard_normal(n)); fr=np.fft.rfftfreq(n,1/SR); F*=1/(1+(fr/2500)**2); w=np.fft.irfft(F,n); w/=np.abs(w).max()
     return 0.4*w*(tt/0.9)**2+0.2*np.sin(2*np.pi*(300+600*tt/0.9)*tt)*(tt/0.9)**2
-FX={"chime":(chime,0.6),"pop":(pop,0.45),"rise":(rise,0.5),"knock":(lambda:knock(),0.55),"knockglass":(lambda:knock(True),0.45),"buzz":(buzz,0.5),"sting":(lambda:boom(3.0),0.6),"hit":(lambda:boom(2.0),0.35),"heart":(heart,0.5),"whoosh":(whoosh,0.5),"creak":(creak,0.35)}
+FX={"ding":(ding,0.35),"chime":(chime,0.6),"pop":(pop,0.45),"rise":(rise,0.5),"knock":(lambda:knock(),0.55),"knockglass":(lambda:knock(True),0.45),"buzz":(buzz,0.5),"sting":(lambda:boom(3.0),0.6),"hit":(lambda:boom(2.0),0.35),"heart":(heart,0.5),"whoosh":(whoosh,0.5),"creak":(creak,0.35)}
 for e in ev:
     f,g=FX[e["type"]]; add(f(),e["t"]-(0.05 if e["type"]=="sting" else 0),g)
 # ---- quiet mystical music bed (procedural, royalty-free): minor pads + sparse music-box notes + long reverb, ducked under the voice ----
@@ -128,7 +133,8 @@ for i,s in enumerate(segs):
 venv=np.convolve(np.abs(vtrack),np.ones(int(0.25*SR))/(0.25*SR),mode="same"); venv/=venv.max()+1e-9
 duck=1-0.55*np.clip(venv*3,0,1)
 mus=music_bed(N,__import__("zlib").crc32((ep.get("series","")+str(ep.get("episode",0))).encode())%10000)
-mix+=ep.get("music_level",0.11)*mus*duck*np.clip(ts/1.5,0,1)*np.clip((total-ts)/1.5,0,1)
+m0=(segs[0]["s"]+segs[0]["d"]) if LIGHT else 0   # light style: music starts only after the hook question
+mix+=ep.get("music_level",0.11)*mus*duck*np.clip((ts-m0)/1.5,0,1)*np.clip((total-ts)/1.5,0,1)
 for i,s in enumerate(segs):
     v,_=sf.read(f"{B}/l{i:02d}.wav"); add(v*0.95,s["s"])
 mix=mix[:int(total*SR)]; mix/=np.abs(mix).max(); mix=np.tanh(mix*2.2)/np.tanh(2.2); mix/=np.abs(mix).max()/0.95

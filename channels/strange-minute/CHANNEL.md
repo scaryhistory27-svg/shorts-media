@@ -48,13 +48,15 @@ Everything the root CLAUDE.md demands for horror videos applies 1:1 here — onl
 
 ## Own identity — must NOT sound/look like the horror channel (owner 2026-11-17: viewers must not guess both are his)
 - Voice: British documentary male `bm_george`, lang en-gb, speed 1.0 (brisk, clear, "smart") — never the horror blend/storyteller FX.
-- Sounds: ONLY `chime` (signature opening + final question), `pop`, `rise`, `whoosh`. Never `hit`/`sting`/`knock`/`heart`/`creak`
-  (no boom, no red glitch). Line 1 always starts with `chime` at 'start'.
+- Opening (owner 2026-11-17): the voice asks the question FIRST, with NO sound under it; right after it ONE small soft
+  `ding` (`{"at":"end","type":"ding"}` on line 1); then the story starts. check_hook enforces this for style light.
+- Sounds: ONLY `ding`, `chime` (final question), `pop`, `rise`, `whoosh`, never under a spoken key word if it masks it. Never
+  `hit`/`sting`/`knock`/`heart`/`creak` (no boom, no red glitch).
 - Captions: light style (blue pill, gold/cyan highlights — automatic with "style":"light"). Header/cover in gold+cyan, no red.
 
 ## Format (every episode)
 - 50–60 s, 14–16 lines, a new visual every ≤ 5 s. Line 1 = the question or an impossible fact (≤ 12 words, spoken by 0.4 s,
-  sound hit ≤ 0.6 s): "What if the Moon vanished tonight?", "What if you fell into Jupiter?", "This tiny island is in two days at once."
+  clean voice, then a small ding after it — no sound under the question): "What if the Moon vanished tonight?", "What if you fell into Jupiter?", "This tiny island is in two days at once."
   `pipeline/check_hook.py` must PASS.
 - Arc: hook question → first surprising effect (relatable: your street, your night, your phone) → 2–3 escalating
   consequences with on-screen labels/numbers → "the strangest part" turn (~60 %) → loop ending that throws back to
