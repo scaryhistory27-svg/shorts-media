@@ -152,7 +152,7 @@ jobs.py for channel 2 always with `JOBS_FILE=channels/strange-minute/jobs.json L
   allow); (3) when the owner connects the channels in vidIQ, `vidiq_channel_analytics` once a week per channel (retention,
   traffic sources, subs per video) — fresher than Metricool. Free: `vidiq_user_channels`, `vidiq_balance`.
   Never upload/publish through vidIQ (Metricool stays the only publisher — no duplicates).
-- **Windsor.ai** (connector youtube; accounts: horror = 100851, Strange Minute = 100859 (re-connected 2026-11-17; if an id is rejected, call get_connectors for the current ids)) — the MAIN source for per-video YouTube
+- **Windsor.ai** (connector youtube; accounts: horror = 100877, Strange Minute = 100879 (re-connected 2026-11-17 read-only; if an id is rejected, call get_connectors for the current ids)) — the MAIN source for per-video YouTube
   analytics (fresher than Metricool): `get_data` fields video, video_title, views, engaged_views, average_view_duration,
   average_view_percentage, likes, comments, shares, subscribers_gained (also traffic_source, audience retention with
   elapsed_video_time_ratio + video filter). Use it in every run's statistics step. Data lags ~1–2 days.

@@ -12,3 +12,12 @@
 - It Knocked Again... (Part 2): 506 views, 168 engaged, avg 25.4 s = 50 % viewed, 7 likes, 1 comment, +2 subs.
 - Takeaway: Part 1 hooks + loop endings drive rewatches; Part 2 loses half the audience → Part 2/3 need a NEW standalone-strong hook
   (not just a recap) and a faster first 5 s; keep the loop ending in every part.
+
+## 2026-11-17 evening — Windsor per-video (horror, Nov 14–18)
+| Video | Views | Avg % viewed | Likes | Subs |
+|---|---|---|---|---|
+| Never Open The Door At 2 AM (P1) | 1,366 | 106 % | 21 | +4 |
+| It Knocked Again... (P2) | 1,204 | 54 % | 20 | +4 |
+| Never Step Out If Your Elevator Stops On 13 (MF P1) | 162 | 47 % | 3 | 0 |
+| The Note Under My Sink... (Knock P3) | 105 | 47 % | 9 | +1 |
+Takeaway: the 2 AM Knock P1/P2 carried the channel (launch push); Missing Floor P1 got far less reach → the first 3 s / premise matter more than the series; a "never open the door"-style direct warning + door/home setting outperformed "elevator".
