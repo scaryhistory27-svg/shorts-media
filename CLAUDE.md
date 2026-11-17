@@ -152,7 +152,7 @@ jobs.py for channel 2 always with `JOBS_FILE=channels/strange-minute/jobs.json L
   allow); (3) when the owner connects the channels in vidIQ, `vidiq_channel_analytics` once a week per channel (retention,
   traffic sources, subs per video) — fresher than Metricool. Free: `vidiq_user_channels`, `vidiq_balance`.
   Never upload/publish through vidIQ (Metricool stays the only publisher — no duplicates).
-- **Windsor.ai** (connector youtube; accounts: horror = 100829, Strange Minute = 100828) — the MAIN source for per-video YouTube
+- **Windsor.ai** (connector youtube; accounts: horror = 100851, Strange Minute = 100859 (re-connected 2026-11-17; if an id is rejected, call get_connectors for the current ids)) — the MAIN source for per-video YouTube
   analytics (fresher than Metricool): `get_data` fields video, video_title, views, engaged_views, average_view_duration,
   average_view_percentage, likes, comments, shares, subscribers_gained (also traffic_source, audience retention with
   elapsed_video_time_ratio + video filter). Use it in every run's statistics step. Data lags ~1–2 days.
@@ -186,6 +186,21 @@ Weekly (in the run on MONDAY, LA time; one extra 10–20 min block):
   of the engine cover; if Canva fails, fall back to the engine cover. Also use Canva for any channel art refresh the owner asks for.
 Not used (no fit for this cloud session): computer-use / chrome / built-in browser (local only), pptx, google-workspace, morning,
 import-memory, skill-creator, artifact-emulator — use them only if the owner asks.
+
+## Skills from the owner's plugins (social-media-skills, marketing, youtube-transcriber) — load ON DEMAND with the Skill tool
+Use the ones that fit; load a skill only at the step that needs it (they are long — don't load all every run):
+- New horror series / new Strange Minute topic: `social-media-skills:youtube-shorts`, `social-media-skills:idea-generation-and-ideation`,
+  `social-media-skills:viral-reverse-engineering` (tear down 1–2 trending Shorts found with vidIQ; transcribe them with
+  `youtube-transcriber:youtube-transcriber` when captions help), `social-media-skills:trend-jacking` (only original takes, no IP).
+- Script: `social-media-skills:hook-writer` (line 1), `social-media-skills:short-form-video-script` / `storytelling-and-narrative`.
+- Strange Minute facts: `social-media-skills:content-research-and-sourcing` (verify every number before publishing).
+- Metadata: `social-media-skills:youtube-publishing-and-metadata` (title, description, tags), `social-media-skills:hashtag-strategy`.
+- Covers on a probe: `social-media-skills:thumbnail-design` + Canva.
+- Comment replies (Windsor): `social-media-skills:reply-and-comment-writer`.
+- Weekly Monday report: `social-media-skills:analytics-and-reporting` or `marketing:performance-report`, plus xlsx + docs.
+- Sound questions: `social-media-skills:ai-music-and-sound` (licensing-safe audio only; our audio stays procedural/original).
+Never use a skill to publish anywhere else (WoopSocial etc. are not connected) — Metricool stays the only publisher.
+Marketing plugin MCP servers (ahrefs, figma, notion, slack…) fail to connect in this cloud session (proxy) — ignore them.
 
 ## Repo layout
 - `pipeline/engine.js` shared canvas engine: helpers (`sky stars moon glow ell rr door clock phone building mom creature`),
