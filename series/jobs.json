@@ -461,13 +461,18 @@
     {
      "stage": "scheduled",
      "at": "2026-11-17T18:54:23Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-17T19:37:00Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-17T18:43:18Z",
-   "updated": "2026-11-17T18:54:23Z",
-   "publish_time": "2026-11-17T15:30"
+   "updated": "2026-11-17T19:37:00Z",
+   "publish_time": "2026-11-17T15:30",
+   "note": "re-mixed: clean hook + thud"
   }
  }
 }
