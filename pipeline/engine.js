@@ -98,12 +98,13 @@ function building(x,y,w,rows,cols,lit,t,flick){ // y = top
 // ---------- captions ----------
 function chunks(seg){const out=[];let cur=[];seg.words.forEach((w,i)=>{cur.push(i);if(cur.length>=3||/[.,:!?]$/.test(w.w)&&cur.length>=2||/(\.\.\.|[.!?:])$/.test(w.w)){out.push(cur);cur=[]}});if(cur.length)out.push(cur);return out}
 function caption(seg,t){const ch=chunks(seg);let idx=-1;seg.words.forEach((w,i)=>{if(t>=w.s)idx=i});if(idx<0)return;
-  const chunk=ch.find(c=>c.includes(idx));const fs=92;ctx.save();ctx.font=`900 ${fs}px Inter`;ctx.textBaseline='middle';
+  const chunk=ch.find(c=>c.includes(idx));const fs=92;ctx.save();ctx.font=TL.style==='light'?`800 ${fs-8}px Inter`:`900 ${fs}px Inter`;ctx.textBaseline='middle';
   const ws=chunk.map(i=>seg.words[i].w.replace(/\.\.\.$/,'...'));const sp=38;let widths=ws.map(w=>ctx.measureText(w).width);let tot=widths.reduce((a,b)=>a+b,0)+sp*(ws.length-1);
-  let sc=Math.min(1,960/tot);const y=1360;let x=W/2-tot*sc/2;
+  let sc=Math.min(1,960/tot);const y=1360;let x=W/2-tot*sc/2;const LIGHT=TL.style==='light';
+  if(LIGHT){ctx.save();rr(x-36,y-70,tot*sc+72,140,40);ctx.fillStyle='rgba(6,22,44,0.72)';ctx.fill();ctx.lineWidth=3;ctx.strokeStyle='rgba(95,212,255,0.55)';ctx.stroke();ctx.restore()}
   chunk.forEach((wi,k)=>{const w=seg.words[wi];const on=wi<=idx;const age=t-w.s;let pop=on?1+0.07*Math.max(0,1-age/0.14):1;
-    const col=w.c==='y'?C.yel:w.c==='r'?C.red:'#ffffff';ctx.save();const cx=x+widths[k]*sc/2;ctx.translate(cx,y);ctx.scale(sc*pop,sc*pop);
-    ctx.textAlign='center';ctx.lineJoin='round';ctx.lineWidth=14;ctx.strokeStyle='rgba(0,0,0,0.85)';ctx.shadowColor='rgba(0,0,0,0.8)';ctx.shadowBlur=24;
+    const col=LIGHT?(w.c==='y'?'#ffd57a':w.c==='r'?'#5fd4ff':'#ffffff'):(w.c==='y'?C.yel:w.c==='r'?C.red:'#ffffff');ctx.save();const cx=x+widths[k]*sc/2;ctx.translate(cx,y);ctx.scale(sc*pop,sc*pop);
+    ctx.textAlign='center';ctx.lineJoin='round';ctx.lineWidth=LIGHT?0.01:14;ctx.strokeStyle='rgba(0,0,0,0.85)';ctx.shadowColor='rgba(0,0,0,0.8)';ctx.shadowBlur=LIGHT?0:24;
     ctx.globalAlpha=on?1:0.28;ctx.strokeText(ws[k],0,0);ctx.shadowBlur=0;ctx.fillStyle=on?col:'#cfd6e4';ctx.fillText(ws[k],0,0);ctx.restore();x+=(widths[k]+sp)*sc});
   ctx.restore()}
 function header(t,stamp){ctx.save();ctx.textAlign='center';ctx.font='800 34px Inter';ctx.fillStyle='rgba(235,238,245,0.85)';
@@ -195,7 +196,7 @@ function crawler(x,y,s,t,speed=1.2){ctx.save();ctx.translate(x,y);ctx.scale(s,s)
 // ================= DYNAMICS & LOOK (owner 2026-11-15: "more animation, prettier, scarier, more dynamic") =================
 function shade(hex,k){const n=parseInt(hex.slice(1),16);const c=[n>>16,(n>>8)&255,n&255].map(v=>Math.max(0,Math.min(255,Math.round(v*k))));return `rgb(${c[0]},${c[1]},${c[2]})`}
 // camera punch-in on hit/sting/knock events (auto, every episode)
-function punchAt(t){let z=0;if(!TL)return 0;for(const e of TL.events){if(!['hit','sting','knock','knockglass'].includes(e.type)||t<e.t||t>e.t+0.5)continue;
+function punchAt(t){let z=0;if(!TL)return 0;for(const e of TL.events){if(!['hit','sting','knock','knockglass','chime','pop'].includes(e.type)||t<e.t||t>e.t+0.5)continue;
   const a=(t-e.t)/0.5;z=Math.max(z,(e.type==='sting'?0.11:e.type==='hit'?0.08:0.035)*Math.pow(1-a,2))}return z}
 // glitch + red flash for 0.35 s after every sting (auto) — RGB slice offsets drawn from the canvas itself
 function glitchFx(t){if(!TL)return;const e=TL.events.find(e=>e.type==='sting'&&t>=e.t&&t<e.t+0.35);if(!e)return;const a=1-(t-e.t)/0.35;

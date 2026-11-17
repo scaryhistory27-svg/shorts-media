@@ -62,7 +62,19 @@ def whoosh():
 def creak():
     n=int(1.2*SR); tt=np.arange(n)/SR; f=180+60*np.sin(2*np.pi*0.8*tt)
     return 0.3*np.sign(np.sin(2*np.pi*np.cumsum(f)/SR))*(np.sin(2*np.pi*23*tt)>0.3)*np.sin(np.pi*tt/1.2)
-FX={"knock":(lambda:knock(),0.55),"knockglass":(lambda:knock(True),0.45),"buzz":(buzz,0.5),"sting":(lambda:boom(3.0),0.6),"hit":(lambda:boom(2.0),0.35),"heart":(heart,0.5),"whoosh":(whoosh,0.5),"creak":(creak,0.35)}
+def chime():   # Strange Minute signature: bright bell cluster + airy shimmer (no boom — must not sound like the horror channel)
+    n=int(2.2*SR); tt=np.arange(n)/SR; s=np.zeros(n)
+    for f0,g,dl in ((1318.5,1,0),(1975.5,0.6,0.04),(2637,0.4,0.08),(987.8,0.5,0.0)):
+        x=np.clip(tt-dl,0,None); s+=g*np.sin(2*np.pi*f0*x)*np.exp(-x*3.2)*(tt>=dl)*(1+0.3*np.sin(2*np.pi*5.5*x))
+    F=np.fft.rfft(rng.standard_normal(n)); fr=np.fft.rfftfreq(n,1/SR); F*=(fr>4000)/(1+(fr/9000)**2); air=np.fft.irfft(F,n); air/=np.abs(air).max()
+    return 0.35*s/np.abs(s).max()+0.12*air*np.exp(-tt*4)
+def pop():
+    n=int(0.25*SR); tt=np.arange(n)/SR
+    return np.sin(2*np.pi*(500+900*tt/0.25)*tt)*np.exp(-tt*28)*0.6
+def rise():
+    n=int(0.9*SR); tt=np.arange(n)/SR; F=np.fft.rfft(rng.standard_normal(n)); fr=np.fft.rfftfreq(n,1/SR); F*=1/(1+(fr/2500)**2); w=np.fft.irfft(F,n); w/=np.abs(w).max()
+    return 0.4*w*(tt/0.9)**2+0.2*np.sin(2*np.pi*(300+600*tt/0.9)*tt)*(tt/0.9)**2
+FX={"chime":(chime,0.6),"pop":(pop,0.45),"rise":(rise,0.5),"knock":(lambda:knock(),0.55),"knockglass":(lambda:knock(True),0.45),"buzz":(buzz,0.5),"sting":(lambda:boom(3.0),0.6),"hit":(lambda:boom(2.0),0.35),"heart":(heart,0.5),"whoosh":(whoosh,0.5),"creak":(creak,0.35)}
 for e in ev:
     f,g=FX[e["type"]]; add(f(),e["t"]-(0.05 if e["type"]=="sting" else 0),g)
 # ---- quiet mystical music bed (procedural, royalty-free): minor pads + sparse music-box notes + long reverb, ducked under the voice ----
