@@ -1,0 +1,194 @@
+{
+ "series": "Mile Marker 214",
+ "episode": 2,
+ "title": "MILE MARKER 214 · PART 2",
+ "stamp": "ROUTE 9 · 7:21 PM",
+ "endTitle": "PART 3?",
+ "endSub": "Who knows his name?",
+ "music_level": 0.12,
+ "youtube": {
+  "title": "My GPS Says I've Arrived. Nobody Lives Out Here 😨 #shorts",
+  "description": "His dashcam caught only one car. His own. 🚗 Part 3? 👀\n#horrorstory #scary #creepy #roadtrip #dashcam #shorts",
+  "tags": [
+   "horror story",
+   "scary",
+   "creepy",
+   "highway",
+   "dashcam",
+   "scary story",
+   "horror animation",
+   "road trip"
+  ],
+  "first_comment": "Who do you think just stepped out of that pickup? 👀👇 Part 3 tomorrow."
+ },
+ "cover": {
+  "seg": 12,
+  "frac": 0.628,
+  "top": "MILE MARKER 214",
+  "lines": [
+   "IT KNEW",
+   "MY NAME"
+  ],
+  "sub": "PART 2"
+ },
+ "lines": [
+  {
+   "scene": "arrived2",
+   "text": "GPS says: Arrived. Nobody lives here.",
+   "say": "G.P.S. says: arrived. Nobody lives here.",
+   "hl": {
+    "Arrived.": "y",
+    "Nobody": "r"
+   },
+   "speed": 1.32,
+   "gap": 0.35,
+   "sfx": [
+    {
+     "at": "start",
+     "type": "hit"
+    }
+   ]
+  },
+  {
+   "scene": "parked",
+   "text": "I pulled over. My hazards clicking in the dark.",
+   "hl": {
+    "dark.": "y"
+   },
+   "sfx": [
+    {
+     "word": "clicking",
+     "type": "buzz"
+    }
+   ]
+  },
+  {
+   "scene": "pickupStop",
+   "text": "Then headlights. The old pickup rolled in behind me.",
+   "hl": {
+    "headlights.": "y",
+    "pickup": "r"
+   },
+   "sfx": [
+    {
+     "word": "headlights.",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "pickupStop",
+   "text": "It stopped ten feet away. Nobody inside.",
+   "hl": {
+    "Nobody": "r"
+   },
+   "sfx": [
+    {
+     "word": "Nobody",
+     "type": "hit"
+    }
+   ]
+  },
+  {
+   "scene": "phone",
+   "text": "I opened my dashcam to prove I wasn't crazy.",
+   "say": "I opened my dash cam to prove I wasn't crazy.",
+   "hl": {
+    "dashcam": "y"
+   }
+  },
+  {
+   "scene": "phone",
+   "text": "The footage showed no pickup. Not once.",
+   "hl": {
+    "no": "r",
+    "pickup.": "r"
+   }
+  },
+  {
+   "scene": "phone2",
+   "text": "But the first frame showed a car ahead. Mine.",
+   "hl": {
+    "Mine.": "r"
+   },
+   "sfx": [
+    {
+     "word": "Mine.",
+     "type": "sting"
+    }
+   ]
+  },
+  {
+   "scene": "radio2",
+   "text": "Then my radio crackled. A news report.",
+   "hl": {
+    "radio": "y"
+   },
+   "sfx": [
+    {
+     "word": "crackled.",
+     "type": "creak"
+    }
+   ]
+  },
+  {
+   "scene": "news",
+   "text": "November 17th, 1987. A car vanished on Route 9.",
+   "say": "November seventeenth, nineteen eighty-seven. A car vanished on Route nine.",
+   "hl": {
+    "1987.": "y",
+    "vanished": "r"
+   }
+  },
+  {
+   "scene": "news",
+   "text": "Last seen at 7:13 PM. Driver never found.",
+   "say": "Last seen at seven thirteen P.M. Driver never found.",
+   "hl": {
+    "7:13": "y",
+    "never": "r"
+   }
+  },
+  {
+   "scene": "news",
+   "text": "They described his jacket. Blue. Like mine.",
+   "hl": {
+    "Blue.": "y",
+    "mine.": "r"
+   },
+   "sfx": [
+    {
+     "word": "mine.",
+     "type": "heart"
+    }
+   ]
+  },
+  {
+   "scene": "door",
+   "text": "Behind me, the pickup's door creaked open.",
+   "hl": {
+    "door": "y"
+   },
+   "sfx": [
+    {
+     "word": "creaked",
+     "type": "creak"
+    }
+   ]
+  },
+  {
+   "scene": "door",
+   "text": "Someone stepped out. And called my name.",
+   "hl": {
+    "Someone": "r",
+    "name.": "r"
+   },
+   "sfx": [
+    {
+     "word": "name.",
+     "type": "sting"
+    }
+   ]
+  }
+ ]
+}

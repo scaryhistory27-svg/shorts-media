@@ -64,7 +64,8 @@
      "publish": "2026-11-16T15:30:00",
      "youtube_title": "I Went Back To Floor 13. Someone Had My Face 😨 #shorts",
      "metricool_id": 430511253,
-     "thumbnail": "frame"
+     "thumbnail": "frame",
+     "url": "https://www.youtube.com/shorts/EY-5Butv-iw"
     }
    ]
   },
@@ -83,7 +84,8 @@
      "publish": "2026-11-17T09:30:00",
      "youtube_title": "Never Follow Your GPS Past Mile Marker 214 😨 #shorts",
      "metricool_id": 430520918,
-     "thumbnail": "frame"
+     "thumbnail": "frame",
+     "url": "https://www.youtube.com/shorts/GzEDjV6G79Y"
     }
    ]
   }
@@ -144,7 +146,7 @@
   "probe_every": 3,
   "since_probe": 0,
   "last_error": "2026-11-16 Missing Floor 1–2 custom covers rejected again (channel not verified)",
-  "frame_ok": "2026-11-15 Part 3 published without warning (videoCoverMilliseconds works)"
+  "frame_ok": "2026-11-17 Missing Floor 3 + Mile Marker 1 published with frame covers, no warning"
  },
  "slot_overrides": {
   "2026-11-15T16:00": "2026-11-15T15:30",

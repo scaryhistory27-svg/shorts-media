@@ -317,8 +317,8 @@
    "series": "the-missing-floor",
    "episode": 3,
    "title": "I Went Back To Floor 13. Someone Had My Face 😨 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -351,16 +351,20 @@
     {
      "stage": "scheduled",
      "at": "2026-11-16T18:54:02Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-17T18:41:35Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-16T18:43:01Z",
-   "updated": "2026-11-16T18:54:02Z",
+   "updated": "2026-11-17T18:41:35Z",
    "metricool_id": 430511253,
    "metricool_uuid": "-2423439446430759712",
    "publish": "2026-11-16T15:30:00-08:00",
-   "thumbnail": "frame 33570ms"
+   "thumbnail": "frame_ok"
   },
   "2026-11-17T09:30-mile-marker-214-ep1": {
    "id": "2026-11-17T09:30-mile-marker-214-ep1",
@@ -368,8 +372,8 @@
    "series": "mile-marker-214",
    "episode": 1,
    "title": "Never Follow Your GPS Past Mile Marker 214 😨 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -402,16 +406,55 @@
     {
      "stage": "scheduled",
      "at": "2026-11-16T19:01:37Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-17T18:41:35Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-16T18:55:57Z",
-   "updated": "2026-11-16T19:01:37Z",
+   "updated": "2026-11-17T18:41:35Z",
    "metricool_id": 430520918,
    "metricool_uuid": "-1947405019314569080",
    "publish": "2026-11-17T09:30:00-08:00",
-   "thumbnail": "frame 40946ms"
+   "thumbnail": "frame_ok"
+  },
+  "2026-11-17T15:30-mile-marker-214-ep2": {
+   "id": "2026-11-17T15:30-mile-marker-214-ep2",
+   "slot": "2026-11-17T15:30",
+   "series": "mile-marker-214",
+   "episode": 2,
+   "title": "My GPS Says I've Arrived. Nobody Lives Out Here 😨 #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-17T18:43:18Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-17T18:43:18Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-17T18:45:37Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-17T18:49:26Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-17T18:54:00Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-17T18:43:18Z",
+   "updated": "2026-11-17T18:54:00Z"
   }
  }
 }
