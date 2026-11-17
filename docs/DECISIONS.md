@@ -34,3 +34,5 @@
 - 2026-11-16 Owner: "do it as you found" → length 50–60 s, 13–15 lines, beat every ≤ 6 s (replaces the 60–75 s rule).
 - 2026-11-16 Owner: Part 2 says "Yesterday…", Part 3 "Two days ago…" — 3 consecutive days of one story; check_hook accepts these openers.
 - 2026-11-16 Owner (final): all 3 parts happen the same day back to back — no 'yesterday'/'two days ago'; Part 2/3 continue the same minute.
+
+- 2026-11-17: Channel 2 Strange Minute connected to Metricool (brand 8179515). Owner: same standard as channel 1, own identity (US voice am_fenrir, question-first + small ding, light captions, no horror sounds); autopilot picks every hour itself to maximise views, channel visits and subscribers.

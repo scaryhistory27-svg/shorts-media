@@ -130,9 +130,10 @@ Do this research BEFORE writing anything, then decide on your own:
 ## Channel 2 — Strange Minute (owner 2026-11-17: make its videos together with the horror ones)
 Second YouTube channel ("What if…?" / hidden history / science mysteries, English, US audience). Rules, format, topic bank and
 the autopilot steps are in `channels/strange-minute/CHANNEL.md`; state in `channels/strange-minute/log.json`.
-Every daily run, AFTER the horror slots: make ONE Strange Minute episode (full QA). While `brand_id` is null the video goes
-into the `ready` queue (max 3) and is sent to the owner — never published. Once the owner connects the channel in Metricool,
-put its blogId into `brand_id`; from then on publish 1/day (ready queue first), ≥ 3 h from the horror post.
+**Connected 2026-11-17: Metricool brand `8179515`** (`brand_id` in log.json). Every daily run, AFTER the horror slots: fill every
+empty Strange Minute slot from `next-slots` (max 2/run; ready queue first), full QA, publish with blogId 8179515, report like channel 1.
+Launch cadence is in its log.json schedule (Nov 17–18: 2/day, Nov 19–23: 1/day, from Nov 24 mixed 1–2 days); the exact hour is the
+autopilot's choice (best-time chart of brand 8179515 + own results), ≥ 3 h from any horror post, ≥ 5 h between its own posts.
 jobs.py for channel 2 always with `JOBS_FILE=channels/strange-minute/jobs.json LOG_FILE=channels/strange-minute/log.json`.
 
 ## Repo layout
