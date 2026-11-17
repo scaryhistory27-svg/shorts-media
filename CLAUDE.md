@@ -156,6 +156,9 @@ jobs.py for channel 2 always with `JOBS_FILE=channels/strange-minute/jobs.json L
   analytics (fresher than Metricool): `get_data` fields video, video_title, views, engaged_views, average_view_duration,
   average_view_percentage, likes, comments, shares, subscribers_gained (also traffic_source, audience retention with
   elapsed_video_time_ratio + video filter). Use it in every run's statistics step. Data lags ~1–2 days.
+  Write actions available: update_video_details (fix a published video's title/description/tags), add_video_to_playlist /
+  remove_video_from_playlist (series playlists — needs a playlist id the owner created), reply_to_comment / moderate_comment
+  (needs the optional Windsor reconnect for comments). Use writes only for this project's own videos; never delete anything.
 - **Canva**: channel art and promo images when needed (banners/avatars); not for Short covers (YouTube rejects custom covers until
   the channels are phone-verified — frame covers are used).
 - **Metricool**: the only scheduler/publisher for both channels.
