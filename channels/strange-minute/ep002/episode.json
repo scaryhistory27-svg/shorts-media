@@ -1,0 +1,227 @@
+{
+ "series": "Strange Minute",
+ "episode": 2,
+ "title": "STRANGE MINUTE · WHAT IF #2",
+ "stamp": "EARTH · SPIN 0",
+ "style": "light",
+ "bed": "light",
+ "voice": "am_fenrir",
+ "lang": "en-us",
+ "voice_fx": "explainer",
+ "speed": 0.9,
+ "gap": 0.4,
+ "music_level": 0.13,
+ "endTitle": "WHAT IF #3?",
+ "endSub": "Follow for tomorrow's strange minute",
+ "youtube": {
+  "title": "What If Earth Stopped Spinning For 1 Second? 🌍😳 #shorts",
+  "description": "1,000 mph winds… and one strangely safe place. 🌪️ Where would you run? 👇\n#whatif #science #earth #facts #physics #shorts",
+  "tags": [
+   "what if",
+   "earth stopped spinning",
+   "science",
+   "physics",
+   "facts",
+   "animated science",
+   "strange facts",
+   "earth"
+  ],
+  "first_comment": "Equator or North Pole — where would YOU want to be in that second? 🌍👇"
+ },
+ "cover": {
+  "seg": 7,
+  "frac": 0.6,
+  "top": "STRANGE MINUTE",
+  "lines": [
+   "EARTH STOPS",
+   "1 SECOND"
+  ],
+  "sub": "WHAT IF #2"
+ },
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "What if Earth stopped spinning for one second?",
+   "hl": {
+    "Earth": "y",
+    "stopped": "y"
+   },
+   "speed": 0.95,
+   "sfx": [
+    {
+     "at": "end",
+     "type": "ding"
+    }
+   ]
+  },
+  {
+   "scene": "moving",
+   "text": "Right now, you're moving. Even sitting still.",
+   "hl": {
+    "moving.": "y"
+   }
+  },
+  {
+   "scene": "moving",
+   "text": "At the equator, the ground spins at about 1,000 miles an hour.",
+   "say": "At the equator, the ground spins at about a thousand miles an hour.",
+   "hl": {
+    "1,000": "y"
+   },
+   "sfx": [
+    {
+     "word": "1,000",
+     "type": "pop"
+    }
+   ]
+  },
+  {
+   "scene": "together",
+   "text": "You don't feel it, because everything moves with you.",
+   "hl": {
+    "everything": "y"
+   }
+  },
+  {
+   "scene": "together",
+   "text": "The air. The oceans. Your coffee.",
+   "hl": {
+    "air.": "r",
+    "oceans.": "r",
+    "coffee.": "r"
+   },
+   "sfx": [
+    {
+     "word": "air.",
+     "type": "pop"
+    },
+    {
+     "word": "oceans.",
+     "type": "pop"
+    },
+    {
+     "word": "coffee.",
+     "type": "pop"
+    }
+   ]
+  },
+  {
+   "scene": "brake",
+   "text": "Now hit the brakes. Just for one second.",
+   "hl": {
+    "brakes.": "y"
+   },
+   "sfx": [
+    {
+     "word": "brakes.",
+     "type": "rise"
+    }
+   ]
+  },
+  {
+   "scene": "brake",
+   "text": "The ground stops. Nothing else does.",
+   "hl": {
+    "Nothing": "r"
+   },
+   "sfx": [
+    {
+     "word": "stops.",
+     "type": "pop"
+    }
+   ]
+  },
+  {
+   "scene": "wind",
+   "text": "The air keeps rushing east at 1,000 miles an hour.",
+   "say": "The air keeps rushing east at a thousand miles an hour.",
+   "hl": {
+    "1,000": "r"
+   },
+   "sfx": [
+    {
+     "word": "rushing",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "wind",
+   "text": "That's three times faster than the strongest tornado ever measured.",
+   "hl": {
+    "three": "y",
+    "tornado": "r"
+   }
+  },
+  {
+   "scene": "ocean",
+   "text": "Oceans would slosh right over the coastlines.",
+   "hl": {
+    "Oceans": "y"
+   },
+   "sfx": [
+    {
+     "word": "slosh",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "fly",
+   "text": "Anything not bolted down would fly east.",
+   "hl": {
+    "fly": "r",
+    "east.": "y"
+   }
+  },
+  {
+   "scene": "turn",
+   "text": "But here's the strangest part.",
+   "hl": {
+    "strangest": "y"
+   },
+   "sfx": [
+    {
+     "word": "strangest",
+     "type": "rise"
+    }
+   ]
+  },
+  {
+   "scene": "pole",
+   "text": "At the North Pole, the ground barely spins at all.",
+   "hl": {
+    "North": "y",
+    "Pole,": "y"
+   }
+  },
+  {
+   "scene": "pole",
+   "text": "So standing there, you'd hardly notice a thing.",
+   "hl": {
+    "hardly": "y"
+   }
+  },
+  {
+   "scene": "pole",
+   "text": "The safest place on Earth would be the coldest one.",
+   "hl": {
+    "safest": "y",
+    "coldest": "r"
+   }
+  },
+  {
+   "scene": "endq",
+   "text": "So where would you run first?",
+   "hl": {
+    "you": "y"
+   },
+   "sfx": [
+    {
+     "word": "first?",
+     "type": "chime"
+    }
+   ]
+  }
+ ]
+}
