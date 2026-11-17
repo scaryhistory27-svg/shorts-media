@@ -259,3 +259,15 @@ function smTick(x,y,s,t,o={}){const hop=(o.hop??1)*Math.abs(Math.sin(t*4))*24,OL
   const a=t*2.2;ctx.strokeStyle='#5fd4ff';ctx.lineWidth=5;ctx.beginPath();ctx.moveTo(0,0);ctx.lineTo(Math.sin(a)*24,-Math.cos(a)*24);ctx.stroke();
   const w=o.wow||0;for(const ex of[-13,13])ell(ex,-8+(o.look||0)*4,5+w*2,6+w*3,'#ffffff');ctx.beginPath();if(w>0.3)ell(0,14,5,6,'#ffffff');else{ctx.arc(0,10,8,0.2,Math.PI-0.2);ctx.strokeStyle='#ffffff';ctx.lineWidth=3;ctx.stroke()}
   ctx.restore()}
+
+// smAstro: Strange Minute space explorer (owner chose A+D 2026-11-17) — round helmet with visor reflection, backpack light, floating bob
+function smAstro(x,y,s,t,o={}){const f=Math.sin(t*2)*10;ctx.save();ctx.translate(x,y+f);ctx.scale(s,s);const OL='#10243a';ctx.lineWidth=5;ctx.strokeStyle=OL;ctx.lineJoin='round';
+ ell(0,10-f,50,10,'rgba(0,0,0,0.25)');
+ for(const k of[-1,1]){ctx.beginPath();rr(k*22-14,-70,28,62,12);ctx.fillStyle='#e8eef7';ctx.fill();ctx.stroke();ctx.beginPath();rr(k*22-16,-14,32,16,7);ctx.fillStyle='#ff8a3d';ctx.fill();ctx.stroke()}
+ ctx.beginPath();rr(-70,-190,26,90,10);ctx.fillStyle='#9fb3c8';ctx.fill();ctx.stroke();ell(-57,-170,6,6,Math.sin(t*6)>0?'#5fd4ff':'#1b4a6b');
+ ctx.beginPath();rr(-50,-200,100,135,40);ctx.fillStyle='#e8eef7';ctx.fill();ctx.stroke();ctx.beginPath();rr(-22,-160,44,26,6);ctx.fillStyle='#ff8a3d';ctx.fill();ctx.stroke();
+ ctx.save();ctx.translate(48,-180);ctx.rotate(-0.6-Math.sin(t*4)*0.4);ctx.beginPath();rr(-12,0,24,64,12);ctx.fillStyle='#e8eef7';ctx.fill();ctx.stroke();ctx.restore();
+ ctx.beginPath();ctx.arc(0,-260,78,0,7);ctx.fillStyle='#e8eef7';ctx.fill();ctx.stroke();
+ ctx.beginPath();ctx.ellipse(6,-255,58,48,0,0,7);const g=ctx.createLinearGradient(-40,-300,60,-210);g.addColorStop(0,'#2b6fa8');g.addColorStop(1,'#0b2238');ctx.fillStyle=g;ctx.fill();ctx.stroke();
+ ell(-14,-258,8,10,'#ffffff');ell(24,-258,8,10,'#ffffff');ctx.beginPath();ctx.arc(6,-236,10,0.2,Math.PI-0.2);ctx.strokeStyle='#ffffff';ctx.lineWidth=4;ctx.stroke();
+ ctx.beginPath();ctx.ellipse(-22,-282,16,8,-0.6,0,7);ctx.fillStyle='rgba(255,255,255,0.45)';ctx.fill();ctx.restore()}

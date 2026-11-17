@@ -55,6 +55,9 @@ Everything the root CLAUDE.md demands for horror videos applies 1:1 here — onl
 - Characters (owner 2026-11-17: must differ from channel 1): NEVER `walker()`/`crawler()`/horror characters. Use the channel's own
   cartoon kit in engine.js: `smGuy(x,y,s,t,{speed,dir,look,point,wow,wave,hood,pants,hair,skin})` — host "Max" (big round head,
   round glasses, thick navy outline, orange hoodie, teal pants) and other people as smGuy with different hood/hair colours;
+  **Owner's pick 2026-11-17: style A + D** — `smGuy` (Max) is the host for Earth / history / human-body / everyday topics;
+  `smAstro(x,y,s,t)` (little astronaut-explorer, floating bob, waving arm, blinking backpack light) is the host for SPACE topics
+  (both may appear together, e.g. Max on Earth + astronaut in orbit).
   `smTick(x,y,s,t,{hop,wow,look})` — the living-stopwatch mascot (hops, reacts) in ≥ 1 scene per video. Max appears in
   ≥ 50 % of scenes and reacts to the facts (points at labels, looks up, "wow" face, waves at the end). Style test: tests/sm_kit.
 - Captions: light style (blue pill, gold/cyan highlights — automatic with "style":"light"). Header/cover in gold+cyan, no red.
