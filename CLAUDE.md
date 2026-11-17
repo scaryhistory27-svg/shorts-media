@@ -217,6 +217,11 @@ Every run, even a "skip" run:
    If that time is already past, use now + 20 min.
    youtubeData: `{title, type:"short", privacy:"public", madeForKids:false, category:"FILM_ANIMATION", tags, isAiGeneratedContent:false}`,
    text = description with hashtags, `autoPublish:true`.
+   **First comment (owner 2026-11-17, every video, both channels):** `firstCommentText` = one short question that makes people
+   answer (≤ 150 chars, 1–2 emoji, no links, no "subscribe" begging). Horror: a choice/theory about the story ("Would YOU have
+   stopped the car? 🚗👇", "Who was really in the mirror? 👀"), Part 1/2 may add "Part 2 tomorrow 👀". Strange Minute: a pick-one or
+   "what should vanish/happen next?" question. Write it into episode.json `youtube.first_comment`. After publishing, read
+   detailedStatus: if it mentions the comment failing, note it in the job and in the report (keep trying on the next videos).
    **Thumbnail (automatic, owner's request "if YouTube rejects the cover, make another and set it again"):**
    - Status lives in `series/log.json` → `thumbnail`: {"mode": "custom"|"frame"|"none", "fails": n, "probe_every": 3, "since_probe": n}.
    - mode "custom" → send `videoThumbnailUrl` (cover.jpg). mode "frame" → send `videoCoverMilliseconds` (cover.seg/frac time in ms).

@@ -79,6 +79,7 @@ Everything the root CLAUDE.md demands for horror videos applies 1:1 here — onl
   bigMoon, earth, skyline, turtle, label).
 - YouTube: title ≤ 60 chars "What If <X>? <emoji> #shorts"; description 1 teaser line + question to comments + 6 hashtags
   (#whatif #science #facts #shorts + 2 topic); 8 tags; category EDUCATION; madeForKids false.
+- First comment on every video (`youtube.first_comment` → firstCommentText): a pick-one question or "what should we make vanish/happen next?" 🌕👇
 - Cover: `"cover":{"seg","frac","top":"STRANGE MINUTE","lines":["<WHITE>","<YELLOW>"],"sub":"WHAT IF #n"}`.
 
 ## Topic bank (rotate space / Earth / human body / history / everyday-physics; never two of the same area in a row)
