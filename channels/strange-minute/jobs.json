@@ -93,6 +93,41 @@
    "created": "2026-11-17T18:55:43Z",
    "updated": "2026-11-17T18:59:21Z",
    "publish_time": "2026-11-17T18:30"
+  },
+  "2026-11-18T12:30-strange-minute-ep3": {
+   "id": "2026-11-18T12:30-strange-minute-ep3",
+   "slot": "2026-11-18T12:30",
+   "series": "strange-minute",
+   "episode": 3,
+   "title": "What If A Wave Of Syrup Hit Your Street? 🍯🌊 #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-17T19:00:46Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-17T19:00:46Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-17T19:01:04Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-17T19:03:49Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-17T19:04:20Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-17T19:00:46Z",
+   "updated": "2026-11-17T19:04:20Z"
   }
  }
 }

@@ -1,0 +1,208 @@
+{
+ "series": "Strange Minute",
+ "episode": 3,
+ "title": "STRANGE MINUTE · WHAT IF #3",
+ "stamp": "BOSTON · 1919",
+ "style": "light",
+ "bed": "light",
+ "voice": "am_fenrir",
+ "lang": "en-us",
+ "voice_fx": "explainer",
+ "speed": 0.9,
+ "gap": 0.4,
+ "music_level": 0.13,
+ "endTitle": "WHAT IF #4?",
+ "endSub": "Follow for tomorrow's strange minute",
+ "youtube": {
+  "title": "What If A Wave Of Syrup Hit Your Street? 🍯🌊 #shorts",
+  "description": "It really happened — Boston, 1919. 😳 Could you outrun it? 👇\n#whatif #history #weirdhistory #facts #boston #shorts",
+  "tags": [
+   "what if",
+   "great molasses flood",
+   "weird history",
+   "history facts",
+   "boston 1919",
+   "strange facts",
+   "animated history",
+   "molasses flood"
+  ],
+  "first_comment": "Be honest — could you outrun a 35 mph wave of syrup? 🍯🏃👇"
+ },
+ "cover": {
+  "seg": 7,
+  "frac": 0.55,
+  "top": "STRANGE MINUTE",
+  "lines": [
+   "A WAVE OF",
+   "SYRUP?!"
+  ],
+  "sub": "WHAT IF #3"
+ },
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "What if a wave of syrup hit your street?",
+   "hl": {
+    "syrup": "y"
+   },
+   "speed": 0.95,
+   "sfx": [
+    {
+     "at": "end",
+     "type": "ding"
+    }
+   ]
+  },
+  {
+   "scene": "boston",
+   "text": "It really happened. Boston, January 1919.",
+   "hl": {
+    "really": "y",
+    "1919.": "y"
+   }
+  },
+  {
+   "scene": "harborTank",
+   "text": "A giant tank of molasses stood by the harbor.",
+   "hl": {
+    "molasses": "y"
+   }
+  },
+  {
+   "scene": "harborTank",
+   "text": "Five stories tall. Over two million gallons inside.",
+   "hl": {
+    "two": "y",
+    "million": "y"
+   },
+   "sfx": [
+    {
+     "word": "million",
+     "type": "pop"
+    }
+   ]
+  },
+  {
+   "scene": "burst",
+   "text": "Then, on an oddly warm winter day, the steel burst.",
+   "hl": {
+    "burst.": "r"
+   },
+   "sfx": [
+    {
+     "word": "steel",
+     "type": "rise"
+    },
+    {
+     "word": "burst.",
+     "type": "pop"
+    }
+   ]
+  },
+  {
+   "scene": "waveRoll",
+   "text": "A wave of molasses about 25 feet high rolled out.",
+   "say": "A wave of molasses about twenty-five feet high rolled out.",
+   "hl": {
+    "25": "y",
+    "feet": "y"
+   },
+   "sfx": [
+    {
+     "word": "wave",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "waveRoll",
+   "text": "It moved at roughly 35 miles an hour.",
+   "say": "It moved at roughly thirty-five miles an hour.",
+   "hl": {
+    "35": "r"
+   }
+  },
+  {
+   "scene": "run",
+   "text": "That's faster than you can run.",
+   "hl": {
+    "faster": "y"
+   }
+  },
+  {
+   "scene": "rail",
+   "text": "It even bent the steel of an elevated railway.",
+   "hl": {
+    "bent": "r"
+   },
+   "sfx": [
+    {
+     "word": "bent",
+     "type": "pop"
+    }
+   ]
+  },
+  {
+   "scene": "strange",
+   "text": "But here's the strangest part.",
+   "hl": {
+    "strangest": "y"
+   },
+   "sfx": [
+    {
+     "word": "strangest",
+     "type": "rise"
+    }
+   ]
+  },
+  {
+   "scene": "cool",
+   "text": "Molasses gets thicker as it cools.",
+   "hl": {
+    "thicker": "y"
+   }
+  },
+  {
+   "scene": "cool",
+   "text": "As night fell, the sticky wave began to harden.",
+   "hl": {
+    "harden.": "r"
+   }
+  },
+  {
+   "scene": "cool",
+   "text": "Rescuers had to wade through it like glue.",
+   "hl": {
+    "glue.": "y"
+   }
+  },
+  {
+   "scene": "harbor",
+   "text": "The harbor stayed brown for months.",
+   "hl": {
+    "brown": "y"
+   }
+  },
+  {
+   "scene": "harbor",
+   "text": "And locals said the street smelled sweet for decades.",
+   "hl": {
+    "sweet": "y",
+    "decades.": "r"
+   }
+  },
+  {
+   "scene": "endq",
+   "text": "So could you outrun a wave of syrup?",
+   "hl": {
+    "you": "y"
+   },
+   "sfx": [
+    {
+     "word": "syrup?",
+     "type": "chime"
+    }
+   ]
+  }
+ ]
+}
