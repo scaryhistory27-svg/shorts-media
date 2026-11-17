@@ -1,11 +1,40 @@
 {
  "channel": "Strange Minute",
  "handle": "@StrangeMinute (confirm with owner)",
- "brand_id": null,
- "brand_note": "Metricool brand for channel 2 — owner will add it (Starter plan). Until brand_id is set: produce videos into the ready queue, do NOT publish.",
+ "brand_id": 8179515,
+ "brand_note": "Connected 2026-11-17 (Metricool brand \"Strange Minute\", YouTube UCxWzQpiga2KXr5Tru1OF5Ew). Day 1 = 2026-11-17.",
  "timezone": "America/Los_Angeles",
  "schedule_tz": "America/Los_Angeles",
- "schedule": [],
+ "schedule": [
+  {
+   "from": "2026-11-17",
+   "to": "2026-11-18",
+   "times": [
+    "12:30",
+    "18:30"
+   ],
+   "note": "launch days 1-2: 2/day, >=3 h from horror posts"
+  },
+  {
+   "from": "2026-11-19",
+   "to": "2026-11-23",
+   "times": [
+    "12:00"
+   ],
+   "note": "days 3-7: 1/day"
+  },
+  {
+   "from": "2026-11-24",
+   "mixed_days": [
+    1,
+    2
+   ],
+   "times": [
+    "12:00"
+   ],
+   "note": "from day 8: 1/day or every 2 days (deterministic)"
+  }
+ ],
  "slot_overrides": {},
  "max_ready": 3,
  "ready": [
@@ -60,5 +89,6 @@
    ]
   }
  ],
- "voice": "am_fenrir (en-us, speed 0.9, explainer fx) — owner chose sample A 2026-11-17"
+ "voice": "am_fenrir (en-us, speed 0.9, explainer fx) — owner chose sample A 2026-11-17",
+ "publish_time": "2026-11-17T12:30"
 }

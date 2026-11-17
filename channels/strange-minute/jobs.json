@@ -1,0 +1,28 @@
+{
+ "version": 1,
+ "jobs": {
+  "2026-11-17T12:30-strange-minute-ep1": {
+   "id": "2026-11-17T12:30-strange-minute-ep1",
+   "slot": "2026-11-17T12:30",
+   "series": "strange-minute",
+   "episode": 1,
+   "title": "What If The Moon Vanished Tonight? 🌕😳 #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-17T16:00:25Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-17T16:00:31Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-17T16:00:25Z",
+   "updated": "2026-11-17T16:00:31Z"
+  }
+ }
+}
