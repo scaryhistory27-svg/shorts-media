@@ -170,7 +170,7 @@ Daily (every autopilot run):
 - **Windsor.ai** → statistics step for both channels (per-video views, engaged views, avg view %, likes, comments, shares, subs;
   traffic sources). Decide what to change from it and quote the numbers in the report.
 - **Comment replies via vidIQ (owner 2026-11-17: "I give all permissions" — reply AUTOMATICALLY, no approval needed)** → horror channel
-  UCB3NwyYj_kBAG98a09RzJFQ (connected in vidIQ with reply permission; Strange Minute once it is connected — check vidiq_user_channels):
+  UCB3NwyYj_kBAG98a09RzJFQ and Strange Minute UCxWzQpiga2KXr5Tru1OF5Ew (both connected in vidIQ with reply permission since 2026-11-17):
   `vidiq_video_comments` (channelId, order time, 5 credits) → reply with `vidiq_reply_to_comment` (1 credit) to EVERY new genuine
   viewer comment our channel hasn't answered yet (byChannelOwner false and no reply from us), max 10 per run, one at a time
   (vidIQ rate-limits bursts — on "Too many replies" stop and retry the rest next run; never re-post after an uncertain result).
