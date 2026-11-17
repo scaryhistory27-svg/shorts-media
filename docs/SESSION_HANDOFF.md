@@ -1,3 +1,16 @@
+## 2026-11-17T06:11:47Z — auto checkpoint before context compaction
+
+```
+jobs file: series/jobs.json — 7 jobs
+  done/scheduled: 2026-11-16T09:30-the-missing-floor-ep2  stage=published  title=The Elevator Never Left The Lobby. I Did. 😨 #shorts  url=https://www.youtube.com/shorts/2XKg6IB-wss
+  done/scheduled: 2026-11-16T15:30-the-missing-floor-ep3  stage=scheduled  title=I Went Back To Floor 13. Someone Had My Face 😨 #shorts  url=-
+  done/scheduled: 2026-11-17T09:30-mile-marker-214-ep1  stage=scheduled  title=Never Follow Your GPS Past Mile Marker 214 😨 #shorts  url=-
+  UNFINISHED: 2026-11-16T15:30-the-missing-floor-ep3  stage=scheduled  status=active  retries=0
+  UNFINISHED: 2026-11-17T09:30-mile-marker-214-ep1  stage=scheduled  status=active  retries=0
+2026-11-16T15:30-the-missing-floor-ep3: last verified stage 'scheduled', next stage 'published'
+HEAD: d960c93 Continuity: all 3 parts on the same day, back to back (owner, replaces yesterday rule)
+```
+
 ## 2026-11-16 11:02 LA — new series Mile Marker 214 Part 1 scheduled Nov 17 09:30
 
 - Car POV engine scenes (sunsetSky, road, passing, carInterior, gpsScreen, mirrorView) in series/mile-marker-214/ep1/scenes.js. Part 2 next run.
