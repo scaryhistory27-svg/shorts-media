@@ -38,3 +38,4 @@
 - 2026-11-17: Channel 2 Strange Minute connected to Metricool (brand 8179515). Owner: same standard as channel 1, own identity (US voice am_fenrir, question-first + small ding, light captions, no horror sounds); autopilot picks every hour itself to maximise views, channel visits and subscribers.
 
 - 2026-11-17: Horror hook sound — owner: the loud start boom masked the first word "Never". Now line 1 plays clean over the drone and a short `thud` lands right after it (check_hook enforces it). Applied from Mile Marker 214 Part 2 on.
+- 2026-11-17 (later): owner — remove the opening impact sound entirely (it talks over the text). Horror line 1/2 carry no hit/sting/thud; check_hook enforces it.

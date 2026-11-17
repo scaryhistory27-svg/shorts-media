@@ -41,13 +41,7 @@
     "Nobody": "r"
    },
    "speed": 1.32,
-   "gap": 0.35,
-   "sfx": [
-    {
-     "at": "end",
-     "type": "thud"
-    }
-   ]
+   "gap": 0.35
   },
   {
    "scene": "parked",

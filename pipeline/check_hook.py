@@ -24,6 +24,6 @@ try:
     else:   # horror (owner 2026-11-17: the loud start boom masked "Never") — the first words must be clean, the hit comes right after the hook line
         loud = [e for e in tl["events"] if e["type"] in ("hit", "sting", "knock", "knockglass", "thud", "heart") and e["t"] < s0["s"] + s0["d"] - 0.05]
         if loud: fails.append("horror: no hit/sting under the hook line — put a 'thud' with at:'end' on line 1")
-        if not any(s0["s"] + s0["d"] - 0.05 <= e["t"] < s0["e"] + 0.3 for e in tl["events"]): fails.append("horror: missing the impact ('thud', at:'end') right after the hook line")
+        if any(e["type"] in ("hit", "sting", "thud") and s0["s"] + s0["d"] - 0.05 <= e["t"] < s0["e"] + 1.5 for e in tl["events"]): fails.append("horror: no impact sound right after the hook either (owner 2026-11-17: it talks over the text)")
 except FileNotFoundError: pass
 print(("FAIL: " + "; ".join(fails)) if fails else f"PASS: \"{first}\""); sys.exit(1 if fails else 0)
