@@ -46,6 +46,12 @@ Everything the root CLAUDE.md demands for horror videos applies 1:1 here — onl
   why, hook, rewatch trick, analytics used, QA, cover method, next post), video + cover via SendUserFile. Learn from this
   channel's own analytics before each video (getAnalyticsDataByMetrics for brand_id) and adapt (hook, length, topic area).
 
+## Own identity — must NOT sound/look like the horror channel (owner 2026-11-17: viewers must not guess both are his)
+- Voice: British documentary male `bm_george`, lang en-gb, speed 1.0 (brisk, clear, "smart") — never the horror blend/storyteller FX.
+- Sounds: ONLY `chime` (signature opening + final question), `pop`, `rise`, `whoosh`. Never `hit`/`sting`/`knock`/`heart`/`creak`
+  (no boom, no red glitch). Line 1 always starts with `chime` at 'start'.
+- Captions: light style (blue pill, gold/cyan highlights — automatic with "style":"light"). Header/cover in gold+cyan, no red.
+
 ## Format (every episode)
 - 50–60 s, 14–16 lines, a new visual every ≤ 5 s. Line 1 = the question or an impossible fact (≤ 12 words, spoken by 0.4 s,
   sound hit ≤ 0.6 s): "What if the Moon vanished tonight?", "What if you fell into Jupiter?", "This tiny island is in two days at once."
@@ -55,7 +61,7 @@ Everything the root CLAUDE.md demands for horror videos applies 1:1 here — onl
   line 1 + open question for comments ("…Isn't it?", "Would you press it?").
 - **Facts must be TRUE** (mainstream science/history; round numbers honestly: "about a third"). If unsure, WebSearch
   and leave the claim out rather than guess. No conspiracies, no fake "scientists say".
-- episode.json: `"style":"light","bed":"light","voice":"am_michael:0.7,am_eric:0.3","voice_fx":"explainer","speed":0.9,"gap":0.4,"music_level":0.13`,
+- episode.json: `"style":"light","bed":"light","voice":"bm_george","lang":"en-gb","voice_fx":"explainer","speed":1.0,"gap":0.4,"music_level":0.13`,
   header title `STRANGE MINUTE · WHAT IF #n`, cyan stamp (`THE MOON · GONE`), end card `WHAT IF #n+1?` + "Follow for tomorrow's strange minute".
 - Look: deep-blue "wonder" palette, gold + cyan accents, labels/counters (`label()`), diagrams that MOVE (orbits, tilts,
   counters ticking, particles), a walker character in ≥ 30 % of scenes for scale/relatability. No gore, no horror stings

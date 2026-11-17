@@ -23,7 +23,7 @@ def voice(v):
     return sum(float(w)*k.get_voice_style(n) for n,w in parts)
 durs=[]
 for i,l in enumerate(ep["lines"]):
-    a,sr=k.create(l.get("say",l["text"]),voice=voice(l.get("voice",ep.get("voice",DEFAULT_VOICE))),speed=l.get("speed",ep.get("speed",0.80)),lang="en-us")
+    a,sr=k.create(l.get("say",l["text"]),voice=voice(l.get("voice",ep.get("voice",DEFAULT_VOICE))),speed=l.get("speed",ep.get("speed",0.80)),lang=l.get("lang",ep.get("lang","en-us")))
     idx=np.where(np.abs(a)>0.01)[0]; a=a[max(0,idx[0]-400):idx[-1]+1200]
     out=f"{E}/build/l{i:02d}.wav"; sf.write(out,a,sr)
     fx=FX[l.get("voice_fx",ep.get("voice_fx","storyteller"))]

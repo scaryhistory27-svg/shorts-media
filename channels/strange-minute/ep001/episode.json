@@ -5,9 +5,9 @@
  "stamp": "THE MOON · GONE",
  "style": "light",
  "bed": "light",
- "voice": "am_michael:0.7,am_eric:0.3",
+ "voice": "bm_george",
  "voice_fx": "explainer",
- "speed": 0.9,
+ "speed": 1.0,
  "gap": 0.4,
  "music_level": 0.13,
  "endTitle": "WHAT IF #2?",
@@ -49,11 +49,11 @@
    "sfx": [
     {
      "at": "start",
-     "type": "hit"
+     "type": "chime"
     },
     {
      "word": "vanished",
-     "type": "whoosh"
+     "type": "rise"
     }
    ]
   },
@@ -100,7 +100,7 @@
    "sfx": [
     {
      "word": "third.",
-     "type": "hit"
+     "type": "pop"
     }
    ]
   },
@@ -156,7 +156,7 @@
    "sfx": [
     {
      "word": "wobble.",
-     "type": "hit"
+     "type": "pop"
     }
    ]
   },
@@ -178,7 +178,7 @@
    "sfx": [
     {
      "word": "Gone.",
-     "type": "hit"
+     "type": "pop"
     }
    ]
   },
@@ -201,9 +201,10 @@
    "sfx": [
     {
      "word": "Isn't",
-     "type": "sting"
+     "type": "chime"
     }
    ]
   }
- ]
+ ],
+ "lang": "en-gb"
 }
