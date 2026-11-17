@@ -11,8 +11,8 @@ Env for every jobs.py call of this channel:
 2. **brand_id is null** (not in Metricool yet): if `len(ready) < max_ready`, make ONE new episode (next ep number),
    QA it fully, append `{"ep": n, "dir": "channels/strange-minute/ep00n", "title": ...}` to `ready`, and send the owner
    the video + cover with a short Russian note "готово для Strange Minute, ждёт подключения в Metricool". Never publish.
-3. **brand_id is set**: publish the `ready` queue first, oldest first, one per daily slot (`jobs.py next-slots`), then
-   make new ones. Same publish procedure as the horror channel (videos/ upload, can-schedule guard, ONE
+3. **brand_id is set**: for every empty slot from `jobs.py next-slots` (max 2 per run) publish one video: the oldest from the
+   `ready` queue, otherwise make a new one. After that, if the queue has < 1 video, make one spare so tomorrow never misses. Same publish procedure as the horror channel (videos/ upload, can-schedule guard, ONE
    createScheduledPost with blogId = brand_id, uncertain+reconcile, slot_overrides for the next post, report).
    Posting time: getBestTimeToPostByNetwork for brand_id (once it has data; until then use the horror channel's chart),
    ≥ 3 h away from the horror post of the same day so the two channels don't compete.
