@@ -213,3 +213,49 @@ function jerky(p,steps=7,seed=1){const q=Math.floor(p*steps)/steps;const r=rnd(M
 // heartbeat vignette pulse (use in tense scenes)
 function heartbeat(t,k=0.35){const b=Math.pow(Math.max(0,Math.sin(t*Math.PI*2*1.25)),10);const v=ctx.createRadialGradient(W/2,H/2,H*0.25,W/2,H/2,H*0.7);
   v.addColorStop(0,'rgba(0,0,0,0)');v.addColorStop(1,`rgba(120,0,0,${k*b})`);ctx.fillStyle=v;ctx.fillRect(0,0,W,H)}
+
+// ================= STRANGE MINUTE STYLE KIT (channel 2 — must look different from the horror channel) =================
+// smGuy: the channel's recurring host "Max" — cartoony proportions (big round head), thick navy outline, round glasses,
+// orange hoodie, teal pants. o = {speed (steps/s, 0 idle), dir 1|-1, look (-1 up .. 1 down), point 0..1 (arm points forward-up),
+// wow 0..1 (surprised: raised brows + "O" mouth), wave 0..1 (waving hand), hood, pants, skin, hair}
+function smGuy(x,y,s,t,o={}){
+  const dir=o.dir||1,sp=o.speed??0,ph=t*sp*Math.PI*2,walk=sp>0,OL='#10243a',lw=5;
+  const skin=o.skin||'#f2c29b',hair=o.hair||'#3b2416',hood=o.hood||'#ff8a3d',hoodD=shade(o.hood||'#ff8a3d',0.8),pants=o.pants||'#1fa3a3';
+  const bob=walk?-Math.abs(Math.sin(ph))*8:Math.sin(t*2.4)*3;
+  ctx.save();ctx.translate(x,y);ctx.scale(s*dir,s);ctx.lineJoin='round';ctx.lineCap='round';
+  ell(0,4,52,10,'rgba(0,0,0,0.3)');
+  const stroke=()=>{ctx.lineWidth=lw;ctx.strokeStyle=OL;ctx.stroke()};
+  // legs (short, chunky) + sneakers
+  for(const [a,back] of [[ph,1],[ph+Math.PI,0]]){const sw=walk?Math.sin(a)*22:0,lift=walk?Math.max(0,Math.cos(a))*10:0;
+    ctx.beginPath();rr(-14+sw*0.5-10,-78+bob,22,66-lift,10);ctx.fillStyle=back?shade(pants,0.82):pants;ctx.fill();stroke();
+    ctx.beginPath();rr(-18+sw-4,-16-lift,40,18,9);ctx.fillStyle='#ffffff';ctx.fill();stroke()}
+  const arm=(ang,front)=>{ctx.save();ctx.translate(front?14:-20,-142+bob);ctx.rotate(ang);ctx.beginPath();rr(-11,0,22,62,11);ctx.fillStyle=front?hood:hoodD;ctx.fill();stroke();
+    ctx.beginPath();ctx.arc(0,66,12,0,7);ctx.fillStyle=skin;ctx.fill();stroke();ctx.restore()};
+  arm(walk?-Math.sin(ph)*0.5:0.12,false);   // back arm behind the body
+  // body (hoodie, pear shape)
+  ctx.beginPath();ctx.moveTo(-40,-70+bob);ctx.quadraticCurveTo(-48,-150+bob,-6,-160+bob);ctx.quadraticCurveTo(40,-162+bob,42,-110+bob);ctx.quadraticCurveTo(46,-74+bob,30,-68+bob);ctx.closePath();
+  ctx.fillStyle=hood;ctx.fill();stroke();ctx.beginPath();rr(-18,-112+bob,40,22,8);ctx.fillStyle=hoodD;ctx.fill();   // pocket
+  // front arm points/waves
+  const pt=o.point||0,wv=o.wave||0;arm(walk&&!pt&&!wv?Math.sin(ph)*0.5:-0.15-pt*2.2-wv*(2.6+0.35*Math.sin(t*9)),true);
+  // head (big, round) + hair tuft
+  const hy=-215+bob+(o.look||0)*6,tilt=(o.look||0)*0.12;ctx.save();ctx.translate(6,hy);ctx.rotate(-tilt);
+  ctx.beginPath();ctx.arc(0,0,58,0,7);ctx.fillStyle=skin;ctx.fill();stroke();
+  ctx.beginPath();ctx.moveTo(-56,-8);ctx.quadraticCurveTo(-60,-62,-6,-60);ctx.quadraticCurveTo(30,-74,50,-40);ctx.quadraticCurveTo(58,-20,56,-12);ctx.quadraticCurveTo(20,-34,-10,-30);ctx.quadraticCurveTo(-36,-28,-56,-8);ctx.closePath();ctx.fillStyle=hair;ctx.fill();stroke();
+  ctx.beginPath();ctx.moveTo(-4,-60);ctx.quadraticCurveTo(4,-86,22,-80);ctx.lineWidth=7;ctx.strokeStyle=hair;ctx.stroke();
+  // round glasses + eyes (blink)
+  const blink=Math.sin(t*1.7+1.3)>0.985,wow=o.wow||0,ey=4-(o.look||0)*-4;
+  for(const ex of[-2,36]){ctx.beginPath();ctx.arc(ex,ey,17,0,7);ctx.fillStyle='rgba(255,255,255,0.9)';ctx.fill();ctx.lineWidth=4;ctx.strokeStyle=OL;ctx.stroke();
+    if(blink){ctx.beginPath();ctx.moveTo(ex-7,ey);ctx.lineTo(ex+7,ey);ctx.lineWidth=4;ctx.stroke()}else ell(ex+3,ey-(o.look||0)*-5-3*((o.look||0)<0?1:0),5+2*wow,5+2*wow,OL)}
+  ctx.beginPath();ctx.moveTo(15,ey);ctx.lineTo(19,ey);ctx.lineWidth=4;ctx.stroke();
+  // brows + mouth
+  ctx.lineWidth=5;for(const ex of[-2,36]){ctx.beginPath();ctx.moveTo(ex-10,ey-24-wow*8);ctx.lineTo(ex+10,ey-26-wow*8);ctx.stroke()}
+  if(wow>0.3){ell(22,36,8*wow,10*wow,OL)}else{ctx.beginPath();ctx.arc(22,30,12,0.2,Math.PI-0.2);ctx.stroke()}
+  ctx.restore();ctx.restore()}
+// smTick: the channel mascot — a small living stopwatch with legs that hops and reacts. o = {hop 0..1, wow, look}
+function smTick(x,y,s,t,o={}){const hop=(o.hop??1)*Math.abs(Math.sin(t*4))*24,OL='#10243a';ctx.save();ctx.translate(x,y-hop);ctx.scale(s,s);ctx.lineJoin='round';ctx.lineCap='round';
+  ctx.lineWidth=7;ctx.strokeStyle='#ffd57a';for(const k of[-1,1]){ctx.beginPath();ctx.moveTo(k*12,40);ctx.lineTo(k*16+Math.sin(t*8)*4*k,62+hop*0.3);ctx.stroke()}
+  ctx.strokeStyle=OL;ctx.lineWidth=5;ctx.beginPath();rr(-10,-62,20,16,5);ctx.fillStyle='#ffd57a';ctx.fill();ctx.stroke();
+  ctx.beginPath();ctx.arc(0,0,46,0,7);ctx.fillStyle='#ffd57a';ctx.fill();ctx.stroke();ctx.beginPath();ctx.arc(0,0,36,0,7);ctx.fillStyle='#0d2a48';ctx.fill();
+  const a=t*2.2;ctx.strokeStyle='#5fd4ff';ctx.lineWidth=5;ctx.beginPath();ctx.moveTo(0,0);ctx.lineTo(Math.sin(a)*24,-Math.cos(a)*24);ctx.stroke();
+  const w=o.wow||0;for(const ex of[-13,13])ell(ex,-8+(o.look||0)*4,5+w*2,6+w*3,'#ffffff');ctx.beginPath();if(w>0.3)ell(0,14,5,6,'#ffffff');else{ctx.arc(0,10,8,0.2,Math.PI-0.2);ctx.strokeStyle='#ffffff';ctx.lineWidth=3;ctx.stroke()}
+  ctx.restore()}
