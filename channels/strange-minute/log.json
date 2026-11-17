@@ -37,23 +37,19 @@
  ],
  "slot_overrides": {},
  "max_ready": 3,
- "ready": [
-  {
-   "ep": 1,
-   "dir": "channels/strange-minute/ep001",
-   "video": "channels/strange-minute/ready/ep001.mp4",
-   "cover": "channels/strange-minute/ready/ep001-cover.jpg",
-   "title": "What If The Moon Vanished Tonight? 🌕😳 #shorts",
-   "cover_ms": 16560,
-   "qa": "passed 2026-11-17 (v3: am_fenrir US voice, question-first + ding, 18 lines)"
-  }
- ],
+ "ready": [],
  "episodes": [
   {
    "ep": 1,
    "topic": "What if the Moon vanished",
    "area": "space",
-   "status": "ready"
+   "status": "scheduled",
+   "title": "What If The Moon Vanished Tonight? 🌕😳 #shorts",
+   "publish_time": "2026-11-17T12:30",
+   "metricool_id": 431661008,
+   "uuid": "1718568591409235062",
+   "cover_ms": 16560,
+   "thumbnail": "frame"
   }
  ],
  "thumbnail": {
@@ -90,5 +86,6 @@
   }
  ],
  "voice": "am_fenrir (en-us, speed 0.9, explainer fx) — owner chose sample A 2026-11-17",
- "publish_time": "2026-11-17T12:30"
+ "publish_time": "2026-11-17T12:30",
+ "last_publish": "2026-11-17T12:30:00"
 }

@@ -10,4 +10,4 @@ _Updated: 2026-11-16 10:55 LA (autopilot run)_
 - **Current series:** Mile Marker 214 (series/mile-marker-214/plan.md) — Part 1 scheduled 2026-11-17 09:30 LA (430520918).
 - **Next:** Mile Marker 214 Part 2 → slot 2026-11-17T15:30 (next run Nov 17 10:41 LA; dashcam/1987 radio evidence).
 - **Engine standard:** perspective sets, fog, light cones, walker/crawler, punch-zoom + sting glitch, heartbeat. Reuse-scene gotcha: end cards must check `TL.segs.indexOf(seg)===TL.segs.length-1`.
-- **Channel 2 — Strange Minute** (channels/strange-minute/CHANNEL.md): same standard as channel 1; ep001 "What If The Moon Vanished Tonight?" QA passed, in the ready queue. brand_id = null → not published until the owner connects the channel in Metricool; then launch cadence 2/day ×2, 1/day ×5, then mixed.
+- **Channel 2 — Strange Minute** (channels/strange-minute/CHANNEL.md, Metricool brand 8179515): ep001 "What If The Moon Vanished Tonight?" scheduled 2026-11-17 12:30 LA (431661008). Next SM slot 18:30 today (made by the 10:41 run). Voice am_fenrir, question-first + ding.
