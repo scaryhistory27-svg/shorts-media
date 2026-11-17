@@ -1,7 +1,7 @@
 {
- "publish_time": "16:00",
+ "publish_time": "2026-11-17T15:30",
  "timezone": "America/Los_Angeles",
- "last_publish": "2026-11-17T09:30:00",
+ "last_publish": "2026-11-17T15:30:00",
  "series": [
   {
    "slug": "the-2am-knock",
@@ -86,6 +86,14 @@
      "metricool_id": 430520918,
      "thumbnail": "frame",
      "url": "https://www.youtube.com/shorts/GzEDjV6G79Y"
+    },
+    {
+     "n": 2,
+     "publish": "2026-11-17T15:30:00",
+     "youtube_title": "My GPS Says I've Arrived. Nobody Lives Out Here 😨 #shorts",
+     "metricool_id": 431881891,
+     "thumbnail": "frame",
+     "first_comment": true
     }
    ]
   }
@@ -153,6 +161,7 @@
   "2026-11-16T10:00": "2026-11-16T09:30",
   "2026-11-16T16:00": "2026-11-16T15:30",
   "2026-11-17T10:00": "2026-11-17T09:30",
-  "2026-11-17T16:00": "2026-11-17T15:30"
+  "2026-11-17T16:00": "2026-11-17T15:30",
+  "2026-11-18T16:00": "2026-11-18T15:30"
  }
 }
