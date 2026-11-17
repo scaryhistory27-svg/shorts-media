@@ -1,4 +1,9 @@
+## 2026-11-17 ~07:00 LA — Channel 2 Strange Minute set up
+
+- channels/strange-minute (rules, log, ep001 ready). Engine/timeline/tts got a 'light' style (horror unchanged). Trigger prompt step 10 makes 1 Strange Minute video per run. Local Chrome setup task: docs/LOCAL_CHANNEL_SETUP.md.
+
 ## 2026-11-17T06:11:47Z — auto checkpoint before context compaction
+
 
 ```
 jobs file: series/jobs.json — 7 jobs

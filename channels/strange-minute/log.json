@@ -5,12 +5,59 @@
  "brand_note": "Metricool brand for channel 2 — owner will add it (Starter plan). Until brand_id is set: produce videos into the ready queue, do NOT publish.",
  "timezone": "America/Los_Angeles",
  "schedule_tz": "America/Los_Angeles",
- "schedule": [
-  {"from": "2026-11-18", "times": ["12:00"], "note": "1 video/day; autopilot picks the exact hour (07:00–22:00 LA), >= 3 h away from the horror channel's post that day"}
- ],
+ "schedule": [],
  "slot_overrides": {},
  "max_ready": 3,
- "ready": [],
- "episodes": [],
- "thumbnail": {"mode": "frame", "fails": 0, "probe_every": 3, "since_probe": 0, "note": "new channel not phone-verified yet → frame mode; probe custom covers every 3rd video"}
+ "ready": [
+  {
+   "ep": 1,
+   "dir": "channels/strange-minute/ep001",
+   "video": "channels/strange-minute/ready/ep001.mp4",
+   "cover": "channels/strange-minute/ready/ep001-cover.jpg",
+   "title": "What If The Moon Vanished Tonight? 🌕😳 #shorts",
+   "cover_ms": 14633,
+   "qa": "passed 2026-11-17"
+  }
+ ],
+ "episodes": [
+  {
+   "ep": 1,
+   "topic": "What if the Moon vanished",
+   "area": "space",
+   "status": "ready"
+  }
+ ],
+ "thumbnail": {
+  "mode": "frame",
+  "fails": 0,
+  "probe_every": 3,
+  "since_probe": 0,
+  "note": "new channel not phone-verified yet → frame mode; probe custom covers every 3rd video"
+ },
+ "schedule_note": "Empty until brand_id is set. On connection day (= day 1) write: day1-2 times ['10:00','16:00']; day3-7 ['16:00']; from day 8 {'mixed_days':[1,2],'times':['16:00']} — times are only defaults, the autopilot picks each hour.",
+ "launch_template": [
+  {
+   "days": "1-2",
+   "times": [
+    "10:00",
+    "16:00"
+   ]
+  },
+  {
+   "days": "3-7",
+   "times": [
+    "16:00"
+   ]
+  },
+  {
+   "days": "8+",
+   "mixed_days": [
+    1,
+    2
+   ],
+   "times": [
+    "16:00"
+   ]
+  }
+ ]
 }

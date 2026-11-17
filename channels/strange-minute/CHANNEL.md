@@ -19,6 +19,33 @@ Env for every jobs.py call of this channel:
    First publish after the brand appears: also check the Metricool plan limit (free plan = 20 posts/month for ALL brands).
 4. Memory: update this channel's `log.json` and the root docs/CURRENT_STATE.md (one line for channel 2).
 
+## SAME STANDARD AS CHANNEL 1 (owner 2026-11-17: "set up channel 2 exactly like channel 1")
+Everything the root CLAUDE.md demands for horror videos applies 1:1 here — only the genre/look/voice differ:
+- **Production per video:** episode.json + scenes.js → tts → timeline → preview sheet (Read it, fix) → full render → cover.
+- **QA — mandatory, fix and re-render until ALL pass, never publish a failed video** (root CLAUDE.md "QA"):
+  1-fps contact sheet of final.mp4 read frame by frame (no black/blank frames, captions fully on screen and never over a key
+  object/label, nothing cut by edges or hidden under the header, end card clean); **keywords check** — every `hl` word and
+  every `sfx` word exists as an exact token, highlighted words are the right ones, `say` pronunciations correct, proper English;
+  audio −14 LUFS ±0.5, peak ≤ −0.5 dB, voice on every line (silencedetect); sync spot-check at 3 sfx times;
+  `check_hook.py` PASS; **fact check** of every number/claim; cover.jpg + the exact cover frame (videoCoverMilliseconds) clean.
+  Write what was checked and fixed into the report.
+- **REAL ANIMATION, NOT A SLIDESHOW** (same rule as channel 1): every scene has something moving besides the camera zoom —
+  planets spin/orbit, counters tick, water waves, particles drift, labels pop in, characters walk/turn/reach/point;
+  ≥ 50 % of scenes contain a character or creature in motion (walker, crawler, turtle, bird, astronaut…); background parallax;
+  camera punch on hits (engine). In consecutive 1-fps QA frames most scenes must visibly change. Idle = fail → fix.
+- **Intensity / cadence = the same launch pattern as channel 1**, counted from the day the brand is connected (day 1):
+  days 1–2: 2 videos/day (≥ 5 h apart); days 3–7: 1/day; from day 8: mixed 1 video/day or every 2 days
+  (`mixed_days` [1,2], deterministic per date). On the connection day write this as `schedule` into log.json (dates in LA),
+  like series/log.json. The ready queue (max 3) lets the first days start immediately.
+- **Posting time:** decided per video exactly like channel 1 (getBestTimeToPostByNetwork for brand_id → own results once ≥ 5
+  videos → one WebSearch), any hour 07:00–22:00 LA, ≥ 3 h away from the horror post that day; `slot_overrides` for the next post.
+- **Publishing "with everything":** title, description + hashtags, tags, category EDUCATION, madeForKids false, thumbnail per
+  `log.json` thumbnail mode (frame = videoCoverMilliseconds of a clean frame; custom probe every 3rd video), job state machine
+  (can-schedule OK → scheduling → ONE createScheduledPost → scheduled / uncertain+reconcile), duplicate-title guard.
+- **Report** to the owner after every video: same template as channel 1 (title, description, time LA/Yerevan + why, topic +
+  why, hook, rewatch trick, analytics used, QA, cover method, next post), video + cover via SendUserFile. Learn from this
+  channel's own analytics before each video (getAnalyticsDataByMetrics for brand_id) and adapt (hook, length, topic area).
+
 ## Format (every episode)
 - 50–60 s, 14–16 lines, a new visual every ≤ 5 s. Line 1 = the question or an impossible fact (≤ 12 words, spoken by 0.4 s,
   sound hit ≤ 0.6 s): "What if the Moon vanished tonight?", "What if you fell into Jupiter?", "This tiny island is in two days at once."

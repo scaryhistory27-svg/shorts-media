@@ -68,8 +68,10 @@ const SCN=({
    for(let i=0;i<5;i++){const x=moveAlong(p,640+i*60,380+i*40),y=1100+i*40;turtle(x,y,1.1,t,i);ctx.save();ctx.translate(x,y);ctx.scale(-1,1);ctx.restore()}
    ctx.save();ctx.strokeStyle=SM.cyan;ctx.lineWidth=6;ctx.setLineDash([16,12]);ctx.beginPath();ctx.moveTo(700,1170);ctx.lineTo(960,1080);ctx.stroke();ctx.setLineDash([]);ctx.font='800 40px Inter';ctx.fillStyle=SM.cyan;ctx.fillText('SEA →',900,1040);ctx.restore()}},
  space(lt,p,t,d,seg){sky('#030814','#081a33');stars(t,1);const k=TL.segs.indexOf(seg);
+  const a=t*0.9,mx=540+Math.cos(a)*440,my=880+Math.sin(a)*130,behind=Math.sin(a)<0;
+  if(k===10&&behind)bigMoon(mx,my,55,0.9);
   earth(540,880,300,t,0.41);
-  if(k===10){const a=t*0.9;bigMoon(540+Math.cos(a)*440,880+Math.sin(a)*130,55,Math.sin(a)>-0.2?1:0.9);
+  if(k===10){if(!behind)bigMoon(mx,my,55,1);
    // "hand on a spinning top": steadying arc
    ctx.save();ctx.translate(540,880);ctx.rotate(0.41);ctx.strokeStyle=SM.gold;ctx.lineWidth=6;ctx.beginPath();ctx.arc(0,-410,40,Math.PI*0.2,Math.PI*0.8);ctx.stroke();ctx.restore();
    label(540,430,'TILT 23.4° — STEADY',SM.gold,46)}

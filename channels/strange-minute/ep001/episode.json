@@ -27,8 +27,8 @@
   ]
  },
  "cover": {
-  "seg": 10,
-  "frac": 0.55,
+  "seg": 5,
+  "frac": 0.25,
   "top": "STRANGE MINUTE",
   "lines": [
    "NO MOON",
