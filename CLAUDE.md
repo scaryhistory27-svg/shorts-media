@@ -127,6 +127,14 @@ Do this research BEFORE writing anything, then decide on your own:
 6. **YouTube title** ≤ 60 chars: the hook as a promise + emoji + `#shorts` (e.g. "Never Answer Your Own Number 📞😨 #shorts").
    Description: 1 teaser line + "Part 2? 👀" + 5–6 hashtags (#horrorstory #scary #creepy #shorts + 2 topic tags). 6–8 tags.
 
+## Channel 2 — Strange Minute (owner 2026-11-17: make its videos together with the horror ones)
+Second YouTube channel ("What if…?" / hidden history / science mysteries, English, US audience). Rules, format, topic bank and
+the autopilot steps are in `channels/strange-minute/CHANNEL.md`; state in `channels/strange-minute/log.json`.
+Every daily run, AFTER the horror slots: make ONE Strange Minute episode (full QA). While `brand_id` is null the video goes
+into the `ready` queue (max 3) and is sent to the owner — never published. Once the owner connects the channel in Metricool,
+put its blogId into `brand_id`; from then on publish 1/day (ready queue first), ≥ 3 h from the horror post.
+jobs.py for channel 2 always with `JOBS_FILE=channels/strange-minute/jobs.json LOG_FILE=channels/strange-minute/log.json`.
+
 ## Repo layout
 - `pipeline/engine.js` shared canvas engine: helpers (`sky stars moon glow ell rr door clock phone building mom creature`),
   captions, header, camera, effects. `shakeAt(t,types)`, `lastEv(t,types)` react to sfx events.

@@ -1,0 +1,209 @@
+{
+ "series": "Strange Minute",
+ "episode": 1,
+ "title": "STRANGE MINUTE · WHAT IF #1",
+ "stamp": "THE MOON · GONE",
+ "style": "light",
+ "bed": "light",
+ "voice": "am_michael:0.7,am_eric:0.3",
+ "voice_fx": "explainer",
+ "speed": 0.9,
+ "gap": 0.4,
+ "music_level": 0.13,
+ "endTitle": "WHAT IF #2?",
+ "endSub": "Follow for tomorrow's strange minute",
+ "youtube": {
+  "title": "What If The Moon Vanished Tonight? 🌕😳 #shorts",
+  "description": "Tides, turtles, seasons… everything changes. 🌍 Would you notice first? 👇\n#whatif #space #science #moon #facts #shorts",
+  "tags": [
+   "what if",
+   "moon",
+   "space facts",
+   "science",
+   "what if the moon disappeared",
+   "astronomy",
+   "animated science",
+   "strange facts"
+  ]
+ },
+ "cover": {
+  "seg": 10,
+  "frac": 0.55,
+  "top": "STRANGE MINUTE",
+  "lines": [
+   "NO MOON",
+   "THEN THIS"
+  ],
+  "sub": "WHAT IF #1"
+ },
+ "lines": [
+  {
+   "scene": "moonhook",
+   "text": "What if the Moon vanished tonight?",
+   "hl": {
+    "Moon": "y",
+    "vanished": "y"
+   },
+   "speed": 1.0,
+   "gap": 0.35,
+   "sfx": [
+    {
+     "at": "start",
+     "type": "hit"
+    },
+    {
+     "word": "vanished",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "citydark",
+   "text": "At first, you'd only notice the dark.",
+   "hl": {
+    "dark.": "y"
+   }
+  },
+  {
+   "scene": "citydark",
+   "text": "Every night would be as black as a new moon.",
+   "hl": {
+    "black": "y"
+   }
+  },
+  {
+   "scene": "ocean",
+   "text": "Then the oceans would change.",
+   "hl": {
+    "oceans": "y"
+   },
+   "sfx": [
+    {
+     "word": "oceans",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "tides",
+   "text": "The Moon drives most of our tides.",
+   "hl": {
+    "tides.": "y"
+   }
+  },
+  {
+   "scene": "tides",
+   "text": "Without it, they'd shrink to about a third.",
+   "hl": {
+    "third.": "r"
+   },
+   "sfx": [
+    {
+     "word": "third.",
+     "type": "hit"
+    }
+   ]
+  },
+  {
+   "scene": "reef",
+   "text": "Corals spawn by moonlight. Baby turtles follow its glow.",
+   "hl": {
+    "Corals": "y",
+    "turtles": "y"
+   }
+  },
+  {
+   "scene": "reef",
+   "text": "Their ancient clocks would simply stop.",
+   "hl": {
+    "stop.": "r"
+   }
+  },
+  {
+   "scene": "reef",
+   "text": "Some hatchlings would never find the sea.",
+   "hl": {
+    "never": "r"
+   }
+  },
+  {
+   "scene": "space",
+   "text": "But the strangest part would take much longer.",
+   "hl": {
+    "strangest": "y"
+   },
+   "sfx": [
+    {
+     "word": "strangest",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "space",
+   "text": "The Moon steadies Earth's tilt, like a hand on a spinning top.",
+   "hl": {
+    "tilt,": "y",
+    "spinning": "y"
+   }
+  },
+  {
+   "scene": "wobble",
+   "text": "Without it, our tilt could slowly start to wobble.",
+   "hl": {
+    "wobble.": "r"
+   },
+   "sfx": [
+    {
+     "word": "wobble.",
+     "type": "hit"
+    }
+   ]
+  },
+  {
+   "scene": "wobble",
+   "text": "Over millions of years, seasons could swing wildly.",
+   "hl": {
+    "seasons": "y",
+    "wildly.": "r"
+   }
+  },
+  {
+   "scene": "eclipse",
+   "text": "And total solar eclipses? Gone. Forever.",
+   "hl": {
+    "eclipses?": "y",
+    "Forever.": "r"
+   },
+   "sfx": [
+    {
+     "word": "Gone.",
+     "type": "hit"
+    }
+   ]
+  },
+  {
+   "scene": "endq",
+   "text": "So look up tonight. It's still there.",
+   "hl": {
+    "look": "y",
+    "up": "y"
+   }
+  },
+  {
+   "scene": "endq",
+   "text": "Isn't it?",
+   "hl": {
+    "Isn't": "r",
+    "it?": "r"
+   },
+   "gap": 0.6,
+   "sfx": [
+    {
+     "word": "Isn't",
+     "type": "sting"
+    }
+   ]
+  }
+ ]
+}

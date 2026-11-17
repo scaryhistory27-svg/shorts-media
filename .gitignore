@@ -5,3 +5,5 @@ series/.jobs.*.tmp
 series/jobs.json.lock
 docs/.handoff.*
 tests/anim_demo/build/
+channels/*/.jobs.*.tmp
+channels/*/jobs.json.lock

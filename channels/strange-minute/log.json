@@ -1,0 +1,16 @@
+{
+ "channel": "Strange Minute",
+ "handle": "@StrangeMinute (confirm with owner)",
+ "brand_id": null,
+ "brand_note": "Metricool brand for channel 2 — owner will add it (Starter plan). Until brand_id is set: produce videos into the ready queue, do NOT publish.",
+ "timezone": "America/Los_Angeles",
+ "schedule_tz": "America/Los_Angeles",
+ "schedule": [
+  {"from": "2026-11-18", "times": ["12:00"], "note": "1 video/day; autopilot picks the exact hour (07:00–22:00 LA), >= 3 h away from the horror channel's post that day"}
+ ],
+ "slot_overrides": {},
+ "max_ready": 3,
+ "ready": [],
+ "episodes": [],
+ "thumbnail": {"mode": "frame", "fails": 0, "probe_every": 3, "since_probe": 0, "note": "new channel not phone-verified yet → frame mode; probe custom covers every 3rd video"}
+}

@@ -13,7 +13,10 @@ FX={"storyteller":"asetrate=24000*0.92,aresample=24000,atempo=1.087,highpass=f=6
     "aecho=0.8:0.25:18:0.12",
     "mystic":"asetrate=24000*0.95,aresample=24000,atempo=1.0526,highpass=f=70,equalizer=f=140:t=q:w=1:g=4,"
     "equalizer=f=3200:t=q:w=1.5:g=2.5,equalizer=f=7500:t=q:w=2:g=-3,acompressor=threshold=0.08:ratio=4:attack=5:release=120:makeup=2,"
-    "aecho=0.85:0.6:45|95|160:0.22|0.14|0.08","none":None}
+    "aecho=0.85:0.6:45|95|160:0.22|0.14|0.08","none":None,
+    # Strange Minute (channel 2): clear, warm documentary narrator — no pitch shift, gentle presence + light room
+    "explainer":"highpass=f=70,equalizer=f=180:t=q:w=1:g=2,equalizer=f=3000:t=q:w=1.5:g=2.5,equalizer=f=9000:t=q:w=2:g=-1.5,"
+    "acompressor=threshold=0.08:ratio=3:attack=5:release=100:makeup=2,aecho=0.8:0.3:22:0.08"}
 def voice(v):
     if ":" not in v and "," not in v: return v
     parts=[p.split(":") for p in v.split(",")]

@@ -25,7 +25,7 @@ for i,(l,d) in enumerate(zip(lines,durs)):
     t+=d+l.get("gap",ep.get("gap",0.5))
 for i,s in enumerate(segs): s["e"]=segs[i+1]["s"] if i+1<len(segs) else round(t+1.8,3)
 total=segs[-1]["e"]; ev.sort(key=lambda e:e["t"])
-json.dump({"segs":segs,"events":ev,"total":total,"fps":FPS,"title":ep.get("title",""),"stamp":ep.get("stamp",""),"endTitle":ep.get("endTitle",""),"endSub":ep.get("endSub","")},open(f"{B}/timeline.json","w"),indent=1)
+json.dump({"segs":segs,"events":ev,"total":total,"fps":FPS,"title":ep.get("title",""),"stamp":ep.get("stamp",""),"endTitle":ep.get("endTitle",""),"endSub":ep.get("endSub",""),"style":ep.get("style","dark")},open(f"{B}/timeline.json","w"),indent=1)
 print("total",total)
 N=int(total*SR)+SR; mix=np.zeros(N); rng=np.random.default_rng(7); ts=np.arange(N)/SR
 dr=0.5*np.sin(2*np.pi*55*ts)+0.35*np.sin(2*np.pi*82.4*ts+1)+0.18*np.sin(2*np.pi*110.5*ts)+0.1*np.sin(2*np.pi*164.8*ts)
@@ -35,6 +35,8 @@ wind*=0.5+0.5*np.sin(2*np.pi*0.07*ts+2)
 bed=0.045*dr+0.05*wind
 tens=np.clip((ts-total*0.55)/(total*0.4),0,1)
 bed+=0.03*tens*np.sin(2*np.pi*233*ts)*np.sin(2*np.pi*246.9*ts)
+LIGHT=ep.get("bed")=="light"   # channel 2 (Strange Minute): no horror drone/tension, soft airy pad instead
+if LIGHT: bed=0.02*wind+0.015*np.sin(2*np.pi*110*ts)*(0.6+0.4*np.sin(2*np.pi*0.09*ts))
 mix+=bed*np.clip(ts/1.0,0,1)*np.clip((total-ts)/1.2,0,1)
 def add(sig,t0,g=1.0):
     i=int(t0*SR); j=min(N,i+len(sig)); mix[i:j]+=g*sig[:j-i]
@@ -66,6 +68,7 @@ for e in ev:
 # ---- quiet mystical music bed (procedural, royalty-free): minor pads + sparse music-box notes + long reverb, ducked under the voice ----
 def music_bed(N,seed):
     r=np.random.default_rng(seed); out=np.zeros(N); tt=np.arange(N)/SR
+    if LIGHT: return music_light(N,seed)
     progs=[[(62,65,69),(58,62,65),(55,58,62),(57,61,64)],[(57,60,64),(53,57,60),(55,59,62),(52,55,59)],[(62,65,69),(60,64,67),(58,62,65),(57,60,64)]]
     prog=progs[r.integers(len(progs))]; L=8.0; f=lambda m:440*2**((m-69)/12)
     for ci in range(int(N/SR/L)+2):
@@ -86,6 +89,27 @@ def music_bed(N,seed):
     M=1<<int(np.ceil(np.log2(N+n))); wet=np.fft.irfft(np.fft.rfft(out,M)*np.fft.rfft(ir,M),M)[:N]
     wet/=np.abs(wet).max()+1e-9; dry=out/(np.abs(out).max()+1e-9)
     return 0.45*dry+0.55*wet
+def music_light(N,seed):
+    # curious/wonder bed: major-key pads (I–V–vi–IV family) + bright plucked arpeggio, soft reverb
+    r=np.random.default_rng(seed); out=np.zeros(N); tt=np.arange(N)/SR; f=lambda m:440*2**((m-69)/12)
+    progs=[[(60,64,67),(67,71,74),(69,72,76),(65,69,72)],[(62,66,69),(69,73,76),(71,74,78),(67,71,74)],[(65,69,72),(60,64,67),(62,65,69),(70,74,77)]]
+    prog=progs[r.integers(len(progs))]; L=4.0
+    for ci in range(int(N/SR/L)+2):
+        ch=prog[ci%len(prog)]; t0=ci*L; i0=int(max(0,t0-0.8)*SR); i1=min(N,int((t0+L+1.2)*SR))
+        if i0>=N: break
+        t=tt[i0:i1]-t0; env=np.clip((t+0.8)/1.2,0,1)*np.clip((L+1.2-t)/1.2,0,1)
+        for m in ch:
+            out[i0:i1]+=0.035*env*sum(np.sin(2*np.pi*f(m-12)*n*t+n)/n**2 for n in range(1,5))
+        out[i0:i1]+=0.05*env*np.sin(2*np.pi*f(ch[0]-24)*t)
+        for k in range(8):   # eighth-note arpeggio, every other bar dropped for air
+            if ci%4==3 and k>3: break
+            m=ch[k%3]+12*(1+(k//3)%2); j0=int((t0+k*L/8)*SR); n=min(N-j0,int(1.2*SR))
+            if j0<0 or n<=0: continue
+            x=np.arange(n)/SR; out[j0:j0+n]+=0.045*np.exp(-x*4)*(np.sin(2*np.pi*f(m)*x)+0.25*np.sin(2*np.pi*f(m)*2*x)*np.exp(-x*6))
+    n=int(1.8*SR); ir=r.standard_normal(n)*np.exp(-np.arange(n)/SR*3); ir[0]=2
+    M=1<<int(np.ceil(np.log2(N+n))); wet=np.fft.irfft(np.fft.rfft(out,M)*np.fft.rfft(ir,M),M)[:N]
+    wet/=np.abs(wet).max()+1e-9; dry=out/(np.abs(out).max()+1e-9)
+    return 0.6*dry+0.4*wet
 vtrack=np.zeros(N)
 for i,s in enumerate(segs):
     v,_=sf.read(f"{B}/l{i:02d}.wav"); j0=int(s["s"]*SR); vtrack[j0:j0+len(v)]+=v[:N-j0]
