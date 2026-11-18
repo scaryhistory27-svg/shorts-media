@@ -78,6 +78,22 @@
    "thumbnail": "frame",
    "first_comment": true,
    "characters": "Max + Tick"
+  },
+  {
+   "ep": 4,
+   "topic": "What if the Sun switched off (8-minute light delay)",
+   "area": "space",
+   "status": "scheduled",
+   "title": "What If The Sun Switched Off Right Now? ☀️😳 #shorts",
+   "publish_time": "2026-11-18T18:30",
+   "metricool_id": 433277347,
+   "uuid": "8016905342459593102",
+   "cover_ms": 20360,
+   "thumbnail": "custom-probe",
+   "first_comment": true,
+   "characters": "Max + Tick + astronaut",
+   "cta": true,
+   "next_teased": "What if you fell into Jupiter?"
   }
  ],
  "thumbnail": {
@@ -85,7 +101,8 @@
   "fails": 0,
   "probe_every": 3,
   "since_probe": 0,
-  "note": "new channel not phone-verified yet → frame mode; probe custom covers every 3rd video"
+  "note": "new channel not phone-verified yet → frame mode; probe custom covers every 3rd video",
+  "last_probe": "2026-11-18 SM #4 custom cover probe — check detailedStatus next run"
  },
  "schedule_note": "Empty until brand_id is set. On connection day (= day 1) write: day1-2 times ['10:00','16:00']; day3-7 ['16:00']; from day 8 {'mixed_days':[1,2],'times':['16:00']} — times are only defaults, the autopilot picks each hour.",
  "launch_template": [
@@ -114,6 +131,6 @@
   }
  ],
  "voice": "am_fenrir (en-us, speed 0.9, explainer fx) — owner chose sample A 2026-11-17",
- "publish_time": "2026-11-17T12:30",
- "last_publish": "2026-11-18T12:30:00"
+ "publish_time": "2026-11-18T18:30",
+ "last_publish": "2026-11-18T18:30"
 }

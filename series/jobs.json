@@ -495,7 +495,7 @@
    "series": "mile-marker-214",
    "episode": 3,
    "title": "A Cop From 1987 Knew My Name 😨 #shorts",
-   "stage": "uploaded",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -509,12 +509,24 @@
     {
      "stage": "uploaded",
      "at": "2026-11-18T19:06:52Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-18T19:07:06Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-18T19:07:34Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-18T18:52:58Z",
-   "updated": "2026-11-18T19:06:52Z"
+   "updated": "2026-11-18T19:07:34Z",
+   "metricool_id": 433277227,
+   "uuid": 2102301431480535467,
+   "publish_time": "2026-11-18T15:30",
+   "note": "thumbnail_probe_custom"
   }
  }
 }

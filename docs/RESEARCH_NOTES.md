@@ -36,3 +36,10 @@ Takeaway: the 2 AM Knock P1/P2 carried the channel (launch push); Missing Floor 
 Reading: no hour wins on its own — both 09:30 and 15:30 slots produced strong videos (MF P2 at 09:30 = 714; MM P2 at 15:30 = best VPH).
 The big factor is the PART: every Part 3 is weakest (131, 110) and weekend Sun posts were weak. Keep the two windows (ET lunch 09:30 /
 ET evening 15:30), avoid Sunday mornings, and make Part 3s stand alone (strong new hook) + link the playlist in the description.
+
+## 2026-11-18 — Windsor per-video stats (horror, data to ~Nov 16)
+- Never Open The Door At 2 AM (P1): 1366 views, engaged 668, avg viewed 106 % (loops!), 21 likes, 2 comments, 4 subs.
+- It Knocked Again (2AM P2): 1204 views, 443 engaged, 54 %, 20 likes, 4 subs.
+- The Note Under My Sink (2AM P3): 105 views, 47 %, 9 likes, 1 sub. Never Step Out On 13 (MF P1): 162 views, 47 %.
+- Takeaways: the clean warning hook + loop ending of 2AM P1 is the model; Part 3s and new-series P1s start weak → stronger standalone hooks in P3 (did: "He knew my name. Nobody lives out here."), keep loop endings.
+- Best-time (Metricool, both brands): Wed peak 16:00 (12033) > 15:00 (11147); Thu 16:00 (11979), 10:00 (10723); Fri 16:00 (10698) ≈ 14:00 (10485). WebSearch blogs: Wed/Thu 4 PM-ish and ET evening windows.

@@ -185,7 +185,7 @@
    "series": "strange-minute",
    "episode": 4,
    "title": "What If The Sun Switched Off Right Now? ☀️😳 #shorts",
-   "stage": "uploaded",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -199,12 +199,24 @@
     {
      "stage": "uploaded",
      "at": "2026-11-18T19:06:52Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-18T19:07:06Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-18T19:07:34Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-18T18:58:03Z",
-   "updated": "2026-11-18T19:06:52Z"
+   "updated": "2026-11-18T19:07:34Z",
+   "metricool_id": 433277347,
+   "uuid": 8016905342459593102,
+   "publish_time": "2026-11-18T18:30",
+   "note": "thumbnail_probe_custom"
   }
  }
 }

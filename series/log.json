@@ -1,7 +1,7 @@
 {
- "publish_time": "2026-11-17T15:30",
+ "publish_time": "2026-11-18T15:30",
  "timezone": "America/Los_Angeles",
- "last_publish": "2026-11-17T15:30:00",
+ "last_publish": "2026-11-18T15:30:00",
  "series": [
   {
    "slug": "the-2am-knock",
@@ -93,7 +93,17 @@
      "youtube_title": "My GPS Says I've Arrived. Nobody Lives Out Here 😨 #shorts",
      "metricool_id": 431945636,
      "thumbnail": "frame",
-     "first_comment": true
+     "first_comment": true,
+     "url": "https://www.youtube.com/shorts/i6J3hBA98gA"
+    },
+    {
+     "n": 3,
+     "publish": "2026-11-18T15:30:00",
+     "youtube_title": "A Cop From 1987 Knew My Name 😨 #shorts",
+     "metricool_id": 433277227,
+     "thumbnail": "custom-probe",
+     "first_comment": true,
+     "cta": true
     }
    ]
   }
@@ -142,7 +152,8 @@
   "probe_every": 3,
   "since_probe": 0,
   "last_error": "2026-11-16 Missing Floor 1–2 custom covers rejected again (channel not verified)",
-  "frame_ok": "2026-11-17 Missing Floor 3 + Mile Marker 1 published with frame covers, no warning"
+  "frame_ok": "2026-11-17 Missing Floor 3 + Mile Marker 1 published with frame covers, no warning",
+  "last_probe": "2026-11-18 MM214 P3 custom cover (probe after 3 frame videos) — check detailedStatus next run"
  },
  "slot_overrides": {
   "2026-11-15T16:00": "2026-11-15T15:30",
@@ -150,7 +161,8 @@
   "2026-11-16T16:00": "2026-11-16T15:30",
   "2026-11-17T10:00": "2026-11-17T09:30",
   "2026-11-17T16:00": "2026-11-17T15:30",
-  "2026-11-18T16:00": "2026-11-18T15:30"
+  "2026-11-18T16:00": "2026-11-18T15:30",
+  "2026-11-19T16:00": "2026-11-19T15:30"
  },
  "playlists": {
   "note": "2026-11-17: owner created 4 playlists, but the ids he sent are truncated (13 chars; a real id is 34) — waiting for the full links",
@@ -162,5 +174,6 @@
   ],
   "horror": {},
   "strange_minute": null
- }
+ },
+ "next": "NEW horror series for 2026-11-19 (Thu) 15:30 — Mile Marker 214 complete"
 }

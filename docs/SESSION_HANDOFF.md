@@ -1,3 +1,8 @@
+## 2026-11-18 ~11:15 LA — autopilot run (both channels)
+
+- Marked MM214 P2 + SM #1–#3 published. 6 comment replies (vidIQ). Made + scheduled MM214 Part 3 (15:30, custom-cover probe) and SM #4 Sun (18:30, probe). Both with Subscribe CTA.
+- Next run: NEW horror series (Nov 19 15:30) + SM Nov 19 09:30 & 18:30 (topic after a space one must not be space; Jupiter teased).
+
 ## 2026-11-18T14:21:32Z — auto checkpoint before context compaction
 
 ```
