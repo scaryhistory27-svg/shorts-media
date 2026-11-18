@@ -42,3 +42,4 @@
 - 2026-11-18: Owner delegates ALL posting decisions (time, topic, format) to the autopilot: use every connector/skill, Windsor own-results by publish hour + Metricool activity + US time zones + research; start with ET-lunch / ET-evening windows.
 
 - 2026-11-18: Owner approved the animated Subscribe CTA (slogan + SUBSCRIBE button tapped by a cursor) on the end card of every video on both channels; visual only, not spoken.
+- 2026-11-18: Owner: end-card Subscribe CTAs must differ between channels → horror neon plate + eye + shadow hand; Strange Minute ribbon + gold pill + Tick + confetti. Today's two pending posts re-rendered and updated.
