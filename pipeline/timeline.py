@@ -113,7 +113,7 @@ SFX_ENV_PENDING=True
 # ---- quiet mystical music bed (procedural, royalty-free): minor pads + sparse music-box notes + long reverb, ducked under the voice ----
 def music_bed(N,seed):
     r=np.random.default_rng(seed); out=np.zeros(N); tt=np.arange(N)/SR
-    if LIGHT: return music_light(N,seed)
+    if LIGHT: return music_pulse(N,seed) if ep.get('music_style','pulse')=='pulse' else music_light(N,seed)
     progs=[[(62,65,69),(58,62,65),(55,58,62),(57,61,64)],[(57,60,64),(53,57,60),(55,59,62),(52,55,59)],[(62,65,69),(60,64,67),(58,62,65),(57,60,64)]]
     prog=progs[r.integers(len(progs))]; L=8.0; f=lambda m:440*2**((m-69)/12)
     for ci in range(int(N/SR/L)+2):
@@ -155,6 +155,44 @@ def music_light(N,seed):
     M=1<<int(np.ceil(np.log2(N+n))); wet=np.fft.irfft(np.fft.rfft(out,M)*np.fft.rfft(ir,M),M)[:N]
     wet/=np.abs(wet).max()+1e-9; dry=out/(np.abs(out).max()+1e-9)
     return 0.6*dry+0.4*wet
+def music_pulse(N,seed):
+    # Strange Minute (owner 2026-11-18: "make the music more gripping, like popular what-if Shorts"): a driving "curiosity" bed —
+    # ~108 BPM light kick on every beat, off-beat hats, 8th-note sub bass, 16th-note plucked arpeggio with a dotted echo,
+    # soft pad; a clap layer + riser enter at ~55 % ("the strangest part"), and the last 2 s drop out to the pad.
+    r=np.random.default_rng(seed); out=np.zeros(N); f=lambda m:440*2**((m-69)/12)
+    bpm=r.choice([104,108,112]); beat=60/bpm; s16=beat/4
+    progs=[[(57,60,64),(53,57,60),(48,52,55),(55,59,62)],[(50,53,57),(46,50,53),(53,57,60),(48,52,55)],[(52,55,59),(48,52,55),(55,59,62),(50,54,57)]]
+    prog=progs[r.integers(len(progs))]; bar=beat*4; T=N/SR
+    def put(sig,t0,g):
+        i=int(t0*SR); j=min(N,i+len(sig))
+        if 0<=i<N: out[i:j]+=g*sig[:j-i]
+    nk=int(0.28*SR); tk=np.arange(nk)/SR; kick=np.sin(2*np.pi*(95*np.exp(-tk*30)+42)*tk)*np.exp(-tk*14)
+    nh=int(0.06*SR); hat=_hp(r.standard_normal(nh),7000)*np.exp(-np.arange(nh)/SR*70)
+    nc=int(0.18*SR); clap=_bp(r.standard_normal(nc),900,3500)*np.exp(-np.arange(nc)/SR*28)
+    def pluck(m,d=0.35):
+        n=int(d*SR); x=np.arange(n)/SR; return (np.sin(2*np.pi*f(m)*x)+0.4*np.sin(2*np.pi*f(m)*2*x)*np.exp(-x*9)+0.15*np.sign(np.sin(2*np.pi*f(m)*x)))*np.exp(-x*11)
+    def bassn(m,d):
+        n=int(d*SR); x=np.arange(n)/SR; w=((f(m)*x)%1-0.5)*2; return _lp(w,420)*np.clip(x/0.01,0,1)*np.exp(-x*5)
+    build=T*0.55; t=0.0; k=0
+    while t<T-2.0:
+        ch=prog[int(t/bar)%len(prog)]
+        if k%4==0: put(kick,t,0.55)
+        if k%4==2: put(hat,t,0.18)
+        if t>build and k%8==4: put(clap,t,0.22)
+        if k%2==0: put(bassn(ch[0]-24,s16*2),t,0.35)
+        m=ch[[0,1,2,1][k%4]]+12*(1+((k//4)%2)); p=pluck(m); put(p,t,0.16); put(p,t+s16*3,0.06)
+        t+=s16; k+=1
+    tt=np.arange(N)/SR
+    for ci in range(int(T/bar)+1):
+        ch=prog[ci%len(prog)]; i0=int(ci*bar*SR); i1=min(N,int((ci+1)*bar*SR))
+        if i0>=N: break
+        x=tt[i0:i1]-ci*bar
+        for m in ch: out[i0:i1]+=0.025*np.sin(2*np.pi*f(m)*x+m)*np.clip(x/0.3,0,1)
+    rs=int(min(build,T-3)*SR); n=int(1.6*SR)
+    if rs-n>0:
+        x=np.arange(n)/SR; out[rs-n:rs]+=0.12*_bp(r.standard_normal(n),800,6000)*(x/1.6)**2
+    out[int((T-2.0)*SR):]*=0.5
+    return out/(np.abs(out).max()+1e-9)
 vtrack=np.zeros(N)
 for i,s in enumerate(segs):
     v,_=sf.read(f"{B}/l{i:02d}.wav"); j0=int(s["s"]*SR); vtrack[j0:j0+len(v)]+=v[:N-j0]
@@ -162,7 +200,7 @@ venv=np.convolve(np.abs(vtrack),np.ones(int(0.25*SR))/(0.25*SR),mode="same"); ve
 duck=1-0.55*np.clip(venv*3,0,1)
 mus=music_bed(N,__import__("zlib").crc32((ep.get("series","")+str(ep.get("episode",0))).encode())%10000)
 m0=(segs[0]["s"]+segs[0]["d"]) if LIGHT else 0   # light style: music starts only after the hook question
-mix+=ep.get("music_level",0.11)*mus*duck*np.clip((ts-m0)/1.5,0,1)*np.clip((total-ts)/1.5,0,1)
+mix+=ep.get("music_level",0.11 if (LIGHT and ep.get("music_style","pulse")=="pulse") else 0.11)*mus*duck*np.clip((ts-m0)/1.5,0,1)*np.clip((total-ts)/1.5,0,1)
 sfx_duck=1-0.6*np.clip(venv*3,0,1)
 mix+=ep.get("sfx_level",0.22)*sfx/(np.abs(sfx).max()+1e-9)*sfx_duck
 for i,s in enumerate(segs):
