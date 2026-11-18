@@ -133,7 +133,32 @@ function render(t){
   header(t,seg.stamp||TL.stamp||'');
   const endCard=si===segs.length-1&&t>seg.words[seg.words.length-1].s+0.9;
   if(!endCard)caption(seg,t);
+  else if(TL.cta)ctaCard(t-(seg.words[seg.words.length-1].s+0.9),TL.cta);
 }
+// Subscribe call-to-action on the end card (owner 2026-11-18). ep.cta = {"text": "SLOGAN", "hl": "WORD"}; k = seconds since the end card started.
+function ctaCard(k,c){const LIGHT=TL.style==='light';const a=ease(clamp((k-0.35)/0.4,0,1));if(a<=0)return;const tap=1.25,done=k>=tap;
+  ctx.save();ctx.globalAlpha=a;ctx.translate(0,(1-a)*60);ctx.textAlign='center';ctx.textBaseline='middle';
+  // slogan
+  let fs=52;ctx.font=`900 ${fs}px Inter`;while(ctx.measureText(c.text).width>960&&fs>30){fs-=2;ctx.font=`900 ${fs}px Inter`}
+  const acc=LIGHT?'#ffd57a':'#ff3b3b';const words=c.text.split(' ');const sp=ctx.measureText(' ').width;const tw=ctx.measureText(c.text).width;let x=540-tw/2;
+  ctx.lineJoin='round';ctx.lineWidth=10;ctx.strokeStyle='rgba(0,0,0,0.9)';
+  for(const w of words){const ww=ctx.measureText(w).width;const hl=(c.hl||'').split(' ').includes(w.replace(/[^\w']/g,''));ctx.strokeText(w,x+ww/2,1150);ctx.fillStyle=hl?acc:'#ffffff';if(hl){ctx.shadowColor=acc;ctx.shadowBlur=24}ctx.fillText(w,x+ww/2,1150);ctx.shadowBlur=0;x+=ww+sp}
+  // button
+  const press=done?1+0.08*Math.max(0,1-(k-tap)/0.18)-0.08*Math.max(0,1-Math.abs(k-tap+0.05)/0.08):1+0.025*Math.sin(k*9);
+  ctx.save();ctx.translate(540,1300);ctx.scale(press,press);const bw=600,bh=128;
+  ctx.shadowColor=done?'rgba(0,0,0,0.6)':'rgba(255,40,40,0.7)';ctx.shadowBlur=done?20:44;rr(-bw/2,-bh/2,bw,bh,bh/2);ctx.fillStyle=done?'#30343c':'#ff1f1f';ctx.fill();ctx.shadowBlur=0;
+  if(!done){const g=ctx.createLinearGradient(0,-bh/2,0,bh/2);g.addColorStop(0,'rgba(255,255,255,0.25)');g.addColorStop(0.5,'rgba(255,255,255,0)');ctx.fillStyle=g;rr(-bw/2,-bh/2,bw,bh,bh/2);ctx.fill()}
+  // bell icon (rings after the tap)
+  ctx.save();ctx.translate(-bw/2+82,0);ctx.rotate(done?Math.sin((k-tap)*28)*0.45*Math.max(0,1-(k-tap)/0.9):0);ctx.fillStyle=done?'#ffd57a':'#ffffff';
+  ctx.beginPath();ctx.moveTo(-24,16);ctx.quadraticCurveTo(-20,-26,0,-28);ctx.quadraticCurveTo(20,-26,24,16);ctx.closePath();ctx.fill();rr(-28,12,56,9,4);ctx.fill();ell(0,26,7,7,ctx.fillStyle);ell(0,-31,5,5,ctx.fillStyle);ctx.restore();
+  ctx.font='900 56px Inter';ctx.fillStyle=done?'#c9ced8':'#ffffff';ctx.letterSpacing='3px';ctx.fillText(done?'SUBSCRIBED':'SUBSCRIBE',36,3);ctx.letterSpacing='0px';ctx.restore();
+  // tap ripple
+  if(done&&k-tap<0.6){const r=(k-tap)/0.6;ctx.strokeStyle=`rgba(255,255,255,${0.7*(1-r)})`;ctx.lineWidth=6;ctx.beginPath();ctx.arc(640,1310,30+r*120,0,7);ctx.stroke()}
+  // finger cursor moving in and tapping
+  const m=ease(clamp((k-0.55)/(tap-0.55),0,1));const cx=lerp(900,640,m),cy=lerp(1650,1318,m)+(done?Math.min(1,(k-tap)/0.4)*40:0);
+  ctx.save();ctx.translate(cx,cy);ctx.rotate(-0.35);ctx.fillStyle='#ffffff';ctx.strokeStyle='#111';ctx.lineWidth=5;ctx.beginPath();
+  ctx.moveTo(0,0);ctx.lineTo(0,62);ctx.lineTo(16,48);ctx.lineTo(28,76);ctx.lineTo(40,70);ctx.lineTo(28,43);ctx.lineTo(48,42);ctx.closePath();ctx.fill();ctx.stroke();ctx.restore();
+  ctx.restore()}
 window.setTL=j=>{TL=j};window.render=render;
 
 // Thumbnail/cover overlay: big 2-line hook text + part badge (episode.json "cover":{t,lines,sub})
