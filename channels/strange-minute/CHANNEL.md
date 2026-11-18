@@ -95,3 +95,8 @@ survived · Pangaea came back · you lived on Mars for a year · gravity halved 
 you could hear every sound on Earth · a tsunami of molasses (true: Boston 1919) · the town that sleeps (true: Kalachi) ·
 the island that changes country every 6 months (true: Pheasant Island).
 Keep a list of used topics in log.json `episodes`.
+
+## Subscribe CTA (owner approved 2026-11-18) — every video
+episode.json `"cta": {"text": "...", "hl": "..."}` (see CLAUDE.md). Rotate: "ONE STRANGE MINUTE. EVERY DAY." (hl "STRANGE MINUTE") /
+"STAY CURIOUS. NEW 'WHAT IF' TOMORROW." (hl "CURIOUS") / "YOUR DAILY DOSE OF WEIRD." (hl "WEIRD").
+With the CTA, `endSub` must NOT repeat it (no "Follow for tomorrow…") — use a short teaser of the next topic instead or leave it empty.

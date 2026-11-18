@@ -57,6 +57,11 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
   `python3 pipeline/check_hook.py $E` must print PASS before publishing (part of QA).
   Short punchy sentences, 13–15 lines (50–60 s).
 - Last line of Part 1/2 = cliffhanger; end card `PART 2?` / `PART 3?`. Part 3 resolves with a twist; end card `THE END?`.
+- **Subscribe CTA on EVERY video, both channels (owner approved 2026-11-18):** episode.json `"cta": {"text": "<SLOGAN>", "hl": "<words to highlight>"}`
+  → engine draws, under the end card, the slogan + red SUBSCRIBE button with bell that a cursor taps (→ SUBSCRIBED, soft pop; +0.9 s end time).
+  Visual only — never spoken (keeps the loop). Slogan ALL CAPS, ≤ 40 chars, rotate it, fit to the part. Horror P1/P2: "DON'T LOSE PART 3. IT WON'T WAIT." /
+  "SUBSCRIBE… OR MISS WHAT HAPPENS NEXT."; P3: "A NEW NIGHTMARE EVERY DAY." / "SOME STORIES FIND YOU. SUBSCRIBE FIRST.".
+  QA: the button and slogan are fully visible and not overlapping the end-card text in the last frames.
 - **Continuity (owner 2026-11-16, final): all 3 parts happen on the SAME day/night, back to back** — Part 2 starts the very moment
   Part 1 ended (continue straight from the cliffhanger), Part 3 starts the moment Part 2 ended. NO "yesterday" / "two days ago" / time jumps.
   Part 2/3 line 1 = a present-tense hook that re-states the cliffhanger ("My GPS just said I'd arrived. In the middle of nowhere."),
