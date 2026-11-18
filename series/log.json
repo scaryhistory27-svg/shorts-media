@@ -129,22 +129,10 @@
   },
   {
    "from": "2026-11-18",
-   "to": "2026-11-22",
    "times": [
     "16:00"
    ],
-   "note": "owner: then 5 days, 1 video/day"
-  },
-  {
-   "from": "2026-11-23",
-   "mixed_days": [
-    1,
-    2
-   ],
-   "times": [
-    "16:00"
-   ],
-   "note": "owner: after the 5 daily days, randomly 1 video/day or 1 video every 2 days (deterministic per date)"
+   "note": "owner 2026-11-18: 1 video EVERY day until the channel has real subscribers (no mixed gaps); autopilot picks the hour"
   }
  ],
  "schedule_tz": "America/Los_Angeles",

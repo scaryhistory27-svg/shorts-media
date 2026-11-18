@@ -13,26 +13,14 @@
     "12:30",
     "18:30"
    ],
-   "note": "launch days 1-2: 2/day, >=3 h from horror posts"
+   "note": "launch days: 2/day"
   },
   {
    "from": "2026-11-19",
-   "to": "2026-11-23",
    "times": [
     "12:00"
    ],
-   "note": "days 3-7: 1/day"
-  },
-  {
-   "from": "2026-11-24",
-   "mixed_days": [
-    1,
-    2
-   ],
-   "times": [
-    "12:00"
-   ],
-   "note": "from day 8: 1/day or every 2 days (deterministic)"
+   "note": "owner 2026-11-18: then 1 video EVERY day (no mixed gaps) until further notice; autopilot picks the hour"
   }
  ],
  "slot_overrides": {
