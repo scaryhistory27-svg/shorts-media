@@ -20,3 +20,14 @@ Each new series mixes 2–3 genres across its 3 parts (hook genre → different 
 
 ## Variety (owner, 2026-11-15)
 Each series = a different everyday situation (elevator, highway, hotel, last train, smart speaker…), never another 2 AM/door/knock story. No repeat of the last 3 series' setting, time, monster or key prop. Header stamp fits the story.
+
+## Pacing template from the best video (owner 2026-11-18, YouTube Studio analysis: 2 AM Knock P1 = best retention/rewatch)
+"Never Open The Door At 2 AM" — 1366 views, 106 % avg viewed. Every NEW Part 1 (and as far as possible Parts 2/3) follows its beat map:
+1. 0–2 s: one-sentence warning/conflict + the threat already on screen (door, phone, face) — the conflict/mystery is clear in the first 2–3 s.
+2. ~2–5 s: who/where in ≤ 8 words (home alone, 9th floor) — no backstory.
+3. by ~5 s: the first concrete event (knock / call / message) — never later than line 3.
+4. ~8–12 s: a FAMILIAR thing turns wrong (mom at the door).
+5. middle: hard evidence that contradicts it (text from the real mom in Chicago).
+6. escalation: an impossible detail (she never blinks → it speaks → knocks on a 9th-floor window).
+7. last line: loop back to the opening in the present tense ("It's 1:59 right now… three slow knocks").
+Studio advice to follow: lift "Stayed to watch" by making the first frame + first line state the conflict instantly; spread tension evenly (a new beat every 4–5 s).
