@@ -133,7 +133,7 @@ Second YouTube channel ("What if…?" / hidden history / science mysteries, Engl
 the autopilot steps are in `channels/strange-minute/CHANNEL.md`; state in `channels/strange-minute/log.json`.
 **Connected 2026-11-17: Metricool brand `8179515`** (`brand_id` in log.json). Every daily run, AFTER the horror slots: fill every
 empty Strange Minute slot from `next-slots` (max 2/run; ready queue first), full QA, publish with blogId 8179515, report like channel 1.
-Launch cadence is in its log.json schedule (Nov 17–18: 2/day, from Nov 19: 1 video EVERY day — owner 2026-11-18); the exact hour is the
+Launch cadence is in its log.json schedule (Nov 17–22: 2/day, from Nov 23: 1 video EVERY day — owner 2026-11-18); the exact hour is the
 autopilot's choice (best-time chart of brand 8179515 + own results), ≥ 3 h from any horror post, ≥ 5 h between its own posts.
 jobs.py for channel 2 always with `JOBS_FILE=channels/strange-minute/jobs.json LOG_FILE=channels/strange-minute/log.json`.
 

@@ -17,10 +17,19 @@
   },
   {
    "from": "2026-11-19",
+   "to": "2026-11-22",
+   "times": [
+    "09:30",
+    "18:30"
+   ],
+   "note": "owner 2026-11-18: keep 2 videos/day a few more days (Nov 19–22); autopilot picks the hours (≥5 h apart, ≥3 h from horror)"
+  },
+  {
+   "from": "2026-11-23",
    "times": [
     "12:00"
    ],
-   "note": "owner 2026-11-18: then 1 video EVERY day (no mixed gaps) until further notice; autopilot picks the hour"
+   "note": "then 1 video EVERY day until further notice"
   }
  ],
  "slot_overrides": {
