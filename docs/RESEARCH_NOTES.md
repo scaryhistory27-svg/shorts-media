@@ -21,3 +21,18 @@
 | Never Step Out If Your Elevator Stops On 13 (MF P1) | 162 | 47 % | 3 | 0 |
 | The Note Under My Sink... (Knock P3) | 105 | 47 % | 9 | +1 |
 Takeaway: the 2 AM Knock P1/P2 carried the channel (launch push); Missing Floor P1 got far less reach → the first 3 s / premise matter more than the series; a "never open the door"-style direct warning + door/home setting outperformed "elevator".
+
+## 2026-11-18 — horror channel: views by publish hour (vidIQ public counts, LA time)
+| Video | Part | Published | Views | VPH |
+|---|---|---|---|---|
+| Never Open The Door At 2 AM | 2AM P1 | Sat 13:14 | 1,365 | 15.3 |
+| It Knocked Again... | 2AM P2 | Sat 16:39 | 1,200 | 14.1 |
+| The Note Under My Sink... | 2AM P3 | Sun 10:15 | 131 | 2.0 |
+| Never Step Out If Your Elevator Stops On 13 | MF P1 | Sun 15:30 | 226 | 3.6 |
+| The Elevator Never Left The Lobby | MF P2 | Mon 09:30 | 714 | 16.2 |
+| I Went Back To Floor 13 | MF P3 | Mon 15:30 | 110 | 2.9 |
+| Never Follow Your GPS Past Mile Marker 214 | MM P1 | Tue 09:30 | 341 | 17.1 |
+| My GPS Says I've Arrived | MM P2 | Tue 15:30 | 306 | 21.9 (best rate) |
+Reading: no hour wins on its own — both 09:30 and 15:30 slots produced strong videos (MF P2 at 09:30 = 714; MM P2 at 15:30 = best VPH).
+The big factor is the PART: every Part 3 is weakest (131, 110) and weekend Sun posts were weak. Keep the two windows (ET lunch 09:30 /
+ET evening 15:30), avoid Sunday mornings, and make Part 3s stand alone (strong new hook) + link the playlist in the description.
