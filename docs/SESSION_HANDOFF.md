@@ -1,3 +1,15 @@
+## 2026-11-18T14:21:32Z — auto checkpoint before context compaction
+
+```
+jobs file: series/jobs.json — 8 jobs
+  done/scheduled: 2026-11-16T15:30-the-missing-floor-ep3  stage=published  title=I Went Back To Floor 13. Someone Had My Face 😨 #shorts  url=-
+  done/scheduled: 2026-11-17T09:30-mile-marker-214-ep1  stage=published  title=Never Follow Your GPS Past Mile Marker 214 😨 #shorts  url=-
+  done/scheduled: 2026-11-17T15:30-mile-marker-214-ep2  stage=scheduled  title=My GPS Says I've Arrived. Nobody Lives Out Here 😨 #shorts  url=-
+  UNFINISHED: 2026-11-17T15:30-mile-marker-214-ep2  stage=scheduled  status=active  retries=0
+2026-11-17T15:30-mile-marker-214-ep2: last verified stage 'scheduled', next stage 'published'
+HEAD: 285b2f1 Strange Minute: 2 videos/day until Nov 22, then 1/day (owner)
+```
+
 ## 2026-11-17 ~12:00 LA — owner approved new sound settings
 
 - No opening impact (horror), realistic ducked SFX bus (sfx_level 0.22), sound-design rules + vidIQ/Canva usage in CLAUDE.md. MM214 P2, SM #2/#3 posts re-uploaded with remixed audio.
