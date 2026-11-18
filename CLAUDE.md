@@ -58,7 +58,9 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
   Short punchy sentences, 13–15 lines (50–60 s).
 - Last line of Part 1/2 = cliffhanger; end card `PART 2?` / `PART 3?`. Part 3 resolves with a twist; end card `THE END?`.
 - **Subscribe CTA on EVERY video, both channels (owner approved 2026-11-18):** episode.json `"cta": {"text": "<SLOGAN>", "hl": "<words to highlight>"}`
-  → engine draws, under the end card, the slogan + red SUBSCRIBE button with bell that a cursor taps (→ SUBSCRIBED, soft pop; +0.9 s end time).
+  → engine draws, under the end card, a channel-specific design (owner 2026-11-18: "the endings must not look alike"): horror = typewriter slogan,
+  black plate with flickering red neon + blinking eye, a shadow hand rises and presses it (glitch flash); Strange Minute = slogan on a cyan ribbon,
+  gold pill button with "+", Tick hops onto it → SUBSCRIBED ✓ + confetti. Soft pop on the tap; +0.9 s end time.
   Visual only — never spoken (keeps the loop). Slogan ALL CAPS, ≤ 40 chars, rotate it, fit to the part. Horror P1/P2: "DON'T LOSE PART 3. IT WON'T WAIT." /
   "SUBSCRIBE… OR MISS WHAT HAPPENS NEXT."; P3: "A NEW NIGHTMARE EVERY DAY." / "SOME STORIES FIND YOU. SUBSCRIBE FIRST.".
   QA: the button and slogan are fully visible and not overlapping the end-card text in the last frames.
