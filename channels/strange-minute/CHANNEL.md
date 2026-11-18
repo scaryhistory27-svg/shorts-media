@@ -62,6 +62,11 @@ Everything the root CLAUDE.md demands for horror videos applies 1:1 here — onl
   ≥ 50 % of scenes and reacts to the facts (points at labels, looks up, "wow" face, waves at the end). Style test: tests/sm_kit.
 - Captions: light style (blue pill, gold/cyan highlights — automatic with "style":"light"). Header/cover in gold+cyan, no red.
 
+## Music (owner 2026-11-18: "the background music isn't gripping — use what popular what-if Shorts use")
+- Default `music_style: "pulse"` (timeline.py music_pulse): driving ~104–112 BPM curiosity bed — light kick, off-beat hats, 8th-note bass,
+  16th-note plucked arpeggio with echo, build (clap + riser) at ~55 % = "the strangest part", drop to pad in the last 2 s.
+  Level `music_level` 0.11 (ducked under the voice). Old calm pad = `music_style: "ambient"` only if the owner asks.
+
 ## Format (every episode)
 - 50–60 s (owner: if short, add a TRUE fact line — never just slow the voice below 0.9), 16–18 lines, a new visual every ≤ 5 s. Line 1 = the question or an impossible fact (≤ 12 words, spoken by 0.4 s,
   clean voice, then a small ding after it — no sound under the question): "What if the Moon vanished tonight?", "What if you fell into Jupiter?", "This tiny island is in two days at once."

@@ -143,14 +143,19 @@
     {
      "stage": "scheduled",
      "at": "2026-11-17T19:51:52Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-18T04:10:59Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-17T19:00:46Z",
-   "updated": "2026-11-17T19:51:52Z",
+   "updated": "2026-11-18T04:10:59Z",
    "publish_time": "2026-11-18T12:30",
-   "metricool_id": 431948500
+   "metricool_id": 431948500,
+   "note": "pulse music"
   }
  }
 }
