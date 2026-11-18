@@ -7,8 +7,8 @@
    "series": "strange-minute",
    "episode": 1,
    "title": "What If The Moon Vanished Tonight? 🌕😳 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -37,14 +37,20 @@
     {
      "stage": "scheduled",
      "at": "2026-11-17T18:02:16Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-18T18:42:06Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-17T16:00:25Z",
-   "updated": "2026-11-17T18:02:16Z",
+   "updated": "2026-11-18T18:42:06Z",
    "publish_time": "2026-11-17T12:30",
-   "metricool_id": 431822678
+   "metricool_id": 431822678,
+   "youtube_id": "FoO2rN3FiCc",
+   "youtube_url": "https://www.youtube.com/shorts/FoO2rN3FiCc"
   },
   "2026-11-17T18:30-strange-minute-ep2": {
    "id": "2026-11-17T18:30-strange-minute-ep2",
@@ -52,8 +58,8 @@
    "series": "strange-minute",
    "episode": 2,
    "title": "What If Earth Stopped Spinning For 1 Second? 🌍😳 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -90,14 +96,20 @@
     {
      "stage": "scheduled",
      "at": "2026-11-17T19:51:52Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-18T18:42:06Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-17T18:55:43Z",
-   "updated": "2026-11-17T19:51:52Z",
+   "updated": "2026-11-18T18:42:06Z",
    "publish_time": "2026-11-17T18:30",
-   "metricool_id": 431948436
+   "metricool_id": 431948436,
+   "youtube_id": "tXWN7jxmQCw",
+   "youtube_url": "https://www.youtube.com/shorts/tXWN7jxmQCw"
   },
   "2026-11-18T12:30-strange-minute-ep3": {
    "id": "2026-11-18T12:30-strange-minute-ep3",
@@ -105,8 +117,8 @@
    "series": "strange-minute",
    "episode": 3,
    "title": "What If A Wave Of Syrup Hit Your Street? 🍯🌊 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -151,15 +163,48 @@
     {
      "stage": "scheduled",
      "at": "2026-11-18T12:06:49Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-18T18:42:06Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-17T19:00:46Z",
-   "updated": "2026-11-18T12:06:49Z",
+   "updated": "2026-11-18T18:42:06Z",
    "publish_time": "2026-11-18T09:30",
    "metricool_id": 431948500,
-   "note": "pulse music"
+   "note": "pulse music",
+   "youtube_id": "mI5c_fax9Kw",
+   "youtube_url": "https://www.youtube.com/shorts/mI5c_fax9Kw"
+  },
+  "2026-11-18T18:30-strange-minute-ep4": {
+   "id": "2026-11-18T18:30-strange-minute-ep4",
+   "slot": "2026-11-18T18:30",
+   "series": "strange-minute",
+   "episode": 4,
+   "title": "What If The Sun Switched Off Right Now? ☀️😳 #shorts",
+   "stage": "uploaded",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-18T18:58:03Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-18T19:06:52Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-18T19:06:52Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-18T18:58:03Z",
+   "updated": "2026-11-18T19:06:52Z"
   }
  }
 }

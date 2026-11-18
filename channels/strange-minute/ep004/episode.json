@@ -1,0 +1,217 @@
+{
+ "series": "Strange Minute",
+ "episode": 4,
+ "title": "STRANGE MINUTE · WHAT IF #4",
+ "stamp": "THE SUN · OFF",
+ "style": "light",
+ "bed": "light",
+ "voice": "am_fenrir",
+ "lang": "en-us",
+ "voice_fx": "explainer",
+ "speed": 0.9,
+ "gap": 0.4,
+ "music_level": 0.11,
+ "endTitle": "WHAT IF #5?",
+ "endSub": "Next: what if you fell into Jupiter?",
+ "cta": {
+  "text": "ONE STRANGE MINUTE. EVERY DAY.",
+  "hl": "STRANGE MINUTE"
+ },
+ "lines": [
+  {
+   "scene": "sunhook",
+   "text": "What if the Sun switched off right now?",
+   "hl": {
+    "Sun": "y",
+    "off": "y"
+   },
+   "speed": 0.95,
+   "gap": 0.35,
+   "sfx": [
+    {
+     "at": "end",
+     "type": "ding"
+    }
+   ]
+  },
+  {
+   "scene": "nothing",
+   "text": "For eight minutes, you wouldn't notice a thing.",
+   "hl": {
+    "eight": "y",
+    "minutes,": "y"
+   }
+  },
+  {
+   "scene": "lightTravel",
+   "text": "Sunlight takes about 8 minutes to reach us.",
+   "say": "Sunlight takes about eight minutes to reach us.",
+   "hl": {
+    "8": "y",
+    "minutes": "y"
+   }
+  },
+  {
+   "scene": "lightTravel",
+   "text": "So the light already on its way keeps shining.",
+   "hl": {
+    "keeps": "y",
+    "shining.": "y"
+   }
+  },
+  {
+   "scene": "orbit",
+   "text": "Even gravity travels at the speed of light.",
+   "hl": {
+    "gravity": "y",
+    "light.": "y"
+   }
+  },
+  {
+   "scene": "orbit",
+   "text": "So Earth keeps circling an empty spot. Then…",
+   "hl": {
+    "empty": "r"
+   }
+  },
+  {
+   "scene": "blackout",
+   "text": "Total darkness. In the middle of the day.",
+   "hl": {
+    "darkness.": "r",
+    "day.": "y"
+   },
+   "sfx": [
+    {
+     "word": "darkness.",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "moonOff",
+   "text": "The Moon goes dark too. It only reflects sunlight.",
+   "hl": {
+    "Moon": "y",
+    "dark": "r"
+   }
+  },
+  {
+   "scene": "stars",
+   "text": "The daytime sky? Suddenly full of stars.",
+   "hl": {
+    "stars.": "y"
+   },
+   "sfx": [
+    {
+     "word": "stars.",
+     "type": "chime"
+    }
+   ]
+  },
+  {
+   "scene": "planets",
+   "text": "Even the planets fade away, one by one.",
+   "hl": {
+    "planets": "y",
+    "fade": "r"
+   }
+  },
+  {
+   "scene": "cold",
+   "text": "The air cools fast. Eclipses drop it about 10 degrees.",
+   "say": "The air cools fast. Eclipses drop it about ten degrees.",
+   "hl": {
+    "cools": "y",
+    "10": "r"
+   }
+  },
+  {
+   "scene": "plants",
+   "text": "Plants stop making food. Birds go quiet.",
+   "hl": {
+    "Plants": "y",
+    "quiet.": "r"
+   }
+  },
+  {
+   "scene": "back",
+   "text": "Then the light returns. Just like that.",
+   "hl": {
+    "returns.": "y"
+   },
+   "sfx": [
+    {
+     "word": "returns.",
+     "type": "rise"
+    }
+   ]
+  },
+  {
+   "scene": "old",
+   "text": "But here's the strange part. The Sun you see is 8 minutes old.",
+   "say": "But here's the strange part. The Sun you see is eight minutes old.",
+   "hl": {
+    "strange": "y",
+    "old.": "r"
+   }
+  },
+  {
+   "scene": "sunrise",
+   "text": "Every sunrise you've seen had already happened.",
+   "hl": {
+    "already": "r",
+    "happened.": "r"
+   }
+  },
+  {
+   "scene": "endq",
+   "text": "So is the Sun still there right now?",
+   "hl": {
+    "still": "y",
+    "now?": "y"
+   },
+   "sfx": [
+    {
+     "word": "still",
+     "type": "pop"
+    }
+   ]
+  },
+  {
+   "scene": "endq",
+   "text": "You won't know for 8 minutes.",
+   "say": "You won't know for eight minutes.",
+   "hl": {
+    "8": "r",
+    "minutes.": "r"
+   },
+   "gap": 0.6
+  }
+ ],
+ "youtube": {
+  "title": "What If The Sun Switched Off Right Now? ☀️😳 #shorts",
+  "description": "You wouldn't notice for 8 minutes… then everything changes. ☀️ What would you do first? 👇\n#whatif #space #science #sun #facts #shorts",
+  "tags": [
+   "what if",
+   "sun",
+   "space facts",
+   "science",
+   "what if the sun disappeared",
+   "astronomy",
+   "animated science",
+   "strange facts"
+  ],
+  "first_comment": "8 minutes of normal, then total darkness — what's the FIRST thing you'd do? ☀️👇"
+ },
+ "cover": {
+  "seg": 6,
+  "frac": 0.85,
+  "top": "STRANGE MINUTE",
+  "lines": [
+   "THE SUN",
+   "IS GONE?!"
+  ],
+  "sub": "WHAT IF #4"
+ }
+}

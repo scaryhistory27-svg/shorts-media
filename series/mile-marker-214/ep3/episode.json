@@ -1,0 +1,168 @@
+{
+ "series": "Mile Marker 214",
+ "episode": 3,
+ "title": "MILE MARKER 214 · PART 3",
+ "stamp": "ROUTE 9 · 7:34 PM",
+ "endTitle": "THE END?",
+ "endSub": "Who's driving the blue car?",
+ "music_level": 0.12,
+ "cta": {
+  "text": "SOME STORIES FIND YOU. SUBSCRIBE FIRST.",
+  "hl": "FIND YOU"
+ },
+ "lines": [
+  {
+   "scene": "stranger",
+   "text": "He knew my name. Nobody lives out here.",
+   "hl": {
+    "name.": "r",
+    "Nobody": "y"
+   },
+   "speed": 1.3,
+   "gap": 0.35
+  },
+  {
+   "scene": "officer",
+   "text": "Old patrol uniform. A badge from 1987.",
+   "say": "Old patrol uniform. A badge from nineteen eighty-seven.",
+   "hl": {
+    "1987.": "y"
+   }
+  },
+  {
+   "scene": "officer",
+   "text": "Son, you've been on this road for 39 years.",
+   "say": "Son, you've been on this road for thirty-nine years.",
+   "hl": {
+    "39": "r",
+    "years.": "r"
+   }
+  },
+  {
+   "scene": "marker",
+   "text": "Every night you pass marker 214. Never 215.",
+   "say": "Every night you pass marker two fourteen. Never two fifteen.",
+   "hl": {
+    "214.": "y",
+    "215.": "r"
+   }
+  },
+  {
+   "scene": "carReveal",
+   "text": "I laughed. Then his flashlight hit my car.",
+   "hl": {
+    "flashlight": "y",
+    "car.": "r"
+   },
+   "sfx": [
+    {
+     "word": "car.",
+     "type": "sting"
+    }
+   ]
+  },
+  {
+   "scene": "carReveal",
+   "text": "Rust. Flat tires. Plate RT9-1987.",
+   "say": "Rust. Flat tires. Plate R.T. nine, nineteen eighty-seven.",
+   "hl": {
+    "Rust.": "y",
+    "RT9-1987.": "r"
+   }
+  },
+  {
+   "scene": "gpsMom",
+   "text": "Then the GPS spoke. It wasn't a machine.",
+   "say": "Then the G.P.S. spoke. It wasn't a machine.",
+   "hl": {
+    "GPS": "y",
+    "machine.": "r"
+   }
+  },
+  {
+   "scene": "gpsMom",
+   "text": "It was my mother. Turn around, sweetheart.",
+   "hl": {
+    "mother.": "r",
+    "around,": "y"
+   },
+   "sfx": [
+    {
+     "word": "mother.",
+     "type": "heart"
+    }
+   ]
+  },
+  {
+   "scene": "momPhoto",
+   "text": "She recorded that the night I left. In 1987.",
+   "say": "She recorded that the night I left. In nineteen eighty-seven.",
+   "hl": {
+    "left.": "y",
+    "1987.": "r"
+   }
+  },
+  {
+   "scene": "uturn",
+   "text": "So this time, I turned the car around.",
+   "hl": {
+    "around.": "y"
+   },
+   "sfx": [
+    {
+     "word": "turned",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "m215",
+   "text": "Mile marker 215. For the very first time.",
+   "say": "Mile marker two fifteen. For the very first time.",
+   "hl": {
+    "215.": "y",
+    "first": "y"
+   }
+  },
+  {
+   "scene": "mirror3",
+   "text": "But in my mirror, a blue car just passed 214.",
+   "say": "But in my mirror, a blue car just passed two fourteen.",
+   "hl": {
+    "blue": "r",
+    "214.": "r"
+   },
+   "sfx": [
+    {
+     "word": "214.",
+     "type": "sting"
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "A Cop From 1987 Knew My Name 😨 #shorts",
+  "description": "He's been waiting on Route 9 since 1987. 🚗 The end… or is it? 👀\n#horrorstory #scary #creepy #roadtrip #timeloop #shorts",
+  "tags": [
+   "horror story",
+   "scary",
+   "creepy",
+   "highway",
+   "time loop",
+   "scary story",
+   "horror animation",
+   "road trip"
+  ],
+  "first_comment": "Who do you think is driving the blue car now? 🚗👀👇"
+ },
+ "cover": {
+  "seg": 1,
+  "frac": 0.55,
+  "top": "MILE MARKER 214",
+  "lines": [
+   "HE KNEW",
+   "MY NAME"
+  ],
+  "sub": "PART 3"
+ }
+}

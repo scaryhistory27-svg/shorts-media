@@ -427,8 +427,8 @@
    "series": "mile-marker-214",
    "episode": 2,
    "title": "My GPS Says I've Arrived. Nobody Lives Out Here 😨 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -473,15 +473,48 @@
     {
      "stage": "scheduled",
      "at": "2026-11-17T19:49:13Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-18T18:42:00Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-17T18:43:18Z",
-   "updated": "2026-11-17T19:49:13Z",
+   "updated": "2026-11-18T18:42:00Z",
    "publish_time": "2026-11-17T15:30",
    "note": "no opening impact sound",
-   "metricool_id": 431945636
+   "metricool_id": 431945636,
+   "youtube_id": "i6J3hBA98gA",
+   "youtube_url": "https://www.youtube.com/shorts/i6J3hBA98gA"
+  },
+  "2026-11-18T15:30-mile-marker-214-ep3": {
+   "id": "2026-11-18T15:30-mile-marker-214-ep3",
+   "slot": "2026-11-18T15:30",
+   "series": "mile-marker-214",
+   "episode": 3,
+   "title": "A Cop From 1987 Knew My Name 😨 #shorts",
+   "stage": "uploaded",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-18T18:52:58Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-18T19:06:51Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-18T19:06:52Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-18T18:52:58Z",
+   "updated": "2026-11-18T19:06:52Z"
   }
  }
 }
