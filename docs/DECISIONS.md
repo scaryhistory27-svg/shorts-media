@@ -44,3 +44,4 @@
 - 2026-11-18: Owner approved the animated Subscribe CTA (slogan + SUBSCRIBE button tapped by a cursor) on the end card of every video on both channels; visual only, not spoken.
 - 2026-11-18: Owner: end-card Subscribe CTAs must differ between channels → horror neon plate + eye + shadow hand; Strange Minute ribbon + gold pill + Tick + confetti. Today's two pending posts re-rendered and updated.
 - 2026-11-18: Owner shared YouTube Studio analysis (2 AM Knock P1 best, P2 1213 views / 53.6 % / 24 s) → pacing template added to CREATIVE_RULES.md, used for every new series.
+- 2026-11-18: Owner: same pacing settings for Strange Minute → beat map added to channels/strange-minute/CHANNEL.md.

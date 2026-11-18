@@ -100,3 +100,16 @@ Keep a list of used topics in log.json `episodes`.
 episode.json `"cta": {"text": "...", "hl": "..."}` (see CLAUDE.md). Rotate: "ONE STRANGE MINUTE. EVERY DAY." (hl "STRANGE MINUTE") /
 "STAY CURIOUS. NEW 'WHAT IF' TOMORROW." (hl "CURIOUS") / "YOUR DAILY DOSE OF WEIRD." (hl "WEIRD").
 With the CTA, `endSub` must NOT repeat it (no "Follow for tomorrow…") — use a short teaser of the next topic instead or leave it empty.
+
+## Pacing template (owner 2026-11-18: "same settings as channel 1" — adapted from the best horror video's beat map)
+Every Strange Minute video follows this beat map:
+1. 0–2 s: the "What if…?" question + the subject ALREADY on screen in its most striking state (giant Sun with "OFF?", Moon, wave) — the mystery is clear instantly; ding after the question.
+2. 2–5 s: the first immediate consequence in ≤ 8 words — no intro, no "today we…", no backstory.
+3. by ~5 s: the first surprising fact with a number (8 minutes, 35 mph, 1,000 mph).
+4. ~8–15 s: something FAMILIAR changes (your street, your sky, your coffee, your city).
+5. middle: hard evidence / a real-world proof (eclipse data, a true event, a scientist's measurement).
+6. escalation: a new, bigger effect every 4–5 s (scene, label or character action changes each beat).
+7. "But here's the strange part" twist in the last third, which recontextualizes the opening.
+8. last line: loops back to the opening question in the present tense ("So is the Sun still there right now? You won't know for 8 minutes.").
+Plus the channel's Subscribe CTA design (ribbon + gold button + Tick) on the end card.
+Once Windsor has ≥ 3 Strange Minute videos with data, compare them the same way and update this template from the best one.
