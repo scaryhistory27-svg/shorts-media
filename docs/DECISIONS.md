@@ -39,3 +39,4 @@
 
 - 2026-11-17: Horror hook sound — owner: the loud start boom masked the first word "Never". Now line 1 plays clean over the drone and a short `thud` lands right after it (check_hook enforces it). Applied from Mile Marker 214 Part 2 on.
 - 2026-11-17 (later): owner — remove the opening impact sound entirely (it talks over the text). Horror line 1/2 carry no hit/sting/thud; check_hook enforces it.
+- 2026-11-18: Owner delegates ALL posting decisions (time, topic, format) to the autopilot: use every connector/skill, Windsor own-results by publish hour + Metricool activity + US time zones + research; start with ET-lunch / ET-evening windows.

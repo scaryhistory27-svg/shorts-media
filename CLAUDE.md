@@ -237,7 +237,8 @@ Then check a few frames of final.mp4 (ffmpeg -ss … -frames:v 1) before publish
 ## Posting time — re-check EVERY day (owner's request: post when it will take off; NOT always 16:00)
 For EVERY video decide the hour fresh, combining 3 sources (write the numbers in the report):
 a) Metricool `getBestTimeToPostByNetwork` for that exact weekday (audience activity per hour);
-b) the channel's own results: views/retention in the first 24 h by publish hour (weight grows with the number of videos, decisive from ≥ 5);
+b) the channel's own results from **Windsor.ai** (fallback Metricool): views, engaged views, avg % viewed and subs in the first 24–48 h by publish hour
+   and weekday, per channel (weight grows with the number of videos, decisive from ≥ 5) — owner 2026-11-18: "you decide when and what to post so videos take off";
 c) WebSearch (load with ToolSearch) once per run: current best times to post YouTube Shorts for a US audience on that weekday /
    for horror-mystery content (e.g. "best time to post YouTube Shorts <weekday> 2026"). Treat blogs as weak evidence.
 **US time zones (owner 2026-11-18: "12:30 is too late — people are at work; don't just drop videos, decide from the data"):** most US
