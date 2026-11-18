@@ -35,7 +35,9 @@
    "note": "from day 8: 1/day or every 2 days (deterministic)"
   }
  ],
- "slot_overrides": {},
+ "slot_overrides": {
+  "2026-11-18T12:30": "2026-11-18T09:30"
+ },
  "max_ready": 3,
  "ready": [],
  "episodes": [
@@ -72,8 +74,8 @@
    "area": "history",
    "status": "scheduled",
    "title": "What If A Wave Of Syrup Hit Your Street? 🍯🌊 #shorts",
-   "publish_time": "2026-11-18T12:30",
-   "metricool_id": 432353700,
+   "publish_time": "2026-11-18T09:30",
+   "metricool_id": 432741297,
    "uuid": "-8370652372906389532",
    "cover_ms": 26585,
    "thumbnail": "frame",

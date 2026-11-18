@@ -240,6 +240,9 @@ a) Metricool `getBestTimeToPostByNetwork` for that exact weekday (audience activ
 b) the channel's own results: views/retention in the first 24 h by publish hour (weight grows with the number of videos, decisive from ≥ 5);
 c) WebSearch (load with ToolSearch) once per run: current best times to post YouTube Shorts for a US audience on that weekday /
    for horror-mystery content (e.g. "best time to post YouTube Shorts <weekday> 2026"). Treat blogs as weak evidence.
+**US time zones (owner 2026-11-18: "12:30 is too late — people are at work; don't just drop videos, decide from the data"):** most US
+viewers are on Eastern/Central time — LA 09:00–10:00 = ET lunch (12–1 PM, Metricool weekday morning peak ~10:00 LA), LA 15:00–17:00 = ET
+evening 6–8 PM (main peak). Prefer those two windows; avoid LA 11:00–13:30 (ET mid-afternoon work hours) unless the data clearly says otherwise.
 Choose the hour that maximises expected first-hours views: activity peak (a) adjusted by (b); use (c) to break ties or when (a)/(b) are flat.
 Shorts get their first push in the first 1–3 h, so post ~30–60 min BEFORE the activity peak rather than at its end.
 Every run, even a "skip" run:
