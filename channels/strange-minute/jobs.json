@@ -380,6 +380,41 @@
    "metricool_id": 434514731,
    "uuid": 8687490852241362807,
    "publish_time": "2026-11-20T09:30"
+  },
+  "2026-11-20T18:30-strange-minute-ep8": {
+   "id": "2026-11-20T18:30-strange-minute-ep8",
+   "slot": "2026-11-20T18:30",
+   "series": "strange-minute",
+   "episode": 8,
+   "title": "What If You Fell Into Jupiter? 🪐😳 #shorts",
+   "stage": "uploaded",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-19T18:52:19Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-19T18:58:13Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-19T18:58:13Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-19T18:58:13Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-19T18:58:13Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-19T18:52:19Z",
+   "updated": "2026-11-19T18:58:13Z"
   }
  }
 }

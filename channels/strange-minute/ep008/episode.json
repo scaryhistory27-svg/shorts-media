@@ -1,0 +1,205 @@
+{
+ "series": "Strange Minute",
+ "episode": 8,
+ "title": "STRANGE MINUTE · WHAT IF #8",
+ "stamp": "JUPITER · NO GROUND",
+ "style": "light",
+ "bed": "light",
+ "voice": "am_fenrir",
+ "lang": "en-us",
+ "voice_fx": "explainer",
+ "speed": 0.9,
+ "gap": 0.4,
+ "music_level": 0.12,
+ "endTitle": "WHAT IF #9?",
+ "endSub": "Next: more GTA 6 secrets",
+ "cta": {
+  "text": "ONE STRANGE MINUTE. EVERY DAY.",
+  "hl": "STRANGE MINUTE"
+ },
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "What if you fell into Jupiter?",
+   "hl": {
+    "fell": "y",
+    "Jupiter?": "y"
+   },
+   "speed": 0.95,
+   "gap": 0.35,
+   "sfx": [
+    {
+     "at": "end",
+     "type": "ding"
+    }
+   ]
+  },
+  {
+   "scene": "noground",
+   "text": "First surprise: there's no ground to land on.",
+   "hl": {
+    "no": "r",
+    "ground": "r"
+   }
+  },
+  {
+   "scene": "noground",
+   "text": "Jupiter is a giant ball of gas. And it pulls hard.",
+   "hl": {
+    "gas.": "y",
+    "hard.": "r"
+   }
+  },
+  {
+   "scene": "gravity",
+   "text": "Its gravity is about two and a half times Earth's.",
+   "hl": {
+    "two": "y",
+    "half": "y"
+   }
+  },
+  {
+   "scene": "probe",
+   "text": "We know what happens, because NASA tried it.",
+   "hl": {
+    "NASA": "y"
+   }
+  },
+  {
+   "scene": "probe",
+   "text": "In 1995, the Galileo probe dove in.",
+   "say": "In nineteen ninety-five, the Galileo probe dove in.",
+   "hl": {
+    "1995,": "y",
+    "Galileo": "y"
+   },
+   "sfx": [
+    {
+     "word": "dove",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "entry",
+   "text": "It hit the air at about 106,000 miles per hour.",
+   "say": "It hit the air at about a hundred and six thousand miles per hour.",
+   "hl": {
+    "106,000": "y"
+   }
+  },
+  {
+   "scene": "entry",
+   "text": "Its heat shield blazed past 28,000 degrees.",
+   "say": "Its heat shield blazed past twenty-eight thousand degrees.",
+   "hl": {
+    "28,000": "r",
+    "degrees.": "r"
+   }
+  },
+  {
+   "scene": "clouds",
+   "text": "Then you'd sink through clouds of ammonia ice.",
+   "hl": {
+    "ammonia": "y"
+   }
+  },
+  {
+   "scene": "storm",
+   "text": "Past a storm bigger than the whole Earth.",
+   "hl": {
+    "storm": "y",
+    "Earth.": "r"
+   },
+   "sfx": [
+    {
+     "word": "storm",
+     "type": "rise"
+    }
+   ]
+  },
+  {
+   "scene": "pressure",
+   "text": "The pressure keeps squeezing harder and harder.",
+   "hl": {
+    "pressure": "y",
+    "harder.": "r"
+   }
+  },
+  {
+   "scene": "pressure",
+   "text": "Galileo sent data for 58 minutes. Then silence.",
+   "say": "Galileo sent data for fifty-eight minutes. Then silence.",
+   "hl": {
+    "58": "y",
+    "silence.": "r"
+   },
+   "sfx": [
+    {
+     "word": "silence.",
+     "type": "pop"
+    }
+   ]
+  },
+  {
+   "scene": "metal",
+   "text": "The strange part? Deep down, hydrogen turns into liquid metal.",
+   "hl": {
+    "strange": "y",
+    "liquid": "y",
+    "metal.": "y"
+   }
+  },
+  {
+   "scene": "metal",
+   "text": "You'd never hit the bottom. You'd become part of Jupiter.",
+   "hl": {
+    "never": "r",
+    "Jupiter.": "y"
+   }
+  },
+  {
+   "scene": "endq",
+   "text": "So, would you still take the fall?",
+   "hl": {
+    "fall?": "r"
+   },
+   "gap": 0.6,
+   "sfx": [
+    {
+     "word": "fall?",
+     "type": "chime"
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "What If You Fell Into Jupiter? 🪐😳 #shorts",
+  "description": "No ground, crushing pressure, and a sea of liquid metal. 🪐 Would you take the fall? 👇\n#whatif #space #jupiter #science #facts #shorts",
+  "tags": [
+   "what if",
+   "jupiter",
+   "space facts",
+   "science",
+   "falling into jupiter",
+   "galileo probe",
+   "astronomy",
+   "strange facts"
+  ],
+  "first_comment": "58 minutes of falling with no ground — would you take the trip? 🪐👇"
+ },
+ "cover": {
+  "seg": 6,
+  "frac": 0.6,
+  "top": "STRANGE MINUTE",
+  "lines": [
+   "NO GROUND",
+   "TO LAND ON"
+  ],
+  "sub": "WHAT IF #8"
+ },
+ "sources": [
+  "NASA Galileo probe: entry ~47.4 km/s (~106,000 mph), 228 g, heat ~16,000 C (28,832 F), data 58 min, ~22 bar",
+  "Jupiter gravity ~2.4-2.5x Earth; gas giant with no solid surface; ammonia ice top clouds; Great Red Spot larger than Earth; metallic hydrogen interior (NASA)"
+ ]
+}
