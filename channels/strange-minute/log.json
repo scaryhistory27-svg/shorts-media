@@ -83,7 +83,7 @@
    "ep": 4,
    "topic": "What if the Sun switched off (8-minute light delay)",
    "area": "space",
-   "status": "scheduled",
+   "status": "published",
    "title": "What If The Sun Switched Off Right Now? ☀️😳 #shorts",
    "publish_time": "2026-11-18T18:30",
    "metricool_id": 433289731,
@@ -93,7 +93,24 @@
    "first_comment": true,
    "characters": "Max + Tick + astronaut",
    "cta": true,
-   "next_teased": "What if you fell into Jupiter?"
+   "next_teased": "What if you fell into Jupiter?",
+   "url": "https://www.youtube.com/shorts/zELIdk2qilY",
+   "note": "466 views + 16 likes in first 2 h (best so far); owner reports comments closed afterwards — likely YouTube 'made for kids' auto-designation, owner to check Studio"
+  },
+  {
+   "ep": 5,
+   "topic": "GTA 6 launch day (owner request, trend-jack, Nov 19 2026)",
+   "area": "gaming/pop culture",
+   "status": "scheduled",
+   "title": "What If GTA 6 Just Broke The Internet? 🎮😳 #shorts",
+   "publish_time": "2026-11-19T09:30",
+   "metricool_id": 434284478,
+   "uuid": "3607627854419413831",
+   "cover_ms": 39870,
+   "thumbnail": "frame",
+   "first_comment": true,
+   "characters": "Max + Tick",
+   "cta": true
   }
  ],
  "thumbnail": {
@@ -131,6 +148,6 @@
   }
  ],
  "voice": "am_fenrir (en-us, speed 0.9, explainer fx) — owner chose sample A 2026-11-17",
- "publish_time": "2026-11-18T18:30",
- "last_publish": "2026-11-18T18:30"
+ "publish_time": "2026-11-19T09:30",
+ "last_publish": "2026-11-19T09:30"
 }

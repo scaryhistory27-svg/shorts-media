@@ -1,3 +1,8 @@
+## 2026-11-19 ~06:20 LA — owner request: GTA 6 video on Strange Minute
+
+- SM #5 'What If GTA 6 Just Broke The Internet?' scheduled 09:30 LA (434284478, frame cover). SM #4 published (zELIdk2qilY) — custom cover rejected → SM stays frame; owner says comments closed on it (likely YouTube made-for-kids auto flag) → asked owner for Studio screenshot.
+- Next run 10:41 LA: horror NEW series (15:30) + SM 18:30 (Jupiter, teased).
+
 ## 2026-11-18 ~11:15 LA — autopilot run (both channels)
 
 - Marked MM214 P2 + SM #1–#3 published. 6 comment replies (vidIQ). Made + scheduled MM214 Part 3 (15:30, custom-cover probe) and SM #4 Sun (18:30, probe). Both with Subscribe CTA.

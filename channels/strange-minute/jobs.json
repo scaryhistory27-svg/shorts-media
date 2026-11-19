@@ -235,7 +235,7 @@
    "series": "strange-minute",
    "episode": 5,
    "title": "What If GTA 6 Just Broke The Internet? 🎮😳 #shorts",
-   "stage": "uploaded",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -257,12 +257,23 @@
     {
      "stage": "uploaded",
      "at": "2026-11-19T14:18:25Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-19T14:18:30Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-19T14:18:47Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-19T14:12:14Z",
-   "updated": "2026-11-19T14:18:25Z"
+   "updated": "2026-11-19T14:18:47Z",
+   "metricool_id": 434284478,
+   "uuid": 3607627854419413831,
+   "publish_time": "2026-11-19T09:30"
   }
  }
 }
