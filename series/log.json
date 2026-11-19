@@ -1,7 +1,7 @@
 {
- "publish_time": "2026-11-18T15:30",
+ "publish_time": "2026-11-19T15:30",
  "timezone": "America/Los_Angeles",
- "last_publish": "2026-11-18T15:30:00",
+ "last_publish": "2026-11-19T15:30:00",
  "series": [
   {
    "slug": "the-2am-knock",
@@ -107,6 +107,26 @@
      "url": "https://www.youtube.com/shorts/_eYSFqYwj2Q"
     }
    ]
+  },
+  {
+   "slug": "whos-home",
+   "title": "Who's Home",
+   "genres": [
+    "home-tech horror",
+    "documented voice logs",
+    "mystic reality twist"
+   ],
+   "episodes": [
+    {
+     "n": 1,
+     "publish": "2026-11-19T15:30:00",
+     "youtube_title": "Never Ask Your Smart Speaker Who's Home 🔊😨 #shorts",
+     "metricool_id": 434620167,
+     "thumbnail": "custom",
+     "first_comment": true,
+     "cta": true
+    }
+   ]
   }
  ],
  "voice": "am_michael:0.6,am_onyx:0.4 + mystic fx",
@@ -164,7 +184,8 @@
   "2026-11-17T10:00": "2026-11-17T09:30",
   "2026-11-17T16:00": "2026-11-17T15:30",
   "2026-11-18T16:00": "2026-11-18T15:30",
-  "2026-11-19T16:00": "2026-11-19T15:30"
+  "2026-11-19T16:00": "2026-11-19T15:30",
+  "2026-11-20T16:00": "2026-11-20T15:30"
  },
  "playlists": {
   "note": "2026-11-17: owner created 4 playlists, but the ids he sent are truncated (13 chars; a real id is 34) — waiting for the full links",

@@ -544,7 +544,7 @@
    "series": "whos-home",
    "episode": 1,
    "title": "Never Ask Your Smart Speaker Who's Home 🔊😨 #shorts",
-   "stage": "uploaded",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -570,12 +570,24 @@
     {
      "stage": "uploaded",
      "at": "2026-11-19T18:51:19Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-19T18:51:24Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-19T18:51:45Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-19T18:46:02Z",
-   "updated": "2026-11-19T18:51:19Z"
+   "updated": "2026-11-19T18:51:45Z",
+   "metricool_id": 434620167,
+   "uuid": 4003088664003628751,
+   "publish_time": "2026-11-19T15:30",
+   "thumbnail": "custom"
   }
  }
 }
