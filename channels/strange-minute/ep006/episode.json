@@ -1,0 +1,215 @@
+{
+ "series": "Strange Minute",
+ "episode": 6,
+ "title": "STRANGE MINUTE · GTA 6 · PART 2",
+ "stamp": "LEONIDA · 6 REGIONS",
+ "style": "light",
+ "bed": "light",
+ "voice": "am_fenrir",
+ "lang": "en-us",
+ "voice_fx": "explainer",
+ "speed": 0.9,
+ "gap": 0.4,
+ "music_level": 0.11,
+ "endTitle": "WHAT IF #7?",
+ "endSub": "Next: what if you fell into Jupiter?",
+ "cta": {
+  "text": "YOUR DAILY DOSE OF WEIRD.",
+  "hl": "WEIRD"
+ },
+ "lines": [
+  {
+   "scene": "start",
+   "text": "What happens when you start GTA 6?",
+   "say": "What happens when you start G.T.A. six?",
+   "hl": {
+    "GTA": "y",
+    "6?": "y"
+   },
+   "speed": 0.95,
+   "gap": 0.35,
+   "sfx": [
+    {
+     "at": "end",
+     "type": "ding"
+    }
+   ]
+  },
+  {
+   "scene": "map",
+   "text": "You land in Leonida. A made-up version of Florida.",
+   "hl": {
+    "Leonida.": "y",
+    "Florida.": "y"
+   }
+  },
+  {
+   "scene": "vice",
+   "text": "Its heart is Vice City. Neon, beaches and chaos.",
+   "hl": {
+    "Vice": "y",
+    "City.": "y",
+    "chaos.": "r"
+   },
+   "sfx": [
+    {
+     "word": "Vice",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "vice",
+   "text": "It's inspired by Miami. Just way more wild.",
+   "hl": {
+    "Miami.": "y",
+    "wild.": "r"
+   }
+  },
+  {
+   "scene": "map",
+   "text": "But that's just one of six regions.",
+   "hl": {
+    "six": "y"
+   }
+  },
+  {
+   "scene": "keys",
+   "text": "The Leonida Keys. Tiny tropical islands.",
+   "hl": {
+    "Keys.": "y"
+   }
+  },
+  {
+   "scene": "swamp",
+   "text": "Grassrivers. Endless swamps and alligators.",
+   "hl": {
+    "Grassrivers.": "y",
+    "alligators.": "r"
+   },
+   "sfx": [
+    {
+     "word": "alligators.",
+     "type": "pop"
+    }
+   ]
+  },
+  {
+   "scene": "port",
+   "text": "Port Gellhorn. A forgotten beach town.",
+   "hl": {
+    "Port": "y",
+    "Gellhorn.": "y",
+    "forgotten": "r"
+   }
+  },
+  {
+   "scene": "ambrosia",
+   "text": "Ambrosia. Sugar mills and biker gangs.",
+   "hl": {
+    "Ambrosia.": "y",
+    "biker": "r"
+   }
+  },
+  {
+   "scene": "mountain",
+   "text": "And Mount Kalaga. Wild forests and trails.",
+   "hl": {
+    "Kalaga.": "y"
+   }
+  },
+  {
+   "scene": "duo",
+   "text": "You play as two people. Lucia and Jason.",
+   "hl": {
+    "two": "y",
+    "Lucia": "y",
+    "Jason.": "y"
+   }
+  },
+  {
+   "scene": "duo",
+   "text": "A couple pulled into crime. Together.",
+   "hl": {
+    "crime.": "r",
+    "Together.": "y"
+   }
+  },
+  {
+   "scene": "consoles",
+   "text": "For now, only on PS5 and Xbox. No PC yet.",
+   "say": "For now, only on P.S. five and Xbox. No P.C. yet.",
+   "hl": {
+    "PS5": "y",
+    "Xbox.": "y",
+    "PC": "r"
+   }
+  },
+  {
+   "scene": "prison",
+   "text": "The strange part? The first trailer opens with Lucia in prison.",
+   "hl": {
+    "strange": "y",
+    "prison.": "r"
+   },
+   "sfx": [
+    {
+     "word": "strange",
+     "type": "rise"
+    }
+   ]
+  },
+  {
+   "scene": "endq",
+   "text": "So the moment you start GTA 6…",
+   "say": "So the moment you start G.T.A. six…",
+   "hl": {
+    "start": "y"
+   }
+  },
+  {
+   "scene": "endq",
+   "text": "Where are you going first?",
+   "hl": {
+    "first?": "r"
+   },
+   "gap": 0.6,
+   "sfx": [
+    {
+     "word": "first?",
+     "type": "chime"
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "What's Actually Inside GTA 6? 🌴🎮 #shorts",
+  "description": "Six regions, two outlaws, one wild state. 🌴 Where are you going first? 👇\n#gta6 #gaming #gtavi #vicecity #leonida #shorts",
+  "tags": [
+   "gta 6",
+   "gta 6 map",
+   "vice city",
+   "leonida",
+   "gta vi",
+   "gta 6 regions",
+   "lucia and jason",
+   "gaming facts"
+  ],
+  "first_comment": "Vice City, the Keys or the swamps — where are YOU going first? 🌴🐊👇"
+ },
+ "cover": {
+  "seg": 2,
+  "frac": 0.6,
+  "top": "STRANGE MINUTE",
+  "lines": [
+   "INSIDE",
+   "GTA 6"
+  ],
+  "sub": "PART 2"
+ },
+ "sources": [
+  "Wikipedia: protagonists Jason Duval & Lucia Caminos; Vice City (Miami-inspired), state of Leonida (Florida)",
+  "Map guides citing Rockstar 'Only in Leonida': six regions Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia, Mount Kalaga",
+  "Trailer 1 (Dec 2023) opens with Lucia in a Leonida Department of Corrections prison"
+ ]
+}

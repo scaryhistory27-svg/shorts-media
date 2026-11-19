@@ -265,15 +265,54 @@
     {
      "stage": "scheduled",
      "at": "2026-11-19T14:18:47Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-19T16:59:11Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-19T14:12:14Z",
-   "updated": "2026-11-19T14:18:47Z",
-   "metricool_id": 434284478,
+   "updated": "2026-11-19T16:59:11Z",
+   "metricool_id": 434487412,
    "uuid": 3607627854419413831,
    "publish_time": "2026-11-19T09:30"
+  },
+  "2026-11-19T18:30-strange-minute-ep6": {
+   "id": "2026-11-19T18:30-strange-minute-ep6",
+   "slot": "2026-11-19T18:30",
+   "series": "strange-minute",
+   "episode": 6,
+   "title": "What's Actually Inside GTA 6? 🌴🎮 #shorts",
+   "stage": "uploaded",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-19T16:59:11Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-19T17:06:13Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-19T17:06:13Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-19T17:06:14Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-19T17:06:14Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-19T16:59:11Z",
+   "updated": "2026-11-19T17:06:14Z"
   }
  }
 }
