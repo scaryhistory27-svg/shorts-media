@@ -184,6 +184,12 @@
  "trend_series": {
   "topic": "GTA 6 (launched 2026-11-19)",
   "since": "2026-11-19",
-  "owner": "owner 2026-11-19: keep making GTA 6 videos while it trends — secrets, easter eggs, story lines, 'what happens if you do/don't X'; MUST include real game frames; goal: show up in GTA 6 search"
+  "owner": "owner 2026-11-19: keep making GTA 6 videos while it trends — secrets, easter eggs, story lines, 'what happens if you do/don't X'; MUST include real game frames; goal: show up in GTA 6 search",
+  "limit": "3–4 videos total (owner 2026-11-19): one more = GTA 6 Secrets #2 on 2026-11-21T09:30, then stop"
+ },
+ "plan": {
+  "2026-11-20T18:30": "What if you fell into Jupiter? (space)",
+  "2026-11-21T09:30": "GTA 6 Secrets #2 — LAST GTA video",
+  "after": "normal topic rotation"
  }
 }

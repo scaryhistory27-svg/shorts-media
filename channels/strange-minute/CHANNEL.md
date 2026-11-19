@@ -115,8 +115,9 @@ Plus the channel's Subscribe CTA design (ribbon + gold button + Tick) on the end
 Once Windsor has ≥ 3 Strange Minute videos with data, compare them the same way and update this template from the best one.
 
 ## GTA 6 trend series (owner 2026-11-19 — overrides the topic rotation while GTA 6 is trending)
-GTA 6 launched 2026-11-19. Owner: "everyone is searching for it — I want to show up in search too". Until the owner says stop (or the
-channel's GTA videos clearly stop outperforming), EVERY Strange Minute slot is a GTA 6 video (max 1 non-GTA per day only if analytics say so).
+GTA 6 launched 2026-11-19. Owner: "everyone is searching for it — I want to show up in search too". LIMIT (owner 2026-11-19, later): 3–4 GTA 6 videos IN TOTAL are enough → #5 launch, #6 inside, #7 secrets are done;
+make exactly ONE more: 'GTA 6 Secrets #2' (new finds, what-happens-if) in slot 2026-11-21T09:30 (#7's end card promises it 'tomorrow'),
+then STOP the GTA series and go back to the normal topic rotation. Slot 2026-11-20T18:30 = 'What if you fell into Jupiter?' (teased earlier).
 - Topics: launch-week secrets & easter eggs, "what happens if you do / don't do X in GTA 6", story setup (no late-game spoilers in titles),
   characters, map/regions, hidden details, records. Research EVERY video with WebSearch (extended) on the newest player finds
   (TechRadar/Kotaku/IGN/GameSpot live blogs, reviews); phrase unconfirmed finds as "players say / players found". Never invent secrets.
