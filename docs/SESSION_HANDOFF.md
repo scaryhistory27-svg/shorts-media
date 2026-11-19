@@ -1,3 +1,8 @@
+## 2026-11-19 ~11:00 LA — autopilot run
+
+- Published: MM214 P3 (_eYSFqYwj2Q, custom cover OK → horror mode custom), SM #5 GTA (J6vKiw_7Ltg). New horror series Who's Home P1 scheduled 15:30. SM #8 Jupiter scheduled Nov 20 18:30. 1 comment reply (SM); horror reply was denied by the permission prompt — not retried.
+- Next run: Who's Home P2 (Nov 20 15:30) + SM Nov 21 09:30 GTA Secrets #2 (last GTA).
+
 ## 2026-11-19 ~09:35 LA — owner: 3–4 GTA videos total
 
 - Plan: Nov 20 18:30 Jupiter; Nov 21 09:30 GTA 6 Secrets #2 (LAST GTA, official stills); then normal rotation (CHANNEL.md updated).

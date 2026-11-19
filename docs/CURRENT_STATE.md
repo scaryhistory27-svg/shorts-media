@@ -1,14 +1,13 @@
 # CURRENT STATE (keep short — loaded at every session start)
-_Updated: 2026-11-18 ~11:15 LA (autopilot run)_
+_Updated: 2026-11-19 ~11:00 LA (autopilot run)_
 
 - **Owner** talks Russian. ONE scheduled task trig_019AGWEVNZ2pSkvrmwq8VS2V, daily 10:41 LA, fires into this session; covers BOTH channels.
-- **Cadence:** horror 1 video/day; Strange Minute 2/day until Nov 22 (09:30 + 18:30 defaults), 1/day from Nov 23. Autopilot picks hours.
-- **Every video now has the Subscribe CTA** (episode.json `cta`, owner approved 2026-11-18).
-- **Horror** (brand 8091052): Mile Marker 214 COMPLETE — P3 "A Cop From 1987 Knew My Name" scheduled 2026-11-18 15:30 (433277227, custom-cover PROBE).
-  **Next: NEW series → slot 2026-11-19T15:30** (Thu; override from 16:00). Research + 5 premises, ≥3 genres; not road/car/elevator/apartment door.
-- **2026-11-19 (owner):** SM #5 GTA 6 launch (09:30, 434487412) + SM GTA 6 part 2 'What's Actually Inside GTA 6?' (18:30, 434497777) both scheduled → today's SM slots are FILLED. Jupiter moved to Nov 20 (teased on part 2 end card). SM thumbnails = frame (probe failed).
-- **Strange Minute** (brand 8179515): #1–#3 published; #4 Sun switched off scheduled 2026-11-18 18:30 (433277347, custom-cover PROBE).
-  Next slots 2026-11-19 09:30 + 18:30. #5 teased on end card: "What if you fell into Jupiter?" (space twice in a row is NOT allowed → make Jupiter #6? No: #5 = body/everyday topic, #6 Jupiter — or change endSub on future videos).
-- **Thumbnail probes running on both channels** → next run read detailedStatus: warning "Could not upload video thumbnail" → stay frame; no warning → switch mode to custom.
-- Windsor stats (lag 1–2 days): 2 AM Knock P1 1366 views, 106 % avg viewed, 4 subs; P2 1204 / 54 %; Missing Floor P1 162 / 47 %; 2AM P3 105 / 47 %.
-- vidIQ balance ~103 credits (renews Dec 17). Playlists still waiting for full ids from owner.
+  Session now runs in environment **shorts-media** (env_01TWsepEGb85YBFW4DQvSLwZ) — allows rockstargames.com (official GTA 6 screenshots).
+- **Cadence:** horror 1 video/day; Strange Minute 2/day until Nov 22 (09:30 + 18:30), 1/day from Nov 23. Autopilot picks hours.
+- **Horror** (brand 8091052): thumbnails mode **custom** (MM214 P3 custom cover published without warning 2026-11-18).
+  NEW series **Who's Home** (series/whos-home/plan.md): P1 scheduled 2026-11-19 15:30 (434620167). **Next: P2 → slot 2026-11-20T15:30** (override from 16:00).
+- **Strange Minute** (brand 8179515, thumbnails frame): published #1–#5 (#5 GTA launch J6vKiw_7Ltg). Scheduled: GTA part 2 Nov 19 18:30 (434514670),
+  GTA secrets Nov 20 09:30 (434514731), Jupiter Nov 20 18:30 (434628778). **Next SM slot 2026-11-21T09:30 = GTA 6 Secrets #2 (LAST GTA video, official stills)**, then normal rotation.
+- Owner's best video model: 2 AM Knock P1 (warning hook + loop, 106 % viewed). Part 3s weak (MF P3 83 views / 21 %).
+- Every video: channel-specific Subscribe CTA, first comment, pacing template (CREATIVE_RULES / CHANNEL.md).
+- vidIQ ~96 credits. Playlists still waiting for full ids from owner. SM #4 comments closed (owner to check "made for kids" in Studio).

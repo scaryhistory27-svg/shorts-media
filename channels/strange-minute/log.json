@@ -143,6 +143,21 @@
    "first_comment": true,
    "cta": true,
    "images": "official Rockstar screenshots (credited)"
+  },
+  {
+   "ep": 8,
+   "topic": "What if you fell into Jupiter (Galileo probe facts)",
+   "area": "space",
+   "status": "scheduled",
+   "title": "What If You Fell Into Jupiter? 🪐😳 #shorts",
+   "publish_time": "2026-11-20T18:30",
+   "metricool_id": 434628778,
+   "uuid": "3858903947956866651",
+   "cover_ms": 22270,
+   "thumbnail": "frame",
+   "first_comment": true,
+   "cta": true,
+   "next_teased": "GTA 6 secrets #2"
   }
  ],
  "thumbnail": {
@@ -181,7 +196,7 @@
  ],
  "voice": "am_fenrir (en-us, speed 0.9, explainer fx) — owner chose sample A 2026-11-17",
  "publish_time": "2026-11-19T18:30",
- "last_publish": "2026-11-19T18:30",
+ "last_publish": "2026-11-20T18:30",
  "trend_series": {
   "topic": "GTA 6 (launched 2026-11-19)",
   "since": "2026-11-19",

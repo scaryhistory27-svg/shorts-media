@@ -43,3 +43,7 @@ ET evening 15:30), avoid Sunday mornings, and make Part 3s stand alone (strong n
 - The Note Under My Sink (2AM P3): 105 views, 47 %, 9 likes, 1 sub. Never Step Out On 13 (MF P1): 162 views, 47 %.
 - Takeaways: the clean warning hook + loop ending of 2AM P1 is the model; Part 3s and new-series P1s start weak → stronger standalone hooks in P3 (did: "He knew my name. Nobody lives out here."), keep loop endings.
 - Best-time (Metricool, both brands): Wed peak 16:00 (12033) > 15:00 (11147); Thu 16:00 (11979), 10:00 (10723); Fri 16:00 (10698) ≈ 14:00 (10485). WebSearch blogs: Wed/Thu 4 PM-ish and ET evening windows.
+
+## 2026-11-19 — Windsor (horror, data to ~Nov 18)
+- 2AM P1 1356 views / 105.8 %, 4 subs; 2AM P2 1194 / 53.7 %; MF P2 645 / 43.9 %; MF P1 190 / 53.5 %; 2AM P3 121 / 50.6 %; MF P3 83 / 21 %.
+- → Part 3s collapse; standalone Part 1 warning hooks win. New series Who's Home P1 uses the 2 AM P1 beat map. SM: no Windsor rows yet; vidIQ: SM #4 Sun 466 views in 2 h.

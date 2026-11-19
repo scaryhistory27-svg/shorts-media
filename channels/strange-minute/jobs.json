@@ -387,7 +387,7 @@
    "series": "strange-minute",
    "episode": 8,
    "title": "What If You Fell Into Jupiter? 🪐😳 #shorts",
-   "stage": "uploaded",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -409,12 +409,23 @@
     {
      "stage": "uploaded",
      "at": "2026-11-19T18:58:13Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-19T18:58:17Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-19T18:58:43Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-19T18:52:19Z",
-   "updated": "2026-11-19T18:58:13Z"
+   "updated": "2026-11-19T18:58:43Z",
+   "metricool_id": 434628778,
+   "uuid": 3858903947956866651,
+   "publish_time": "2026-11-20T18:30"
   }
  }
 }
