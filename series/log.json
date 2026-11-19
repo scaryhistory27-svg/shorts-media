@@ -101,9 +101,10 @@
      "publish": "2026-11-18T15:30:00",
      "youtube_title": "A Cop From 1987 Knew My Name 😨 #shorts",
      "metricool_id": 433289682,
-     "thumbnail": "custom-probe",
+     "thumbnail": "custom-ok",
      "first_comment": true,
-     "cta": true
+     "cta": true,
+     "url": "https://www.youtube.com/shorts/_eYSFqYwj2Q"
     }
    ]
   }
@@ -147,13 +148,14 @@
  ],
  "schedule_tz": "America/Los_Angeles",
  "thumbnail": {
-  "mode": "frame",
+  "mode": "custom",
   "fails": 3,
   "probe_every": 3,
   "since_probe": 0,
   "last_error": "2026-11-16 Missing Floor 1–2 custom covers rejected again (channel not verified)",
   "frame_ok": "2026-11-17 Missing Floor 3 + Mile Marker 1 published with frame covers, no warning",
-  "last_probe": "2026-11-18 MM214 P3 custom cover (probe after 3 frame videos) — check detailedStatus next run"
+  "last_probe": "2026-11-18 MM214 P3 custom cover (probe after 3 frame videos) — check detailedStatus next run",
+  "custom_ok": "2026-11-18 MM214 P3 custom cover published WITHOUT warning → channel verified, mode custom"
  },
  "slot_overrides": {
   "2026-11-15T16:00": "2026-11-15T15:30",

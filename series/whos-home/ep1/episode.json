@@ -1,0 +1,183 @@
+{
+ "series": "Who's Home",
+ "episode": 1,
+ "title": "WHO'S HOME · PART 1",
+ "stamp": "DAY 1 · 5:12 PM",
+ "endTitle": "PART 2?",
+ "endSub": "Who is Margaret?",
+ "music_level": 0.12,
+ "cta": {
+  "text": "DON'T LOSE PART 2. IT WON'T WAIT.",
+  "hl": "PART 2."
+ },
+ "lines": [
+  {
+   "scene": "speakerHook",
+   "text": "Never ask your smart speaker who's home.",
+   "hl": {
+    "Never": "r",
+    "home.": "y"
+   },
+   "speed": 1.2,
+   "gap": 0.35
+  },
+  {
+   "scene": "moveIn",
+   "text": "I moved in today. I live alone.",
+   "hl": {
+    "alone.": "y"
+   }
+  },
+  {
+   "scene": "askRoom",
+   "text": "As a joke, I asked: Is anyone else home?",
+   "hl": {
+    "anyone": "y",
+    "home?": "y"
+   }
+  },
+  {
+   "scene": "speakerClose",
+   "text": "It said: Yes. Two people are home.",
+   "hl": {
+    "Two": "r",
+    "people": "r"
+   },
+   "sfx": [
+    {
+     "word": "Two",
+     "type": "heart"
+    }
+   ]
+  },
+  {
+   "scene": "speakerClose",
+   "text": "I laughed. Then it said: You. And Margaret.",
+   "hl": {
+    "Margaret.": "r"
+   }
+  },
+  {
+   "scene": "askRoom",
+   "text": "I don't know a Margaret.",
+   "hl": {
+    "Margaret.": "y"
+   }
+  },
+  {
+   "scene": "hallway",
+   "text": "Then the hallway lights switched on. By themselves.",
+   "hl": {
+    "lights": "y",
+    "themselves.": "r"
+   },
+   "sfx": [
+    {
+     "word": "switched",
+     "type": "buzz"
+    }
+   ]
+  },
+  {
+   "scene": "speakerClose",
+   "text": "The speaker said: Margaret is in the attic.",
+   "hl": {
+    "attic.": "r"
+   }
+  },
+  {
+   "scene": "photo",
+   "text": "On the wall, a photo from the last owner.",
+   "hl": {
+    "photo": "y"
+   }
+  },
+  {
+   "scene": "photoBack",
+   "text": "On the back, a name. Margaret.",
+   "hl": {
+    "Margaret.": "r"
+   },
+   "sfx": [
+    {
+     "word": "Margaret.",
+     "type": "sting"
+    }
+   ]
+  },
+  {
+   "scene": "phoneCall",
+   "text": "I called the landlord. She never moved out.",
+   "hl": {
+    "never": "r",
+    "out.": "r"
+   }
+  },
+  {
+   "scene": "hallway",
+   "text": "Then the speaker whispered: She can hear you.",
+   "hl": {
+    "hear": "r",
+    "you.": "r"
+   },
+   "sfx": [
+    {
+     "word": "whispered:",
+     "type": "heart"
+    }
+   ]
+  },
+  {
+   "scene": "attic",
+   "text": "Above me, the attic door creaked open.",
+   "hl": {
+    "attic": "y",
+    "open.": "r"
+   },
+   "sfx": [
+    {
+     "word": "creaked",
+     "type": "creak"
+    }
+   ]
+  },
+  {
+   "scene": "attic",
+   "text": "And the speaker asked: Who are YOU?",
+   "hl": {
+    "YOU?": "r"
+   },
+   "sfx": [
+    {
+     "word": "YOU?",
+     "type": "sting"
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Never Ask Your Smart Speaker Who's Home 🔊😨 #shorts",
+  "description": "It said two people were home. I live alone. 🔊 Part 2? 👀\n#horrorstory #scary #creepy #smarthome #alexa #shorts",
+  "tags": [
+   "horror story",
+   "scary",
+   "creepy",
+   "smart speaker",
+   "alexa horror",
+   "scary story",
+   "horror animation",
+   "haunted house"
+  ],
+  "first_comment": "Would you go up to that attic? 🔦👀👇 Part 2 tomorrow."
+ },
+ "cover": {
+  "seg": 12,
+  "frac": 0.7,
+  "top": "WHO'S HOME",
+  "lines": [
+   "IT SAID",
+   "2 PEOPLE"
+  ],
+  "sub": "PART 1"
+ }
+}
