@@ -1,0 +1,213 @@
+{
+ "series": "Strange Minute",
+ "episode": 5,
+ "title": "STRANGE MINUTE · WHAT IF #5",
+ "stamp": "LAUNCH DAY · NOV 19",
+ "style": "light",
+ "bed": "light",
+ "voice": "am_fenrir",
+ "lang": "en-us",
+ "voice_fx": "explainer",
+ "speed": 0.9,
+ "gap": 0.4,
+ "music_level": 0.11,
+ "endTitle": "WHAT IF #6?",
+ "endSub": "Next: what if you fell into Jupiter?",
+ "cta": {
+  "text": "STAY CURIOUS. NEW 'WHAT IF' TOMORROW.",
+  "hl": "CURIOUS"
+ },
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "What if GTA 6 broke the internet?",
+   "say": "What if G.T.A. six broke the internet?",
+   "hl": {
+    "GTA": "y",
+    "6": "y",
+    "internet?": "y"
+   },
+   "speed": 0.95,
+   "gap": 0.35,
+   "sfx": [
+    {
+     "at": "end",
+     "type": "ding"
+    }
+   ]
+  },
+  {
+   "scene": "calendar",
+   "text": "Today it finally launched. After two delays.",
+   "hl": {
+    "finally": "y",
+    "two": "r"
+   }
+  },
+  {
+   "scene": "midnight",
+   "text": "It unlocks at midnight, one time zone at a time.",
+   "hl": {
+    "midnight,": "y"
+   },
+   "sfx": [
+    {
+     "word": "midnight,",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "trailer",
+   "text": "Its first trailer hit 90 million views in one day.",
+   "say": "Its first trailer hit ninety million views in one day.",
+   "hl": {
+    "90": "y",
+    "million": "y"
+   }
+  },
+  {
+   "scene": "trailer",
+   "text": "No non-music video had ever done that.",
+   "hl": {
+    "non-music": "y",
+    "ever": "r"
+   },
+   "sfx": [
+    {
+     "word": "ever",
+     "type": "pop"
+    }
+   ]
+  },
+  {
+   "scene": "money",
+   "text": "Then the pre-orders. Analysts estimate 19 million copies.",
+   "say": "Then the pre-orders. Analysts estimate nineteen million copies.",
+   "hl": {
+    "19": "y",
+    "million": "y"
+   }
+  },
+  {
+   "scene": "money",
+   "text": "Roughly 1.8 billion dollars, before day one even ended.",
+   "say": "Roughly one point eight billion dollars, before day one even ended.",
+   "hl": {
+    "1.8": "y",
+    "billion": "y"
+   }
+  },
+  {
+   "scene": "record",
+   "text": "GTA 5's first day made 815 million. A world record.",
+   "say": "G.T.A. five's first day made eight hundred fifteen million. A world record.",
+   "hl": {
+    "815": "y",
+    "record.": "r"
+   }
+  },
+  {
+   "scene": "stack",
+   "text": "GTA 5 has now sold over 230 million copies.",
+   "say": "G.T.A. five has now sold over two hundred thirty million copies.",
+   "hl": {
+    "230": "y",
+    "million": "y"
+   }
+  },
+  {
+   "scene": "servers",
+   "text": "Last night, PlayStation players hit sign-in trouble.",
+   "hl": {
+    "sign-in": "r",
+    "trouble.": "r"
+   },
+   "sfx": [
+    {
+     "word": "trouble.",
+     "type": "pop"
+    }
+   ]
+  },
+  {
+   "scene": "years",
+   "text": "The strange part? GTA 5 came out in 2013.",
+   "say": "The strange part? G.T.A. five came out in twenty thirteen.",
+   "hl": {
+    "strange": "y",
+    "2013.": "y"
+   },
+   "sfx": [
+    {
+     "word": "strange",
+     "type": "rise"
+    }
+   ]
+  },
+  {
+   "scene": "years",
+   "text": "Some fans waited longer than some players have been alive.",
+   "hl": {
+    "waited": "y",
+    "alive.": "r"
+   }
+  },
+  {
+   "scene": "endq",
+   "text": "So is the internet really broken right now?",
+   "hl": {
+    "broken": "y",
+    "now?": "y"
+   },
+   "sfx": [
+    {
+     "word": "broken",
+     "type": "chime"
+    }
+   ]
+  },
+  {
+   "scene": "endq",
+   "text": "Or is everyone just playing?",
+   "hl": {
+    "playing?": "r"
+   },
+   "gap": 0.6
+  }
+ ],
+ "youtube": {
+  "title": "What If GTA 6 Just Broke The Internet? 🎮😳 #shorts",
+  "description": "Launch day is here — and the numbers are wild. 🎮 Are you playing tonight? 👇\n#gta6 #whatif #gaming #gta #facts #shorts",
+  "tags": [
+   "gta 6",
+   "gta 6 release",
+   "gta vi",
+   "gta 6 launch",
+   "what if",
+   "gaming facts",
+   "gta 5",
+   "strange facts"
+  ],
+  "first_comment": "Be honest — are you playing GTA 6 tonight or waiting? 🎮👇"
+ },
+ "cover": {
+  "seg": 9,
+  "frac": 0.6,
+  "top": "STRANGE MINUTE",
+  "lines": [
+   "GTA 6 BROKE",
+   "THE INTERNET?"
+  ],
+  "sub": "WHAT IF #5"
+ },
+ "sources": [
+  "Guinness/YouTube: Trailer 1 90.4M views in 24h, most-viewed non-music video in 24h (Dec 2023)",
+  "Rockstar: delays May 26 2026 → Nov 19 2026",
+  "Sensor Tower estimate via GameSpot: ~19.05M units / ~$1.84B pre-purchases (Nov 2026)",
+  "Guinness: GTA V $815.7M first day, biggest entertainment launch",
+  "Take-Two Aug 2026 call: GTA V 230M+ units",
+  "Launch-night PSN sign-in problems (happygamer, Nov 2026)",
+  "Staggered midnight local-time rollout (ABC News)"
+ ]
+}

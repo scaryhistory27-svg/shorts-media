@@ -185,8 +185,8 @@
    "series": "strange-minute",
    "episode": 4,
    "title": "What If The Sun Switched Off Right Now? ☀️😳 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -211,16 +211,58 @@
     {
      "stage": "scheduled",
      "at": "2026-11-18T19:17:48Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-19T14:18:25Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-18T18:58:03Z",
-   "updated": "2026-11-18T19:17:48Z",
+   "updated": "2026-11-19T14:18:25Z",
    "metricool_id": 433289731,
    "uuid": 8016905342459593102,
    "publish_time": "2026-11-18T18:30",
-   "note": "thumbnail_probe_custom"
+   "note": "thumbnail_probe_custom",
+   "youtube_id": "zELIdk2qilY",
+   "youtube_url": "https://www.youtube.com/shorts/zELIdk2qilY",
+   "thumbnail_warning": "Could not upload video thumbnail (probe)"
+  },
+  "2026-11-19T09:30-strange-minute-ep5": {
+   "id": "2026-11-19T09:30-strange-minute-ep5",
+   "slot": "2026-11-19T09:30",
+   "series": "strange-minute",
+   "episode": 5,
+   "title": "What If GTA 6 Just Broke The Internet? 🎮😳 #shorts",
+   "stage": "uploaded",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-19T14:12:14Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-19T14:18:25Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-19T14:18:25Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-19T14:18:25Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-19T14:18:25Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-19T14:12:14Z",
+   "updated": "2026-11-19T14:18:25Z"
   }
  }
 }
