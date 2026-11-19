@@ -285,7 +285,7 @@
    "series": "strange-minute",
    "episode": 6,
    "title": "What's Actually Inside GTA 6? 🌴🎮 #shorts",
-   "stage": "uploaded",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -307,12 +307,23 @@
     {
      "stage": "uploaded",
      "at": "2026-11-19T17:06:14Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-19T17:06:17Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-19T17:06:35Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-19T16:59:11Z",
-   "updated": "2026-11-19T17:06:14Z"
+   "updated": "2026-11-19T17:06:35Z",
+   "metricool_id": 434497777,
+   "uuid": -833439716858114289,
+   "publish_time": "2026-11-19T18:30"
   }
  }
 }

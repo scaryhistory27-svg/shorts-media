@@ -1,3 +1,7 @@
+## 2026-11-19 ~09:10 LA — owner: second GTA 6 video about the game itself
+
+- SM GTA 6 part 2 scheduled 18:30 (434497777). 09:30 video re-rendered: end card now teases part 2 ('PART 2 TONIGHT'). Both SM slots today filled → autopilot 10:41 only makes the horror slot (new series 15:30). Jupiter = Nov 20 09:30.
+
 ## 2026-11-19 ~06:20 LA — owner request: GTA 6 video on Strange Minute
 
 - SM #5 'What If GTA 6 Just Broke The Internet?' scheduled 09:30 LA (434284478, frame cover). SM #4 published (zELIdk2qilY) — custom cover rejected → SM stays frame; owner says comments closed on it (likely YouTube made-for-kids auto flag) → asked owner for Studio screenshot.

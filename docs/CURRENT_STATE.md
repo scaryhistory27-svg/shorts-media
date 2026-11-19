@@ -6,6 +6,7 @@ _Updated: 2026-11-18 ~11:15 LA (autopilot run)_
 - **Every video now has the Subscribe CTA** (episode.json `cta`, owner approved 2026-11-18).
 - **Horror** (brand 8091052): Mile Marker 214 COMPLETE — P3 "A Cop From 1987 Knew My Name" scheduled 2026-11-18 15:30 (433277227, custom-cover PROBE).
   **Next: NEW series → slot 2026-11-19T15:30** (Thu; override from 16:00). Research + 5 premises, ≥3 genres; not road/car/elevator/apartment door.
+- **2026-11-19 (owner):** SM #5 GTA 6 launch (09:30, 434487412) + SM GTA 6 part 2 'What's Actually Inside GTA 6?' (18:30, 434497777) both scheduled → today's SM slots are FILLED. Jupiter moved to Nov 20 (teased on part 2 end card). SM thumbnails = frame (probe failed).
 - **Strange Minute** (brand 8179515): #1–#3 published; #4 Sun switched off scheduled 2026-11-18 18:30 (433277347, custom-cover PROBE).
   Next slots 2026-11-19 09:30 + 18:30. #5 teased on end card: "What if you fell into Jupiter?" (space twice in a row is NOT allowed → make Jupiter #6? No: #5 = body/everyday topic, #6 Jupiter — or change endSub on future videos).
 - **Thumbnail probes running on both channels** → next run read detailedStatus: warning "Could not upload video thumbnail" → stay frame; no warning → switch mode to custom.

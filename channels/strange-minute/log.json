@@ -112,6 +112,21 @@
    "characters": "Max + Tick",
    "cta": true,
    "next_teased": "GTA 6 part 2 — what's inside (owner)"
+  },
+  {
+   "ep": 6,
+   "topic": "GTA 6 part 2 — what's inside (regions, protagonists) — owner request",
+   "area": "gaming",
+   "status": "scheduled",
+   "title": "What's Actually Inside GTA 6? 🌴🎮 #shorts",
+   "publish_time": "2026-11-19T18:30",
+   "metricool_id": 434497777,
+   "uuid": "-833439716858114289",
+   "cover_ms": 9650,
+   "thumbnail": "frame",
+   "first_comment": true,
+   "cta": true,
+   "next_teased": "Jupiter"
   }
  ],
  "thumbnail": {
@@ -149,6 +164,6 @@
   }
  ],
  "voice": "am_fenrir (en-us, speed 0.9, explainer fx) — owner chose sample A 2026-11-17",
- "publish_time": "2026-11-19T09:30",
- "last_publish": "2026-11-19T09:30"
+ "publish_time": "2026-11-19T18:30",
+ "last_publish": "2026-11-19T18:30"
 }
