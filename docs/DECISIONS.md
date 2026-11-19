@@ -47,3 +47,4 @@
 - 2026-11-18: Owner: same pacing settings for Strange Minute → beat map added to channels/strange-minute/CHANNEL.md.
 - 2026-11-19: Owner: GTA 6 trend series on Strange Minute (secrets/what-happens-if, official Rockstar screenshots credited, GTA keywords for search). New environment 'shorts-media' allows rockstargames.com. Jupiter postponed.
 - 2026-11-19: Owner: 3–4 GTA 6 videos total is enough → one more (Secrets #2, Nov 21 09:30), then normal rotation; Jupiter Nov 20 18:30.
+- 2026-11-19: Owner: never reply to his own comments → hashed skip list series/log.json owner_comment_hashes.

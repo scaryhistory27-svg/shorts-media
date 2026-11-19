@@ -182,6 +182,8 @@ Daily (every autopilot run):
   (vidIQ rate-limits bursts — on "Too many replies" stop and retry the rest next run; never re-post after an uncertain result).
   Replies: English, ≤ 120 chars, friendly, in character, 1–2 emoji, answer/tease without spoilers, point to the next part when it exists,
   no links, no begging for subs. Skip the owner's own comments, spam and rude ones. List every reply in the report.
+  **NEVER reply to the owner's own accounts (owner 2026-11-19: "don't answer my comments").** Handles are not stored here (public repo) —
+  compare sha256(lowercased author handle incl. '@')[:16] with `owner_comment_hashes` in series/log.json and skip on a match.
 - **Windsor.ai playlists** → if `series/log.json` → `playlists` has ids (owner creates them in YouTube), add every new horror part to its
   series playlist and every Strange Minute video to its playlist after it is published.
 - **vidIQ** → research only, budget ≤ 5 credits/day (see above).
