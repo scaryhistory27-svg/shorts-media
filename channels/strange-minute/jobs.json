@@ -324,6 +324,41 @@
    "metricool_id": 434497777,
    "uuid": -833439716858114289,
    "publish_time": "2026-11-19T18:30"
+  },
+  "2026-11-20T09:30-strange-minute-ep7": {
+   "id": "2026-11-20T09:30-strange-minute-ep7",
+   "slot": "2026-11-20T09:30",
+   "series": "strange-minute",
+   "episode": 7,
+   "title": "GTA 6 Secrets: Never Steal A Car With A Cat 🐱😳 #shorts",
+   "stage": "uploaded",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-19T17:09:46Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-19T17:20:05Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-19T17:20:05Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-19T17:20:05Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-19T17:20:05Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-19T17:09:46Z",
+   "updated": "2026-11-19T17:20:05Z"
   }
  }
 }

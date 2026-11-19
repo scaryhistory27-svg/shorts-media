@@ -1,0 +1,214 @@
+{
+ "series": "Strange Minute",
+ "episode": 7,
+ "title": "STRANGE MINUTE · GTA 6 · SECRETS",
+ "stamp": "VICE CITY · LAUNCH WEEK",
+ "style": "light",
+ "bed": "light",
+ "voice": "am_fenrir",
+ "lang": "en-us",
+ "voice_fx": "explainer",
+ "speed": 0.9,
+ "gap": 0.4,
+ "music_level": 0.11,
+ "endTitle": "SECRET #2?",
+ "endSub": "More hidden secrets tomorrow",
+ "cta": {
+  "text": "DON'T MISS THE NEXT SECRET.",
+  "hl": "SECRET."
+ },
+ "lines": [
+  {
+   "scene": "catcar",
+   "text": "Never steal this car in GTA 6.",
+   "say": "Never steal this car in G.T.A. six.",
+   "hl": {
+    "Never": "r",
+    "car": "y",
+    "GTA": "y",
+    "6.": "y"
+   },
+   "speed": 1.0,
+   "gap": 0.35,
+   "sfx": [
+    {
+     "at": "end",
+     "type": "ding"
+    }
+   ]
+  },
+  {
+   "scene": "catcar",
+   "text": "There's a cat inside. Players say it growls, then attacks you.",
+   "hl": {
+    "cat": "y",
+    "growls,": "y",
+    "attacks": "r"
+   },
+   "sfx": [
+    {
+     "word": "attacks",
+     "type": "pop"
+    }
+   ]
+  },
+  {
+   "scene": "launch",
+   "text": "GTA 6 dropped today, and secrets are already leaking out.",
+   "say": "G.T.A. six dropped today, and secrets are already leaking out.",
+   "hl": {
+    "today,": "y",
+    "secrets": "y"
+   }
+  },
+  {
+   "scene": "tower",
+   "text": "Climb the tallest tower in Vice City.",
+   "hl": {
+    "tallest": "y",
+    "Vice": "y",
+    "City.": "y"
+   }
+  },
+  {
+   "scene": "tower",
+   "text": "It takes about six minutes to reach the top.",
+   "hl": {
+    "six": "y",
+    "minutes": "y"
+   }
+  },
+  {
+   "scene": "nest",
+   "text": "Up there, a bird's nest. With one egg.",
+   "hl": {
+    "nest.": "y",
+    "egg.": "y"
+   }
+  },
+  {
+   "scene": "nest",
+   "text": "Throw that egg, and a secret cutscene plays.",
+   "hl": {
+    "Throw": "y",
+    "secret": "r",
+    "cutscene": "r"
+   },
+   "sfx": [
+    {
+     "word": "secret",
+     "type": "chime"
+    }
+   ]
+  },
+  {
+   "scene": "jetski",
+   "text": "Stuck on the water? A dog in goggles can ride up on a jet ski.",
+   "hl": {
+    "dog": "y",
+    "goggles": "y",
+    "jet": "y",
+    "ski.": "y"
+   },
+   "sfx": [
+    {
+     "word": "jet",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "choices",
+   "text": "And this time, your choices really matter.",
+   "hl": {
+    "choices": "y",
+    "matter.": "r"
+   }
+  },
+  {
+   "scene": "change",
+   "text": "Hurt too many people, and Jason and Lucia change.",
+   "hl": {
+    "Hurt": "r",
+    "change.": "y"
+   }
+  },
+  {
+   "scene": "noreturn",
+   "text": "Reviewers say there's a point of no return.",
+   "hl": {
+    "no": "r",
+    "return.": "r"
+   }
+  },
+  {
+   "scene": "wasted",
+   "text": "Push it too far, and they end up arrested. Or wasted.",
+   "hl": {
+    "arrested.": "r",
+    "wasted.": "r"
+   }
+  },
+  {
+   "scene": "prison",
+   "text": "The strange part? Lucia doesn't start free. She starts in prison.",
+   "hl": {
+    "strange": "y",
+    "prison.": "r"
+   },
+   "sfx": [
+    {
+     "word": "strange",
+     "type": "rise"
+    }
+   ]
+  },
+  {
+   "scene": "endq",
+   "text": "So will you play nice tonight?",
+   "hl": {
+    "nice": "y"
+   }
+  },
+  {
+   "scene": "endq",
+   "text": "Or will you steal the car with the cat?",
+   "hl": {
+    "cat?": "r"
+   },
+   "gap": 0.6
+  }
+ ],
+ "youtube": {
+  "title": "GTA 6 Secrets: Never Steal A Car With A Cat 🐱😳 #shorts",
+  "description": "Launch-day secrets players found in GTA 6 — the cat, the egg, the jet-ski dog. 🐱🥚 Which one will you try first? 👇\nScreenshots: Rockstar Games (official press images).\n#gta6 #gta6secrets #gta6eastereggs #gaming #vicecity #shorts",
+  "tags": [
+   "gta 6",
+   "gta 6 secrets",
+   "gta 6 easter eggs",
+   "gta 6 tips",
+   "gta vi",
+   "vice city",
+   "gta 6 cat",
+   "gaming"
+  ],
+  "first_comment": "Which GTA 6 secret are you trying first — the cat, the egg or the jet-ski dog? 🐱🥚🐶👇"
+ },
+ "cover": {
+  "seg": 0,
+  "frac": 0.7,
+  "top": "GTA 6 SECRETS",
+  "lines": [
+   "NEVER STEAL",
+   "THIS CAR"
+  ],
+  "sub": "SECRET #1"
+ },
+ "sources": [
+  "TechRadar live launch blog Nov 19 2026: cat in a stolen car growls and attacks; dog in goggles on a jet ski can pull up",
+  "Kotaku live updates / IBTimes UK: bird's nest + egg atop Vice City's tallest tower (~6–7 min climb), throwing it triggers a cutscene",
+  "Reviews (GamingBible, Shacknews, VGC): actions can lead to Jason/Lucia arrested or wasted; personalities change; point of no return",
+  "Review: Lucia starts off incarcerated",
+  "Images: official screenshots, rockstargames.com/VI/downloads/screenshots"
+ ]
+}
