@@ -113,3 +113,20 @@ Every Strange Minute video follows this beat map:
 8. last line: loops back to the opening question in the present tense ("So is the Sun still there right now? You won't know for 8 minutes.").
 Plus the channel's Subscribe CTA design (ribbon + gold button + Tick) on the end card.
 Once Windsor has ≥ 3 Strange Minute videos with data, compare them the same way and update this template from the best one.
+
+## GTA 6 trend series (owner 2026-11-19 — overrides the topic rotation while GTA 6 is trending)
+GTA 6 launched 2026-11-19. Owner: "everyone is searching for it — I want to show up in search too". Until the owner says stop (or the
+channel's GTA videos clearly stop outperforming), EVERY Strange Minute slot is a GTA 6 video (max 1 non-GTA per day only if analytics say so).
+- Topics: launch-week secrets & easter eggs, "what happens if you do / don't do X in GTA 6", story setup (no late-game spoilers in titles),
+  characters, map/regions, hidden details, records. Research EVERY video with WebSearch (extended) on the newest player finds
+  (TechRadar/Kotaku/IGN/GameSpot live blogs, reviews); phrase unconfirmed finds as "players say / players found". Never invent secrets.
+- REAL GAME FRAMES are mandatory: only OFFICIAL Rockstar screenshots from rockstargames.com/VI/downloads/screenshots
+  (Rockstar offers them to "download and share"; host allowed in the `shorts-media` environment). Download at imwidth=1280 into
+  `<ep>/build/img/` (git-ignored — never commit Rockstar images to this public repo); render.js passes them to the page as data URLs.
+  Show them as a rounded card with Ken Burns + blurred backdrop + "IMAGE: ROCKSTAR GAMES" credit; our characters/props animate around
+  the card (real animation rule still applies). Never use trailer/gameplay VIDEO clips (Content ID) and never the logo.
+  Template: channels/strange-minute/ep007/scenes.js (`still()` helper).
+- Metadata for search: title starts with "GTA 6" + keyword ("GTA 6 Secrets:", "GTA 6:", "What Happens If You … In GTA 6"),
+  tags gta 6 / gta 6 secrets / gta 6 easter eggs / gta 6 tips / gta vi / vice city; category GAMING; description credits
+  "Screenshots: Rockstar Games (official press images)"; hashtags #gta6 #gta6secrets #gta6eastereggs #gaming #shorts.
+- End card teases the next GTA secret (endTitle "SECRET #n?"), CTA "DON'T MISS THE NEXT SECRET." etc.

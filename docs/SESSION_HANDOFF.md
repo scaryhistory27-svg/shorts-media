@@ -1,3 +1,7 @@
+## 2026-11-19 ~09:25 LA — GTA 6 trend series started (owner)
+
+- SM #7 'GTA 6 Secrets: Never Steal A Car With A Cat' scheduled Nov 20 09:30 (434514731) with official Rockstar stills. Tonight's part 2 (434514670) now teases the secrets. Rules in CHANNEL.md 'GTA 6 trend series'. Next SM slot Nov 20 18:30 = GTA 6 again (new secrets/what-happens-if, fresh research).
+
 ## 2026-11-19 ~09:10 LA — owner: second GTA 6 video about the game itself
 
 - SM GTA 6 part 2 scheduled 18:30 (434497777). 09:30 video re-rendered: end card now teases part 2 ('PART 2 TONIGHT'). Both SM slots today filled → autopilot 10:41 only makes the horror slot (new series 15:30). Jupiter = Nov 20 09:30.

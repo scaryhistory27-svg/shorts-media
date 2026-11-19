@@ -120,13 +120,28 @@
    "status": "scheduled",
    "title": "What's Actually Inside GTA 6? 🌴🎮 #shorts",
    "publish_time": "2026-11-19T18:30",
-   "metricool_id": 434497777,
+   "metricool_id": 434514670,
    "uuid": "-833439716858114289",
    "cover_ms": 9650,
    "thumbnail": "frame",
    "first_comment": true,
    "cta": true,
-   "next_teased": "Jupiter"
+   "next_teased": "GTA 6 secrets"
+  },
+  {
+   "ep": 7,
+   "topic": "GTA 6 secrets: cat in stolen car, egg on tallest tower, jet-ski dog, choices/point of no return, Lucia starts in prison",
+   "area": "gaming (GTA 6 trend series)",
+   "status": "scheduled",
+   "title": "GTA 6 Secrets: Never Steal A Car With A Cat 🐱😳 #shorts",
+   "publish_time": "2026-11-20T09:30",
+   "metricool_id": 434514731,
+   "uuid": "8687490852241362807",
+   "cover_ms": 2450,
+   "thumbnail": "frame",
+   "first_comment": true,
+   "cta": true,
+   "images": "official Rockstar screenshots (credited)"
   }
  ],
  "thumbnail": {
@@ -165,5 +180,10 @@
  ],
  "voice": "am_fenrir (en-us, speed 0.9, explainer fx) — owner chose sample A 2026-11-17",
  "publish_time": "2026-11-19T18:30",
- "last_publish": "2026-11-19T18:30"
+ "last_publish": "2026-11-19T18:30",
+ "trend_series": {
+  "topic": "GTA 6 (launched 2026-11-19)",
+  "since": "2026-11-19",
+  "owner": "owner 2026-11-19: keep making GTA 6 videos while it trends — secrets, easter eggs, story lines, 'what happens if you do/don't X'; MUST include real game frames; goal: show up in GTA 6 search"
+ }
 }
