@@ -453,7 +453,7 @@
    "series": "strange-minute",
    "episode": 9,
    "title": "GTA 6 Secrets: Never Go Here After 2 AM 👽😳 #shorts",
-   "stage": "uploaded",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -475,12 +475,22 @@
     {
      "stage": "uploaded",
      "at": "2026-11-20T18:54:43Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-20T18:54:47Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-20T18:55:02Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-20T18:49:35Z",
-   "updated": "2026-11-20T18:54:43Z"
+   "updated": "2026-11-20T18:55:02Z",
+   "metricool_id": 435960259,
+   "publish_time": "2026-11-21T10:00"
   }
  }
 }

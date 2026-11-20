@@ -161,6 +161,18 @@
    "cta": true,
    "next_teased": "GTA 6 secrets #2",
    "format": "v2"
+  },
+  {
+   "ep": 9,
+   "topic": "GTA 6 Secrets #2 (UFO after 2 AM, Bigfoot, dog island, Chiliad callback) — LAST GTA video",
+   "area": "gaming",
+   "status": "scheduled",
+   "title": "GTA 6 Secrets: Never Go Here After 2 AM 👽😳 #shorts",
+   "publish_time": "2026-11-21T10:00",
+   "metricool_id": 435960259,
+   "cover_ms": 5567,
+   "thumbnail": "frame",
+   "format": "v2"
   }
  ],
  "thumbnail": {
@@ -204,7 +216,8 @@
   "topic": "GTA 6 (launched 2026-11-19)",
   "since": "2026-11-19",
   "owner": "owner 2026-11-19: keep making GTA 6 videos while it trends — secrets, easter eggs, story lines, 'what happens if you do/don't X'; MUST include real game frames; goal: show up in GTA 6 search",
-  "limit": "3–4 videos total (owner 2026-11-19): one more = GTA 6 Secrets #2 on 2026-11-21T09:30, then stop"
+  "limit": "3–4 videos total (owner 2026-11-19): one more = GTA 6 Secrets #2 on 2026-11-21T09:30, then stop",
+  "status": "DONE (4 videos) — back to normal rotation"
  },
  "plan": {
   "2026-11-20T18:30": "What if you fell into Jupiter? (space)",
