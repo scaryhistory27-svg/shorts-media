@@ -1,3 +1,16 @@
+## 2026-11-20T19:39:23Z — auto checkpoint before context compaction
+
+```
+jobs file: series/jobs.json — 12 jobs
+  done/scheduled: 2026-11-19T15:30-whos-home-ep1  stage=published  title=Never Ask Your Smart Speaker Who's Home 🔊😨 #shorts  url=https://www.youtube.com/shorts/R3z-wQ2kbgE
+  done/scheduled: 2026-11-20T15:30-whos-home-ep2  stage=scheduled  title=My Smart Speaker Recorded Me Before I Moved In 🔊😨 #shorts  url=-
+  done/scheduled: 2026-11-21T07:00-whos-home-ep3  stage=scheduled  title=My Smart Speaker Knew I Was Dead 🔊😨 #shorts  url=-
+  UNFINISHED: 2026-11-20T15:30-whos-home-ep2  stage=scheduled  status=active  retries=0
+  UNFINISHED: 2026-11-21T07:00-whos-home-ep3  stage=scheduled  status=active  retries=0
+2026-11-20T15:30-whos-home-ep2: last verified stage 'scheduled', next stage 'published'
+HEAD: 099472d Autopilot 2026-11-20: 4 videos scheduled; state, review notes
+```
+
 ## 2026-11-20 ~11:10 LA — autopilot run DONE
 
 - Scheduled 4: WH P2 Nov 20 15:30, WH P3 Nov 21 07:00, SM GTA Secrets #2 Nov 21 10:00, SM no-sleep Nov 21 18:30 (v2). Comments step skipped this run (context budget) — do it next run.
