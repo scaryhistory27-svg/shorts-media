@@ -51,3 +51,8 @@ ET evening 15:30), avoid Sunday mornings, and make Part 3s stand alone (strong n
 ## 2026-11-19 — vidIQ snapshot (all videos)
 Horror: 2AM P1 1363 · 2AM P2 1198 · MF P2 717 · MM P1 343 · MM P2 315 · MF P1 224 · 2AM P3 130 · MF P3 110 · MM P3 25 (1 day).
 SM: Earth spin 1210 · Sun off 1145 (44 vph) · GTA launch 560 (51 vph, 9 h) · Molasses 169 · Moon 132. Subscribers stuck at 13–14.
+
+## 2026-11-20 — review
+SM: Sun off 1337 · Earth spin 1211 · GTA inside 992 (16 h) · GTA launch 638 · Molasses 238 · Moon 132 · GTA secrets 58 (1 h). Avg first-24h by hour: 18:00 → 871, 09:00 → 268.
+Horror: Who's Home P1 106 (19 h) — weak; P1/P2 of first series still best. Horror 15:30 avg 71 (n=5, mostly Part 2/3s) vs 09:00 173 → standalone stories next; test morning slot 07:00.
+Trends: GTA 6 week (UFO/Bigfoot/Chiliad finds — GamingBible, Nerdism); smart-speaker horror evergreen.

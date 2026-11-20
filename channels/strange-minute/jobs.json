@@ -498,7 +498,7 @@
    "series": "strange-minute",
    "episode": 10,
    "title": "What If You Didn't Sleep For 11 Days? 😵😳 #shorts",
-   "stage": "uploaded",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -520,12 +520,22 @@
     {
      "stage": "uploaded",
      "at": "2026-11-20T19:06:18Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-20T19:06:21Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-20T19:06:48Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-20T19:02:05Z",
-   "updated": "2026-11-20T19:06:18Z"
+   "updated": "2026-11-20T19:06:48Z",
+   "metricool_id": 435972850,
+   "publish_time": "2026-11-21T18:30"
   }
  }
 }

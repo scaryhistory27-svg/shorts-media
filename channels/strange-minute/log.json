@@ -119,7 +119,7 @@
    "ep": 6,
    "topic": "GTA 6 part 2 — what's inside (regions, protagonists) — owner request",
    "area": "gaming",
-   "status": "scheduled",
+   "status": "published",
    "title": "What's Actually Inside GTA 6? 🌴🎮 #shorts",
    "publish_time": "2026-11-19T18:30",
    "metricool_id": 434514670,
@@ -128,13 +128,14 @@
    "thumbnail": "frame",
    "first_comment": true,
    "cta": true,
-   "next_teased": "GTA 6 secrets"
+   "next_teased": "GTA 6 secrets",
+   "url": "https://www.youtube.com/shorts/X0NhqCd8g_k"
   },
   {
    "ep": 7,
    "topic": "GTA 6 secrets: cat in stolen car, egg on tallest tower, jet-ski dog, choices/point of no return, Lucia starts in prison",
    "area": "gaming (GTA 6 trend series)",
-   "status": "scheduled",
+   "status": "published",
    "title": "GTA 6 Secrets: Never Steal A Car With A Cat 🐱😳 #shorts",
    "publish_time": "2026-11-20T09:30",
    "metricool_id": 435138714,
@@ -144,7 +145,8 @@
    "first_comment": true,
    "cta": true,
    "images": "official Rockstar screenshots (credited)",
-   "format": "v2"
+   "format": "v2",
+   "url": "https://www.youtube.com/shorts/6BgD5Z9VXEs"
   },
   {
    "ep": 8,
@@ -171,6 +173,18 @@
    "publish_time": "2026-11-21T10:00",
    "metricool_id": 435960259,
    "cover_ms": 5567,
+   "thumbnail": "frame",
+   "format": "v2"
+  },
+  {
+   "ep": 10,
+   "topic": "What if you didn't sleep for 11 days (Randy Gardner 1964)",
+   "area": "body/you",
+   "status": "scheduled",
+   "title": "What If You Didn't Sleep For 11 Days? 😵😳 #shorts",
+   "publish_time": "2026-11-21T18:30",
+   "metricool_id": 435972850,
+   "cover_ms": 11617,
    "thumbnail": "frame",
    "format": "v2"
   }

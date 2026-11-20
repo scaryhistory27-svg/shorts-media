@@ -1,3 +1,7 @@
+## 2026-11-20 ~11:10 LA — autopilot run DONE
+
+- Scheduled 4: WH P2 Nov 20 15:30, WH P3 Nov 21 07:00, SM GTA Secrets #2 Nov 21 10:00, SM no-sleep Nov 21 18:30 (v2). Comments step skipped this run (context budget) — do it next run.
+
 ## 2026-11-20 ~11:05 LA — run progress
 
 - Scheduled: WH P2 Nov 20 15:30 (435953707), WH P3 Nov 21 07:00 (435966647, series complete), SM Secrets #2 Nov 21 10:00 (435960259, last GTA).
