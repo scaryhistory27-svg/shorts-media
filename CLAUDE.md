@@ -12,7 +12,12 @@
 - After every push verify the remote: `git ls-remote origin refs/heads/main` must equal `git rev-parse HEAD`.
 - This repo is PUBLIC: never write personal data, emails, credentials or tokens into any file.
 
-Goal: original animated horror stories for YouTube Shorts, **3 episodes per story**.
+Goal: original animated horror stories for YouTube Shorts. **GROWTH MODE (owner 2026-11-19: "work for views and subscribers — we've been stuck at 13–14 subs"):**
+data (vidIQ 2026-11-19): Part 1 of 2 AM Knock 1363 views, but later Part 3s die (Mile Marker P3 25 views, Missing Floor P3 110, Note Under Sink 130) —
+the Shorts feed shows each video to strangers who never saw Part 1. → **From the next NEW horror series: every Short is a COMPLETE standalone story**
+(hook → escalation → twist → loop, understandable without any other video), released as an anthology under one recurring title ("FearFiles: <case name>").
+A Part 2 is made ONLY when a video is a clear hit (≥ 1,000 views or ≥ 5 subs in its first 24 h) — and even then Part 2 must work standalone (line 1 re-states the setup).
+Who's Home (started 2026-11-19 as 3 parts) is finished as planned, but P2/P3 must be standalone-understandable. Old rule kept for reference: 3 episodes per story.
 **Cadence = explicit slot schedule in `series/log.json` → "schedule"** (LA time, owner 2026-11-15): Nov 15: Part 3 10:15 + new series
 Part 1 (autopilot picks the best hour, default 16:00); Nov 16–17: 10:00 + 16:00 (2/day); Nov 18–20: 1 video/day; **from Nov 21: 2 videos EVERY day (owner 2026-11-19: "both channels 2/day until I say otherwise")** — defaults horror 07:00 + 15:30, Strange Minute 10:00 + 18:30 (≥ 3 h apart across channels). Each run: `python3 pipeline/jobs.py next-slots` lists the EMPTY slots
 due in the next 36 h (max 2) — make one full episode (job + QA + publish) per listed slot, in order. Exit 1 / empty = nothing to make

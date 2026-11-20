@@ -131,3 +131,11 @@ then STOP the GTA series and go back to the normal topic rotation. Slot 2026-11-
   tags gta 6 / gta 6 secrets / gta 6 easter eggs / gta 6 tips / gta vi / vice city; category GAMING; description credits
   "Screenshots: Rockstar Games (official press images)"; hashtags #gta6 #gta6secrets #gta6eastereggs #gaming #shorts.
 - End card teases the next GTA secret (endTitle "SECRET #n?"), CTA "DON'T MISS THE NEXT SECRET." etc.
+
+## GROWTH MODE (owner 2026-11-19: "work for views and subscribers")
+vidIQ 2026-11-19: Earth stops spinning 1,210 views · Sun switched off 1,145 (44 views/h) · GTA 6 launch 560 in 9 h (51/h) ·
+Moon 132 · Molasses flood 169. → Big-stakes SPACE / EARTH-PHYSICS catastrophes ("What if <something everyone knows> suddenly stopped/vanished/doubled?")
+and HOT TRENDS clearly beat history and soft topics.
+Topic mix from now: ~70 % space/Earth/physics catastrophes (sun, moon, gravity, oxygen, rotation, asteroid, black hole, ocean, ice),
+~30 % live trends (GTA 6 week, big launches/events — check WebSearch daily); history only when it has a catastrophe angle.
+Title = "What If <X> <dramatic verb>? <emoji>😳 #shorts". Keep the pacing template, loop ending and the Tick CTA.

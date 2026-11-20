@@ -47,3 +47,7 @@ ET evening 15:30), avoid Sunday mornings, and make Part 3s stand alone (strong n
 ## 2026-11-19 — Windsor (horror, data to ~Nov 18)
 - 2AM P1 1356 views / 105.8 %, 4 subs; 2AM P2 1194 / 53.7 %; MF P2 645 / 43.9 %; MF P1 190 / 53.5 %; 2AM P3 121 / 50.6 %; MF P3 83 / 21 %.
 - → Part 3s collapse; standalone Part 1 warning hooks win. New series Who's Home P1 uses the 2 AM P1 beat map. SM: no Windsor rows yet; vidIQ: SM #4 Sun 466 views in 2 h.
+
+## 2026-11-19 — vidIQ snapshot (all videos)
+Horror: 2AM P1 1363 · 2AM P2 1198 · MF P2 717 · MM P1 343 · MM P2 315 · MF P1 224 · 2AM P3 130 · MF P3 110 · MM P3 25 (1 day).
+SM: Earth spin 1210 · Sun off 1145 (44 vph) · GTA launch 560 (51 vph, 9 h) · Molasses 169 · Moon 132. Subscribers stuck at 13–14.
