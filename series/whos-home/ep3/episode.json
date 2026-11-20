@@ -1,0 +1,170 @@
+{
+ "series": "Who's Home",
+ "episode": 3,
+ "title": "WHO'S HOME · PART 3",
+ "stamp": "DAY 1 · 5:31 PM",
+ "endTitle": "THE END?",
+ "endSub": "Who's home at your place?",
+ "music_level": 0.13,
+ "cta": {
+  "text": "A NEW NIGHTMARE EVERY DAY.",
+  "hl": "NIGHTMARE"
+ },
+ "lines": [
+  {
+   "scene": "speakerHook",
+   "text": "Two people are home. One of us isn't alive.",
+   "hl": {
+    "Two": "y",
+    "isn't": "r",
+    "alive.": "r"
+   },
+   "speed": 1.25,
+   "gap": 0.35
+  },
+  {
+   "scene": "attic",
+   "text": "Someone climbed down from the attic. An old woman.",
+   "hl": {
+    "attic.": "y",
+    "old": "r",
+    "woman.": "r"
+   },
+   "sfx": [
+    {
+     "word": "climbed",
+     "type": "creak"
+    }
+   ]
+  },
+  {
+   "scene": "meet",
+   "text": "Margaret. The owner who never moved out.",
+   "hl": {
+    "Margaret.": "y",
+    "never": "r"
+   }
+  },
+  {
+   "scene": "meet",
+   "text": "She walked right past me. Like I wasn't there.",
+   "hl": {
+    "wasn't": "r",
+    "there.": "r"
+   }
+  },
+  {
+   "scene": "speakerClose",
+   "text": "She asked the speaker: Who's home today?",
+   "hl": {
+    "home": "y"
+   }
+  },
+  {
+   "scene": "speakerClose",
+   "text": "It said: Margaret. And Emma.",
+   "hl": {
+    "Emma.": "r"
+   },
+   "sfx": [
+    {
+     "word": "Emma.",
+     "type": "heart"
+    }
+   ]
+  },
+  {
+   "scene": "ghostMe",
+   "text": "Emma. That's my name.",
+   "hl": {
+    "my": "r",
+    "name.": "r"
+   }
+  },
+  {
+   "scene": "photo2",
+   "text": "Margaret whispered: Emma died here. In 2019.",
+   "say": "Margaret whispered: Emma died here. In twenty nineteen.",
+   "hl": {
+    "died": "r",
+    "2019.": "y"
+   },
+   "sfx": [
+    {
+     "word": "died",
+     "type": "sting"
+    }
+   ]
+  },
+  {
+   "scene": "boxes",
+   "text": "I looked at my moving boxes. Covered in dust.",
+   "hl": {
+    "dust.": "r"
+   }
+  },
+  {
+   "scene": "appOld",
+   "text": "The recordings weren't from before I moved in.",
+   "hl": {
+    "weren't": "r"
+   }
+  },
+  {
+   "scene": "appOld",
+   "text": "They were me. Moving in. Every day. For years.",
+   "hl": {
+    "Every": "y",
+    "years.": "r"
+   }
+  },
+  {
+   "scene": "clock",
+   "text": "Tomorrow at 5:12, I'll unpack again.",
+   "say": "Tomorrow at five twelve, I'll unpack again.",
+   "hl": {
+    "5:12,": "y",
+    "again.": "r"
+   }
+  },
+  {
+   "scene": "speakerHook",
+   "text": "And the speaker will say: Two people are home.",
+   "hl": {
+    "Two": "r",
+    "home.": "r"
+   },
+   "sfx": [
+    {
+     "word": "home.",
+     "type": "sting"
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "My Smart Speaker Knew I Was Dead 🔊😨 #shorts",
+  "description": "Two people are home. Only one of them is alive. 🔊 The end… or is it? 👀\n#horrorstory #scary #creepy #smarthome #ghoststory #shorts",
+  "tags": [
+   "horror story",
+   "scary",
+   "creepy",
+   "smart speaker",
+   "ghost story",
+   "scary story",
+   "horror animation",
+   "plot twist"
+  ],
+  "first_comment": "Did you catch the dusty boxes in Part 1? 👀📦 Who saw the twist coming? 👇"
+ },
+ "cover": {
+  "seg": 6,
+  "frac": 0.7,
+  "top": "WHO'S HOME",
+  "lines": [
+   "ONE OF US",
+   "ISN'T ALIVE"
+  ],
+  "sub": "PART 3"
+ }
+}

@@ -643,6 +643,45 @@
    "updated": "2026-11-20T18:48:58Z",
    "metricool_id": 435953707,
    "publish_time": "2026-11-20T15:30"
+  },
+  "2026-11-21T07:00-whos-home-ep3": {
+   "id": "2026-11-21T07:00-whos-home-ep3",
+   "slot": "2026-11-21T07:00",
+   "series": "whos-home",
+   "episode": 3,
+   "title": "My Smart Speaker Knew I Was Dead 🔊😨 #shorts",
+   "stage": "uploaded",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-20T18:55:32Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-20T19:01:00Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-20T19:01:00Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-20T19:01:00Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-20T19:01:00Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-20T19:01:00Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-20T18:55:32Z",
+   "updated": "2026-11-20T19:01:00Z"
   }
  }
 }
