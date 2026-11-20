@@ -1,7 +1,7 @@
 {
  "publish_time": "2026-11-19T15:30",
  "timezone": "America/Los_Angeles",
- "last_publish": "2026-11-19T15:30:00",
+ "last_publish": "2026-11-20T15:30:00",
  "series": [
   {
    "slug": "the-2am-knock",
@@ -124,7 +124,15 @@
      "metricool_id": 434620167,
      "thumbnail": "custom",
      "first_comment": true,
-     "cta": true
+     "cta": true,
+     "url": "https://www.youtube.com/shorts/R3z-wQ2kbgE"
+    },
+    {
+     "n": 2,
+     "publish": "2026-11-20T15:30:00",
+     "youtube_title": "My Smart Speaker Recorded Me Before I Moved In 🔊😨 #shorts",
+     "metricool_id": 435953707,
+     "thumbnail": "custom"
     }
    ]
   }

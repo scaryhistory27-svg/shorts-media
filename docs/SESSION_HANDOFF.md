@@ -1,3 +1,8 @@
+## 2026-11-20 ~10:50 LA — autopilot run (in progress)
+
+- Who's Home P2 scheduled 15:30 (435953707, custom cover). Published: WH P1 R3z-wQ2kbgE (106 views/19 h), SM GTA part 2 X0NhqCd8g_k (992/16 h), SM GTA secrets 6BgD5Z9VXEs.
+- Review: SM 18:30 posts avg ~871 first-24h views vs 09:30 ~268. Still to make: horror 2026-11-21T07:00 (Who's Home P3), SM 2026-11-21T10:00 (GTA Secrets #2, last GTA, v2 format), SM 2026-11-21T18:30 (v2 what-if).
+
 ## 2026-11-19 ~11:00 LA — autopilot run
 
 - Published: MM214 P3 (_eYSFqYwj2Q, custom cover OK → horror mode custom), SM #5 GTA (J6vKiw_7Ltg). New horror series Who's Home P1 scheduled 15:30. SM #8 Jupiter scheduled Nov 20 18:30. 1 comment reply (SM); horror reply was denied by the permission prompt — not retried.

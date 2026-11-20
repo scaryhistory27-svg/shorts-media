@@ -601,7 +601,7 @@
    "series": "whos-home",
    "episode": 2,
    "title": "My Smart Speaker Recorded Me Before I Moved In 🔊😨 #shorts",
-   "stage": "uploaded",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -627,12 +627,22 @@
     {
      "stage": "uploaded",
      "at": "2026-11-20T18:48:36Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-20T18:48:41Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-20T18:48:58Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-20T18:42:41Z",
-   "updated": "2026-11-20T18:48:36Z"
+   "updated": "2026-11-20T18:48:58Z",
+   "metricool_id": 435953707,
+   "publish_time": "2026-11-20T15:30"
   }
  }
 }
