@@ -1,0 +1,172 @@
+{
+ "series": "Strange Minute",
+ "episode": 10,
+ "title": "STRANGE MINUTE · WHAT IF #10",
+ "stamp": "DAY 11 · NO SLEEP",
+ "style": "light",
+ "bed": "light",
+ "voice": "am_fenrir",
+ "lang": "en-us",
+ "voice_fx": "explainer",
+ "speed": 1.0,
+ "gap": 0.25,
+ "music_level": 0.11,
+ "endTitle": "WHAT IF #11?",
+ "endSub": "Tomorrow: another strange minute",
+ "cta": {
+  "text": "ONE STRANGE MINUTE. EVERY DAY.",
+  "hl": "STRANGE MINUTE"
+ },
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "What if you didn't sleep for 11 days?",
+   "say": "What if you didn't sleep for eleven days?",
+   "hl": {
+    "sleep": "y",
+    "11": "r",
+    "days?": "r"
+   },
+   "sfx": [
+    {
+     "at": "end",
+     "type": "ding"
+    }
+   ]
+  },
+  {
+   "scene": "teen",
+   "text": "In 1964, a 17-year-old named Randy Gardner tried it.",
+   "say": "In nineteen sixty-four, a seventeen-year-old named Randy Gardner tried it.",
+   "hl": {
+    "1964,": "y",
+    "tried": "y"
+   }
+  },
+  {
+   "scene": "blur",
+   "text": "Day 2: his eyes stopped focusing.",
+   "say": "Day two: his eyes stopped focusing.",
+   "hl": {
+    "Day": "y",
+    "2:": "y",
+    "focusing.": "r"
+   }
+  },
+  {
+   "scene": "halluc",
+   "text": "Day 4: he saw things that weren't there.",
+   "say": "Day four: he saw things that weren't there.",
+   "hl": {
+    "4:": "y",
+    "weren't": "r"
+   },
+   "sfx": [
+    {
+     "word": "saw",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "halluc",
+   "text": "He thought he was a famous football player.",
+   "hl": {
+    "football": "y",
+    "player.": "y"
+   }
+  },
+  {
+   "scene": "math",
+   "text": "Day 11: he couldn't count down from 100 by sevens.",
+   "say": "Day eleven: he couldn't count down from a hundred by sevens.",
+   "hl": {
+    "11:": "r",
+    "sevens.": "y"
+   }
+  },
+  {
+   "scene": "pinball",
+   "text": "The weird part? On day 10, he beat a sleep scientist at pinball.",
+   "say": "The weird part? On day ten, he beat a sleep scientist at pinball.",
+   "hl": {
+    "weird": "y",
+    "pinball.": "y"
+   },
+   "sfx": [
+    {
+     "word": "pinball.",
+     "type": "pop"
+    }
+   ]
+  },
+  {
+   "scene": "sleep",
+   "text": "After 264 hours awake, he slept about 14 hours.",
+   "say": "After two hundred sixty-four hours awake, he slept about fourteen hours.",
+   "hl": {
+    "264": "r",
+    "14": "y"
+   }
+  },
+  {
+   "scene": "record",
+   "text": "Guinness later stopped accepting attempts. Too dangerous.",
+   "hl": {
+    "stopped": "r",
+    "dangerous.": "r"
+   }
+  },
+  {
+   "scene": "insomnia",
+   "text": "Decades later, he struggled with insomnia.",
+   "hl": {
+    "insomnia.": "r"
+   }
+  },
+  {
+   "scene": "endq",
+   "text": "So how long have YOU been awake?",
+   "hl": {
+    "YOU": "y",
+    "awake?": "r"
+   },
+   "gap": 0.5,
+   "sfx": [
+    {
+     "word": "awake?",
+     "type": "chime"
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "What If You Didn't Sleep For 11 Days? 😵😳 #shorts",
+  "description": "A teenager actually tried it in 1964 — here's what happened to his brain. 😵 How long have YOU stayed awake? 👇\n#whatif #sleep #brain #science #facts #shorts",
+  "tags": [
+   "what if",
+   "no sleep",
+   "sleep deprivation",
+   "randy gardner",
+   "brain facts",
+   "science",
+   "strange facts",
+   "11 days without sleep"
+  ],
+  "first_comment": "What's the longest YOU have stayed awake? 😵👇"
+ },
+ "cover": {
+  "seg": 3,
+  "frac": 0.6,
+  "top": "STRANGE MINUTE",
+  "lines": [
+   "11 DAYS",
+   "NO SLEEP"
+  ],
+  "sub": "WHAT IF #10"
+ },
+ "sources": [
+  "NPR 2024-01-28 60th anniversary: 264 hours, Jan 1964, age 17; Guinness stopped accepting attempts; later insomnia",
+  "Wikipedia Randy Gardner sleep deprivation experiment: day 2 eyes stopped focusing, day 4 hallucinations / believed he was a football player, day 11 serial-sevens failure, slept ~14 h 40 min; Dement pinball on day 10"
+ ]
+}

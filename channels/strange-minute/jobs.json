@@ -491,6 +491,41 @@
    "updated": "2026-11-20T18:55:02Z",
    "metricool_id": 435960259,
    "publish_time": "2026-11-21T10:00"
+  },
+  "2026-11-21T18:30-strange-minute-ep10": {
+   "id": "2026-11-21T18:30-strange-minute-ep10",
+   "slot": "2026-11-21T18:30",
+   "series": "strange-minute",
+   "episode": 10,
+   "title": "What If You Didn't Sleep For 11 Days? 😵😳 #shorts",
+   "stage": "uploaded",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-20T19:02:05Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-20T19:06:17Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-20T19:06:17Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-20T19:06:17Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-20T19:06:18Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-20T19:02:05Z",
+   "updated": "2026-11-20T19:06:18Z"
   }
  }
 }
