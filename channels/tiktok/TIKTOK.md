@@ -14,3 +14,4 @@
 - **Owner 2026-11-20: "all next posts exactly like this"** — format of tt001 (ask slide → 3 fact slides) is FINAL for every post.
   Until Metricool hosting works: every autopilot run send the owner the day's 4 posts (slides via SendUserFile + caption + pinned-comment text) to post manually; owner posted #1 himself.
 - Hashtags (5 per post, at the end of the caption): always `#gta6 #ps5` + 2 topic tags (e.g. #easteregg #gtasecrets / #bigfoot / #vicecity) + 1 discovery tag rotated (#gaming / #gamingontiktok / #fyp).
+- 2026-11-20: tt001 scheduled 13:00 LA via Metricool (436068942) — slides pushed temporarily to videos/ with the owner's explicit approval (mode switched to ask, "пробуй снова"), removed right after Metricool copied them. Without owner approval this path is blocked by the session safety check → use litterbox or manual posting.
