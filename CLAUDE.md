@@ -80,6 +80,13 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
 `python3 pipeline/analytics.py report` (reports/analytics-latest.md: ranking by ~24-h views, views/hour, average views by publish hour LA;
 snapshots accumulate in reports/stats_history.jsonl) + Windsor retention/subs. From it the autopilot DECIDES what took off / flopped,
 which topics to make next, and the publish hour of every slot (slot_overrides), and reports top-3 / flop-3 + decisions to the owner.
+**Then TREND CHECK + NO REPEATS (owner 2026-11-19: "videos must never repeat; check the internet for what is current, then decide"):**
+- Every run, before choosing topics: WebSearch (mode extended) for what is trending NOW in each niche — horror/creepy Shorts formats & topics,
+  and science / space / what-if / big news & gaming events for Strange Minute (+ one vidIQ trending/outliers call when credits ≥ 40).
+  Pick topics that are BOTH current (trend, news, season, launch) AND match what took off on our channels.
+- NEVER repeat a video: before writing, compare the planned topic, premise, hook and title against ALL earlier videos of both channels
+  (series/log.json series[].episodes, series/jobs.json titles, channels/strange-minute/log.json episodes + jobs.json). Same subject = only with
+  a clearly new angle (e.g. GTA 6 launch ≠ GTA 6 secrets); never the same hook line, title or story premise twice.
 
 ## Before EVERY episode — learn from the published ones
 1. Metricool `getScheduledPosts` (last 14 days) → YouTube `publicUrl`s of published episodes; Metricool YouTube analytics

@@ -51,3 +51,4 @@
 - 2026-11-19: Owner: both channels 2 videos/day until further notice (from Nov 21: horror 07:00+15:30, SM 10:00+18:30).
 - 2026-11-19: GROWTH MODE (owner: views + subscribers). Horror: future series = standalone stories (Part 3s were dying: 25–130 views). SM: 70 % space/physics catastrophes + 30 % trends (winners 1.1–1.2k views).
 - 2026-11-19: Owner: full review of both channels every run (pipeline/analytics.py + vidIQ + Windsor) decides topics and publish hours; scheduled task prompt updated.
+- 2026-11-19: Owner: no repeated videos; every run checks current internet trends (WebSearch extended + vidIQ) before choosing topics.
