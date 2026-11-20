@@ -75,6 +75,12 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
   then keep going in the same scene/minute. Header stamp keeps the same day and only the clock moves on (e.g. 7:13 → 7:21 → 7:34 PM).
 - Original stories and characters only (no existing IPs), YouTube-safe (creepy, no gore, nothing involving harm to kids).
 
+## FULL CHANNEL REVIEW — every autopilot run, both channels (owner 2026-11-19)
+`vidiq_get_videos_by_ids` (all published ids of both channels, 1 call, 5 credits) → `python3 pipeline/analytics.py add <json>` →
+`python3 pipeline/analytics.py report` (reports/analytics-latest.md: ranking by ~24-h views, views/hour, average views by publish hour LA;
+snapshots accumulate in reports/stats_history.jsonl) + Windsor retention/subs. From it the autopilot DECIDES what took off / flopped,
+which topics to make next, and the publish hour of every slot (slot_overrides), and reports top-3 / flop-3 + decisions to the owner.
+
 ## Before EVERY episode — learn from the published ones
 1. Metricool `getScheduledPosts` (last 14 days) → YouTube `publicUrl`s of published episodes; Metricool YouTube analytics
    (`getAnalyticsAvailableMetrics`, then `getAnalyticsDataByMetrics`) → views, average view duration / % viewed, likes, comments, subs per episode.
