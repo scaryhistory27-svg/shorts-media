@@ -210,5 +210,9 @@
  "next": "NEW horror series for 2026-11-19 (Thu) 15:30 — Mile Marker 214 complete",
  "owner_comment_hashes": [
   "77058d63f7be7603"
- ]
+ ],
+ "format_review": {
+  "date": "2026-12-20",
+  "note": "owner: keep current format 1 month, then review views/subs; fallback idea = Reddit-style narrated stories (original writing)"
+ }
 }

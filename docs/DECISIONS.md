@@ -52,3 +52,4 @@
 - 2026-11-19: GROWTH MODE (owner: views + subscribers). Horror: future series = standalone stories (Part 3s were dying: 25–130 views). SM: 70 % space/physics catastrophes + 30 % trends (winners 1.1–1.2k views).
 - 2026-11-19: Owner: full review of both channels every run (pipeline/analytics.py + vidIQ + Windsor) decides topics and publish hours; scheduled task prompt updated.
 - 2026-11-19: Owner: no repeated videos; every run checks current internet trends (WebSearch extended + vidIQ) before choosing topics.
+- 2026-11-20: Owner: horror channel (FearFiles) keeps the current animated format for ONE MONTH (until ~2026-12-20), then review together; if it doesn't take off, possible switch to Reddit-style story format (original stories in that style, not copied posts).
