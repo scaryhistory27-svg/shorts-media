@@ -53,3 +53,4 @@
 - 2026-11-19: Owner: full review of both channels every run (pipeline/analytics.py + vidIQ + Windsor) decides topics and publish hours; scheduled task prompt updated.
 - 2026-11-19: Owner: no repeated videos; every run checks current internet trends (WebSearch extended + vidIQ) before choosing topics.
 - 2026-11-20: Owner: horror channel (FearFiles) keeps the current animated format for ONE MONTH (until ~2026-12-20), then review together; if it doesn't take off, possible switch to Reddit-style story format (original stories in that style, not copied posts).
+- 2026-11-20: Strange Minute FORMAT v2 from competitor research (35–45 s, speed 1.0, new shot every line via engine fastcuts, catastrophe-first first frame, 'you' POV, '...For 5 Seconds' / body what-ifs).

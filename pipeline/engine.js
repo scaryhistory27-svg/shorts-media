@@ -117,7 +117,11 @@ function render(t){
   const segs=TL.segs;let si=segs.findIndex((s,i)=>t<s.e&&(i===0||t>=s.s));if(si<0)si=segs.length-1;
   const seg=segs[si],start=si===0?0:seg.s,d=seg.e-start,lt=t-start,p=clamp(lt/d,0,1);
   ctx.setTransform(1,0,0,1,0,0);ctx.fillStyle='#000';ctx.fillRect(0,0,W,H);
-  ctx.save();const [z0,z1]=CAM[seg.scene];const z=lerp(z0,z1,p)*(1+punchAt(t));ctx.translate(W/2,H/2);ctx.scale(z,z);ctx.translate(-W/2,-H/2);
+  ctx.save();const [z0,z1]=CAM[seg.scene];let z=lerp(z0,z1,p)*(1+punchAt(t));
+  // Strange Minute fast-cut pacing (2026-11-20, viral what-if Shorts cut every ~2.5–3 s): when a scene continues into the next line,
+  // hard-cut to a new framing (alternating close/wide + side shift) so every line is a new shot.
+  let cx=0;if(TL.style==='light'&&TL.fastcuts!==false){let k=0;for(let j=si-1;j>=0&&segs[j].scene===seg.scene;j--)k++;if(k>0){const f=[1.0,1.14,1.06,1.2][k%4];z*=f;cx=[0,-60,70,-30][k%4]}}
+  ctx.translate(W/2+cx,H/2);ctx.scale(z,z);ctx.translate(-W/2,-H/2);
   const hs=shakeAt(t,['hit','sting'],0.5,24);ctx.translate((Math.random()-.5)*hs,(Math.random()-.5)*hs);
   SCN[seg.scene](lt,p,t,d,seg);ctx.restore();
   glitchFx(t);

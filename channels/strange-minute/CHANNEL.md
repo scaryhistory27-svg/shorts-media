@@ -139,3 +139,19 @@ and HOT TRENDS clearly beat history and soft topics.
 Topic mix from now: ~70 % space/Earth/physics catastrophes (sun, moon, gravity, oxygen, rotation, asteroid, black hole, ocean, ice),
 ~30 % live trends (GTA 6 week, big launches/events — check WebSearch daily); history only when it has a catastrophe angle.
 Title = "What If <X> <dramatic verb>? <emoji>😳 #shorts". Keep the pacing template, loop ending and the Tick CTA.
+
+## FORMAT v2 — copied from what works for the big what-if channels (owner 2026-11-20: "look how others do it — first frame, flow, speed, story — and redo it")
+Research 2026-11-20: vidIQ outliers (short, 3 months, ≥200k views): Zack D. Films "What If Your Hair Had Nerves" 21.5M (0:26), "What If The Wheel Was Never
+Invented" 15.8M (0:45); Molli Kroni (43k subs) "Super Speed in Real Life" 8.2M, "Skeleton Disappeared For 5 Seconds" 2.7M, "Oxygen Disappeared For 5 Seconds" 1.5M;
+SPECIMEN "Electrons Disappeared For 5 Seconds" 297k; Mr Playtime "Every Metal Disappeared For 5 Seconds" 298k; Low Poly Shorts "Ocean Soda" 3.7M.
+Measured pacing of the top channels (reelpantry.com, 4 channels): first shot 1.7–2.45 s, then a new picture every 2.5–3.5 s (13–22 cuts/min; Zack D ~21/min),
+narration ~168 words/min, median length ~35 s. Formula: strange question → instant visual reveal → fast explanation (escalating) → final twist.
+**Rules from now on (override the older 50–60 s / speed 0.9 rules for this channel):**
+- LENGTH 35–45 s: 10–13 short lines (≤ 10 words each). Voice speed **1.0** (≈165 wpm), gap 0.25 s.
+- FIRST FRAME = the catastrophe ALREADY happening (not a calm setup): the subject mid-event + Max/astronaut reacting. Line 1 ≤ 2 s.
+- A NEW SHOT EVERY LINE (≤ 3 s): new scene, or the engine's automatic hard-cut framing when a scene continues (engine `fastcuts`, light style) — never hold a framing longer than one line.
+- "YOU" POV: put the viewer in it ("your body", "you'd feel…", "you have 5 seconds").
+- Title formulas that win: "What If <X> Disappeared For 5 Seconds?", "What If Your <body part> <impossible>?", "What Actually Happens If You <superpower> In Real Life",
+  "Why <everyday thing> Is <shocking>". Mix: body/"you" (new), Earth/space catastrophes (our winners), live trends.
+- Structure: hook question (≤ 2 s) → 1st consequence by 3 s → 3–5 escalating consequences (each a new shot) → twist ("but here's the weird part") → loop line back to the hook.
+- Keep: ding after the question, Tick CTA, pulse music, first comment question.

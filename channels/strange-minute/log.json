@@ -208,5 +208,13 @@
   "2026-11-20T18:30": "What if you fell into Jupiter? (space)",
   "after": "normal topic rotation",
   "2026-11-21T10:00": "GTA 6 Secrets #2 — LAST GTA video"
+ },
+ "format": {
+  "version": 2,
+  "since": "2026-11-20",
+  "speed": 1.0,
+  "gap": 0.25,
+  "length_s": "35-45",
+  "lines": "10-13"
  }
 }
