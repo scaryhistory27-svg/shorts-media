@@ -650,7 +650,7 @@
    "series": "whos-home",
    "episode": 3,
    "title": "My Smart Speaker Knew I Was Dead 🔊😨 #shorts",
-   "stage": "uploaded",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -676,12 +676,22 @@
     {
      "stage": "uploaded",
      "at": "2026-11-20T19:01:00Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-20T19:01:06Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-20T19:01:23Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-20T18:55:32Z",
-   "updated": "2026-11-20T19:01:00Z"
+   "updated": "2026-11-20T19:01:23Z",
+   "metricool_id": 435966647,
+   "publish_time": "2026-11-21T07:00"
   }
  }
 }

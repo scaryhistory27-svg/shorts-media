@@ -1,7 +1,7 @@
 {
  "publish_time": "2026-11-19T15:30",
  "timezone": "America/Los_Angeles",
- "last_publish": "2026-11-20T15:30:00",
+ "last_publish": "2026-11-21T07:00:00",
  "series": [
   {
    "slug": "the-2am-knock",
@@ -133,6 +133,13 @@
      "youtube_title": "My Smart Speaker Recorded Me Before I Moved In 🔊😨 #shorts",
      "metricool_id": 435953707,
      "thumbnail": "custom"
+    },
+    {
+     "n": 3,
+     "publish": "2026-11-21T07:00:00",
+     "youtube_title": "My Smart Speaker Knew I Was Dead 🔊😨 #shorts",
+     "metricool_id": 435966647,
+     "thumbnail": "custom"
     }
    ]
   }
@@ -215,7 +222,7 @@
   "horror": {},
   "strange_minute": null
  },
- "next": "NEW horror series for 2026-11-19 (Thu) 15:30 — Mile Marker 214 complete",
+ "next": "Who's Home COMPLETE. Next horror = NEW STANDALONE story (growth mode, anthology \"FearFiles: <case>\") for 2026-11-21T15:30",
  "owner_comment_hashes": [
   "77058d63f7be7603"
  ],

@@ -1,3 +1,8 @@
+## 2026-11-20 ~11:05 LA — run progress
+
+- Scheduled: WH P2 Nov 20 15:30 (435953707), WH P3 Nov 21 07:00 (435966647, series complete), SM Secrets #2 Nov 21 10:00 (435960259, last GTA).
+- Remaining this run: SM 2026-11-21T18:30 (v2 what-if, space/physics, e.g. gravity off for 5 s), comments, report.
+
 ## 2026-11-20 ~10:50 LA — autopilot run (in progress)
 
 - Who's Home P2 scheduled 15:30 (435953707, custom cover). Published: WH P1 R3z-wQ2kbgE (106 views/19 h), SM GTA part 2 X0NhqCd8g_k (992/16 h), SM GTA secrets 6BgD5Z9VXEs.
