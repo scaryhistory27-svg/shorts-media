@@ -8,8 +8,8 @@
  "voice": "am_fenrir",
  "lang": "en-us",
  "voice_fx": "explainer",
- "speed": 0.9,
- "gap": 0.4,
+ "speed": 1.0,
+ "gap": 0.25,
  "music_level": 0.12,
  "endTitle": "WHAT IF #9?",
  "endSub": "Next: more GTA 6 secrets",
@@ -25,7 +25,6 @@
     "fell": "y",
     "Jupiter?": "y"
    },
-   "speed": 0.95,
    "gap": 0.35,
    "sfx": [
     {
@@ -43,26 +42,11 @@
    }
   },
   {
-   "scene": "noground",
-   "text": "Jupiter is a giant ball of gas. And it pulls hard.",
-   "hl": {
-    "gas.": "y",
-    "hard.": "r"
-   }
-  },
-  {
    "scene": "gravity",
    "text": "Its gravity is about two and a half times Earth's.",
    "hl": {
     "two": "y",
     "half": "y"
-   }
-  },
-  {
-   "scene": "probe",
-   "text": "We know what happens, because NASA tried it.",
-   "hl": {
-    "NASA": "y"
    }
   },
   {
@@ -164,7 +148,7 @@
    "hl": {
     "fall?": "r"
    },
-   "gap": 0.6,
+   "gap": 0.5,
    "sfx": [
     {
      "word": "fall?",
@@ -189,7 +173,7 @@
   "first_comment": "58 minutes of falling with no ground — would you take the trip? 🪐👇"
  },
  "cover": {
-  "seg": 6,
+  "seg": 4,
   "frac": 0.6,
   "top": "STRANGE MINUTE",
   "lines": [

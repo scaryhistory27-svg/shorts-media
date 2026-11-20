@@ -8,8 +8,8 @@
  "voice": "am_fenrir",
  "lang": "en-us",
  "voice_fx": "explainer",
- "speed": 0.9,
- "gap": 0.4,
+ "speed": 1.0,
+ "gap": 0.25,
  "music_level": 0.11,
  "endTitle": "SECRET #2?",
  "endSub": "More hidden secrets tomorrow",
@@ -28,7 +28,6 @@
     "GTA": "y",
     "6.": "y"
    },
-   "speed": 1.0,
    "gap": 0.35,
    "sfx": [
     {
@@ -51,15 +50,6 @@
      "type": "pop"
     }
    ]
-  },
-  {
-   "scene": "launch",
-   "text": "GTA 6 dropped today, and secrets are already leaking out.",
-   "say": "G.T.A. six dropped today, and secrets are already leaking out.",
-   "hl": {
-    "today,": "y",
-    "secrets": "y"
-   }
   },
   {
    "scene": "tower",
@@ -118,14 +108,6 @@
    ]
   },
   {
-   "scene": "choices",
-   "text": "And this time, your choices really matter.",
-   "hl": {
-    "choices": "y",
-    "matter.": "r"
-   }
-  },
-  {
    "scene": "change",
    "text": "Hurt too many people, and Jason and Lucia change.",
    "hl": {
@@ -165,18 +147,11 @@
   },
   {
    "scene": "endq",
-   "text": "So will you play nice tonight?",
-   "hl": {
-    "nice": "y"
-   }
-  },
-  {
-   "scene": "endq",
    "text": "Or will you steal the car with the cat?",
    "hl": {
     "cat?": "r"
    },
-   "gap": 0.6
+   "gap": 0.5
   }
  ],
  "youtube": {

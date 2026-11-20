@@ -120,8 +120,9 @@ function render(t){
   ctx.save();const [z0,z1]=CAM[seg.scene];let z=lerp(z0,z1,p)*(1+punchAt(t));
   // Strange Minute fast-cut pacing (2026-11-20, viral what-if Shorts cut every ~2.5–3 s): when a scene continues into the next line,
   // hard-cut to a new framing (alternating close/wide + side shift) so every line is a new shot.
-  let cx=0;if(TL.style==='light'&&TL.fastcuts!==false){let k=0;for(let j=si-1;j>=0&&segs[j].scene===seg.scene;j--)k++;if(k>0){const f=[1.0,1.14,1.06,1.2][k%4];z*=f;cx=[0,-60,70,-30][k%4]}}
-  ctx.translate(W/2+cx,H/2);ctx.scale(z,z);ctx.translate(-W/2,-H/2);
+  let cx=0;if(TL.style==='light'&&TL.fastcuts!==false){let k=0;for(let j=si-1;j>=0&&segs[j].scene===seg.scene;j--)k++;if(k>0){const f=[1.0,1.08,1.04,1.1][k%4];z*=f;cx=[0,-50,60,-25][k%4]}}
+  const ay=TL.style==='light'?620:H/2; // zoom around the upper-middle so top labels never slide into the header
+  ctx.translate(W/2+cx,ay);ctx.scale(z,z);ctx.translate(-W/2,-ay);
   const hs=shakeAt(t,['hit','sting'],0.5,24);ctx.translate((Math.random()-.5)*hs,(Math.random()-.5)*hs);
   SCN[seg.scene](lt,p,t,d,seg);ctx.restore();
   glitchFx(t);
