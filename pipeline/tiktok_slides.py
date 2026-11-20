@@ -145,6 +145,34 @@ def goal_slide(img, subs):
     return c
 
 
+def goal_hook(img, subs, teaser):
+    """Slide 1 (owner 2026-11-20): the ask first — help me get YouTube subs for PS5 + GTA 6 — then the facts."""
+    src = Image.open(os.path.join(SRC, img + ".jpg")).convert("RGB")
+    c = cover(src, W, H)
+    grad = Image.new("L", (1, H))
+    for i in range(H):
+        a = 0.82 - 0.55 * i / 800 if i < 800 else (0.27 if i < 1150 else 0.27 + 0.63 * (i - 1150) / 770)
+        grad.putpixel((0, i), int(255 * max(0, min(1, a))))
+    c = Image.composite(Image.new("RGB", (W, H), (0, 0, 0)), c, grad.resize((W, H)))
+    d = ImageDraw.Draw(c)
+    y = text_block(d, 190, "HELP ME", font("Black", 150), COL["y"], gap=0)
+    y = text_block(d, y, "GET 1,000 YOUTUBE\nSUBSCRIBERS", font("Black", 88), (255, 255, 255), gap=4) + 20
+    fk = font("Black", 64); t = "TO BUY PS5 + GTA 6"
+    tw = d.textlength(t, font=fk)
+    d.rounded_rectangle(((W - tw) / 2 - 30, y - 10, (W + tw) / 2 + 30, y + 86), 18, fill=COL["r"])
+    d.text(((W - tw) / 2, y), t, font=fk, fill=(255, 255, 255))
+    y = 1240
+    bx, bw = 110, W - 220
+    d.rounded_rectangle((bx, y, bx + bw, y + 46), 23, fill=(40, 40, 60))
+    d.rounded_rectangle((bx, y, bx + max(46, int(bw * min(subs, 1000) / 1000)), y + 46), 23, fill=COL["r"])
+    y = text_block(d, y + 76, f"{subs:,} / 1,000 SUBSCRIBERS", font("Black", 60), (255, 255, 255)) + 6
+    y = text_block(d, y, "YouTube: @StrangeMinuteOfficial  ·  link in bio", font("ExtraBold", 42), COL["c"]) + 40
+    text_block(d, y, teaser, font("Black", 62), COL["y"], gap=6)
+    f = font("Bold", 24); t = "IMAGE: ROCKSTAR GAMES"
+    d.text((W - d.textlength(t, font=f) - 30, H - 60), t, font=f, fill=(200, 200, 200))
+    return c
+
+
 def main():
     spec_path = sys.argv[1]
     subs = int(sys.argv[sys.argv.index("--subs") + 1]) if "--subs" in sys.argv else 10
@@ -153,9 +181,14 @@ def main():
     out = os.path.join(ROOT, "channels", "tiktok", "build", pid)
     os.makedirs(out, exist_ok=True)
     imgs = []
-    for i, s in enumerate(spec["slides"]):
-        imgs.append(hook_slide(s) if i == 0 else info_slide(s))
-    if spec.get("goal", True):
+    if spec.get("goal_first", True):
+        h = spec["slides"][0]
+        teaser = spec.get("teaser") or ("SWIPE: " + h["title"].replace("\n", " ") + " →")
+        imgs.append(goal_hook(h["img"], subs, teaser))
+        imgs += [info_slide(s) for s in spec["slides"][1:]]  # slide 0 = teaser only
+    else:
+        imgs = [hook_slide(s) if i == 0 else info_slide(s) for i, s in enumerate(spec["slides"])]
+    if spec.get("goal", True) and not spec.get("goal_first", True):
         imgs.append(goal_slide(spec.get("goal_img", spec["slides"][-1]["img"]), subs))
     paths = []
     for i, im in enumerate(imgs, 1):
