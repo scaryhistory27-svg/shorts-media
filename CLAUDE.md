@@ -162,6 +162,9 @@ Cadence is in its log.json schedule: **2 videos EVERY day until the owner says o
 autopilot's choice (best-time chart of brand 8179515 + own results), ≥ 3 h from any horror post, ≥ 5 h between its own posts.
 jobs.py for channel 2 always with `JOBS_FILE=channels/strange-minute/jobs.json LOG_FILE=channels/strange-minute/log.json`.
 
+## Channel 3 — TikTok "Road to PS5" (owner 2026-11-20)
+**4 photo-carousel posts every day** promoting Strange Minute; rules, hosting status and queue in `channels/tiktok/TIKTOK.md`. Every run, after the YouTube slots: schedule the TikTok posts for the next 36 h (Metricool brand 8179515, provider tiktok).
+
 ## Sound design (owner 2026-11-17: "make all sounds realistic — they were too loud and out of place")
 - timeline.py SFX are realistic (filtered knock/creak/heartbeat/whoosh/phone-buzz, soft low impacts, eerie string sting), go through one
   SFX bus (lowpass 7 kHz + short room) that is DUCKED under the voice; bus level `sfx_level` in episode.json (default 0.22 — keep it).
