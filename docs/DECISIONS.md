@@ -55,3 +55,8 @@
 - 2026-11-20: Owner: horror channel (FearFiles) keeps the current animated format for ONE MONTH (until ~2026-12-20), then review together; if it doesn't take off, possible switch to Reddit-style story format (original stories in that style, not copied posts).
 - 2026-11-20: Strange Minute FORMAT v2 from competitor research (35–45 s, speed 1.0, new shot every line via engine fastcuts, catastrophe-first first frame, 'you' POV, '...For 5 Seconds' / body what-ifs).
 - 2026-11-20: Owner liked the v2 demo ('fast, straight to the point; the others feel slow') → v2 confirmed; pending SM #7/#8 re-cut in v2.
+
+## 2026-11-20 — autopilot stays in ONE persistent chat (owner)
+- Owner declined a fresh session per day ("мне не надо новый чат"). Daily task trig_019AGWEVNZ2pSkvrmwq8VS2V (10:41 LA, this session) stays.
+- A fresh-session task trig_01SjW1hhbzXET1ZG972U1QRD was created and then DISABLED (it had no connectors; deleting was blocked) — keep it disabled, never enable it.
+- To save the weekly limit: be economical with context in every run (Read sheets/frames only as QA needs, no re-reading).
