@@ -1,3 +1,9 @@
+## 2026-11-20 ~13:05 LA — TikTok launched, memory saved before possible /clear
+
+- TikTok @roadtops5.gta6 connected (brand 8179515); 8 carousel posts scheduled (tt001–tt008, last Nov 22 08:00). Generator pipeline/tiktok_slides.py; specs channels/tiktok/posts/.
+- Daily trigger now includes TikTok (step 9b). Owner keeps ONE chat; may /clear it — continue from CURRENT_STATE + this file.
+- Next run (Nov 21 10:41 LA): horror 2026-11-21T15:30 (first standalone story), SM 2026-11-22 slots, TikTok from Nov 22 12:00, comment replies (skipped Nov 20).
+
 ## 2026-11-20T19:39:23Z — auto checkpoint before context compaction
 
 ```
