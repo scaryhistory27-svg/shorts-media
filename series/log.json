@@ -163,7 +163,16 @@
    "times": [
     "16:00"
    ],
-   "note": "owner 2026-11-18: 1 video EVERY day until the channel has real subscribers (no mixed gaps); autopilot picks the hour"
+   "note": "owner 2026-11-18: 1 video EVERY day until the channel has real subscribers (no mixed gaps); autopilot picks the hour",
+   "to": "2026-11-20"
+  },
+  {
+   "from": "2026-11-21",
+   "times": [
+    "07:00",
+    "15:30"
+   ],
+   "note": "owner 2026-11-19: BOTH channels 2 videos/day until he says otherwise; defaults keep ≥3 h from Strange Minute (10:00, 18:30) and ≥5 h between own posts; autopilot may fine-tune"
   }
  ],
  "schedule_tz": "America/Los_Angeles",

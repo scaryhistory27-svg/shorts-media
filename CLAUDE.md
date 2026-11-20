@@ -14,7 +14,7 @@
 
 Goal: original animated horror stories for YouTube Shorts, **3 episodes per story**.
 **Cadence = explicit slot schedule in `series/log.json` → "schedule"** (LA time, owner 2026-11-15): Nov 15: Part 3 10:15 + new series
-Part 1 (autopilot picks the best hour, default 16:00); Nov 16–17: 10:00 + 16:00 (2/day); from Nov 18: **1 video EVERY day** (owner 2026-11-18: "until the first real subscribers"; the old mixed 1–2-day plan is cancelled). Each run: `python3 pipeline/jobs.py next-slots` lists the EMPTY slots
+Part 1 (autopilot picks the best hour, default 16:00); Nov 16–17: 10:00 + 16:00 (2/day); Nov 18–20: 1 video/day; **from Nov 21: 2 videos EVERY day (owner 2026-11-19: "both channels 2/day until I say otherwise")** — defaults horror 07:00 + 15:30, Strange Minute 10:00 + 18:30 (≥ 3 h apart across channels). Each run: `python3 pipeline/jobs.py next-slots` lists the EMPTY slots
 due in the next 36 h (max 2) — make one full episode (job + QA + publish) per listed slot, in order. Exit 1 / empty = nothing to make
 → do only the posting-time check and stop (1–2 lines). Job slot = the slot string, e.g. `--slot 2026-11-16T10:00`.
 **Slot times are only defaults (owner: "don't fix on 4 PM") — the schedule fixes HOW MANY videos per day; the autopilot decides the
@@ -140,7 +140,7 @@ Second YouTube channel ("What if…?" / hidden history / science mysteries, Engl
 the autopilot steps are in `channels/strange-minute/CHANNEL.md`; state in `channels/strange-minute/log.json`.
 **Connected 2026-11-17: Metricool brand `8179515`** (`brand_id` in log.json). Every daily run, AFTER the horror slots: fill every
 empty Strange Minute slot from `next-slots` (max 2/run; ready queue first), full QA, publish with blogId 8179515, report like channel 1.
-Launch cadence is in its log.json schedule (Nov 17–22: 2/day, from Nov 23: 1 video EVERY day — owner 2026-11-18); the exact hour is the
+Cadence is in its log.json schedule: **2 videos EVERY day until the owner says otherwise** (owner 2026-11-19; the switch to 1/day is cancelled); the exact hour is the
 autopilot's choice (best-time chart of brand 8179515 + own results), ≥ 3 h from any horror post, ≥ 5 h between its own posts.
 jobs.py for channel 2 always with `JOBS_FILE=channels/strange-minute/jobs.json LOG_FILE=channels/strange-minute/log.json`.
 
