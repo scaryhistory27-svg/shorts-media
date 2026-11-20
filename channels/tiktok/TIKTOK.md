@@ -13,3 +13,4 @@
 - Ready, not yet scheduled: tt001 easter-egg, tt002 dexter, tt003 chiliad, tt004 gellhorn, tt005 regions, tt006 cat-car, tt007 bigfoot, tt008 jetski-dog.
 - **Owner 2026-11-20: "all next posts exactly like this"** — format of tt001 (ask slide → 3 fact slides) is FINAL for every post.
   Until Metricool hosting works: every autopilot run send the owner the day's 4 posts (slides via SendUserFile + caption + pinned-comment text) to post manually; owner posted #1 himself.
+- Hashtags (5 per post, at the end of the caption): always `#gta6 #ps5` + 2 topic tags (e.g. #easteregg #gtasecrets / #bigfoot / #vicecity) + 1 discovery tag rotated (#gaming / #gamingontiktok / #fyp).
