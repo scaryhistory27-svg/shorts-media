@@ -446,6 +446,41 @@
    "metricool_id": 435138742,
    "uuid": 3858903947956866651,
    "publish_time": "2026-11-20T18:30"
+  },
+  "2026-11-21T10:00-strange-minute-ep9": {
+   "id": "2026-11-21T10:00-strange-minute-ep9",
+   "slot": "2026-11-21T10:00",
+   "series": "strange-minute",
+   "episode": 9,
+   "title": "GTA 6 Secrets: Never Go Here After 2 AM 👽😳 #shorts",
+   "stage": "uploaded",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-20T18:49:35Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-20T18:54:43Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-20T18:54:43Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-20T18:54:43Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-20T18:54:43Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-20T18:49:35Z",
+   "updated": "2026-11-20T18:54:43Z"
   }
  }
 }

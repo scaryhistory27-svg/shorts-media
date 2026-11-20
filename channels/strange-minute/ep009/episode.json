@@ -1,0 +1,178 @@
+{
+ "series": "Strange Minute",
+ "episode": 9,
+ "title": "STRANGE MINUTE · GTA 6 · SECRETS #2",
+ "stamp": "LEONIDA · AFTER 2 AM",
+ "style": "light",
+ "bed": "light",
+ "voice": "am_fenrir",
+ "lang": "en-us",
+ "voice_fx": "explainer",
+ "speed": 1.0,
+ "gap": 0.25,
+ "music_level": 0.11,
+ "endTitle": "WHAT IF #10?",
+ "endSub": "Back to the strangest what-ifs",
+ "cta": {
+  "text": "YOUR DAILY DOSE OF WEIRD.",
+  "hl": "WEIRD."
+ },
+ "lines": [
+  {
+   "scene": "ufo",
+   "text": "Never visit this town after 2 AM.",
+   "say": "Never visit this town after two A.M.",
+   "hl": {
+    "Never": "r",
+    "2": "y",
+    "AM.": "y"
+   },
+   "sfx": [
+    {
+     "at": "end",
+     "type": "ding"
+    }
+   ]
+  },
+  {
+   "scene": "ufo",
+   "text": "Port Gellhorn, GTA 6. A quiet beach town by day.",
+   "hl": {
+    "Gellhorn,": "y",
+    "GTA": "y",
+    "6.": "y"
+   },
+   "say": "Port Gellhorn, G.T.A. six. A quiet beach town by day."
+  },
+  {
+   "scene": "ufo",
+   "text": "Players say a UFO starts abducting people.",
+   "say": "Players say a U.F.O. starts abducting people.",
+   "hl": {
+    "UFO": "r",
+    "abducting": "r"
+   }
+  },
+  {
+   "scene": "bigfoot",
+   "text": "Deep in the swamps, others swear they saw Bigfoot.",
+   "hl": {
+    "Bigfoot.": "y"
+   },
+   "sfx": [
+    {
+     "word": "Bigfoot.",
+     "type": "pop"
+    }
+   ]
+  },
+  {
+   "scene": "island",
+   "text": "The jet-ski dog? It has a secret island.",
+   "hl": {
+    "dog?": "y",
+    "island.": "y"
+   }
+  },
+  {
+   "scene": "mission",
+   "text": "But the strangest find is in an early mission.",
+   "hl": {
+    "strangest": "y"
+   },
+   "sfx": [
+    {
+     "word": "strangest",
+     "type": "rise"
+    }
+   ]
+  },
+  {
+   "scene": "mission",
+   "text": "A hidden conversation about a mountain.",
+   "hl": {
+    "hidden": "r",
+    "mountain.": "y"
+   }
+  },
+  {
+   "scene": "mountain",
+   "text": "The Mount Chiliad mystery from GTA 5.",
+   "say": "The Mount Chiliad mystery from G.T.A. five.",
+   "hl": {
+    "Chiliad": "y"
+   }
+  },
+  {
+   "scene": "mountain",
+   "text": "Fans have tried to solve it for 13 years.",
+   "say": "Fans have tried to solve it for thirteen years.",
+   "hl": {
+    "13": "r",
+    "years.": "r"
+   }
+  },
+  {
+   "scene": "confirm",
+   "text": "Rockstar hasn't confirmed any of these.",
+   "hl": {
+    "hasn't": "r"
+   }
+  },
+  {
+   "scene": "confirm",
+   "text": "Which means even more is still hidden.",
+   "hl": {
+    "more": "y",
+    "hidden.": "y"
+   }
+  },
+  {
+   "scene": "endq",
+   "text": "So would you go there after 2 AM?",
+   "say": "So would you go there after two A.M.?",
+   "hl": {
+    "2": "r",
+    "AM?": "r"
+   },
+   "gap": 0.5,
+   "sfx": [
+    {
+     "word": "there",
+     "type": "chime"
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "GTA 6 Secrets: Never Go Here After 2 AM 👽😳 #shorts",
+  "description": "UFOs, Bigfoot and a 13-year-old mystery — what players are finding in GTA 6. 👽 Which one is real? 👇\nScreenshots: Rockstar Games (official press images).\n#gta6 #gta6secrets #gta6eastereggs #gaming #gtavi #shorts",
+  "tags": [
+   "gta 6",
+   "gta 6 secrets",
+   "gta 6 easter eggs",
+   "gta 6 ufo",
+   "gta 6 bigfoot",
+   "gta vi",
+   "mount chiliad",
+   "gaming"
+  ],
+  "first_comment": "UFO, Bigfoot or the Chiliad mystery — which GTA 6 secret do you think is REAL? 👽👇"
+ },
+ "cover": {
+  "seg": 1,
+  "frac": 0.6,
+  "top": "GTA 6 SECRETS",
+  "lines": [
+   "NEVER GO HERE",
+   "AFTER 2 AM"
+  ],
+  "sub": "SECRET #2"
+ },
+ "sources": [
+  "GamingBible 2026-11-20: hidden NPC conversation about GTA 5 Mount Chiliad mystery",
+  "Nerdism/WikiGTAVI live lists: UFO abduction outside Port Gellhorn after 2 AM (player reports), Bigfoot in Gullet Marsh",
+  "playday.one: Cool Dog on a jet ski + dog island",
+  "Rockstar has not confirmed these (GameSpot/egamers)"
+ ]
+}
