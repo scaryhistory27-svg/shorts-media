@@ -1,3 +1,5 @@
+## 2026-11-20 ~13:20 LA — TikTok: YouTube link moved to line 1 of caption + start of first comment (owner); tt002–tt008 updated in Metricool (new ids in TIKTOK.md). tt001 was already publishing.
+
 ## 2026-11-20 ~13:05 LA — TikTok launched, memory saved before possible /clear
 
 - TikTok @roadtops5.gta6 connected (brand 8179515); 8 carousel posts scheduled (tt001–tt008, last Nov 22 08:00). Generator pipeline/tiktok_slides.py; specs channels/tiktok/posts/.
