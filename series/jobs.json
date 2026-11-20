@@ -544,8 +544,8 @@
    "series": "whos-home",
    "episode": 1,
    "title": "Never Ask Your Smart Speaker Who's Home 🔊😨 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -578,16 +578,61 @@
     {
      "stage": "scheduled",
      "at": "2026-11-19T18:51:45Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-20T18:41:52Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-19T18:46:02Z",
-   "updated": "2026-11-19T18:51:45Z",
+   "updated": "2026-11-20T18:41:52Z",
    "metricool_id": 434620167,
    "uuid": 4003088664003628751,
    "publish_time": "2026-11-19T15:30",
-   "thumbnail": "custom"
+   "thumbnail": "custom",
+   "youtube_id": "R3z-wQ2kbgE",
+   "youtube_url": "https://www.youtube.com/shorts/R3z-wQ2kbgE"
+  },
+  "2026-11-20T15:30-whos-home-ep2": {
+   "id": "2026-11-20T15:30-whos-home-ep2",
+   "slot": "2026-11-20T15:30",
+   "series": "whos-home",
+   "episode": 2,
+   "title": "My Smart Speaker Recorded Me Before I Moved In 🔊😨 #shorts",
+   "stage": "uploaded",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-20T18:42:41Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-20T18:48:36Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-20T18:48:36Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-20T18:48:36Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-20T18:48:36Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-20T18:48:36Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-20T18:42:41Z",
+   "updated": "2026-11-20T18:48:36Z"
   }
  }
 }

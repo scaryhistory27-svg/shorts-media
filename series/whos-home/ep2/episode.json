@@ -1,0 +1,175 @@
+{
+ "series": "Who's Home",
+ "episode": 2,
+ "title": "WHO'S HOME · PART 2",
+ "stamp": "DAY 1 · 5:19 PM",
+ "endTitle": "PART 3?",
+ "endSub": "Which voice is real?",
+ "music_level": 0.12,
+ "cta": {
+  "text": "SUBSCRIBE… OR MISS WHAT HAPPENS NEXT.",
+  "hl": "SUBSCRIBE…"
+ },
+ "lines": [
+  {
+   "scene": "speakerHook",
+   "text": "My smart speaker says I'm never alone here.",
+   "hl": {
+    "never": "r",
+    "alone": "y"
+   },
+   "speed": 1.2,
+   "gap": 0.35
+  },
+  {
+   "scene": "attic",
+   "text": "I moved in an hour ago. The attic door is open.",
+   "hl": {
+    "attic": "y",
+    "open.": "r"
+   }
+  },
+  {
+   "scene": "appList",
+   "text": "So I opened the speaker's voice history.",
+   "hl": {
+    "voice": "y",
+    "history.": "y"
+   }
+  },
+  {
+   "scene": "appList",
+   "text": "Hundreds of recordings. Every day at 5:12 PM.",
+   "say": "Hundreds of recordings. Every day at five twelve P.M.",
+   "hl": {
+    "Hundreds": "y",
+    "5:12": "r"
+   }
+  },
+  {
+   "scene": "appList",
+   "text": "The first one is from 2019. Years before I came.",
+   "say": "The first one is from twenty nineteen. Years before I came.",
+   "hl": {
+    "2019.": "r"
+   }
+  },
+  {
+   "scene": "play",
+   "text": "I pressed play. It was MY voice.",
+   "hl": {
+    "MY": "r",
+    "voice.": "r"
+   },
+   "sfx": [
+    {
+     "word": "voice.",
+     "type": "sting"
+    }
+   ]
+  },
+  {
+   "scene": "play",
+   "text": "Asking: Is anyone else home?",
+   "hl": {
+    "home?": "y"
+   }
+  },
+  {
+   "scene": "speakerClose",
+   "text": "And an old woman answered: Yes, dear. Right here.",
+   "hl": {
+    "old": "y",
+    "woman": "y",
+    "here.": "r"
+   },
+   "sfx": [
+    {
+     "word": "answered:",
+     "type": "heart"
+    }
+   ]
+  },
+  {
+   "scene": "appList",
+   "text": "Every recording. Same question. Same answer.",
+   "hl": {
+    "Same": "y"
+   }
+  },
+  {
+   "scene": "hallway",
+   "text": "Then I found the newest one.",
+   "hl": {
+    "newest": "y"
+   }
+  },
+  {
+   "scene": "appNew",
+   "text": "It was dated tomorrow. 5:12 PM.",
+   "say": "It was dated tomorrow. Five twelve P.M.",
+   "hl": {
+    "tomorrow.": "r"
+   }
+  },
+  {
+   "scene": "appNew",
+   "text": "I pressed play. And heard myself scream.",
+   "hl": {
+    "scream.": "r"
+   },
+   "sfx": [
+    {
+     "word": "scream.",
+     "type": "sting"
+    }
+   ]
+  },
+  {
+   "scene": "attic",
+   "text": "Above me, something climbed down the ladder.",
+   "hl": {
+    "ladder.": "r"
+   },
+   "sfx": [
+    {
+     "word": "climbed",
+     "type": "creak"
+    }
+   ]
+  },
+  {
+   "scene": "speakerClose",
+   "text": "And the speaker whispered: Now two people are home.",
+   "hl": {
+    "two": "r",
+    "home.": "r"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "My Smart Speaker Recorded Me Before I Moved In 🔊😨 #shorts",
+  "description": "Hundreds of recordings — in my voice — from years before I moved in. 🔊 Part 3? 👀\n#horrorstory #scary #creepy #smarthome #alexa #shorts",
+  "tags": [
+   "horror story",
+   "scary",
+   "creepy",
+   "smart speaker",
+   "alexa horror",
+   "scary story",
+   "horror animation",
+   "voice recording"
+  ],
+  "first_comment": "Would you press play on the recording from tomorrow? 🔊👀👇"
+ },
+ "cover": {
+  "seg": 12,
+  "frac": 0.85,
+  "top": "WHO'S HOME",
+  "lines": [
+   "IT RECORDED",
+   "TOMORROW"
+  ],
+  "sub": "PART 2"
+ }
+}
