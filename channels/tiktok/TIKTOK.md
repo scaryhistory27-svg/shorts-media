@@ -11,3 +11,5 @@
 - **Hosting:** Rockstar screenshots must NOT be committed to the public repo. Upload slides to litterbox.catbox.moe (72 h). 2026-11-20: litterbox returned HTTP 500 and the
   temporary-branch alternative was blocked by the session's safety check → nothing scheduled yet; retry every run; owner was offered: (a) wait, (b) approve temp branch, (c) post manually.
 - Ready, not yet scheduled: tt001 easter-egg, tt002 dexter, tt003 chiliad, tt004 gellhorn, tt005 regions, tt006 cat-car, tt007 bigfoot, tt008 jetski-dog.
+- **Owner 2026-11-20: "all next posts exactly like this"** — format of tt001 (ask slide → 3 fact slides) is FINAL for every post.
+  Until Metricool hosting works: every autopilot run send the owner the day's 4 posts (slides via SendUserFile + caption + pinned-comment text) to post manually; owner posted #1 himself.
