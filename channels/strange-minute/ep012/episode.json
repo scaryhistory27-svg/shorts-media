@@ -1,0 +1,33 @@
+{
+ "series": "Strange Minute", "episode": 12, "title": "STRANGE MINUTE · WHAT IF #12", "stamp": "ASTEROID · KNOCKED ASIDE",
+ "style": "light", "bed": "light", "voice": "am_fenrir", "lang": "en-us", "voice_fx": "explainer", "speed": 1.0, "gap": 0.25, "music_level": 0.12,
+ "endTitle": "WHAT IF #13?", "endSub": "Would you trust it with Earth?",
+ "cta": {"text": "ONE STRANGE MINUTE. EVERY DAY.", "hl": "STRANGE MINUTE"},
+ "lines": [
+  {"scene": "hook", "text": "What if we punched an asteroid off course?", "hl": {"punched": "y", "asteroid": "y"}, "gap": 0.35, "sfx": [{"at": "end", "type": "ding"}]},
+  {"scene": "nasa", "text": "NASA actually did it. In 2022.", "say": "NASA actually did it. In twenty twenty-two.", "hl": {"actually": "y", "2022.": "y"}},
+  {"scene": "pair", "text": "The target was Dimorphos. About 530 feet wide.", "say": "The target was Dimorphos. About five hundred thirty feet wide.", "hl": {"Dimorphos.": "y", "530": "y"}},
+  {"scene": "pair", "text": "It circles a bigger asteroid called Didymos.", "hl": {"bigger": "y", "Didymos.": "y"}},
+  {"scene": "dart", "text": "The probe, DART, was about the size of a vending machine.", "hl": {"DART,": "y", "vending": "r", "machine.": "r"}},
+  {"scene": "impact", "text": "It slammed in at about 14,000 miles per hour.", "say": "It slammed in at about fourteen thousand miles per hour.", "hl": {"slammed": "r", "14,000": "y"}, "sfx": [{"word": "slammed", "type": "whoosh"}]},
+  {"scene": "far", "text": "Almost 7 million miles from Earth.", "say": "Almost seven million miles from Earth.", "hl": {"7": "y", "million": "y"}},
+  {"scene": "orbit", "text": "NASA hoped to change its orbit by 73 seconds.", "say": "NASA hoped to change its orbit by seventy-three seconds.", "hl": {"73": "y", "seconds.": "y"}},
+  {"scene": "orbit", "text": "It changed it by 32 minutes.", "say": "It changed it by thirty-two minutes.", "hl": {"32": "r", "minutes.": "r"}},
+  {"scene": "tail", "text": "The hit blasted out a rock tail thousands of miles long.", "hl": {"tail": "y", "thousands": "r"}},
+  {"scene": "hera", "text": "Now Europe's Hera probe went to see the crater.", "hl": {"Hera": "y", "crater.": "y"}},
+  {"scene": "earthq", "text": "So if a big one ever heads our way...", "hl": {"big": "r", "our": "y", "way...": "y"}},
+  {"scene": "earthq", "text": "We might just knock it aside. Would you trust it with Earth?", "hl": {"knock": "y", "aside.": "y", "Earth?": "y"}}
+ ],
+ "youtube": {
+  "title": "What If We Punched An Asteroid Off Course? ☄️😳 #shorts",
+  "description": "NASA really did it — and it worked better than planned. ☄️ Would you trust it with Earth? 👇\n#whatif #space #asteroid #nasa #science #shorts",
+  "tags": ["what if", "asteroid", "nasa dart", "dimorphos", "space facts", "science", "planetary defense", "strange facts"],
+  "first_comment": "If a giant asteroid headed for Earth — would you trust a punch like this? ☄️👇"
+ },
+ "cover": {"seg": 5, "frac": 0.5, "top": "STRANGE MINUTE", "lines": ["NASA PUNCHED", "AN ASTEROID"], "sub": "WHAT IF #12"},
+ "sources": [
+  "NASA DART: impact Sept 26, 2022 on Dimorphos (~160 m / ~530 ft), moonlet of Didymos; ~6.1 km/s (~14,000 mph); ~11 million km (~7 million mi) from Earth",
+  "NASA: orbit period cut by ~32 min (11 h 55 min → 11 h 23 min); minimum success threshold 73 s; ejecta tail >10,000 km",
+  "ESA Hera (launched Oct 2024) to inspect the impact site at Didymos in late 2026 (news Nov 2026: arrival)"
+ ]
+}
