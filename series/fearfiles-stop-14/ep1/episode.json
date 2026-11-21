@@ -1,0 +1,190 @@
+{
+ "series": "FearFiles: Stop 14",
+ "episode": 1,
+ "title": "FEARFILES: STOP 14",
+ "stamp": "STOP 14 · 7:40 AM",
+ "endTitle": "DON'T ANSWER.",
+ "endSub": "Who's waiting at YOUR stop?",
+ "music_level": 0.12,
+ "cta": {
+  "text": "A NEW NIGHTMARE EVERY DAY.",
+  "hl": "NIGHTMARE"
+ },
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "Never answer a stranger who knows your name.",
+   "hl": {
+    "Never": "r",
+    "knows": "y",
+    "name.": "y"
+   },
+   "speed": 1.2,
+   "gap": 0.35
+  },
+  {
+   "scene": "stop",
+   "text": "Every morning at 7:40, a man waits at Stop 14.",
+   "say": "Every morning at seven forty, a man waits at Stop fourteen.",
+   "hl": {
+    "7:40,": "y",
+    "14.": "y"
+   }
+  },
+  {
+   "scene": "stop",
+   "text": "Gray coat. Never gets on. Just watches me.",
+   "hl": {
+    "Never": "r",
+    "watches": "r"
+   }
+  },
+  {
+   "scene": "talk",
+   "text": "Today he said: Morning, Sam. Late again.",
+   "hl": {
+    "Sam.": "y",
+    "again.": "r"
+   }
+  },
+  {
+   "scene": "me",
+   "text": "I never told him my name.",
+   "hl": {
+    "never": "r",
+    "name.": "y"
+   }
+  },
+  {
+   "scene": "bus",
+   "text": "Then a bus pulled up. One I'd never seen.",
+   "hl": {
+    "never": "r",
+    "seen.": "r"
+   },
+   "sfx": [
+    {
+     "word": "pulled",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "busIn",
+   "text": "Every seat full. Nobody moved.",
+   "hl": {
+    "full.": "y",
+    "Nobody": "r",
+    "moved.": "r"
+   }
+  },
+  {
+   "scene": "talk",
+   "text": "He grabbed my arm: Not this one.",
+   "hl": {
+    "grabbed": "r",
+    "this": "y"
+   }
+  },
+  {
+   "scene": "bus",
+   "text": "The doors closed. It left without me.",
+   "hl": {
+    "without": "y"
+   },
+   "sfx": [
+    {
+     "word": "left",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "sign",
+   "text": "Its sign said: Not in service. Since 1986.",
+   "say": "Its sign said: Not in service. Since nineteen eighty-six.",
+   "hl": {
+    "Not": "r",
+    "service.": "r",
+    "1986.": "y"
+   },
+   "sfx": [
+    {
+     "word": "1986.",
+     "type": "sting"
+    }
+   ]
+  },
+  {
+   "scene": "face",
+   "text": "Then I saw the scar on his chin.",
+   "hl": {
+    "scar": "r",
+    "chin.": "y"
+   },
+   "sfx": [
+    {
+     "word": "scar",
+     "type": "heart"
+    }
+   ]
+  },
+  {
+   "scene": "face",
+   "text": "My scar. My eyes. Forty years older.",
+   "hl": {
+    "My": "y",
+    "Forty": "r",
+    "older.": "r"
+   }
+  },
+  {
+   "scene": "talk",
+   "text": "I got on that bus, he said. I never got off.",
+   "hl": {
+    "never": "r",
+    "off.": "r"
+   }
+  },
+  {
+   "scene": "hook",
+   "text": "So if a stranger knows your name, don't answer.",
+   "hl": {
+    "knows": "y",
+    "don't": "r",
+    "answer.": "r"
+   },
+   "sfx": [
+    {
+     "word": "answer.",
+     "type": "sting"
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Never Answer A Stranger Who Knows Your Name 🚏😨 #shorts",
+  "description": "Every morning at 7:40, the same man waits at Stop 14. Today he said my name. 🚏 Who's waiting at YOUR stop? 👀\n#horrorstory #scary #creepy #timeloop #busstop #shorts",
+  "tags": [
+   "horror story",
+   "scary",
+   "creepy",
+   "bus stop",
+   "time loop",
+   "scary story",
+   "horror animation",
+   "stranger"
+  ],
+  "first_comment": "Would YOU have gotten on that bus? 🚏👇 Did you spot the scar early? 👀"
+ },
+ "cover": {
+  "seg": 11,
+  "frac": 0.6,
+  "top": "FEARFILES",
+  "lines": [
+   "HE HAD",
+   "MY FACE"
+  ],
+  "sub": "STOP 14"
+ }
+}
