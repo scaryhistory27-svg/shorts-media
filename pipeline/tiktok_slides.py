@@ -132,16 +132,16 @@ def goal_slide(img, subs):
     d = ImageDraw.Draw(c)
     y = text_block(d, y, "MY GOAL:", font("Black", 78), COL["y"])
     y = text_block(d, y, "PS5 + GTA 6", font("Black", 112), (255, 255, 255)) + 20
-    y = text_block(d, y, "Help me hit 1,000 YouTube subs", font("ExtraBold", 50), COL["c"])
+    y = text_block(d, y, "Help me hit 1,000 subscribers", font("ExtraBold", 50), COL["c"])
     y = text_block(d, y, "Subscribe + watch 2 videos.\n2 min for you, a dream for me.", font("ExtraBold", 50), (255, 255, 255), gap=8) + 30
     bx, bw = 110, W - 220
     d.rounded_rectangle((bx, y, bx + bw, y + 46), 23, fill=(40, 40, 60))
     fw = max(46, int(bw * min(subs, 1000) / 1000))
     d.rounded_rectangle((bx, y, bx + fw, y + 46), 23, fill=COL["r"])
     y += 80
-    y = text_block(d, y, f"{subs:,} / 1,000 SUBSCRIBERS", font("Black", 58), (255, 255, 255)) + 16
+    y = text_block(d, y, f"{subs:,} / 1,000", font("Black", 58), (255, 255, 255)) + 16
     y = text_block(d, y, "LINK IN BIO", font("Black", 74), COL["y"]) + 10
-    text_block(d, y, "YouTube: @StrangeMinuteOfficial", font("ExtraBold", 44), (255, 255, 255))
+    text_block(d, y, "@StrangeMinuteOfficial", font("ExtraBold", 44), (255, 255, 255))
     return c
 
 

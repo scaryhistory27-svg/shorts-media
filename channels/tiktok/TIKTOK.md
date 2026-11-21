@@ -16,3 +16,13 @@
 - Hashtags (5 per post, at the end of the caption): always `#gta6 #ps5` + 2 topic tags (e.g. #easteregg #gtasecrets / #bigfoot / #vicecity) + 1 discovery tag rotated (#gaming / #gamingontiktok / #fyp).
 - 2026-11-20: tt001 scheduled 13:00 LA via Metricool (436068942) — slides pushed temporarily to videos/ with the owner's explicit approval (mode switched to ask, "пробуй снова"), removed right after Metricool copied them. Without owner approval this path is blocked by the session safety check → use litterbox or manual posting.
 - 2026-11-20: tt002–tt007 also via temporary videos/ upload (owner: "попробуй"), removed right after the Metricool copy. Use only s1–s4 (not sheet.jpg).
+
+## FORMAT v2 (owner 2026-11-21: "delete all and make new" after 0 views on tt001–tt003)
+- 0 views = not pushed to For You. Fix: NO links in caption or first comment (off-platform links get suppressed) — the link lives ONLY in the bio;
+  slide 1 = the GTA 6 hook (spec `goal_first: false`), facts, LAST slide = goal (PS5 + GTA 6, counter, LINK IN BIO, @StrangeMinuteOfficial — no word "YouTube" on images);
+  caption = hook + question + "Last slide = my goal 🎮 link in bio 👆" + 5 tags (#gta6 + 2 topic + #gaming #fyp); first comment = an engaging question, no link.
+  This REPLACES the owner's 2026-11-20 "link first" request (owner asked for full redo). Specs tt009–tt016.
+- Old tt001–tt003 were published (Metricool cannot delete published posts) → owner deletes them in the app. tt004–tt008 were overwritten with v2.
+- SCHEDULED v2: tt009 Nov 21 08:00 (436493739), tt010 12:00 (436493785), tt011 16:00 (436493821), tt012 19:30 (436493857), tt013 Nov 22 08:00 (436493900),
+  tt014 12:00 (436493939), tt015 16:00 (436493974), tt016 19:30 (436494016). Next empty: Nov 23 08:00. tt014–016 = reruns of deleted topics with different images.
+- litterbox returns "Invalid uploader" (2026-11-21) → temporary videos/tt/ upload, removed right after the Metricool copy.
