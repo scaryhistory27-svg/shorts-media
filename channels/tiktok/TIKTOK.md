@@ -46,3 +46,4 @@
 ## CADENCE v2 — owner 2026-11-21: "work worldwide, day and night, post as much as helps" → **6 posts/day** (cap 6: more looks like spam for a new account)
 - LA slots: 00:30 · 04:30 · 08:00 · 12:00 · 16:00 · 19:30 (= Yerevan 12:30 · 16:30 · 20:00 · 00:00 · 04:00 · 07:30) → Europe/Asia daytime + US morning/lunch/evening.
 - Every run fill all empty slots for the next 36 h with NEW topics (fresh GTA 6 news via WebSearch, no repeats). Re-evaluate slot hours from TikTok analytics after ~1 week.
+- 2026-11-21 run: new tt017 movie-car Nov 22 00:30 (436937120), tt018 lucia Nov 22 04:30 (436937192). Nov 22 now full (6). Next empty: Nov 23 00:30.
