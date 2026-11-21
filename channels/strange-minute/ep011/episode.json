@@ -1,0 +1,39 @@
+{
+ "series": "Strange Minute",
+ "episode": 11,
+ "title": "STRANGE MINUTE · WHAT IF #11",
+ "stamp": "MARS · NO SUIT",
+ "style": "light", "bed": "light", "voice": "am_fenrir", "lang": "en-us", "voice_fx": "explainer",
+ "speed": 1.0, "gap": 0.25, "music_level": 0.12,
+ "endTitle": "WHAT IF #12?",
+ "endSub": "Would you risk one minute?",
+ "cta": {"text": "ONE STRANGE MINUTE. EVERY DAY.", "hl": "STRANGE MINUTE"},
+ "lines": [
+  {"scene": "hook", "text": "What if you stepped onto Mars without a spacesuit?", "hl": {"Mars": "y", "without": "r"}, "gap": 0.35, "sfx": [{"at": "end", "type": "ding"}]},
+  {"scene": "air", "text": "First problem: the air is 95% carbon dioxide.", "say": "First problem: the air is ninety-five percent carbon dioxide.", "hl": {"95%": "r", "carbon": "y"}},
+  {"scene": "air", "text": "And there's almost none of it. Under 1% of Earth's pressure.", "say": "And there's almost none of it. Under one percent of Earth's pressure.", "hl": {"none": "r", "1%": "y"}},
+  {"scene": "lungs", "text": "The air in your lungs would rush straight out.", "hl": {"rush": "r", "out.": "r"}, "sfx": [{"word": "rush", "type": "whoosh"}]},
+  {"scene": "boil", "text": "Your saliva would start to boil. At body temperature.", "hl": {"boil.": "r", "body": "y"}},
+  {"scene": "nasa", "text": "In 1966, a NASA tester's suit leaked in a vacuum chamber.", "say": "In nineteen sixty-six, a NASA tester's suit leaked in a vacuum chamber.", "hl": {"1966,": "y", "leaked": "r"}},
+  {"scene": "nasa", "text": "He felt the spit bubbling on his tongue. Then he blacked out.", "hl": {"bubbling": "r", "blacked": "y"}},
+  {"scene": "blackout", "text": "That takes about 15 seconds.", "say": "That takes about fifteen seconds.", "hl": {"15": "r", "seconds.": "r"}},
+  {"scene": "swell", "text": "Your skin would swell up. But you would not explode.", "hl": {"swell": "y", "not": "y", "explode.": "y"}},
+  {"scene": "cold", "text": "It's freezing too: about minus 80 degrees on average.", "say": "It's freezing too: about minus eighty degrees on average.", "hl": {"freezing": "y", "80": "r"}},
+  {"scene": "uv", "text": "And there's no ozone layer, so raw sunlight burns.", "hl": {"no": "r", "ozone": "y", "burns.": "r"}},
+  {"scene": "jump", "text": "The one fun part? Gravity is just 38% of Earth's.", "say": "The one fun part? Gravity is just thirty-eight percent of Earth's.", "hl": {"fun": "y", "38%": "y"}, "sfx": [{"word": "38%", "type": "whoosh"}]},
+  {"scene": "jump", "text": "You could jump almost three times higher. Once.", "hl": {"three": "y", "Once.": "r"}},
+  {"scene": "endq", "text": "Within two minutes, it's over. Would you still take one step?", "say": "Within two minutes, it's over. Would you still take one step?", "hl": {"two": "r", "minutes,": "r", "step?": "y"}}
+ ],
+ "youtube": {
+  "title": "What If You Stood On Mars Without A Spacesuit? 🔴😳 #shorts",
+  "description": "Boiling spit, 15 seconds to black out, and one fun superpower. 🔴 Would you take one step? 👇\n#whatif #mars #space #science #facts #shorts",
+  "tags": ["what if", "mars", "space facts", "mars without spacesuit", "science", "astronomy", "vacuum", "strange facts"],
+  "first_comment": "One step on Mars without a suit — yes or no? 🔴👇"
+ },
+ "cover": {"seg": 4, "frac": 0.6, "top": "STRANGE MINUTE", "lines": ["YOUR SPIT", "WOULD BOIL"], "sub": "WHAT IF #11"},
+ "sources": [
+  "NASA Mars facts: atmosphere ~95% CO2, surface pressure ~0.6% of Earth's, gravity ~38%, average temp about -80 F (-60 C), no ozone layer",
+  "NASA 1966 Jim LeBlanc vacuum chamber suit leak: conscious ~12-15 s, felt saliva boiling on tongue, survived",
+  "Ebullition at body temperature below Armstrong limit (~6.3 kPa); Mars ~0.6 kPa; survival ~1-2 min (vacuum exposure studies)"
+ ]
+}
