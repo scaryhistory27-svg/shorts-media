@@ -42,3 +42,7 @@
 - Scheduled: Gellhorn Nov 21 04:15 (436605555, first post), regions 12:00 (436605846), cat-car 16:00 (436605897), bigfoot 19:30 (436605939);
   Nov 22: jetski-dog 08:00 (436605990), easter-egg 12:00 (436606046), dexter 16:00 (436606087), chiliad 19:30 (436606145). All 8 old topics now used on the new account.
 - Next empty: Nov 23 08:00 → NEW topics (WebSearch fresh GTA 6 news, never repeat posts/ topics). Old v2 drafts 436502339/370/411 stay drafts (ignore).
+
+## CADENCE v2 — owner 2026-11-21: "work worldwide, day and night, post as much as helps" → **6 posts/day** (cap 6: more looks like spam for a new account)
+- LA slots: 00:30 · 04:30 · 08:00 · 12:00 · 16:00 · 19:30 (= Yerevan 12:30 · 16:30 · 20:00 · 00:00 · 04:00 · 07:30) → Europe/Asia daytime + US morning/lunch/evening.
+- Every run fill all empty slots for the next 36 h with NEW topics (fresh GTA 6 news via WebSearch, no repeats). Re-evaluate slot hours from TikTok analytics after ~1 week.
