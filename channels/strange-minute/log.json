@@ -187,13 +187,21 @@
    "cover_ms": 11617,
    "thumbnail": "frame",
    "format": "v2"
+  },
+  {
+   "n": 11,
+   "publish": "2026-11-22T18:30:00",
+   "youtube_title": "What If You Stood On Mars Without A Spacesuit? 🔴😳 #shorts",
+   "metricool_id": 436936362,
+   "thumbnail": "frame",
+   "topic": "mars without spacesuit (space what-if; trend: Mars news Nov 2026)"
   }
  ],
  "thumbnail": {
   "mode": "frame",
   "fails": 1,
   "probe_every": 3,
-  "since_probe": 0,
+  "since_probe": 1,
   "note": "new channel not phone-verified yet → frame mode; probe custom covers every 3rd video",
   "last_probe": "2026-11-18 SM #4 custom cover rejected (\"Could not upload video thumbnail\") → stay frame"
  },
