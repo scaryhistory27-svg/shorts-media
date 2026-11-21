@@ -601,8 +601,8 @@
    "series": "whos-home",
    "episode": 2,
    "title": "My Smart Speaker Recorded Me Before I Moved In 🔊😨 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -635,14 +635,20 @@
     {
      "stage": "scheduled",
      "at": "2026-11-20T18:48:58Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-21T18:42:23Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-20T18:42:41Z",
-   "updated": "2026-11-20T18:48:58Z",
+   "updated": "2026-11-21T18:42:23Z",
    "metricool_id": 435953707,
-   "publish_time": "2026-11-20T15:30"
+   "publish_time": "2026-11-20T15:30",
+   "youtube_id": "sL-p07RPahM",
+   "youtube_url": "https://www.youtube.com/shorts/sL-p07RPahM"
   },
   "2026-11-21T07:00-whos-home-ep3": {
    "id": "2026-11-21T07:00-whos-home-ep3",
@@ -650,8 +656,8 @@
    "series": "whos-home",
    "episode": 3,
    "title": "My Smart Speaker Knew I Was Dead 🔊😨 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -684,14 +690,69 @@
     {
      "stage": "scheduled",
      "at": "2026-11-20T19:01:23Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-21T18:42:23Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-20T18:55:32Z",
-   "updated": "2026-11-20T19:01:23Z",
+   "updated": "2026-11-21T18:42:23Z",
    "metricool_id": 435966647,
-   "publish_time": "2026-11-21T07:00"
+   "publish_time": "2026-11-21T07:00",
+   "youtube_id": "e7RQDtshCRc",
+   "youtube_url": "https://www.youtube.com/shorts/e7RQDtshCRc"
+  },
+  "2026-11-21T15:30-fearfiles-dryer-nine-ep1": {
+   "id": "2026-11-21T15:30-fearfiles-dryer-nine-ep1",
+   "slot": "2026-11-21T15:30",
+   "series": "fearfiles-dryer-nine",
+   "episode": 1,
+   "title": "Never Play A Voicemail From Your Own Number 📞😨 #shorts",
+   "stage": "scheduled",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-21T18:45:25Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-21T18:54:46Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-21T18:54:46Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-21T18:54:47Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-21T18:54:47Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-21T18:54:56Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-21T18:54:56Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-21T18:55:06Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-21T18:45:25Z",
+   "updated": "2026-11-21T18:55:06Z",
+   "metricool_id": 436932415,
+   "publish_time": "2026-11-21T14:30"
   }
  }
 }

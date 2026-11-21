@@ -403,8 +403,8 @@
    "series": "strange-minute",
    "episode": 8,
    "title": "What If You Fell Into Jupiter? 🪐😳 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -437,15 +437,21 @@
     {
      "stage": "scheduled",
      "at": "2026-11-20T05:18:21Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-21T18:42:23Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-19T18:52:19Z",
-   "updated": "2026-11-20T05:18:21Z",
+   "updated": "2026-11-21T18:42:23Z",
    "metricool_id": 435138742,
    "uuid": 3858903947956866651,
-   "publish_time": "2026-11-20T18:30"
+   "publish_time": "2026-11-20T18:30",
+   "youtube_id": "-hmEjnPBqc0",
+   "youtube_url": "https://www.youtube.com/shorts/-hmEjnPBqc0"
   },
   "2026-11-21T10:00-strange-minute-ep9": {
    "id": "2026-11-21T10:00-strange-minute-ep9",
@@ -453,8 +459,8 @@
    "series": "strange-minute",
    "episode": 9,
    "title": "GTA 6 Secrets: Never Go Here After 2 AM 👽😳 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -483,14 +489,20 @@
     {
      "stage": "scheduled",
      "at": "2026-11-20T18:55:02Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-21T18:42:23Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-20T18:49:35Z",
-   "updated": "2026-11-20T18:55:02Z",
+   "updated": "2026-11-21T18:42:23Z",
    "metricool_id": 435960259,
-   "publish_time": "2026-11-21T10:00"
+   "publish_time": "2026-11-21T10:00",
+   "youtube_id": "PyzIBScwYbE",
+   "youtube_url": "https://www.youtube.com/shorts/PyzIBScwYbE"
   },
   "2026-11-21T18:30-strange-minute-ep10": {
    "id": "2026-11-21T18:30-strange-minute-ep10",
