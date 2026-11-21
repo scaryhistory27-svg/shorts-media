@@ -1,0 +1,33 @@
+{
+ "series": "FearFiles: Dryer Nine",
+ "episode": 1,
+ "title": "FEARFILES: DRYER NINE",
+ "stamp": "LAUNDROMAT · 11:52 PM",
+ "endTitle": "DON'T PLAY IT.",
+ "endSub": "Which one walked out?",
+ "music_level": 0.12,
+ "cta": {"text": "SOME STORIES FIND YOU. SUBSCRIBE FIRST.", "hl": "SUBSCRIBE"},
+ "lines": [
+  {"scene": "hookPhone", "text": "Never play a voicemail from your own number.", "hl": {"Never": "r", "own": "y", "number.": "y"}, "speed": 1.2, "gap": 0.35},
+  {"scene": "laundro", "text": "Mine came at 11:52 PM. At the laundromat.", "say": "Mine came at eleven fifty-two P.M. At the laundromat.", "hl": {"11:52": "y", "laundromat.": "y"}},
+  {"scene": "playVM", "text": "My own voice whispered: Don't look in dryer nine.", "hl": {"own": "r", "voice": "r", "nine.": "y"}},
+  {"scene": "row", "text": "I was alone. But dryer nine was spinning.", "hl": {"alone.": "y", "spinning.": "r"}},
+  {"scene": "dryerClose", "text": "Nobody had put anything in it.", "hl": {"Nobody": "r"}},
+  {"scene": "dryerClose", "text": "Then something thumped against the glass.", "hl": {"thumped": "r", "glass.": "y"}, "sfx": [{"word": "thumped", "type": "knock"}]},
+  {"scene": "laundro", "text": "My phone buzzed. Another voicemail.", "hl": {"Another": "r"}, "sfx": [{"word": "buzzed.", "type": "buzz"}]},
+  {"scene": "playVM", "text": "If it stops, don't open it. Walk out. Now.", "hl": {"stops,": "y", "don't": "r", "Now.": "r"}},
+  {"scene": "dryerOpen", "text": "The dryer stopped. The door swung open by itself.", "hl": {"stopped.": "y", "itself.": "r"}, "sfx": [{"word": "swung", "type": "creak"}]},
+  {"scene": "hoodie", "text": "Inside was my hoodie. The one I'm wearing.", "hl": {"my": "y", "hoodie.": "y", "wearing.": "r"}},
+  {"scene": "reflect", "text": "In the round glass, my reflection didn't move.", "hl": {"reflection": "y", "didn't": "r", "move.": "r"}, "sfx": [{"word": "didn't", "type": "sting"}]},
+  {"scene": "reflect", "text": "It lifted a phone to its ear. And whispered.", "hl": {"phone": "y", "whispered.": "r"}},
+  {"scene": "lightsOut", "text": "That's when I knew who sends the voicemails.", "hl": {"who": "r", "voicemails.": "y"}},
+  {"scene": "hookPhone", "text": "So if your own number calls tonight, don't play it.", "hl": {"own": "y", "number": "y", "don't": "r", "play": "r"}, "sfx": [{"word": "play", "type": "sting"}]}
+ ],
+ "youtube": {
+  "title": "Never Play A Voicemail From Your Own Number 📞😨 #shorts",
+  "description": "11:52 PM. A voicemail from my own number… and dryer nine was spinning. 📞 Which one walked out? 👀\n#horrorstory #scary #creepy #doppelganger #phonehorror #shorts",
+  "tags": ["horror story", "scary", "creepy", "voicemail horror", "doppelganger", "scary story", "horror animation", "laundromat"],
+  "first_comment": "Be honest — would YOU have played the second voicemail? 📞👇 Who walked out of the laundromat? 👀"
+ },
+ "cover": {"seg": 10, "frac": 0.75, "top": "FEARFILES", "lines": ["MY REFLECTION", "DIDN'T MOVE"], "sub": "DRYER NINE"}
+}
