@@ -182,7 +182,13 @@ def main():
     out = os.path.join(ROOT, "channels", "tiktok", "build", pid)
     os.makedirs(out, exist_ok=True)
     imgs = []
-    if spec.get("goal_first", True):
+    if spec.get("layout", "hook_ask") == "hook_ask":
+        # owner 2026-11-21 (v3): slide 1 = GTA 6 secret cover (makes people swipe), slide 2 = the ask, then facts
+        h = spec["slides"][0]
+        imgs.append(hook_slide(h))
+        imgs.append(goal_hook(spec.get("goal_img", h["img"]), subs, spec.get("teaser") or "KEEP SWIPING FOR THE SECRET →"))
+        imgs += [info_slide(s) for s in spec["slides"][1:]]
+    elif spec.get("goal_first", True):
         h = spec["slides"][0]
         teaser = spec.get("teaser") or ("SWIPE: " + h["title"].replace("\n", " ") + " →")
         imgs.append(goal_hook(h["img"], subs, teaser))

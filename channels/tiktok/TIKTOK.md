@@ -24,3 +24,9 @@
   tt004 Nov 21 08:00 (436502107), tt005 12:00 (436502154), tt006 16:00 (436502213), tt007 19:30 (436502266), tt008 Nov 22 08:00 (436502309).
   v2 reruns tt014–tt016 (436502339/370/411, Nov 22 12:00/16:00/19:30) set to DRAFT (not published). Next empty: Nov 22 12:00. Specs tt009–tt016 = unused v2.
 - litterbox returns "Invalid uploader" → temporary videos/tt/ upload, removed right after the Metricool copy.
+
+## FORMAT v3 — CURRENT (owner 2026-11-21 ~02:20 LA, after 0 views again)
+- Slide 1 = COVER: GTA 6 secret hook (hook_slide) so people want to swipe; slide 2 = the ask ("HELP ME SAVE UP FOR A PS5 · SUBSCRIBE TO MY CHANNEL", counter,
+  handle, "KEEP SWIPING FOR THE SECRET →"); slides 3–5 = facts. Generator default `layout: "hook_ask"` (pipeline/tiktok_slides.py). Caption/first comment unchanged (link first).
+- Updated in Metricool: tt004 Nov 21 08:00 (436544585), tt005 12:00 (436544670), tt006 16:00 (436544715), tt007 19:30 (436544775), tt008 Nov 22 08:00 (436544833).
+  tt001–tt003 (01:30/02:00/02:30) went out in the old ask-first layout.
