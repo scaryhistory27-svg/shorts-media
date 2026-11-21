@@ -37,3 +37,8 @@
   the new handle + format (v3 hook→ask→facts) and restart 4 posts/day (drafts can be reused: set draft=false + new date).
 - **OWNER RULE (2026-11-21, final, never drop):** EVERY TikTok post has the YouTube LINK `youtube.com/@StrangeMinuteOfficial` in the caption on line 1 (max line 2)
   AND at the start of the first comment. Bio (new account): line 1 = `youtube.com/@StrangeMinuteOfficial`, then "Help me hit 1K subs 🙏" / "Goal: PS5 + GTA 6 🎮".
+
+## RESUMED 2026-11-21 ~03:56 LA — NEW ACCOUNT "ROAD TO GTA 6" connected to brand 8179515 (owner). Format v3 + link rule. 4 posts/day (08:00 · 12:00 · 16:00 · 19:30 LA).
+- Scheduled: Gellhorn Nov 21 04:15 (436605555, first post), regions 12:00 (436605846), cat-car 16:00 (436605897), bigfoot 19:30 (436605939);
+  Nov 22: jetski-dog 08:00 (436605990), easter-egg 12:00 (436606046), dexter 16:00 (436606087), chiliad 19:30 (436606145). All 8 old topics now used on the new account.
+- Next empty: Nov 23 08:00 → NEW topics (WebSearch fresh GTA 6 news, never repeat posts/ topics). Old v2 drafts 436502339/370/411 stay drafts (ignore).

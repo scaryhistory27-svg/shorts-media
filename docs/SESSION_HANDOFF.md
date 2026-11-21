@@ -1,3 +1,5 @@
+## 2026-11-21 ~03:56 LA — TikTok resumed on new account "ROAD TO GTA 6": first post 04:15, 8 posts to Nov 22 19:30; next empty Nov 23 08:00.
+
 ## 2026-11-21 ~02:25 LA — TikTok paused: owner will connect another active TikTok account; pending TikTok posts → drafts; skip TikTok in autopilot until then.
 
 ## 2026-11-21 ~01:10 LA — TikTok: owner rejected v2; re-uploaded his 8 posts in ask-first format (3 at 01:30/02:00/02:30), v2 reruns set to draft. See TIKTOK.md.
