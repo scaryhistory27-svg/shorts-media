@@ -35,3 +35,5 @@
 - Owner stops @roadtops5.gta6 and will connect ANOTHER, already-active TikTok account to Metricool brand 8179515 and rebrand it. All pending TikTok posts set to DRAFT
   (tt004–tt008 ids 436545529/584/632/690/725 + v2 drafts). Daily autopilot: SKIP the TikTok step until the owner says the new account is connected; then confirm with him
   the new handle + format (v3 hook→ask→facts) and restart 4 posts/day (drafts can be reused: set draft=false + new date).
+- **OWNER RULE (2026-11-21, final, never drop):** EVERY TikTok post has the YouTube LINK `youtube.com/@StrangeMinuteOfficial` in the caption on line 1 (max line 2)
+  AND at the start of the first comment. Bio (new account): line 1 = `youtube.com/@StrangeMinuteOfficial`, then "Help me hit 1K subs 🙏" / "Goal: PS5 + GTA 6 🎮".
