@@ -1,3 +1,5 @@
+## 2026-11-21 ~01:10 LA — TikTok: owner rejected v2; re-uploaded his 8 posts in ask-first format (3 at 01:30/02:00/02:30), v2 reruns set to draft. See TIKTOK.md.
+
 ## 2026-11-21 ~00:55 LA — TikTok redo (owner): v2 format without links, 8 posts tt009–tt016 scheduled Nov 21–22 (ids in TIKTOK.md). Owner must delete published tt001–tt003 manually.
 
 ## 2026-11-20 ~13:20 LA — TikTok: YouTube link moved to line 1 of caption + start of first comment (owner); tt002–tt008 updated in Metricool (new ids in TIKTOK.md). tt001 was already publishing.

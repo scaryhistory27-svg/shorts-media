@@ -155,12 +155,13 @@ def goal_hook(img, subs, teaser):
         grad.putpixel((0, i), int(255 * max(0, min(1, a))))
     c = Image.composite(Image.new("RGB", (W, H), (0, 0, 0)), c, grad.resize((W, H)))
     d = ImageDraw.Draw(c)
-    y = text_block(d, 190, "HELP ME", font("Black", 150), COL["y"], gap=0)
-    y = text_block(d, y, "GET 1,000 YOUTUBE\nSUBSCRIBERS", font("Black", 88), (255, 255, 255), gap=4) + 20
-    fk = font("Black", 64); t = "TO BUY PS5 + GTA 6"
+    y = text_block(d, 200, "HELP ME", font("Black", 150), COL["y"], gap=0)
+    y = text_block(d, y, "SAVE UP FOR\nA PS5", font("Black", 112), (255, 255, 255), gap=4) + 30
+    fk = font("Black", 60); t = "SUBSCRIBE TO MY CHANNEL"
     tw = d.textlength(t, font=fk)
-    d.rounded_rectangle(((W - tw) / 2 - 30, y - 10, (W + tw) / 2 + 30, y + 86), 18, fill=COL["r"])
+    d.rounded_rectangle(((W - tw) / 2 - 30, y - 10, (W + tw) / 2 + 30, y + 82), 18, fill=COL["r"])
     d.text(((W - tw) / 2, y), t, font=fk, fill=(255, 255, 255))
+    y = text_block(d, y + 110, "It really helps me reach my goal", font("ExtraBold", 54), (255, 255, 255))
     y = 1240
     bx, bw = 110, W - 220
     d.rounded_rectangle((bx, y, bx + bw, y + 46), 23, fill=(40, 40, 60))
