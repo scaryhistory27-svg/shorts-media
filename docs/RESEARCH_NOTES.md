@@ -56,3 +56,9 @@ SM: Earth spin 1210 · Sun off 1145 (44 vph) · GTA launch 560 (51 vph, 9 h) · 
 SM: Sun off 1337 · Earth spin 1211 · GTA inside 992 (16 h) · GTA launch 638 · Molasses 238 · Moon 132 · GTA secrets 58 (1 h). Avg first-24h by hour: 18:00 → 871, 09:00 → 268.
 Horror: Who's Home P1 106 (19 h) — weak; P1/P2 of first series still best. Horror 15:30 avg 71 (n=5, mostly Part 2/3s) vs 09:00 173 → standalone stories next; test morning slot 07:00.
 Trends: GTA 6 week (UFO/Bigfoot/Chiliad finds — GamingBible, Nerdism); smart-speaker horror evergreen.
+
+## 2026-11-21 — daily review
+- Horror: winners = 2 AM Knock P1 (1365 views, 105% avg view, +5 subs) and P2 (1199, +4); losers = late Part 3s (Cop 1987: 32 views). Who's Home P3 at 07:00 LA took off (195 views in 4 h, vph 65, outlier 6.2).
+  By publish hour (first 24 h): 13:00 256, 16:00 232, 07:00 195, 09:00 173, 15:00 98 (n=6). → keep 07:00; move afternoon slot earlier (14:30).
+- Strange Minute: 18:00 slot avg 908 vs 09:00 304. Space/physics what-ifs win (Sun 1045, GTA inside 1024, Jupiter 988 in 16 h, Earth spin 75% retention +4 subs). Molasses/Moon flopped.
+- Trends: GTA 6 post-launch easter eggs (ComicBook, GamingBible 2026-11-20, VicecityDB); space news: ESA Hera at Didymos (DART), Mars volcanic activity, 1-year Mars sim crew. Horror: analog/found-footage + phone horror (Virlo, Bloody Disgusting).

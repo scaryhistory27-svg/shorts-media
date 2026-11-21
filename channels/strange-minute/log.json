@@ -195,13 +195,21 @@
    "metricool_id": 436936362,
    "thumbnail": "frame",
    "topic": "mars without spacesuit (space what-if; trend: Mars news Nov 2026)"
+  },
+  {
+   "n": 12,
+   "publish": "2026-11-22T10:00:00",
+   "youtube_title": "What If We Punched An Asteroid Off Course? ☄️😳 #shorts",
+   "metricool_id": 436945882,
+   "thumbnail": "frame",
+   "topic": "NASA DART asteroid (trend: ESA Hera at Didymos Nov 2026)"
   }
  ],
  "thumbnail": {
   "mode": "frame",
   "fails": 1,
   "probe_every": 3,
-  "since_probe": 1,
+  "since_probe": 2,
   "note": "new channel not phone-verified yet → frame mode; probe custom covers every 3rd video",
   "last_probe": "2026-11-18 SM #4 custom cover rejected (\"Could not upload video thumbnail\") → stay frame"
  },
