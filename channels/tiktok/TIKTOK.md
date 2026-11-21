@@ -30,3 +30,8 @@
   handle, "KEEP SWIPING FOR THE SECRET →"); slides 3–5 = facts. Generator default `layout: "hook_ask"` (pipeline/tiktok_slides.py). Caption/first comment unchanged (link first).
 - Updated in Metricool: tt004 Nov 21 08:00 (436544585), tt005 12:00 (436544670), tt006 16:00 (436544715), tt007 19:30 (436544775), tt008 Nov 22 08:00 (436544833).
   tt001–tt003 (01:30/02:00/02:30) went out in the old ask-first layout.
+
+## PAUSED 2026-11-21 ~02:25 LA (owner)
+- Owner stops @roadtops5.gta6 and will connect ANOTHER, already-active TikTok account to Metricool brand 8179515 and rebrand it. All pending TikTok posts set to DRAFT
+  (tt004–tt008 ids 436545529/584/632/690/725 + v2 drafts). Daily autopilot: SKIP the TikTok step until the owner says the new account is connected; then confirm with him
+  the new handle + format (v3 hook→ask→facts) and restart 4 posts/day (drafts can be reused: set draft=false + new date).
