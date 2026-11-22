@@ -73,7 +73,7 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
   1. Numbered collection in every title: "FearFiles #N: <case>" / "Strange Minute #N: <what-if>" (series identity = higher sub rate).
   2. Mid-video VISUAL subscribe pop at ~20 s (small pill "+ SUBSCRIBE · new case daily", 2 s, top-right, never over captions/faces; not spoken).
   3. End card adds a concrete promise of the NEXT video ("TOMORROW: <next topic>") above the subscribe CTA (topic must really be scheduled next).
-  4. First comment = a reason to subscribe + question ("New case every day at 7 AM 🕯 Which one scared you most? 👇"); owner pins it.
+  4. First comment = a reason to subscribe + question ("New case every day 🕯 Which one scared you most? 👇"); owner pins it.
   5. Strange Minute: lean on the winning SPACE niche; horror: keep one look/voice/naming. Measure subs/1k views per video in analytics.
 - **Continuity (owner 2026-11-16, final): all 3 parts happen on the SAME day/night, back to back** — Part 2 starts the very moment
   Part 1 ended (continue straight from the cliffhanger), Part 3 starts the moment Part 2 ended. NO "yesterday" / "two days ago" / time jumps.
