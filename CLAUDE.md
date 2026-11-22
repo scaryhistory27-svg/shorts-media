@@ -27,6 +27,10 @@ exact hour for every video itself** (see "Posting time"), any hour 07:00–22:00
 Everything is done end-to-end without asking the owner: story → 2D animation → English voice-over → upload → schedule in Metricool.
 
 ## Style (match exactly — the owner likes it)
+- **LENGTH UPDATE (owner 2026-11-22 delegated: "decide the rest yourself"): horror target 45–50 s (11–13 lines)** — best retention was the 50-s 2 AM Knock (105 %). Overrides the 50–60 s below.
+- **WEEKLY LONG VIDEO (FearFiles, from 2026-11-22):** every MONDAY run build a 10–15 min 16:9 compilation of already-published FearFiles Shorts
+  (`python3 compilations/make_comp.py compilations/compNNN.json`, title cards "CASE n · NAME", chapters in the description) → YouTube type "video" on brand 8091052,
+  custom 16:9 thumbnail, publish evening LA. Goal: watch hours for YPP (3,000 h/365 d) — Shorts views don't count as watch hours.
 - Vertical 1080x1920, 30 fps, **50–60 s (owner 2026-11-16: "as the research found" — horror/story Shorts 45–60 s, best views at 50–60 s)** — a new visual/story beat every ≤ 6 s (new scene, reveal,
   character action or camera move) so retention holds; keep the 2-second hook. Dark flat-vector night palette, slow camera push-ins, film grain, vignette, dust.
 - Header: `<SERIES TITLE> · PART n` + orange stamp that FITS THE STORY (e.g. `FLOOR 13 · STUCK 00:47`, `DAY 3 · 11:47 AM`, `ROUTE 9 · KM 214`) —

@@ -1,0 +1,13 @@
+{"id": "comp001", "items": [
+ {"path": "series/fearfiles-stop-14/ep1/build/final.mp4", "card": "CASE 1 · STOP 14"},
+ {"path": "series/fearfiles-dryer-nine/ep1/build/final.mp4", "card": "CASE 2 · DRYER NINE"},
+ {"path": "series/the-missing-floor/ep1/build/final.mp4", "card": "CASE 3 · FLOOR 13 · PART 1"},
+ {"path": "series/the-missing-floor/ep2/build/final.mp4", "card": "CASE 3 · FLOOR 13 · PART 2"},
+ {"path": "series/the-missing-floor/ep3/build/final.mp4", "card": "CASE 3 · FLOOR 13 · PART 3"},
+ {"path": "series/whos-home/ep1/build/final.mp4", "card": "CASE 4 · WHO'S HOME · PART 1"},
+ {"path": "series/whos-home/ep2/build/final.mp4", "card": "CASE 4 · WHO'S HOME · PART 2"},
+ {"path": "series/whos-home/ep3/build/final.mp4", "card": "CASE 4 · WHO'S HOME · PART 3"},
+ {"path": "series/mile-marker-214/ep1/build/final.mp4", "card": "CASE 5 · MILE MARKER 214 · PART 1"},
+ {"path": "series/mile-marker-214/ep2/build/final.mp4", "card": "CASE 5 · MILE MARKER 214 · PART 2"},
+ {"path": "series/mile-marker-214/ep3/build/final.mp4", "card": "CASE 5 · MILE MARKER 214 · PART 3"}
+]}
