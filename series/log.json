@@ -1,7 +1,7 @@
 {
  "publish_time": "2026-11-19T15:30",
  "timezone": "America/Los_Angeles",
- "last_publish": "2026-11-22T07:00",
+ "last_publish": "2026-11-22T14:00",
  "series": [
   {
    "slug": "the-2am-knock",
@@ -184,6 +184,29 @@
      "cta": true
     }
    ]
+  },
+  {
+   "slug": "fearfiles-trail-cam",
+   "title": "FearFiles #3: Trail Cam",
+   "standalone": true,
+   "genres": [
+    "documented trail-cam",
+    "home-invasion horror",
+    "time twist"
+   ],
+   "episodes": [
+    {
+     "n": 1,
+     "publish": "2026-11-22T14:00:00",
+     "youtube_title": "FearFiles #3: Never Check Your Trail Cam 📷😨 #shorts",
+     "metricool_id": 437845937,
+     "thumbnail": "custom",
+     "first_comment": true,
+     "cta": true,
+     "mid_cta": true,
+     "next_promise": "A HOTEL ROOM THAT ISN'T THERE"
+    }
+   ]
   }
  ],
  "voice": "am_michael:0.6,am_onyx:0.4 + mystic fx",
@@ -252,7 +275,8 @@
   "2026-11-18T16:00": "2026-11-18T15:30",
   "2026-11-19T16:00": "2026-11-19T15:30",
   "2026-11-20T16:00": "2026-11-20T15:30",
-  "2026-11-21T15:30": "2026-11-21T14:30"
+  "2026-11-21T15:30": "2026-11-21T14:30",
+  "2026-11-22T15:30": "2026-11-22T14:00"
  },
  "playlists": {
   "note": "2026-11-17: owner created 4 playlists, but the ids he sent are truncated (13 chars; a real id is 34) — waiting for the full links",

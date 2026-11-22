@@ -821,7 +821,7 @@
    "series": "fearfiles-trail-cam",
    "episode": 1,
    "title": "FearFiles #3: Never Check Your Trail Cam 📷😨 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -843,12 +843,26 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-22T18:50:49Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-22T18:50:54Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-22T18:50:54Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-22T18:51:06Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-22T18:46:30Z",
-   "updated": "2026-11-22T18:50:49Z"
+   "updated": "2026-11-22T18:51:06Z",
+   "metricool_id": 437845937,
+   "publish_time": "2026-11-22T14:00"
   }
  }
 }
