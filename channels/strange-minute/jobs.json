@@ -659,7 +659,7 @@
    "series": "strange-minute",
    "episode": 13,
    "title": "Strange Minute #13: What If You Texted Voyager 1? 🛰️😳 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -681,12 +681,26 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-22T18:57:41Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-22T18:57:46Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-22T18:57:46Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-22T18:58:13Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-22T18:51:28Z",
-   "updated": "2026-11-22T18:57:41Z"
+   "updated": "2026-11-22T18:58:13Z",
+   "metricool_id": 437852072,
+   "publish_time": "2026-11-23T10:00"
   },
   "2026-11-23T18:30-strange-minute-ep14": {
    "id": "2026-11-23T18:30-strange-minute-ep14",
@@ -694,7 +708,7 @@
    "series": "strange-minute",
    "episode": 14,
    "title": "Strange Minute #14: What If You Spent 1 Day On Mercury? ☿️😳 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -716,12 +730,26 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-22T18:57:41Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-22T18:57:46Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-22T18:57:46Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-22T18:58:13Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-22T18:53:21Z",
-   "updated": "2026-11-22T18:57:41Z"
+   "updated": "2026-11-22T18:58:13Z",
+   "metricool_id": 437852119,
+   "publish_time": "2026-11-23T18:30"
   }
  }
 }

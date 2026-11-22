@@ -203,15 +203,32 @@
    "metricool_id": 436945882,
    "thumbnail": "frame",
    "topic": "NASA DART asteroid (trend: ESA Hera at Didymos Nov 2026)"
+  },
+  {
+   "n": 13,
+   "publish": "2026-11-23T10:00",
+   "youtube_title": "Strange Minute #13: What If You Texted Voyager 1? 🛰️😳 #shorts",
+   "metricool_id": 437852072,
+   "thumbnail": "custom-probe",
+   "topic": "Voyager 1 one light-day (news Nov 18 2026)",
+   "next_promise": "ONE DAY ON MERCURY"
+  },
+  {
+   "n": 14,
+   "publish": "2026-11-23T18:30",
+   "youtube_title": "Strange Minute #14: What If You Spent 1 Day On Mercury? ☿️😳 #shorts",
+   "metricool_id": 437852119,
+   "thumbnail": "frame",
+   "topic": "One day on Mercury (BepiColombo arrival Nov 21 2026)"
   }
  ],
  "thumbnail": {
   "mode": "frame",
   "fails": 1,
   "probe_every": 3,
-  "since_probe": 2,
+  "since_probe": 0,
   "note": "new channel not phone-verified yet → frame mode; probe custom covers every 3rd video",
-  "last_probe": "2026-11-18 SM #4 custom cover rejected (\"Could not upload video thumbnail\") → stay frame"
+  "last_probe": "2026-11-23 SM #13 custom cover probe — check detailedStatus next run"
  },
  "schedule_note": "Empty until brand_id is set. On connection day (= day 1) write: day1-2 times ['10:00','16:00']; day3-7 ['16:00']; from day 8 {'mixed_days':[1,2],'times':['16:00']} — times are only defaults, the autopilot picks each hour.",
  "launch_template": [
