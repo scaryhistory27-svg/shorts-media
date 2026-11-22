@@ -72,3 +72,10 @@ Trends: GTA 6 week (UFO/Bigfoot/Chiliad finds — GamingBible, Nerdism); smart-s
   "what's in this photo" horror format; GTA 6 community finds: Skunk Ape → swamp journal → giant crab, Arthur Morgan hat, Wade podcast cameo, Silent Hill & Manhunt nods (mostly unverified).
 - Decisions: horror = keep standalone "FearFiles #N" warning stories (Trail Cam today 14:00, Room 0 Nov 23 07:00); SM = space news what-ifs (Voyager, Mercury);
   subscribe-conversion features (mid pill + NEXT promise + numbered titles) start with these videos — compare subs/1k views from Nov 24.
+
+## 2026-11-22 — owner's YouTube Studio AI-analysis screenshots (data owner sent)
+- SM: "What if" hypotheticals about Earth/Sun retain best (avg view 0:32–0:39 of ~1 min); Earth spin 1,212 views avg 0:39; GTA 6 Secrets 2 AM 1,236 views but avg only 0:17.
+- Horror: "Never Open The Door At 2 AM" >10 h total watch time (leader); night incidents / alarming calls engage clearly more than road stories (Mile Marker 214: 343 views, 0.61 h).
+  >1,500 new viewers, 15 subs gained.
+- Decisions: SM topic priority = big cosmic/Earth what-ifs > news-space > GTA (GTA keeps views but low retention → max 1 GTA SM video per ~4). Horror priority = night + home + phone/call
+  situations (door, voicemail, 3 AM call, closet) over road/highway/outdoor; keep first 2–3 s = intriguing question/warning.
