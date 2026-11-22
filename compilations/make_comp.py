@@ -16,9 +16,9 @@ for i,it in enumerate(spec["items"]):
          "-t","2","-c:v","libx264","-pix_fmt","yuv420p","-c:a","aac","-ar","48000","-ac","2",card])
     clip=f"{B}/v{i:02d}.mp4"
     if not os.path.exists(clip): run(["ffmpeg","-v","error","-y","-i",it["path"],"-filter_complex",
-         "[0:v]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,boxblur=30:3,eq=brightness=-0.25[bg];[0:v]scale=-2:1080[fg];[bg][fg]overlay=(W-w)/2:0,fps=30,format=yuv420p[v]",
-         "-map","[v]","-map","0:a","-c:v","libx264","-preset","veryfast","-crf","20","-c:a","aac","-ar","48000","-ac","2",clip])
-    chapters.append(f"{int(t//60)}:{int(t%60):02d} {it['card'].title()}"); t+=2+dur(clip); parts+=[card,clip]
+         "[0:v]scale=-2:1080,pad=1920:1080:(ow-iw)/2:0:color=0x0b0b10,fps=30,format=yuv420p[v]",
+         "-map","[v]","-map","0:a","-c:v","libx264","-preset","medium","-crf","18","-c:a","aac","-ar","48000","-ac","2",clip])
+    chapters.append(f"{int(t//60)}:{int(t%60):02d} {' '.join(w.capitalize() for w in it['card'].split())}"); t+=2+dur(clip); parts+=[card,clip]
 open(f"{B}/list.txt","w").write("".join(f"file '{os.path.abspath(p)}'\n" for p in parts))
-run(["ffmpeg","-v","error","-y","-f","concat","-safe","0","-i",f"{B}/list.txt","-c:v","libx264","-preset","veryfast","-crf","20","-c:a","aac","-af","loudnorm=I=-14:TP=-1.5","-movflags","+faststart",f"{B}/final.mp4"])
+run(["ffmpeg","-v","error","-y","-f","concat","-safe","0","-i",f"{B}/list.txt","-c:v","libx264","-preset","slow","-crf","21","-maxrate","1200k","-bufsize","2400k","-c:a","aac","-b:a","160k","-af","loudnorm=I=-14:TP=-1.5","-movflags","+faststart",f"{B}/final.mp4"])
 open(f"{B}/chapters.txt","w").write("\n".join(chapters)+"\n"); print("\n".join(chapters)); print("total",round(t,1))
