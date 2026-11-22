@@ -47,3 +47,7 @@
 - LA slots: 00:30 · 04:30 · 08:00 · 12:00 · 16:00 · 19:30 (= Yerevan 12:30 · 16:30 · 20:00 · 00:00 · 04:00 · 07:30) → Europe/Asia daytime + US morning/lunch/evening.
 - Every run fill all empty slots for the next 36 h with NEW topics (fresh GTA 6 news via WebSearch, no repeats). Re-evaluate slot hours from TikTok analytics after ~1 week.
 - 2026-11-21 run: new tt017 movie-car Nov 22 00:30 (436937120), tt018 lucia Nov 22 04:30 (436937192). Nov 22 now full (6). Next empty: Nov 23 00:30.
+
+## 2026-11-22 run
+- New tt019 arthur-hat Nov 23 00:30 (437850872), tt020 silent-hill 04:30 (437850954), tt021 manhunt 08:00 (437851036), tt022 wade 12:00 (437851093),
+  tt023 swamp-crab 16:00 (437851171), tt024 verified 19:30 (437851248). Format v3 + link rule; --subs 16 (SM subs 2026-11-22). Next empty: Nov 24 00:30.

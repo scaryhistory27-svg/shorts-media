@@ -1,14 +1,16 @@
 # CURRENT STATE (keep short — loaded at every session start)
-_Updated: 2026-11-21 ~11:20 LA (autopilot run done)_
+_Updated: 2026-11-22 ~11:05 LA (autopilot run)_
 
-- **Owner** talks Russian (Yerevan, UTC+4). ONE persistent chat (owner declined fresh-session-per-day); daily task trig_019AGWEVNZ2pSkvrmwq8VS2V 10:41 LA fires here,
-  covers horror + Strange Minute + TikTok (step 9b). trig_01SjW1hhbzXET1ZG972U1QRD = disabled fresh-session copy — keep disabled. Owner may /clear this chat: memory is in the repo.
-  Be economical with context (weekly limit). Environment **shorts-media** (rockstargames.com + litterbox allowed).
-- **Cadence:** YouTube BOTH channels 2 videos/day until the owner says otherwise (horror 07:00 + 15:30, SM 10:00 + 18:30 LA defaults). TikTok 6 posts/day worldwide (owner 2026-11-21; slots in TIKTOK.md "CADENCE v2").
-- **Horror** (8091052, custom thumbnails): GROWTH MODE standalone stories "FearFiles: <case>". Scheduled: Dryer Nine Nov 21 14:30, Stop 14 Nov 22 07:00. Next slot 2026-11-22T15:30 (own data: 07:00 strong, 15:30 weak avg 98).
-  Horror format frozen for 1 month (review reminder 2026-12-20).
-- **Strange Minute** (8179515, frame covers): v2 fast format; SPACE what-ifs win (Sun 1045/24h, Earth spin 75% retention +4 subs). Scheduled: #12 asteroid DART Nov 22 10:00, #11 Mars no suit Nov 22 18:30. Next SM slots 2026-11-23 10:00 + 18:30. 18:30 ≈3× morning.
-- **TikTok RESUMED 2026-11-21 on NEW account "ROAD TO GTA 6" (brand 8179515), v3 format, link line 1 + comment; scheduled to Nov 22 19:30, next empty Nov 23 08:00 (new topics).** Old: **TikTok "Road to PS5" @roadtops5.gta6** (Metricool 8179515, provider tiktok) — rules channels/tiktok/TIKTOK.md (FINAL format: ask slide → 3 GTA 6 fact slides, caption with link line, 5 hashtags, link first comment, autoAddMusic).
-  FORMAT v3 (owner 2026-11-21): slide 1 = GTA 6 secret cover, slide 2 = ask (HELP ME SAVE UP FOR A PS5 · SUBSCRIBE), then facts; link first in caption+comment. Re-uploaded tt001–tt008 (Nov 21 01:30 … Nov 22 08:00). Next empty: Nov 22 12:00. Hosting: litterbox down → temporary videos/ upload works (remove after Metricool copy). Owner pins the link comment manually.
-- Daily compaction task trig_011CTYdK5uRV7VscyxSRiVjT sends "/compact" here every day 09:38 Yerevan (owner 2026-11-21). If it arrives as plain text (not compacted), tell the owner it did not work and suggest /clear or fresh sessions.
-- Model advice given: Opus 5.5 + Medium effort. vidIQ ~65 credits (renews Dec 17). Playlists still waiting for ids. Comment replies skipped Nov 20 → do next run.
+- **Owner** talks Russian (Yerevan, UTC+4). ONE persistent chat; daily task trig_019AGWEVNZ2pSkvrmwq8VS2V 10:41 LA fires here (horror + SM + TikTok).
+  trig_01SjW1hhbzXET1ZG972U1QRD = disabled fresh-session copy. Compaction task trig_011CTYdK5uRV7VscyxSRiVjT arrives as PLAIN TEXT (does not compact) —
+  owner was told 2026-11-22; offer to delete it if he wants. Owner may /clear: memory is in the repo.
+- **Cadence:** YouTube both channels 2/day (horror defaults 07:00 + 15:30 → PM slot now 14:00 per data; SM 10:00 + 18:30). TikTok 6/day (TIKTOK.md CADENCE v2).
+- **SUBSCRIBE CONVERSION (owner 2026-11-22, CLAUDE.md):** numbered titles "FearFiles #N" / "Strange Minute #N", engine mid-video subscribe pill (~20 s) + end-card
+  "NEXT: <topic>" (episode.json next_promise), first comment = reason to subscribe + question. Owner pins comments + sets "Related video" himself.
+- **Horror** (8091052, custom thumbnails OK): standalone FearFiles. Published: Dryer Nine (674/20 h), Stop 14 (433 in 3 h — record). Scheduled: #3 Trail Cam Nov 22 14:00 (437845937),
+  #4 Room 0 Nov 23 07:00 (being rendered/published this run). Next: FearFiles #5 slot 2026-11-23T15:30 → use 14:00. Subs 19.
+- **Strange Minute** (8179515, frame covers; #13 = custom-cover PROBE → check detailedStatus next run): scheduled #13 Voyager Nov 23 10:00 (437852072), #14 Mercury Nov 23 18:30 (437852119).
+  Space/news what-ifs win; 18:30 ≈3× morning. Next SM slots Nov 24 10:00 + 18:30. Subs 16.
+- **TikTok "ROAD TO GTA 6"** (brand 8179515): v3 format + link rule; tt019–tt024 scheduled Nov 23 (00:30…19:30). Next empty Nov 24 00:30. Hosting = temporary videos/tt upload, removed after copy.
+- vidIQ 19 credits (stop at < 20 → only free calls until Dec 17 renewal; use Windsor for stats, skip vidIQ comments if needed). Playlists still waiting for ids.
+- FearFiles channel description still says "3-part mysteries every week" → suggest owner update it to "A new standalone FearFiles case every day".

@@ -62,3 +62,13 @@ Trends: GTA 6 week (UFO/Bigfoot/Chiliad finds — GamingBible, Nerdism); smart-s
   By publish hour (first 24 h): 13:00 256, 16:00 232, 07:00 195, 09:00 173, 15:00 98 (n=6). → keep 07:00; move afternoon slot earlier (14:30).
 - Strange Minute: 18:00 slot avg 908 vs 09:00 304. Space/physics what-ifs win (Sun 1045, GTA inside 1024, Jupiter 988 in 16 h, Earth spin 75% retention +4 subs). Molasses/Moon flopped.
 - Trends: GTA 6 post-launch easter eggs (ComicBook, GamingBible 2026-11-20, VicecityDB); space news: ESA Hera at Didymos (DART), Mars volcanic activity, 1-year Mars sim crew. Horror: analog/found-footage + phone horror (Virlo, Bloody Disgusting).
+
+## 2026-11-22 review (autopilot) — numbers + decisions
+- vidIQ views: Stop 14 (FearFiles standalone) 433 views in 3 h (vph 144, outlier 5.2 — channel record start); Dryer Nine 674/20 h (vph 33.7).
+  SM: Sleep 11 days 1164/16 h (vph 72.8), GTA secrets 2 AM 1243/24 h, Jupiter 1083, Sun 1360, Earth spin 1213. Flops: Cop 1987 31, Smart-speaker P1 112, Moon 133.
+- Subs: FearFiles 19 (was 13–14 on Nov 19), Strange Minute 16. Windsor (lags): 2 AM Knock P1 105 % view %, Earth spin 75 %.
+- Hours (own ~24-h avg): horror 14:00→674 (n=1), 07:00→341 (n=2), 15:00→99 (n=6, weak) → horror PM slot moved to 14:00. SM 18:00→966 (n=5) ≫ 09:00→304.
+- Trends (web): Voyager 1 reached 1 light-day Nov 18 2026 (NASA/space.com/EarthSky); BepiColombo entered Mercury orbit Nov 21 2026 (ESA); trail/security-cam
+  "what's in this photo" horror format; GTA 6 community finds: Skunk Ape → swamp journal → giant crab, Arthur Morgan hat, Wade podcast cameo, Silent Hill & Manhunt nods (mostly unverified).
+- Decisions: horror = keep standalone "FearFiles #N" warning stories (Trail Cam today 14:00, Room 0 Nov 23 07:00); SM = space news what-ifs (Voyager, Mercury);
+  subscribe-conversion features (mid pill + NEXT promise + numbered titles) start with these videos — compare subs/1k views from Nov 24.

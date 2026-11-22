@@ -1,0 +1,33 @@
+{
+ "series": "FearFiles: Room 0",
+ "episode": 1,
+ "title": "FEARFILES #4: ROOM 0",
+ "stamp": "HOTEL · 12:04 AM",
+ "endTitle": "DON'T TAKE IT.",
+ "endSub": "Who handed YOU your key?",
+ "music_level": 0.12,
+ "cta": {"text": "A NEW NIGHTMARE EVERY DAY.", "hl": "NIGHTMARE"},
+ "lines": [
+  {"scene": "hook", "text": "Never take a hotel key to Room 0.", "say": "Never take a hotel key to Room Zero.", "hl": {"Never": "r", "key": "y", "0.": "r"}, "speed": 1.2, "gap": 0.35},
+  {"scene": "desk", "text": "Midnight check-in. The clerk slid me a key.", "hl": {"Midnight": "y", "key.": "y"}},
+  {"scene": "key", "text": "Room 0. No floor. No number. Just zero.", "say": "Room Zero. No floor. No number. Just zero.", "hl": {"0.": "r", "zero.": "r"}},
+  {"scene": "map", "text": "The fire map showed rooms 1 to 20. No Room 0.", "say": "The fire map showed rooms one to twenty. No Room Zero.", "hl": {"1": "y", "20.": "y", "No": "r"}},
+  {"scene": "hall", "text": "But at the end of the hall, there was a door.", "hl": {"end": "y", "door.": "r"}, "stamp": "FLOOR ? · 12:11 AM"},
+  {"scene": "room", "text": "The bed was still warm. Like someone just left.", "hl": {"warm.": "r", "left.": "y"}, "stamp": "ROOM 0 · 12:13 AM"},
+  {"scene": "phone", "text": "At 3 AM, the room phone rang.", "say": "At three A.M., the room phone rang.", "hl": {"3": "y", "AM,": "y", "rang.": "r"}, "stamp": "ROOM 0 · 3:00 AM", "sfx": [{"word": "rang.", "type": "buzz"}]},
+  {"scene": "phone", "text": "Front desk: Whatever you hear, don't open the door.", "hl": {"don't": "r", "open": "r"}, "stamp": "ROOM 0 · 3:00 AM"},
+  {"scene": "door", "text": "Then someone knocked. Then everyone knocked.", "hl": {"someone": "y", "everyone": "r"}, "stamp": "ROOM 0 · 3:02 AM", "sfx": [{"word": "everyone", "type": "knock"}]},
+  {"scene": "peek", "text": "Through the peephole, the hall was full of guests.", "hl": {"peephole,": "y", "full": "r"}, "stamp": "ROOM 0 · 3:03 AM"},
+  {"scene": "peek", "text": "Every one of them was holding a key to Room 0.", "say": "Every one of them was holding a key to Room Zero.", "hl": {"Every": "y", "key": "r", "0.": "r"}, "stamp": "ROOM 0 · 3:03 AM", "sfx": [{"word": "key", "type": "sting"}]},
+  {"scene": "lobby", "text": "At dawn I ran to the lobby. The clerk was gone.", "hl": {"dawn": "y", "gone.": "r"}, "stamp": "LOBBY · 6:12 AM"},
+  {"scene": "tag", "text": "Only his name tag on the desk. My name.", "hl": {"name": "y", "My": "r", "name.": "r"}, "stamp": "LOBBY · 6:13 AM", "sfx": [{"word": "My", "type": "heart"}]},
+  {"scene": "clerk", "text": "So, welcome. Here's your key. Room 0.", "say": "So, welcome. Here's your key. Room Zero.", "hl": {"welcome.": "y", "your": "r", "0.": "r"}, "stamp": "LOBBY · 12:04 AM", "sfx": [{"word": "0.", "type": "sting"}]}
+ ],
+ "youtube": {
+  "title": "FearFiles #4: Never Take A Key To Room 0 🔑😨 #shorts",
+  "description": "The fire map showed rooms 1 to 20. But the clerk gave me a key to Room 0. 🔑 Who were the guests in the hall? 👀\n#horrorstory #scary #creepy #hotel #liminalspace #shorts",
+  "tags": ["horror story", "scary", "creepy", "hotel horror", "room 0", "scary story", "horror animation", "fearfiles"],
+  "first_comment": "New FearFiles case every day 🕯 Would YOU open the door at 3 AM? 👇 Did you spot the name tag early? 👀"
+ },
+ "cover": {"seg": 10, "frac": 0.55, "top": "FEARFILES #4", "lines": ["THEY ALL HAD", "A KEY TO 0"], "sub": "ROOM 0"}
+}
