@@ -12,6 +12,6 @@ _Updated: 2026-11-22 ~11:05 LA (autopilot run)_
 - **Strange Minute** (8179515, frame covers; #13 = custom-cover PROBE → check detailedStatus next run): scheduled #13 Voyager Nov 23 10:00 (437852072), #14 Mercury Nov 23 18:30 (437852119).
   Space/news what-ifs win; 18:30 ≈3× morning. Next SM slots Nov 24 10:00 + 18:30. Subs 16.
 - **TikTok "ROAD TO GTA 6"** (brand 8179515): v3 format + link rule; tt019–tt024 scheduled Nov 23 (00:30…19:30). Next empty Nov 24 00:30. Hosting = temporary videos/tt upload, removed after copy.
-- Weekly long video #1 (10:22, 16:9) scheduled Nov 23 18:00 LA (437943588); next comp every MONDAY run from new Shorts (Trail Cam, Room 0, #5…). Horror length now 45–50 s.
+- Weekly long video #1 (10:22, 16:9) scheduled Nov 23 18:00 LA (437956651, HQ re-render); next comp every MONDAY run from new Shorts (Trail Cam, Room 0, #5…). Horror length now 45–50 s.
 - vidIQ 19 credits (stop at < 20 → only free calls until Dec 17 renewal; use Windsor for stats, skip vidIQ comments if needed). Playlists still waiting for ids.
 - FearFiles channel description still says "3-part mysteries every week" → suggest owner update it to "A new standalone FearFiles case every day".
