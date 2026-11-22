@@ -139,7 +139,22 @@ function render(t){
   const endCard=si===segs.length-1&&t>seg.words[seg.words.length-1].s+0.9;
   if(!endCard)caption(seg,t);
   else if(TL.cta)ctaCard(t-(seg.words[seg.words.length-1].s+0.9),TL.cta);
+  if(endCard&&TL.next)nextPromise(t-(seg.words[seg.words.length-1].s+0.9),TL.next);
+  if(!endCard&&TL.midCta)midCta(t-TL.midCta.t,TL.midCta.text||'NEW CASE DAILY');
 }
+// Subscribe-conversion (owner 2026-11-22): small visual subscribe pill mid-video (~20 s, 2.2 s, top-right, never spoken)
+function midCta(k,txt){if(k<0||k>2.2)return;const a=Math.min(ease(clamp(k/0.25,0,1)),ease(clamp((2.2-k)/0.3,0,1)));const L=TL.style==='light';
+  ctx.save();ctx.globalAlpha=a;ctx.font='900 34px Inter';const sub='SUBSCRIBE',w1=ctx.measureText('+  '+sub).width;ctx.font='700 24px Inter';const w2=ctx.measureText(txt).width;const bw=Math.max(w1,w2)+56,bh=104,x=W-24-bw+lerp(80,0,a),y=232;
+  const pulse=1+0.04*Math.sin(k*9);ctx.translate(x+bw/2,y+bh/2);ctx.scale(pulse,pulse);ctx.translate(-bw/2,-bh/2);
+  ctx.shadowColor=L?'rgba(255,200,80,0.7)':'rgba(255,30,30,0.7)';ctx.shadowBlur=24;rr(0,0,bw,bh,22);ctx.fillStyle=L?'#ffb23d':'#b3121a';ctx.fill();ctx.shadowBlur=0;ctx.lineWidth=3;ctx.strokeStyle=L?'#10243a':'#ff6a6a';ctx.stroke();
+  ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillStyle=L?'#10243a':'#fff';ctx.font='900 34px Inter';ctx.fillText('+  '+sub,bw/2,36);ctx.font='700 24px Inter';ctx.globalAlpha=a*0.9;ctx.fillText(txt,bw/2,76);
+  // tap cursor at 1.1 s
+  if(k>0.7){const m=ease(clamp((k-0.7)/0.4,0,1));ctx.globalAlpha=a;ell(bw*0.75+lerp(60,0,m),bh*0.6+lerp(80,0,m),k>1.1&&k<1.4?20:14,k>1.1&&k<1.4?20:14,'rgba(255,255,255,0.85)')}
+  ctx.restore()}
+// Concrete promise of the NEXT video on the end card ("TOMORROW: ..."), below the subscribe button
+function nextPromise(k,txt){const a=ease(clamp((k-0.9)/0.4,0,1));if(a<=0)return;const L=TL.style==='light';ctx.save();ctx.globalAlpha=a;let fs=40;ctx.font=`900 ${fs}px Inter`;const lab='NEXT: ';while(ctx.measureText(lab+txt).width>900&&fs>26){fs-=2;ctx.font=`900 ${fs}px Inter`}
+  const tw=ctx.measureText(lab+txt).width;rr(540-tw/2-30,1440,tw+60,fs+36,16);ctx.fillStyle='rgba(0,0,0,0.75)';ctx.fill();ctx.lineWidth=3;ctx.strokeStyle=L?'#5fd4ff':'#ff2a2a';ctx.stroke();
+  ctx.textAlign='left';ctx.textBaseline='middle';const x0=540-tw/2,yy=1440+(fs+36)/2;ctx.fillStyle=L?'#ffd57a':'#ff2a2a';ctx.fillText(lab,x0,yy);ctx.fillStyle='#f2efe8';ctx.fillText(txt,x0+ctx.measureText(lab).width,yy);ctx.restore()}
 // Subscribe call-to-action on the end card (owner 2026-11-18). ep.cta = {"text": "SLOGAN", "hl": "WORD"}; k = seconds since the end card started.
 // Two different designs (owner 2026-11-18: "the channels' endings must not look alike"):
 //  dark (horror)  → typewriter slogan, sharp black plate with flickering red neon + blinking eye, a shadow hand rises and presses it, glitch on tap

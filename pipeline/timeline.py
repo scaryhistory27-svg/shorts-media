@@ -28,7 +28,7 @@ for i,s in enumerate(segs): s["e"]=segs[i+1]["s"] if i+1<len(segs) else round(t+
 total=segs[-1]["e"]
 if ep.get("cta"): ev.append({"t":round(segs[-1]["words"][-1]["s"]+0.9+1.25,3),"type":"pop"})  # soft click when the Subscribe button is tapped
 ev.sort(key=lambda e:e["t"])
-json.dump({"segs":segs,"events":ev,"total":total,"fps":FPS,"title":ep.get("title",""),"stamp":ep.get("stamp",""),"endTitle":ep.get("endTitle",""),"endSub":ep.get("endSub",""),"style":ep.get("style","dark"),"cta":ep.get("cta")},open(f"{B}/timeline.json","w"),indent=1)
+json.dump({"segs":segs,"events":ev,"total":total,"fps":FPS,"title":ep.get("title",""),"stamp":ep.get("stamp",""),"endTitle":ep.get("endTitle",""),"endSub":ep.get("endSub",""),"style":ep.get("style","dark"),"cta":ep.get("cta"),"next":ep.get("next_promise"),"midCta":({"t":ep.get("mid_cta_at",20.0),"text":ep.get("mid_cta_text","NEW CASE DAILY" if ep.get("style","dark")!="light" else "NEW WHAT-IF DAILY")} if ep.get("mid_cta",True) and total>30 else None)},open(f"{B}/timeline.json","w"),indent=1)
 print("total",total)
 N=int(total*SR)+SR; mix=np.zeros(N); rng=np.random.default_rng(7); ts=np.arange(N)/SR
 dr=0.5*np.sin(2*np.pi*55*ts)+0.35*np.sin(2*np.pi*82.4*ts+1)+0.18*np.sin(2*np.pi*110.5*ts)+0.1*np.sin(2*np.pi*164.8*ts)

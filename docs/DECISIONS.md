@@ -60,3 +60,6 @@
 - Owner declined a fresh session per day ("мне не надо новый чат"). Daily task trig_019AGWEVNZ2pSkvrmwq8VS2V (10:41 LA, this session) stays.
 - A fresh-session task trig_01SjW1hhbzXET1ZG972U1QRD was created and then DISABLED (it had no connectors; deleting was blocked) — keep it disabled, never enable it.
 - To save the weekly limit: be economical with context in every run (Read sheets/frames only as QA needs, no re-reading).
+
+## 2026-11-22 — Subscribe conversion (owner: "find a solution and do everything yourself")
+Web research: numbered series identity, mid-video subscribe prompt ~20 s, concrete next-video promise, pinned comment with a reason. Implemented: engine midCta pill + NEXT promise (timeline.py fields next/midCta), title numbering + first-comment rule in CLAUDE.md. Applies from the next rendered videos.
