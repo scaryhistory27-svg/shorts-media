@@ -1,3 +1,16 @@
+## 2026-11-22T14:35:18Z — auto checkpoint before context compaction
+
+```
+jobs file: series/jobs.json — 14 jobs
+  done/scheduled: 2026-11-21T07:00-whos-home-ep3  stage=published  title=My Smart Speaker Knew I Was Dead 🔊😨 #shorts  url=https://www.youtube.com/shorts/e7RQDtshCRc
+  done/scheduled: 2026-11-21T15:30-fearfiles-dryer-nine-ep1  stage=scheduled  title=Never Play A Voicemail From Your Own Number 📞😨 #shorts  url=-
+  done/scheduled: 2026-11-22T07:00-fearfiles-stop-14-ep1  stage=scheduled  title=Never Answer A Stranger Who Knows Your Name 🚏😨 #shorts  url=-
+  UNFINISHED: 2026-11-21T15:30-fearfiles-dryer-nine-ep1  stage=scheduled  status=active  retries=0
+  UNFINISHED: 2026-11-22T07:00-fearfiles-stop-14-ep1  stage=scheduled  status=active  retries=0
+2026-11-21T15:30-fearfiles-dryer-nine-ep1: last verified stage 'scheduled', next stage 'published'
+HEAD: d348b6c Autopilot 2026-11-21: 4 videos + 2 TikTok scheduled; state, research notes
+```
+
 ## 2026-11-21 ~11:20 LA — autopilot run DONE
 - Published marked: WH P2 sL-p07RPahM, WH P3 e7RQDtshCRc (54 views/h, outlier 6.2!), SM Jupiter -hmEjnPBqc0, SM GTA Secrets#2 PyzIBScwYbE.
 - Scheduled 4: horror Dryer Nine Nov 21 14:30 (436932415), Stop 14 Nov 22 07:00 (436942919); SM asteroid Nov 22 10:00 (436945882), Mars Nov 22 18:30 (436936362).
