@@ -1,0 +1,33 @@
+{
+ "series": "Strange Minute", "episode": 13, "title": "STRANGE MINUTE #13 · WHAT IF", "stamp": "VOYAGER 1 · 1 LIGHT-DAY",
+ "style": "light", "bed": "light", "voice": "am_fenrir", "lang": "en-us", "voice_fx": "explainer", "speed": 1.0, "gap": 0.25, "music_level": 0.12,
+ "endTitle": "WHAT IF #14?", "endSub": "What would YOU text Voyager?",
+ "cta": {"text": "ONE STRANGE MINUTE. EVERY DAY.", "hl": "STRANGE MINUTE"},
+ "next_promise": "ONE DAY ON MERCURY",
+ "lines": [
+  {"scene": "hook", "text": "What if you texted Voyager 1 right now?", "say": "What if you texted Voyager One right now?", "hl": {"texted": "y", "Voyager": "y", "1": "y"}, "gap": 0.35, "sfx": [{"at": "end", "type": "ding"}]},
+  {"scene": "record", "text": "This week it set a record no machine ever has.", "hl": {"record": "y", "no": "r"}},
+  {"scene": "lightday", "text": "It's now one light-day from Earth.", "hl": {"one": "y", "light-day": "y"}},
+  {"scene": "send", "text": "Your text flies at the speed of light...", "hl": {"speed": "y", "light...": "y"}, "sfx": [{"word": "flies", "type": "whoosh"}]},
+  {"scene": "send", "text": "and it still takes a whole day to get there.", "hl": {"whole": "r", "day": "r"}},
+  {"scene": "send", "text": "Its answer? Another whole day back.", "hl": {"Another": "y", "day": "y"}},
+  {"scene": "total", "text": "So one hi and hi back takes two days.", "say": "So one hi, and hi back, takes two days.", "hl": {"two": "r", "days.": "r"}},
+  {"scene": "launch", "text": "It launched in 1977. Almost 50 years ago.", "say": "It launched in nineteen seventy-seven. Almost fifty years ago.", "hl": {"1977.": "y", "50": "y"}},
+  {"scene": "speed", "text": "Now it's 16 billion miles out, flying 38,000 miles per hour.", "say": "Now it's sixteen billion miles out, flying thirty-eight thousand miles per hour.", "hl": {"16": "y", "billion": "y", "38,000": "y"}},
+  {"scene": "bulb", "text": "Its radio has about the power of a fridge light bulb.", "hl": {"fridge": "r", "bulb.": "r"}},
+  {"scene": "hear", "text": "And giant dishes on Earth still hear it.", "hl": {"giant": "y", "still": "y"}},
+  {"scene": "golden", "text": "It even carries a golden record, in case aliens find it.", "hl": {"golden": "y", "aliens": "r"}},
+  {"scene": "ask", "text": "So, what would YOU text Voyager?", "say": "So, what would you text Voyager?", "hl": {"YOU": "y", "Voyager?": "y"}}
+ ],
+ "youtube": {
+  "title": "Strange Minute #13: What If You Texted Voyager 1? 🛰️😳 #shorts",
+  "description": "Voyager 1 just became the first machine ever one light-day from Earth. 🛰️ A single 'hi' would take two days. What would YOU text it? 👇\n#whatif #space #voyager1 #nasa #science #shorts",
+  "tags": ["what if", "voyager 1", "one light day", "nasa", "space facts", "science", "golden record", "strange facts"],
+  "first_comment": "A new what-if every day 🛰️ What's the ONE text you'd send to Voyager 1? 👇"
+ },
+ "cover": {"seg": 3, "frac": 0.6, "top": "STRANGE MINUTE #13", "lines": ["TEXT TAKES", "A WHOLE DAY"], "sub": "VOYAGER 1"},
+ "sources": [
+  "NASA/space.com/EarthSky Nov 2026: Voyager 1 reached 1 light-day (~16.1 billion mi) on Nov 18, 2026; signals take ~24 h one way; launched Sept 5, 1977",
+  "NASA: Voyager 1 speed ~17 km/s (~38,000 mph); transmitter ~23 W (≈ refrigerator light bulb, NASA JPL comparison); DSN 70 m (230 ft) dishes; Golden Record"
+ ]
+}

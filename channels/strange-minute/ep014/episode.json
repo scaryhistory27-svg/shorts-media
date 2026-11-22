@@ -1,0 +1,32 @@
+{
+ "series": "Strange Minute", "episode": 14, "title": "STRANGE MINUTE #14 · WHAT IF", "stamp": "MERCURY · ONE DAY",
+ "style": "light", "bed": "light", "voice": "am_fenrir", "lang": "en-us", "voice_fx": "explainer", "speed": 1.0, "gap": 0.25, "music_level": 0.12,
+ "endTitle": "WHAT IF #15?", "endSub": "Mercury's day or its night?",
+ "cta": {"text": "ONE STRANGE MINUTE. EVERY DAY.", "hl": "STRANGE MINUTE"},
+ "lines": [
+  {"scene": "hook", "text": "What if you spent just one day on Mercury?", "hl": {"one": "y", "day": "y", "Mercury?": "y"}, "gap": 0.35, "sfx": [{"at": "end", "type": "ding"}]},
+  {"scene": "probe", "text": "A probe just got there, after an eight-year trip.", "hl": {"just": "y", "eight-year": "y"}},
+  {"scene": "day", "text": "First problem: one day there lasts 176 Earth days.", "say": "First problem: one day there lasts a hundred seventy-six Earth days.", "hl": {"176": "r", "days.": "r"}},
+  {"scene": "year", "text": "Its whole year is only 88 days.", "say": "Its whole year is only eighty-eight days.", "hl": {"year": "y", "88": "y"}},
+  {"scene": "sunset", "text": "So from sunrise to sunset, a full year goes by.", "hl": {"sunrise": "y", "sunset,": "y", "year": "r"}},
+  {"scene": "bigsun", "text": "The Sun looks almost three times bigger.", "hl": {"three": "y", "bigger.": "y"}},
+  {"scene": "hot", "text": "At noon, the ground hits 800 degrees Fahrenheit.", "say": "At noon, the ground hits eight hundred degrees Fahrenheit.", "hl": {"800": "r", "degrees": "r"}, "sfx": [{"word": "hits", "type": "whoosh"}]},
+  {"scene": "hot", "text": "That's hot enough to melt lead.", "hl": {"melt": "r", "lead.": "r"}},
+  {"scene": "cold", "text": "At night it drops to minus 290. No air holds the heat.", "say": "At night it drops to minus two hundred ninety. No air holds the heat.", "hl": {"minus": "y", "290.": "y", "air": "r"}},
+  {"scene": "sunback", "text": "In some spots, the Sun rises, dips back, then rises again.", "hl": {"rises,": "y", "back,": "r", "again.": "y"}},
+  {"scene": "ice", "text": "And yet, deep in its polar craters, there's ice.", "hl": {"polar": "y", "ice.": "y"}},
+  {"scene": "ask", "text": "So, would you rather take Mercury's day, or its night?", "hl": {"day,": "r", "night?": "y"}}
+ ],
+ "youtube": {
+  "title": "Strange Minute #14: What If You Spent 1 Day On Mercury? ☿️😳 #shorts",
+  "description": "BepiColombo just arrived at Mercury — where one day lasts longer than a year. ☀️ Day at 800°F or night at −290°F? 👇\n#whatif #space #mercury #bepicolombo #science #shorts",
+  "tags": ["what if", "mercury", "bepicolombo", "planet mercury", "space facts", "science", "astronomy", "strange facts"],
+  "first_comment": "A new what-if every day ☀️ Mercury's day (800°F) or its night (−290°F) — which do you survive? 👇"
+ },
+ "cover": {"seg": 6, "frac": 0.5, "top": "STRANGE MINUTE #14", "lines": ["1 DAY HERE", "= 176 DAYS"], "sub": "MERCURY"},
+ "sources": [
+  "NASA Mercury facts: solar day 176 Earth days; orbital period 88 Earth days; day ~430 °C (800 °F), night ~−180 °C (−290 °F); thin exosphere; Sun ~3× larger in sky; double sunrise at some longitudes; water ice in permanently shadowed polar craters (MESSENGER)",
+  "ESA: BepiColombo (launched Oct 2018) entered Mercury orbit Nov 21, 2026",
+  "Lead melts at 327 °C (621 °F)"
+ ]
+}
