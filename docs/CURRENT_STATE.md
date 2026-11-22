@@ -8,7 +8,7 @@ _Updated: 2026-11-22 ~11:05 LA (autopilot run)_
 - **SUBSCRIBE CONVERSION (owner 2026-11-22, CLAUDE.md):** numbered titles "FearFiles #N" / "Strange Minute #N", engine mid-video subscribe pill (~20 s) + end-card
   "NEXT: <topic>" (episode.json next_promise), first comment = reason to subscribe + question. Owner pins comments + sets "Related video" himself.
 - **Horror** (8091052, custom thumbnails OK): standalone FearFiles. Published: Dryer Nine (674/20 h), Stop 14 (433 in 3 h — record). Scheduled: #3 Trail Cam Nov 22 14:00 (437845937),
-  #4 Room 0 Nov 23 07:00 (being rendered/published this run). Next: FearFiles #5 slot 2026-11-23T15:30 → use 14:00. Subs 19.
+  #4 Room 0 Nov 23 07:00 (437861210). Next: FearFiles #5 slot 2026-11-23T15:30 → use 14:00. Subs 19.
 - **Strange Minute** (8179515, frame covers; #13 = custom-cover PROBE → check detailedStatus next run): scheduled #13 Voyager Nov 23 10:00 (437852072), #14 Mercury Nov 23 18:30 (437852119).
   Space/news what-ifs win; 18:30 ≈3× morning. Next SM slots Nov 24 10:00 + 18:30. Subs 16.
 - **TikTok "ROAD TO GTA 6"** (brand 8179515): v3 format + link rule; tt019–tt024 scheduled Nov 23 (00:30…19:30). Next empty Nov 24 00:30. Hosting = temporary videos/tt upload, removed after copy.

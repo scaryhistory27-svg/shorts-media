@@ -11,6 +11,14 @@ jobs file: series/jobs.json — 14 jobs
 HEAD: d348b6c Autopilot 2026-11-21: 4 videos + 2 TikTok scheduled; state, research notes
 ```
 
+
+## 2026-11-22 ~11:10 LA — autopilot run done
+- Owner asked for subscribe growth → engine mid-video subscribe pill + NEXT promise + numbered titles (CLAUDE.md "SUBSCRIBE CONVERSION").
+- Published/scheduled: FearFiles #3 Trail Cam Nov 22 14:00 (437845937), #4 Room 0 Nov 23 07:00 (437861210); SM #13 Voyager Nov 23 10:00 (437852072, custom-cover probe), #14 Mercury 18:30 (437852119);
+  TikTok tt019–tt024 Nov 23 00:30…19:30. Marked published: Dryer Nine nCwIbnCNti0, Stop 14 e5p8owOBSZE, SM #10 ykRBytQ9sMc.
+- Comments: no new viewer comments (only owner's, skipped). vidIQ 19 credits left (< 20 → free calls only until Dec 17).
+- Next run: horror slot Nov 23 15:30→14:00 (FearFiles #5), SM Nov 24 10:00 + 18:30, TikTok Nov 24 ×6; check SM #13 probe detailedStatus.
+
 ## 2026-11-21 ~11:20 LA — autopilot run DONE
 - Published marked: WH P2 sL-p07RPahM, WH P3 e7RQDtshCRc (54 views/h, outlier 6.2!), SM Jupiter -hmEjnPBqc0, SM GTA Secrets#2 PyzIBScwYbE.
 - Scheduled 4: horror Dryer Nine Nov 21 14:30 (436932415), Stop 14 Nov 22 07:00 (436942919); SM asteroid Nov 22 10:00 (436945882), Mars Nov 22 18:30 (436936362).

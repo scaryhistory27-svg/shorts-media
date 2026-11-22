@@ -870,7 +870,7 @@
    "series": "fearfiles-room-0",
    "episode": 1,
    "title": "FearFiles #4: Never Take A Key To Room 0 🔑😨 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -892,12 +892,26 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-22T19:08:06Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-22T19:08:10Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-22T19:08:11Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-22T19:08:29Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-22T19:00:36Z",
-   "updated": "2026-11-22T19:08:06Z"
+   "updated": "2026-11-22T19:08:29Z",
+   "metricool_id": 437861210,
+   "publish_time": "2026-11-23T07:00"
   }
  }
 }

@@ -1,7 +1,7 @@
 {
  "publish_time": "2026-11-19T15:30",
  "timezone": "America/Los_Angeles",
- "last_publish": "2026-11-22T14:00",
+ "last_publish": "2026-11-23T07:00",
  "series": [
   {
    "slug": "the-2am-knock",
@@ -207,6 +207,28 @@
      "next_promise": "A HOTEL ROOM THAT ISN'T THERE"
     }
    ]
+  },
+  {
+   "slug": "fearfiles-room-0",
+   "title": "FearFiles #4: Room 0",
+   "standalone": true,
+   "genres": [
+    "liminal mystery",
+    "rules horror",
+    "role-reversal twist"
+   ],
+   "episodes": [
+    {
+     "n": 1,
+     "publish": "2026-11-23T07:00:00",
+     "youtube_title": "FearFiles #4: Never Take A Key To Room 0 🔑😨 #shorts",
+     "metricool_id": 437861210,
+     "thumbnail": "custom",
+     "first_comment": true,
+     "cta": true,
+     "mid_cta": true
+    }
+   ]
   }
  ],
  "voice": "am_michael:0.6,am_onyx:0.4 + mystic fx",
@@ -276,7 +298,8 @@
   "2026-11-19T16:00": "2026-11-19T15:30",
   "2026-11-20T16:00": "2026-11-20T15:30",
   "2026-11-21T15:30": "2026-11-21T14:30",
-  "2026-11-22T15:30": "2026-11-22T14:00"
+  "2026-11-22T15:30": "2026-11-22T14:00",
+  "2026-11-23T15:30": "2026-11-23T14:00"
  },
  "playlists": {
   "note": "2026-11-17: owner created 4 playlists, but the ids he sent are truncated (13 chars; a real id is 34) — waiting for the full links",
