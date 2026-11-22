@@ -69,6 +69,12 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
   Visual only — never spoken (keeps the loop). Slogan ALL CAPS, ≤ 40 chars, rotate it, fit to the part. Horror P1/P2: "DON'T LOSE PART 3. IT WON'T WAIT." /
   "SUBSCRIBE… OR MISS WHAT HAPPENS NEXT."; P3: "A NEW NIGHTMARE EVERY DAY." / "SOME STORIES FIND YOU. SUBSCRIBE FIRST.".
   QA: the button and slogan are fully visible and not overlapping the end-card text in the last frames.
+- **SUBSCRIBE CONVERSION (owner 2026-11-22: "find online how to make people subscribe, and do exactly that"; web research 2026-11-22):**
+  1. Numbered collection in every title: "FearFiles #N: <case>" / "Strange Minute #N: <what-if>" (series identity = higher sub rate).
+  2. Mid-video VISUAL subscribe pop at ~20 s (small pill "+ SUBSCRIBE · new case daily", 2 s, top-right, never over captions/faces; not spoken).
+  3. End card adds a concrete promise of the NEXT video ("TOMORROW: <next topic>") above the subscribe CTA (topic must really be scheduled next).
+  4. First comment = a reason to subscribe + question ("New case every day at 7 AM 🕯 Which one scared you most? 👇"); owner pins it.
+  5. Strange Minute: lean on the winning SPACE niche; horror: keep one look/voice/naming. Measure subs/1k views per video in analytics.
 - **Continuity (owner 2026-11-16, final): all 3 parts happen on the SAME day/night, back to back** — Part 2 starts the very moment
   Part 1 ended (continue straight from the cliffhanger), Part 3 starts the moment Part 2 ended. NO "yesterday" / "two days ago" / time jumps.
   Part 2/3 line 1 = a present-tense hook that re-states the cliffhanger ("My GPS just said I'd arrived. In the middle of nowhere."),
