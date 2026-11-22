@@ -1,0 +1,34 @@
+{
+ "series": "FearFiles: Trail Cam",
+ "episode": 1,
+ "title": "FEARFILES #3: TRAIL CAM",
+ "stamp": "CAM 07 · 3:12 AM",
+ "endTitle": "DON'T CHECK IT.",
+ "endSub": "What's in YOUR closet?",
+ "music_level": 0.12,
+ "cta": {"text": "SOME STORIES FIND YOU. SUBSCRIBE FIRST.", "hl": "SUBSCRIBE"},
+ "next_promise": "A HOTEL ROOM THAT ISN'T THERE",
+ "lines": [
+  {"scene": "hook", "text": "Never check your trail cam after night three.", "say": "Never check your trail cam after night three.", "hl": {"Never": "r", "trail": "y", "three.": "r"}, "speed": 1.2, "gap": 0.35},
+  {"scene": "cam", "text": "I set it up to catch whatever ate my garden.", "hl": {"garden.": "y"}},
+  {"scene": "photo", "text": "Night one: a deer. Night two: a deer.", "hl": {"one:": "y", "two:": "y"}, "stamp": "CAM 07 · NIGHT 1"},
+  {"scene": "photo", "text": "Night three: something standing. On two legs.", "hl": {"standing.": "r", "legs.": "r"}, "stamp": "CAM 07 · NIGHT 3", "sfx": [{"word": "standing.", "type": "heart"}]},
+  {"scene": "photo", "text": "Night four, it was closer. Night five, closer.", "hl": {"closer.": "r"}, "stamp": "CAM 07 · NIGHT 5"},
+  {"scene": "me", "text": "Every photo was taken at 3:12 AM.", "say": "Every photo was taken at three twelve A.M.", "hl": {"Every": "y", "3:12": "r", "AM.": "r"}},
+  {"scene": "walk", "text": "At dawn, I went to take the camera down.", "hl": {"dawn,": "y"}, "stamp": "BACKYARD · 6:40 AM"},
+  {"scene": "tree", "text": "It was gone. The strap was cut clean.", "hl": {"gone.": "r", "cut": "r"}, "stamp": "BACKYARD · 6:41 AM"},
+  {"scene": "phone", "text": "That night, my phone buzzed. A new photo.", "hl": {"buzzed.": "y", "new": "r"}, "stamp": "BEDROOM · 3:10 AM", "sfx": [{"word": "buzzed.", "type": "buzz"}]},
+  {"scene": "photoIn", "text": "My bedroom. Taken from inside my closet.", "hl": {"bedroom.": "y", "closet.": "r"}, "stamp": "CAM 07 · ???", "sfx": [{"word": "closet.", "type": "sting"}]},
+  {"scene": "photoIn", "text": "Me, asleep. The date on it was tomorrow.", "hl": {"asleep.": "y", "tomorrow.": "r"}, "stamp": "CAM 07 · TOMORROW"},
+  {"scene": "clock", "text": "I looked at my clock. 3:11.", "say": "I looked at my clock. Three eleven.", "hl": {"3:11.": "r"}, "stamp": "BEDROOM · 3:11 AM", "sfx": [{"word": "3:11.", "type": "heart"}]},
+  {"scene": "closet", "text": "And my closet door just opened. One inch.", "hl": {"closet": "y", "opened.": "r", "inch.": "r"}, "stamp": "BEDROOM · 3:11 AM", "sfx": [{"word": "opened.", "type": "creak"}]},
+  {"scene": "hook", "text": "So never check your trail cam after night three.", "hl": {"never": "r", "three.": "r"}, "sfx": [{"word": "three.", "type": "sting"}]}
+ ],
+ "youtube": {
+  "title": "FearFiles #3: Never Check Your Trail Cam 📷😨 #shorts",
+  "description": "Night 1: a deer. Night 3: something on two legs. Night 5: closer. Then my trail cam sent a photo of my bedroom. 📷 What's in the closet? 👀\n#horrorstory #scary #creepy #trailcam #fearfiles #shorts",
+  "tags": ["horror story", "scary", "creepy", "trail cam", "trail camera horror", "scary story", "horror animation", "fearfiles"],
+  "first_comment": "New FearFiles case every day 🕯 Would YOU open the closet? 👇"
+ },
+ "cover": {"seg": 4, "frac": 0.7, "top": "FEARFILES #3", "lines": ["NIGHT 5:", "IT'S CLOSER"], "sub": "TRAIL CAM"}
+}

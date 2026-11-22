@@ -711,8 +711,8 @@
    "series": "fearfiles-dryer-nine",
    "episode": 1,
    "title": "Never Play A Voicemail From Your Own Number 📞😨 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -745,14 +745,20 @@
     {
      "stage": "scheduled",
      "at": "2026-11-21T18:55:06Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-22T18:42:09Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-21T18:45:25Z",
-   "updated": "2026-11-21T18:55:06Z",
+   "updated": "2026-11-22T18:42:09Z",
    "metricool_id": 436932415,
-   "publish_time": "2026-11-21T14:30"
+   "publish_time": "2026-11-21T14:30",
+   "youtube_id": "nCwIbnCNti0",
+   "youtube_url": "https://www.youtube.com/shorts/nCwIbnCNti0"
   },
   "2026-11-22T07:00-fearfiles-stop-14-ep1": {
    "id": "2026-11-22T07:00-fearfiles-stop-14-ep1",
@@ -760,8 +766,8 @@
    "series": "fearfiles-stop-14",
    "episode": 1,
    "title": "Never Answer A Stranger Who Knows Your Name 🚏😨 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -794,14 +800,55 @@
     {
      "stage": "scheduled",
      "at": "2026-11-21T19:08:11Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-22T18:42:10Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-21T19:02:37Z",
-   "updated": "2026-11-21T19:08:11Z",
+   "updated": "2026-11-22T18:42:10Z",
    "metricool_id": 436942919,
-   "publish_time": "2026-11-22T07:00"
+   "publish_time": "2026-11-22T07:00",
+   "youtube_id": "e5p8owOBSZE",
+   "youtube_url": "https://www.youtube.com/shorts/e5p8owOBSZE"
+  },
+  "2026-11-22T15:30-fearfiles-trail-cam-ep1": {
+   "id": "2026-11-22T15:30-fearfiles-trail-cam-ep1",
+   "slot": "2026-11-22T15:30",
+   "series": "fearfiles-trail-cam",
+   "episode": 1,
+   "title": "FearFiles #3: Never Check Your Trail Cam 📷😨 #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-22T18:46:30Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-22T18:50:49Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-22T18:50:49Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-22T18:50:49Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-22T18:50:49Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-22T18:46:30Z",
+   "updated": "2026-11-22T18:50:49Z"
   }
  }
 }
