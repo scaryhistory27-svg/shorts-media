@@ -978,18 +978,34 @@
    "series": "fearfiles-mirror",
    "episode": 1,
    "title": "FearFiles #6: Never Uncover A Rented Mirror 🪞😨 #shorts",
-   "stage": "planned",
+   "stage": "qa_passed",
    "status": "active",
    "history": [
     {
      "stage": "planned",
      "at": "2026-11-23T18:53:25Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-23T19:08:08Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-23T19:08:08Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-23T19:08:08Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-23T19:08:08Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-23T18:53:25Z",
-   "updated": "2026-11-23T18:53:25Z"
+   "updated": "2026-11-23T19:08:08Z"
   }
  }
 }
