@@ -13,5 +13,7 @@ _Updated: 2026-11-22 ~11:05 LA (autopilot run)_
   Space/news what-ifs win; 18:30 ≈3× morning. Next SM slots Nov 24 10:00 + 18:30. Subs 16.
 - **TikTok "ROAD TO GTA 6"** (brand 8179515): v3 format + link rule; tt019–tt024 scheduled Nov 23 (00:30…19:30). Next empty Nov 24 00:30. Hosting = temporary videos/tt upload, removed after copy.
 - LONG VIDEOS 2/week PER CHANNEL (6–8 min themed sets): FearFiles Mon+Thu, SM Tue+Fri. SM comp #1 "8 What Ifs About Space" scheduled Tue Nov 24 14:30 LA (438456640; custom thumb on possibly unverified channel — check). Next: FearFiles Thu Nov 26 (Trail Cam, Room 0, #5…), SM Fri Nov 27 (non-space: sleep, syrup, GTA, new ones). Weekly long video #1 (10:22, 16:9) scheduled Nov 23 18:00 LA (437956651, HQ re-render); next comp every MONDAY run from new Shorts (Trail Cam, Room 0, #5…). Horror length now 45–50 s.
-- vidIQ 19 credits (stop at < 20 → only free calls until Dec 17 renewal; use Windsor for stats, skip vidIQ comments if needed). Playlists still waiting for ids.
+- vidIQ 3 credits (renews Dec 17) — no vidIQ calls except free ones; stats via Windsor; comment replies paused until renewal unless owner tops up.
+- THUMBNAILS: owner verified channels 2026-11-23 → custom covers on ALL Shorts + long videos (SM mode custom). SM Sun (zELIdk2qilY) set via vidIQ; other published SM Shorts need manual covers (vidIQ 3 credits left, renews Dec 17) — covers sent to owner.
+- Compilations v3 (narrated hook + still-to-come + outro): FearFiles comp001 Nov 23 18:00 LA (438516060), SM comp001 Nov 24 14:30 LA (438516134).
 - FearFiles channel description still says "3-part mysteries every week" → suggest owner update it to "A new standalone FearFiles case every day".
