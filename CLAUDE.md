@@ -192,15 +192,11 @@ Cadence is in its log.json schedule: **2 videos EVERY day until the owner says o
 autopilot's choice (best-time chart of brand 8179515 + own results), ≥ 3 h from any horror post, ≥ 5 h between its own posts.
 jobs.py for channel 2 always with `JOBS_FILE=channels/strange-minute/jobs.json LOG_FILE=channels/strange-minute/log.json`.
 
-**SM POSTING HOURS (2026-11-23, owner: "morning videos don't take off"):** own data — 09:00–10:00 LA avg ~300 views/24 h (n=4) vs 18:00–18:30 ~970 (n=5).
-From Nov 25 Strange Minute posts at **14:30 + 18:30 LA** (no morning slot); the stronger topic of the day goes to 18:30. Cross-channel spacing with horror is not required
-(different channels/audiences); same-channel ≥ 4 h. Long SM video on Tue/Fri at 16:30 LA. Re-check monthly from analytics-latest.md.
-
-**HOUR EXPERIMENT (owner 2026-11-23: "change the times all the time, try different hours"):** every day each channel has ONE ANCHOR slot at its best-known
-hour (horror 14:00, SM 18:30) and ONE TEST slot at a new hour (plan in log.json → hour_test.tests + slot_overrides; ≥ 2.5 h from the anchor; whole 24 h allowed —
-US night = Europe/Asia day). After each test video's first 24 h, record views/24 h by hour (analytics report). A test hour with ≥ 2 videos averaging > anchor becomes
-the new anchor. Every Monday extend the plan 7 days ahead with untested hours first (horror tried: 07,11,14,15,16,17,19:30,05:30,12:30,09,20:30; SM: 09,10,12,14:30,15:30,18:30,21,06:30,11,13,16).
-Report test results to the owner weekly.
+**EVENING-ONLY POSTING (owner 2026-11-23, final: "evening videos (LA) take off, the rest are dead"):** BOTH channels post BOTH Shorts only in the LA evening
+window **16:00–21:30 LA** (= 04:00–09:30 Yerevan), ≥ 2.5 h apart on the same channel, never the exact same minute as the other channel. Long videos also in this window.
+HOUR EXPERIMENT inside the window only: the per-day pair of hours rotates (plan in each log.json → hour_test + slot_overrides; defaults horror 07:00/15:30 and SM 14:30/18:30
+are just slot IDs mapped to evening hours). After 24 h compare views per hour; the best 2 hours win more days. Every Monday extend the plan 7 days (untested evening hours first)
+and report the results to the owner. No morning/midday/night posting unless the owner changes this.
 
 ## Channel 3 — TikTok "Road to PS5" (owner 2026-11-20)
 **4 photo-carousel posts every day** promoting Strange Minute; rules, hosting status and queue in `channels/tiktok/TIKTOK.md`. Every run, after the YouTube slots: schedule the TikTok posts for the next 36 h (Metricool brand 8179515, provider tiktok).
