@@ -776,7 +776,7 @@
    "series": "strange-minute",
    "episode": 15,
    "title": "Strange Minute #15: Only Energy Drinks For A Week? ⚡😳 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -798,12 +798,26 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-23T18:56:29Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-23T18:56:35Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-23T18:56:35Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-23T18:56:50Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-23T18:46:00Z",
-   "updated": "2026-11-23T18:56:29Z"
+   "updated": "2026-11-23T18:56:50Z",
+   "metricool_id": 439272531,
+   "publish_time": "2026-11-24T10:00"
   },
   "2026-11-24T18:30-strange-minute-ep16": {
    "id": "2026-11-24T18:30-strange-minute-ep16",
@@ -811,18 +825,34 @@
    "series": "strange-minute",
    "episode": 16,
    "title": "Strange Minute #16: What If The Oceans Turned Fresh? 🌊😳 #shorts",
-   "stage": "planned",
+   "stage": "qa_passed",
    "status": "active",
    "history": [
     {
      "stage": "planned",
      "at": "2026-11-23T18:51:20Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-23T19:04:37Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-23T19:04:38Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-23T19:04:38Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-23T19:04:38Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-23T18:51:20Z",
-   "updated": "2026-11-23T18:51:20Z"
+   "updated": "2026-11-23T19:04:38Z"
   }
  }
 }
