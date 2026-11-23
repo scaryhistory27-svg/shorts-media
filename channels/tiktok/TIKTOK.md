@@ -51,3 +51,6 @@
 ## 2026-11-22 run
 - New tt019 arthur-hat Nov 23 00:30 (437850872), tt020 silent-hill 04:30 (437850954), tt021 manhunt 08:00 (437851036), tt022 wade 12:00 (437851093),
   tt023 swamp-crab 16:00 (437851171), tt024 verified 19:30 (437851248). Format v3 + link rule; --subs 16 (SM subs 2026-11-22). Next empty: Nov 24 00:30.
+
+## 2026-11-23 run
+- tt025 belville-house Nov 24 00:30 (439281067), tt026 vin 04:30 (439281158), tt027 hidden-items 08:00 (439281271), tt028 old-map 12:00 (439281361), tt029 meet-jason 16:00 (439281442), tt030 trilogy-hint 19:30 (439281546). Next empty: Nov 25 00:30.
