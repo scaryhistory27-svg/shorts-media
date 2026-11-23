@@ -929,7 +929,7 @@
    "series": "fearfiles-doorbell",
    "episode": 1,
    "title": "FearFiles #5: My Doorbell Rang From Inside My Room 🔔😨 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -951,12 +951,26 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-23T19:07:20Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-23T19:07:25Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-23T19:07:25Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-23T19:07:41Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-23T18:43:45Z",
-   "updated": "2026-11-23T19:07:20Z"
+   "updated": "2026-11-23T19:07:41Z",
+   "metricool_id": 439286326,
+   "publish_time": "2026-11-23T14:00"
   },
   "2026-11-24T07:00-fearfiles-mirror-ep1": {
    "id": "2026-11-24T07:00-fearfiles-mirror-ep1",

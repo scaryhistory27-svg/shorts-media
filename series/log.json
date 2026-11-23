@@ -1,7 +1,7 @@
 {
  "publish_time": "2026-11-19T15:30",
  "timezone": "America/Los_Angeles",
- "last_publish": "2026-11-23T07:00",
+ "last_publish": "2026-11-23T14:00",
  "series": [
   {
    "slug": "the-2am-knock",
@@ -229,6 +229,20 @@
      "mid_cta": true
     }
    ]
+  },
+  {
+   "slug": "fearfiles-doorbell",
+   "title": "FearFiles #5: Doorbell",
+   "standalone": true,
+   "episodes": [
+    {
+     "n": 1,
+     "publish": "2026-11-23T14:00:00",
+     "youtube_title": "FearFiles #5: My Doorbell Rang From Inside My Room 🔔😨 #shorts",
+     "metricool_id": 439286326,
+     "thumbnail": "custom"
+    }
+   ]
   }
  ],
  "voice": "am_michael:0.6,am_onyx:0.4 + mystic fx",
@@ -299,7 +313,8 @@
   "2026-11-20T16:00": "2026-11-20T15:30",
   "2026-11-21T15:30": "2026-11-21T14:30",
   "2026-11-22T15:30": "2026-11-22T14:00",
-  "2026-11-23T15:30": "2026-11-23T14:00"
+  "2026-11-23T15:30": "2026-11-23T14:00",
+  "2026-11-24T15:30": "2026-11-24T14:00"
  },
  "playlists": {
   "note": "2026-11-17: owner created 4 playlists, but the ids he sent are truncated (13 chars; a real id is 34) — waiting for the full links",
