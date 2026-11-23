@@ -1,5 +1,5 @@
 {
- "series": "FearFiles: Mirror", "episode": 1, "title": "FEARFILES #6: THE MIRROR", "stamp": "APT 4B · DAY 3", "endTitle": "KEEP IT COVERED.", "endSub": "Who signed YOUR lease?", "music_level": 0.13,
+ "series": "FearFiles: Mirror", "episode": 1, "title": "FEARFILES #6: THE MIRROR", "stamp": "APT 4B · DAY 3", "endTitle": "COVER IT.", "endSub": "Who signed YOUR lease?", "music_level": 0.13,
  "cta": {"text": "A NEW NIGHTMARE EVERY DAY.", "hl": "NIGHTMARE"},
  "lines": [
   {"scene": "hook", "text": "Never uncover the mirror in a rented apartment.", "hl": {"Never": "r", "mirror": "y", "rented": "y"}, "speed": 1.2, "gap": 0.35},

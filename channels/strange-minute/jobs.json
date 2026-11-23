@@ -825,7 +825,7 @@
    "series": "strange-minute",
    "episode": 16,
    "title": "Strange Minute #16: What If The Oceans Turned Fresh? 🌊😳 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -847,12 +847,26 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-23T19:04:38Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-23T19:04:42Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-23T19:04:42Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-23T19:04:58Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-23T18:51:20Z",
-   "updated": "2026-11-23T19:04:38Z"
+   "updated": "2026-11-23T19:04:58Z",
+   "metricool_id": 439282545,
+   "publish_time": "2026-11-24T18:30"
   }
  }
 }
