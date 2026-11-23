@@ -278,5 +278,24 @@
   "gap": 0.25,
   "length_s": "35-45",
   "lines": "10-13"
- }
+ },
+ "compilations": [
+  {
+   "id": "sm-comp001",
+   "publish": "2026-11-24T14:30",
+   "title": "8 What Ifs About Space That Will Blow Your Mind 🌌 | Strange Minute",
+   "metricool_id": 438456640,
+   "items": [
+    "ep004",
+    "ep002",
+    "ep008",
+    "ep011",
+    "ep001",
+    "ep012",
+    "ep013",
+    "ep014"
+   ],
+   "thumbnail": "custom (channel may be unverified → check detailedStatus)"
+  }
+ ]
 }
