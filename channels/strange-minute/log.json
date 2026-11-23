@@ -30,11 +30,21 @@
     "10:00",
     "18:30"
    ],
-   "note": "owner 2026-11-19: 2 videos/day until further notice (the planned switch to 1/day is cancelled); ≥3 h from horror (07:00, 15:30)"
+   "note": "owner 2026-11-19: 2 videos/day until further notice (the planned switch to 1/day is cancelled); ≥3 h from horror (07:00, 15:30)",
+   "to": "2026-11-24"
+  },
+  {
+   "from": "2026-11-25",
+   "times": [
+    "14:30",
+    "18:30"
+   ],
+   "note": "2026-11-23 data: morning (09:00-10:00 LA) avg ~300 views/24h vs 18:00-18:30 ~970 → no morning slot; 14:30 LA = 5:30 PM ET commute/after school"
   }
  ],
  "slot_overrides": {
-  "2026-11-18T12:30": "2026-11-18T09:30"
+  "2026-11-18T12:30": "2026-11-18T09:30",
+  "2026-11-24T10:00": "2026-11-24T14:30"
  },
  "max_ready": 3,
  "ready": [],
@@ -223,9 +233,9 @@
   },
   {
    "n": 15,
-   "publish": "2026-11-24T10:00",
+   "publish": "2026-11-24T14:30",
    "youtube_title": "Strange Minute #15: Only Energy Drinks For A Week? ⚡😳 #shorts",
-   "metricool_id": 439272531,
+   "metricool_id": 439327176,
    "thumbnail": "custom",
    "topic": "Energy drinks only for a week (owner Studio idea)"
   },
@@ -299,9 +309,9 @@
  "compilations": [
   {
    "id": "sm-comp001",
-   "publish": "2026-11-24T14:30",
+   "publish": "2026-11-24T16:30",
    "title": "8 What Ifs About Space That Will Blow Your Mind 🌌 | Strange Minute",
-   "metricool_id": 438516134,
+   "metricool_id": 439327336,
    "items": [
     "ep004",
     "ep002",
