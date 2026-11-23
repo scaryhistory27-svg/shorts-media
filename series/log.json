@@ -1,7 +1,7 @@
 {
  "publish_time": "2026-11-19T15:30",
  "timezone": "America/Los_Angeles",
- "last_publish": "2026-11-23T14:00",
+ "last_publish": "2026-11-24T07:00",
  "series": [
   {
    "slug": "the-2am-knock",
@@ -240,6 +240,20 @@
      "publish": "2026-11-23T14:00:00",
      "youtube_title": "FearFiles #5: My Doorbell Rang From Inside My Room 🔔😨 #shorts",
      "metricool_id": 439286326,
+     "thumbnail": "custom"
+    }
+   ]
+  },
+  {
+   "slug": "fearfiles-mirror",
+   "title": "FearFiles #6: The Mirror",
+   "standalone": true,
+   "episodes": [
+    {
+     "n": 1,
+     "publish": "2026-11-24T07:00:00",
+     "youtube_title": "FearFiles #6: Never Uncover A Rented Mirror 🪞😨 #shorts",
+     "metricool_id": 439287442,
      "thumbnail": "custom"
     }
    ]

@@ -12,6 +12,12 @@ HEAD: d348b6c Autopilot 2026-11-21: 4 videos + 2 TikTok scheduled; state, resear
 ```
 
 
+
+## 2026-11-23 ~11:10 LA — Monday autopilot run
+- Scheduled: FearFiles #5 Doorbell (Nov 23 14:00), #6 Mirror (Nov 24 07:00); SM #15 energy drinks (Nov 24 10:00), #16 oceans (Nov 24 18:30); TikTok tt025–tt030 (Nov 24).
+- Fixed in QA: hook line too long (doorbell, SM16), end-card titles too wide (doorbell, mirror). Published: Trail Cam PeHvVu-6NnU, Room 0 -5-cwDoak6I, SM12 cGuTD5Q7ucM, SM11 k9b3uUHWBYQ, SM13 DJ6mS2ZgLKg.
+- Skipped this Monday (context/credits): vidIQ review (3 credits), weekly xlsx/docs report, deep-research. Do them next Monday if possible.
+
 ## 2026-11-22 ~11:10 LA — autopilot run done
 - Owner asked for subscribe growth → engine mid-video subscribe pill + NEXT promise + numbered titles (CLAUDE.md "SUBSCRIBE CONVERSION").
 - Published/scheduled: FearFiles #3 Trail Cam Nov 22 14:00 (437845937), #4 Room 0 Nov 23 07:00 (437861210); SM #13 Voyager Nov 23 10:00 (437852072, custom-cover probe), #14 Mercury 18:30 (437852119);
