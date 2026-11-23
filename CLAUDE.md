@@ -39,6 +39,11 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
   v3 (research 2026-11-23, owner: "make long videos by the standards, hook people"): spec `intro_line` = NARRATED open-loop hook in the channel voice over the
   3-moment teaser (promise a payoff at the end: "Stay until the last case…"); "STILL TO COME" re-engagement card at the midpoint (`still_sub` = the payoff);
   outro 10 s "WATCH NEXT →" (owner adds the end-screen element). Thumbnail: ≤ 4 big words, one face/creature/planet, high contrast, readable at 360 px.
+- **FORUM-STORY LONG FORMAT (owner 2026-11-23: "scary stories as if from Reddit — can be invented"):** FearFiles long videos alternate:
+  MONDAY = Shorts compilation (make_comp.py), THURSDAY = 4 ORIGINAL first-person "posted at 3 AM" stories (`python3 compilations/reddit_long.py compilations/stories/rsNNN.json`,
+  ~530–650 words, 6–7 min, generic dark forum card "r/3amStories", fictional usernames, storyteller voice, blurred moving bg from our Shorts, outro).
+  NEVER use the Reddit name/logo/UI or claim a real post/real events; description must say "All stories are original fiction". Last story = strongest (intro promises it).
+  Stories follow the same safety/originality rules as Shorts; themes from IDEAS_QUEUE / what wins (night, home, phone, rules).
 - **THUMBNAILS (owner verified BOTH channels 2026-11-23):** every Short AND long video gets `videoThumbnailUrl` (custom cover) on BOTH channels; no more frame mode/probes.
   Published videos can't be changed via Metricool; vidIQ `vidiq_update_video_thumbnail` costs 5 credits (use only when credits allow), else the owner sets them.
 - **WEEKLY LONG VIDEO (FearFiles, from 2026-11-22):** every MONDAY run build a 10–15 min 16:9 compilation of already-published FearFiles Shorts
