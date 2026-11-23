@@ -28,9 +28,14 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
 
 ## Style (match exactly — the owner likes it)
 - **LENGTH UPDATE (owner 2026-11-22 delegated: "decide the rest yourself"): horror target 45–50 s (11–13 lines)** — best retention was the 50-s 2 AM Knock (105 %). Overrides the 50–60 s below.
-- **LONG VIDEOS 2×/WEEK (owner 2026-11-23: "let's make long videos 2 times a week"):** MONDAY run → FearFiles compilation (below);
-  THURSDAY run → Strange Minute compilation (10–15 min, 16:9, "N Mind-Blowing What Ifs…", only published SM Shorts, themed e.g. space; brand 8179515,
-  category EDUCATION, publish ~17:00 LA). Never reuse the same Short in two compilations of the same channel within 30 days; ≥ 8 min (mid-roll ads).
+- **LONG VIDEOS — 2 PER WEEK PER CHANNEL (owner 2026-11-23: "2 long videos a week for each channel, ~6-7 min, research the best options and decide everything yourself"):**
+  FearFiles = MONDAY + THURSDAY runs, Strange Minute = TUESDAY + FRIDAY runs; publish ~17:00–18:00 LA (ET prime time), ≥ 3 h from that channel's Shorts.
+  Length 6–8 min (research 2026-11-23: retention beats length; tight 6-min > padded 10-min; mid-roll at 8 min is a bonus, never pad).
+  Format = THEMED SET of 7–8 published Shorts of that channel ("7 Scary Phone Stories", "8 What Ifs About Space"), built with
+  `python3 compilations/make_comp.py compilations/<id>.json` (v2: cold-open teaser of 3 scariest moments + title card, 1.3-s case cards, per-Short end cards/CTAs cut,
+  10-s outro for end-screen elements, chapters incl. "0:00 Intro"). Every Short appears in at most ONE long video (supply = 14 Shorts/week/channel).
+  YouTube type "video", custom 16:9 thumbnail (big 2–3-word text + one face/creature/planet), title = number + theme + emoji + "| FearFiles"/"| Strange Minute",
+  description = 1 hook line + chapters + 4–5 hashtags; first comment = "which one…?" question. File must be < 95 MB for raw hosting (crf 21, maxrate 1200k).
 - **WEEKLY LONG VIDEO (FearFiles, from 2026-11-22):** every MONDAY run build a 10–15 min 16:9 compilation of already-published FearFiles Shorts
   (`python3 compilations/make_comp.py compilations/compNNN.json`, title cards "CASE n · NAME", chapters in the description) → YouTube type "video" on brand 8091052,
   custom 16:9 thumbnail, publish evening LA. Goal: watch hours for YPP (3,000 h/365 d) — Shorts views don't count as watch hours.

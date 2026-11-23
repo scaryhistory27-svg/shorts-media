@@ -1,0 +1,11 @@
+{"id": "sm-comp001", "color": "5fd4ff", "teaser": "8 WHAT IFS ABOUT SPACE", "teaser_sub": "Number 4 is the scariest", "outro": "MORE WHAT IFS →", "outro_sub": "A new Strange Minute every day",
+ "items": [
+  {"ep": "channels/strange-minute/ep004", "card": "#1 · THE SUN SWITCHES OFF"},
+  {"ep": "channels/strange-minute/ep002", "card": "#2 · EARTH STOPS SPINNING"},
+  {"ep": "channels/strange-minute/ep008", "card": "#3 · FALLING INTO JUPITER"},
+  {"ep": "channels/strange-minute/ep011", "card": "#4 · MARS WITHOUT A SUIT"},
+  {"ep": "channels/strange-minute/ep001", "card": "#5 · THE MOON VANISHES"},
+  {"ep": "channels/strange-minute/ep012", "card": "#6 · PUNCHING AN ASTEROID"},
+  {"ep": "channels/strange-minute/ep013", "card": "#7 · TEXTING VOYAGER 1"},
+  {"ep": "channels/strange-minute/ep014", "card": "#8 · ONE DAY ON MERCURY"}
+ ]}
