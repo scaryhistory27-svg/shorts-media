@@ -28,6 +28,9 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
 
 ## Style (match exactly — the owner likes it)
 - **LENGTH UPDATE (owner 2026-11-22 delegated: "decide the rest yourself"): horror target 45–50 s (11–13 lines)** — best retention was the 50-s 2 AM Knock (105 %). Overrides the 50–60 s below.
+- **LONG VIDEOS 2×/WEEK (owner 2026-11-23: "let's make long videos 2 times a week"):** MONDAY run → FearFiles compilation (below);
+  THURSDAY run → Strange Minute compilation (10–15 min, 16:9, "N Mind-Blowing What Ifs…", only published SM Shorts, themed e.g. space; brand 8179515,
+  category EDUCATION, publish ~17:00 LA). Never reuse the same Short in two compilations of the same channel within 30 days; ≥ 8 min (mid-roll ads).
 - **WEEKLY LONG VIDEO (FearFiles, from 2026-11-22):** every MONDAY run build a 10–15 min 16:9 compilation of already-published FearFiles Shorts
   (`python3 compilations/make_comp.py compilations/compNNN.json`, title cards "CASE n · NAME", chapters in the description) → YouTube type "video" on brand 8091052,
   custom 16:9 thumbnail, publish evening LA. Goal: watch hours for YPP (3,000 h/365 d) — Shorts views don't count as watch hours.
