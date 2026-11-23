@@ -36,6 +36,11 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
   10-s outro for end-screen elements, chapters incl. "0:00 Intro"). Every Short appears in at most ONE long video (supply = 14 Shorts/week/channel).
   YouTube type "video", custom 16:9 thumbnail (big 2–3-word text + one face/creature/planet), title = number + theme + emoji + "| FearFiles"/"| Strange Minute",
   description = 1 hook line + chapters + 4–5 hashtags; first comment = "which one…?" question. File must be < 95 MB for raw hosting (crf 21, maxrate 1200k).
+  v3 (research 2026-11-23, owner: "make long videos by the standards, hook people"): spec `intro_line` = NARRATED open-loop hook in the channel voice over the
+  3-moment teaser (promise a payoff at the end: "Stay until the last case…"); "STILL TO COME" re-engagement card at the midpoint (`still_sub` = the payoff);
+  outro 10 s "WATCH NEXT →" (owner adds the end-screen element). Thumbnail: ≤ 4 big words, one face/creature/planet, high contrast, readable at 360 px.
+- **THUMBNAILS (owner verified BOTH channels 2026-11-23):** every Short AND long video gets `videoThumbnailUrl` (custom cover) on BOTH channels; no more frame mode/probes.
+  Published videos can't be changed via Metricool; vidIQ `vidiq_update_video_thumbnail` costs 5 credits (use only when credits allow), else the owner sets them.
 - **WEEKLY LONG VIDEO (FearFiles, from 2026-11-22):** every MONDAY run build a 10–15 min 16:9 compilation of already-published FearFiles Shorts
   (`python3 compilations/make_comp.py compilations/compNNN.json`, title cards "CASE n · NAME", chapters in the description) → YouTube type "video" on brand 8091052,
   custom 16:9 thumbnail, publish evening LA. Goal: watch hours for YPP (3,000 h/365 d) — Shorts views don't count as watch hours.

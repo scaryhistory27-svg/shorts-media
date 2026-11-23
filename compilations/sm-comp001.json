@@ -1,11 +1,44 @@
-{"id": "sm-comp001", "color": "5fd4ff", "teaser": "8 WHAT IFS ABOUT SPACE", "teaser_sub": "Number 4 is the scariest", "outro": "MORE WHAT IFS →", "outro_sub": "A new Strange Minute every day",
+{
+ "id": "sm-comp001",
+ "color": "5fd4ff",
+ "teaser": "8 WHAT IFS ABOUT SPACE",
+ "teaser_sub": "STAY FOR #8",
+ "outro": "WATCH NEXT \u2192",
+ "outro_sub": "A new Strange Minute every day",
  "items": [
-  {"ep": "channels/strange-minute/ep004", "card": "#1 · THE SUN SWITCHES OFF"},
-  {"ep": "channels/strange-minute/ep002", "card": "#2 · EARTH STOPS SPINNING"},
-  {"ep": "channels/strange-minute/ep008", "card": "#3 · FALLING INTO JUPITER"},
-  {"ep": "channels/strange-minute/ep011", "card": "#4 · MARS WITHOUT A SUIT"},
-  {"ep": "channels/strange-minute/ep001", "card": "#5 · THE MOON VANISHES"},
-  {"ep": "channels/strange-minute/ep012", "card": "#6 · PUNCHING AN ASTEROID"},
-  {"ep": "channels/strange-minute/ep013", "card": "#7 · TEXTING VOYAGER 1"},
-  {"ep": "channels/strange-minute/ep014", "card": "#8 · ONE DAY ON MERCURY"}
- ]}
+  {
+   "ep": "channels/strange-minute/ep004",
+   "card": "#1 \u00b7 THE SUN SWITCHES OFF"
+  },
+  {
+   "ep": "channels/strange-minute/ep002",
+   "card": "#2 \u00b7 EARTH STOPS SPINNING"
+  },
+  {
+   "ep": "channels/strange-minute/ep008",
+   "card": "#3 \u00b7 FALLING INTO JUPITER"
+  },
+  {
+   "ep": "channels/strange-minute/ep011",
+   "card": "#4 \u00b7 MARS WITHOUT A SUIT"
+  },
+  {
+   "ep": "channels/strange-minute/ep001",
+   "card": "#5 \u00b7 THE MOON VANISHES"
+  },
+  {
+   "ep": "channels/strange-minute/ep012",
+   "card": "#6 \u00b7 PUNCHING AN ASTEROID"
+  },
+  {
+   "ep": "channels/strange-minute/ep013",
+   "card": "#7 \u00b7 TEXTING VOYAGER 1"
+  },
+  {
+   "ep": "channels/strange-minute/ep014",
+   "card": "#8 \u00b7 ONE DAY ON MERCURY"
+  }
+ ],
+ "intro_line": "Eight what-ifs about space. Every one is real science. And number eight has a day that lasts longer than its year.",
+ "still_sub": "#8 \u00b7 A DAY LONGER THAN A YEAR"
+}

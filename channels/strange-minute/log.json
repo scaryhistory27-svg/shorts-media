@@ -217,18 +217,19 @@
    "n": 14,
    "publish": "2026-11-23T18:30",
    "youtube_title": "Strange Minute #14: What If You Spent 1 Day On Mercury? ☿️😳 #shorts",
-   "metricool_id": 437852119,
-   "thumbnail": "frame",
+   "metricool_id": 438461553,
+   "thumbnail": "custom",
    "topic": "One day on Mercury (BepiColombo arrival Nov 21 2026)"
   }
  ],
  "thumbnail": {
-  "mode": "frame",
+  "mode": "custom",
   "fails": 1,
   "probe_every": 3,
   "since_probe": 0,
   "note": "new channel not phone-verified yet → frame mode; probe custom covers every 3rd video",
-  "last_probe": "2026-11-23 SM #13 custom cover probe — check detailedStatus next run"
+  "last_probe": "2026-11-23 SM #13 custom cover probe — check detailedStatus next run",
+  "verified": "2026-11-23 owner verified channel → custom thumbnails"
  },
  "schedule_note": "Empty until brand_id is set. On connection day (= day 1) write: day1-2 times ['10:00','16:00']; day3-7 ['16:00']; from day 8 {'mixed_days':[1,2],'times':['16:00']} — times are only defaults, the autopilot picks each hour.",
  "launch_template": [

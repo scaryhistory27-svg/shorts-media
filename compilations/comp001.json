@@ -1,13 +1,56 @@
-{"id": "comp001", "items": [
- {"path": "series/fearfiles-stop-14/ep1/build/final.mp4", "card": "CASE 1 · STOP 14"},
- {"path": "series/fearfiles-dryer-nine/ep1/build/final.mp4", "card": "CASE 2 · DRYER NINE"},
- {"path": "series/the-missing-floor/ep1/build/final.mp4", "card": "CASE 3 · FLOOR 13 · PART 1"},
- {"path": "series/the-missing-floor/ep2/build/final.mp4", "card": "CASE 3 · FLOOR 13 · PART 2"},
- {"path": "series/the-missing-floor/ep3/build/final.mp4", "card": "CASE 3 · FLOOR 13 · PART 3"},
- {"path": "series/whos-home/ep1/build/final.mp4", "card": "CASE 4 · WHO'S HOME · PART 1"},
- {"path": "series/whos-home/ep2/build/final.mp4", "card": "CASE 4 · WHO'S HOME · PART 2"},
- {"path": "series/whos-home/ep3/build/final.mp4", "card": "CASE 4 · WHO'S HOME · PART 3"},
- {"path": "series/mile-marker-214/ep1/build/final.mp4", "card": "CASE 5 · MILE MARKER 214 · PART 1"},
- {"path": "series/mile-marker-214/ep2/build/final.mp4", "card": "CASE 5 · MILE MARKER 214 · PART 2"},
- {"path": "series/mile-marker-214/ep3/build/final.mp4", "card": "CASE 5 · MILE MARKER 214 · PART 3"}
-]}
+{
+ "id": "comp001",
+ "color": "ff3a3a",
+ "teaser": "11 SCARY STORIES",
+ "teaser_sub": "DON'T WATCH ALONE",
+ "intro_line": "Eleven stories. Every one of them broke one simple rule. Stay until the last case. It's the road that never ends.",
+ "still_sub": "CASE 5 \u00b7 THE ROAD THAT NEVER ENDS",
+ "outro": "WATCH NEXT \u2192",
+ "outro_sub": "A new FearFiles case every day",
+ "items": [
+  {
+   "ep": "series/fearfiles-stop-14/ep1",
+   "card": "CASE 1 \u00b7 STOP 14"
+  },
+  {
+   "ep": "series/fearfiles-dryer-nine/ep1",
+   "card": "CASE 2 \u00b7 DRYER NINE"
+  },
+  {
+   "ep": "series/the-missing-floor/ep1",
+   "card": "CASE 3 \u00b7 FLOOR 13 \u00b7 PART 1"
+  },
+  {
+   "ep": "series/the-missing-floor/ep2",
+   "card": "CASE 3 \u00b7 FLOOR 13 \u00b7 PART 2"
+  },
+  {
+   "ep": "series/the-missing-floor/ep3",
+   "card": "CASE 3 \u00b7 FLOOR 13 \u00b7 PART 3"
+  },
+  {
+   "ep": "series/whos-home/ep1",
+   "card": "CASE 4 \u00b7 WHO'S HOME \u00b7 PART 1"
+  },
+  {
+   "ep": "series/whos-home/ep2",
+   "card": "CASE 4 \u00b7 WHO'S HOME \u00b7 PART 2"
+  },
+  {
+   "ep": "series/whos-home/ep3",
+   "card": "CASE 4 \u00b7 WHO'S HOME \u00b7 PART 3"
+  },
+  {
+   "ep": "series/mile-marker-214/ep1",
+   "card": "CASE 5 \u00b7 MILE MARKER 214 \u00b7 PART 1"
+  },
+  {
+   "ep": "series/mile-marker-214/ep2",
+   "card": "CASE 5 \u00b7 MILE MARKER 214 \u00b7 PART 2"
+  },
+  {
+   "ep": "series/mile-marker-214/ep3",
+   "card": "CASE 5 \u00b7 MILE MARKER 214 \u00b7 PART 3"
+  }
+ ]
+}
