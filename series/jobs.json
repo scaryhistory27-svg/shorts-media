@@ -821,8 +821,8 @@
    "series": "fearfiles-trail-cam",
    "episode": 1,
    "title": "FearFiles #3: Never Check Your Trail Cam 📷😨 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -855,14 +855,19 @@
     {
      "stage": "scheduled",
      "at": "2026-11-22T18:51:06Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-23T18:42:27Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-22T18:46:30Z",
-   "updated": "2026-11-22T18:51:06Z",
+   "updated": "2026-11-23T18:42:27Z",
    "metricool_id": 437845937,
-   "publish_time": "2026-11-22T14:00"
+   "publish_time": "2026-11-22T14:00",
+   "youtube_id": "PeHvVu-6NnU"
   },
   "2026-11-23T07:00-fearfiles-room-0-ep1": {
    "id": "2026-11-23T07:00-fearfiles-room-0-ep1",
@@ -870,8 +875,8 @@
    "series": "fearfiles-room-0",
    "episode": 1,
    "title": "FearFiles #4: Never Take A Key To Room 0 🔑😨 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -904,14 +909,57 @@
     {
      "stage": "scheduled",
      "at": "2026-11-22T19:08:29Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-23T18:42:27Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-22T19:00:36Z",
-   "updated": "2026-11-22T19:08:29Z",
+   "updated": "2026-11-23T18:42:27Z",
    "metricool_id": 437861210,
-   "publish_time": "2026-11-23T07:00"
+   "publish_time": "2026-11-23T07:00",
+   "youtube_id": "-5-cwDoak6I"
+  },
+  "2026-11-23T14:00-fearfiles-doorbell-ep1": {
+   "id": "2026-11-23T14:00-fearfiles-doorbell-ep1",
+   "slot": "2026-11-23T14:00",
+   "series": "fearfiles-doorbell",
+   "episode": 1,
+   "title": "FearFiles #5: My Doorbell Rang From Inside My Room 🔔😨 #shorts",
+   "stage": "planned",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-23T18:43:45Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-23T18:43:45Z",
+   "updated": "2026-11-23T18:43:45Z"
+  },
+  "2026-11-24T07:00-fearfiles-mirror-ep1": {
+   "id": "2026-11-24T07:00-fearfiles-mirror-ep1",
+   "slot": "2026-11-24T07:00",
+   "series": "fearfiles-mirror",
+   "episode": 1,
+   "title": "FearFiles #6: Never Uncover A Rented Mirror 🪞😨 #shorts",
+   "stage": "planned",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-23T18:53:25Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-23T18:53:25Z",
+   "updated": "2026-11-23T18:53:25Z"
   }
  }
 }

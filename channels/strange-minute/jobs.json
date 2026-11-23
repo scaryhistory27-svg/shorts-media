@@ -561,8 +561,8 @@
    "series": "strange-minute",
    "episode": 11,
    "title": "What If You Stood On Mars Without A Spacesuit? 🔴😳 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -595,14 +595,19 @@
     {
      "stage": "scheduled",
      "at": "2026-11-21T19:00:23Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-23T18:42:27Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-21T18:56:55Z",
-   "updated": "2026-11-21T19:00:23Z",
+   "updated": "2026-11-23T18:42:27Z",
    "metricool_id": 436936362,
-   "publish_time": "2026-11-22T18:30"
+   "publish_time": "2026-11-22T18:30",
+   "youtube_id": "k9b3uUHWBYQ"
   },
   "2026-11-22T10:00-strange-minute-ep12": {
    "id": "2026-11-22T10:00-strange-minute-ep12",
@@ -610,8 +615,8 @@
    "series": "strange-minute",
    "episode": 12,
    "title": "What If We Punched An Asteroid Off Course? ☄️😳 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -644,14 +649,19 @@
     {
      "stage": "scheduled",
      "at": "2026-11-21T19:12:04Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-23T18:42:27Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-21T19:09:05Z",
-   "updated": "2026-11-21T19:12:04Z",
+   "updated": "2026-11-23T18:42:27Z",
    "metricool_id": 436945882,
-   "publish_time": "2026-11-22T10:00"
+   "publish_time": "2026-11-22T10:00",
+   "youtube_id": "cGuTD5Q7ucM"
   },
   "2026-11-23T10:00-strange-minute-ep13": {
    "id": "2026-11-23T10:00-strange-minute-ep13",
@@ -659,8 +669,8 @@
    "series": "strange-minute",
    "episode": 13,
    "title": "Strange Minute #13: What If You Texted Voyager 1? 🛰️😳 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -693,14 +703,19 @@
     {
      "stage": "scheduled",
      "at": "2026-11-22T18:58:13Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-23T18:42:35Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-22T18:51:28Z",
-   "updated": "2026-11-22T18:58:13Z",
+   "updated": "2026-11-23T18:42:35Z",
    "metricool_id": 437852072,
-   "publish_time": "2026-11-23T10:00"
+   "publish_time": "2026-11-23T10:00",
+   "youtube_id": "DJ6mS2ZgLKg"
   },
   "2026-11-23T18:30-strange-minute-ep14": {
    "id": "2026-11-23T18:30-strange-minute-ep14",
@@ -754,6 +769,60 @@
    "updated": "2026-11-23T08:54:20Z",
    "metricool_id": 438461553,
    "publish_time": "2026-11-23T18:30"
+  },
+  "2026-11-24T10:00-strange-minute-ep15": {
+   "id": "2026-11-24T10:00-strange-minute-ep15",
+   "slot": "2026-11-24T10:00",
+   "series": "strange-minute",
+   "episode": 15,
+   "title": "Strange Minute #15: Only Energy Drinks For A Week? ⚡😳 #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-23T18:46:00Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-23T18:56:29Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-23T18:56:29Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-23T18:56:29Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-23T18:56:29Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-23T18:46:00Z",
+   "updated": "2026-11-23T18:56:29Z"
+  },
+  "2026-11-24T18:30-strange-minute-ep16": {
+   "id": "2026-11-24T18:30-strange-minute-ep16",
+   "slot": "2026-11-24T18:30",
+   "series": "strange-minute",
+   "episode": 16,
+   "title": "Strange Minute #16: What If The Oceans Turned Fresh? 🌊😳 #shorts",
+   "stage": "planned",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-23T18:51:20Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-23T18:51:20Z",
+   "updated": "2026-11-23T18:51:20Z"
   }
  }
 }

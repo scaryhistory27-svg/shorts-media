@@ -1,0 +1,182 @@
+{
+ "series": "Strange Minute",
+ "episode": 16,
+ "title": "STRANGE MINUTE #16 · WHAT IF",
+ "stamp": "OCEANS · ZERO SALT",
+ "style": "light",
+ "bed": "light",
+ "voice": "am_fenrir",
+ "lang": "en-us",
+ "voice_fx": "explainer",
+ "speed": 1.0,
+ "gap": 0.25,
+ "music_level": 0.12,
+ "endTitle": "WHAT IF #17?",
+ "endSub": "Salt or a drinkable ocean?",
+ "cta": {
+  "text": "ONE STRANGE MINUTE. EVERY DAY.",
+  "hl": "STRANGE MINUTE"
+ },
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "What if every ocean turned into fresh water?",
+   "hl": {
+    "every": "y",
+    "fresh": "y",
+    "water?": "y"
+   },
+   "gap": 0.35,
+   "sfx": [
+    {
+     "at": "end",
+     "type": "ding"
+    }
+   ]
+  },
+  {
+   "scene": "salt",
+   "text": "Right now, every liter of seawater holds about 35 grams of salt.",
+   "say": "Right now, every liter of seawater holds about thirty-five grams of salt.",
+   "hl": {
+    "35": "y",
+    "salt.": "y"
+   }
+  },
+  {
+   "scene": "pile",
+   "text": "Spread all that salt on land, and it'd be over 500 feet thick.",
+   "say": "Spread all that salt on land, and it'd be over five hundred feet thick.",
+   "hl": {
+    "500": "r",
+    "thick.": "r"
+   }
+  },
+  {
+   "scene": "poof",
+   "text": "Now, poof. It's all gone.",
+   "hl": {
+    "poof.": "y",
+    "gone.": "y"
+   },
+   "sfx": [
+    {
+     "word": "poof.",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "drink",
+   "text": "Good news: you could drink straight from the ocean.",
+   "hl": {
+    "Good": "y",
+    "drink": "y"
+   }
+  },
+  {
+   "scene": "life",
+   "text": "Bad news: almost all sea life is built for salt.",
+   "hl": {
+    "Bad": "r",
+    "salt.": "y"
+   }
+  },
+  {
+   "scene": "life",
+   "text": "Water floods into their cells, and most can't survive.",
+   "hl": {
+    "floods": "r",
+    "survive.": "r"
+   }
+  },
+  {
+   "scene": "reef",
+   "text": "Coral reefs would die. So would most sea fish.",
+   "hl": {
+    "Coral": "y",
+    "die.": "r"
+   }
+  },
+  {
+   "scene": "freeze",
+   "text": "Fresh water also freezes sooner: at 32 degrees, not 28.",
+   "say": "Fresh water also freezes sooner: at thirty-two degrees, not twenty-eight.",
+   "hl": {
+    "freezes": "y",
+    "32": "y",
+    "28.": "y"
+   }
+  },
+  {
+   "scene": "freeze",
+   "text": "Polar seas would ice over much faster.",
+   "hl": {
+    "ice": "y",
+    "faster.": "y"
+   }
+  },
+  {
+   "scene": "current",
+   "text": "And the giant currents that carry heat around the planet?",
+   "hl": {
+    "currents": "y",
+    "heat": "y"
+   }
+  },
+  {
+   "scene": "current",
+   "text": "They run partly on salt. They'd slow down.",
+   "hl": {
+    "salt.": "y",
+    "slow": "r"
+   }
+  },
+  {
+   "scene": "europe",
+   "text": "Places like Europe could get a lot colder.",
+   "hl": {
+    "Europe": "y",
+    "colder.": "r"
+   }
+  },
+  {
+   "scene": "ask",
+   "text": "So, would you trade the salt for a drinkable ocean?",
+   "hl": {
+    "salt": "y",
+    "drinkable": "y",
+    "ocean?": "y"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Strange Minute #16: What If The Oceans Turned Fresh? 🌊😳 #shorts",
+  "description": "Drinkable seas, a 500-foot salt layer, dying reefs and a colder Europe. 🌊 Would you trade the salt? 👇\n#whatif #ocean #science #earth #facts #shorts",
+  "tags": [
+   "what if",
+   "ocean",
+   "fresh water ocean",
+   "ocean salt",
+   "science",
+   "earth facts",
+   "ocean currents",
+   "strange facts"
+  ],
+  "first_comment": "A new what-if every day 🌊 Salty ocean or drinkable ocean — which world would you pick? 👇"
+ },
+ "cover": {
+  "seg": 6,
+  "frac": 0.6,
+  "top": "STRANGE MINUTE #16",
+  "lines": [
+   "NO SALT IN",
+   "THE OCEAN?!"
+  ],
+  "sub": "WHAT IF"
+ },
+ "sources": [
+  "NOAA: average ocean salinity ~35 ppt (~35 g/L); NOAA: if ocean salt were spread over land it would form a layer >500 ft (152 m) thick",
+  "Seawater freezes ~28.4 °F (−1.9 °C) vs 32 °F; osmotic stress kills most marine organisms in fresh water; AMOC is driven by temperature+salinity (thermohaline) — weakening would cool Europe"
+ ]
+}

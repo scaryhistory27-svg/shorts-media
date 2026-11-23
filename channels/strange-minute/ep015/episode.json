@@ -1,0 +1,32 @@
+{
+ "series": "Strange Minute", "episode": 15, "title": "STRANGE MINUTE #15 · WHAT IF", "stamp": "4 CANS · 7 DAYS",
+ "style": "light", "bed": "light", "voice": "am_fenrir", "lang": "en-us", "voice_fx": "explainer", "speed": 1.0, "gap": 0.25, "music_level": 0.12,
+ "endTitle": "WHAT IF #16?", "endSub": "How many cans have YOU had today?",
+ "cta": {"text": "ONE STRANGE MINUTE. EVERY DAY.", "hl": "STRANGE MINUTE"},
+ "next_promise": "THE OCEANS TURN FRESH",
+ "lines": [
+  {"scene": "hook", "text": "What if you drank only energy drinks for a week?", "hl": {"only": "y", "energy": "y", "week?": "y"}, "gap": 0.35, "sfx": [{"at": "end", "type": "ding"}]},
+  {"scene": "cans", "text": "Four big cans a day. Nothing else.", "hl": {"Four": "y", "Nothing": "r"}},
+  {"scene": "caffeine", "text": "One big can can pack about 160 milligrams of caffeine.", "say": "One big can can pack about a hundred sixty milligrams of caffeine.", "hl": {"160": "y", "caffeine.": "y"}},
+  {"scene": "caffeine", "text": "Four of them is 640. Way past the 400 most adults handle safely.", "say": "Four of them is six hundred forty. Way past the four hundred most adults handle safely.", "hl": {"640.": "r", "400": "y"}},
+  {"scene": "heart", "text": "Your heart speeds up.", "hl": {"heart": "r"}},
+  {"scene": "shake", "text": "Your hands start to shake.", "hl": {"shake.": "y"}},
+  {"scene": "bp", "text": "A Mayo Clinic study found one can raised blood pressure.", "hl": {"one": "y", "blood": "r", "pressure.": "r"}},
+  {"scene": "sugar", "text": "Each can holds around 50 grams of sugar.", "say": "Each can holds around fifty grams of sugar.", "hl": {"50": "y", "sugar.": "y"}},
+  {"scene": "sugar", "text": "That's 200 a day. Four times the WHO limit.", "say": "That's two hundred a day. Four times the W H O limit.", "hl": {"200": "r", "Four": "r"}},
+  {"scene": "sleep", "text": "Sleep falls apart. You crash, and grab another can.", "hl": {"crash,": "r", "another": "y"}},
+  {"scene": "teeth", "text": "The acid slowly wears down your tooth enamel.", "hl": {"acid": "r", "enamel.": "y"}},
+  {"scene": "empty", "text": "No protein. No vegetables. Your body runs on empty.", "hl": {"empty.": "r"}},
+  {"scene": "day7", "text": "By day seven, you'd feel more tired than when you started.", "hl": {"seven,": "y", "tired": "r"}},
+  {"scene": "ask", "text": "So, how many cans have YOU had today?", "say": "So, how many cans have you had today?", "hl": {"YOU": "y", "today?": "y"}}
+ ],
+ "youtube": {
+  "title": "Strange Minute #15: Only Energy Drinks For A Week? ⚡😳 #shorts",
+  "description": "4 cans a day, nothing else — here's what happens to your heart, sleep, teeth and energy. ⚡ Don't try this at home. How many have YOU had today? 👇\n#whatif #energydrink #health #science #facts #shorts",
+  "tags": ["what if", "energy drinks", "caffeine", "energy drink effects", "health facts", "science", "body facts", "strange facts"],
+  "first_comment": "A new what-if every day ⚡ Be honest — how many energy drinks have you had this week? 👇"
+ },
+ "cover": {"seg": 3, "frac": 0.7, "top": "STRANGE MINUTE #15", "lines": ["ONLY ENERGY", "DRINKS?!"], "sub": "7 DAYS"},
+ "sources": ["Mayo Clinic: up to 400 mg caffeine/day safe for most adults; one 16-oz can can hold ~47 g added sugar; Mayo study (25 adults): energy drink raised resting BP vs placebo",
+  "16-oz energy drink ≈ 150–160 mg caffeine (label values); WHO: free sugars < 10 % energy (~50 g/day); acidic drinks erode enamel"]
+}

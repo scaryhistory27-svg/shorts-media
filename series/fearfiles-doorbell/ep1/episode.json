@@ -1,0 +1,164 @@
+{
+ "series": "FearFiles: Doorbell",
+ "episode": 1,
+ "title": "FEARFILES #5: DOORBELL",
+ "stamp": "BEDROOM · 3:04 AM",
+ "endTitle": "DON'T LOOK BACK.",
+ "endSub": "What's in YOUR chime history?",
+ "music_level": 0.12,
+ "cta": {
+  "text": "SUBSCRIBE… OR MISS WHAT HAPPENS NEXT.",
+  "hl": "SUBSCRIBE…"
+ },
+ "next_promise": "THE MIRROR THAT SHOWS TOMORROW",
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "Never answer a doorbell that rings from your bedroom.",
+   "hl": {
+    "Never": "r",
+    "doorbell": "y",
+    "bedroom.": "r"
+   },
+   "speed": 1.25,
+   "gap": 0.35
+  },
+  {
+   "scene": "notif",
+   "text": "3:04 AM. My phone lit up: person detected.",
+   "say": "Three oh four A.M. My phone lit up: person detected.",
+   "hl": {
+    "3:04": "y",
+    "person": "r",
+    "detected.": "r"
+   }
+  },
+  {
+   "scene": "porch",
+   "text": "The front door camera showed an empty porch.",
+   "hl": {
+    "empty": "y"
+   },
+   "sfx": [
+    {
+     "word": "camera",
+     "type": "buzz"
+    }
+   ]
+  },
+  {
+   "scene": "me",
+   "text": "Then it chimed again. Not from the hallway.",
+   "hl": {
+    "chimed": "y",
+    "Not": "r"
+   }
+  },
+  {
+   "scene": "under",
+   "text": "It was coming from under my bed.",
+   "hl": {
+    "under": "r",
+    "bed.": "r"
+   },
+   "sfx": [
+    {
+     "word": "under",
+     "type": "heart"
+    }
+   ]
+  },
+  {
+   "scene": "history",
+   "text": "I opened the chime history.",
+   "hl": {
+    "history.": "y"
+   }
+  },
+  {
+   "scene": "history",
+   "text": "Every night at 3:04. For eleven months.",
+   "say": "Every night at three oh four. For eleven months.",
+   "hl": {
+    "3:04.": "r",
+    "eleven": "y"
+   }
+  },
+  {
+   "scene": "boxes",
+   "text": "I moved in ten months ago.",
+   "hl": {
+    "ten": "r",
+    "months": "r"
+   },
+   "sfx": [
+    {
+     "word": "ago.",
+     "type": "sting"
+    }
+   ]
+  },
+  {
+   "scene": "whisper",
+   "text": "The last chime had a voice message.",
+   "hl": {
+    "voice": "y"
+   }
+  },
+  {
+   "scene": "whisper",
+   "text": "A whisper: don't look under the bed.",
+   "hl": {
+    "whisper:": "y",
+    "under": "r"
+   }
+  },
+  {
+   "scene": "me",
+   "text": "Look behind you.",
+   "hl": {
+    "behind": "r",
+    "you.": "r"
+   }
+  },
+  {
+   "scene": "behind",
+   "text": "So never answer a doorbell that rings from your bedroom.",
+   "hl": {
+    "never": "r",
+    "bedroom.": "r"
+   },
+   "sfx": [
+    {
+     "word": "bedroom.",
+     "type": "sting"
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "FearFiles #5: My Doorbell Rang From Inside My Room 🔔😨 #shorts",
+  "description": "3:04 AM: person detected. The porch was empty. The chime came from under my bed. 🔔 Who rang it? 👀\n#horrorstory #scary #creepy #smarthome #fearfiles #shorts",
+  "tags": [
+   "horror story",
+   "scary",
+   "creepy",
+   "smart doorbell",
+   "smart home horror",
+   "scary story",
+   "horror animation",
+   "fearfiles"
+  ],
+  "first_comment": "New FearFiles case every day 🕯 Would YOU look behind you… or under the bed? 👇"
+ },
+ "cover": {
+  "seg": 11,
+  "frac": 0.75,
+  "top": "FEARFILES #5",
+  "lines": [
+   "IT RANG FROM",
+   "MY BEDROOM"
+  ],
+  "sub": "DOORBELL"
+ }
+}

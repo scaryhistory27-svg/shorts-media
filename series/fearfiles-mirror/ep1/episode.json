@@ -1,0 +1,25 @@
+{
+ "series": "FearFiles: Mirror", "episode": 1, "title": "FEARFILES #6: THE MIRROR", "stamp": "APT 4B · DAY 3", "endTitle": "KEEP IT COVERED.", "endSub": "Who signed YOUR lease?", "music_level": 0.13,
+ "cta": {"text": "A NEW NIGHTMARE EVERY DAY.", "hl": "NIGHTMARE"},
+ "lines": [
+  {"scene": "hook", "text": "Never uncover the mirror in a rented apartment.", "hl": {"Never": "r", "mirror": "y", "rented": "y"}, "speed": 1.2, "gap": 0.35},
+  {"scene": "lease", "text": "My landlord had one rule: keep the hall mirror covered.", "hl": {"one": "y", "covered.": "r"}},
+  {"scene": "sheet", "text": "On day three, the sheet slipped off.", "hl": {"three,": "y", "slipped": "r"}, "sfx": [{"word": "slipped", "type": "whoosh"}]},
+  {"scene": "reflect", "text": "My reflection was there. The room behind it wasn't mine.", "hl": {"reflection": "y", "wasn't": "r", "mine.": "r"}},
+  {"scene": "reflect", "text": "Gray walls. A wheelchair. Photos I'd never seen.", "hl": {"wheelchair.": "y", "never": "r"}},
+  {"scene": "photos", "text": "In every photo, it was me. Fifty years older.", "hl": {"me.": "y", "Fifty": "r", "older.": "r"}, "sfx": [{"word": "Fifty", "type": "sting"}]},
+  {"scene": "wave", "text": "Then the old man in the mirror waved at me.", "hl": {"old": "y", "waved": "r"}},
+  {"scene": "ring", "text": "He wore my landlord's ring.", "hl": {"landlord's": "y", "ring.": "r"}, "sfx": [{"word": "ring.", "type": "heart"}]},
+  {"scene": "call", "text": "I called my landlord. A phone rang inside the mirror.", "hl": {"called": "y", "inside": "r", "mirror.": "r"}, "sfx": [{"word": "rang", "type": "buzz"}]},
+  {"scene": "call", "text": "The old man answered. With my voice.", "hl": {"answered.": "y", "my": "r", "voice.": "r"}},
+  {"scene": "final", "text": "He said: you'll never move out. I didn't.", "hl": {"never": "r", "didn't.": "r"}},
+  {"scene": "hook", "text": "So never uncover the mirror in a rented apartment.", "hl": {"never": "r", "mirror": "y"}, "sfx": [{"word": "apartment.", "type": "sting"}]}
+ ],
+ "youtube": {
+  "title": "FearFiles #6: Never Uncover A Rented Mirror 🪞😨 #shorts",
+  "description": "My landlord had one rule: keep the hall mirror covered. On day three, the sheet slipped. 🪞 Who is the landlord? 👀\n#horrorstory #scary #creepy #mirror #fearfiles #shorts",
+  "tags": ["horror story", "scary", "creepy", "haunted mirror", "landlord horror", "scary story", "horror animation", "fearfiles"],
+  "first_comment": "New FearFiles case every day 🕯 Did you spot the ring at the start? 👀 Would YOU move out? 👇"
+ },
+ "cover": {"seg": 6, "frac": 0.6, "top": "FEARFILES #6", "lines": ["HE WAS ME", "50 YEARS LATER"], "sub": "THE MIRROR"}
+}
