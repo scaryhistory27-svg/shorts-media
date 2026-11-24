@@ -1,7 +1,7 @@
 {
  "publish_time": "2026-11-19T15:30",
  "timezone": "America/Los_Angeles",
- "last_publish": "2026-11-24T07:00",
+ "last_publish": "2026-11-24T19:30",
  "series": [
   {
    "slug": "the-2am-knock",
@@ -254,6 +254,20 @@
      "publish": "2026-11-24T07:00:00",
      "youtube_title": "FearFiles #6: Never Uncover A Rented Mirror 🪞😨 #shorts",
      "metricool_id": 439287442,
+     "thumbnail": "custom"
+    }
+   ]
+  },
+  {
+   "slug": "fearfiles-dashcam",
+   "title": "FearFiles #7: Dashcam",
+   "standalone": true,
+   "episodes": [
+    {
+     "n": 1,
+     "publish": "2026-11-24T19:30:00",
+     "youtube_title": "FearFiles #7: The Hitchhiker My Dashcam Couldn't See 🚗😨 #shorts",
+     "metricool_id": 440736940,
      "thumbnail": "custom"
     }
    ]

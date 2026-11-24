@@ -1032,7 +1032,7 @@
    "series": "fearfiles-dashcam",
    "episode": 1,
    "title": "FearFiles #7: The Hitchhiker My Dashcam Couldn't See 🚗😨 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -1054,12 +1054,26 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-24T18:48:58Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-24T18:49:03Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-24T18:49:03Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-24T18:49:18Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-24T18:45:15Z",
-   "updated": "2026-11-24T18:48:58Z"
+   "updated": "2026-11-24T18:49:18Z",
+   "metricool_id": 440736940,
+   "publish_time": "2026-11-24T19:30"
   }
  }
 }
