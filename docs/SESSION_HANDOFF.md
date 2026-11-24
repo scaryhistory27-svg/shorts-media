@@ -13,6 +13,12 @@ HEAD: d348b6c Autopilot 2026-11-21: 4 videos + 2 TikTok scheduled; state, resear
 
 
 
+
+## 2026-11-24 ~10:55 LA — Tuesday autopilot run IN PROGRESS (context ~87 %, may compact)
+- Done: published marked (Doorbell xLDVPkvBLrs, SM14 r0zEkcYNU-I, comp001 LW8gQFJcRJ4). FearFiles #7 Dashcam built (series/fearfiles-dashcam, job 2026-11-24T19:30) — rendering → QA → publish 19:30 LA.
+- Next: horror #8 slot 2026-11-25T16:00 = NEW 'waiting room where nobody gets called' (rule: never fall asleep there); SM 2026-11-25T18:30 = 'What if Earth had rings like Saturn?', SM 2026-11-25T21:00 = 'What if you fell into a black hole?' (verify facts);
+  TikTok Nov 25 tt031–tt036 (00:30…19:30 LA, new GTA 6 topics, no repeats of tt001–tt030). vidIQ 3 credits → skip vidIQ. Evening-only rule for YouTube.
+
 ## 2026-11-23 ~11:10 LA — Monday autopilot run
 - Scheduled: FearFiles #5 Doorbell (Nov 23 14:00), #6 Mirror (Nov 24 07:00); SM #15 energy drinks (Nov 24 10:00), #16 oceans (Nov 24 18:30); TikTok tt025–tt030 (Nov 24).
 - Fixed in QA: hook line too long (doorbell, SM16), end-card titles too wide (doorbell, mirror). Published: Trail Cam PeHvVu-6NnU, Room 0 -5-cwDoak6I, SM12 cGuTD5Q7ucM, SM11 k9b3uUHWBYQ, SM13 DJ6mS2ZgLKg.
