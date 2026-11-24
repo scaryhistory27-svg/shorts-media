@@ -1,0 +1,25 @@
+{
+ "series": "FearFiles: Dashcam", "episode": 1, "title": "FEARFILES #7: DASHCAM", "stamp": "ROUTE 6 · 2:13 AM", "endTitle": "DON'T STOP.", "endSub": "Who's in YOUR passenger seat?", "music_level": 0.12,
+ "cta": {"text": "SOME STORIES FIND YOU. SUBSCRIBE FIRST.", "hl": "SUBSCRIBE"},
+ "lines": [
+  {"scene": "hook", "text": "Never pick up a hitchhiker your dashcam can't see.", "hl": {"Never": "r", "hitchhiker": "y", "can't": "r"}, "speed": 1.25, "gap": 0.35},
+  {"scene": "wave", "text": "2 AM on Route 6. A man in a yellow raincoat waved me down.", "say": "Two A.M. on Route six. A man in a yellow raincoat waved me down.", "hl": {"yellow": "y", "raincoat": "y"}},
+  {"scene": "inside", "text": "He got in. He didn't say a word.", "hl": {"didn't": "r"}},
+  {"scene": "inside", "text": "He just pointed. Keep driving.", "hl": {"pointed.": "y", "driving.": "r"}},
+  {"scene": "station", "text": "At the gas station, I checked my dashcam.", "hl": {"dashcam.": "y"}},
+  {"scene": "dash", "text": "The passenger seat was empty. The whole ride.", "hl": {"empty.": "r", "whole": "y"}, "sfx": [{"word": "empty.", "type": "heart"}]},
+  {"scene": "belt", "text": "But the seat belt was buckled.", "hl": {"buckled.": "r"}, "sfx": [{"word": "buckled.", "type": "sting"}]},
+  {"scene": "audio", "text": "Then the audio played a voice: thanks for stopping.", "hl": {"voice:": "y", "stopping.": "r"}},
+  {"scene": "audio", "text": "The file was dated October 1996.", "say": "The file was dated October nineteen ninety-six.", "hl": {"1996.": "r"}},
+  {"scene": "seat", "text": "I looked at the seat next to me.", "hl": {"next": "y"}},
+  {"scene": "seat", "text": "The belt was still buckled. And pulling tight.", "hl": {"still": "y", "tight.": "r"}, "sfx": [{"word": "tight.", "type": "creak"}]},
+  {"scene": "hook", "text": "So never pick up a hitchhiker your dashcam can't see.", "hl": {"never": "r", "can't": "r"}, "sfx": [{"word": "see.", "type": "sting"}]}
+ ],
+ "youtube": {
+  "title": "FearFiles #7: The Hitchhiker My Dashcam Couldn't See 🚗😨 #shorts",
+  "description": "Route 6, 2 AM. A man in a yellow raincoat. My dashcam shows an empty seat — with the belt buckled. 🚗 Who was riding with me? 👀\n#horrorstory #scary #creepy #dashcam #fearfiles #shorts",
+  "tags": ["horror story", "scary", "creepy", "dashcam horror", "hitchhiker", "scary story", "horror animation", "fearfiles"],
+  "first_comment": "New FearFiles case every day 🕯 Would YOU have stopped for him? 🚗👇"
+ },
+ "cover": {"seg": 6, "frac": 0.6, "top": "FEARFILES #7", "lines": ["EMPTY SEAT.", "BELT BUCKLED."], "sub": "DASHCAM"}
+}
