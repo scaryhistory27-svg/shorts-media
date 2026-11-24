@@ -1,3 +1,16 @@
+## 2026-11-24T18:50:06Z — auto checkpoint before context compaction
+
+```
+jobs file: series/jobs.json — 19 jobs
+  done/scheduled: 2026-11-23T14:00-fearfiles-doorbell-ep1  stage=published  title=FearFiles #5: My Doorbell Rang From Inside My Room 🔔😨 #shorts  url=-
+  done/scheduled: 2026-11-24T07:00-fearfiles-mirror-ep1  stage=scheduled  title=FearFiles #6: Never Uncover A Rented Mirror 🪞😨 #shorts  url=-
+  done/scheduled: 2026-11-24T19:30-fearfiles-dashcam-ep1  stage=scheduled  title=FearFiles #7: The Hitchhiker My Dashcam Couldn't See 🚗😨 #shorts  url=-
+  UNFINISHED: 2026-11-24T07:00-fearfiles-mirror-ep1  stage=scheduled  status=active  retries=0
+  UNFINISHED: 2026-11-24T19:30-fearfiles-dashcam-ep1  stage=scheduled  status=active  retries=0
+2026-11-24T07:00-fearfiles-mirror-ep1: last verified stage 'scheduled', next stage 'published'
+HEAD: 82dd5a2 FearFiles #7 scheduled Nov 24 19:30 LA
+```
+
 ## 2026-11-22T14:35:18Z — auto checkpoint before context compaction
 
 ```
