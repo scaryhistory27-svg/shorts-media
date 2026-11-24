@@ -54,3 +54,7 @@
 
 ## 2026-11-23 run
 - tt025 belville-house Nov 24 00:30 (439281067), tt026 vin 04:30 (439281158), tt027 hidden-items 08:00 (439281271), tt028 old-map 12:00 (439281361), tt029 meet-jason 16:00 (439281442), tt030 trilogy-hint 19:30 (439281546). Next empty: Nov 25 00:30.
+
+### Run 2026-11-24 (for Nov 25)
+tt031 Vice City back 00:30 (440740071) · tt032 Ambrosia 04:30 (440740187) · tt033 Grassrivers 08:00 (440740299) ·
+tt034 Mount Kalaga 12:00 (440740411) · tt035 Leonida Keys 16:00 (440740541) · tt036 Leonida = Florida 19:30 (440740654). Next empty: Nov 26 00:30.
