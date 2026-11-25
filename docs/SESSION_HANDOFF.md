@@ -1,3 +1,9 @@
+## 2026-11-25 ~11:15 LA — Wednesday autopilot run DONE
+- Published marked: Mirror 2TynAsUR3hA, Dashcam SqrtqI9yW9Y, SM15 KmIII8kUohg, SM16 gQQqQIeRHaM, sm-comp001 dawadyP693M (custom thumbs OK).
+- Scheduled: FearFiles #8 Waiting Room 16:00, #9 Extra Plate 19:00; SM #17 Earth rings 18:30, #18 black hole 21:00; TikTok tt037–tt042 Nov 26.
+- Windsor (lags): horror winners 2 AM door 1369/105 %, Knocked Again 1202, Stop 14 752; flops Cop 1987 (32). SM winners Sun off 1360, Mars 1331, GTA after 2 AM 1250; flops Moon 133, asteroid 140.
+- Next run: horror Nov 26 slots, SM Nov 26 slots (space), TikTok Nov 27; Thursday = rs001 already scheduled.
+
 ## 2026-11-25 ~21:40 LA — owner requests
 - Deleted daily compaction trigger (owner: "doesn't work, let it compact by itself").
 - Owner: channel signature added — FearFiles "The Watcher" (hidden eyes + end-card eyes + lullaby), SM "Hidden Tick" (edge peek + bells). QA the sig.t frame.

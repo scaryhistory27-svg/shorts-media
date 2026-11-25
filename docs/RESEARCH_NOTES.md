@@ -79,3 +79,11 @@ Trends: GTA 6 week (UFO/Bigfoot/Chiliad finds — GamingBible, Nerdism); smart-s
   >1,500 new viewers, 15 subs gained.
 - Decisions: SM topic priority = big cosmic/Earth what-ifs > news-space > GTA (GTA keeps views but low retention → max 1 GTA SM video per ~4). Horror priority = night + home + phone/call
   situations (door, voicemail, 3 AM call, closet) over road/highway/outdoor; keep first 2–3 s = intriguing question/warning.
+
+## 2026-11-25 — daily review (Windsor, lags 1–2 days) + trends
+- Horror top: Never Open The Door At 2 AM 1369 views (105 % viewed, 5 subs), It Knocked Again 1202 (4 subs), Stop 14 752 (4 subs). Flop: A Cop From 1987 32, smart-speaker parts ~110–270.
+  → keep simple "Never <everyday action>" warnings + door/visitor; seasonal Thanksgiving story (#9).
+- SM top: Sun switched off 1360, Mars no suit 1331 (71 %), GTA after 2 AM 1250, Earth stops spinning 1213 (74 %), 11 days no sleep 1171 (80 %). Flops: Moon vanished 133, asteroid 140, syrup 264.
+  → space what-ifs again (#17 Earth rings, #18 black hole).
+- Trends: Thanksgiving Nov 26 (holiday horror lists); GTA 6: patch 01.002.002 (Nov 23, Insider Gaming), fan PC port "Project Leonida" scrapped (GamesRadar),
+  reported day-one $3.79B / Spotify 29.85M streams (headlines, marked "reported"), 2022 leaker guilty plea (reports). Earth-ring hypothesis: Monash 2024 (Tomkins).

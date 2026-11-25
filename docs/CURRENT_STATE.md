@@ -1,12 +1,14 @@
 # CURRENT STATE (keep short — loaded at every session start)
-_Updated: 2026-11-24 ~11:00 LA (Tuesday autopilot run)_
+_Updated: 2026-11-25 ~11:15 LA (Wednesday autopilot run)_
 
-- **Owner** talks Russian (Yerevan, UTC+4). ONE persistent chat; daily task trig_019AGWEVNZ2pSkvrmwq8VS2V 10:41 LA fires here. Compaction trigger deleted 2026-11-25 (owner) — auto-compaction only.
-- **Cadence:** Shorts 2/day/channel, EVENING-ONLY 16:00–21:30 LA (owner 2026-11-23), rotating hour pairs (log.json hour_test). TikTok 6/day. Long videos: FearFiles Mon+Thu, SM Tue+Fri.
-- **Horror** (8091052, custom thumbs): FearFiles standalone, 45–50 s. #7 Dashcam Nov 24 19:30 (440736940). Scheduled: #5 Doorbell Nov 23 14:00 (439286326), #6 Mirror Nov 24 17:00 (439333538), comp001 Nov 23 18:00 (438516060), rs001 forum stories Nov 26 18:00 (438590916).
-  #7 Dashcam scheduled Nov 24 19:30 (440736940). Next: horror #8 Nov 25 16:00 (waiting room, never fall asleep), Thu Nov 26 long = rs001 (done) → next Mon Nov 30 comp002 (Trail Cam, Room 0, #5, #6, #7…).
-- **Strange Minute** (8179515, CUSTOM thumbs now — owner verified): published #13 Voyager (DJ6mS2ZgLKg, custom thumb OK). Scheduled #14 Mercury Nov 23 18:30, sm-comp001 Nov 24 20:30 (439333709), #15 energy drinks Nov 24 16:00 (439333597), #16 oceans fresh Nov 24 18:30 (439282545).
-  Next SM slots Nov 25 18:30 (Earth rings) + 21:00 (black hole) — evening only; Fri Nov 27 SM long comp #2 (sleep, syrup, energy, oceans, GTA…).
-- **TikTok** "ROAD TO GTA 6": tt031–tt036 scheduled Nov 25 (00:30…19:30). Next empty Nov 26 00:30.
-- vidIQ 3 credits until Dec 17 → no vidIQ calls (stats via Windsor; comment replies paused). Subs: FearFiles 19, SM 16 (Nov 22).
-- Owner to-dos: set covers on 11 old SM Shorts (files sent), end screens on long videos, pin first comments, update FearFiles channel description.
+- **Owner** talks Russian (Yerevan, UTC+4). ONE persistent chat; daily task trig_019AGWEVNZ2pSkvrmwq8VS2V 10:41 LA fires here. Compaction trigger deleted (owner) — auto-compaction only.
+- **New 2026-11-25 (owner):** 3-s mid-video "+ SUBSCRIBE / SO YOU DON'T MISS NEW VIDEOS"; channel signature (FearFiles Watcher eyes, SM hidden Tick + "did you spot it?" end prompt);
+  signature voice tag on end card ("Sleep tight. The Watcher won't." / "That's one Strange Minute."). All automatic in engine/timeline.
+- **Cadence:** Shorts 2/day/channel, EVENING-ONLY 16:00–21:30 LA, rotating hour pairs. TikTok 6/day. Long: FearFiles Mon+Thu, SM Tue+Fri.
+- **Horror** (8091052): published #6 Mirror 2TynAsUR3hA, #7 Dashcam SqrtqI9yW9Y. Scheduled #8 Waiting Room Nov 25 16:00 (442172321), #9 Extra Plate (Thanksgiving) Nov 25 19:00 (442179549),
+  rs001 forum stories Nov 26 18:00 (438590916). Next slots Nov 26 16:30/20:00 → new standalone stories; Mon Nov 30 comp002.
+- **Strange Minute** (8179515): published #15 KmIII8kUohg, #16 gQQqQIeRHaM, sm-comp001 dawadyP693M. Scheduled #17 Earth rings Nov 25 18:30 (442185601), #18 black hole Nov 25 21:00 (442193230).
+  Next slots Nov 26 16:00/18:30 (space wins: Sun off 1360, Mars 1331, Earth spin 1213); Fri Nov 27 SM long comp #2.
+- **TikTok**: tt037–tt042 scheduled Nov 26. Next empty Nov 27 00:30.
+- vidIQ 3 credits until Dec 17 → Windsor for stats; comment replies paused. Subs: FearFiles 19, SM 16 (Nov 22).
+- Owner to-dos: set covers on 11 old SM Shorts, end screens on long videos, pin first comments.

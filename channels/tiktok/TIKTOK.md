@@ -58,3 +58,7 @@
 ### Run 2026-11-24 (for Nov 25)
 tt031 Vice City back 00:30 (440740071) · tt032 Ambrosia 04:30 (440740187) · tt033 Grassrivers 08:00 (440740299) ·
 tt034 Mount Kalaga 12:00 (440740411) · tt035 Leonida Keys 16:00 (440740541) · tt036 Leonida = Florida 19:30 (440740654). Next empty: Nov 26 00:30.
+
+### Run 2026-11-25 (for Nov 26)
+tt037 patch 01.002.002 00:30 (442194916) · tt038 PC port shut down 04:30 (442195031) · tt039 $3.79B launch (reported) 08:00 (442195146) ·
+tt040 Spotify record (reported) 12:00 (442195236) · tt041 Thanksgiving in Leonida 16:00 (442195332) · tt042 2022 leaker guilty plea 19:30 (442195432). Next empty: Nov 27 00:30.
