@@ -983,8 +983,8 @@
    "series": "fearfiles-mirror",
    "episode": 1,
    "title": "FearFiles #6: Never Uncover A Rented Mirror 🪞😨 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -1017,14 +1017,20 @@
     {
      "stage": "scheduled",
      "at": "2026-11-23T19:08:38Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-25T18:42:27Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-23T18:53:25Z",
-   "updated": "2026-11-23T19:08:38Z",
+   "updated": "2026-11-25T18:42:27Z",
    "metricool_id": 439333538,
-   "publish_time": "2026-11-24T17:00"
+   "publish_time": "2026-11-24T17:00",
+   "youtube_id": "2TynAsUR3hA",
+   "youtube_url": "https://www.youtube.com/shorts/2TynAsUR3hA"
   },
   "2026-11-24T19:30-fearfiles-dashcam-ep1": {
    "id": "2026-11-24T19:30-fearfiles-dashcam-ep1",
@@ -1032,8 +1038,8 @@
    "series": "fearfiles-dashcam",
    "episode": 1,
    "title": "FearFiles #7: The Hitchhiker My Dashcam Couldn't See 🚗😨 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -1066,14 +1072,55 @@
     {
      "stage": "scheduled",
      "at": "2026-11-24T18:49:18Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-25T18:42:27Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-24T18:45:15Z",
-   "updated": "2026-11-24T18:49:18Z",
+   "updated": "2026-11-25T18:42:27Z",
    "metricool_id": 440736940,
-   "publish_time": "2026-11-24T19:30"
+   "publish_time": "2026-11-24T19:30",
+   "youtube_id": "SqrtqI9yW9Y",
+   "youtube_url": "https://www.youtube.com/shorts/SqrtqI9yW9Y"
+  },
+  "2026-11-25T16:00-fearfiles-waiting-room-ep1": {
+   "id": "2026-11-25T16:00-fearfiles-waiting-room-ep1",
+   "slot": "2026-11-25T16:00",
+   "series": "fearfiles-waiting-room",
+   "episode": 1,
+   "title": "FearFiles #8: Never Fall Asleep In This Waiting Room 🕒😨 #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-25T18:46:00Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-25T18:51:24Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-25T18:51:24Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-25T18:51:24Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-25T18:51:24Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-25T18:46:00Z",
+   "updated": "2026-11-25T18:51:24Z"
   }
  }
 }

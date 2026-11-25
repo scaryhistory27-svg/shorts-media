@@ -1,0 +1,175 @@
+{
+ "series": "FearFiles: Waiting Room",
+ "episode": 1,
+ "title": "FEARFILES #8: WAITING ROOM",
+ "stamp": "CLINIC · 6:40 PM",
+ "endTitle": "DON'T SLEEP.",
+ "endSub": "What's YOUR number?",
+ "music_level": 0.12,
+ "cta": {
+  "text": "A NEW NIGHTMARE EVERY DAY.",
+  "hl": "NIGHTMARE"
+ },
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "Never fall asleep in a waiting room.",
+   "hl": {
+    "Never": "r",
+    "asleep": "y"
+   },
+   "speed": 1.15,
+   "gap": 0.35
+  },
+  {
+   "scene": "ticket",
+   "text": "The sign said: take a number. Mine was 47.",
+   "say": "The sign said: take a number. Mine was forty-seven.",
+   "hl": {
+    "number.": "y",
+    "47.": "r"
+   }
+  },
+  {
+   "scene": "screen",
+   "text": "The screen said: now serving 12. It never moved.",
+   "say": "The screen said: now serving twelve. It never moved.",
+   "hl": {
+    "12.": "y",
+    "never": "r"
+   }
+  },
+  {
+   "scene": "room",
+   "text": "Nobody else had a number. Nobody else moved.",
+   "hl": {
+    "Nobody": "r",
+    "moved.": "y"
+   }
+  },
+  {
+   "scene": "sleep",
+   "text": "I closed my eyes. Just for a second.",
+   "hl": {
+    "closed": "y",
+    "second.": "r"
+   }
+  },
+  {
+   "scene": "clock",
+   "text": "When I woke up, the clock said 3 AM.",
+   "say": "When I woke up, the clock said three A.M.",
+   "hl": {
+    "3": "r",
+    "AM.": "r"
+   },
+   "stamp": "CLINIC · 3:00 AM",
+   "sfx": [
+    {
+     "word": "AM.",
+     "type": "heart"
+    }
+   ]
+  },
+  {
+   "scene": "full",
+   "text": "Every chair was full. And they were all staring at me.",
+   "hl": {
+    "full.": "y",
+    "staring": "r"
+   },
+   "stamp": "CLINIC · 3:00 AM",
+   "sfx": [
+    {
+     "word": "staring",
+     "type": "sting"
+    }
+   ]
+  },
+  {
+   "scene": "serving",
+   "text": "The screen flashed: 47.",
+   "say": "The screen flashed: forty-seven.",
+   "hl": {
+    "47.": "r"
+   },
+   "stamp": "CLINIC · 3:01 AM"
+  },
+  {
+   "scene": "door",
+   "text": "A nurse opened the door. She smiled. Your turn.",
+   "hl": {
+    "smiled.": "y",
+    "turn.": "r"
+   },
+   "stamp": "CLINIC · 3:01 AM",
+   "sfx": [
+    {
+     "word": "door.",
+     "type": "creak"
+    }
+   ]
+  },
+  {
+   "scene": "double",
+   "text": "Behind me, a man took number 48.",
+   "hl": {
+    "48.": "r"
+   },
+   "stamp": "CLINIC · 3:02 AM",
+   "say": "Behind me, a man took number forty-eight."
+  },
+  {
+   "scene": "double",
+   "text": "He had my face.",
+   "hl": {
+    "face.": "r"
+   },
+   "stamp": "CLINIC · 3:02 AM",
+   "sfx": [
+    {
+     "word": "face.",
+     "type": "sting"
+    }
+   ]
+  },
+  {
+   "scene": "hook",
+   "text": "So never fall asleep in a waiting room.",
+   "hl": {
+    "never": "r",
+    "asleep": "y"
+   },
+   "stamp": "CLINIC · 3:02 AM"
+  }
+ ],
+ "youtube": {
+  "title": "FearFiles #8: Never Fall Asleep In This Waiting Room 🕒😨 #shorts",
+  "description": "Ticket 47. The screen stuck on 12. I closed my eyes for one second — and woke up at 3 AM with every chair full. 🕒 Who took number 48? 👀\n#horrorstory #scary #creepy #liminalspace #fearfiles #shorts",
+  "tags": [
+   "horror story",
+   "scary",
+   "creepy",
+   "waiting room",
+   "liminal space",
+   "scary story",
+   "horror animation",
+   "fearfiles"
+  ],
+  "first_comment": "New FearFiles case every day 🕯 Did you spot the Watcher? 👁 And what was in the window at the start? 👇"
+ },
+ "cover": {
+  "seg": 6,
+  "frac": 0.7,
+  "top": "FEARFILES #8",
+  "lines": [
+   "EVERY CHAIR",
+   "WAS FULL."
+  ],
+  "sub": "WAITING ROOM"
+ },
+ "signature": {
+  "x": 255,
+  "y": 490
+ }
+}
