@@ -895,7 +895,7 @@
    "series": "strange-minute",
    "episode": 17,
    "title": "Strange Minute #17: What If Earth Had Rings Like Saturn? 🪐😳 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -917,12 +917,26 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-25T19:03:01Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-25T19:03:08Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-25T19:03:08Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-25T19:03:19Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-25T18:59:42Z",
-   "updated": "2026-11-25T19:03:01Z"
+   "updated": "2026-11-25T19:03:19Z",
+   "metricool_id": 442185601,
+   "publish_time": "2026-11-25T18:30"
   }
  }
 }

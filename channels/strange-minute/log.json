@@ -251,7 +251,8 @@
    "youtube_title": "Strange Minute #15: Only Energy Drinks For A Week? ⚡😳 #shorts",
    "metricool_id": 439333597,
    "thumbnail": "custom",
-   "topic": "Energy drinks only for a week (owner Studio idea)"
+   "topic": "Energy drinks only for a week (owner Studio idea)",
+   "youtube_id": "KmIII8kUohg"
   },
   {
    "n": 16,
@@ -259,7 +260,15 @@
    "youtube_title": "Strange Minute #16: What If The Oceans Turned Fresh? 🌊😳 #shorts",
    "metricool_id": 439282545,
    "thumbnail": "custom",
-   "topic": "Oceans turn fresh (owner Studio idea)"
+   "topic": "Oceans turn fresh (owner Studio idea)",
+   "youtube_id": "gQQqQIeRHaM"
+  },
+  {
+   "ep": 17,
+   "title": "Strange Minute #17: What If Earth Had Rings Like Saturn? 🪐😳 #shorts",
+   "topic": "earth rings",
+   "publish_time": "2026-11-25T18:30",
+   "metricool_id": 442185601
   }
  ],
  "thumbnail": {
@@ -336,7 +345,8 @@
     "ep013",
     "ep014"
    ],
-   "thumbnail": "custom"
+   "thumbnail": "custom",
+   "youtube_id": "dawadyP693M"
   }
  ],
  "hour_test": {
