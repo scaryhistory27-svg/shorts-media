@@ -125,6 +125,7 @@ function render(t){
   ctx.translate(W/2+cx,ay);ctx.scale(z,z);ctx.translate(-W/2,-ay);
   const hs=shakeAt(t,['hit','sting'],0.5,24);ctx.translate((Math.random()-.5)*hs,(Math.random()-.5)*hs);
   SCN[seg.scene](lt,p,t,d,seg);ctx.restore();
+  if(TL.sig)sigHidden(t-TL.sig.t,TL.sig);
   glitchFx(t);
   // dust
   for(const [x,y,r,sp,ph] of DUST){const yy=(y+t*sp)%H;ctx.globalAlpha=0.25+0.2*Math.sin(t+ph);ell((x+Math.sin(t*0.5+ph)*20)%W,yy,r,r,'#cfd8e6')}ctx.globalAlpha=1;
@@ -141,6 +142,7 @@ function render(t){
   else if(TL.cta)ctaCard(t-(seg.words[seg.words.length-1].s+0.9),TL.cta);
   if(endCard&&TL.next)nextPromise(t-(seg.words[seg.words.length-1].s+0.9),TL.next);
   if(!endCard&&TL.midCta)midCta(t-TL.midCta.t,TL.midCta.text||'NEW CASE DAILY');
+  if(endCard&&TL.sig)sigEnd(t-(seg.words[seg.words.length-1].s+0.9));
 }
 // Subscribe-conversion (owner 2026-11-25): 3-s visual subscribe fragment at the MIDDLE of every Short, centred under the header, never spoken
 function midCta(k,txt){const D=3.0;if(k<0||k>D)return;const a=Math.min(ease(clamp(k/0.3,0,1)),ease(clamp((D-k)/0.35,0,1)));const L=TL.style==='light';
@@ -339,3 +341,19 @@ function smAstro(x,y,s,t,o={}){const f=Math.sin(t*2)*10;ctx.save();ctx.translate
  ctx.beginPath();ctx.ellipse(6,-255,58,48,0,0,7);const g=ctx.createLinearGradient(-40,-300,60,-210);g.addColorStop(0,'#2b6fa8');g.addColorStop(1,'#0b2238');ctx.fillStyle=g;ctx.fill();ctx.stroke();
  ell(-14,-258,8,10,'#ffffff');ell(24,-258,8,10,'#ffffff');ctx.beginPath();ctx.arc(6,-236,10,0.2,Math.PI-0.2);ctx.strokeStyle='#ffffff';ctx.lineWidth=4;ctx.stroke();
  ctx.beginPath();ctx.ellipse(-22,-282,16,8,-0.6,0,7);ctx.fillStyle='rgba(255,255,255,0.45)';ctx.fill();ctx.restore()}
+
+// ---------- CHANNEL SIGNATURE (owner 2026-11-25: "our own trademark so people know these are my videos") ----------
+// FearFiles = THE WATCHER: two pale-amber eyes hidden once in every episode (0.8 s, dark area, position seeded per episode) and
+//   opening above the end card with the 3-note "FearFiles lullaby". First comment asks "Did you spot the Watcher? 👁".
+// Strange Minute = HIDDEN TICK: the stopwatch mascot peeks in from a screen edge once per video (0.9 s); 3 rising bells on the end card.
+function watcherEyes(x,y,sz,open,glow){ctx.save();ctx.shadowColor='rgba(255,170,60,0.9)';ctx.shadowBlur=glow;ctx.fillStyle='#ffd36a';
+  for(const dx of[-sz*1.15,sz*1.15]){ctx.beginPath();ctx.ellipse(x+dx,y,sz,Math.max(0.6,sz*0.42*open),dx<0?0.12:-0.12,0,Math.PI*2);ctx.fill()}
+  ctx.shadowBlur=0;ctx.fillStyle='#1a0703';for(const dx of[-sz*1.15,sz*1.15]){ctx.beginPath();ctx.ellipse(x+dx,y,sz*0.16,Math.max(0.3,sz*0.36*open),0,0,Math.PI*2);ctx.fill()}ctx.restore()}
+function sigHidden(k,g){const D=g.d||0.8;if(k<0||k>D)return;const a=Math.min(clamp(k/0.15,0,1),clamp((D-k)/0.15,0,1));
+  ctx.save();ctx.globalAlpha=a*(g.alpha||0.85);
+  if(TL.style==='light'){const side=g.x<540?-1:1,ex=side<0?0:W,inn=ease(Math.min(clamp(k/0.25,0,1),clamp((D-k)/0.25,0,1)));ctx.translate(ex-side*lerp(-90,85,inn),g.y);ctx.rotate(side*-0.45);smTick(0,0,1.25,k,{hop:0.3,wow:1})}
+  else{const bl=Math.abs(k-D*0.55)<0.07?0.1:1;watcherEyes(g.x,g.y,13,bl,18)}
+  ctx.restore()}
+function sigEnd(k){if(TL.style==='light')return;const a=ease(clamp((k-0.2)/0.5,0,1));if(a<=0)return;
+  const op=clamp((k-0.25)/0.35,0,1)*(Math.abs(k-1.9)<0.08?0.1:1);ctx.save();ctx.globalAlpha=a;watcherEyes(540,330,24,op,34);
+  ctx.font='700 22px "JetBrains Mono"';ctx.textAlign='center';ctx.fillStyle='rgba(255,211,106,0.75)';ctx.letterSpacing='8px';ctx.fillText('THE WATCHER SAW YOU',540,392);ctx.restore()}

@@ -1,5 +1,6 @@
 ## 2026-11-25 ~21:40 LA — owner requests
 - Deleted daily compaction trigger (owner: "doesn't work, let it compact by itself").
+- Owner: channel signature added — FearFiles "The Watcher" (hidden eyes + end-card eyes + lullaby), SM "Hidden Tick" (edge peek + bells). QA the sig.t frame.
 - Owner: every Short gets a 3-s visual "+ SUBSCRIBE / SO YOU DON'T MISS NEW VIDEOS" fragment at the middle (engine midCta, timeline default total/2-1.5). Applies from the next render; already-scheduled videos unchanged.
 
 ## 2026-11-24T18:50:06Z — auto checkpoint before context compaction

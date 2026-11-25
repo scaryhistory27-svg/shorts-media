@@ -91,6 +91,12 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
   Visual only — never spoken (keeps the loop). Slogan ALL CAPS, ≤ 40 chars, rotate it, fit to the part. Horror P1/P2: "DON'T LOSE PART 3. IT WON'T WAIT." /
   "SUBSCRIBE… OR MISS WHAT HAPPENS NEXT."; P3: "A NEW NIGHTMARE EVERY DAY." / "SOME STORIES FIND YOU. SUBSCRIBE FIRST.".
   QA: the button and slogan are fully visible and not overlapping the end-card text in the last frames.
+- **CHANNEL SIGNATURE (owner 2026-11-25: "our own trademark so people know these are MY videos") — automatic in every Short (engine sigHidden/sigEnd + timeline motif):**
+  FearFiles = **THE WATCHER**: two pale-amber eyes hidden ONCE per episode for 0.8 s (second half, dark area, blink) + on the end card the Watcher's eyes open
+  above the title with "THE WATCHER SAW YOU" and the 3-note "FearFiles lullaby" (music box D–F–C#). Strange Minute = **HIDDEN TICK**: the stopwatch mascot peeks in
+  from a screen edge once per video (0.9 s) + 3 rising bells (C–E–G) on the end card. Position is seeded per episode; QA: check that frame (timeline.json `sig.t`) —
+  the eyes/Tick must sit on a dark/empty area, not on a prop/face/caption; otherwise set episode.json `"signature": {"t":…, "x":…, "y":…}` (false disables, never do that).
+  First comment may rotate in "Did you spot the Watcher? 👁" / "Did you spot Tick? ⏱" (every 2nd–3rd video). Never spell it out in captions.
 - **SUBSCRIBE CONVERSION (owner 2026-11-22: "find online how to make people subscribe, and do exactly that"; web research 2026-11-22):**
   1. Numbered collection in every title: "FearFiles #N: <case>" / "Strange Minute #N: <what-if>" (series identity = higher sub rate).
   2. Mid-video VISUAL subscribe fragment (owner 2026-11-25): at the MIDDLE of every Short, 3 s, centred under the header: "+ SUBSCRIBE / SO YOU DON'T MISS NEW VIDEOS" (both channels; never over captions/faces; not spoken).

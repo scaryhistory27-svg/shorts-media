@@ -63,3 +63,9 @@
 
 ## 2026-11-22 — Subscribe conversion (owner: "find a solution and do everything yourself")
 Web research: numbered series identity, mid-video subscribe prompt ~20 s, concrete next-video promise, pinned comment with a reason. Implemented: engine midCta pill + NEXT promise (timeline.py fields next/midCta), title numbering + first-comment rule in CLAUDE.md. Applies from the next rendered videos.
+
+## 2026-11-25 — Channel signature + mid-video subscribe fragment (owner)
+- Owner: "add our own trademark so people recognise my videos" → FearFiles "The Watcher" (hidden eyes once per video + eyes & lullaby on the end card);
+  Strange Minute "Hidden Tick" (mascot peeks from the edge once per video + 3 rising bells on the end card). Doubles as a spot-it rewatch hook.
+- Owner: 3-s "+ SUBSCRIBE / SO YOU DON'T MISS NEW VIDEOS" fragment at the middle of every Short (visual only).
+- Daily compaction trigger deleted (owner).

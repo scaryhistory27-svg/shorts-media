@@ -27,8 +27,19 @@ for i,(l,d) in enumerate(zip(lines,durs)):
 for i,s in enumerate(segs): s["e"]=segs[i+1]["s"] if i+1<len(segs) else round(t+1.8+(0.9 if ep.get("cta") else 0),3)
 total=segs[-1]["e"]
 if ep.get("cta"): ev.append({"t":round(segs[-1]["words"][-1]["s"]+0.9+1.25,3),"type":"pop"})  # soft click when the Subscribe button is tapped
+# channel signature (owner 2026-11-25): hidden Watcher (horror) / hidden Tick (Strange Minute) once per video + 3-note motif on the end card
+SIG=None
+if ep.get("signature",True) is not False:
+    import zlib as _z; _r=np.random.default_rng(_z.crc32((ep.get("series","")+str(ep.get("episode",0))+ep.get("title","")).encode())%100000)
+    _mid=ep.get("mid_cta_at",round(total/2-1.5,2)); _last=segs[-1]["words"][-1]["s"]
+    for _ in range(50):
+        _t=float(_r.uniform(total*0.58,_last-2.0))
+        if not (_mid-1.0<_t<_mid+3.5): break
+    SIG={"t":round(_t,2),"x":int(_r.choice([int(_r.uniform(130,330)),int(_r.uniform(750,950))])),"y":int(_r.uniform(520,1050))}
+    if isinstance(ep.get("signature"),dict): SIG.update(ep["signature"])
+    ev.append({"t":round(_last+0.9+0.3,3),"type":"sig_light" if ep.get("style","dark")=="light" else "sig_dark"})
 ev.sort(key=lambda e:e["t"])
-json.dump({"segs":segs,"events":ev,"total":total,"fps":FPS,"title":ep.get("title",""),"stamp":ep.get("stamp",""),"endTitle":ep.get("endTitle",""),"endSub":ep.get("endSub",""),"style":ep.get("style","dark"),"cta":ep.get("cta"),"next":ep.get("next_promise"),"midCta":({"t":ep.get("mid_cta_at",round(total/2-1.5,2)),"text":ep.get("mid_cta_text","SO YOU DON'T MISS NEW VIDEOS")} if ep.get("mid_cta",True) and total>20 else None)},open(f"{B}/timeline.json","w"),indent=1)
+json.dump({"segs":segs,"events":ev,"total":total,"fps":FPS,"title":ep.get("title",""),"stamp":ep.get("stamp",""),"endTitle":ep.get("endTitle",""),"endSub":ep.get("endSub",""),"style":ep.get("style","dark"),"cta":ep.get("cta"),"next":ep.get("next_promise"),"sig":SIG,"midCta":({"t":ep.get("mid_cta_at",round(total/2-1.5,2)),"text":ep.get("mid_cta_text","SO YOU DON'T MISS NEW VIDEOS")} if ep.get("mid_cta",True) and total>20 else None)},open(f"{B}/timeline.json","w"),indent=1)
 print("total",total)
 N=int(total*SR)+SR; mix=np.zeros(N); rng=np.random.default_rng(7); ts=np.arange(N)/SR
 dr=0.5*np.sin(2*np.pi*55*ts)+0.35*np.sin(2*np.pi*82.4*ts+1)+0.18*np.sin(2*np.pi*110.5*ts)+0.1*np.sin(2*np.pi*164.8*ts)
@@ -102,7 +113,13 @@ def pop():
 def rise():
     n=int(0.9*SR); tt=np.arange(n)/SR; F=np.fft.rfft(rng.standard_normal(n)); fr=np.fft.rfftfreq(n,1/SR); F*=1/(1+(fr/2500)**2); w=np.fft.irfft(F,n); w/=np.abs(w).max()
     return 0.4*w*(tt/0.9)**2+0.2*np.sin(2*np.pi*(300+600*tt/0.9)*tt)*(tt/0.9)**2
-FX={"thud":(thud,0.5),"ding":(ding,0.5),"chime":(chime,0.7),"pop":(pop,0.5),"rise":(rise,0.5),"knock":(lambda:knock(),0.9),"knockglass":(lambda:knock(True),0.7),
+def motif(notes,step=0.34,dark=True):   # channel signature: 3 music-box (horror) / bell (Strange Minute) notes with a soft tail
+    n=int((step*len(notes)+2.2)*SR); out=np.zeros(n); f=lambda m:440*2**((m-69)/12)
+    for k,m in enumerate(notes):
+        i=int(k*step*SR); x=np.arange(n-i)/SR
+        out[i:]+=np.exp(-x*(2.2 if dark else 3.0))*(np.sin(2*np.pi*f(m)*x)+0.3*np.sin(2*np.pi*f(m)*(2.01 if dark else 2.0)*x)*np.exp(-x*4)+0.12*np.sin(2*np.pi*f(m)*3.02*x)*np.exp(-x*6))
+    return out*0.45
+FX={"sig_dark":(lambda:motif([74,77,73],0.38,True),0.6),"sig_light":(lambda:motif([72,76,79],0.18,False),0.5),"thud":(thud,0.5),"ding":(ding,0.5),"chime":(chime,0.7),"pop":(pop,0.5),"rise":(rise,0.5),"knock":(lambda:knock(),0.9),"knockglass":(lambda:knock(True),0.7),
     "buzz":(buzz,0.6),"sting":(lambda:sting(2.6),0.75),"hit":(lambda:boom(2.0),0.7),"heart":(heart,0.55),"whoosh":(whoosh,0.45),"creak":(creak,0.6)}
 sfx=np.zeros(N)
 for e in ev:
