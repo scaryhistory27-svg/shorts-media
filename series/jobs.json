@@ -1093,7 +1093,7 @@
    "series": "fearfiles-waiting-room",
    "episode": 1,
    "title": "FearFiles #8: Never Fall Asleep In This Waiting Room 🕒😨 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -1115,12 +1115,26 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-25T18:51:24Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-25T18:51:32Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-25T18:51:32Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-25T18:51:45Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-25T18:46:00Z",
-   "updated": "2026-11-25T18:51:24Z"
+   "updated": "2026-11-25T18:51:45Z",
+   "metricool_id": 442172321,
+   "publish_time": "2026-11-25T16:00"
   }
  }
 }

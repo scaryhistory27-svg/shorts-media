@@ -1,7 +1,7 @@
 {
  "publish_time": "2026-11-19T15:30",
  "timezone": "America/Los_Angeles",
- "last_publish": "2026-11-24T19:30",
+ "last_publish": "2026-11-25T16:00",
  "series": [
   {
    "slug": "the-2am-knock",
@@ -268,7 +268,22 @@
      "publish": "2026-11-24T19:30:00",
      "youtube_title": "FearFiles #7: The Hitchhiker My Dashcam Couldn't See 🚗😨 #shorts",
      "metricool_id": 440736940,
-     "thumbnail": "custom"
+     "thumbnail": "custom",
+     "youtube_id": "SqrtqI9yW9Y"
+    }
+   ]
+  },
+  {
+   "slug": "fearfiles-waiting-room",
+   "title": "FearFiles: Waiting Room",
+   "standalone": true,
+   "episodes": [
+    {
+     "ep": 1,
+     "title": "FearFiles #8: Never Fall Asleep In This Waiting Room 🕒😨 #shorts",
+     "publish_time": "2026-11-25T16:00",
+     "metricool_id": 442172321,
+     "hook": "Never fall asleep in a waiting room."
     }
    ]
   }
