@@ -349,11 +349,13 @@ function smAstro(x,y,s,t,o={}){const f=Math.sin(t*2)*10;ctx.save();ctx.translate
 function watcherEyes(x,y,sz,open,glow){ctx.save();ctx.shadowColor='rgba(255,170,60,0.9)';ctx.shadowBlur=glow;ctx.fillStyle='#ffd36a';
   for(const dx of[-sz*1.15,sz*1.15]){ctx.beginPath();ctx.ellipse(x+dx,y,sz,Math.max(0.6,sz*0.42*open),dx<0?0.12:-0.12,0,Math.PI*2);ctx.fill()}
   ctx.shadowBlur=0;ctx.fillStyle='#1a0703';for(const dx of[-sz*1.15,sz*1.15]){ctx.beginPath();ctx.ellipse(x+dx,y,sz*0.16,Math.max(0.3,sz*0.36*open),0,0,Math.PI*2);ctx.fill()}ctx.restore()}
-function sigHidden(k,g){const D=g.d||0.8;if(k<0||k>D)return;const a=Math.min(clamp(k/0.15,0,1),clamp((D-k)/0.15,0,1));
+function sigHidden(k,g){const D=g.d||(TL.style==='light'?1.3:1.2);if(k<0||k>D)return;const a=Math.min(clamp(k/0.15,0,1),clamp((D-k)/0.15,0,1));
   ctx.save();ctx.globalAlpha=a*(g.alpha||0.85);
   if(TL.style==='light'){const side=g.x<540?-1:1,ex=side<0?0:W,inn=ease(Math.min(clamp(k/0.25,0,1),clamp((D-k)/0.25,0,1)));ctx.translate(ex-side*lerp(-90,85,inn),g.y);ctx.rotate(side*-0.45);smTick(0,0,1.25,k,{hop:0.3,wow:1})}
-  else{const bl=Math.abs(k-D*0.55)<0.07?0.1:1;watcherEyes(g.x,g.y,13,bl,18)}
+  else{const bl=Math.abs(k-D*0.55)<0.07?0.1:1;watcherEyes(g.x,g.y,19,bl,26)}
   ctx.restore()}
-function sigEnd(k){if(TL.style==='light')return;const a=ease(clamp((k-0.2)/0.5,0,1));if(a<=0)return;
-  const op=clamp((k-0.25)/0.35,0,1)*(Math.abs(k-1.9)<0.08?0.1:1);ctx.save();ctx.globalAlpha=a;watcherEyes(540,330,24,op,34);
-  ctx.font='700 22px "JetBrains Mono"';ctx.textAlign='center';ctx.fillStyle='rgba(255,211,106,0.75)';ctx.letterSpacing='8px';ctx.fillText('THE WATCHER SAW YOU',540,392);ctx.restore()}
+function sigEnd(k){const a=ease(clamp((k-0.2)/0.5,0,1));if(a<=0)return;const L=TL.style==='light';ctx.save();ctx.globalAlpha=a;ctx.textAlign='center';
+  if(!L){const op=clamp((k-0.25)/0.35,0,1)*(Math.abs(k-1.9)<0.08?0.1:1);watcherEyes(540,318,24,op,34)}
+  else{smTick(540,330,0.9,k,{hop:0.6,wow:1})}
+  ctx.letterSpacing='5px';ctx.font='800 26px "JetBrains Mono"';ctx.fillStyle=L?'rgba(255,255,255,0.9)':'rgba(255,211,106,0.85)';ctx.fillText(L?'TICK WAS HIDING IN THIS VIDEO':'THE WATCHER WAS IN THIS VIDEO',540,L?420:384);
+  ctx.font='900 38px Inter';ctx.letterSpacing='2px';ctx.fillStyle=L?'#ffd57a':'#ffd36a';ctx.fillText(L?'DID YOU SPOT HIM?':'DID YOU SEE IT?',540,L?468:430);ctx.restore()}
