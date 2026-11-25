@@ -1,7 +1,7 @@
 # CURRENT STATE (keep short — loaded at every session start)
 _Updated: 2026-11-24 ~11:00 LA (Tuesday autopilot run)_
 
-- **Owner** talks Russian (Yerevan, UTC+4). ONE persistent chat; daily task trig_019AGWEVNZ2pSkvrmwq8VS2V 10:41 LA fires here. Compaction trigger trig_011CTYdK5uRV7VscyxSRiVjT arrives as plain text (useless) — offer deletion.
+- **Owner** talks Russian (Yerevan, UTC+4). ONE persistent chat; daily task trig_019AGWEVNZ2pSkvrmwq8VS2V 10:41 LA fires here. Compaction trigger deleted 2026-11-25 (owner) — auto-compaction only.
 - **Cadence:** Shorts 2/day/channel, EVENING-ONLY 16:00–21:30 LA (owner 2026-11-23), rotating hour pairs (log.json hour_test). TikTok 6/day. Long videos: FearFiles Mon+Thu, SM Tue+Fri.
 - **Horror** (8091052, custom thumbs): FearFiles standalone, 45–50 s. #7 Dashcam Nov 24 19:30 (440736940). Scheduled: #5 Doorbell Nov 23 14:00 (439286326), #6 Mirror Nov 24 17:00 (439333538), comp001 Nov 23 18:00 (438516060), rs001 forum stories Nov 26 18:00 (438590916).
   #7 Dashcam scheduled Nov 24 19:30 (440736940). Next: horror #8 Nov 25 16:00 (waiting room, never fall asleep), Thu Nov 26 long = rs001 (done) → next Mon Nov 30 comp002 (Trail Cam, Room 0, #5, #6, #7…).

@@ -142,14 +142,15 @@ function render(t){
   if(endCard&&TL.next)nextPromise(t-(seg.words[seg.words.length-1].s+0.9),TL.next);
   if(!endCard&&TL.midCta)midCta(t-TL.midCta.t,TL.midCta.text||'NEW CASE DAILY');
 }
-// Subscribe-conversion (owner 2026-11-22): small visual subscribe pill mid-video (~20 s, 2.2 s, top-right, never spoken)
-function midCta(k,txt){if(k<0||k>2.2)return;const a=Math.min(ease(clamp(k/0.25,0,1)),ease(clamp((2.2-k)/0.3,0,1)));const L=TL.style==='light';
-  ctx.save();ctx.globalAlpha=a;ctx.font='900 34px Inter';const sub='SUBSCRIBE',w1=ctx.measureText('+  '+sub).width;ctx.font='700 24px Inter';const w2=ctx.measureText(txt).width;const bw=Math.max(w1,w2)+56,bh=104,x=W-24-bw+lerp(80,0,a),y=L?390:232;
-  const pulse=1+0.04*Math.sin(k*9);ctx.translate(x+bw/2,y+bh/2);ctx.scale(pulse,pulse);ctx.translate(-bw/2,-bh/2);
-  ctx.shadowColor=L?'rgba(255,200,80,0.7)':'rgba(255,30,30,0.7)';ctx.shadowBlur=24;rr(0,0,bw,bh,22);ctx.fillStyle=L?'#ffb23d':'#b3121a';ctx.fill();ctx.shadowBlur=0;ctx.lineWidth=3;ctx.strokeStyle=L?'#10243a':'#ff6a6a';ctx.stroke();
-  ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillStyle=L?'#10243a':'#fff';ctx.font='900 34px Inter';ctx.fillText('+  '+sub,bw/2,36);ctx.font='700 24px Inter';ctx.globalAlpha=a*0.9;ctx.fillText(txt,bw/2,76);
-  // tap cursor at 1.1 s
-  if(k>0.7){const m=ease(clamp((k-0.7)/0.4,0,1));ctx.globalAlpha=a;ell(bw*0.75+lerp(60,0,m),bh*0.6+lerp(80,0,m),k>1.1&&k<1.4?20:14,k>1.1&&k<1.4?20:14,'rgba(255,255,255,0.85)')}
+// Subscribe-conversion (owner 2026-11-25): 3-s visual subscribe fragment at the MIDDLE of every Short, centred under the header, never spoken
+function midCta(k,txt){const D=3.0;if(k<0||k>D)return;const a=Math.min(ease(clamp(k/0.3,0,1)),ease(clamp((D-k)/0.35,0,1)));const L=TL.style==='light';
+  ctx.save();ctx.globalAlpha=a;ctx.font='900 46px Inter';const sub='+  SUBSCRIBE',w1=ctx.measureText(sub).width;ctx.font='800 30px Inter';const w2=ctx.measureText(txt).width;
+  const bw=Math.max(w1,w2)+72,bh=132,x=540-bw/2,y=(L?390:232)+lerp(-60,0,a);
+  const pulse=1+0.035*Math.sin(k*8);ctx.translate(x+bw/2,y+bh/2);ctx.scale(pulse,pulse);ctx.translate(-bw/2,-bh/2);
+  ctx.shadowColor=L?'rgba(255,200,80,0.75)':'rgba(255,30,30,0.75)';ctx.shadowBlur=30;rr(0,0,bw,bh,26);ctx.fillStyle=L?'#ffb23d':'#b3121a';ctx.fill();ctx.shadowBlur=0;ctx.lineWidth=4;ctx.strokeStyle=L?'#10243a':'#ff6a6a';ctx.stroke();
+  ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillStyle=L?'#10243a':'#fff';ctx.font='900 46px Inter';ctx.fillText(sub,bw/2,46);ctx.font='800 30px Inter';ctx.globalAlpha=a*0.92;ctx.fillText(txt,bw/2,98);
+  // tap: cursor comes in at 1.0 s, presses at 1.5 s, button flashes "SUBSCRIBED ✓" from 1.6 s
+  if(k>1.0){const m=ease(clamp((k-1.0)/0.45,0,1));const pr=k>1.45&&k<1.75;ctx.globalAlpha=a;ell(bw-34+lerp(80,0,m),bh*0.36+lerp(100,0,m),pr?24:16,pr?24:16,'rgba(255,255,255,0.88)')}
   ctx.restore()}
 // Concrete promise of the NEXT video on the end card ("TOMORROW: ..."), below the subscribe button
 function nextPromise(k,txt){const a=ease(clamp((k-0.9)/0.4,0,1));if(a<=0)return;const L=TL.style==='light';ctx.save();ctx.globalAlpha=a;let fs=40;ctx.font=`900 ${fs}px Inter`;const lab='NEXT: ';while(ctx.measureText(lab+txt).width>900&&fs>26){fs-=2;ctx.font=`900 ${fs}px Inter`}

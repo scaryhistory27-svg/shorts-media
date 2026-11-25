@@ -93,10 +93,10 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
   QA: the button and slogan are fully visible and not overlapping the end-card text in the last frames.
 - **SUBSCRIBE CONVERSION (owner 2026-11-22: "find online how to make people subscribe, and do exactly that"; web research 2026-11-22):**
   1. Numbered collection in every title: "FearFiles #N: <case>" / "Strange Minute #N: <what-if>" (series identity = higher sub rate).
-  2. Mid-video VISUAL subscribe pop at ~20 s (small pill "+ SUBSCRIBE · new case daily", 2 s, top-right, never over captions/faces; not spoken).
+  2. Mid-video VISUAL subscribe fragment (owner 2026-11-25): at the MIDDLE of every Short, 3 s, centred under the header: "+ SUBSCRIBE / SO YOU DON'T MISS NEW VIDEOS" (both channels; never over captions/faces; not spoken).
   3. End card adds a concrete promise of the NEXT video ("TOMORROW: <next topic>") above the subscribe CTA (topic must really be scheduled next).
   4. First comment = a reason to subscribe + question ("New case every day 🕯 Which one scared you most? 👇"); owner pins it.
-  Engine (2026-11-22): mid pill is automatic (episode.json `mid_cta` false to disable, `mid_cta_at` seconds, `mid_cta_text`);
+  Engine (2026-11-25): mid fragment is automatic at total/2−1.5 s (episode.json `mid_cta` false to disable, `mid_cta_at` seconds, `mid_cta_text`);
   promise = episode.json `"next_promise": "<NEXT TOPIC, ≤ 30 chars>"` drawn as "NEXT: …" under the button — set it only when the next video's topic is already decided (ready queue / planned), else omit.
   5. Strange Minute: lean on the winning SPACE niche; horror: keep one look/voice/naming. Measure subs/1k views per video in analytics.
 - **Continuity (owner 2026-11-16, final): all 3 parts happen on the SAME day/night, back to back** — Part 2 starts the very moment
