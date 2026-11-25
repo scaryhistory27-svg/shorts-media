@@ -69,3 +69,4 @@ Web research: numbered series identity, mid-video subscribe prompt ~20 s, concre
   Strange Minute "Hidden Tick" (mascot peeks from the edge once per video + 3 rising bells on the end card). Doubles as a spot-it rewatch hook.
 - Owner: 3-s "+ SUBSCRIBE / SO YOU DON'T MISS NEW VIDEOS" fragment at the middle of every Short (visual only).
 - Daily compaction trigger deleted (owner).
+- Owner: signature voice tag on the end card — FearFiles "Sleep tight. The Watcher won't.", SM "That's one Strange Minute." (assets/sig).

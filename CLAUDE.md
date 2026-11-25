@@ -96,6 +96,9 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
   above the title with "THE WATCHER WAS IN THIS VIDEO / DID YOU SEE IT?" (rewatch prompt) and the 3-note "FearFiles lullaby" (music box D–F–C#). Strange Minute = **HIDDEN TICK**: the stopwatch mascot peeks in
   from a screen edge once per video (1.3 s) + end card "TICK WAS HIDING IN THIS VIDEO / DID YOU SPOT HIM?" + 3 rising bells (C–E–G) on the end card. Position is seeded per episode; QA: check that frame (timeline.json `sig.t`) —
   the eyes/Tick must sit on a dark/empty area, not on a prop/face/caption; otherwise set episode.json `"signature": {"t":…, "x":…, "y":…}` (false disables, never do that).
+  **Signature VOICE tag (owner 2026-11-25)** on the end card, 0.5 s after it starts (timeline.py, auto): FearFiles "Sleep tight. The Watcher won't." /
+  Strange Minute "That's one Strange Minute." (pre-rendered assets/sig/<channel>/build/l00.wav in the channel voice; re-generate with tts.py only if the voice changes).
+  The end motif plays right after it. Every video ends with the same phrase — never change the wording.
   First comment may rotate in "Did you spot the Watcher? 👁" / "Did you spot Tick? ⏱" (every 2nd–3rd video). Never spell it out in captions.
 - **SUBSCRIBE CONVERSION (owner 2026-11-22: "find online how to make people subscribe, and do exactly that"; web research 2026-11-22):**
   1. Numbered collection in every title: "FearFiles #N: <case>" / "Strange Minute #N: <what-if>" (series identity = higher sub rate).

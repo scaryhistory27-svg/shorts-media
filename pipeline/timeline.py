@@ -1,7 +1,7 @@
 """Usage: python3 pipeline/timeline.py <episode_dir>  -> build/timeline.json + build/audio.wav
 Line fields: scene, text, hl{word:'y'|'r'}, say (pronunciation), gap (pause after, default .3),
 sfx: [{word|at:'start', type, offset}] types: knock knockglass buzz sting hit heart whoosh creak"""
-import json,re,sys,numpy as np,soundfile as sf
+import json,os,re,sys,numpy as np,soundfile as sf
 E=sys.argv[1]; B=f"{E}/build"
 ep=json.load(open(f"{E}/episode.json")); lines=ep["lines"]; durs=json.load(open(f"{B}/durs.json"))
 SR=24000; FPS=30
@@ -24,7 +24,12 @@ for i,(l,d) in enumerate(zip(lines,durs)):
             tt=m[fx.get("n",0)]["s"]
         ev.append({"t":round(tt+fx.get("offset",0),3),"type":fx["type"]})
     t+=d+l.get("gap",ep.get("gap",0.5))
-for i,s in enumerate(segs): s["e"]=segs[i+1]["s"] if i+1<len(segs) else round(t+1.8+(0.9 if ep.get("cta") else 0),3)
+# signature voice tag on the end card (owner 2026-11-25): FearFiles "Sleep tight. The Watcher won't." / SM "That's one Strange Minute."
+SIGV=None
+if ep.get("signature",True) is not False and ep.get("sig_voice",True) is not False:
+    _sv=f"assets/sig/{'strange-minute' if ep.get('style','dark')=='light' else 'fearfiles'}/build/l00.wav"
+    if os.path.exists(_sv): SIGV=(_sv,sf.info(_sv).duration)
+for i,s in enumerate(segs): s["e"]=segs[i+1]["s"] if i+1<len(segs) else round(t+1.8+(0.9 if ep.get("cta") else 0)+(SIGV[1]+1.2 if SIGV else 0),3)
 total=segs[-1]["e"]
 if ep.get("cta"): ev.append({"t":round(segs[-1]["words"][-1]["s"]+0.9+1.25,3),"type":"pop"})  # soft click when the Subscribe button is tapped
 # channel signature (owner 2026-11-25): hidden Watcher (horror) / hidden Tick (Strange Minute) once per video + 3-note motif on the end card
@@ -37,7 +42,7 @@ if ep.get("signature",True) is not False:
         if not (_mid-1.0<_t<_mid+3.5): break
     SIG={"t":round(_t,2),"x":int(_r.choice([int(_r.uniform(130,330)),int(_r.uniform(750,950))])),"y":int(_r.uniform(520,1050))}
     if isinstance(ep.get("signature"),dict): SIG.update(ep["signature"])
-    ev.append({"t":round(_last+0.9+0.3,3),"type":"sig_light" if ep.get("style","dark")=="light" else "sig_dark"})
+    ev.append({"t":round(_last+0.9+(0.5+SIGV[1]+0.05 if SIGV else 0.3),3),"type":"sig_light" if ep.get("style","dark")=="light" else "sig_dark"})
 ev.sort(key=lambda e:e["t"])
 json.dump({"segs":segs,"events":ev,"total":total,"fps":FPS,"title":ep.get("title",""),"stamp":ep.get("stamp",""),"endTitle":ep.get("endTitle",""),"endSub":ep.get("endSub",""),"style":ep.get("style","dark"),"cta":ep.get("cta"),"next":ep.get("next_promise"),"sig":SIG,"midCta":({"t":ep.get("mid_cta_at",round(total/2-1.5,2)),"text":ep.get("mid_cta_text","SO YOU DON'T MISS NEW VIDEOS")} if ep.get("mid_cta",True) and total>20 else None)},open(f"{B}/timeline.json","w"),indent=1)
 print("total",total)
@@ -215,6 +220,8 @@ def music_pulse(N,seed):
 vtrack=np.zeros(N)
 for i,s in enumerate(segs):
     v,_=sf.read(f"{B}/l{i:02d}.wav"); j0=int(s["s"]*SR); vtrack[j0:j0+len(v)]+=v[:N-j0]
+if SIGV:
+    _v,_=sf.read(SIGV[0]); _j=int((segs[-1]["words"][-1]["s"]+0.9+0.5)*SR); vtrack[_j:_j+len(_v)]+=_v[:max(0,N-_j)]
 venv=np.convolve(np.abs(vtrack),np.ones(int(0.25*SR))/(0.25*SR),mode="same"); venv/=venv.max()+1e-9
 duck=1-0.55*np.clip(venv*3,0,1)
 mus=music_bed(N,__import__("zlib").crc32((ep.get("series","")+str(ep.get("episode",0))).encode())%10000)
@@ -224,6 +231,8 @@ sfx_duck=1-0.6*np.clip(venv*3,0,1)
 mix+=ep.get("sfx_level",0.22)*sfx/(np.abs(sfx).max()+1e-9)*sfx_duck
 for i,s in enumerate(segs):
     v,_=sf.read(f"{B}/l{i:02d}.wav"); add(v*0.95,s["s"])
+if SIGV:
+    _v,_=sf.read(SIGV[0]); add(_v*0.95,segs[-1]["words"][-1]["s"]+0.9+0.5)
 mix=mix[:int(total*SR)]; mix/=np.abs(mix).max(); mix=np.tanh(mix*1.4)/np.tanh(1.4); mix/=np.abs(mix).max()/0.95
 sf.write(f"{B}/audio.wav",mix.astype(np.float32),SR)
 
