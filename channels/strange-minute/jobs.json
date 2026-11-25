@@ -937,6 +937,41 @@
    "updated": "2026-11-25T19:03:19Z",
    "metricool_id": 442185601,
    "publish_time": "2026-11-25T18:30"
+  },
+  "2026-11-25T21:00-strange-minute-ep18": {
+   "id": "2026-11-25T21:00-strange-minute-ep18",
+   "slot": "2026-11-25T21:00",
+   "series": "strange-minute",
+   "episode": 18,
+   "title": "Strange Minute #18: What If You Fell Into A Black Hole? 🕳️😳 #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-25T19:04:09Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-25T19:09:53Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-25T19:09:53Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-25T19:09:53Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-25T19:09:53Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-25T19:04:09Z",
+   "updated": "2026-11-25T19:09:53Z"
   }
  }
 }

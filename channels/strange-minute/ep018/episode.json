@@ -1,0 +1,165 @@
+{
+ "series": "Strange Minute",
+ "style": "light",
+ "bed": "light",
+ "voice": "am_fenrir",
+ "lang": "en-us",
+ "voice_fx": "explainer",
+ "speed": 1.0,
+ "gap": 0.25,
+ "music_level": 0.12,
+ "cta": {
+  "text": "ONE STRANGE MINUTE. EVERY DAY.",
+  "hl": "STRANGE MINUTE"
+ },
+ "episode": 18,
+ "title": "STRANGE MINUTE #18 · WHAT IF",
+ "stamp": "BLACK HOLE · ONE WAY",
+ "endTitle": "WHAT IF #19?",
+ "endSub": "Would you jump in?",
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "What if you fell into a black hole?",
+   "hl": {
+    "fell": "y",
+    "black": "y",
+    "hole?": "y"
+   },
+   "gap": 0.35,
+   "sfx": [
+    {
+     "at": "end",
+     "type": "ding"
+    }
+   ]
+  },
+  {
+   "scene": "galaxy",
+   "text": "Let's pick the giant at the center of our galaxy.",
+   "hl": {
+    "giant": "y",
+    "galaxy.": "y"
+   }
+  },
+  {
+   "scene": "mass",
+   "text": "It weighs as much as four million Suns.",
+   "hl": {
+    "four": "y",
+    "million": "y"
+   }
+  },
+  {
+   "scene": "lens",
+   "text": "Up close, its gravity bends light like a lens.",
+   "hl": {
+    "bends": "y",
+    "light": "y"
+   }
+  },
+  {
+   "scene": "friends",
+   "text": "To friends watching from a ship, you'd slow down.",
+   "hl": {
+    "slow": "r",
+    "down.": "r"
+   }
+  },
+  {
+   "scene": "never",
+   "text": "Then freeze at the edge. They'd never see you fall in.",
+   "hl": {
+    "freeze": "y",
+    "never": "r"
+   }
+  },
+  {
+   "scene": "cross",
+   "text": "But you wouldn't feel a thing as you drift past the event horizon.",
+   "hl": {
+    "wouldn't": "y",
+    "event": "y",
+    "horizon.": "y"
+   },
+   "sfx": [
+    {
+     "word": "drift",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "nolight",
+   "text": "From there, not even light can get back out.",
+   "hl": {
+    "light": "y",
+    "out.": "r"
+   }
+  },
+  {
+   "scene": "tidal",
+   "text": "Deeper in, gravity pulls your feet harder than your head.",
+   "hl": {
+    "feet": "y",
+    "head.": "y"
+   }
+  },
+  {
+   "scene": "noodle",
+   "text": "You'd stretch like a noodle. It's called spaghettification.",
+   "hl": {
+    "noodle.": "y",
+    "spaghettification.": "y"
+   },
+   "say": "You'd stretch like a noodle. It's called spaghettiffication."
+  },
+  {
+   "scene": "unknown",
+   "text": "And what's at the very center? Nobody knows.",
+   "hl": {
+    "center?": "y",
+    "Nobody": "r"
+   }
+  },
+  {
+   "scene": "ask",
+   "text": "So, would you jump in to find out?",
+   "hl": {
+    "jump": "y",
+    "find": "y"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Strange Minute #18: What If You Fell Into A Black Hole? 🕳️😳 #shorts",
+  "description": "Four million Suns of gravity. Your friends watch you freeze at the edge — while you drift right in. 🕳️ Would you jump? 👇\n#whatif #space #blackhole #science #astronomy #shorts",
+  "tags": [
+   "what if",
+   "black hole",
+   "falling into a black hole",
+   "spaghettification",
+   "event horizon",
+   "space facts",
+   "science",
+   "astronomy"
+  ],
+  "first_comment": "A new what-if every day 🕳️ Would you jump in to find out what's inside? 👇"
+ },
+ "cover": {
+  "seg": 0,
+  "frac": 0.8,
+  "top": "STRANGE MINUTE #18",
+  "lines": [
+   "YOU FELL IN.",
+   "NOW WHAT?"
+  ],
+  "sub": "BLACK HOLE"
+ },
+ "sources": [
+  "NASA Science — What happens when something gets too close to a black hole (spaghettification; for supermassive black holes the stretching happens inside the event horizon; outside observers see the infalling object slow and freeze)",
+  "NASA Imagine the Universe — event horizon: nothing, not even light, escapes; what happens inside is unknown",
+  "Sagittarius A*: ~4 million solar masses (NASA / EHT 2022)"
+ ],
+ "mid_cta_at": 21.1
+}
