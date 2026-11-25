@@ -944,7 +944,7 @@
    "series": "strange-minute",
    "episode": 18,
    "title": "Strange Minute #18: What If You Fell Into A Black Hole? 🕳️😳 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -966,12 +966,26 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-25T19:09:53Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-25T19:10:00Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-25T19:10:00Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-25T19:10:15Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-25T19:04:09Z",
-   "updated": "2026-11-25T19:09:53Z"
+   "updated": "2026-11-25T19:10:15Z",
+   "metricool_id": 442193230,
+   "publish_time": "2026-11-25T21:00"
   }
  }
 }
