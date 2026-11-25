@@ -1135,6 +1135,41 @@
    "updated": "2026-11-25T18:51:45Z",
    "metricool_id": 442172321,
    "publish_time": "2026-11-25T16:00"
+  },
+  "2026-11-25T19:00-fearfiles-extra-plate-ep1": {
+   "id": "2026-11-25T19:00-fearfiles-extra-plate-ep1",
+   "slot": "2026-11-25T19:00",
+   "series": "fearfiles-extra-plate",
+   "episode": 1,
+   "title": "FearFiles #9: Never Forget The Extra Plate On Thanksgiving 🦃😨 #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-25T18:53:09Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-25T18:58:08Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-25T18:58:08Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-25T18:58:08Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-25T18:58:09Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-25T18:53:09Z",
+   "updated": "2026-11-25T18:58:09Z"
   }
  }
 }

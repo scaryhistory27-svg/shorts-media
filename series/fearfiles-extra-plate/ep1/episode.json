@@ -1,0 +1,26 @@
+{
+ "series": "FearFiles: Extra Plate", "episode": 1, "title": "FEARFILES #9: EXTRA PLATE", "stamp": "THANKSGIVING · 8:52 PM", "endTitle": "SET THE PLATE.", "endSub": "Who sits in YOUR extra chair?", "music_level": 0.12,
+ "cta": {"text": "SUBSCRIBE… OR MISS WHAT HAPPENS NEXT.", "hl": "SUBSCRIBE…"},
+ "lines": [
+  {"scene": "hook", "text": "Never forget the extra plate on Thanksgiving.", "hl": {"Never": "r", "extra": "y", "Thanksgiving.": "y"}, "speed": 1.15, "gap": 0.35},
+  {"scene": "grandma", "text": "Grandma always set one. For the guest, she said.", "hl": {"one.": "y", "guest,": "r"}},
+  {"scene": "skip", "text": "This year she was gone. So I skipped it.", "hl": {"gone.": "y", "skipped": "r"}},
+  {"scene": "knock", "text": "At 9 PM, someone knocked.", "say": "At nine P.M., someone knocked.", "hl": {"knocked.": "r"}, "stamp": "THANKSGIVING · 9:00 PM", "sfx": [{"word": "knocked.", "type": "knock"}]},
+  {"scene": "guest", "text": "An old man in a brown coat. I'm here for my plate.", "hl": {"brown": "y", "plate.": "r"}, "stamp": "THANKSGIVING · 9:00 PM", "sfx": [{"word": "coat.", "type": "creak"}]},
+  {"scene": "guest", "text": "I said: sorry, there's no plate this year.", "hl": {"no": "r"}, "stamp": "THANKSGIVING · 9:01 PM"},
+  {"scene": "smile", "text": "He smiled. Then I'll take a seat.", "hl": {"smiled.": "y", "seat.": "r"}, "stamp": "THANKSGIVING · 9:01 PM", "sfx": [{"word": "seat.", "type": "sting"}]},
+  {"scene": "dark", "text": "Every candle went out.", "hl": {"out.": "r"}, "stamp": "THANKSGIVING · 9:01 PM", "sfx": [{"word": "out.", "type": "whoosh"}]},
+  {"scene": "still", "text": "When the lights came back, he was gone.", "hl": {"gone.": "y"}, "stamp": "THANKSGIVING · 9:02 PM"},
+  {"scene": "still", "text": "My family sat perfectly still. Smiling.", "hl": {"still.": "y", "Smiling.": "r"}, "stamp": "THANKSGIVING · 9:02 PM", "sfx": [{"word": "Smiling.", "type": "heart"}]},
+  {"scene": "photo", "text": "Then I looked at Grandma's photo from 1952.", "say": "Then I looked at Grandma's photo from nineteen fifty-two.", "hl": {"1952.": "y"}, "stamp": "THANKSGIVING · 9:02 PM"},
+  {"scene": "photo", "text": "The man in the brown coat was in it. In my chair.", "hl": {"brown": "y", "my": "r", "chair.": "r"}, "stamp": "THANKSGIVING · 9:03 PM", "sfx": [{"word": "chair.", "type": "sting"}]},
+  {"scene": "hook", "text": "So never forget the extra plate on Thanksgiving.", "hl": {"never": "r", "extra": "y"}, "stamp": "THANKSGIVING · 9:03 PM"}
+ ],
+ "youtube": {
+  "title": "FearFiles #9: Never Forget The Extra Plate On Thanksgiving 🦃😨 #shorts",
+  "description": "Grandma always set one extra plate on Thanksgiving. This year I skipped it. At 9 PM, an old man knocked: I'm here for my plate. 🦃 Who was he? 👀\n#horrorstory #scary #creepy #thanksgiving #fearfiles #shorts",
+  "tags": ["horror story", "scary", "creepy", "thanksgiving horror", "thanksgiving scary story", "scary story", "horror animation", "fearfiles"],
+  "first_comment": "New FearFiles case every day 🕯 Does YOUR family set an extra plate? 🦃 Did you spot the photo at the start? 👀👇"
+ },
+ "cover": {"seg": 6, "frac": 0.6, "top": "FEARFILES #9", "lines": ["HE CAME FOR", "HIS PLATE."], "sub": "THANKSGIVING"}
+}
