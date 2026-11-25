@@ -781,8 +781,8 @@
    "series": "strange-minute",
    "episode": 15,
    "title": "Strange Minute #15: Only Energy Drinks For A Week? ⚡😳 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -819,14 +819,20 @@
     {
      "stage": "scheduled",
      "at": "2026-11-23T19:40:36Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-25T18:42:40Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-23T18:46:00Z",
-   "updated": "2026-11-23T19:40:36Z",
+   "updated": "2026-11-25T18:42:40Z",
    "metricool_id": 439333597,
-   "publish_time": "2026-11-24T16:00"
+   "publish_time": "2026-11-24T16:00",
+   "youtube_id": "KmIII8kUohg",
+   "youtube_url": "https://www.youtube.com/shorts/KmIII8kUohg"
   },
   "2026-11-24T18:30-strange-minute-ep16": {
    "id": "2026-11-24T18:30-strange-minute-ep16",
@@ -834,8 +840,8 @@
    "series": "strange-minute",
    "episode": 16,
    "title": "Strange Minute #16: What If The Oceans Turned Fresh? 🌊😳 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -868,14 +874,55 @@
     {
      "stage": "scheduled",
      "at": "2026-11-23T19:04:58Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-25T18:42:40Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-23T18:51:20Z",
-   "updated": "2026-11-23T19:04:58Z",
+   "updated": "2026-11-25T18:42:40Z",
    "metricool_id": 439282545,
-   "publish_time": "2026-11-24T18:30"
+   "publish_time": "2026-11-24T18:30",
+   "youtube_id": "gQQqQIeRHaM",
+   "youtube_url": "https://www.youtube.com/shorts/gQQqQIeRHaM"
+  },
+  "2026-11-25T18:30-strange-minute-ep17": {
+   "id": "2026-11-25T18:30-strange-minute-ep17",
+   "slot": "2026-11-25T18:30",
+   "series": "strange-minute",
+   "episode": 17,
+   "title": "Strange Minute #17: What If Earth Had Rings Like Saturn? 🪐😳 #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-25T18:59:42Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-25T19:03:01Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-25T19:03:01Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-25T19:03:01Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-25T19:03:01Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-25T18:59:42Z",
+   "updated": "2026-11-25T19:03:01Z"
   }
  }
 }

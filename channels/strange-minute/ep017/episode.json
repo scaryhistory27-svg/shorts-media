@@ -1,0 +1,160 @@
+{
+ "series": "Strange Minute",
+ "style": "light",
+ "bed": "light",
+ "voice": "am_fenrir",
+ "lang": "en-us",
+ "voice_fx": "explainer",
+ "speed": 1.0,
+ "gap": 0.25,
+ "music_level": 0.12,
+ "cta": {
+  "text": "ONE STRANGE MINUTE. EVERY DAY.",
+  "hl": "STRANGE MINUTE"
+ },
+ "episode": 17,
+ "title": "STRANGE MINUTE #17 · WHAT IF",
+ "stamp": "EARTH · RINGS",
+ "endTitle": "WHAT IF #18?",
+ "endSub": "Ring sky or warm winters?",
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "What if Earth had rings like Saturn?",
+   "hl": {
+    "Earth": "y",
+    "rings": "y",
+    "Saturn?": "y"
+   },
+   "gap": 0.35,
+   "sfx": [
+    {
+     "at": "end",
+     "type": "ding"
+    }
+   ]
+  },
+  {
+   "scene": "past",
+   "text": "Some scientists think it really did, 466 million years ago.",
+   "hl": {
+    "really": "y",
+    "466": "y"
+   },
+   "say": "Some scientists think it really did, four hundred sixty-six million years ago."
+  },
+  {
+   "scene": "thin",
+   "text": "Saturn's rings stretch 175,000 miles, but they're only about 30 feet thick.",
+   "hl": {
+    "175,000": "y",
+    "30": "r"
+   },
+   "say": "Saturn's rings stretch a hundred seventy-five thousand miles, but they're only about thirty feet thick."
+  },
+  {
+   "scene": "equator",
+   "text": "Ours would circle the equator.",
+   "hl": {
+    "equator.": "y"
+   }
+  },
+  {
+   "scene": "line",
+   "text": "Stand on the equator, and you'd see a thin line cut the sky in half.",
+   "hl": {
+    "thin": "y",
+    "half.": "r"
+   }
+  },
+  {
+   "scene": "arch",
+   "text": "Farther north, it becomes a giant arch across the sky.",
+   "hl": {
+    "giant": "y",
+    "arch": "y"
+   },
+   "sfx": [
+    {
+     "word": "arch",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "night",
+   "text": "At night, sunlit rings would make the dark glow.",
+   "hl": {
+    "glow.": "y"
+   }
+  },
+  {
+   "scene": "shadow",
+   "text": "But in winter, their shadow falls on half the planet.",
+   "hl": {
+    "shadow": "r",
+    "half": "y"
+   }
+  },
+  {
+   "scene": "cold",
+   "text": "Less sunlight. Colder winters.",
+   "hl": {
+    "Colder": "r"
+   }
+  },
+  {
+   "scene": "rockets",
+   "text": "Every rocket launch would have to dodge ring debris.",
+   "hl": {
+    "dodge": "r",
+    "debris.": "y"
+   }
+  },
+  {
+   "scene": "meteors",
+   "text": "And chunks would keep falling as meteors.",
+   "hl": {
+    "meteors.": "y"
+   }
+  },
+  {
+   "scene": "ask",
+   "text": "So, would you trade warm winters for a ring in the sky?",
+   "hl": {
+    "winters": "y",
+    "ring": "y"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Strange Minute #17: What If Earth Had Rings Like Saturn? 🪐😳 #shorts",
+  "description": "A giant arch across the sky, glowing nights — and colder winters. Some scientists think Earth really had a ring 466 million years ago. 🪐 Would you want one? 👇\n#whatif #space #saturn #earth #science #shorts",
+  "tags": [
+   "what if",
+   "earth rings",
+   "saturn rings",
+   "what if earth had rings",
+   "space facts",
+   "science",
+   "astronomy",
+   "strange facts"
+  ],
+  "first_comment": "A new what-if every day 🪐 Ring sky or warm winters — what do you pick? 👇 Did you spot Tick? ⏱"
+ },
+ "cover": {
+  "seg": 0,
+  "frac": 0.9,
+  "top": "STRANGE MINUTE #17",
+  "lines": [
+   "EARTH HAD",
+   "RINGS?"
+  ],
+  "sub": "WHAT IF"
+ },
+ "sources": [
+  "Monash University 2024 (Tomkins et al., Earth and Planetary Science Letters): Earth may have had a ring ~466 million years ago (21 Ordovician craters within 30° of the equator); hypothesis, debated",
+  "NASA/JPL: Saturn's ring system extends up to 175,000 miles (282,000 km); about 30 feet (10 m) thick in most places",
+  "Ring plane over the equator; seasonal ring shadow on the winter hemisphere (standard geometry; Monash authors speculate shading/cooling)"
+ ]
+}
