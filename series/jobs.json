@@ -1142,7 +1142,7 @@
    "series": "fearfiles-extra-plate",
    "episode": 1,
    "title": "FearFiles #9: Never Forget The Extra Plate On Thanksgiving 🦃😨 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -1164,12 +1164,26 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-25T18:58:09Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-25T18:58:16Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-25T18:58:16Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-25T18:58:28Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-25T18:53:09Z",
-   "updated": "2026-11-25T18:58:09Z"
+   "updated": "2026-11-25T18:58:28Z",
+   "metricool_id": 442179549,
+   "publish_time": "2026-11-25T19:00"
   }
  }
 }

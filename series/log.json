@@ -1,7 +1,7 @@
 {
  "publish_time": "2026-11-19T15:30",
  "timezone": "America/Los_Angeles",
- "last_publish": "2026-11-25T16:00",
+ "last_publish": "2026-11-25T19:00",
  "series": [
   {
    "slug": "the-2am-knock",
@@ -284,6 +284,20 @@
      "publish_time": "2026-11-25T16:00",
      "metricool_id": 442172321,
      "hook": "Never fall asleep in a waiting room."
+    }
+   ]
+  },
+  {
+   "slug": "fearfiles-extra-plate",
+   "title": "FearFiles: Extra Plate",
+   "standalone": true,
+   "episodes": [
+    {
+     "ep": 1,
+     "title": "FearFiles #9: Never Forget The Extra Plate On Thanksgiving 🦃😨 #shorts",
+     "publish_time": "2026-11-25T19:00",
+     "metricool_id": 442179549,
+     "hook": "Never forget the extra plate on Thanksgiving."
     }
    ]
   }
