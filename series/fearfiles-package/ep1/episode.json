@@ -1,0 +1,24 @@
+{
+ "series": "FearFiles: The Package", "episode": 1, "title": "FEARFILES #11: THE PACKAGE", "stamp": "THANKSGIVING · 11:52 PM", "endTitle": "DON'T OPEN IT.", "endSub": "Who's on YOUR couch?", "music_level": 0.12,
+ "cta": {"text": "SOME STORIES FIND YOU. SUBSCRIBE FIRST.", "hl": "SUBSCRIBE"},
+ "lines": [
+  {"scene": "hook", "text": "Never open a package you didn't order.", "hl": {"Never": "r", "package": "y", "didn't": "r"}, "speed": 1.2, "gap": 0.35},
+  {"scene": "porch", "text": "Thanksgiving night, a box was on my porch.", "hl": {"box": "y"}},
+  {"scene": "label", "text": "My name. My address. No sender.", "hl": {"No": "r", "sender.": "r"}},
+  {"scene": "unbox", "text": "Inside was a phone. Already recording.", "hl": {"phone.": "y", "recording.": "r"}, "sfx": [{"word": "phone.", "type": "buzz"}]},
+  {"scene": "screen", "text": "The video showed my living room. Tonight.", "hl": {"living": "y", "Tonight.": "r"}},
+  {"scene": "screen", "text": "On the screen, I was asleep on the couch.", "hl": {"asleep": "y", "couch.": "y"}},
+  {"scene": "figure", "text": "Then someone walked in and sat down next to me.", "hl": {"someone": "r", "next": "r"}, "sfx": [{"word": "me.", "type": "sting"}]},
+  {"scene": "stamp", "text": "The timestamp said 11:58 PM.", "say": "The timestamp said eleven fifty-eight P.M.", "hl": {"11:58": "y", "PM.": "y"}},
+  {"scene": "clock", "text": "My clock said 11:57.", "say": "My clock said eleven fifty-seven.", "hl": {"11:57.": "r"}, "stamp": "THANKSGIVING · 11:57 PM", "sfx": [{"word": "11:57.", "type": "heart"}]},
+  {"scene": "couch", "text": "Then the couch behind me creaked.", "hl": {"behind": "r", "creaked.": "r"}, "stamp": "THANKSGIVING · 11:58 PM", "sfx": [{"word": "creaked.", "type": "creak"}]},
+  {"scene": "hook", "text": "So never open a package you didn't order.", "hl": {"never": "r", "didn't": "r"}, "stamp": "THANKSGIVING · 11:58 PM", "sfx": [{"word": "order.", "type": "sting"}]}
+ ],
+ "youtube": {
+  "title": "Never Open A Package You Didn't Order 📦😨 #shorts",
+  "description": "My name. My address. No sender. Inside: a phone already recording my living room — one minute in the future. 📦 Who sat on the couch? 👀\n#horrorstory #scary #creepy #package #fearfiles #shorts",
+  "tags": ["horror story", "scary", "creepy", "mystery package", "porch package", "scary story", "horror animation", "fearfiles"],
+  "first_comment": "New FearFiles case every day 🕯 Would YOU have opened it? 📦 Read the label at the start 👀👇"
+ },
+ "cover": {"seg": 6, "frac": 0.75, "top": "FEARFILES #11", "lines": ["DON'T OPEN", "THIS BOX."], "sub": "NO SENDER"}
+}

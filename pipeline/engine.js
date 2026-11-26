@@ -77,11 +77,11 @@ function door(cx,cy,sh){const w=420,h=840,x=cx-w/2+sh,y=cy-h/2;
   rr(x+w-82,y+h/2-90,44,60,8);ctx.fillStyle='#b8963f';ctx.fill();ell(x+w-60,y+h/2-60,8,8,'#5c4a1e');
   ell(cx+sh,y+200,13,13,'#0a0a0a');ell(cx+sh,y+200,7,7,'#2a3550');
   return{x,y,w,h}}
-function clock(text,x,y,size,col,t){ctx.save();ctx.font=`800 ${size}px "JetBrains Mono"`;ctx.textAlign='center';ctx.textBaseline='middle';
+function clock(text,x,y,size,col,t,ap='AM'){ctx.save();ctx.font=`800 ${size}px "JetBrains Mono"`;ctx.textAlign='center';ctx.textBaseline='middle';
   rr(x-size*1.55,y-size*0.75,size*3.1,size*1.5,40);ctx.fillStyle='#07090d';ctx.fill();ctx.strokeStyle='#1f2633';ctx.lineWidth=6;ctx.stroke();
   ctx.shadowColor=col;ctx.shadowBlur=60;ctx.fillStyle=col;
   const blink=Math.floor(t*2)%2===0;const tx=blink?text:text.replace(':',' ');ctx.fillText(tx,x,y+6);ctx.shadowBlur=0;
-  ctx.font=`800 ${size*0.22}px "JetBrains Mono"`;ctx.fillText('AM',x+size*1.25,y+size*0.42);ctx.restore()}
+  ctx.font=`800 ${size*0.22}px "JetBrains Mono"`;ctx.fillText(ap,x+size*1.25,y+size*0.42);ctx.restore()}
 function phone(x,y,s,rot,draw){ctx.save();ctx.translate(x,y);ctx.rotate(rot);ctx.scale(s,s);
   rr(-190,-380,380,760,56);ctx.fillStyle='#0e0f12';ctx.fill();ctx.strokeStyle='#2c313a';ctx.lineWidth=6;ctx.stroke();
   ctx.save();rr(-172,-362,344,724,42);ctx.clip();draw();ctx.restore();

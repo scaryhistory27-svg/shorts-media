@@ -1245,6 +1245,41 @@
    "updated": "2026-11-26T18:53:57Z",
    "metricool_id": 443520109,
    "publish_time": "2026-11-26T16:30"
+  },
+  "2026-11-26T20:00-fearfiles-package-ep1": {
+   "id": "2026-11-26T20:00-fearfiles-package-ep1",
+   "slot": "2026-11-26T20:00",
+   "series": "fearfiles-package",
+   "episode": 1,
+   "title": "Never Open A Package You Didn't Order 📦😨 #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-26T18:54:45Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-26T18:58:46Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-26T18:58:46Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-26T18:58:46Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-26T18:58:46Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-26T18:54:45Z",
+   "updated": "2026-11-26T18:58:46Z"
   }
  }
 }
