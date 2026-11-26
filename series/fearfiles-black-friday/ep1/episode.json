@@ -1,0 +1,184 @@
+{
+ "series": "FearFiles: Black Friday",
+ "episode": 1,
+ "title": "FEARFILES #10: BLACK FRIDAY",
+ "stamp": "MALL · 2:58 AM",
+ "endTitle": "DON'T GO IN.",
+ "endSub": "What would YOU buy for $0?",
+ "music_level": 0.12,
+ "cta": {
+  "text": "A NEW NIGHTMARE EVERY DAY.",
+  "hl": "NIGHTMARE"
+ },
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "Never go Black Friday shopping at 3 AM.",
+   "say": "Never go Black Friday shopping at three A.M.",
+   "hl": {
+    "Never": "r",
+    "Black": "y",
+    "Friday": "y"
+   },
+   "speed": 1.3,
+   "gap": 0.35
+  },
+  {
+   "scene": "ad",
+   "text": "The ad said: everything free for the first customer.",
+   "hl": {
+    "free": "y",
+    "first": "r"
+   }
+  },
+  {
+   "scene": "line",
+   "text": "I was first. Nobody else showed up.",
+   "hl": {
+    "first.": "y",
+    "Nobody": "r"
+   }
+  },
+  {
+   "scene": "open",
+   "text": "At 3:00, the doors slid open. By themselves.",
+   "say": "At three o'clock, the doors slid open. By themselves.",
+   "hl": {
+    "themselves.": "r"
+   },
+   "stamp": "MALL · 3:00 AM",
+   "sfx": [
+    {
+     "word": "open.",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "shelves",
+   "text": "Every shelf was full. Every price said zero.",
+   "hl": {
+    "full.": "y",
+    "zero.": "r"
+   },
+   "stamp": "MALL · 3:01 AM"
+  },
+  {
+   "scene": "pa",
+   "text": "A voice said: shoppers, please stay still.",
+   "hl": {
+    "still.": "r"
+   },
+   "stamp": "MALL · 3:02 AM",
+   "sfx": [
+    {
+     "word": "still.",
+     "type": "heart"
+    }
+   ]
+  },
+  {
+   "scene": "mannequins",
+   "text": "Every mannequin turned its head. At me.",
+   "hl": {
+    "mannequin": "y",
+    "me.": "r"
+   },
+   "stamp": "MALL · 3:02 AM",
+   "sfx": [
+    {
+     "word": "me.",
+     "type": "sting"
+    }
+   ]
+  },
+  {
+   "scene": "locked",
+   "text": "I ran back to the doors. Locked.",
+   "hl": {
+    "Locked.": "r"
+   },
+   "stamp": "MALL · 3:03 AM",
+   "sfx": [
+    {
+     "word": "Locked.",
+     "type": "knockglass"
+    }
+   ]
+  },
+  {
+   "scene": "window",
+   "text": "Then I saw the window display.",
+   "hl": {
+    "window": "y"
+   },
+   "stamp": "MALL · 3:04 AM"
+  },
+  {
+   "scene": "window",
+   "text": "The new mannequin had my face. And my hoodie.",
+   "hl": {
+    "my": "r",
+    "face.": "r",
+    "hoodie.": "y"
+   },
+   "stamp": "MALL · 3:04 AM"
+  },
+  {
+   "scene": "tag",
+   "text": "Its tag said: last one. Final sale.",
+   "hl": {
+    "last": "y",
+    "Final": "r",
+    "sale.": "r"
+   },
+   "stamp": "MALL · 3:05 AM",
+   "sfx": [
+    {
+     "word": "sale.",
+     "type": "sting"
+    }
+   ]
+  },
+  {
+   "scene": "hook",
+   "text": "So never go Black Friday shopping at 3 AM.",
+   "say": "So never go Black Friday shopping at three A.M.",
+   "hl": {
+    "never": "r",
+    "Black": "y"
+   },
+   "stamp": "MALL · 3:05 AM"
+  }
+ ],
+ "youtube": {
+  "title": "Never Go Black Friday Shopping At 3 AM 🛒😨 #shorts",
+  "description": "Doors open at 3 AM. Everything free for the first customer. I was first — and nobody else came. 🛒 Who was in the window? 👀\n#horrorstory #scary #creepy #blackfriday #fearfiles #shorts",
+  "tags": [
+   "horror story",
+   "scary",
+   "creepy",
+   "black friday",
+   "black friday horror",
+   "mannequin",
+   "scary story",
+   "fearfiles"
+  ],
+  "first_comment": "New FearFiles case every day 🕯 What would YOU grab for $0? 🛒 Check the window at the very start 👀👇"
+ },
+ "cover": {
+  "seg": 6,
+  "frac": 0.7,
+  "top": "FEARFILES #10",
+  "lines": [
+   "THEY ALL",
+   "TURNED."
+  ],
+  "sub": "BLACK FRIDAY"
+ },
+ "signature": {
+  "t": 40.3,
+  "x": 850,
+  "y": 520
+ }
+}

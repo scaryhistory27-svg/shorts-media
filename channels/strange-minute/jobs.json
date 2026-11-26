@@ -895,8 +895,8 @@
    "series": "strange-minute",
    "episode": 17,
    "title": "Strange Minute #17: What If Earth Had Rings Like Saturn? 🪐😳 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -929,14 +929,20 @@
     {
      "stage": "scheduled",
      "at": "2026-11-25T19:03:19Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-26T18:42:06Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-25T18:59:42Z",
-   "updated": "2026-11-25T19:03:19Z",
+   "updated": "2026-11-26T18:42:06Z",
    "metricool_id": 442185601,
-   "publish_time": "2026-11-25T18:30"
+   "publish_time": "2026-11-25T18:30",
+   "youtube_id": "Kit4LBDS9YY",
+   "youtube_url": "https://www.youtube.com/shorts/Kit4LBDS9YY"
   },
   "2026-11-25T21:00-strange-minute-ep18": {
    "id": "2026-11-25T21:00-strange-minute-ep18",
@@ -944,8 +950,8 @@
    "series": "strange-minute",
    "episode": 18,
    "title": "Strange Minute #18: What If You Fell Into A Black Hole? 🕳️😳 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -978,14 +984,20 @@
     {
      "stage": "scheduled",
      "at": "2026-11-25T19:10:15Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-26T18:42:06Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-25T19:04:09Z",
-   "updated": "2026-11-25T19:10:15Z",
+   "updated": "2026-11-26T18:42:06Z",
    "metricool_id": 442193230,
-   "publish_time": "2026-11-25T21:00"
+   "publish_time": "2026-11-25T21:00",
+   "youtube_id": "eZHWO8XzXAc",
+   "youtube_url": "https://www.youtube.com/shorts/eZHWO8XzXAc"
   }
  }
 }
