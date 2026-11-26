@@ -1047,6 +1047,41 @@
    "updated": "2026-11-26T19:03:14Z",
    "metricool_id": 443529525,
    "publish_time": "2026-11-26T16:00"
+  },
+  "2026-11-26T18:30-strange-minute-ep20": {
+   "id": "2026-11-26T18:30-strange-minute-ep20",
+   "slot": "2026-11-26T18:30",
+   "series": "strange-minute",
+   "episode": 20,
+   "title": "What If You Ate A 3,000-Calorie Thanksgiving Dinner? 🦃😳 #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-26T19:04:04Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-26T19:06:55Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-26T19:06:55Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-26T19:06:55Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-26T19:06:55Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-26T19:04:04Z",
+   "updated": "2026-11-26T19:06:55Z"
   }
  }
 }

@@ -1,0 +1,156 @@
+{
+ "series": "Strange Minute",
+ "style": "light",
+ "bed": "light",
+ "voice": "am_fenrir",
+ "lang": "en-us",
+ "voice_fx": "explainer",
+ "speed": 1.0,
+ "gap": 0.25,
+ "music_level": 0.12,
+ "cta": {
+  "text": "ONE STRANGE MINUTE. EVERY DAY.",
+  "hl": "STRANGE MINUTE"
+ },
+ "episode": 20,
+ "title": "STRANGE MINUTE #20 · WHAT IF",
+ "stamp": "THANKSGIVING · DINNER",
+ "endTitle": "WHAT IF #21?",
+ "endSub": "Seconds or stop?",
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "What if you ate 3,000 calories tonight?",
+   "hl": {
+    "3,000": "y",
+    "tonight?": "y"
+   },
+   "say": "What if you ate three thousand calories tonight?",
+   "gap": 0.35,
+   "sfx": [
+    {
+     "at": "end",
+     "type": "ding"
+    }
+   ],
+   "speed": 1.15
+  },
+  {
+   "scene": "day",
+   "text": "That's a Thanksgiving dinner: more than a whole day of food, in one meal.",
+   "hl": {
+    "Thanksgiving": "y",
+    "one": "r"
+   }
+  },
+  {
+   "scene": "stomach",
+   "text": "Your stomach stretches like a balloon to make room.",
+   "hl": {
+    "stretches": "y",
+    "balloon": "y"
+   }
+  },
+  {
+   "scene": "blood",
+   "text": "Extra blood rushes to your gut to digest it all.",
+   "hl": {
+    "blood": "r",
+    "gut": "y"
+   }
+  },
+  {
+   "scene": "coma",
+   "text": "Then comes the famous food coma.",
+   "hl": {
+    "food": "y",
+    "coma.": "y"
+   }
+  },
+  {
+   "scene": "blame",
+   "text": "Most people blame the turkey's tryptophan.",
+   "hl": {
+    "turkey's": "y",
+    "tryptophan.": "y"
+   }
+  },
+  {
+   "scene": "compare",
+   "text": "But turkey has about as much as chicken or cheese.",
+   "hl": {
+    "chicken": "y",
+    "cheese.": "y"
+   }
+  },
+  {
+   "scene": "carbs",
+   "text": "The real reason? All those carbs, and the sheer size of the meal.",
+   "hl": {
+    "carbs,": "r",
+    "size": "y"
+   }
+  },
+  {
+   "scene": "insulin",
+   "text": "Your insulin spikes, and you crash on the couch.",
+   "hl": {
+    "insulin": "y",
+    "crash": "r"
+   },
+   "sfx": [
+    {
+     "word": "crash",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "walk",
+   "text": "To burn it all off, you'd walk roughly 30 miles.",
+   "hl": {
+    "30": "r",
+    "miles.": "y"
+   },
+   "say": "To burn it all off, you'd walk roughly thirty miles."
+  },
+  {
+   "scene": "ask",
+   "text": "So, are you still going back for seconds?",
+   "hl": {
+    "seconds?": "y"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "What If You Ate A 3,000-Calorie Thanksgiving Dinner? 🦃😳 #shorts",
+  "description": "Your stomach stretches, blood rushes to your gut — and it's NOT the turkey that makes you sleepy. 🦃 Going back for seconds? 👇\n#whatif #thanksgiving #foodcoma #science #body #shorts",
+  "tags": [
+   "what if",
+   "thanksgiving",
+   "food coma",
+   "tryptophan myth",
+   "turkey makes you sleepy",
+   "body facts",
+   "science",
+   "strange minute"
+  ],
+  "first_comment": "Happy Thanksgiving 🦃 Be honest — how many plates did YOU have? 👇"
+ },
+ "cover": {
+  "seg": 5,
+  "frac": 0.6,
+  "top": "STRANGE MINUTE #20",
+  "lines": [
+   "IT'S NOT",
+   "THE TURKEY"
+  ],
+  "sub": "FOOD COMA"
+ },
+ "sources": [
+  "Calorie Control Council (industry group) cited for ~3,000 (up to 4,500) calories on Thanksgiving; UGA extension: typical holiday meal 2,000–3,000",
+  "LiveScience / AIP Inside Science / Texas Health: turkey's tryptophan is similar to chicken, cheese, nuts; drowsiness comes from large carb-heavy meals, insulin, volume, alcohol",
+  "Walking burns roughly 80–120 kcal per mile → ~30 miles for 3,000 kcal (rough estimate)",
+  "After a meal, blood flow to the gut increases (postprandial splanchnic hyperemia)"
+ ]
+}
