@@ -998,6 +998,41 @@
    "publish_time": "2026-11-25T21:00",
    "youtube_id": "eZHWO8XzXAc",
    "youtube_url": "https://www.youtube.com/shorts/eZHWO8XzXAc"
+  },
+  "2026-11-26T16:00-strange-minute-ep19": {
+   "id": "2026-11-26T16:00-strange-minute-ep19",
+   "slot": "2026-11-26T16:00",
+   "series": "strange-minute",
+   "episode": 19,
+   "title": "What If Jupiter Replaced Our Moon? 🪐😳 #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-26T18:59:51Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-26T19:02:48Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-26T19:02:49Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-26T19:02:49Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-26T19:02:49Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-26T18:59:51Z",
+   "updated": "2026-11-26T19:02:49Z"
   }
  }
 }

@@ -1,0 +1,154 @@
+{
+ "series": "Strange Minute",
+ "style": "light",
+ "bed": "light",
+ "voice": "am_fenrir",
+ "lang": "en-us",
+ "voice_fx": "explainer",
+ "speed": 1.0,
+ "gap": 0.25,
+ "music_level": 0.12,
+ "cta": {
+  "text": "ONE STRANGE MINUTE. EVERY DAY.",
+  "hl": "STRANGE MINUTE"
+ },
+ "episode": 19,
+ "title": "STRANGE MINUTE #19 · WHAT IF",
+ "stamp": "JUPITER · AS OUR MOON",
+ "endTitle": "WHAT IF #20?",
+ "endSub": "Moon or Jupiter?",
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "What if Jupiter replaced our Moon?",
+   "hl": {
+    "Jupiter": "y",
+    "Moon?": "y"
+   },
+   "gap": 0.35,
+   "sfx": [
+    {
+     "at": "end",
+     "type": "ding"
+    }
+   ]
+  },
+  {
+   "scene": "size",
+   "text": "Same distance as the Moon, but forty times wider.",
+   "hl": {
+    "forty": "y",
+    "wider.": "y"
+   }
+  },
+  {
+   "scene": "sky",
+   "text": "It would swallow a huge chunk of the night sky.",
+   "hl": {
+    "huge": "y"
+   }
+  },
+  {
+   "scene": "mass",
+   "text": "It's about 26,000 times heavier than the Moon.",
+   "hl": {
+    "26,000": "y"
+   },
+   "say": "It's about twenty-six thousand times heavier than the Moon."
+  },
+  {
+   "scene": "tides",
+   "text": "So its pull on our oceans would be 26,000 times stronger.",
+   "hl": {
+    "26,000": "r",
+    "stronger.": "y"
+   },
+   "say": "So its pull on our oceans would be twenty-six thousand times stronger.",
+   "sfx": [
+    {
+     "word": "stronger.",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "io",
+   "text": "Want proof? Jupiter's moon Io orbits at almost that distance.",
+   "hl": {
+    "Io": "y",
+    "almost": "y"
+   }
+  },
+  {
+   "scene": "volc",
+   "text": "Jupiter squeezes it so hard, Io has over 400 active volcanoes.",
+   "hl": {
+    "400": "r",
+    "volcanoes.": "y"
+   },
+   "say": "Jupiter squeezes it so hard, Io has over four hundred active volcanoes."
+  },
+  {
+   "scene": "crack",
+   "text": "Earth's crust could crack and spill lava, just like Io.",
+   "hl": {
+    "crack": "r",
+    "lava,": "y"
+   }
+  },
+  {
+   "scene": "radbelt",
+   "text": "And Jupiter's deadly radiation belts would wrap around our planet.",
+   "hl": {
+    "deadly": "r",
+    "radiation": "y"
+   }
+  },
+  {
+   "scene": "storm",
+   "text": "At least the view would be epic: a storm bigger than Earth.",
+   "hl": {
+    "storm": "y",
+    "Earth.": "y"
+   }
+  },
+  {
+   "scene": "ask",
+   "text": "So, would you trade the Moon for Jupiter?",
+   "hl": {
+    "Moon": "y",
+    "Jupiter?": "y"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "What If Jupiter Replaced Our Moon? 🪐😳 #shorts",
+  "description": "Forty times wider in the sky, 26,000 times heavier — and a world full of volcanoes, just like Io. 🪐 Would you trade the Moon for this? 👇\n#whatif #space #jupiter #moon #science #shorts",
+  "tags": [
+   "what if",
+   "jupiter",
+   "what if jupiter replaced the moon",
+   "io volcanoes",
+   "space facts",
+   "science",
+   "astronomy",
+   "strange minute"
+  ],
+  "first_comment": "A new what-if every day 🪐 Moon or Jupiter in YOUR sky? 👇 Did you spot Tick? ⏱"
+ },
+ "cover": {
+  "seg": 2,
+  "frac": 0.6,
+  "top": "STRANGE MINUTE #19",
+  "lines": [
+   "JUPITER",
+   "AS OUR MOON?"
+  ],
+  "sub": "WHAT IF"
+ },
+ "sources": [
+  "NASA: Jupiter diameter ~139,820 km vs Moon 3,474 km (~40×); Jupiter mass 1.898e27 kg vs Moon 7.35e22 kg (~26,000×) → tidal pull at equal distance ~26,000×",
+  "NASA: Io orbits Jupiter at ~421,700 km (Moon–Earth 384,400 km); Io has 400+ active volcanoes driven by tidal heating",
+  "NASA: Great Red Spot is larger than Earth; Jupiter's magnetosphere/radiation belts are the most intense in the Solar System"
+ ]
+}
