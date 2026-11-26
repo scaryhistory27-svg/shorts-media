@@ -1053,8 +1053,8 @@
    "slot": "2026-11-26T18:30",
    "series": "strange-minute",
    "episode": 20,
-   "title": "What If You Ate A 3,000-Calorie Thanksgiving Dinner? 🦃😳 #shorts",
-   "stage": "qa_passed",
+   "title": "What If You Ate 3,000 Calories Tonight? 🦃😳 #shorts",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -1076,12 +1076,26 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-26T19:06:55Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-26T19:07:01Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-26T19:07:01Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-26T19:07:34Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-26T19:04:04Z",
-   "updated": "2026-11-26T19:06:55Z"
+   "updated": "2026-11-26T19:07:34Z",
+   "metricool_id": 443533607,
+   "publish_time": "2026-11-26T18:30"
   }
  }
 }
