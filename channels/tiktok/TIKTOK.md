@@ -62,3 +62,7 @@ tt034 Mount Kalaga 12:00 (440740411) · tt035 Leonida Keys 16:00 (440740541) · 
 ### Run 2026-11-25 (for Nov 26)
 tt037 patch 01.002.002 00:30 (442194916) · tt038 PC port shut down 04:30 (442195031) · tt039 $3.79B launch (reported) 08:00 (442195146) ·
 tt040 Spotify record (reported) 12:00 (442195236) · tt041 Thanksgiving in Leonida 16:00 (442195332) · tt042 2022 leaker guilty plea 19:30 (442195432). Next empty: Nov 27 00:30.
+
+### Run 2026-11-26 (for Nov 27)
+tt043 Vice City portal 00:30 (443534730) · tt044 substation cheat code (unconfirmed) 04:30 (443534807) · tt045 TMNT egg (unconfirmed) 08:00 (443534868) ·
+tt046 horse statue mystery 12:00 (443534953) · tt047 Jason's boat theory 16:00 (443535043) · tt048 painted eggs tower 19:30 (443535097). Next empty: Nov 28 00:30.

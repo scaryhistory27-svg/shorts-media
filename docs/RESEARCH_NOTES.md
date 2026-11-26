@@ -87,3 +87,10 @@ Trends: GTA 6 week (UFO/Bigfoot/Chiliad finds — GamingBible, Nerdism); smart-s
   → space what-ifs again (#17 Earth rings, #18 black hole).
 - Trends: Thanksgiving Nov 26 (holiday horror lists); GTA 6: patch 01.002.002 (Nov 23, Insider Gaming), fan PC port "Project Leonida" scrapped (GamesRadar),
   reported day-one $3.79B / Spotify 29.85M streams (headlines, marked "reported"), 2022 leaker guilty plea (reports). Earth-ring hypothesis: Monash 2024 (Tomkins).
+
+## 2026-11-26 — daily review + trends
+- Windsor (lags): numbered-title Shorts flop — FearFiles #3 Trail Cam 66, #4 Room 0 52 (28 %), #5 Doorbell 31; SM #13 Voyager 122, #14 Mercury 42 — vs plain hook titles 700–1415
+  (SM "11 Days No Sleep" 1415 / 80 %, Sun off 1361, Mars 1359). → titles hook-first from today.
+- Trends: Thanksgiving (Nov 26) + Black Friday (Nov 27) → horror Black Friday store + mystery package; SM Thanksgiving food-coma (tryptophan myth — LiveScience/AIP/Texas Health).
+  Mars–Jupiter close pairing (ESA Nov sky guide) → SM Jupiter-as-Moon (NASA facts: 40× diameter, ~26,000× Moon mass, Io 400+ volcanoes).
+  GTA 6 week-1 easter eggs (purexbox, complex, gamingbible, nerdism, vicecitydb): Vice City nightclub portal, substation "Life is passing me by" cheat, TMNT (unconfirmed), horse statue, boat theory, painted eggs.

@@ -1,3 +1,9 @@
+## 2026-11-26 ~11:15 LA — Thursday autopilot run DONE
+- Published marked: #8 Waiting Room psie11xOfms, #9 Extra Plate wNYeDsrXFMY, SM17 Kit4LBDS9YY, SM18 eZHWO8XzXAc.
+- Scheduled: horror Black Friday 16:30, Package 20:00 (+ rs001 long 18:00); SM Jupiter-as-Moon 16:00, 3,000 calories 18:30; TikTok tt043–tt048 Nov 27.
+- Decision: titles hook-first (no "FearFiles #N:" prefix). Windsor: numbered titles 31–122 views vs plain 700–1400.
+- Next run (Fri): horror + SM Nov 27 slots, SM long comp #2 (Friday), TikTok Nov 28.
+
 ## 2026-11-25 ~11:15 LA — Wednesday autopilot run DONE
 - Published marked: Mirror 2TynAsUR3hA, Dashcam SqrtqI9yW9Y, SM15 KmIII8kUohg, SM16 gQQqQIeRHaM, sm-comp001 dawadyP693M (custom thumbs OK).
 - Scheduled: FearFiles #8 Waiting Room 16:00, #9 Extra Plate 19:00; SM #17 Earth rings 18:30, #18 black hole 21:00; TikTok tt037–tt042 Nov 26.
