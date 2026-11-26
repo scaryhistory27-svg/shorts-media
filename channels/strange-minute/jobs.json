@@ -1005,7 +1005,7 @@
    "series": "strange-minute",
    "episode": 19,
    "title": "What If Jupiter Replaced Our Moon? 🪐😳 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -1027,12 +1027,26 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-26T19:02:49Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-26T19:02:56Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-26T19:02:56Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-26T19:03:14Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-26T18:59:51Z",
-   "updated": "2026-11-26T19:02:49Z"
+   "updated": "2026-11-26T19:03:14Z",
+   "metricool_id": 443529525,
+   "publish_time": "2026-11-26T16:00"
   }
  }
 }
