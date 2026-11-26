@@ -1,7 +1,7 @@
 {
  "publish_time": "2026-11-19T15:30",
  "timezone": "America/Los_Angeles",
- "last_publish": "2026-11-25T19:00",
+ "last_publish": "2026-11-26T16:30",
  "series": [
   {
    "slug": "the-2am-knock",
@@ -300,6 +300,20 @@
      "metricool_id": 442179549,
      "hook": "Never forget the extra plate on Thanksgiving.",
      "youtube_id": "wNYeDsrXFMY"
+    }
+   ]
+  },
+  {
+   "slug": "fearfiles-black-friday",
+   "title": "FearFiles: Black Friday",
+   "standalone": true,
+   "episodes": [
+    {
+     "ep": 1,
+     "title": "Never Go Black Friday Shopping At 3 AM 🛒😨 #shorts",
+     "publish_time": "2026-11-26T16:30",
+     "metricool_id": 443520109,
+     "hook": "Never go Black Friday shopping at 3 AM."
     }
    ]
   }

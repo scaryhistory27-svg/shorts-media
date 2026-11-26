@@ -1203,7 +1203,7 @@
    "series": "fearfiles-black-friday",
    "episode": 1,
    "title": "Never Go Black Friday Shopping At 3 AM 🛒😨 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -1225,12 +1225,26 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-26T18:53:30Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-26T18:53:38Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-26T18:53:38Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-26T18:53:57Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-26T18:44:07Z",
-   "updated": "2026-11-26T18:53:30Z"
+   "updated": "2026-11-26T18:53:57Z",
+   "metricool_id": 443520109,
+   "publish_time": "2026-11-26T16:30"
   }
  }
 }
