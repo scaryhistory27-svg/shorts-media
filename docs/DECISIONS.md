@@ -70,3 +70,4 @@ Web research: numbered series identity, mid-video subscribe prompt ~20 s, concre
 - Owner: 3-s "+ SUBSCRIBE / SO YOU DON'T MISS NEW VIDEOS" fragment at the middle of every Short (visual only).
 - Daily compaction trigger deleted (owner).
 - Owner: signature voice tag on the end card — FearFiles "Sleep tight. The Watcher won't.", SM "That's one Strange Minute." (assets/sig).
+- 2026-11-26: Titles hook-first, numbered prefix dropped (data: #3–#5 31–66 views vs 700–1400 for plain hook titles).

@@ -101,7 +101,8 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
   The end motif plays right after it. Every video ends with the same phrase — never change the wording.
   First comment may rotate in "Did you spot the Watcher? 👁" / "Did you spot Tick? ⏱" (every 2nd–3rd video). Never spell it out in captions.
 - **SUBSCRIBE CONVERSION (owner 2026-11-22: "find online how to make people subscribe, and do exactly that"; web research 2026-11-22):**
-  1. Numbered collection in every title: "FearFiles #N: <case>" / "Strange Minute #N: <what-if>" (series identity = higher sub rate).
+  1. TITLES HOOK-FIRST (data 2026-11-26: numbered-prefix titles "FearFiles #3–#5" got 31–66 views and "Strange Minute #13–#14" 42–122 vs 700–1400 for plain hook titles):
+     YouTube title = the hook as a promise + emoji + #shorts, NO "FearFiles #N:" / "Strange Minute #N:" prefix. Series identity stays in the header, cover and signature.
   2. Mid-video VISUAL subscribe fragment (owner 2026-11-25): at the MIDDLE of every Short, 3 s, centred under the header: "+ SUBSCRIBE / SO YOU DON'T MISS NEW VIDEOS" (both channels; never over captions/faces; not spoken).
   3. End card adds a concrete promise of the NEXT video ("TOMORROW: <next topic>") above the subscribe CTA (topic must really be scheduled next).
   4. First comment = a reason to subscribe + question ("New case every day 🕯 Which one scared you most? 👇"); owner pins it.

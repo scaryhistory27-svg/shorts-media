@@ -1252,7 +1252,7 @@
    "series": "fearfiles-package",
    "episode": 1,
    "title": "Never Open A Package You Didn't Order 📦😨 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -1274,12 +1274,26 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-26T18:58:46Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-26T18:58:53Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-26T18:58:53Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-26T18:59:07Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-26T18:54:45Z",
-   "updated": "2026-11-26T18:58:46Z"
+   "updated": "2026-11-26T18:59:07Z",
+   "metricool_id": 443524909,
+   "publish_time": "2026-11-26T20:00"
   }
  }
 }

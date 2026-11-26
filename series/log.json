@@ -1,7 +1,7 @@
 {
  "publish_time": "2026-11-19T15:30",
  "timezone": "America/Los_Angeles",
- "last_publish": "2026-11-26T16:30",
+ "last_publish": "2026-11-26T20:00",
  "series": [
   {
    "slug": "the-2am-knock",
@@ -314,6 +314,20 @@
      "publish_time": "2026-11-26T16:30",
      "metricool_id": 443520109,
      "hook": "Never go Black Friday shopping at 3 AM."
+    }
+   ]
+  },
+  {
+   "slug": "fearfiles-package",
+   "title": "FearFiles: The Package",
+   "standalone": true,
+   "episodes": [
+    {
+     "ep": 1,
+     "title": "Never Open A Package You Didn't Order 📦😨 #shorts",
+     "publish_time": "2026-11-26T20:00",
+     "metricool_id": 443524909,
+     "hook": "Never open a package you didn't order."
     }
    ]
   }
