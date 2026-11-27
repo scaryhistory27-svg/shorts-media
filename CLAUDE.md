@@ -221,6 +221,12 @@ and report the results to the owner. No morning/midday/night posting unless the 
 ## Channel 3 — TikTok "Road to PS5" (owner 2026-11-20)
 **4 photo-carousel posts every day** promoting Strange Minute; rules, hosting status and queue in `channels/tiktok/TIKTOK.md`. Every run, after the YouTube slots: schedule the TikTok posts for the next 36 h (Metricool brand 8179515, provider tiktok).
 
+## Channel 4 — "Case Closed in 60" (detective, owner 2026-11-27)
+Metricool brand **8396167**, YouTube UC9QAuI2j7SqxkXktw2v9hRw, @CaseClosedIn60. Rules, look, voice and growth loop in `channels/detective/CHANNEL.md`; state in
+`channels/detective/log.json` + `jobs.json` (jobs.py with `JOBS_FILE=channels/detective/jobs.json LOG_FILE=channels/detective/log.json`). **2 Shorts EVERY day**, evening LA.
+Original FICTIONAL cases only (never "true crime"), pseudo-3D look (`channels/detective/lib.js`, loaded automatically by render.js), American smoky fast voice.
+Render ≈ 20 min → run in background.
+
 ## Sound design (owner 2026-11-17: "make all sounds realistic — they were too loud and out of place")
 - timeline.py SFX are realistic (filtered knock/creak/heartbeat/whoosh/phone-buzz, soft low impacts, eerie string sting), go through one
   SFX bus (lowpass 7 kHz + short room) that is DUCKED under the voice; bus level `sfx_level` in episode.json (default 0.22 — keep it).
