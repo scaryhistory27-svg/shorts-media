@@ -1,4 +1,4 @@
-# Channel 4 (pilot 2026-11-27) — detective Shorts ("60 Second Detective", working name)
+# Channel 4 (pilot 2026-11-27) — detective Shorts "Case Closed in 60" (@CaseClosedIn60)
 Owner 2026-11-27: "a third channel about detectives — totally different design, totally different scripts". Format chosen: SHORT FICTIONAL INVESTIGATIONS.
 - Every Short = one complete fictional case: crime (no gore, no real people/events) → 3 suspects → detective finds the clue → reveal → "Case closed."
 - REWATCH: the deciding clue is visible in the first 2 s (viewers who catch it solve the case before the detective). Last line asks "Did you catch it?".
