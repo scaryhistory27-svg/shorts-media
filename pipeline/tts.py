@@ -15,6 +15,14 @@ FX={"storyteller":"asetrate=24000*0.92,aresample=24000,atempo=1.087,highpass=f=6
     "equalizer=f=3200:t=q:w=1.5:g=2.5,equalizer=f=7500:t=q:w=2:g=-3,acompressor=threshold=0.08:ratio=4:attack=5:release=120:makeup=2,"
     "aecho=0.85:0.6:45|95|160:0.22|0.14|0.08","none":None,
     # Strange Minute (channel 2): clear, warm documentary narrator — no pitch shift, gentle presence + light room
+    # Detective channel (2026-11-27): 1940s radio-play narrator — band-limited, warm saturation, short slapback
+    "noir_radio":"asetrate=24000*0.96,aresample=24000,atempo=1.0417,highpass=f=280,lowpass=f=3600,equalizer=f=1200:t=q:w=1:g=4,asoftclip=type=tanh:threshold=0.5,"
+    "acompressor=threshold=0.06:ratio=5:attack=3:release=90:makeup=4,aecho=0.8:0.35:55:0.18",
+    # Detective channel: smoky late-night jazz-club narrator — deeper, warm low end, intimate close-mic, small club reverb
+    "smoky":"asetrate=24000*0.93,aresample=24000,atempo=1.0753,highpass=f=55,equalizer=f=120:t=q:w=1:g=5,equalizer=f=2800:t=q:w=1.2:g=2,equalizer=f=7000:t=q:w=2:g=-3,"
+    "acompressor=threshold=0.07:ratio=4:attack=4:release=120:makeup=3,aecho=0.85:0.5:38|77:0.2|0.12",
+    # Detective channel: crisp storyteller with a touch of air and room
+    "crisp":"highpass=f=80,equalizer=f=200:t=q:w=1:g=1.5,equalizer=f=4000:t=q:w=1.5:g=3,acompressor=threshold=0.08:ratio=3:attack=5:release=100:makeup=2,aecho=0.8:0.4:30:0.1",
     "explainer":"highpass=f=70,equalizer=f=180:t=q:w=1:g=2,equalizer=f=3000:t=q:w=1.5:g=2.5,equalizer=f=9000:t=q:w=2:g=-1.5,"
     "acompressor=threshold=0.08:ratio=3:attack=5:release=100:makeup=2,aecho=0.8:0.3:22:0.08"}
 def voice(v):
