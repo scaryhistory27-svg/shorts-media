@@ -1,0 +1,26 @@
+{
+ "series": "FearFiles: The Wallet", "episode": 1, "title": "FEARFILES: THE WALLET", "stamp": "LAST TRAIN · 11:14 PM", "endTitle": "STAY ON THE TRAIN.", "endSub": "Who found YOUR wallet?", "music_level": 0.12,
+ "cta": {"text": "SUBSCRIBE… OR MISS WHAT HAPPENS NEXT.", "hl": "SUBSCRIBE…"},
+ "lines": [
+  {"scene": "hook", "text": "I found my own ID in a stranger's wallet.", "hl": {"own": "r", "ID": "y", "stranger's": "r"}, "speed": 1.22, "gap": 0.35},
+  {"scene": "car", "text": "Last train home after Thanksgiving. Almost empty.", "hl": {"Last": "y", "empty.": "r"}},
+  {"scene": "seat", "text": "The wallet was under my seat. Old leather.", "hl": {"wallet": "y"}},
+  {"scene": "id", "text": "My name. My face. But older. Gray hair.", "hl": {"older.": "r", "Gray": "y"}},
+  {"scene": "id", "text": "Expires: 2061.", "say": "Expires... twenty sixty-one.", "hl": {"2061.": "r"}},
+  {"scene": "note", "text": "Behind it, a note in my handwriting.", "hl": {"my": "r", "handwriting.": "y"}},
+  {"scene": "note", "text": "\"Don't get off at Hollow Creek.\"", "hl": {"Don't": "r", "Hollow": "y", "Creek.\"": "y"}},
+  {"scene": "speaker", "text": "Then the speaker crackled. \"Next stop: Hollow Creek.\"", "say": "Then the speaker crackled. Next stop... Hollow Creek.", "hl": {"Hollow": "r", "Creek.\"": "r"}, "sfx": [{"word": "crackled.", "type": "buzz"}]},
+  {"scene": "map", "text": "There is no Hollow Creek on this line.", "hl": {"no": "r"}},
+  {"scene": "platform", "text": "The doors opened. An old man stood on the platform.", "hl": {"old": "y", "platform.": "y"}, "sfx": [{"word": "opened.", "type": "whoosh"}]},
+  {"scene": "oldman", "text": "Gray hair. My coat. Crying. Waving at me.", "hl": {"My": "r", "coat.": "r", "Waving": "y"}, "sfx": [{"word": "me.", "type": "sting"}]},
+  {"scene": "close", "text": "The doors closed. I stayed on.", "hl": {"stayed": "y"}, "sfx": [{"word": "closed.", "type": "thud"}]},
+  {"scene": "pocket", "text": "Then I checked my pocket. My wallet was gone.", "hl": {"pocket.": "y", "gone.": "r"}, "sfx": [{"word": "gone.", "type": "sting"}]}
+ ],
+ "youtube": {
+  "title": "I Found My Own ID In A Stranger's Wallet 🚆😨 #shorts",
+  "description": "Last train home after Thanksgiving. Under my seat: a wallet with my name, my face — and an expiry date of 2061. 🚆 Who was on the platform? 👀\n#horrorstory #scary #creepy #timeloop #fearfiles #shorts",
+  "tags": ["horror story", "scary", "creepy", "time loop", "last train", "train horror", "scary story", "fearfiles"],
+  "first_comment": "A new case every day 🕯 Would YOU have stepped off at Hollow Creek? 🚆 Look at the empty seats at the start 👀👇"
+ },
+ "cover": {"seg": 10, "frac": 0.6, "top": "FEARFILES", "lines": ["THE ID", "WAS MINE."], "sub": "EXPIRES 2061"}
+}
