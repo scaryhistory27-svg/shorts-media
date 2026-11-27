@@ -66,3 +66,5 @@ tt040 Spotify record (reported) 12:00 (442195236) · tt041 Thanksgiving in Leoni
 ### Run 2026-11-26 (for Nov 27)
 tt043 Vice City portal 00:30 (443534730) · tt044 substation cheat code (unconfirmed) 04:30 (443534807) · tt045 TMNT egg (unconfirmed) 08:00 (443534868) ·
 tt046 horse statue mystery 12:00 (443534953) · tt047 Jason's boat theory 16:00 (443535043) · tt048 painted eggs tower 19:30 (443535097). Next empty: Nov 28 00:30.
+- 2026-11-28 (scheduled Nov 27): tt049 simulation NPC 00:30 (444764506) · tt050 Tommy's reward 04:30 (444764578) · tt051 Kent Paul cameo 08:00 (444764650) ·
+  tt052 Mario nod (unconfirmed) 12:00 (444764734) · tt053 Scarface nod (fan view) 16:00 (444764809) · tt054 week-one playtime question 19:30 (444764902). --subs 16 (last verified count).
