@@ -111,7 +111,7 @@
    "series": "case-closed",
    "episode": 3,
    "title": "His Selfie Was The Perfect Alibi. Spot The Lie? 🕵️ #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -133,12 +133,26 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-27T20:01:55Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-27T20:02:04Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-27T20:02:04Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-27T20:02:19Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-27T20:01:55Z",
-   "updated": "2026-11-27T20:01:55Z"
+   "updated": "2026-11-27T20:02:19Z",
+   "metricool_id": 444809761,
+   "publish_time": "2026-11-27T20:00"
   }
  }
 }
