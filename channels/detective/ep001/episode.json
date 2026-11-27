@@ -1,0 +1,153 @@
+{
+ "series": "60 Second Detective",
+ "episode": 1,
+ "title": "60 SECOND DETECTIVE · CASE 001",
+ "stamp": "ASHFORD GALLERY · 11:40 PM",
+ "style": "dark",
+ "voice": "bm_george",
+ "lang": "en-gb",
+ "voice_fx": "none",
+ "speed": 0.95,
+ "gap": 0.4,
+ "music_level": 0.09,
+ "signature": false,
+ "sig_voice": false,
+ "endTitle": "CASE CLOSED",
+ "endSub": "Did you catch the rain?",
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "At 9:14, a painting vanished.",
+   "say": "At nine fourteen, a painting vanished.",
+   "hl": {
+    "vanished.": "y"
+   },
+   "gap": 0.35,
+   "speed": 1.1
+  },
+  {
+   "scene": "board",
+   "text": "The gallery was locked. Three people had a key.",
+   "hl": {
+    "locked.": "y",
+    "Three": "y",
+    "key.": "y"
+   }
+  },
+  {
+   "scene": "guard",
+   "text": "The guard said: I watched the cameras all night.",
+   "hl": {
+    "cameras": "y"
+   }
+  },
+  {
+   "scene": "cleaner",
+   "text": "The cleaner said: I left at nine. Ask the bus driver.",
+   "hl": {
+    "nine.": "y"
+   }
+  },
+  {
+   "scene": "owner",
+   "text": "The owner said: I was home. It's insured anyway.",
+   "hl": {
+    "insured": "y"
+   }
+  },
+  {
+   "scene": "hale",
+   "text": "Inspector Hale asked for the camera footage.",
+   "hl": {
+    "Hale": "y",
+    "footage.": "y"
+   }
+  },
+  {
+   "scene": "footage",
+   "text": "Rain was running down the gallery window.",
+   "hl": {
+    "Rain": "y",
+    "window.": "y"
+   }
+  },
+  {
+   "scene": "dry",
+   "text": "But it hadn't rained in Ashford for a week.",
+   "hl": {
+    "hadn't": "r",
+    "week.": "y"
+   },
+   "sfx": [
+    {
+     "word": "week.",
+     "type": "sting"
+    }
+   ]
+  },
+  {
+   "scene": "loop",
+   "text": "The footage was old. Someone had looped it.",
+   "hl": {
+    "old.": "y",
+    "looped": "r"
+   }
+  },
+  {
+   "scene": "controls",
+   "text": "Only one person controlled the cameras.",
+   "hl": {
+    "one": "r",
+    "cameras.": "y"
+   }
+  },
+  {
+   "scene": "confess",
+   "text": "The guard confessed before midnight.",
+   "hl": {
+    "guard": "r",
+    "confessed": "y"
+   },
+   "sfx": [
+    {
+     "word": "confessed",
+     "type": "hit"
+    }
+   ]
+  },
+  {
+   "scene": "closed",
+   "text": "Case closed. Did you catch the rain?",
+   "hl": {
+    "Case": "y",
+    "closed.": "y",
+    "rain?": "y"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "A Painting Vanished From A Locked Gallery 🕵️ Can You Solve It? #shorts",
+  "description": "Three people had a key. One of them is lying — and the clue is on screen in the first 2 seconds. 🕵️ Did you solve it before Inspector Hale?\n#detective #mystery #whodunit #solvethemystery #shorts",
+  "tags": [
+   "detective",
+   "mystery",
+   "whodunit",
+   "solve the mystery",
+   "detective story",
+   "riddle",
+   "case closed",
+   "animated mystery"
+  ],
+  "first_comment": "Who did YOU suspect first — the guard, the cleaner or the owner? 🕵️👇"
+ },
+ "cover": {
+  "seg": 6,
+  "frac": 0.6,
+  "top": "CASE 001",
+  "lines": [
+   "ONE OF THEM",
+   "IS LYING"
+  ],
+  "sub": "CAN YOU SOLVE IT?"
+ }
+}

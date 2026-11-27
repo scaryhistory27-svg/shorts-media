@@ -4,7 +4,8 @@ const E=path.resolve(process.argv[2]),B=E+'/build',mode=process.argv[3];
 (async()=>{const br=await chromium.launch();const pg=await br.newPage({viewport:{width:1080,height:1920}});
  if(fs.existsSync(B+'/img')){const m={};for(const f of fs.readdirSync(B+'/img'))if(/\.(jpe?g|png)$/i.test(f))m[f.replace(/\.[^.]+$/,'')]='data:image/'+(f.endsWith('png')?'png':'jpeg')+';base64,'+fs.readFileSync(B+'/img/'+f).toString('base64');await pg.addInitScript(d=>{window.IMGDATA=d},m)} // local images as data URLs (file:// would taint the canvas)
  pg.on('pageerror',e=>{console.log('PAGE ERROR',e.message);process.exitCode=1});
- await pg.goto('file://'+__dirname+'/anim.html?scenes='+encodeURIComponent('file://'+E+'/scenes.js'));await pg.evaluate(()=>document.fonts.ready);
+ const LIB=path.resolve(E,'..','lib.js'); // optional per-channel library (e.g. channels/detective/lib.js — pseudo-3D toolkit)
+ await pg.goto('file://'+__dirname+'/anim.html?scenes='+encodeURIComponent('file://'+E+'/scenes.js')+(fs.existsSync(LIB)?'&lib='+encodeURIComponent('file://'+LIB):''));await pg.evaluate(()=>document.fonts.ready);
  const tl=JSON.parse(fs.readFileSync(B+'/timeline.json'));await pg.evaluate(j=>window.setTL(j),tl);
  await pg.evaluate(()=>window.ASSETS_READY||null); // scenes may preload images (e.g. official screenshots) before the first frame
  const grab=async t=>Buffer.from((await pg.evaluate(t=>{render(t);return document.getElementById('c').toDataURL('image/jpeg',0.93)},t)).split(',')[1],'base64');
