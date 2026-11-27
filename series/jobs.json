@@ -1203,8 +1203,8 @@
    "series": "fearfiles-black-friday",
    "episode": 1,
    "title": "Never Go Black Friday Shopping At 3 AM 🛒😨 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -1237,14 +1237,20 @@
     {
      "stage": "scheduled",
      "at": "2026-11-26T18:53:57Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-27T18:43:57Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-26T18:44:07Z",
-   "updated": "2026-11-26T18:53:57Z",
+   "updated": "2026-11-27T18:43:57Z",
    "metricool_id": 443520109,
-   "publish_time": "2026-11-26T16:30"
+   "publish_time": "2026-11-26T16:30",
+   "youtube_id": "1WX0L5qlCKI",
+   "youtube_url": "https://www.youtube.com/shorts/1WX0L5qlCKI"
   },
   "2026-11-26T20:00-fearfiles-package-ep1": {
    "id": "2026-11-26T20:00-fearfiles-package-ep1",
@@ -1252,8 +1258,8 @@
    "series": "fearfiles-package",
    "episode": 1,
    "title": "Never Open A Package You Didn't Order 📦😨 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -1286,14 +1292,63 @@
     {
      "stage": "scheduled",
      "at": "2026-11-26T18:59:07Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-27T18:43:57Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-26T18:54:45Z",
-   "updated": "2026-11-26T18:59:07Z",
+   "updated": "2026-11-27T18:43:57Z",
    "metricool_id": 443524909,
-   "publish_time": "2026-11-26T20:00"
+   "publish_time": "2026-11-26T20:00",
+   "youtube_id": "W5p-EYvfiiM",
+   "youtube_url": "https://www.youtube.com/shorts/W5p-EYvfiiM"
+  },
+  "2026-11-27T17:30-fearfiles-lights-ep1": {
+   "id": "2026-11-27T17:30-fearfiles-lights-ep1",
+   "slot": "2026-11-27T17:30",
+   "series": "fearfiles-lights",
+   "episode": 1,
+   "title": "My Christmas Lights Blink When They're Unplugged 🎄😨 #shorts",
+   "stage": "scheduling",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-27T18:51:00Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-27T18:51:00Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-27T18:51:00Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-27T18:51:00Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-27T18:51:00Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-27T18:51:04Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-27T18:51:04Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-27T18:51:00Z",
+   "updated": "2026-11-27T18:51:04Z"
   }
  }
 }

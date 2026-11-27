@@ -1005,8 +1005,8 @@
    "series": "strange-minute",
    "episode": 19,
    "title": "What If Jupiter Replaced Our Moon? 🪐😳 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -1039,14 +1039,20 @@
     {
      "stage": "scheduled",
      "at": "2026-11-26T19:03:14Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-27T18:43:57Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-26T18:59:51Z",
-   "updated": "2026-11-26T19:03:14Z",
+   "updated": "2026-11-27T18:43:57Z",
    "metricool_id": 443529525,
-   "publish_time": "2026-11-26T16:00"
+   "publish_time": "2026-11-26T16:00",
+   "youtube_id": "j_h44-kUShk",
+   "youtube_url": "https://www.youtube.com/shorts/j_h44-kUShk"
   },
   "2026-11-26T18:30-strange-minute-ep20": {
    "id": "2026-11-26T18:30-strange-minute-ep20",
@@ -1054,8 +1060,8 @@
    "series": "strange-minute",
    "episode": 20,
    "title": "What If You Ate 3,000 Calories Tonight? 🦃😳 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -1088,14 +1094,20 @@
     {
      "stage": "scheduled",
      "at": "2026-11-26T19:07:34Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-27T18:43:57Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-26T19:04:04Z",
-   "updated": "2026-11-26T19:07:34Z",
+   "updated": "2026-11-27T18:43:57Z",
    "metricool_id": 443533607,
-   "publish_time": "2026-11-26T18:30"
+   "publish_time": "2026-11-26T18:30",
+   "youtube_id": "pTqnxYPzdQg",
+   "youtube_url": "https://www.youtube.com/shorts/pTqnxYPzdQg"
   }
  }
 }

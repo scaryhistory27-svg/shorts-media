@@ -1,0 +1,171 @@
+{
+ "series": "FearFiles: The Lights",
+ "episode": 1,
+ "title": "FEARFILES: THE LIGHTS",
+ "stamp": "NOV 27 · 9:41 PM",
+ "endTitle": "STILL BLINKING.",
+ "endSub": "What did yours spell?",
+ "music_level": 0.12,
+ "cta": {
+  "text": "A NEW NIGHTMARE EVERY DAY.",
+  "hl": "NIGHTMARE"
+ },
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "My lights started blinking. They're not plugged in.",
+   "hl": {
+    "blinking.": "y",
+    "not": "r"
+   },
+   "speed": 1.25,
+   "gap": 0.35
+  },
+  {
+   "scene": "ladder",
+   "text": "I hung them the day after Thanksgiving.",
+   "hl": {
+    "Thanksgiving.": "y"
+   }
+  },
+  {
+   "scene": "on",
+   "text": "That night, they turned on by themselves.",
+   "hl": {
+    "themselves.": "r"
+   }
+  },
+  {
+   "scene": "morse",
+   "text": "Short, short, short. Long, long, long.",
+   "hl": {
+    "Short,": "y",
+    "Long,": "y"
+   }
+  },
+  {
+   "scene": "neighbor",
+   "text": "My neighbor stared out his window and went pale.",
+   "hl": {
+    "pale.": "r"
+   }
+  },
+  {
+   "scene": "neighbor",
+   "text": "\"That's Morse code,\" he mouthed. \"S.O.S.\"",
+   "say": "That's Morse code, he mouthed. S. O. S.",
+   "hl": {
+    "Morse": "y",
+    "\"S.O.S.\"": "r"
+   }
+  },
+  {
+   "scene": "plug",
+   "text": "I yanked the plug out of the wall.",
+   "hl": {
+    "plug": "y"
+   },
+   "sfx": [
+    {
+     "word": "wall.",
+     "type": "creak"
+    }
+   ]
+  },
+  {
+   "scene": "faster",
+   "text": "They kept blinking. Faster.",
+   "hl": {
+    "Faster.": "r"
+   },
+   "sfx": [
+    {
+     "word": "Faster.",
+     "type": "heart"
+    }
+   ]
+  },
+  {
+   "scene": "street",
+   "text": "Then every house on the street lit up too.",
+   "hl": {
+    "every": "r",
+    "house": "y"
+   }
+  },
+  {
+   "scene": "street",
+   "text": "Same pattern. All the way down the block.",
+   "hl": {
+    "Same": "y",
+    "block.": "r"
+   },
+   "sfx": [
+    {
+     "word": "block.",
+     "type": "sting"
+    }
+   ]
+  },
+  {
+   "scene": "empty",
+   "text": "My neighbor wasn't at his window anymore.",
+   "hl": {
+    "wasn't": "r"
+   }
+  },
+  {
+   "scene": "name",
+   "text": "Then the message changed. It spelled my name.",
+   "hl": {
+    "changed.": "y",
+    "name.": "r"
+   },
+   "sfx": [
+    {
+     "word": "name.",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "hook",
+   "text": "They're still blinking. And they're still unplugged.",
+   "hl": {
+    "still": "y",
+    "unplugged.": "r"
+   },
+   "sfx": [
+    {
+     "word": "unplugged.",
+     "type": "sting"
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "My Christmas Lights Blink When They're Unplugged 🎄😨 #shorts",
+  "description": "I hung them the day after Thanksgiving. That night they started blinking a pattern my neighbor recognized. 🎄 Then the whole street joined in. What did it spell? 👀\n#horrorstory #scary #creepy #christmaslights #fearfiles #shorts",
+  "tags": [
+   "horror story",
+   "scary",
+   "creepy",
+   "christmas lights",
+   "christmas horror",
+   "morse code",
+   "scary story",
+   "fearfiles"
+  ],
+  "first_comment": "A new nightmare every day 🕯 Would YOU have gone outside? 🎄 Watch the neighbor's window in the first seconds 👀👇"
+ },
+ "cover": {
+  "seg": 9,
+  "frac": 0.5,
+  "top": "FEARFILES",
+  "lines": [
+   "THEY'RE",
+   "UNPLUGGED."
+  ],
+  "sub": "STILL BLINKING"
+ }
+}
