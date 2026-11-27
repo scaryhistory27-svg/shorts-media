@@ -1108,6 +1108,41 @@
    "publish_time": "2026-11-26T18:30",
    "youtube_id": "pTqnxYPzdQg",
    "youtube_url": "https://www.youtube.com/shorts/pTqnxYPzdQg"
+  },
+  "2026-11-27T18:30-strange-minute-ep21": {
+   "id": "2026-11-27T18:30-strange-minute-ep21",
+   "slot": "2026-11-27T18:30",
+   "series": "strange-minute",
+   "episode": 21,
+   "title": "This Tiny Probe Is Now 1 Light-Day From Earth 🛰️😳 #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-27T19:05:33Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-27T19:05:33Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-27T19:05:33Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-27T19:05:33Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-27T19:05:33Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-27T19:05:33Z",
+   "updated": "2026-11-27T19:05:33Z"
   }
  }
 }

@@ -1,0 +1,181 @@
+{
+ "series": "Strange Minute",
+ "style": "light",
+ "bed": "light",
+ "voice": "am_fenrir",
+ "lang": "en-us",
+ "voice_fx": "explainer",
+ "speed": 1.0,
+ "gap": 0.25,
+ "music_level": 0.12,
+ "episode": 21,
+ "title": "STRANGE MINUTE #21",
+ "stamp": "VOYAGER 1 · 1 LIGHT-DAY",
+ "endTitle": "LIGHT-DAY ONE.",
+ "endSub": "What should it say about us?",
+ "cta": {
+  "text": "SMALL MINUTE. HUGE UNIVERSE.",
+  "hl": "HUGE UNIVERSE."
+ },
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "This tiny probe is now one light-day from Earth.",
+   "hl": {
+    "tiny": "y",
+    "light-day": "y"
+   },
+   "speed": 1.2,
+   "gap": 0.35,
+   "sfx": [
+    {
+     "at": "end",
+     "type": "ding"
+    }
+   ]
+  },
+  {
+   "scene": "launch",
+   "text": "Voyager 1 left Earth in 1977. Before smartphones. Before the internet.",
+   "hl": {
+    "1977.": "y",
+    "smartphones.": "r"
+   },
+   "say": "Voyager 1 left Earth in nineteen seventy-seven. Before smartphones. Before the internet."
+  },
+  {
+   "scene": "speed",
+   "text": "It's been flying ever since, at about 38,000 miles per hour.",
+   "hl": {
+    "38,000": "y"
+   },
+   "say": "It's been flying ever since, at about thirty-eight thousand miles per hour."
+  },
+  {
+   "scene": "light",
+   "text": "Now it's so far that light needs a whole day to reach it.",
+   "hl": {
+    "light": "y",
+    "whole": "r",
+    "day": "r"
+   }
+  },
+  {
+   "scene": "distance",
+   "text": "That's about 16 billion miles. Nothing we've built has ever gone farther.",
+   "hl": {
+    "16": "y",
+    "billion": "y",
+    "farther.": "r"
+   },
+   "say": "That's about sixteen billion miles. Nothing we've built has ever gone farther."
+  },
+  {
+   "scene": "car",
+   "text": "Drive there at highway speed? About 28,000 years.",
+   "hl": {
+    "28,000": "r",
+    "years.": "r"
+   },
+   "say": "Drive there at highway speed? About twenty-eight thousand years.",
+   "sfx": [
+    {
+     "word": "years.",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "radio",
+   "text": "Its radio is about as strong as a fridge light bulb.",
+   "hl": {
+    "fridge": "y",
+    "bulb.": "y"
+   }
+  },
+  {
+   "scene": "radio",
+   "text": "And giant dishes on Earth still catch that whisper.",
+   "hl": {
+    "giant": "y",
+    "whisper.": "r"
+   }
+  },
+  {
+   "scene": "battery",
+   "text": "Its nuclear battery is slowly fading.",
+   "hl": {
+    "nuclear": "y",
+    "fading.": "r"
+   }
+  },
+  {
+   "scene": "switch",
+   "text": "So NASA keeps switching instruments off, one by one, to save power.",
+   "hl": {
+    "off,": "r",
+    "power.": "y"
+   }
+  },
+  {
+   "scene": "record",
+   "text": "On board: a golden record with music and greetings from Earth.",
+   "hl": {
+    "golden": "y",
+    "record": "y"
+   }
+  },
+  {
+   "scene": "drift",
+   "text": "Long after it goes silent, it will keep drifting between the stars.",
+   "hl": {
+    "silent,": "r",
+    "stars.": "y"
+   }
+  },
+  {
+   "scene": "ask",
+   "text": "So if someone out there finds it... what should it say about us?",
+   "hl": {
+    "finds": "y",
+    "us?": "y"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "This Tiny Probe Is Now 1 Light-Day From Earth 🛰️😳 #shorts",
+  "description": "Voyager 1 left in 1977 — now light needs a full day to reach it. 16 billion miles, a radio as weak as a fridge bulb, and a golden record on board. 🛰️ What should it tell aliens about us? 👇\n#space #voyager1 #nasa #science #astronomy #shorts",
+  "tags": [
+   "voyager 1",
+   "light day",
+   "nasa",
+   "space facts",
+   "farthest spacecraft",
+   "golden record",
+   "astronomy",
+   "strange minute"
+  ],
+  "first_comment": "A new strange minute every day 🛰️ If YOU could add one song to the golden record, which one? 👇"
+ },
+ "cover": {
+  "seg": 3,
+  "frac": 0.6,
+  "top": "STRANGE MINUTE",
+  "lines": [
+   "1 LIGHT-DAY",
+   "AWAY"
+  ],
+  "sub": "VOYAGER 1"
+ },
+ "sources": [
+  "NASA/JPL: Voyager 1 approaching one light-day (~16.1 billion mi / 25.9 billion km) in Nov 2026; launched Sept 5, 1977; ~38,000 mph (17 km/s)",
+  "NASA: Voyager transmitter ~22 W, 'about the power of a refrigerator light bulb'; Deep Space Network 70-m dishes receive it",
+  "NASA: RTG power declining ~4 W/yr; instruments being shut off to save power; Golden Record carries sounds, music, greetings in 55 languages",
+  "16.1e9 mi / 65 mph ≈ 28,000 years"
+ ],
+ "signature": {
+  "t": 33.75,
+  "x": 200,
+  "y": 1000
+ }
+}

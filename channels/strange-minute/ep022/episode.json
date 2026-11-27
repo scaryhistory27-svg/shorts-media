@@ -1,0 +1,167 @@
+{
+ "series": "Strange Minute",
+ "style": "light",
+ "bed": "light",
+ "voice": "am_fenrir",
+ "lang": "en-us",
+ "voice_fx": "explainer",
+ "speed": 1.0,
+ "gap": 0.25,
+ "music_level": 0.12,
+ "episode": 22,
+ "title": "STRANGE MINUTE #22",
+ "stamp": "THIS WEEK · BEFORE SUNRISE",
+ "endTitle": "SET AN ALARM.",
+ "endSub": "Did you spot it?",
+ "cta": {
+  "text": "LOOK UP. THEN SUBSCRIBE.",
+  "hl": "LOOK UP."
+ },
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "You've never seen Venus this bright. Look up this week.",
+   "hl": {
+    "Venus": "y",
+    "bright.": "y"
+   },
+   "speed": 1.22,
+   "gap": 0.35,
+   "sfx": [
+    {
+     "at": "end",
+     "type": "ding"
+    }
+   ]
+  },
+  {
+   "scene": "east",
+   "text": "Before sunrise, look east. That blazing 'star' is a planet.",
+   "hl": {
+    "east.": "y",
+    "planet.": "r"
+   }
+  },
+  {
+   "scene": "peak",
+   "text": "Around November 29th, it shines its brightest of the year.",
+   "hl": {
+    "29th,": "y",
+    "brightest": "y"
+   },
+   "say": "Around November twenty-ninth, it shines its brightest of the year."
+  },
+  {
+   "scene": "moon",
+   "text": "Only the Moon outshines it in the night sky.",
+   "hl": {
+    "Moon": "y"
+   }
+  },
+  {
+   "scene": "zoom",
+   "text": "But up close, Venus might be the worst place in the solar system.",
+   "hl": {
+    "worst": "r"
+   },
+   "sfx": [
+    {
+     "word": "worst",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "heat",
+   "text": "The ground is about 870 degrees. Hot enough to melt lead.",
+   "hl": {
+    "870": "r",
+    "lead.": "r"
+   },
+   "say": "The ground is about eight hundred seventy degrees. Hot enough to melt lead."
+  },
+  {
+   "scene": "deep",
+   "text": "The air is so heavy, it's like being 3,000 feet underwater.",
+   "hl": {
+    "heavy,": "y",
+    "3,000": "r"
+   },
+   "say": "The air is so heavy, it's like being three thousand feet underwater."
+  },
+  {
+   "scene": "acid",
+   "text": "And the clouds? Sulfuric acid.",
+   "hl": {
+    "acid.": "r"
+   }
+  },
+  {
+   "scene": "clock",
+   "text": "A day on Venus is longer than its whole year.",
+   "hl": {
+    "day": "y",
+    "year.": "y"
+   }
+  },
+  {
+   "scene": "west",
+   "text": "It even spins backwards, so the Sun rises in the west.",
+   "hl": {
+    "backwards,": "r",
+    "west.": "y"
+   }
+  },
+  {
+   "scene": "lander",
+   "text": "The toughest probe that landed there lasted about two hours.",
+   "hl": {
+    "two": "r",
+    "hours.": "r"
+   }
+  },
+  {
+   "scene": "ask",
+   "text": "So, will you set an alarm to catch it?",
+   "hl": {
+    "alarm": "y"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "You've Never Seen Venus This Bright 🌟😳 #shorts",
+  "description": "Venus hits its brightest of the year around Nov 29 — look east before sunrise. Up close? 870°F, acid clouds and a day longer than a year. 🌟 Will you catch it? 👇\n#space #venus #astronomy #nightsky #science #shorts",
+  "tags": [
+   "venus",
+   "venus brightest",
+   "morning star",
+   "night sky this week",
+   "space facts",
+   "astronomy",
+   "planets",
+   "strange minute"
+  ],
+  "first_comment": "A new strange minute every day 🌟 Did YOU spot Venus? Drop your city 👇"
+ },
+ "cover": {
+  "seg": 5,
+  "frac": 0.6,
+  "top": "STRANGE MINUTE",
+  "lines": [
+   "THE WORST",
+   "PLANET?"
+  ],
+  "sub": "LOOK EAST"
+ },
+ "sources": [
+  "ScienceDaily (Nov 2026 sky guide): Venus at peak brightness Nov 29 (morning sky after Oct inferior conjunction)",
+  "NASA Venus facts: surface ~465 °C / 870 °F (lead melts 621 °F); pressure ~90× Earth ≈ 900 m / 3,000 ft underwater; sulfuric-acid clouds",
+  "NASA: rotation 243 Earth days > orbit 225 days; retrograde rotation (Sun rises in the west)",
+  "Venera 13 (1982) survived ~127 minutes on the surface"
+ ],
+ "signature": {
+  "t": 31.0,
+  "x": 140,
+  "y": 1060
+ }
+}
