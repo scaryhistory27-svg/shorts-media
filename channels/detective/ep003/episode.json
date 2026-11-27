@@ -1,0 +1,224 @@
+{
+ "series": "Case Closed in 60",
+ "style": "dark",
+ "voice": "am_puck:0.45,am_onyx:0.35,am_eric:0.2",
+ "lang": "en-us",
+ "voice_fx": "lively",
+ "speed": 1.06,
+ "gap": 0.22,
+ "music_level": 0.1,
+ "signature": false,
+ "sig_voice": false,
+ "bed": "noir",
+ "sfx_level": 0.24,
+ "episode": 3,
+ "title": "CASE CLOSED IN 60 · CASE 003",
+ "stamp": "HARBOR ST MUSIC · 4:00 PM",
+ "endTitle": "CASE 003 CLOSED",
+ "endSub": "Did you check the clock?",
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "At 4 PM, a rare guitar just vanished.",
+   "hl": {
+    "rare": "y",
+    "guitar": "y",
+    "vanished.": "r"
+   },
+   "say": "At four P.M., a rare guitar just vanished.",
+   "speed": 1.22,
+   "gap": 0.3
+  },
+  {
+   "scene": "glass",
+   "text": "Smashed case. No cameras. Three people with a motive.",
+   "hl": {
+    "Smashed": "r",
+    "Three": "y"
+   },
+   "speed": 1.1,
+   "sfx": [
+    {
+     "word": "Smashed",
+     "type": "stamp"
+    }
+   ]
+  },
+  {
+   "scene": "jax",
+   "text": "First, Jax, a rival guitarist: I was at the pier all day!",
+   "hl": {
+    "Jax,": "y",
+    "pier": "y"
+   },
+   "speed": 1.12
+  },
+  {
+   "scene": "selfie",
+   "text": "He even posted a selfie. 4:05 PM.",
+   "hl": {
+    "selfie.": "y",
+    "4:05": "y"
+   },
+   "say": "He even posted a selfie. Four oh-five P.M.",
+   "speed": 1.08,
+   "sfx": [
+    {
+     "word": "selfie.",
+     "type": "shutter"
+    }
+   ]
+  },
+  {
+   "scene": "june",
+   "text": "Then June, the clerk: I was scanning stock in the back.",
+   "hl": {
+    "June,": "y",
+    "scanning": "y"
+   },
+   "speed": 1.1
+  },
+  {
+   "scene": "scanner",
+   "text": "The scanner logged her every minute. Solid.",
+   "hl": {
+    "every": "y",
+    "Solid.": "y"
+   },
+   "speed": 1.06,
+   "sfx": [
+    {
+     "word": "minute.",
+     "type": "typewriter"
+    }
+   ]
+  },
+  {
+   "scene": "ray",
+   "text": "And Ray, the delivery guy, signed for a box next door at 4:02.",
+   "hl": {
+    "Ray,": "y",
+    "4:02.": "y"
+   },
+   "say": "And Ray, the delivery guy, signed for a box next door at four oh-two.",
+   "speed": 1.12
+  },
+  {
+   "scene": "hale",
+   "text": "Ray was close. Too close. Hale liked him for it.",
+   "hl": {
+    "Too": "r",
+    "close.": "r"
+   },
+   "speed": 1.06,
+   "sfx": [
+    {
+     "word": "Hale",
+     "type": "steps"
+    }
+   ]
+  },
+  {
+   "scene": "zoom",
+   "text": "Until he zoomed in on that selfie.",
+   "hl": {
+    "zoomed": "y",
+    "selfie.": "y"
+   },
+   "speed": 1.04,
+   "sfx": [
+    {
+     "word": "zoomed",
+     "type": "paper"
+    }
+   ]
+  },
+  {
+   "scene": "clock",
+   "text": "Behind Jax: the old pier clock. Reading 9:10.",
+   "hl": {
+    "clock.": "y",
+    "9:10.": "r"
+   },
+   "say": "Behind Jax: the old pier clock. Reading nine ten.",
+   "speed": 1.0,
+   "gap": 0.3,
+   "sfx": [
+    {
+     "word": "9:10.",
+     "type": "clue"
+    }
+   ]
+  },
+  {
+   "scene": "morning",
+   "text": "That photo was shot in the morning. Posted hours later.",
+   "hl": {
+    "morning.": "y",
+    "later.": "r"
+   },
+   "speed": 1.06,
+   "sfx": [
+    {
+     "word": "later.",
+     "type": "reveal"
+    }
+   ]
+  },
+  {
+   "scene": "case",
+   "text": "At 4 PM, Jax was right here. With a crowbar.",
+   "hl": {
+    "here.": "r",
+    "crowbar.": "r"
+   },
+   "say": "At four P.M., Jax was right here. With a crowbar.",
+   "speed": 1.04
+  },
+  {
+   "scene": "ray2",
+   "text": "And Ray? He really was just delivering a cake.",
+   "hl": {
+    "cake.": "y"
+   },
+   "speed": 1.08
+  },
+  {
+   "scene": "closed",
+   "text": "Case closed. So... did you check the clock?",
+   "hl": {
+    "Case": "y",
+    "closed.": "y",
+    "clock?": "y"
+   },
+   "speed": 1.02
+  }
+ ],
+ "youtube": {
+  "title": "His Selfie Was The Perfect Alibi. Spot The Lie? 🕵️ #shorts",
+  "description": "A rare guitar disappears at 4 PM. The rival has a selfie from the pier at 4:05 — but one detail in that photo gives him away. 🕵️ Freeze the first 2 seconds. Can you solve it before Inspector Hale?\n\nNew case every day. All cases are original fictional mysteries.\n\n#detective #mystery #whodunit #spotthelie #brainteaser #shorts",
+  "tags": [
+   "detective",
+   "mystery",
+   "whodunit",
+   "spot the lie",
+   "detective story",
+   "selfie alibi",
+   "brain teaser",
+   "case closed",
+   "animated mystery",
+   "can you solve it"
+  ],
+  "first_comment": "Be honest — did YOU blame Ray? 🕵️📸 Who did you suspect first? 👇 New case every day."
+ },
+ "cover": {
+  "seg": 2,
+  "frac": 0.6,
+  "top": "CASE 003",
+  "lines": [
+   "PERFECT",
+   "ALIBI?"
+  ],
+  "sub": "SPOT THE LIE"
+ }
+}

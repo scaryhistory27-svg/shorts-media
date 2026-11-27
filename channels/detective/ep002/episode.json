@@ -1,0 +1,214 @@
+{
+ "series": "Case Closed in 60",
+ "style": "dark",
+ "voice": "am_puck:0.45,am_onyx:0.35,am_eric:0.2",
+ "lang": "en-us",
+ "voice_fx": "lively",
+ "speed": 1.06,
+ "gap": 0.22,
+ "music_level": 0.1,
+ "signature": false,
+ "sig_voice": false,
+ "bed": "noir",
+ "sfx_level": 0.24,
+ "episode": 2,
+ "title": "CASE CLOSED IN 60 · CASE 002",
+ "stamp": "PINECREST LODGE · 11:40 PM",
+ "endTitle": "CASE 002 CLOSED",
+ "endSub": "Did you check the snow?",
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "Nobody could leave this lodge. Yet a necklace vanished.",
+   "hl": {
+    "Nobody": "y",
+    "necklace": "y",
+    "vanished.": "r"
+   },
+   "speed": 1.18,
+   "gap": 0.3
+  },
+  {
+   "scene": "road",
+   "text": "Road buried in snow. So the thief? Still inside.",
+   "hl": {
+    "buried": "y",
+    "inside.": "r"
+   },
+   "speed": 1.1
+  },
+  {
+   "scene": "chef",
+   "text": "Suspect one, Chef Marco: I was baking bread all night!",
+   "hl": {
+    "Marco:": "y",
+    "bread": "y"
+   },
+   "speed": 1.12
+  },
+  {
+   "scene": "oven",
+   "text": "And the oven log agrees. Loaf out at 11:45.",
+   "hl": {
+    "oven": "y",
+    "11:45.": "y"
+   },
+   "say": "And the oven log agrees. Loaf out at eleven forty-five.",
+   "speed": 1.08,
+   "sfx": [
+    {
+     "word": "11:45.",
+     "type": "typewriter"
+    }
+   ]
+  },
+  {
+   "scene": "guest",
+   "text": "Suspect two, Ms. Vale: Asleep in room four, I swear.",
+   "hl": {
+    "Vale:": "y",
+    "Asleep": "y"
+   },
+   "speed": 1.1
+  },
+  {
+   "scene": "door",
+   "text": "But her door? Unlocked. Hmm.",
+   "hl": {
+    "Unlocked.": "r"
+   },
+   "speed": 1.0,
+   "sfx": [
+    {
+     "word": "Unlocked.",
+     "type": "steps"
+    }
+   ]
+  },
+  {
+   "scene": "brody",
+   "text": "Suspect three, Brody, the ski guide, just stomped in from the village.",
+   "hl": {
+    "Brody,": "y",
+    "village.": "y"
+   },
+   "speed": 1.12
+  },
+  {
+   "scene": "brody",
+   "text": "Two miles through the snow, he said. Got back at 11:30.",
+   "hl": {
+    "Two": "y",
+    "11:30.": "y"
+   },
+   "say": "Two miles through the snow, he said. Got back at eleven thirty.",
+   "speed": 1.1
+  },
+  {
+   "scene": "outside",
+   "text": "So Inspector Hale stepped outside to check.",
+   "hl": {
+    "Hale": "y",
+    "outside": "y"
+   },
+   "speed": 1.08,
+   "sfx": [
+    {
+     "word": "outside",
+     "type": "steps"
+    }
+   ]
+  },
+  {
+   "scene": "snow",
+   "text": "The storm stopped at ten. And the snow by the door? Perfectly smooth.",
+   "hl": {
+    "ten.": "y",
+    "smooth.": "r"
+   },
+   "speed": 1.04,
+   "sfx": [
+    {
+     "word": "smooth.",
+     "type": "clue"
+    }
+   ]
+  },
+  {
+   "scene": "snow",
+   "text": "Not one footprint.",
+   "hl": {
+    "Not": "r",
+    "footprint.": "r"
+   },
+   "speed": 0.98,
+   "gap": 0.3,
+   "sfx": [
+    {
+     "word": "footprint.",
+     "type": "reveal"
+    }
+   ]
+  },
+  {
+   "scene": "boots",
+   "text": "So Brody never left. His boots? Bone dry.",
+   "hl": {
+    "never": "r",
+    "dry.": "y"
+   },
+   "speed": 1.08
+  },
+  {
+   "scene": "necklace",
+   "text": "And tucked inside the left one... the necklace.",
+   "hl": {
+    "necklace.": "y"
+   },
+   "speed": 1.02,
+   "sfx": [
+    {
+     "word": "necklace.",
+     "type": "shutter"
+    }
+   ]
+  },
+  {
+   "scene": "closed",
+   "text": "Case closed. So... did you check the snow?",
+   "hl": {
+    "Case": "y",
+    "closed.": "y",
+    "snow?": "y"
+   },
+   "speed": 1.02
+  }
+ ],
+ "youtube": {
+  "title": "Snowed In With A Thief. Can You Spot The Liar? 🕵️ #shorts",
+  "description": "A storm buries the road. A necklace disappears. Three suspects — and only one detail gives the liar away. 🕵️ It's on screen in the first 2 seconds. Solve it before Inspector Hale?\n\nNew case every day. All cases are original fictional mysteries.\n\n#detective #mystery #whodunit #canyousolveit #snowstorm #shorts",
+  "tags": [
+   "detective",
+   "mystery",
+   "whodunit",
+   "can you solve it",
+   "detective story",
+   "snowed in mystery",
+   "brain teaser",
+   "case closed",
+   "animated mystery",
+   "spot the liar"
+  ],
+  "first_comment": "Who did YOU suspect first — the chef, the guest or the ski guide? 🕵️❄️👇 New case every day."
+ },
+ "cover": {
+  "seg": 1,
+  "frac": 0.6,
+  "top": "CASE 002",
+  "lines": [
+   "SNOWED IN.",
+   "ONE LIAR."
+  ],
+  "sub": "CAN YOU SPOT HIM?"
+ }
+}

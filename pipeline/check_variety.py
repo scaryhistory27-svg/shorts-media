@@ -6,8 +6,8 @@ Compares the new episode with ALL earlier episodes of the same channel (by episo
 import glob, json, os, re, sys
 from difflib import SequenceMatcher
 E = sys.argv[1].rstrip('/'); ep = json.load(open(f"{E}/episode.json"))
-sm = 'strange-minute' in E
-pool = glob.glob('channels/strange-minute/ep*/episode.json') if sm else glob.glob('series/*/ep*/episode.json')
+sm = 'strange-minute' in E; det = 'detective' in E
+pool = glob.glob('channels/strange-minute/ep*/episode.json') if sm else glob.glob('channels/detective/ep*/episode.json') if det else glob.glob('series/*/ep*/episode.json')
 pool = [p for p in pool if os.path.dirname(p) != E and '/_test' not in p]
 pool.sort(key=os.path.getmtime, reverse=True)
 past = []
@@ -44,4 +44,4 @@ for w in warns: print("WARN:", w)
 if fails:
     for f in dict.fromkeys(fails): print("FAIL:", f)
     sys.exit(1)
-print(f"PASS: variety OK vs {len(past)} earlier episodes ({'Strange Minute' if sm else 'FearFiles'})")
+print(f"PASS: variety OK vs {len(past)} earlier episodes ({'Strange Minute' if sm else 'Case Closed in 60' if det else 'FearFiles'})")
