@@ -73,3 +73,4 @@ Web research: numbered series identity, mid-video subscribe prompt ~20 s, concre
 - 2026-11-26: Titles hook-first, numbered prefix dropped (data: #3–#5 31–66 views vs 700–1400 for plain hook titles).
 - 2026-11-27: Variety gate check_variety.py (owner: avoid repetitive-content demonetization). Rotate hook first word (max 2 in a row), new scenes, unique metadata, rotating CTA/end titles.
 - 2026-11-27: Detective channel pilot (60 Second Detective) — pseudo-3D toolkit channels/detective/lib.js loaded via render.js per-channel lib; waiting for owner to create channel + Metricool brand.
+- 2026-11-27: Owner — if the weekly limit is spent too fast, drop long videos of channels 1 and 2 first.

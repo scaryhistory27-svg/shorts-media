@@ -39,6 +39,9 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
   v3 (research 2026-11-23, owner: "make long videos by the standards, hook people"): spec `intro_line` = NARRATED open-loop hook in the channel voice over the
   3-moment teaser (promise a payoff at the end: "Stay until the last case…"); "STILL TO COME" re-engagement card at the midpoint (`still_sub` = the payoff);
   outro 10 s "WATCH NEXT →" (owner adds the end-screen element). Thumbnail: ≤ 4 big words, one face/creature/planet, high contrast, readable at 360 px.
+- **USAGE-LIMIT SAVER (owner 2026-11-27):** every run check get_session → rate_limit_info. If the weekly (seven_day) limit shows a warning / is being spent fast
+  (status "allowed_warning" or near "rejected", or the 5-hour limit keeps warning), DROP the long videos of channels 1 and 2 (FearFiles Mon/Thu, Strange Minute Tue/Fri)
+  until the limit resets — Shorts of all 4 channels and TikTok keep priority (order: horror → Strange Minute → detective → TikTok). Say in the report that long videos were skipped and why.
 - **FORUM-STORY LONG FORMAT (owner 2026-11-23: "scary stories as if from Reddit — can be invented"):** FearFiles long videos alternate:
   MONDAY = Shorts compilation (make_comp.py), THURSDAY = 4 ORIGINAL first-person "posted at 3 AM" stories (`python3 compilations/reddit_long.py compilations/stories/rsNNN.json`,
   ~530–650 words, 6–7 min, generic dark forum card "r/3amStories", fictional usernames, storyteller voice, blurred moving bg from our Shorts, outro).
