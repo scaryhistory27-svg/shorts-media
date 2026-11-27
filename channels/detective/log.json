@@ -23,11 +23,12 @@
   "note": "channel created 2026-11-27; owner verifies by phone — if a cover upload fails, switch to frame mode"
  },
  "voice": {
-  "voice": "am_onyx:0.5,am_eric:0.5",
+  "voice": "am_puck:0.45,am_onyx:0.35,am_eric:0.2",
   "lang": "en-us",
-  "voice_fx": "smoky",
-  "speed": 1.08,
-  "gap": 0.28
+  "voice_fx": "lively",
+  "speed": 1.06,
+  "gap": 0.22,
+  "note": "owner 2026-11-27: more energetic/human — conversational lines, per-line speed 0.98–1.12, no pitch FX"
  },
  "episodes": [
   {

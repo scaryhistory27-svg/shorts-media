@@ -4,11 +4,11 @@
  "title": "CASE CLOSED IN 60 · CASE 001",
  "stamp": "ASHFORD GALLERY · 11:40 PM",
  "style": "dark",
- "voice": "am_onyx:0.5,am_eric:0.5",
+ "voice": "am_puck:0.45,am_onyx:0.35,am_eric:0.2",
  "lang": "en-us",
- "voice_fx": "smoky",
- "speed": 1.08,
- "gap": 0.28,
+ "voice_fx": "lively",
+ "speed": 1.06,
+ "gap": 0.22,
  "music_level": 0.09,
  "signature": false,
  "sig_voice": false,
@@ -17,90 +17,101 @@
  "lines": [
   {
    "scene": "hook",
-   "text": "At 9:14, a painting vanished.",
+   "text": "At 9:14, a painting just... vanished.",
    "hl": {
     "vanished.": "y"
    },
-   "say": "At nine fourteen, a painting vanished.",
-   "speed": 1.12,
+   "say": "At nine fourteen, a painting just... vanished.",
+   "speed": 1.15,
    "gap": 0.3
   },
   {
    "scene": "board",
-   "text": "The gallery was locked. Three people had a key.",
+   "text": "The gallery? Locked. And only three people had a key.",
    "hl": {
-    "locked.": "y",
-    "Three": "y",
+    "Locked.": "y",
+    "three": "y",
     "key.": "y"
-   }
+   },
+   "speed": 1.1
   },
   {
    "scene": "guard",
-   "text": "The guard said: I watched the cameras all night.",
+   "text": "The guard swore: I watched those cameras all night!",
    "hl": {
-    "cameras": "y"
-   }
+    "cameras": "y",
+    "night!": "y"
+   },
+   "speed": 1.12
   },
   {
    "scene": "cleaner",
-   "text": "The cleaner said: I left at nine. Ask the bus driver.",
+   "text": "The cleaner said: I left at nine. Ask the bus driver!",
    "hl": {
     "nine.": "y",
-    "driver.": "y"
-   }
+    "driver!": "y"
+   },
+   "speed": 1.1
   },
   {
    "scene": "driver",
-   "text": "The driver remembered her. Bus 9, at 9:02.",
+   "text": "And yep, the driver remembered her. Bus 9, at 9:02.",
    "hl": {
     "remembered": "y",
     "9:02.": "y"
    },
-   "say": "The driver remembered her. Bus nine, at nine-oh-two."
+   "say": "And yep, the driver remembered her. Bus nine, at nine-oh-two.",
+   "speed": 1.08
   },
   {
    "scene": "owner",
-   "text": "The owner said: I was home. It's insured anyway.",
+   "text": "The owner? I was home. Besides, it's insured.",
    "hl": {
     "home.": "y",
-    "insured": "y"
-   }
+    "insured.": "y"
+   },
+   "speed": 1.06
   },
   {
    "scene": "money",
-   "text": "Two million dollars. A good reason to lie.",
+   "text": "Two million dollars. Now that's a reason to lie.",
    "hl": {
     "million": "y",
     "lie.": "r"
-   }
+   },
+   "speed": 1.0
   },
   {
    "scene": "doorman",
-   "text": "But his doorman saw him come home at eight.",
+   "text": "But his doorman saw him walk in at eight.",
    "hl": {
     "doorman": "y",
     "eight.": "y"
-   }
+   },
+   "speed": 1.1
   },
   {
    "scene": "hale",
-   "text": "So Inspector Hale asked for the camera footage.",
+   "text": "So Inspector Hale pulled the camera footage.",
    "hl": {
     "Hale": "y",
     "footage.": "y"
-   }
+   },
+   "speed": 1.08
   },
   {
    "scene": "footage",
-   "text": "Rain was running down the gallery window.",
+   "text": "And look: rain, running down the gallery window.",
    "hl": {
-    "Rain": "y",
+    "rain,": "y",
     "window.": "y"
-   }
+   },
+   "speed": 1.0,
+   "gap": 0.3
   },
   {
    "scene": "dry",
-   "text": "But it hadn't rained in Ashford for a week.",
+   "text": "Problem is, it hadn't rained in Ashford all week.",
    "hl": {
     "hadn't": "r",
     "week.": "y"
@@ -110,23 +121,26 @@
      "word": "week.",
      "type": "sting"
     }
-   ]
+   ],
+   "speed": 1.04
   },
   {
    "scene": "loop",
-   "text": "The footage was old. Someone had looped it.",
+   "text": "That footage was old. Someone looped it!",
    "hl": {
     "old.": "y",
     "looped": "r"
-   }
+   },
+   "speed": 1.12
   },
   {
    "scene": "controls",
-   "text": "And only one person controlled the cameras.",
+   "text": "And only one person had access to those cameras.",
    "hl": {
     "one": "r",
     "cameras.": "y"
-   }
+   },
+   "speed": 1.06
   },
   {
    "scene": "confess",
@@ -140,16 +154,20 @@
      "word": "confessed",
      "type": "hit"
     }
-   ]
+   ],
+   "speed": 0.98,
+   "gap": 0.4
   },
   {
    "scene": "closed",
-   "text": "Case closed. Did you catch the rain?",
+   "text": "Case closed. So... did you catch the rain?",
    "hl": {
     "Case": "y",
     "closed.": "y",
     "rain?": "y"
-   }
+   },
+   "speed": 1.02,
+   "say": "Case closed. So... did you catch the rain?"
   }
  ],
  "youtube": {

@@ -22,6 +22,8 @@ FX={"storyteller":"asetrate=24000*0.92,aresample=24000,atempo=1.087,highpass=f=6
     "smoky":"asetrate=24000*0.93,aresample=24000,atempo=1.0753,highpass=f=55,equalizer=f=120:t=q:w=1:g=5,equalizer=f=2800:t=q:w=1.2:g=2,equalizer=f=7000:t=q:w=2:g=-3,"
     "acompressor=threshold=0.07:ratio=4:attack=4:release=120:makeup=3,aecho=0.85:0.5:38|77:0.2|0.12",
     # Detective channel: crisp storyteller with a touch of air and room
+    # Detective channel v2 (owner 2026-11-27: "more energetic, like a real person talking, less robotic"): NO pitch shift, light presence lift, gentle glue compression, tiny room
+    "lively":"highpass=f=70,equalizer=f=160:t=q:w=1:g=2,equalizer=f=3200:t=q:w=1.4:g=3,equalizer=f=9500:t=q:w=2:g=-1.5,acompressor=threshold=0.1:ratio=2.5:attack=6:release=120:makeup=2,aecho=0.8:0.25:20:0.06",
     "crisp":"highpass=f=80,equalizer=f=200:t=q:w=1:g=1.5,equalizer=f=4000:t=q:w=1.5:g=3,acompressor=threshold=0.08:ratio=3:attack=5:release=100:makeup=2,aecho=0.8:0.4:30:0.1",
     "explainer":"highpass=f=70,equalizer=f=180:t=q:w=1:g=2,equalizer=f=3000:t=q:w=1.5:g=2.5,equalizer=f=9000:t=q:w=2:g=-1.5,"
     "acompressor=threshold=0.08:ratio=3:attack=5:release=100:makeup=2,aecho=0.8:0.3:22:0.08"}
