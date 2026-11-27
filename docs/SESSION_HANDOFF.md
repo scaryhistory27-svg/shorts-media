@@ -1,3 +1,16 @@
+## 2026-11-27T18:42:11Z — auto checkpoint before context compaction
+
+```
+jobs file: series/jobs.json — 23 jobs
+  done/scheduled: 2026-11-25T19:00-fearfiles-extra-plate-ep1  stage=published  title=FearFiles #9: Never Forget The Extra Plate On Thanksgiving 🦃😨 #shorts  url=https://www.youtube.com/shorts/wNYeDsrXFMY
+  done/scheduled: 2026-11-26T16:30-fearfiles-black-friday-ep1  stage=scheduled  title=Never Go Black Friday Shopping At 3 AM 🛒😨 #shorts  url=-
+  done/scheduled: 2026-11-26T20:00-fearfiles-package-ep1  stage=scheduled  title=Never Open A Package You Didn't Order 📦😨 #shorts  url=-
+  UNFINISHED: 2026-11-26T16:30-fearfiles-black-friday-ep1  stage=scheduled  status=active  retries=0
+  UNFINISHED: 2026-11-26T20:00-fearfiles-package-ep1  stage=scheduled  status=active  retries=0
+2026-11-26T16:30-fearfiles-black-friday-ep1: last verified stage 'scheduled', next stage 'published'
+HEAD: 6213be0 Detective sound: noir jazz bed, rain ambience, typewriter/shutter/paper/steps/clue/reveal/stamp SFX
+```
+
 ## 2026-11-26 ~11:15 LA — Thursday autopilot run DONE
 - Published marked: #8 Waiting Room psie11xOfms, #9 Extra Plate wNYeDsrXFMY, SM17 Kit4LBDS9YY, SM18 eZHWO8XzXAc.
 - Scheduled: horror Black Friday 16:30, Package 20:00 (+ rs001 long 18:00); SM Jupiter-as-Moon 16:00, 3,000 calories 18:30; TikTok tt043–tt048 Nov 27.
