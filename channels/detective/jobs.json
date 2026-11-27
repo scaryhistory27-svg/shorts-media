@@ -55,6 +55,41 @@
    "publish_time": "2026-11-26T23:20",
    "youtube_id": "u5x3c2JjvWo",
    "youtube_url": "https://www.youtube.com/shorts/u5x3c2JjvWo"
+  },
+  "2026-11-27T17:30-case-closed-ep2": {
+   "id": "2026-11-27T17:30-case-closed-ep2",
+   "slot": "2026-11-27T17:30",
+   "series": "case-closed",
+   "episode": 2,
+   "title": "Snowed In With A Thief. Can You Spot The Liar? 🕵️ #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-27T19:33:36Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-27T19:33:36Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-27T19:33:36Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-27T19:33:36Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-27T19:33:36Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-27T19:33:36Z",
+   "updated": "2026-11-27T19:33:36Z"
   }
  }
 }
