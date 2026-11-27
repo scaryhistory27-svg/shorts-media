@@ -1362,7 +1362,7 @@
    "series": "fearfiles-wallet",
    "episode": 1,
    "title": "I Found My Own ID In A Stranger's Wallet 🚆😨 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -1384,12 +1384,26 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-27T18:57:11Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-27T18:57:21Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-27T18:57:21Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-27T18:57:30Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-27T18:57:11Z",
-   "updated": "2026-11-27T18:57:11Z"
+   "updated": "2026-11-27T18:57:30Z",
+   "metricool_id": 444748038,
+   "publish_time": "2026-11-27T20:30"
   }
  }
 }
