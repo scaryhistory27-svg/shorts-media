@@ -28,7 +28,8 @@
   "voice_fx": "lively",
   "speed": 1.06,
   "gap": 0.22,
-  "note": "owner 2026-11-27: more energetic/human — conversational lines, per-line speed 0.98–1.12, no pitch FX"
+  "note": "owner 2026-11-27: more energetic/human — conversational lines, per-line speed 0.98–1.12, no pitch FX",
+  "approved": "owner approved lively voice v2 on 2026-11-27"
  },
  "episodes": [
   {
@@ -38,7 +39,8 @@
    "publish_time": "2026-11-26T23:20",
    "metricool_id": 443992030,
    "hook": "At 9:14, a painting vanished.",
-   "clue": "rain on CCTV vs dry week"
+   "clue": "rain on CCTV vs dry week",
+   "youtube_id": "u5x3c2JjvWo"
   }
  ],
  "ready": [],
