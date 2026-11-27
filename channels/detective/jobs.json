@@ -1,4 +1,24 @@
 {
  "version": 1,
- "jobs": {}
+ "jobs": {
+  "2026-11-26T23:30-case-closed-ep1": {
+   "id": "2026-11-26T23:30-case-closed-ep1",
+   "slot": "2026-11-26T23:30",
+   "series": "case-closed",
+   "episode": 1,
+   "title": "A Painting Vanished. Can You Solve It? 🕵️ #shorts",
+   "stage": "planned",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-27T06:52:27Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-27T06:52:27Z",
+   "updated": "2026-11-27T06:52:27Z"
+  }
+ }
 }
