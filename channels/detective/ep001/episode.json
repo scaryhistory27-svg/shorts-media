@@ -141,8 +141,8 @@
   "first_comment": "Who did YOU suspect first — the guard, the cleaner or the owner? 🕵️👇"
  },
  "cover": {
-  "seg": 6,
-  "frac": 0.6,
+  "seg": 1,
+  "frac": 0.85,
   "top": "CASE 001",
   "lines": [
    "ONE OF THEM",
