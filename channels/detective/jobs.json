@@ -7,18 +7,34 @@
    "series": "case-closed",
    "episode": 1,
    "title": "A Painting Vanished. Can You Solve It? 🕵️ #shorts",
-   "stage": "planned",
+   "stage": "qa_passed",
    "status": "active",
    "history": [
     {
      "stage": "planned",
      "at": "2026-11-27T06:52:27Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-27T06:55:34Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-27T06:55:34Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-27T06:55:34Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-27T06:55:34Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-27T06:52:27Z",
-   "updated": "2026-11-27T06:52:27Z"
+   "updated": "2026-11-27T06:55:34Z"
   }
  }
 }
