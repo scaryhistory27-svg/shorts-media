@@ -7,7 +7,7 @@
    "series": "case-closed",
    "episode": 1,
    "title": "A Painting Vanished. Can You Solve It? 🕵️ #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -29,12 +29,26 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-27T06:55:34Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-27T06:55:41Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-27T06:55:41Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-27T06:55:54Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-27T06:52:27Z",
-   "updated": "2026-11-27T06:55:34Z"
+   "updated": "2026-11-27T06:55:54Z",
+   "metricool_id": 443992030,
+   "publish_time": "2026-11-26T23:20"
   }
  }
 }

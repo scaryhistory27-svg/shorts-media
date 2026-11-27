@@ -29,8 +29,18 @@
   "speed": 1.08,
   "gap": 0.28
  },
- "episodes": [],
+ "episodes": [
+  {
+   "ep": 1,
+   "case": "The Locked Gallery",
+   "title": "A Painting Vanished. Can You Solve It? 🕵️ #shorts",
+   "publish_time": "2026-11-26T23:20",
+   "metricool_id": 443992030,
+   "hook": "At 9:14, a painting vanished.",
+   "clue": "rain on CCTV vs dry week"
+  }
+ ],
  "ready": [],
- "last_publish": null,
+ "last_publish": "2026-11-26T23:20",
  "format": "fictional detective case per Short: crime → 3 suspects → alibi checks → clue (visible in first 2 s) → reveal → CASE CLOSED; pseudo-3D toolkit channels/detective/lib.js"
 }
