@@ -16,7 +16,10 @@
    "note": "owner 2026-11-27: 2 Shorts EVERY day like the other channels; exact hours = autopilot's choice inside 16:00-21:30 LA, >= 2.5 h apart"
   }
  ],
- "slot_overrides": {},
+ "slot_overrides": {
+  "2026-11-27T17:30": "2026-11-27T17:00",
+  "2026-11-27T20:30": "2026-11-27T20:00"
+ },
  "thumbnail": {
   "mode": "custom",
   "fails": 0,

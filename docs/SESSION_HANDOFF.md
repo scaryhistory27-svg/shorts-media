@@ -1,3 +1,10 @@
+## 2026-11-27 ~11:20 LA — Friday autopilot run
+- Recovery: all Nov 26 posts PUBLISHED (horror 1WX0L5qlCKI, W5p-EYvfiiM; SM j_h44-kUShk, pTqnxYPzdQg; rs001 long re_KrQkepmM; TikTok tt037–042). Jobs marked.
+- Stats (Windsor 14d): SM top Sleep 11 days 1418/80 %, Sun off 1361, Mars 1359, Earth spin 1213; horror top 2 AM 1369/105 %, Security 1202. Flops: FF #3–#7 23–91, long comps 23 and 3.
+- Made: horror The Lights (17:30), The Wallet (20:30); SM #21 Voyager (18:30), #22 Venus (21:30); TikTok tt049–054 (Nov 28). SM long comp #2 skipped (long videos get 3–23 views).
+- Detective cases 002/003 rendering in background (renders slow with 3 in parallel) → publish 17:00 / 20:00 (slot_overrides in channels/detective/log.json).
+- check_variety.py: detective now compared with its own channel (was comparing with horror).
+
 ## 2026-11-27T18:42:11Z — auto checkpoint before context compaction
 
 ```
