@@ -1115,7 +1115,7 @@
    "series": "strange-minute",
    "episode": 21,
    "title": "This Tiny Probe Is Now 1 Light-Day From Earth 🛰️😳 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -1137,12 +1137,26 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-27T19:05:33Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-27T19:05:42Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-27T19:05:42Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-27T19:05:53Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-27T19:05:33Z",
-   "updated": "2026-11-27T19:05:33Z"
+   "updated": "2026-11-27T19:05:53Z",
+   "metricool_id": 444756575,
+   "publish_time": "2026-11-27T18:30"
   }
  }
 }
