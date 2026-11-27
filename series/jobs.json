@@ -1313,7 +1313,7 @@
    "series": "fearfiles-lights",
    "episode": 1,
    "title": "My Christmas Lights Blink When They're Unplugged 🎄😨 #shorts",
-   "stage": "scheduling",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -1343,12 +1343,18 @@
     {
      "stage": "scheduling",
      "at": "2026-11-27T18:51:04Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-27T18:51:50Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-27T18:51:00Z",
-   "updated": "2026-11-27T18:51:04Z"
+   "updated": "2026-11-27T18:51:50Z",
+   "metricool_id": 444742559,
+   "publish_time": "2026-11-27T17:30"
   }
  }
 }
