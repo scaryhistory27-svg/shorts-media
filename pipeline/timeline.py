@@ -57,6 +57,14 @@ bed+=0.03*tens*np.sin(2*np.pi*233*ts)*np.sin(2*np.pi*246.9*ts)
 LIGHT=ep.get("bed")=="light"   # channel 2 (Strange Minute): no horror drone/tension, soft airy pad instead
 if LIGHT: bed=0.02*wind+0.015*np.sin(2*np.pi*110*ts)*(0.6+0.4*np.sin(2*np.pi*0.09*ts))
 if LIGHT: bed*=np.clip((ts-(segs[0]["s"]+segs[0]["d"]))/1.0,0,1)
+NOIR=ep.get("bed")=="noir"   # channel 4 (Case Closed in 60, owner 2026-11-27): rain-on-window ambience + noir jazz instead of horror drone
+if NOIR:
+    _F=np.fft.rfft(rng.standard_normal(N));_fr=np.fft.rfftfreq(N,1/SR);_F*=((_fr>700)&(_fr<7000))/(1+(_fr/4000)**2);_rain=np.fft.irfft(_F,N);_rain/=np.abs(_rain).max()+1e-9
+    _rain*=0.75+0.25*np.sin(2*np.pi*0.05*ts+1)
+    for _i in range(int(total*3)):  # sparse drips on the glass
+        _t0=rng.uniform(0,total);_n=int(0.05*SR);_x=np.arange(_n)/SR;_j=int(_t0*SR)
+        if _j+_n<N:_rain[_j:_j+_n]+=0.6*np.sin(2*np.pi*rng.uniform(1800,3200)*_x)*np.exp(-_x*90)
+    bed=0.035*_rain
 mix+=bed*np.clip(ts/1.0,0,1)*np.clip((total-ts)/1.2,0,1)
 def add(sig,t0,g=1.0):
     i=int(t0*SR); j=min(N,i+len(sig)); mix[i:j]+=g*sig[:j-i]
@@ -124,8 +132,46 @@ def motif(notes,step=0.34,dark=True):   # channel signature: 3 music-box (horror
         i=int(k*step*SR); x=np.arange(n-i)/SR
         out[i:]+=np.exp(-x*(2.2 if dark else 3.0))*(np.sin(2*np.pi*f(m)*x)+0.3*np.sin(2*np.pi*f(m)*(2.01 if dark else 2.0)*x)*np.exp(-x*4)+0.12*np.sin(2*np.pi*f(m)*3.02*x)*np.exp(-x*6))
     return out*0.45
+# ---- detective / noir SFX (channel 4) ----
+def typewriter(n_keys=7):
+    n=int((0.11*n_keys+0.5)*SR);out=np.zeros(n)
+    for k in range(n_keys):
+        i=int(k*0.11*SR+rng.uniform(0,0.02)*SR);m=int(0.03*SR);x=np.arange(m)/SR
+        if i+m<n: out[i:i+m]+=_bp(rng.standard_normal(m),1500,6000)*np.exp(-x*160)+0.4*np.sin(2*np.pi*900*x)*np.exp(-x*120)
+    i=int((0.11*n_keys+0.05)*SR);m=int(0.35*SR);x=np.arange(m)/SR
+    if i+m<=n: out[i:i+m]+=0.5*np.sin(2*np.pi*2600*x)*np.exp(-x*9)   # carriage bell
+    return out/(np.abs(out).max()+1e-9)*0.7
+def shutter():
+    n=int(0.25*SR);x=np.arange(n)/SR;out=_bp(rng.standard_normal(n),1200,7000)*(np.exp(-x*90)+0.7*np.exp(-np.maximum(x-0.09,0)*110)*(x>0.09))
+    return out/(np.abs(out).max()+1e-9)*0.6
+def paper():
+    n=int(0.6*SR);x=np.arange(n)/SR;env=np.clip(x/0.05,0,1)*np.exp(-x*5)*(0.6+0.4*np.sin(2*np.pi*13*x))
+    return _bp(rng.standard_normal(n),900,5500)*env*0.5
+def steps(k=4):
+    n=int((0.42*k+0.3)*SR);out=np.zeros(n)
+    for i in range(k):
+        j=int(i*0.42*SR);m=int(0.12*SR);x=np.arange(m)/SR
+        out[j:j+m]+=_lp(rng.standard_normal(m),900)*np.exp(-x*45)+0.6*np.sin(2*np.pi*90*x)*np.exp(-x*40)
+    return out/(np.abs(out).max()+1e-9)*0.6
+def _ep(m,d,bright=1.0):   # electric-piano note
+    n=int(d*SR);x=np.arange(n)/SR;f=440*2**((m-69)/12)
+    return (np.sin(2*np.pi*f*x)+0.35*bright*np.sin(2*np.pi*f*2*x)*np.exp(-x*3)+0.15*bright*np.sin(2*np.pi*f*7.02*x)*np.exp(-x*12))*np.exp(-x*2.2)*(1+0.12*np.sin(2*np.pi*5*x))
+def clue():   # bright "found it" piano + bell
+    d=1.6;out=sum(_ep(m,d,1.6) for m in (79,83,86));n=len(out);x=np.arange(n)/SR;out=out+0.6*np.sin(2*np.pi*2093*x)*np.exp(-x*5)
+    return out/(np.abs(out).max()+1e-9)*0.55
+def reveal(): # dramatic low piano chord + bass slide (replaces the horror sting)
+    d=2.6;out=sum(_ep(m,d,0.8) for m in (36,48,51,55,58));n=len(out);x=np.arange(n)/SR
+    out=out+0.8*np.sin(2*np.pi*(55*2**(-x*0.3))*x)*np.exp(-x*1.5)
+    return out/(np.abs(out).max()+1e-9)*0.7
+def stamp():  # rubber stamp thump + paper slap
+    n=int(0.5*SR);x=np.arange(n)/SR;out=0.9*np.sin(2*np.pi*(120-60*x)*x)*np.exp(-x*22)+0.5*_bp(rng.standard_normal(n),600,4000)*np.exp(-x*60)
+    return out/(np.abs(out).max()+1e-9)*0.75
 FX={"sig_dark":(lambda:motif([74,77,73],0.38,True),0.6),"sig_light":(lambda:motif([72,76,79],0.18,False),0.5),"thud":(thud,0.5),"ding":(ding,0.5),"chime":(chime,0.7),"pop":(pop,0.5),"rise":(rise,0.5),"knock":(lambda:knock(),0.9),"knockglass":(lambda:knock(True),0.7),
-    "buzz":(buzz,0.6),"sting":(lambda:sting(2.6),0.75),"hit":(lambda:boom(2.0),0.7),"heart":(heart,0.55),"whoosh":(whoosh,0.45),"creak":(creak,0.6)}
+    "buzz":(buzz,0.6),"sting":(lambda:sting(2.6),0.75),"hit":(lambda:boom(2.0),0.7),"heart":(heart,0.55),"whoosh":(whoosh,0.45),"creak":(creak,0.6),
+    "typewriter":(typewriter,0.5),"shutter":(shutter,0.5),"paper":(paper,0.45),"steps":(steps,0.5),"clue":(clue,0.6),"reveal":(reveal,0.7),"stamp":(stamp,0.75)}
+if NOIR:   # noir mapping: horror impacts become detective sounds; CASE CLOSED stamp lands with the end-card stamp
+    for e in ev: e["type"]={"sting":"reveal","hit":"stamp","heart":"steps","whoosh":"paper"}.get(e["type"],e["type"])
+    ev.append({"t":round(segs[-1]["words"][-1]["s"]+0.6+0.18,3),"type":"stamp"})
 sfx=np.zeros(N)
 for e in ev:
     f,g=FX[e["type"]]; x=f(); i0=int(max(0,e["t"]-(0.05 if e["type"]=="sting" else 0))*SR); j0=min(N,i0+len(x)); sfx[i0:j0]+=g*x[:j0-i0]
@@ -138,6 +184,7 @@ SFX_ENV_PENDING=True
 def music_bed(N,seed):
     r=np.random.default_rng(seed); out=np.zeros(N); tt=np.arange(N)/SR
     if LIGHT: return music_pulse(N,seed) if ep.get('music_style','pulse')=='pulse' else music_light(N,seed)
+    if NOIR: return music_noir(N,seed)
     progs=[[(62,65,69),(58,62,65),(55,58,62),(57,61,64)],[(57,60,64),(53,57,60),(55,59,62),(52,55,59)],[(62,65,69),(60,64,67),(58,62,65),(57,60,64)]]
     prog=progs[r.integers(len(progs))]; L=8.0; f=lambda m:440*2**((m-69)/12)
     for ci in range(int(N/SR/L)+2):
@@ -158,6 +205,33 @@ def music_bed(N,seed):
     M=1<<int(np.ceil(np.log2(N+n))); wet=np.fft.irfft(np.fft.rfft(out,M)*np.fft.rfft(ir,M),M)[:N]
     wet/=np.abs(wet).max()+1e-9; dry=out/(np.abs(out).max()+1e-9)
     return 0.45*dry+0.55*wet
+def music_noir(N,seed):
+    # late-night noir jazz trio: walking upright bass + brushed snare/ride with swing + soft electric-piano comping (minor ii-V-i)
+    r=np.random.default_rng(seed);out=np.zeros(N);bpm=r.choice([84,90,96]);beat=60/bpm;sw=beat*0.66
+    keys=[0,2,5,7,-2][r.integers(5)];f=lambda m:440*2**((m-69)/12)
+    prog=[[50,53,56,60],[43,47,50,53],[48,51,55,58],[48,51,55,58],[44,48,51,55],[43,47,50,53],[48,51,55,58],[46,50,53,56]]
+    prog=[[n+keys for n in c] for c in prog];bar=4*beat;t=0.0;k=0
+    def put(sig,t0,g):
+        i=int(t0*SR);j=min(N,i+len(sig))
+        if i<N: out[i:j]+=g*sig[:j-i]
+    def bass(m,d):
+        n=int(d*SR);x=np.arange(n)/SR;fr=f(m);return (np.sin(2*np.pi*fr*x)+0.5*np.sin(2*np.pi*fr*2*x)*np.exp(-x*6))*np.exp(-x*3.5)*np.clip(x/0.008,0,1)
+    while t<N/SR:
+        ch=prog[k%len(prog)];root=ch[0]-12
+        walk=[root,root+[3,4][r.integers(2)],root+7,ch[1]-12+r.choice([-1,1])]
+        for b in range(4): put(bass(walk[b],beat*0.95),t+b*beat,0.55)
+        for b in (1,3):   # comp on 2 and 4 (+ swung "and" sometimes)
+            put(sum(_ep(m+12,beat*1.6,0.7) for m in ch[1:]),t+b*beat,0.10)
+            if r.random()<0.35: put(sum(_ep(m+12,beat*0.8,0.7) for m in ch[1:]),t+b*beat+sw,0.06)
+        for b in range(4):  # ride cymbal swing pattern + brush swish
+            for off in ([0] if b%2==0 else [0,sw]):
+                m=int(0.35*SR);x=np.arange(m)/SR;put(_bp(r.standard_normal(m),5000,11000)*np.exp(-x*(9 if off==0 else 14)),t+b*beat+off,0.05)
+            if b in (1,3):
+                m=int(0.25*SR);x=np.arange(m)/SR;put(_bp(r.standard_normal(m),1500,6000)*np.clip(x/0.03,0,1)*np.exp(-x*12),t+b*beat,0.06)
+        t+=bar;k+=1
+    n=int(1.2*SR);ir=r.standard_normal(n)*np.exp(-np.arange(n)/SR*3.5);ir[0]=2.0;M=1<<int(np.ceil(np.log2(N+n)))
+    wet=np.fft.irfft(np.fft.rfft(out,M)*np.fft.rfft(ir,M),M)[:N];wet/=np.abs(wet).max()+1e-9;dry=out/(np.abs(out).max()+1e-9)
+    return 0.75*dry+0.25*wet
 def music_light(N,seed):
     # curious/wonder bed: major-key pads (I–V–vi–IV family) + bright plucked arpeggio, soft reverb
     r=np.random.default_rng(seed); out=np.zeros(N); tt=np.arange(N)/SR; f=lambda m:440*2**((m-69)/12)

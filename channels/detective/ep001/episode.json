@@ -9,7 +9,7 @@
  "voice_fx": "lively",
  "speed": 1.06,
  "gap": 0.22,
- "music_level": 0.09,
+ "music_level": 0.1,
  "signature": false,
  "sig_voice": false,
  "endTitle": "CASE CLOSED",
@@ -79,7 +79,13 @@
     "million": "y",
     "lie.": "r"
    },
-   "speed": 1.0
+   "speed": 1.0,
+   "sfx": [
+    {
+     "word": "dollars.",
+     "type": "paper"
+    }
+   ]
   },
   {
    "scene": "doorman",
@@ -88,7 +94,13 @@
     "doorman": "y",
     "eight.": "y"
    },
-   "speed": 1.1
+   "speed": 1.1,
+   "sfx": [
+    {
+     "word": "walk",
+     "type": "steps"
+    }
+   ]
   },
   {
    "scene": "hale",
@@ -97,7 +109,13 @@
     "Hale": "y",
     "footage.": "y"
    },
-   "speed": 1.08
+   "speed": 1.08,
+   "sfx": [
+    {
+     "word": "footage.",
+     "type": "typewriter"
+    }
+   ]
   },
   {
    "scene": "footage",
@@ -107,7 +125,13 @@
     "window.": "y"
    },
    "speed": 1.0,
-   "gap": 0.3
+   "gap": 0.3,
+   "sfx": [
+    {
+     "word": "rain,",
+     "type": "clue"
+    }
+   ]
   },
   {
    "scene": "dry",
@@ -116,13 +140,13 @@
     "hadn't": "r",
     "week.": "y"
    },
+   "speed": 1.04,
    "sfx": [
     {
      "word": "week.",
-     "type": "sting"
+     "type": "reveal"
     }
-   ],
-   "speed": 1.04
+   ]
   },
   {
    "scene": "loop",
@@ -149,14 +173,14 @@
     "guard": "r",
     "confessed": "y"
    },
+   "speed": 0.98,
+   "gap": 0.4,
    "sfx": [
     {
      "word": "confessed",
-     "type": "hit"
+     "type": "shutter"
     }
-   ],
-   "speed": 0.98,
-   "gap": 0.4
+   ]
   },
   {
    "scene": "closed",
@@ -196,5 +220,7 @@
    "IS LYING"
   ],
   "sub": "CAN YOU SOLVE IT?"
- }
+ },
+ "bed": "noir",
+ "sfx_level": 0.24
 }

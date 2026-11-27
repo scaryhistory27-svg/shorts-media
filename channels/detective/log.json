@@ -45,5 +45,11 @@
  ],
  "ready": [],
  "last_publish": "2026-11-26T23:20",
- "format": "fictional detective case per Short: crime → 3 suspects → alibi checks → clue (visible in first 2 s) → reveal → CASE CLOSED; pseudo-3D toolkit channels/detective/lib.js"
+ "format": "fictional detective case per Short: crime → 3 suspects → alibi checks → clue (visible in first 2 s) → reveal → CASE CLOSED; pseudo-3D toolkit channels/detective/lib.js",
+ "sound": {
+  "bed": "noir",
+  "music_level": 0.1,
+  "sfx_level": 0.24,
+  "note": "owner 2026-11-27: own sound — noir jazz trio (walking bass, brushes/ride swing, electric piano), rain-on-window ambience; SFX typewriter/shutter/paper/steps/clue/reveal/stamp (horror sting/hit auto-map to reveal/stamp); CASE CLOSED stamp sound automatic"
+ }
 }

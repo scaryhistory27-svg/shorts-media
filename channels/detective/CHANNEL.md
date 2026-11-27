@@ -17,3 +17,8 @@ Owner 2026-11-27: "a third channel about detectives — totally different design
   · comments → if people guess wrong a lot, keep the difficulty; if everyone guesses right instantly, make the clue subtler;
   · subs per 1k views → which case types convert best; make more of them.
 - Report the decisions (what changed and why) in the daily report's "🕵️ Case Closed in 60" block.
+
+## Sound (owner 2026-11-27: "change the SFX and background music on this channel")
+episode.json `"bed": "noir"` (mandatory): rain-on-window ambience instead of the horror drone, procedural NOIR JAZZ trio (walking upright bass, brushed snare + swing ride,
+electric-piano comping, tempo/key seeded per case), music_level 0.10, sfx_level 0.24. Detective SFX types: typewriter, shutter, paper, steps, clue (bright "found it" chord on the clue),
+reveal (dramatic low piano chord on the twist), stamp (CASE CLOSED — added automatically). Max 6 per video, never on lines 1–2, only where the picture shows it.
