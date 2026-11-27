@@ -155,3 +155,8 @@ narration ~168 words/min, median length ~35 s. Formula: strange question → ins
   "Why <everyday thing> Is <shocking>". Mix: body/"you" (new), Earth/space catastrophes (our winners), live trends.
 - Structure: hook question (≤ 2 s) → 1st consequence by 3 s → 3–5 escalating consequences (each a new shot) → twist ("but here's the weird part") → loop line back to the hook.
 - Keep: ding after the question, Tick CTA, pulse music, first comment question.
+
+## Variety / monetization safety (owner 2026-11-27)
+Rotate hook openings (max 2 "What if…" in a row; also "Scientists just found…", "You've never seen…", "This tiny…", "Here's what happens when…"),
+formats (what-if, myth vs fact, countdown/top-3, size comparison, "a day in the life of…"), CTA slogans
+("ONE STRANGE MINUTE. EVERY DAY." / "MORE WEIRD SCIENCE DAILY." / "STAY CURIOUS. SUBSCRIBE." / "TOMORROW: ANOTHER WHAT-IF."). `check_variety.py` must PASS.

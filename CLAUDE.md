@@ -100,6 +100,16 @@ Everything is done end-to-end without asking the owner: story → 2D animation �
   Strange Minute "That's one Strange Minute." (pre-rendered assets/sig/<channel>/build/l00.wav in the channel voice; re-generate with tts.py only if the voice changes).
   The end motif plays right after it. Every video ends with the same phrase — never change the wording.
   First comment may rotate in "Did you spot the Watcher? 👁" / "Did you spot Tick? ⏱" (every 2nd–3rd video). Never spell it out in captions.
+- **NO TEMPLATE LOOK — MONETIZATION SAFETY (owner 2026-11-27: "make every video unlike the others so monetization isn't banned for repetitive content"):**
+  YouTube YPP "inauthentic content" (July 2025, clarified July 2026) demonetizes mass-produced / template videos with little variation. Every Short must differ in substance:
+  · HOOK PATTERN rotates — never 3 videos in a row with the same first word (horror: warning "Never…" / "I found…" / impossible fact "My clock…" / "This is what happens…" / question;
+    Strange Minute: "What if…" / "Scientists just…" / "You've never…" / "This tiny…" / "Here's what happens…").
+  · STRUCTURE varies — line count, length (40–58 s), perspective (1st person / "you" / documented log, CCTV, texts, voicemail), story shape (twist, countdown, myth vs fact, comparison).
+  · VISUALS — a NEW set and new scene drawings per video (≤ 50 % scene names reused from the previous one), different palette/time of day/location; recurring branding
+    (header, Watcher/Tick, CTA, voice tag) is fine — branding may repeat, the content may not.
+  · METADATA — unique title, description, tags mix and first comment; rotate CTA slogans and end-card titles (never the same as the previous video).
+  · LONG VIDEOS add new value: narrated intro, new cards, new order/theme; alternate compilations with ORIGINAL long formats (forum stories, new deep-dives).
+  · Gate: `python3 pipeline/check_variety.py $E` must print PASS before publishing (part of QA, like check_hook.py). Fix the script/metadata and re-render on FAIL.
 - **SUBSCRIBE CONVERSION (owner 2026-11-22: "find online how to make people subscribe, and do exactly that"; web research 2026-11-22):**
   1. TITLES HOOK-FIRST (data 2026-11-26: numbered-prefix titles "FearFiles #3–#5" got 31–66 views and "Strange Minute #13–#14" 42–122 vs 700–1400 for plain hook titles):
      YouTube title = the hook as a promise + emoji + #shorts, NO "FearFiles #N:" / "Strange Minute #N:" prefix. Series identity stays in the header, cover and signature.

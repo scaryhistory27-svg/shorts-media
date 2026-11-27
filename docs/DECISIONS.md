@@ -71,3 +71,4 @@ Web research: numbered series identity, mid-video subscribe prompt ~20 s, concre
 - Daily compaction trigger deleted (owner).
 - Owner: signature voice tag on the end card — FearFiles "Sleep tight. The Watcher won't.", SM "That's one Strange Minute." (assets/sig).
 - 2026-11-26: Titles hook-first, numbered prefix dropped (data: #3–#5 31–66 views vs 700–1400 for plain hook titles).
+- 2026-11-27: Variety gate check_variety.py (owner: avoid repetitive-content demonetization). Rotate hook first word (max 2 in a row), new scenes, unique metadata, rotating CTA/end titles.
