@@ -41,6 +41,16 @@ const SCN={
   owner:(lt,p,t,d,seg)=>{dolly(t,40,0);layer(3,()=>{room3(t,{wall:'#5a3a2a',floor:'#3a2418',back:[220,400,860,1060]});ctx.fillStyle='#1a0e08';ctx.fillRect(440,860,200,200);glow(540,980,260,'rgba(255,130,40,A)',0.5+0.15*Math.sin(t*9));
       for(let i=0;i<5;i++){ctx.fillStyle=`rgba(255,${150+i*20},60,${0.7-i*0.1})`;ctx.beginPath();ctx.ellipse(540+Math.sin(t*7+i)*14,1030-i*22,40-i*7,30,0,0,7);ctx.fill()}frame3(330,520,180,220,false,t);sign3(620,520,200,120,[['INSURED',28],['$2,000,000',26,'#7a5a00']],t)},1.2);
     layer(1,()=>{box3(560,1080,360,200,80,'#6a2a2a',{dx:-0.2,dy:-0.4});toon(380,1300,1.2,t,{...OWNER,look:0.5,talk:talkNow(seg,t),brow:'raised',armR:-1.2})});grade(0.25,0.15)},
+  driver:(lt,p,t,d,seg)=>{dolly(t,40,0);layer(3,()=>{const g=ctx.createLinearGradient(0,0,0,H);g.addColorStop(0,'#1a2030');g.addColorStop(1,'#0c0f16');ctx.fillStyle=g;ctx.fillRect(-300,-300,W+600,H+600);
+      for(let i=0;i<5;i++){ctx.fillStyle='#0b1422';ctx.fillRect(60+i*200,420,170,260);ctx.save();ctx.beginPath();ctx.rect(60+i*200,420,170,260);ctx.clip();for(let k=0;k<6;k++){const x=60+i*200+((k*53-t*300)%400+400)%400-60;ell(x,560+((k*37)%90),8,8,'rgba(255,200,120,0.8)')}ctx.restore()}},1.5);
+    layer(1,()=>{box3(80,1020,920,260,60,'#c8a63a',{dx:0,dy:-0.4});toon(560,1180,1.2,t,{coat:'#7a5230',hair:'#9a9a9a',skin:'#b98a66',moustache:true,glasses:true,look:-0.5,talk:talkNow(seg,t),brow:'raised'});
+      ctx.save();ctx.translate(560,1060);ctx.rotate(Math.sin(t*0.8)*0.1);ctx.strokeStyle='#1a1a1a';ctx.lineWidth=18;ctx.beginPath();ctx.arc(0,0,120,0,7);ctx.stroke();ctx.restore();sign3(330,260,420,110,[['BUS 9 · 9:02 PM',38]],t)});grade(0.1,0.25)},
+  money:(lt,p,t)=>{dolly(t,30,0);layer(3,()=>room3(t,{wall:'#5a3a2a',floor:'#3a2418'}),2.5);layer(1.6,()=>pendant(540,300,t));
+    layer(1,()=>{box3(140,1060,800,200,100,'#3a2418',{dx:0,dy:-0.5});const k=ease(clamp(lt/1.2,0,1));for(let i=0;i<8;i++){const x=260+(i%4)*150,y=lerp(700,1000-Math.floor(i/4)*44,k)+Math.sin(t*3+i)*3;box3(x,y,130,40,30,'#4a8a4a',{dx:-0.2,dy:-0.5});ctx.fillStyle='#e8f0d0';ctx.font='900 22px Inter';ctx.textAlign='center';ctx.fillText('$',x+65,y+28)}
+      sign3(300,380,480,170,[['INSURANCE PAYOUT',30],['$2,000,000',56,'#2a6a2a']],t)});grade(0.2,0.15)},
+  doorman:(lt,p,t,d,seg)=>{dolly(t,50,0);street(t,{rain:false});layer(1,()=>{box3(560,560,420,700,40,'#3a3036',{dx:-0.25,dy:-0.3});ctx.fillStyle='rgba(255,220,150,0.85)';ctx.fillRect(640,820,260,440);glow(770,1040,320,'rgba(255,200,120,A)',0.3);
+      sign3(600,600,340,100,[['THE ROYCE',40]],t);toon(770,1290,1.1,t,{coat:'#6a1e22',hat:'cap',hair:'#2a1e16',skin:'#8a5a3e',look:-0.6,talk:talkNow(seg,t),brow:'neutral',badge:true});
+      toon(330,1290,1.1,t,{...OWNER,look:0.6});clock('8:00',300,520,60,'#ffe3a0',t,'PM')});grade(0.15,0.25)},
   hale:(lt,p,t,d,seg)=>{dolly(t,60,0);street(t,{rain:true});layer(1,()=>{toon(moveAlong(clamp(p*1.25,0,1),-120,420),1300,1.25,t,{...HALE,walk:p<0.8?1.1:0,look:p>0.8?0.6:0,talk:0,brow:'angry'});
       box3(620,760,330,420,50,'#2a3040',{dx:-0.2,dy:-0.3});cctv(660,820,250,170,t)});grade(0.1,0.3)},
   footage:(lt,p,t)=>{ctx.fillStyle='#05070b';ctx.fillRect(-200,-200,W+400,H+400);const z=lerp(1,1.22,ease(p));ctx.save();ctx.translate(540,800);ctx.scale(z,z);ctx.translate(-540,-800);cctv(110,500,860,580,t,{hl:p>0.35});ctx.restore();
@@ -58,4 +68,4 @@ const SCN={
     layer(1,()=>{ctx.save();ctx.translate(540,800);ctx.rotate(-0.04);shadow(10,440,420,30,0.4);ctx.fillStyle='#e2d6b8';ctx.fillRect(-360,-420,720,840);ctx.fillStyle='#c8b890';ctx.fillRect(-360,-420,720,80);ctx.fillStyle='#2a2620';ctx.font='900 40px "JetBrains Mono"';ctx.textAlign='left';ctx.fillText('CASE 001 · ASHFORD GALLERY',-330,-365);
       ctx.font='700 30px "JetBrains Mono"';['STOLEN: "THE GREY HARBOUR"','KEYS: GUARD, CLEANER, OWNER','CAM 2: RAIN ON THE WINDOW','WEATHER: DRY FOR 7 DAYS','=> FOOTAGE LOOPED','SUSPECT: THE GUARD'].forEach((l,i)=>{ctx.fillStyle=i===2||i===3?'#7a5a00':'#2a2620';ctx.fillText(l,-320,-250+i*80)});ctx.restore()});grade(0.18,0.15);endCard(seg,t)},
 };
-const CAM={hook:[1.06,1.0],board:[1,1.05],guard:[1,1.04],cleaner:[1,1.03],owner:[1,1.04],hale:[1,1.03],footage:[1,1.02],dry:[1,1.04],loop:[1,1.04],controls:[1,1.05],confess:[1.08,1.0],closed:[1,1.03]};
+const CAM={driver:[1,1.04],money:[1,1.06],doorman:[1,1.04],hook:[1.06,1.0],board:[1,1.05],guard:[1,1.04],cleaner:[1,1.03],owner:[1,1.04],hale:[1,1.03],footage:[1,1.02],dry:[1,1.04],loop:[1,1.04],controls:[1,1.05],confess:[1.08,1.0],closed:[1,1.03]};

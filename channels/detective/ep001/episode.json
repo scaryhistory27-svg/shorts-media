@@ -4,11 +4,11 @@
  "title": "60 SECOND DETECTIVE · CASE 001",
  "stamp": "ASHFORD GALLERY · 11:40 PM",
  "style": "dark",
- "voice": "bm_george",
- "lang": "en-gb",
- "voice_fx": "none",
- "speed": 0.95,
- "gap": 0.4,
+ "voice": "am_onyx:0.5,am_eric:0.5",
+ "lang": "en-us",
+ "voice_fx": "smoky",
+ "speed": 1.08,
+ "gap": 0.28,
  "music_level": 0.09,
  "signature": false,
  "sig_voice": false,
@@ -18,12 +18,12 @@
   {
    "scene": "hook",
    "text": "At 9:14, a painting vanished.",
-   "say": "At nine fourteen, a painting vanished.",
    "hl": {
     "vanished.": "y"
    },
-   "gap": 0.35,
-   "speed": 1.1
+   "say": "At nine fourteen, a painting vanished.",
+   "speed": 1.12,
+   "gap": 0.3
   },
   {
    "scene": "board",
@@ -45,19 +45,46 @@
    "scene": "cleaner",
    "text": "The cleaner said: I left at nine. Ask the bus driver.",
    "hl": {
-    "nine.": "y"
+    "nine.": "y",
+    "driver.": "y"
    }
+  },
+  {
+   "scene": "driver",
+   "text": "The driver remembered her. Bus 9, at 9:02.",
+   "hl": {
+    "remembered": "y",
+    "9:02.": "y"
+   },
+   "say": "The driver remembered her. Bus nine, at nine-oh-two."
   },
   {
    "scene": "owner",
    "text": "The owner said: I was home. It's insured anyway.",
    "hl": {
+    "home.": "y",
     "insured": "y"
    }
   },
   {
+   "scene": "money",
+   "text": "Two million dollars. A good reason to lie.",
+   "hl": {
+    "million": "y",
+    "lie.": "r"
+   }
+  },
+  {
+   "scene": "doorman",
+   "text": "But his doorman saw him come home at eight.",
+   "hl": {
+    "doorman": "y",
+    "eight.": "y"
+   }
+  },
+  {
    "scene": "hale",
-   "text": "Inspector Hale asked for the camera footage.",
+   "text": "So Inspector Hale asked for the camera footage.",
    "hl": {
     "Hale": "y",
     "footage.": "y"
@@ -95,7 +122,7 @@
   },
   {
    "scene": "controls",
-   "text": "Only one person controlled the cameras.",
+   "text": "And only one person controlled the cameras.",
    "hl": {
     "one": "r",
     "cameras.": "y"
