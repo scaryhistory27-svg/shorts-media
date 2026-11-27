@@ -104,6 +104,41 @@
    "updated": "2026-11-27T19:33:55Z",
    "metricool_id": 444782971,
    "publish_time": "2026-11-27T17:00"
+  },
+  "2026-11-27T20:30-case-closed-ep3": {
+   "id": "2026-11-27T20:30-case-closed-ep3",
+   "slot": "2026-11-27T20:30",
+   "series": "case-closed",
+   "episode": 3,
+   "title": "His Selfie Was The Perfect Alibi. Spot The Lie? 🕵️ #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-27T20:01:55Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-27T20:01:55Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-27T20:01:55Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-27T20:01:55Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-27T20:01:55Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-27T20:01:55Z",
+   "updated": "2026-11-27T20:01:55Z"
   }
  }
 }
