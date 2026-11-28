@@ -1,7 +1,7 @@
 ## 2026-11-28 ~11:10 LA — Saturday autopilot run
 - Recovery: all Nov 27 posts published (horror bfkoV0L89zo, 0fNiIjztqWo; SM k7_yppObdsg, CBKwioCRtg4; detective J1ys9doTdU4, kLmeNkbVomE; TikTok tt049+).
 - Windsor (lag 1–2 d): SM Oceans Fresh climbed to 1043 / 60 %, black hole 204 at 86 %; horror #8/#9 62–90 (weak); long comps 3–18.
-- Made: horror The Photo 16:00, Advent Calendar 19:30; SM ISS 17:00, Betelgeuse 20:00; channel 4 v2 #01 gum 17:30, #02 elevator 20:30 (render in progress at 11:10); TikTok tt055–060 for Nov 29.
+- Made: horror The Photo 16:00, Advent Calendar 19:30; SM ISS 17:00, Betelgeuse 20:00; channel 4 v2 #01 gum 17:30, #02 elevator 20:30 (445732667); TikTok tt055–060 for Nov 29.
 - Channel 4 pivot done (owner 2026-11-28): CHANNEL.md v2, CLAUDE.md, trigger prompt 9c updated; check_hook allows "here's how / how to survive".
 
 ## 2026-11-27 ~11:20 LA — Friday autopilot run

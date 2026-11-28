@@ -221,7 +221,7 @@
    "series": "case-closed",
    "episode": 5,
    "title": "How To Survive A Falling Elevator 🛗😳 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -243,12 +243,26 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-28T19:13:41Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-28T19:13:49Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-28T19:13:50Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-28T19:14:02Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-28T19:13:41Z",
-   "updated": "2026-11-28T19:13:41Z"
+   "updated": "2026-11-28T19:14:02Z",
+   "metricool_id": 445732667,
+   "publish_time": "2026-11-28T20:30"
   }
  }
 }
