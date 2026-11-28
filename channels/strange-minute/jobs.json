@@ -1218,6 +1218,76 @@
    "publish_time": "2026-11-27T21:30",
    "youtube_id": "CBKwioCRtg4",
    "youtube_url": "https://www.youtube.com/shorts/CBKwioCRtg4"
+  },
+  "2026-11-28T17:00-strange-minute-ep23": {
+   "id": "2026-11-28T17:00-strange-minute-ep23",
+   "slot": "2026-11-28T17:00",
+   "series": "strange-minute",
+   "episode": 23,
+   "title": "What If The Space Station Fell Out Of The Sky? 🛰️😳 #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-28T19:05:04Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-28T19:05:04Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-28T19:05:04Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-28T19:05:04Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-28T19:05:04Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-28T19:05:04Z",
+   "updated": "2026-11-28T19:05:04Z"
+  },
+  "2026-11-28T20:00-strange-minute-ep24": {
+   "id": "2026-11-28T20:00-strange-minute-ep24",
+   "slot": "2026-11-28T20:00",
+   "series": "strange-minute",
+   "episode": 24,
+   "title": "Scientists Just Found Betelgeuse's Secret Twin ⭐😳 #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-28T19:05:04Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-28T19:05:04Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-28T19:05:04Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-28T19:05:04Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-28T19:05:04Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-28T19:05:04Z",
+   "updated": "2026-11-28T19:05:04Z"
   }
  }
 }
