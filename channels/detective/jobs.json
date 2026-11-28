@@ -214,6 +214,41 @@
    "updated": "2026-11-28T19:01:47Z",
    "metricool_id": 445722882,
    "publish_time": "2026-11-28T17:30"
+  },
+  "2026-11-28T20:30-case-closed-ep5": {
+   "id": "2026-11-28T20:30-case-closed-ep5",
+   "slot": "2026-11-28T20:30",
+   "series": "case-closed",
+   "episode": 5,
+   "title": "How To Survive A Falling Elevator 🛗😳 #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-28T19:13:41Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-28T19:13:41Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-28T19:13:41Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-28T19:13:41Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-28T19:13:41Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-28T19:13:41Z",
+   "updated": "2026-11-28T19:13:41Z"
   }
  }
 }
