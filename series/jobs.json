@@ -1472,7 +1472,7 @@
    "series": "fearfiles-advent",
    "episode": 1,
    "title": "Never Open An Advent Calendar Early 🎁😨 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -1494,12 +1494,26 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-28T19:01:19Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-28T19:01:29Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-28T19:01:29Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-28T19:01:47Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-28T19:01:19Z",
-   "updated": "2026-11-28T19:01:19Z"
+   "updated": "2026-11-28T19:01:47Z",
+   "metricool_id": 445722752,
+   "publish_time": "2026-11-28T19:30"
   }
  }
 }
