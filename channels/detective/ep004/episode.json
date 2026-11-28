@@ -1,0 +1,187 @@
+{
+ "series": "What Happens If",
+ "style": "dark",
+ "voice": "am_puck:0.45,am_onyx:0.35,am_eric:0.2",
+ "lang": "en-us",
+ "voice_fx": "lively",
+ "speed": 1.06,
+ "gap": 0.22,
+ "signature": false,
+ "sig_voice": false,
+ "bed": "light",
+ "music_level": 0.08,
+ "sfx_level": 0.24,
+ "episode": 4,
+ "title": "WHAT HAPPENS IF… · #01",
+ "stamp": "GUM · T+0:00",
+ "endTitle": "BENNY SURVIVED.",
+ "endSub": "Would YOU swallow it?",
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "This is what happens if you swallow your gum.",
+   "hl": {
+    "swallow": "y",
+    "gum.": "y"
+   },
+   "speed": 1.22,
+   "gap": 0.3
+  },
+  {
+   "scene": "gulp",
+   "text": "Benny just did it. Gulp. Let's follow it inside.",
+   "hl": {
+    "Gulp.": "y",
+    "inside.": "y"
+   },
+   "speed": 1.1,
+   "sfx": [
+    {
+     "word": "Gulp.",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "throat",
+   "text": "Down the throat it goes. A few seconds, and splash.",
+   "hl": {
+    "throat": "y",
+    "splash.": "y"
+   },
+   "speed": 1.1
+  },
+  {
+   "scene": "stomach",
+   "text": "It lands in his stomach. Acid everywhere.",
+   "hl": {
+    "stomach.": "y",
+    "Acid": "r"
+   },
+   "speed": 1.08
+  },
+  {
+   "scene": "absorb",
+   "text": "The sugar and flavor? Absorbed. Gone.",
+   "hl": {
+    "sugar": "y",
+    "Gone.": "y"
+   },
+   "speed": 1.08,
+   "sfx": [
+    {
+     "word": "Gone.",
+     "type": "ding"
+    }
+   ]
+  },
+  {
+   "scene": "rubber",
+   "text": "But the gum base is basically rubber. Your body can't digest it.",
+   "hl": {
+    "rubber.": "r",
+    "can't": "r"
+   },
+   "speed": 1.1
+  },
+  {
+   "scene": "myth",
+   "text": "So does it stay inside for seven years? Nope. Total myth.",
+   "hl": {
+    "seven": "y",
+    "years?": "y",
+    "myth.": "r"
+   },
+   "speed": 1.1,
+   "sfx": [
+    {
+     "word": "myth.",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "push",
+   "text": "Your gut just pushes it along, like everything else you eat.",
+   "hl": {
+    "pushes": "y"
+   },
+   "speed": 1.1
+  },
+  {
+   "scene": "tubes",
+   "text": "Small intestine. Then the large one. Slowly, slowly.",
+   "hl": {
+    "Small": "y",
+    "large": "y"
+   },
+   "speed": 1.06
+  },
+  {
+   "scene": "exit",
+   "text": "In about one to three days, it leaves the usual way.",
+   "hl": {
+    "three": "y",
+    "days,": "y"
+   },
+   "speed": 1.06
+  },
+  {
+   "scene": "danger",
+   "text": "The only real danger? Swallowing lots of gum, every single day.",
+   "hl": {
+    "danger?": "r",
+    "every": "r"
+   },
+   "speed": 1.1
+  },
+  {
+   "scene": "doctor",
+   "text": "Doctors have found gum blockages in kids who did exactly that.",
+   "hl": {
+    "blockages": "r"
+   },
+   "speed": 1.08
+  },
+  {
+   "scene": "ask",
+   "text": "So one piece is fine. But now that you know where it goes... would you swallow it?",
+   "hl": {
+    "fine.": "y",
+    "swallow": "y"
+   },
+   "speed": 1.08
+  }
+ ],
+ "youtube": {
+  "title": "What Happens If You Swallow Your Gum? 😳 #shorts",
+  "description": "Does swallowed gum really stay inside you for 7 years? Benny follows one piece all the way through. 😳\nNot medical advice. For curiosity only.\n#whathappensif #humanbody #science #funfacts #shorts",
+  "tags": [
+   "what happens if",
+   "swallow gum",
+   "gum 7 years myth",
+   "human body",
+   "digestive system",
+   "science facts",
+   "x-ray animation",
+   "benny"
+  ],
+  "first_comment": "Be honest — have YOU ever swallowed gum on purpose? 😳👇 New what-if every day."
+ },
+ "cover": {
+  "seg": 3,
+  "frac": 0.6,
+  "top": "WHAT HAPPENS IF",
+  "lines": [
+   "7 YEARS",
+   "INSIDE?"
+  ],
+  "sub": "SWALLOWED GUM"
+ },
+ "sources": [
+  "Duke Health: stomach empties in 30–120 min; 7-year claim false",
+  "Cleveland Clinic: gum base is indigestible and passes through; not 7 years",
+  "Inverse/HowStuffWorks: ~1–3 days; rare blockage cases in children who swallowed several pieces daily",
+  "KidsHealth: occasional swallowed gum is harmless"
+ ]
+}

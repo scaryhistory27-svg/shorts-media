@@ -62,8 +62,8 @@
    "series": "case-closed",
    "episode": 2,
    "title": "Snowed In With A Thief. Can You Spot The Liar? 🕵️ #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -96,14 +96,20 @@
     {
      "stage": "scheduled",
      "at": "2026-11-27T19:33:55Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-28T18:42:33Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-27T19:33:36Z",
-   "updated": "2026-11-27T19:33:55Z",
+   "updated": "2026-11-28T18:42:33Z",
    "metricool_id": 444782971,
-   "publish_time": "2026-11-27T17:00"
+   "publish_time": "2026-11-27T17:00",
+   "youtube_id": "J1ys9doTdU4",
+   "youtube_url": "https://www.youtube.com/shorts/J1ys9doTdU4"
   },
   "2026-11-27T20:30-case-closed-ep3": {
    "id": "2026-11-27T20:30-case-closed-ep3",
@@ -111,8 +117,8 @@
    "series": "case-closed",
    "episode": 3,
    "title": "His Selfie Was The Perfect Alibi. Spot The Lie? 🕵️ #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -145,14 +151,20 @@
     {
      "stage": "scheduled",
      "at": "2026-11-27T20:02:19Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-28T18:42:34Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-27T20:01:55Z",
-   "updated": "2026-11-27T20:02:19Z",
+   "updated": "2026-11-28T18:42:34Z",
    "metricool_id": 444809761,
-   "publish_time": "2026-11-27T20:00"
+   "publish_time": "2026-11-27T20:00",
+   "youtube_id": "kLmeNkbVomE",
+   "youtube_url": "https://www.youtube.com/shorts/kLmeNkbVomE"
   }
  }
 }

@@ -1,0 +1,166 @@
+{
+ "series": "FearFiles: The Advent Calendar",
+ "episode": 1,
+ "title": "FEARFILES: THE CALENDAR",
+ "stamp": "NOV 28 · 11:48 PM",
+ "endTitle": "NOT BEFORE DECEMBER.",
+ "endSub": "What's behind door 24?",
+ "music_level": 0.12,
+ "cta": {
+  "text": "SUBSCRIBE… OR MISS WHAT HAPPENS NEXT.",
+  "hl": "SUBSCRIBE…"
+ },
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "This is what happens if you open it early.",
+   "hl": {
+    "open": "y",
+    "early.": "r"
+   },
+   "speed": 1.2,
+   "gap": 0.35
+  },
+  {
+   "scene": "mail",
+   "text": "Grandma mailed it. Twenty-four doors and a note:",
+   "hl": {
+    "Twenty-four": "y",
+    "note:": "y"
+   }
+  },
+  {
+   "scene": "mail",
+   "text": "\"Not before December.\"",
+   "hl": {
+    "December.\"": "r"
+   }
+  },
+  {
+   "scene": "open",
+   "text": "It was November 28th. I opened door one.",
+   "say": "It was November twenty-eighth. I opened door one.",
+   "hl": {
+    "28th.": "y",
+    "one.": "y"
+   }
+  },
+  {
+   "scene": "pic",
+   "text": "Inside, a tiny drawing of my house.",
+   "hl": {
+    "my": "r",
+    "house.": "r"
+   }
+  },
+  {
+   "scene": "pic",
+   "text": "Door two: my front door. Wide open.",
+   "hl": {
+    "Wide": "r",
+    "open.": "r"
+   }
+  },
+  {
+   "scene": "pic",
+   "text": "Door three: my hallway. Lights off.",
+   "hl": {
+    "hallway.": "y",
+    "off.": "r"
+   }
+  },
+  {
+   "scene": "click",
+   "text": "Then I heard a tiny click.",
+   "hl": {
+    "click.": "r"
+   },
+   "sfx": [
+    {
+     "word": "click.",
+     "type": "creak"
+    }
+   ]
+  },
+  {
+   "scene": "self",
+   "text": "Door four had opened by itself.",
+   "hl": {
+    "itself.": "r"
+   }
+  },
+  {
+   "scene": "pic",
+   "text": "My room. Me, holding the calendar. Right now.",
+   "hl": {
+    "Me,": "r",
+    "now.": "r"
+   }
+  },
+  {
+   "scene": "pic",
+   "text": "And in the doorway behind me, a tall shape.",
+   "hl": {
+    "doorway": "y",
+    "shape.": "r"
+   },
+   "sfx": [
+    {
+     "word": "shape.",
+     "type": "sting"
+    }
+   ]
+  },
+  {
+   "scene": "back",
+   "text": "I didn't turn around. Door five is open now.",
+   "hl": {
+    "didn't": "r",
+    "five": "y"
+   }
+  },
+  {
+   "scene": "hook",
+   "text": "Grandma... what's behind door twenty-four?",
+   "hl": {
+    "twenty-four?": "r"
+   },
+   "sfx": [
+    {
+     "word": "twenty-four?",
+     "type": "sting"
+    }
+   ]
+  }
+ ],
+ "youtube": {
+  "title": "Never Open An Advent Calendar Early 🎁😨 #shorts",
+  "description": "Grandma's note said: not before December. I opened door one on November 28th. 🎁 Every door showed my house — closer each time. What's behind door 24? 👀\n#horrorstory #scary #creepy #adventcalendar #fearfiles #shorts",
+  "tags": [
+   "horror story",
+   "scary",
+   "creepy",
+   "advent calendar",
+   "christmas horror",
+   "december horror",
+   "scary story",
+   "fearfiles"
+  ],
+  "first_comment": "A new nightmare every day 🕯 Look at door 24 in the very first second 👀 What's behind it? 🎁👇"
+ },
+ "cover": {
+  "seg": 10,
+  "frac": 0.6,
+  "top": "FEARFILES",
+  "lines": [
+   "DON'T OPEN",
+   "DOOR 24"
+  ],
+  "sub": "NOT BEFORE DECEMBER"
+ },
+ "signature": {
+  "t": 41.55,
+  "x": 900,
+  "y": 470
+ }
+}

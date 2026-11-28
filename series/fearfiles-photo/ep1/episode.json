@@ -1,0 +1,26 @@
+{
+ "series": "FearFiles: The Photo", "episode": 1, "title": "FEARFILES: THE PHOTO", "stamp": "NOV 28 · 1:12 AM", "endTitle": "COUNT AGAIN.", "endSub": "How many are in YOUR photo?", "music_level": 0.12,
+ "cta": {"text": "SOME STORIES FIND YOU. SUBSCRIBE FIRST.", "hl": "SUBSCRIBE"},
+ "lines": [
+  {"scene": "hook", "text": "Don't count the people in your Thanksgiving photo.", "hl": {"Don't": "r", "count": "y", "photo.": "y"}, "speed": 1.22, "gap": 0.35},
+  {"scene": "porch", "text": "We took ours on the porch. Seven of us.", "hl": {"Seven": "y"}},
+  {"scene": "post", "text": "Mom posted it. Grandma zoomed in.", "hl": {"zoomed": "y"}, "sfx": [{"word": "in.", "type": "buzz"}]},
+  {"scene": "count", "text": "She counted eight.", "hl": {"eight.": "r"}, "sfx": [{"word": "eight.", "type": "heart"}]},
+  {"scene": "face", "text": "Behind my uncle stood a pale woman. Smiling.", "hl": {"pale": "r", "Smiling.": "r"}},
+  {"scene": "face", "text": "Nobody knew her. Nobody saw her that night.", "hl": {"Nobody": "y", "saw": "r"}},
+  {"scene": "grid", "text": "So I checked the timer photos. All twelve.", "hl": {"timer": "y", "twelve.": "y"}},
+  {"scene": "closer", "text": "In every one, she was a step closer to me.", "hl": {"closer": "r", "me.": "r"}, "sfx": [{"word": "me.", "type": "sting"}]},
+  {"scene": "shoulder", "text": "In the last one, her hand was on my shoulder.", "hl": {"hand": "r", "shoulder.": "r"}},
+  {"scene": "buzz", "text": "Then my phone buzzed. A new photo, uploading.", "hl": {"buzzed.": "y", "uploading.": "y"}, "sfx": [{"word": "buzzed.", "type": "buzz"}]},
+  {"scene": "family", "text": "Our family, on the porch. Eight of them.", "hl": {"Eight": "r"}},
+  {"scene": "family", "text": "And I'm not one of them.", "hl": {"not": "r"}, "sfx": [{"word": "them.", "type": "sting"}]},
+  {"scene": "hook", "text": "So count again. How many are in yours?", "hl": {"count": "y", "yours?": "r"}}
+ ],
+ "youtube": {
+  "title": "Don't Count The People In Your Thanksgiving Photo 📸😨 #shorts",
+  "description": "Seven of us posed on the porch. Grandma counted eight. 📸 Twelve timer photos later, I knew who she was waiting for. Count again 👀\n#horrorstory #scary #creepy #thanksgiving #fearfiles #shorts",
+  "tags": ["horror story", "scary", "creepy", "family photo", "extra person in photo", "thanksgiving horror", "scary story", "fearfiles"],
+  "first_comment": "A new nightmare every day 🕯 Did you spot her in the VERY first frame? 📸👀👇"
+ },
+ "cover": {"seg": 4, "frac": 0.6, "top": "FEARFILES", "lines": ["SEVEN OF US.", "EIGHT IN IT."], "sub": "COUNT AGAIN"}
+}

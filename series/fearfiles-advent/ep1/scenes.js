@@ -1,0 +1,31 @@
+// FearFiles: The Advent Calendar — opened early; each door shows my house closer; door 4 opens itself: me, now, a shape behind me.
+const ME={top:'#7a4a8a',topD:'#5a3468'};
+const endCard=(seg,t)=>{const last=seg.words[seg.words.length-1].s;if(TL.segs.indexOf(seg)===TL.segs.length-1&&t>last+0.9){const a=ease(clamp((t-last-0.9)/0.5,0,1));ctx.fillStyle=`rgba(0,0,0,${0.93*a})`;ctx.fillRect(-100,-100,W+200,H+200);ctx.globalAlpha=a;ctx.textAlign='center';ctx.font='900 78px Inter';ctx.fillStyle=C.red;ctx.shadowColor=C.red;ctx.shadowBlur=40;ctx.fillText(TL.endTitle,540,900);ctx.shadowBlur=0;ctx.font='700 40px Inter';ctx.fillStyle='#fff';ctx.fillText(TL.endSub,540,990);ctx.globalAlpha=1}};
+function cal(x,y,s,t,o={}){ctx.save();ctx.translate(x,y);ctx.scale(s,s);ctx.fillStyle='#7a1a22';rr(-330,-430,660,860,24);ctx.fill();ctx.fillStyle='#a8242e';rr(-310,-410,620,820,18);ctx.fill();
+  ctx.fillStyle='#f2e6c8';ctx.font='900 46px Georgia';ctx.textAlign='center';ctx.fillText('ADVENT',0,-340);
+  for(let i=0;i<24;i++){const c=i%4,r=Math.floor(i/4),dx=-225+c*150,dy=-280+r*115;const num=[7,14,2,19,11,24,5,16,1,22,9,13,20,3,17,8,12,23,4,15,10,21,6,18][i];const op=(o.open||[]).includes(num)?1:(num===24?(o.d24||0):0);
+    ctx.fillStyle='#2a0c10';ctx.fillRect(dx-55,dy-45,110,90);if(op>0){ctx.fillStyle='#f2e6c8';ctx.fillRect(dx-50,dy-40,100,80);ctx.fillStyle='#222';ctx.fillRect(dx-30,dy-10,60,40);ctx.beginPath();ctx.moveTo(dx-36,dy-8);ctx.lineTo(dx,dy-32);ctx.lineTo(dx+36,dy-8);ctx.fill()}
+    ctx.save();ctx.translate(dx-55,dy);ctx.scale(1-0.85*op,1);ctx.fillStyle='#c8323c';ctx.fillRect(0,-45,110,90);ctx.strokeStyle='#e8c070';ctx.lineWidth=3;ctx.strokeRect(4,-41,102,82);ctx.fillStyle='#f2e6c8';ctx.font='900 40px Georgia';ctx.fillText(num,55,14);ctx.restore()}
+  ctx.restore()}
+function deskBg(t){ctx.fillStyle='#120c10';ctx.fillRect(-100,-100,W+200,H+200);const f=life.flicker(t*0.5);glow(540,600,700,'rgba(255,200,120,A)',0.12*f);ctx.fillStyle='#3a2418';ctx.fillRect(-100,1180,W+200,H);fog(t,1100,H,'200,180,160',0.04)}
+// tiny drawing shown behind a door, i = which picture
+function pic(i,t,k){ctx.fillStyle='#f2e6c8';ctx.fillRect(140,440,800,620);ctx.strokeStyle='#e8c070';ctx.lineWidth=10;ctx.strokeRect(140,440,800,620);ctx.save();ctx.beginPath();ctx.rect(150,450,780,600);ctx.clip();ctx.strokeStyle='#2a2420';ctx.lineWidth=7;ctx.fillStyle='rgba(42,36,32,0.15)';
+  if(i===0){ctx.strokeRect(330,700,420,300);ctx.beginPath();ctx.moveTo(300,700);ctx.lineTo(540,520);ctx.lineTo(780,700);ctx.stroke();ctx.strokeRect(500,860,80,140);ctx.strokeRect(380,760,80,70);ctx.strokeRect(620,760,80,70)}
+  if(i===1){ctx.strokeRect(390,520,300,500);ctx.save();ctx.translate(390,520);ctx.transform(0.45,0.1,0,1,0,0);ctx.fillStyle='rgba(42,36,32,0.25)';ctx.fillRect(0,0,300,500);ctx.strokeRect(0,0,300,500);ctx.restore();ctx.fillStyle='#111';ctx.fillRect(530,530,150,480)}
+  if(i===2){ctx.beginPath();ctx.moveTo(150,450);ctx.lineTo(470,700);ctx.lineTo(470,860);ctx.lineTo(150,1050);ctx.moveTo(930,450);ctx.lineTo(610,700);ctx.lineTo(610,860);ctx.lineTo(930,1050);ctx.stroke();ctx.fillStyle='#111';ctx.fillRect(470,700,140,160)}
+  if(i===3||i===4){ctx.strokeRect(200,520,260,400);ctx.fillStyle='#111';ctx.fillRect(210,530,240,380);ctx.beginPath();ctx.moveTo(150,920);ctx.lineTo(930,920);ctx.stroke();
+    ctx.lineWidth=6;ctx.beginPath();ctx.arc(640,700,40,0,7);ctx.stroke();ctx.beginPath();ctx.moveTo(640,740);ctx.lineTo(640,880);ctx.moveTo(640,880);ctx.lineTo(600,980);ctx.moveTo(640,880);ctx.lineTo(680,980);ctx.moveTo(640,780);ctx.lineTo(720,820);ctx.moveTo(640,780);ctx.lineTo(720,840);ctx.stroke();ctx.strokeRect(700,800,60,70);
+    if(i===4){const a=clamp(k*1.6,0,1);ctx.globalAlpha=a;ctx.fillStyle='#e8e0d0';ell(330,600,34,40,'#e8e0d0');ctx.fillRect(296,640,68,260);ctx.fillStyle='#111';ell(320,596,6,8,'#111');ell(342,596,6,8,'#111');ctx.globalAlpha=1}}
+  ctx.restore()}
+const SCN={
+  hook:(lt,p,t,d,seg)=>{deskBg(t);const first=seg===TL.segs[0];cal(540,800,1.12,t,{open:first?[]:[1,2,3,4,5],d24:first?0.18+0.05*Math.sin(t*3):0.35});heartbeat(t,0.2);endCard(seg,t)},
+  mail:(lt,p,t,d,seg)=>{deskBg(t);const two=seg.words[0].w.startsWith('"');if(!two){ctx.fillStyle='#b08a5a';ctx.save();ctx.translate(540,900);ctx.rotate(-0.05);ctx.fillRect(-380,-200,760,400);ctx.fillStyle='#8a6a3a';ctx.fillRect(-380,-200,760,40);ctx.restore();cal(540,lerp(1100,780,ease(clamp(lt/1.4,0,1))),0.8,t)}
+    else{ctx.save();ctx.translate(540,800);ctx.rotate(0.04*Math.sin(t));ctx.fillStyle='#f6f0e0';ctx.fillRect(-340,-200,680,400);ctx.fillStyle='#2a3a6a';ctx.font='italic 700 66px Georgia';ctx.textAlign='center';ctx.fillText('Not before',0,-30);ctx.fillStyle='#8a1010';ctx.fillText('December.',0,70);ctx.fillStyle='#555';ctx.font='italic 40px Georgia';ctx.fillText('— Grandma',140,160);ctx.restore()}},
+  open:(lt,p,t)=>{deskBg(t);const k=ease(clamp((lt-0.8)/0.8,0,1));ctx.save();ctx.translate(540,760);ctx.scale(1.3,1.3);ctx.translate(-540+60,-800+60);cal(540,800,1.0,t,{open:k>0?[1]:[]});ctx.restore();walker(880,1320,1.05,t,Object.assign({speed:0,look:-1,reach:0.6},ME))},
+  pic:(lt,p,t,d,seg)=>{deskBg(t);const order=['pic',0];let n=0;for(const x of TL.segs){if(x===seg)break;if(x.scene==='pic')n++}const idx=[0,1,2,3,4][n]??4;pic(idx,t,lt);if(idx===4)heartbeat(t,0.45)},
+  click:(lt,p,t)=>{deskBg(t);const sh=shakeAt(t,['creak'],0.5,6);cal(540+sh,820,0.95,t,{open:[1,2,3]});walker(860,1320,1.1,t,Object.assign({speed:0,look:-1,scared:1},ME));heartbeat(t,0.35)},
+  self:(lt,p,t)=>{deskBg(t);const k=ease(clamp(lt/1.2,0,1));ctx.save();ctx.translate(540,740);ctx.scale(1.4,1.4);ctx.translate(-540-75,-800-180);cal(540,800,1.0,t,{open:k>0.2?[1,2,3,4]:[1,2,3]});ctx.restore()},
+  back:(lt,p,t)=>{ctx.fillStyle='#0c0a10';ctx.fillRect(-100,-100,W+200,H+200);ctx.fillStyle='#1a1418';ctx.fillRect(140,420,300,620);const a=0.6+0.2*Math.sin(t*2);ctx.globalAlpha=a;ctx.fillStyle='#d8d0c4';ell(290,520,36,42,'#d8d0c4');ctx.fillRect(254,560,72,330);ctx.globalAlpha=1;glow(290,600,200,'rgba(255,255,255,A)',0.06);
+    walker(700,1320,1.2,t,Object.assign({speed:0,look:1,scared:1},ME));cal(860,1040,0.35,t,{open:[1,2,3,4,5]})},
+};
+const CAM={hook:[1.08,1.0],mail:[1.0,1.05],open:[1.0,1.05],pic:[1.0,1.08],click:[1.0,1.06],self:[1.0,1.05],back:[1.0,1.1]};

@@ -1,0 +1,179 @@
+{
+ "series": "Strange Minute",
+ "style": "light",
+ "bed": "light",
+ "voice": "am_fenrir",
+ "lang": "en-us",
+ "voice_fx": "explainer",
+ "speed": 1.0,
+ "gap": 0.25,
+ "music_level": 0.12,
+ "episode": 23,
+ "title": "STRANGE MINUTE #23",
+ "stamp": "ISS · 250 MILES UP",
+ "endTitle": "SPLASHDOWN 2031?",
+ "endSub": "Should we save it instead?",
+ "cta": {
+  "text": "LOOK UP MORE OFTEN. SUBSCRIBE.",
+  "hl": "LOOK UP"
+ },
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "What if the space station fell out of the sky?",
+   "hl": {
+    "space": "y",
+    "station": "y",
+    "fell": "r"
+   },
+   "speed": 1.15,
+   "gap": 0.35,
+   "sfx": [
+    {
+     "at": "end",
+     "type": "ding"
+    }
+   ]
+  },
+  {
+   "scene": "iss",
+   "text": "The ISS is as long as a football field and weighs about 925,000 pounds.",
+   "hl": {
+    "football": "y",
+    "925,000": "y"
+   },
+   "say": "The I.S.S. is as long as a football field and weighs about nine hundred twenty-five thousand pounds."
+  },
+  {
+   "scene": "orbit",
+   "text": "It flies 250 miles up, at 17,500 miles per hour.",
+   "hl": {
+    "250": "y",
+    "17,500": "r"
+   },
+   "say": "It flies two hundred fifty miles up, at seventeen thousand five hundred miles per hour."
+  },
+  {
+   "scene": "sunrise",
+   "text": "Fast enough to see about 16 sunrises every single day.",
+   "hl": {
+    "16": "y",
+    "sunrises": "y"
+   },
+   "say": "Fast enough to see about sixteen sunrises every single day."
+  },
+  {
+   "scene": "drag",
+   "text": "But even up there, there's a tiny bit of air, slowly dragging it down.",
+   "hl": {
+    "air,": "y",
+    "down.": "r"
+   }
+  },
+  {
+   "scene": "boost",
+   "text": "Without engine boosts, it would sink, and fall.",
+   "hl": {
+    "boosts,": "y",
+    "fall.": "r"
+   },
+   "sfx": [
+    {
+     "word": "fall.",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "plan",
+   "text": "And that's actually the plan. Around 2030, it's being retired.",
+   "hl": {
+    "plan.": "y",
+    "2030,": "y"
+   },
+   "say": "And that's actually the plan. Around twenty thirty, it's being retired."
+  },
+  {
+   "scene": "tug",
+   "text": "A special SpaceX tug will push it down on purpose.",
+   "hl": {
+    "tug": "y",
+    "purpose.": "r"
+   }
+  },
+  {
+   "scene": "burn",
+   "text": "Most of it will burn up, a fireball streaking across the sky.",
+   "hl": {
+    "burn": "r",
+    "fireball": "r"
+   }
+  },
+  {
+   "scene": "nemo",
+   "text": "The rest splashes into the most remote patch of the Pacific.",
+   "hl": {
+    "remote": "y",
+    "Pacific.": "y"
+   }
+  },
+  {
+   "scene": "skylab",
+   "text": "Last time a station fell uncontrolled, in 1979, Skylab hit Australia.",
+   "hl": {
+    "1979,": "y",
+    "Australia.": "r"
+   },
+   "say": "Last time a station fell uncontrolled, in nineteen seventy-nine, Skylab hit Australia."
+  },
+  {
+   "scene": "fine",
+   "text": "One town even fined NASA 400 dollars for littering.",
+   "hl": {
+    "fined": "y",
+    "400": "y",
+    "littering.": "r"
+   },
+   "say": "One town even fined NASA four hundred dollars for littering."
+  },
+  {
+   "scene": "ask",
+   "text": "So, should we let it fall, or keep it up there as a museum?",
+   "hl": {
+    "fall,": "r",
+    "museum?": "y"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "What If The Space Station Fell Out Of The Sky? 🛰️😳 #shorts",
+  "description": "925,000 pounds, 17,500 mph — and NASA really plans to bring it down around 2030. 🛰️ Last time, Skylab got a littering fine. Let it fall or save it? 👇\n#space #iss #nasa #science #whatif #shorts",
+  "tags": [
+   "what if",
+   "iss",
+   "space station falling",
+   "iss deorbit",
+   "skylab",
+   "nasa",
+   "space facts",
+   "strange minute"
+  ],
+  "first_comment": "A new strange minute every day 🛰️ Let the ISS fall, or turn it into a space museum? 👇"
+ },
+ "cover": {
+  "seg": 8,
+  "frac": 0.6,
+  "top": "STRANGE MINUTE",
+  "lines": [
+   "IT'S COMING",
+   "DOWN"
+  ],
+  "sub": "ISS · 2030"
+ },
+ "sources": [
+  "NASA: ISS ~ 109 m long (football field incl. end zones), ~420,000 kg ≈ 925,000 lb, ~250 mi altitude, ~17,500 mph, ~16 sunrises/day",
+  "NASA/SpaceX: US Deorbit Vehicle contract (up to $843M, June 2024), deorbit ~2030, remote South Pacific splashdown",
+  "Skylab reentry July 1979 over Western Australia; Shire of Esperance issued a $400 littering fine (paid in 2009 by a US radio host)",
+  "Atmospheric drag requires periodic reboosts"
+ ]
+}

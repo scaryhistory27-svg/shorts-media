@@ -1313,8 +1313,8 @@
    "series": "fearfiles-lights",
    "episode": 1,
    "title": "My Christmas Lights Blink When They're Unplugged 🎄😨 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -1347,14 +1347,20 @@
     {
      "stage": "scheduled",
      "at": "2026-11-27T18:51:50Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-28T18:42:33Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-27T18:51:00Z",
-   "updated": "2026-11-27T18:51:50Z",
+   "updated": "2026-11-28T18:42:33Z",
    "metricool_id": 444742559,
-   "publish_time": "2026-11-27T17:30"
+   "publish_time": "2026-11-27T17:30",
+   "youtube_id": "bfkoV0L89zo",
+   "youtube_url": "https://www.youtube.com/shorts/bfkoV0L89zo"
   },
   "2026-11-27T20:30-fearfiles-wallet-ep1": {
    "id": "2026-11-27T20:30-fearfiles-wallet-ep1",
@@ -1362,8 +1368,8 @@
    "series": "fearfiles-wallet",
    "episode": 1,
    "title": "I Found My Own ID In A Stranger's Wallet 🚆😨 #shorts",
-   "stage": "scheduled",
-   "status": "active",
+   "stage": "published",
+   "status": "done",
    "history": [
     {
      "stage": "planned",
@@ -1396,14 +1402,55 @@
     {
      "stage": "scheduled",
      "at": "2026-11-27T18:57:30Z"
+    },
+    {
+     "stage": "published",
+     "at": "2026-11-28T18:42:33Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-27T18:57:11Z",
-   "updated": "2026-11-27T18:57:30Z",
+   "updated": "2026-11-28T18:42:33Z",
    "metricool_id": 444748038,
-   "publish_time": "2026-11-27T20:30"
+   "publish_time": "2026-11-27T20:30",
+   "youtube_id": "0fNiIjztqWo",
+   "youtube_url": "https://www.youtube.com/shorts/0fNiIjztqWo"
+  },
+  "2026-11-28T16:00-fearfiles-photo-ep1": {
+   "id": "2026-11-28T16:00-fearfiles-photo-ep1",
+   "slot": "2026-11-28T16:00",
+   "series": "fearfiles-photo",
+   "episode": 1,
+   "title": "Don't Count The People In Your Thanksgiving Photo 📸😨 #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-28T18:53:29Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-28T18:53:29Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-28T18:53:29Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-28T18:53:29Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-28T18:53:29Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-28T18:53:29Z",
+   "updated": "2026-11-28T18:53:29Z"
   }
  }
 }
