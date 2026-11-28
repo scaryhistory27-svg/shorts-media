@@ -224,11 +224,10 @@ and report the results to the owner. No morning/midday/night posting unless the 
 ## Channel 3 — TikTok "Road to PS5" (owner 2026-11-20)
 **4 photo-carousel posts every day** promoting Strange Minute; rules, hosting status and queue in `channels/tiktok/TIKTOK.md`. Every run, after the YouTube slots: schedule the TikTok posts for the next 36 h (Metricool brand 8179515, provider tiktok).
 
-## Channel 4 — "Case Closed in 60" (detective, owner 2026-11-27)
-Metricool brand **8396167**, YouTube UC9QAuI2j7SqxkXktw2v9hRw, @CaseClosedIn60. Rules, look, voice and growth loop in `channels/detective/CHANNEL.md`; state in
-`channels/detective/log.json` + `jobs.json` (jobs.py with `JOBS_FILE=channels/detective/jobs.json LOG_FILE=channels/detective/log.json`). **2 Shorts EVERY day**, evening LA.
-Original FICTIONAL cases only (never "true crime"), pseudo-3D look (`channels/detective/lib.js`, loaded automatically by render.js), American smoky fast voice.
-Render ≈ 20 min → run in background.
+## Channel 4 — 3D "What Happens If…" (was detective "Case Closed in 60"; FORMAT v2 from 2026-11-28, owner: "switch the 3rd channel to what takes off in recommendations")
+Metricool brand **8396167**, YouTube UC9QAuI2j7SqxkXktw2v9hRw (@CaseClosedIn60 until the owner renames it). Pseudo-3D toolkit look (`channels/detective/lib.js`), host "Benny", X-ray cutaway,
+human body / everyday danger / survival what-ifs (space stays on Strange Minute). Rules + topic bank in `channels/detective/CHANNEL.md`; state `channels/detective/log.json` + `jobs.json`
+(jobs.py with `JOBS_FILE=channels/detective/jobs.json LOG_FILE=channels/detective/log.json`). **2 Shorts EVERY day**, evening LA. Lively American voice (log.json). Render ≈ 20 min → background.
 
 ## Sound design (owner 2026-11-17: "make all sounds realistic — they were too loud and out of place")
 - timeline.py SFX are realistic (filtered knock/creak/heartbeat/whoosh/phone-buzz, soft low impacts, eerie string sting), go through one
