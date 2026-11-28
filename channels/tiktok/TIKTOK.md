@@ -68,3 +68,5 @@ tt043 Vice City portal 00:30 (443534730) · tt044 substation cheat code (unconfi
 tt046 horse statue mystery 12:00 (443534953) · tt047 Jason's boat theory 16:00 (443535043) · tt048 painted eggs tower 19:30 (443535097). Next empty: Nov 28 00:30.
 - 2026-11-28 (scheduled Nov 27): tt049 simulation NPC 00:30 (444764506) · tt050 Tommy's reward 04:30 (444764578) · tt051 Kent Paul cameo 08:00 (444764650) ·
   tt052 Mario nod (unconfirmed) 12:00 (444764734) · tt053 Scarface nod (fan view) 16:00 (444764809) · tt054 week-one playtime question 19:30 (444764902). --subs 16 (last verified count).
+- 2026-11-29 (scheduled Nov 28): tt055 pink garage 00:30 (445724667) · tt056 egg cutscene 04:30 (445724730) · tt057 movie-hitman nod (unconfirmed) 08:00 (445724813) ·
+  tt058 no-spoilers twist 12:00 (445724878) · tt059 first $1M poll 16:00 (445724941) · tt060 Jason vs Lucia driver 19:30 (445725013). --subs 16.
