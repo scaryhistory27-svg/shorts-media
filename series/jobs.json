@@ -1423,7 +1423,7 @@
    "series": "fearfiles-photo",
    "episode": 1,
    "title": "Don't Count The People In Your Thanksgiving Photo 📸😨 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -1445,12 +1445,26 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-28T18:53:29Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-28T18:53:38Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-28T18:53:38Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-28T18:53:50Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-28T18:53:29Z",
-   "updated": "2026-11-28T18:53:29Z"
+   "updated": "2026-11-28T18:53:50Z",
+   "metricool_id": 445716416,
+   "publish_time": "2026-11-28T16:00"
   }
  }
 }
