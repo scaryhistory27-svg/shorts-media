@@ -94,3 +94,10 @@ Trends: GTA 6 week (UFO/Bigfoot/Chiliad finds — GamingBible, Nerdism); smart-s
 - Trends: Thanksgiving (Nov 26) + Black Friday (Nov 27) → horror Black Friday store + mystery package; SM Thanksgiving food-coma (tryptophan myth — LiveScience/AIP/Texas Health).
   Mars–Jupiter close pairing (ESA Nov sky guide) → SM Jupiter-as-Moon (NASA facts: 40× diameter, ~26,000× Moon mass, Io 400+ volcanoes).
   GTA 6 week-1 easter eggs (purexbox, complex, gamingbible, nerdism, vicecitydb): Vice City nightclub portal, substation "Life is passing me by" cheat, TMNT (unconfirmed), horse statue, boat theory, painted eggs.
+
+## 2026-11-28 — Channel 4 pivot research (owner: "see what takes off in recommendations, switch the 3rd channel to it")
+- 3D-animated faceless explainers = fastest-growing faceless Shorts format 2026: Zack D Films-type ≈ 630K avg views/Short, animated "investigations" ≈ 4.8M (taletok.io/blog/best-faceless-youtube-channels — vendor blog, directional).
+- Science/space, history, celebrity news lead faceless Shorts (outlierkit, 1,790-channel tracking); narrated fiction + true-crime-style recaps strong (anijam Nov 2026); 40 s+ Shorts ≈ +33 % engagement (vendor claim).
+- Risk: YouTube removes mass-produced low-effort AI channels → keep original scripts, own character, verified facts, varied structure.
+- Own data: best SM Short = BODY what-if "11 days without sleep" 1418 views / 80 % viewed; detective cases too new to judge.
+- DECISION: channel 4 → format v2 "What happens if / how to survive / inside your body" in the pseudo-3D toolkit, host Benny, X-ray cutaway. SM keeps space.
