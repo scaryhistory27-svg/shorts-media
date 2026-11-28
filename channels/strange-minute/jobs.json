@@ -1225,7 +1225,7 @@
    "series": "strange-minute",
    "episode": 23,
    "title": "What If The Space Station Fell Out Of The Sky? 🛰️😳 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -1247,12 +1247,26 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-28T19:05:04Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-28T19:05:14Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-28T19:05:14Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-28T19:05:30Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-28T19:05:04Z",
-   "updated": "2026-11-28T19:05:04Z"
+   "updated": "2026-11-28T19:05:30Z",
+   "metricool_id": 445725970,
+   "publish_time": "2026-11-28T17:00"
   },
   "2026-11-28T20:00-strange-minute-ep24": {
    "id": "2026-11-28T20:00-strange-minute-ep24",
@@ -1260,7 +1274,7 @@
    "series": "strange-minute",
    "episode": 24,
    "title": "Scientists Just Found Betelgeuse's Secret Twin ⭐😳 #shorts",
-   "stage": "qa_passed",
+   "stage": "scheduled",
    "status": "active",
    "history": [
     {
@@ -1282,12 +1296,26 @@
     {
      "stage": "qa_passed",
      "at": "2026-11-28T19:05:04Z"
+    },
+    {
+     "stage": "uploaded",
+     "at": "2026-11-28T19:05:14Z"
+    },
+    {
+     "stage": "scheduling",
+     "at": "2026-11-28T19:05:14Z"
+    },
+    {
+     "stage": "scheduled",
+     "at": "2026-11-28T19:05:30Z"
     }
    ],
    "retries": 0,
    "errors": [],
    "created": "2026-11-28T19:05:04Z",
-   "updated": "2026-11-28T19:05:04Z"
+   "updated": "2026-11-28T19:05:30Z",
+   "metricool_id": 445726029,
+   "publish_time": "2026-11-28T20:00"
   }
  }
 }
