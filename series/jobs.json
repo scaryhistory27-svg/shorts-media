@@ -1465,6 +1465,41 @@
    "updated": "2026-11-28T18:53:50Z",
    "metricool_id": 445716416,
    "publish_time": "2026-11-28T16:00"
+  },
+  "2026-11-28T19:30-fearfiles-advent-ep1": {
+   "id": "2026-11-28T19:30-fearfiles-advent-ep1",
+   "slot": "2026-11-28T19:30",
+   "series": "fearfiles-advent",
+   "episode": 1,
+   "title": "Never Open An Advent Calendar Early 🎁😨 #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-28T19:01:19Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-28T19:01:19Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-28T19:01:19Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-28T19:01:19Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-28T19:01:19Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-28T19:01:19Z",
+   "updated": "2026-11-28T19:01:19Z"
   }
  }
 }

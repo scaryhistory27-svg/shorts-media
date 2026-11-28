@@ -1,0 +1,177 @@
+{
+ "series": "Strange Minute",
+ "style": "light",
+ "bed": "light",
+ "voice": "am_fenrir",
+ "lang": "en-us",
+ "voice_fx": "explainer",
+ "speed": 1.0,
+ "gap": 0.25,
+ "music_level": 0.12,
+ "episode": 24,
+ "title": "STRANGE MINUTE #24",
+ "stamp": "ORION · 650 LIGHT-YEARS",
+ "endTitle": "BOOM OR MERGE?",
+ "endSub": "Which happens first?",
+ "cta": {
+  "text": "ONE STRANGE MINUTE. EVERY DAY.",
+  "hl": "STRANGE MINUTE."
+ },
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "Scientists just found Betelgeuse's secret twin.",
+   "hl": {
+    "secret": "y",
+    "twin.": "r"
+   },
+   "speed": 1.2,
+   "gap": 0.35,
+   "say": "Scientists just found Beetle-juice's secret twin.",
+   "sfx": [
+    {
+     "at": "end",
+     "type": "ding"
+    }
+   ]
+  },
+  {
+   "scene": "orion",
+   "text": "Betelgeuse is the red shoulder of Orion. You can see it tonight.",
+   "hl": {
+    "red": "r",
+    "Orion.": "y"
+   },
+   "say": "Beetle-juice is the red shoulder of Orion. You can see it tonight."
+  },
+  {
+   "scene": "size",
+   "text": "It's huge: about 700 times wider than our Sun.",
+   "hl": {
+    "700": "y",
+    "wider": "y"
+   },
+   "say": "It's huge: about seven hundred times wider than our Sun."
+  },
+  {
+   "scene": "swap",
+   "text": "Put it where the Sun is, and it would swallow Mercury, Venus, Earth and Mars.",
+   "hl": {
+    "swallow": "r",
+    "Earth": "r"
+   }
+  },
+  {
+   "scene": "dim",
+   "text": "For a century, astronomers wondered why it dims in a strange six-year rhythm.",
+   "hl": {
+    "century,": "y",
+    "six-year": "y"
+   }
+  },
+  {
+   "scene": "found",
+   "text": "Now they've seen the culprit: a companion star named Siwarha.",
+   "hl": {
+    "companion": "y",
+    "Siwarha.": "y"
+   },
+   "say": "Now they've seen the culprit: a companion star named Si-war-ha."
+  },
+  {
+   "scene": "name",
+   "text": "In Arabic, that means her bracelet.",
+   "hl": {
+    "bracelet.": "y"
+   }
+  },
+  {
+   "scene": "mass",
+   "text": "It's about one and a half times the mass of our Sun.",
+   "hl": {
+    "one": "y",
+    "half": "y"
+   }
+  },
+  {
+   "scene": "plow",
+   "text": "And it orbits so close, it plows through Betelgeuse's outer atmosphere.",
+   "hl": {
+    "plows": "r",
+    "atmosphere.": "y"
+   },
+   "say": "And it orbits so close, it plows through Beetle-juice's outer atmosphere."
+  },
+  {
+   "scene": "wake",
+   "text": "One lap every six years, leaving a wake like a speedboat.",
+   "hl": {
+    "wake": "y",
+    "speedboat.": "y"
+   },
+   "sfx": [
+    {
+     "word": "wake",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "merge",
+   "text": "But its orbit is shrinking. They could merge within 9,000 years.",
+   "hl": {
+    "shrinking.": "r",
+    "9,000": "y"
+   },
+   "say": "But its orbit is shrinking. They could merge within nine thousand years."
+  },
+  {
+   "scene": "boom",
+   "text": "Unless Betelgeuse explodes first, so bright you could see it in daylight.",
+   "hl": {
+    "explodes": "r",
+    "daylight.": "y"
+   },
+   "say": "Unless Beetle-juice explodes first, so bright you could see it in daylight."
+  },
+  {
+   "scene": "ask",
+   "text": "So which happens first? Drop your guess.",
+   "hl": {
+    "first?": "y",
+    "guess.": "y"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Scientists Just Found Betelgeuse's Secret Twin ⭐😳 #shorts",
+  "description": "Betelgeuse is 700× wider than the Sun — and a hidden companion, Siwarha, plows through its atmosphere every 6 years. ⭐ Merge or supernova first? 👇\n#space #betelgeuse #astronomy #orion #science #shorts",
+  "tags": [
+   "betelgeuse",
+   "siwarha",
+   "betelgeuse companion",
+   "orion",
+   "supernova",
+   "red supergiant",
+   "space facts",
+   "strange minute"
+  ],
+  "first_comment": "A new strange minute every day ⭐ Merge or supernova — which comes first? 👇 Did you spot Tick? ⏱"
+ },
+ "cover": {
+  "seg": 8,
+  "frac": 0.6,
+  "top": "STRANGE MINUTE",
+  "lines": [
+   "A HIDDEN",
+   "STAR"
+  ],
+  "sub": "BETELGEUSE"
+ },
+ "sources": [
+  "2025–2026 Gemini/Hubble results: companion Siwarha (IAU-approved name Sept 2025, 'her bracelet'), ~1.5 solar masses, ~6-yr orbit at ~4 AU through Betelgeuse's outer atmosphere, leaves a wake",
+  "Possible merger within ~9,000 years (researcher estimate)",
+  "NASA via Live Science: Betelgeuse ~700× the Sun's diameter (radius ~3.3 AU → past Mars, into the asteroid belt); ~650 light-years",
+  "A Betelgeuse supernova is expected to be visible in daylight"
+ ]
+}

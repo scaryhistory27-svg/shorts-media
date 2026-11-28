@@ -165,6 +165,41 @@
    "publish_time": "2026-11-27T20:00",
    "youtube_id": "kLmeNkbVomE",
    "youtube_url": "https://www.youtube.com/shorts/kLmeNkbVomE"
+  },
+  "2026-11-28T17:30-case-closed-ep4": {
+   "id": "2026-11-28T17:30-case-closed-ep4",
+   "slot": "2026-11-28T17:30",
+   "series": "case-closed",
+   "episode": 4,
+   "title": "What Happens If You Swallow Your Gum? 😳 #shorts",
+   "stage": "qa_passed",
+   "status": "active",
+   "history": [
+    {
+     "stage": "planned",
+     "at": "2026-11-28T19:01:19Z"
+    },
+    {
+     "stage": "scripted",
+     "at": "2026-11-28T19:01:19Z"
+    },
+    {
+     "stage": "voiced",
+     "at": "2026-11-28T19:01:19Z"
+    },
+    {
+     "stage": "rendered",
+     "at": "2026-11-28T19:01:19Z"
+    },
+    {
+     "stage": "qa_passed",
+     "at": "2026-11-28T19:01:19Z"
+    }
+   ],
+   "retries": 0,
+   "errors": [],
+   "created": "2026-11-28T19:01:19Z",
+   "updated": "2026-11-28T19:01:19Z"
   }
  }
 }

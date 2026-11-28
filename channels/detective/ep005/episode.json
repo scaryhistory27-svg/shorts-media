@@ -1,0 +1,192 @@
+{
+ "series": "What Happens If",
+ "style": "dark",
+ "voice": "am_puck:0.45,am_onyx:0.35,am_eric:0.2",
+ "lang": "en-us",
+ "voice_fx": "lively",
+ "speed": 1.06,
+ "gap": 0.22,
+ "signature": false,
+ "sig_voice": false,
+ "bed": "light",
+ "music_level": 0.08,
+ "sfx_level": 0.24,
+ "episode": 5,
+ "title": "HOW TO SURVIVE… · #02",
+ "stamp": "ELEVATOR · FLOOR 20",
+ "endTitle": "STAY FLAT.",
+ "endSub": "Would YOU have jumped?",
+ "lines": [
+  {
+   "scene": "hook",
+   "text": "Here's how to survive a falling elevator.",
+   "hl": {
+    "survive": "y",
+    "falling": "r"
+   },
+   "speed": 1.2,
+   "gap": 0.3
+  },
+  {
+   "scene": "snap",
+   "text": "Benny's on floor twenty. Then: snap.",
+   "hl": {
+    "twenty.": "y",
+    "snap.": "r"
+   },
+   "speed": 1.1,
+   "sfx": [
+    {
+     "word": "snap.",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "good",
+   "text": "First, the good news: this almost never happens.",
+   "hl": {
+    "good": "y",
+    "never": "y"
+   },
+   "speed": 1.1
+  },
+  {
+   "scene": "cables",
+   "text": "Elevators hang from several steel cables, and each one could hold the car alone.",
+   "hl": {
+    "several": "y",
+    "alone.": "y"
+   },
+   "speed": 1.12
+  },
+  {
+   "scene": "brakes",
+   "text": "If they all fail, safety brakes clamp onto the rails.",
+   "hl": {
+    "safety": "y",
+    "brakes": "y",
+    "clamp": "r"
+   },
+   "speed": 1.1,
+   "sfx": [
+    {
+     "word": "clamp",
+     "type": "ding"
+    }
+   ]
+  },
+  {
+   "scene": "history",
+   "text": "That trick was invented in the 1850s. It still works today.",
+   "hl": {
+    "1850s.": "y",
+    "works": "y"
+   },
+   "say": "That trick was invented in the eighteen fifties. It still works today.",
+   "speed": 1.08
+  },
+  {
+   "scene": "jump",
+   "text": "But say the brakes fail too. Should Benny jump at the last second?",
+   "hl": {
+    "jump": "r",
+    "last": "y"
+   },
+   "speed": 1.12
+  },
+  {
+   "scene": "nope",
+   "text": "Nope. Even a perfect jump barely slows you down.",
+   "hl": {
+    "Nope.": "r",
+    "barely": "y"
+   },
+   "speed": 1.08
+  },
+  {
+   "scene": "knees",
+   "text": "And standing? Your legs take the whole hit.",
+   "hl": {
+    "standing?": "y",
+    "legs": "r"
+   },
+   "speed": 1.08
+  },
+  {
+   "scene": "flat",
+   "text": "Best move: lie flat on your back and cover your head.",
+   "hl": {
+    "flat": "y",
+    "back": "y",
+    "head.": "y"
+   },
+   "speed": 1.05
+  },
+  {
+   "scene": "spread",
+   "text": "That spreads the impact across your whole body.",
+   "hl": {
+    "spreads": "y",
+    "whole": "y"
+   },
+   "speed": 1.06,
+   "sfx": [
+    {
+     "word": "impact",
+     "type": "whoosh"
+    }
+   ]
+  },
+  {
+   "scene": "record",
+   "text": "In 1945, one woman survived a 75-floor elevator fall.",
+   "hl": {
+    "1945,": "y",
+    "75-floor": "r"
+   },
+   "say": "In nineteen forty-five, one woman survived a seventy-five floor elevator fall.",
+   "speed": 1.06
+  },
+  {
+   "scene": "ask",
+   "text": "So... would you have jumped?",
+   "hl": {
+    "jumped?": "y"
+   },
+   "speed": 1.0
+  }
+ ],
+ "youtube": {
+  "title": "How To Survive A Falling Elevator 🛗😳 #shorts",
+  "description": "Cable snaps on floor 20. Do you jump at the last second? Benny tests what actually works. 🛗 Spoiler: elevators almost never free-fall.\nFor curiosity only — follow building safety instructions.\n#howtosurvive #survival #science #elevator #shorts",
+  "tags": [
+   "how to survive",
+   "falling elevator",
+   "elevator fall",
+   "survival tips",
+   "elevator safety brakes",
+   "jump in falling elevator",
+   "science",
+   "benny"
+  ],
+  "first_comment": "Be honest — would YOU have tried to jump? 🛗👇 New what-if every day."
+ },
+ "cover": {
+  "seg": 6,
+  "frac": 0.6,
+  "top": "HOW TO SURVIVE",
+  "lines": [
+   "DON'T",
+   "JUMP."
+  ],
+  "sub": "FALLING ELEVATOR"
+ },
+ "sources": [
+  "Live Science / NBC: lie flat on your back, cover your head; jumping is a myth",
+  "ScienceABC: an Olympic-level jump removes only ~4 m/s from ~30 m/s; modern elevators have multiple safety brakes, true free fall is rare",
+  "Sciencefocus: brakes clamp onto the shaft rails if cables fail",
+  "Elisha Otis safety brake, 1850s (1853/1854 demo)",
+  "Guinness: Betty Lou Oliver survived a 75-storey elevator fall, Empire State Building, 1945"
+ ]
+}
